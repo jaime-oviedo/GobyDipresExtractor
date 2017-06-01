@@ -1,0 +1,43 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Denominación;Monto Pesos;Monto Dólar
+05;10;01;05;;;TRANSFERENCIAS CORRIENTES;10;0
+05;10;01;05;01;;Del Sector Privado;10;0
+05;10;01;05;01;001;Donaciones;10;0
+05;10;01;07;;;INGRESOS DE OPERACIÓN;1580416;0
+05;10;01;07;02;;Venta de Servicios;1580416;0
+05;10;01;08;;;OTROS INGRESOS CORRIENTES;75266;0
+05;10;01;08;01;;Recuperaciones y Reembolsos por Licencias Médicas;75256;0
+05;10;01;08;99;;Otros;10;0
+05;10;01;09;;;APORTE FISCAL;28596299;0
+05;10;01;09;01;;Libre;28596299;0
+05;10;01;10;;;VENTA DE ACTIVOS NO FINANCIEROS;11273;0
+05;10;01;10;03;;Vehículos;11273;0
+05;10;01;21;;;GASTOS EN PERSONAL;13927595;0
+05;10;01;22;;;BIENES Y SERVICIOS DE CONSUMO;3079580;0
+05;10;01;24;;;TRANSFERENCIAS CORRIENTES;9968623;0
+05;10;01;24;01;;Al Sector Privado;3213682;0
+05;10;01;24;01;002;Asistencia Social (ORASMI);2552470;0
+05;10;01;24;01;003;Becas;661202;0
+05;10;01;24;01;023;Atención de Daños y Damnificados;10;0
+05;10;01;24;02;;Al Gobierno Central;1030470;0
+05;10;01;24;02;116;Plan Microtráfico Cero - Policía de Investigaciones de Chile;1030470;0
+05;10;01;24;03;;A Otras Entidades Públicas;5724471;0
+05;10;01;24;03;002;Para Atender Situaciones de Emergencia;10;0
+05;10;01;24;03;018;Programa Estadio Seguro;1348891;0
+05;10;01;24;03;041;Programa Diario Oficial;1216106;0
+05;10;01;24;03;044;Migraciones y Extranjería;2784798;0
+05;10;01;24;03;052;Observatorio de Riesgos Socionaturales;100000;0
+05;10;01;24;03;053;Programa de Seguimiento de Causas Judiciales;274666;0
+05;10;01;25;;;INTEGROS AL FISCO;305587;0
+05;10;01;25;01;;Impuestos;305587;0
+05;10;01;29;;;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS;243626;0
+05;10;01;29;03;;Vehículos;57062;0
+05;10;01;29;04;;Mobiliario y Otros;59873;0
+05;10;01;29;05;;Máquinas y Equipos;10319;0
+05;10;01;29;06;;Equipos Informáticos;65214;0
+05;10;01;29;07;;Programas Informáticos;51158;0
+05;10;01;33;;;TRANSFERENCIAS DE CAPITAL;2738253;0
+05;10;01;33;02;;Al Gobierno Central;2738243;0
+05;10;01;33;02;031;Plan Nacional Contra el Narcotráfico - Carabineros de Chile;1321993;0
+05;10;01;33;02;033;Plan Nacional Contra el Narcotráfico - Policía de Investigaciones de Chile;1416250;0
+05;10;01;33;03;;A Otras Entidades Públicas;10;0
+05;10;01;33;03;001;Para Atender Situaciones de Emergencia;10;0

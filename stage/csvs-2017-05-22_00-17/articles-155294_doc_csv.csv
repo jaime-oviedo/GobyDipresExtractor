@@ -1,0 +1,26 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Denominación;Monto Pesos;Monto Dólar
+26;02;02;05;;;TRANSFERENCIAS CORRIENTES;116714;0
+26;02;02;05;01;;Del Sector Privado;116714;0
+26;02;02;05;01;001;Donaciones;116714;0
+26;02;02;08;;;OTROS INGRESOS CORRIENTES;456930;0
+26;02;02;08;99;;Otros;456930;0
+26;02;02;09;;;APORTE FISCAL;4930461;0
+26;02;02;09;01;;Libre;4930461;0
+26;02;02;22;;;BIENES Y SERVICIOS DE CONSUMO;265176;0
+26;02;02;24;;;TRANSFERENCIAS CORRIENTES;4809212;0
+26;02;02;24;01;;Al Sector Privado;3130716;0
+26;02;02;24;01;337;Liderazgo Deportivo Nacional;515334;0
+26;02;02;24;01;346;Formación para el Deporte;783491;0
+26;02;02;24;01;347;Deporte Recreativo;738541;0
+26;02;02;24;01;348;Deporte de Competición;1005253;0
+26;02;02;24;01;349;Ciencias del Deporte;88097;0
+26;02;02;24;03;;A Otras Entidades Públicas;1678496;0
+26;02;02;24;03;042;Ciencias del Deporte;64148;0
+26;02;02;24;03;050;Formación para el Deporte;671721;0
+26;02;02;24;03;051;Deporte Recreativo;440909;0
+26;02;02;24;03;052;Deporte de Competición;501718;0
+26;02;02;33;;;TRANSFERENCIAS DE CAPITAL;429717;0
+26;02;02;33;01;;Al Sector Privado;264535;0
+26;02;02;33;01;001;Aportes al Sector Privado;264535;0
+26;02;02;33;03;;A Otras Entidades Públicas;165182;0
+26;02;02;33;03;001;Aportes a Otras Entidades Públicas;165182;0

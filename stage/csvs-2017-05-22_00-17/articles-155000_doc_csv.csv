@@ -1,0 +1,16 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Denominación;Monto Pesos;Monto Dólar
+05;05;02;09;;;APORTE FISCAL;8991237;0
+05;05;02;09;01;;Libre;8991237;0
+05;05;02;15;;;SALDO INICIAL DE CAJA;1000;0
+05;05;02;24;;;TRANSFERENCIAS CORRIENTES;7956430;0
+05;05;02;24;03;;A Otras Entidades Públicas;7956430;0
+05;05;02;24;03;026;Programa Academia Capacitación Municipal y Regional;2214500;0
+05;05;02;24;03;031;Programa de Apoyo a la Acreditación de Calidad de Servicios Municipales;185115;0
+05;05;02;24;03;033;Fondo Concursable  Becas - Ley N°20.742;2623611;0
+05;05;02;24;03;500;Municipalidades (Prevención y Mitigación de Riesgos);550607;0
+05;05;02;24;03;602;Municipalidades (Programa de Modernización);2382597;0
+05;05;02;33;;;TRANSFERENCIAS DE CAPITAL;1034807;0
+05;05;02;33;03;;A Otras Entidades Públicas;1034807;0
+05;05;02;33;03;602;Municipalidades (Programa de Modernización);1034807;0
+05;05;02;34;;;SERVICIO DE LA DEUDA;1000;0
+05;05;02;34;07;;Deuda Flotante;1000;0

@@ -1,0 +1,23 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Denominación;Monto Pesos;Monto Dólar
+09;01;11;08;;;OTROS INGRESOS CORRIENTES;2382;0
+09;01;11;08;01;;Recuperaciones y Reembolsos por Licencias Médicas;1191;0
+09;01;11;08;99;;Otros;1191;0
+09;01;11;09;;;APORTE FISCAL;51440652;0
+09;01;11;09;01;;Libre;51440652;0
+09;01;11;15;;;SALDO INICIAL DE CAJA;1000;0
+09;01;11;21;;;GASTOS EN PERSONAL;1238600;0
+09;01;11;22;;;BIENES Y SERVICIOS DE CONSUMO;1039949;0
+09;01;11;24;;;TRANSFERENCIAS CORRIENTES;43013355;0
+09;01;11;24;03;;A Otras Entidades Públicas;43013355;0
+09;01;11;24;03;091;Centro de Recursos de Aprendizaje (Bibliotecas CRA);5665000;0
+09;01;11;24;03;383;Textos Escolares de Educación Básica y Media;34420000;0
+09;01;11;24;03;386;Informática Educativa en Escuelas y Liceos;2060000;0
+09;01;11;24;03;610;Apoyo al Deporte y la Recreación;868355;0
+09;01;11;33;;;TRANSFERENCIAS DE CAPITAL;6150130;0
+09;01;11;33;02;;Al Gobierno Central;3781130;0
+09;01;11;33;02;002;Subsecretaría de Telecomunicaciones;3781130;0
+09;01;11;33;03;;A Otras Entidades Públicas;2369000;0
+09;01;11;33;03;026;Informática Educativa en Escuelas y Liceos;2369000;0
+09;01;11;34;;;SERVICIO DE LA DEUDA;1000;0
+09;01;11;34;07;;Deuda Flotante;1000;0
+09;01;11;35;;;SALDO FINAL DE CAJA;1000;0

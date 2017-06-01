@@ -1,0 +1,30 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Denominación;Monto Pesos;Monto Dólar
+16;42;01;05;;;TRANSFERENCIAS CORRIENTES;250697630;0
+16;42;01;05;02;;Del Gobierno Central;250697630;0
+16;42;01;05;02;007;Fondo Nacional de Salud - Atención Primaria;60745048;0
+16;42;01;05;02;008;Fondo Nacional de Salud - Prestaciones Valoradas;113244751;0
+16;42;01;05;02;009;Fondo Nacional de Salud - Prestaciones Institucionales;76414828;0
+16;42;01;05;02;010;Subsecretaría de Salud Pública;293003;0
+16;42;01;06;;;RENTAS DE LA PROPIEDAD;45956;0
+16;42;01;07;;;INGRESOS DE OPERACIÓN;5093591;0
+16;42;01;08;;;OTROS INGRESOS CORRIENTES;4129277;0
+16;42;01;08;01;;Recuperaciones y Reembolsos por Licencias Médicas;2869926;0
+16;42;01;08;02;;Multas y Sanciones Pecuniarias;912;0
+16;42;01;08;99;;Otros;1258439;0
+16;42;01;12;;;RECUPERACIÓN DE PRÉSTAMOS;890589;0
+16;42;01;12;10;;Ingresos por Percibir;890589;0
+16;42;01;15;;;SALDO INICIAL DE CAJA;31273;0
+16;42;01;21;;;GASTOS EN PERSONAL;103444438;0
+16;42;01;22;;;BIENES Y SERVICIOS DE CONSUMO;100494822;0
+16;42;01;23;;;PRESTACIONES DE SEGURIDAD SOCIAL;39374;0
+16;42;01;23;02;;Prestaciones de Asistencia Social;39374;0
+16;42;01;23;02;004;Ayudas Económicas y Otros Pagos Preventivos;39374;0
+16;42;01;24;;;TRANSFERENCIAS CORRIENTES;56403656;0
+16;42;01;24;01;;Al Sector Privado;6861;0
+16;42;01;24;01;395;Programa Especial de Salud de los Pueblos Indígenas;2138;0
+16;42;01;24;01;461;Centros de Prevención de Alcoholismo y Salud Mental;4723;0
+16;42;01;24;03;;A Otras Entidades Públicas;56396795;0
+16;42;01;24;03;298;Atención Primaria, Ley N° 19.378;56396795;0
+16;42;01;29;;;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS;474753;0
+16;42;01;29;04;;Mobiliario y Otros;474753;0
+16;42;01;35;;;SALDO FINAL DE CAJA;31273;0

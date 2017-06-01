@@ -1,0 +1,26 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Denominación;Monto Pesos;Monto Dólar
+16;32;01;05;;;TRANSFERENCIAS CORRIENTES;113332711;0
+16;32;01;05;02;;Del Gobierno Central;113332711;0
+16;32;01;05;02;007;Fondo Nacional de Salud - Atención Primaria;34020487;0
+16;32;01;05;02;008;Fondo Nacional de Salud - Prestaciones Valoradas;35901975;0
+16;32;01;05;02;009;Fondo Nacional de Salud - Prestaciones Institucionales;43279446;0
+16;32;01;05;02;010;Subsecretaría de Salud Pública;130803;0
+16;32;01;07;;;INGRESOS DE OPERACIÓN;2200757;0
+16;32;01;08;;;OTROS INGRESOS CORRIENTES;2817650;0
+16;32;01;08;01;;Recuperaciones y Reembolsos por Licencias Médicas;1158384;0
+16;32;01;08;02;;Multas y Sanciones Pecuniarias;34653;0
+16;32;01;08;99;;Otros;1624613;0
+16;32;01;12;;;RECUPERACIÓN DE PRÉSTAMOS;495701;0
+16;32;01;12;10;;Ingresos por Percibir;495701;0
+16;32;01;15;;;SALDO INICIAL DE CAJA;12703;0
+16;32;01;21;;;GASTOS EN PERSONAL;55515008;0
+16;32;01;22;;;BIENES Y SERVICIOS DE CONSUMO;32348166;0
+16;32;01;24;;;TRANSFERENCIAS CORRIENTES;30796320;0
+16;32;01;24;01;;Al Sector Privado;12706;0
+16;32;01;24;01;395;Programa Especial de Salud de los Pueblos Indígenas;4120;0
+16;32;01;24;01;461;Centros de Prevención de Alcoholismo y Salud Mental;8586;0
+16;32;01;24;03;;A Otras Entidades Públicas;30783614;0
+16;32;01;24;03;298;Atención Primaria, Ley N° 19.378;30783614;0
+16;32;01;29;;;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS;187317;0
+16;32;01;29;04;;Mobiliario y Otros;187317;0
+16;32;01;35;;;SALDO FINAL DE CAJA;12711;0

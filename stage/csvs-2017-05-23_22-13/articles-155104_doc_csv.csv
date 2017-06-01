@@ -1,0 +1,47 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Denominación;Monto Pesos;Monto Dólar
+09;08;01;05;;;TRANSFERENCIAS CORRIENTES;46906545;0
+09;08;01;05;02;;Del Gobierno Central;46906545;0
+09;08;01;05;02;005;Programa Fondo de Innovación para la Competitividad;46746895;0
+09;08;01;05;02;009;Subsecretaría de Energía;159650;0
+09;08;01;06;;;RENTAS DE LA PROPIEDAD;4074;0
+09;08;01;07;;;INGRESOS DE OPERACIÓN;7514;0
+09;08;01;08;;;OTROS INGRESOS CORRIENTES;2875632;0
+09;08;01;08;01;;Recuperaciones y Reembolsos por Licencias Médicas;37600;0
+09;08;01;08;99;;Otros;2838032;0
+09;08;01;09;;;APORTE FISCAL;267254295;0
+09;08;01;09;01;;Libre;267254295;0
+09;08;01;15;;;SALDO INICIAL DE CAJA;12000;0
+09;08;01;21;;;GASTOS EN PERSONAL;7636922;0
+09;08;01;22;;;BIENES Y SERVICIOS DE CONSUMO;1400649;0
+09;08;01;24;;;TRANSFERENCIAS CORRIENTES;302306009;0
+09;08;01;24;01;;Al Sector Privado;107309423;0
+09;08;01;24;01;006;Otras Transferencias;60737;0
+09;08;01;24;01;221;Becas Nacionales Postgrado;36909596;0
+09;08;01;24;01;222;Fondo Publicaciones Científicas;166776;0
+09;08;01;24;01;223;Cooperación Internacional;4572910;0
+09;08;01;24;01;229;Acceso a información Electrónica para Ciencia y Tecnología;7595861;0
+09;08;01;24;01;230;Becas Chile;51931282;0
+09;08;01;24;01;231;Programa de Inserción de Investigadores;5710341;0
+09;08;01;24;01;232;Apoyo Complementario para Estudiantes de Postgrado;361920;0
+09;08;01;24;03;;A Otras Entidades Públicas;194996586;0
+09;08;01;24;03;160;Fondo Nacional de Desarrollo Científico y Tecnológico;130026922;0
+09;08;01;24;03;161;Fondo de Fomento Ciencia y Tecnología (FONDEF);20139964;0
+09;08;01;24;03;163;Programa Explora;5796217;0
+09;08;01;24;03;166;Programas Regionales de Investigación Científica y Tecnológica;5035619;0
+09;08;01;24;03;170;Programa de Investigación Asociativa;29181743;0
+09;08;01;24;03;323;Programa Científicos de Nivel Internacional;603421;0
+09;08;01;24;03;325;Programa en Mineria Virtuosa, Inclusiva y Sostenida;4212700;0
+09;08;01;25;;;INTEGROS AL FISCO;5;0
+09;08;01;25;01;;Impuestos;5;0
+09;08;01;29;;;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS;219796;0
+09;08;01;29;03;;Vehículos;16870;0
+09;08;01;29;04;;Mobiliario y Otros;10691;0
+09;08;01;29;05;;Máquinas y Equipos;8343;0
+09;08;01;29;06;;Equipos Informáticos;76978;0
+09;08;01;29;07;;Programas Informáticos;106914;0
+09;08;01;33;;;TRANSFERENCIAS DE CAPITAL;5484679;0
+09;08;01;33;03;;A Otras Entidades Públicas;5484679;0
+09;08;01;33;03;002;FONDEQUIP;5484679;0
+09;08;01;34;;;SERVICIO DE LA DEUDA;5000;0
+09;08;01;34;07;;Deuda Flotante;5000;0
+09;08;01;35;;;SALDO FINAL DE CAJA;7000;0

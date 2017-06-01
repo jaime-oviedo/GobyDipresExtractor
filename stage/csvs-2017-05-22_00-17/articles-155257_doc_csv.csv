@@ -1,0 +1,21 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Denominación;Monto Pesos;Monto Dólar
+19;01;02;09;;;APORTE FISCAL;134217717;0
+19;01;02;09;01;;Libre;72471056;0
+19;01;02;09;02;;Servicio de la Deuda Interna;51956549;0
+19;01;02;09;03;;Servicio de la Deuda Externa;9790112;0
+19;01;02;15;;;SALDO INICIAL DE CAJA;1000;0
+19;01;02;24;;;TRANSFERENCIAS CORRIENTES;264515;0
+19;01;02;24;03;;A Otras Entidades Públicas;264515;0
+19;01;02;24;03;311;Fondos para Indemnizaciones;264515;0
+19;01;02;33;;;TRANSFERENCIAS DE CAPITAL;72206541;0
+19;01;02;33;03;;A Otras Entidades Públicas;72206541;0
+19;01;02;33;03;059;Ferrocarril Arica La Paz;2200000;0
+19;01;02;33;03;064;Inversiones  Plan Trienal 2017-2019;36050000;0
+19;01;02;33;03;067;Aporte Mantención Infraestructura;21339041;0
+19;01;02;33;03;068;Inversiones Planes Trienales Anteriores;12617500;0
+19;01;02;34;;;SERVICIO DE LA DEUDA;61746661;0
+19;01;02;34;01;;Amortización Deuda Interna;3880272;0
+19;01;02;34;02;;Amortización Deuda Externa;9389818;0
+19;01;02;34;03;;Intereses Deuda Interna;48076277;0
+19;01;02;34;04;;Intereses Deuda Externa;400294;0
+19;01;02;35;;;SALDO FINAL DE CAJA;1000;0

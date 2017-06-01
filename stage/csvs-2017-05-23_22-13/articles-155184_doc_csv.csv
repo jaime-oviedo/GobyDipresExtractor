@@ -1,0 +1,54 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Denominación;Monto Pesos;Monto Dólar
+15;13;01;04;;;IMPOSICIONES PREVISIONALES;157799989;0
+15;13;01;04;01;;Aportes del Empleador;10244;0
+15;13;01;04;02;;Aportes del Trabajador;157789745;0
+15;13;01;05;;;TRANSFERENCIAS CORRIENTES;274249;0
+15;13;01;05;02;;Del Gobierno Central;274249;0
+15;13;01;05;02;004;Fondo Único de Prestaciones Familiares y Subsidios de Cesantía;274249;0
+15;13;01;06;;;RENTAS DE LA PROPIEDAD;48531;0
+15;13;01;08;;;OTROS INGRESOS CORRIENTES;53766190;0
+15;13;01;08;01;;Recuperaciones y Reembolsos por Licencias Médicas;58358;0
+15;13;01;08;04;;Fondos de Terceros;44262551;0
+15;13;01;08;99;;Otros;9445281;0
+15;13;01;09;;;APORTE FISCAL;991565128;0
+15;13;01;09;01;;Libre;991565128;0
+15;13;01;12;;;RECUPERACIÓN DE PRÉSTAMOS;760071;0
+15;13;01;12;01;;De Asistencia Social;760071;0
+15;13;01;15;;;SALDO INICIAL DE CAJA;100000;0
+15;13;01;21;;;GASTOS EN PERSONAL;8656140;0
+15;13;01;22;;;BIENES Y SERVICIOS DE CONSUMO;3169675;0
+15;13;01;23;;;PRESTACIONES DE SEGURIDAD SOCIAL;1028681188;0
+15;13;01;23;01;;Prestaciones Previsionales;1028406939;0
+15;13;01;23;01;001;Jubilaciones, Pensiones y Montepíos;1011020709;0
+15;13;01;23;01;002;Bonificaciones;80772;0
+15;13;01;23;01;003;Bono de Reconocimiento;16153158;0
+15;13;01;23;01;006;Asignación por Muerte;1152300;0
+15;13;01;23;02;;Prestaciones de Asistencia Social;274249;0
+15;13;01;23;02;001;Asignación Familiar;274249;0
+15;13;01;24;;;TRANSFERENCIAS CORRIENTES;162717823;0
+15;13;01;24;01;;Al Sector Privado;4122807;0
+15;13;01;24;01;453;Ubicación Menores, Ancianos e Incapacitados;718328;0
+15;13;01;24;01;456;Cotización Isapres;1983136;0
+15;13;01;24;01;461;Centros de Salud Capredena;1421343;0
+15;13;01;24;02;;Al Gobierno Central;19239364;0
+15;13;01;24;02;002;Fondo de Medicina Curativa;18374003;0
+15;13;01;24;02;003;Fondo Nacional de Salud;865361;0
+15;13;01;24;03;;A Otras Entidades Públicas;139352422;0
+15;13;01;24;03;268;Aporte Caja Fondo Desahucio;2953051;0
+15;13;01;24;03;269;Aporte Caja Fondo Revalorizador de Pensiones;383547;0
+15;13;01;24;03;270;Aporte Fiscal Fondo Desahucio;2496835;0
+15;13;01;24;03;271;Aporte Fiscal Fondo Revalorizador de Pensiones;5136017;0
+15;13;01;24;03;273;Fondo de Auxilio Social;34966556;0
+15;13;01;24;03;274;Fondo Desahucio;30032339;0
+15;13;01;24;03;275;Fondo Revalorizador de Pensiones;6242090;0
+15;13;01;24;03;277;Fondos de Salud de las Fuerzas Armadas;57141987;0
+15;13;01;24;07;;A Organismos Internacionales;3230;0
+15;13;01;24;07;001;Organismos Internacionales;3230;0
+15;13;01;29;;;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS;186253;0
+15;13;01;29;03;;Vehículos;16921;0
+15;13;01;29;07;;Programas Informáticos;169332;0
+15;13;01;32;;;PRÉSTAMOS;800529;0
+15;13;01;32;01;;De Asistencia Social;800529;0
+15;13;01;34;;;SERVICIO DE LA DEUDA;2550;0
+15;13;01;34;07;;Deuda Flotante;2550;0
+15;13;01;35;;;SALDO FINAL DE CAJA;100000;0

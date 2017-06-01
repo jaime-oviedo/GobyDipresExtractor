@@ -1,0 +1,28 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Denominación;Monto Pesos;Monto Dólar
+05;05;01;05;;;TRANSFERENCIAS CORRIENTES;86564;0
+05;05;01;05;06;;De Gobiernos Extranjeros;86564;0
+05;05;01;05;06;001;Del Gobierno Español - Instituto de Crédito Oficial de España;86564;0
+05;05;01;08;;;OTROS INGRESOS CORRIENTES;51010;0
+05;05;01;08;01;;Recuperaciones y Reembolsos por Licencias Médicas;51000;0
+05;05;01;08;99;;Otros;10;0
+05;05;01;09;;;APORTE FISCAL;60834394;0
+05;05;01;09;01;;Libre;18701608;0
+05;05;01;09;03;;Servicio de la Deuda Externa;42132786;0
+05;05;01;15;;;SALDO INICIAL DE CAJA;1000;0
+05;05;01;21;;;GASTOS EN PERSONAL;12638929;0
+05;05;01;22;;;BIENES Y SERVICIOS DE CONSUMO;2901559;0
+05;05;01;24;;;TRANSFERENCIAS CORRIENTES;307345;0
+05;05;01;24;03;;A Otras Entidades Públicas;307345;0
+05;05;01;24;03;024;Capacitación en Desarrollo Regional y Comunal;10;0
+05;05;01;24;03;409;Oficina Revitalización de Barrios e Infraestructura Patrimonial;220771;0
+05;05;01;24;03;415;Oficina Donación Española;86564;0
+05;05;01;29;;;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS;188696;0
+05;05;01;29;07;;Programas Informáticos;188696;0
+05;05;01;33;;;TRANSFERENCIAS DE CAPITAL;2802653;0
+05;05;01;33;02;;Al Gobierno Central;2802653;0
+05;05;01;33;02;016;Al Consejo Nacional de la Cultura y las Artes;2802653;0
+05;05;01;34;;;SERVICIO DE LA DEUDA;42133786;0
+05;05;01;34;02;;Amortización Deuda Externa;35907430;0
+05;05;01;34;04;;Intereses Deuda Externa;6113980;0
+05;05;01;34;06;;Otros Gastos Financieros Deuda Externa;111376;0
+05;05;01;34;07;;Deuda Flotante;1000;0

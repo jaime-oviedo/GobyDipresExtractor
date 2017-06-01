@@ -1,0 +1,33 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Denominación;Monto Pesos;Monto Dólar
+21;01;05;09;;;APORTE FISCAL;251330646;0
+21;01;05;09;01;;Libre;251330646;0
+21;01;05;15;;;SALDO INICIAL DE CAJA;1000;0
+21;01;05;24;;;TRANSFERENCIAS CORRIENTES;251330646;0
+21;01;05;24;01;;Al Sector Privado;404762;0
+21;01;05;24;01;025;PRODEMU;404762;0
+21;01;05;24;02;;Al Gobierno Central;133681188;0
+21;01;05;24;02;006;Habilidades para la Vida - JUNAEB;972294;0
+21;01;05;24;02;007;Programa de Salud Chile Solidario - Fondo Nacional de Salud;4039010;0
+21;01;05;24;02;010;Programa de Ayudas Técnicas - SENADIS;1782626;0
+21;01;05;24;02;012;Programas de Alimentación - JUNAEB;7637121;0
+21;01;05;24;02;014;Fondo de Solidaridad e Inversión Social;18052114;0
+21;01;05;24;02;015;INTEGRA - Subsecretaría de Educación;2316245;0
+21;01;05;24;02;016;Programa Salud Oral - JUNAEB;375712;0
+21;01;05;24;02;017;Proempleo - Subsecretaría del Trabajo;4396076;0
+21;01;05;24;02;018;Subvención Educacional Pro-Retención, Ley N° 19.873 - M. de Educación;16100597;0
+21;01;05;24;02;020;Programa de Educación Media - JUNAEB;1043566;0
+21;01;05;24;02;021;Subsidio Empleo a la Mujer, Ley N° 20.595 - SENCE;76965827;0
+21;01;05;24;03;;A Otras Entidades Públicas;117244696;0
+21;01;05;24;03;010;Programa Bonificación ley N° 20.595;49506799;0
+21;01;05;24;03;335;Programa de Habitabilidad Chile Solidario;11502842;0
+21;01;05;24;03;336;Programa de Identificación Chile Solidario;242375;0
+21;01;05;24;03;337;Bonos Art. 2° Transitorio, Ley N° 19.949;33367749;0
+21;01;05;24;03;340;Programa de Apoyo Integral al Adulto Mayor Chile Solidario;6390025;0
+21;01;05;24;03;343;Programa de Apoyo a Personas en Situación de Calle;4260193;0
+21;01;05;24;03;344;Programa de Apoyo a Familias para el Autoconsumo;3241661;0
+21;01;05;24;03;345;Programa Eje (Ley N° 20.595);2546597;0
+21;01;05;24;03;986;Programa de Apoyo a Niños(as) y Adolescentes con un Adulto Significativo Privado de Libertad (Ley N° 20.595);5333685;0
+21;01;05;24;03;997;Centros para Niños(as) con Cuidadores Principales Temporeras(os);368601;0
+21;01;05;24;03;999;Programa de Generación de Microemprendimiento Indígena Urbano Chile Solidario - CONADI;484169;0
+21;01;05;34;;;SERVICIO DE LA DEUDA;1000;0
+21;01;05;34;07;;Deuda Flotante;1000;0

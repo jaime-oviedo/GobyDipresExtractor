@@ -1,0 +1,15 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Denominación;Monto Pesos;Monto Dólar
+05;10;04;08;;;OTROS INGRESOS CORRIENTES;10;0
+05;10;04;08;99;;Otros;10;0
+05;10;04;09;;;APORTE FISCAL;36527699;0
+05;10;04;09;01;;Libre;36527699;0
+05;10;04;24;;;TRANSFERENCIAS CORRIENTES;20272596;0
+05;10;04;24;01;;Al Sector Privado;20272596;0
+05;10;04;24;01;024;Gastos de Operación de Cuerpo de Bomberos;16012204;0
+05;10;04;24;01;025;Ayuda Extraordinaria, Reparaciones y Mantenciones de Cuerpos de Bomberos;1729022;0
+05;10;04;24;01;026;Funcionamiento de la Junta Nacional y Organismos Dependientes;2531370;0
+05;10;04;33;;;TRANSFERENCIAS DE CAPITAL;16255113;0
+05;10;04;33;01;;Al Sector Privado;16255113;0
+05;10;04;33;01;001;Inversiones de Cuerpos de Bomberos;4544708;0
+05;10;04;33;01;002;Importaciones y Compromisos en Moneda Extranjera para Cuerpos de Bomberos;7204262;0
+05;10;04;33;01;003;Adquisiciones y Compromisos en Moneda Nacional para Cuerpos de Bomberos;4506143;0

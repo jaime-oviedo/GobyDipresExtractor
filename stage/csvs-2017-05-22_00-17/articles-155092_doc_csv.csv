@@ -1,0 +1,26 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Denominación;Monto Pesos;Monto Dólar
+09;01;12;08;;;OTROS INGRESOS CORRIENTES;1030;0
+09;01;12;08;99;;Otros;1030;0
+09;01;12;09;;;APORTE FISCAL;354354297;0
+09;01;12;09;01;;Libre;354354297;0
+09;01;12;15;;;SALDO INICIAL DE CAJA;1000;0
+09;01;12;21;;;GASTOS EN PERSONAL;4419658;0
+09;01;12;22;;;BIENES Y SERVICIOS DE CONSUMO;2408900;0
+09;01;12;24;;;TRANSFERENCIAS CORRIENTES;291921279;0
+09;01;12;24;02;;Al Gobierno Central;600000;0
+09;01;12;24;02;003;Corporación de Fomento de la Producción;600000;0
+09;01;12;24;03;;A Otras Entidades Públicas;291321279;0
+09;01;12;24;03;051;Fondo de Apoyo a la Educación Pública;257500000;0
+09;01;12;24;03;052;Programa de Acceso a la Educación Superior;13314863;0
+09;01;12;24;03;053;Asesoría y Apoyo a la Educación Escolar;9967756;0
+09;01;12;24;03;054;Perfeccionamiento para Profesionales de la Educación;3885402;0
+09;01;12;24;03;055;Educación Técnico Profesional;2202428;0
+09;01;12;24;03;056;Apoyo al Deporte y la Recreación;2312550;0
+09;01;12;24;03;057;Transporte Escolar Rural;2138280;0
+09;01;12;33;;;TRANSFERENCIAS DE CAPITAL;55605490;0
+09;01;12;33;03;;A Otras Entidades Públicas;55605490;0
+09;01;12;33;03;001;Asistencia Técnica;1342261;0
+09;01;12;33;03;050;Infraestructura  Liceos  Tradicionales  Municipales;5002319;0
+09;01;12;33;03;104;Mejoramiento de Infraestructura Escolar Pública;44119865;0
+09;01;12;33;03;105;Equipamiento de Establecimientos de Educación Técnico Profesional;5141045;0
+09;01;12;35;;;SALDO FINAL DE CAJA;1000;0

@@ -1,0 +1,51 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Denominación;Monto Pesos;Monto Dólar
+05;65;02;08;;;OTROS INGRESOS CORRIENTES;653877;0
+05;65;02;08;99;;Otros;653877;0
+05;65;02;09;;;APORTE FISCAL;37924218;0
+05;65;02;09;01;;Libre;37924218;0
+05;65;02;13;;;TRANSFERENCIAS PARA GASTOS DE CAPITAL;27768934;0
+05;65;02;13;02;;Del Gobierno Central;27768934;0
+05;65;02;13;02;003;Subsecretaría de Bienes Nacionales;1198993;0
+05;65;02;13;02;004;Subsecretaría de Desarrollo Regional y Administrativo;412000;0
+05;65;02;13;02;006;Tesoro Público Ley N° 19.143, Patentes Mineras;1106281;0
+05;65;02;13;02;008;Tesoro Público Ley N°19.995, Casinos de Juegos;3999558;0
+05;65;02;13;02;013;Tesoro Público Artículo 129 bis 19 Ley N° 20.017, Código de Aguas;316578;0
+05;65;02;13;02;019;Fondo de Inversión y Reconversión Regional;2301010;0
+05;65;02;13;02;020;Tesoro Público Ley N°18.892, Patentes de Acuicultura;2387;0
+05;65;02;13;02;030;Tesoro Público Ley N°20.378 - Fondo de Apoyo Regional (FAR);18432127;0
+05;65;02;15;;;SALDO INICIAL DE CAJA;1000;0
+05;65;02;24;;;TRANSFERENCIAS CORRIENTES;3927993;0
+05;65;02;24;01;;Al Sector Privado;1963998;0
+05;65;02;24;01;001;Actividades Culturales;654666;0
+05;65;02;24;01;003;Actividades Deportivas;654666;0
+05;65;02;24;01;005;Actividades de Seguridad Ciudadana;654666;0
+05;65;02;24;03;;A Otras Entidades Públicas;1963995;0
+05;65;02;24;03;001;Municipalidades - Actividades Culturales;654665;0
+05;65;02;24;03;003;Municipalidades - Actividades Deportivas;654665;0
+05;65;02;24;03;005;Municipalidades - Actividades de Seguridad Ciudadana;654665;0
+05;65;02;29;;;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS;5891988;0
+05;65;02;29;03;;Vehículos;3090000;0
+05;65;02;29;04;;Mobiliario y Otros;1030000;0
+05;65;02;29;05;;Máquinas y Equipos;1153988;0
+05;65;02;29;06;;Equipos Informáticos;309000;0
+05;65;02;29;07;;Programas Informáticos;154500;0
+05;65;02;29;99;;Otros Activos no Financieros;154500;0
+05;65;02;31;;;INICIATIVAS DE INVERSIÓN;42771869;0
+05;65;02;31;01;;Estudios Básicos;1371671;0
+05;65;02;31;02;;Proyectos;40885198;0
+05;65;02;31;03;;Programas de Inversión;515000;0
+05;65;02;32;;;PRÉSTAMOS;0,001;0
+05;65;02;32;06;;Por Anticipos a Contratistas;0,001;0
+05;65;02;32;06;001;Anticipos a Contratistas;800000;0
+05;65;02;32;06;002;Recuperación de Anticipos a Contratistas;-800000;0
+05;65;02;33;;;TRANSFERENCIAS DE CAPITAL;13755179;0
+05;65;02;33;01;;Al Sector Privado;1648000;0
+05;65;02;33;01;004;Junta Nacional del Cuerpo de Bomberos de Chile;1030000;0
+05;65;02;33;01;010;Aplicación Letra a) Artículo Cuarto Transitorio Ley N°20.378;618000;0
+05;65;02;33;03;;A Otras Entidades Públicas;12107179;0
+05;65;02;33;03;125;Municipalidades (Fondo Regional de Iniciativa Local);6180000;0
+05;65;02;33;03;309;Gobernación Provincial de Isla de Pascua;825911;0
+05;65;02;33;03;310;Gobernación Provincial de Valparaíso;517571;0
+05;65;02;33;03;999;Provisión FIC (Sin Distribuir);4583697;0
+05;65;02;34;;;SERVICIO DE LA DEUDA;1000;0
+05;65;02;34;07;;Deuda Flotante;1000;0

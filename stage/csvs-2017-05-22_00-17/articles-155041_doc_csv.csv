@@ -1,0 +1,64 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Denominación;Monto Pesos;Monto Dólar
+05;73;02;08;;;OTROS INGRESOS CORRIENTES;758929;0
+05;73;02;08;99;;Otros;758929;0
+05;73;02;09;;;APORTE FISCAL;57834167;0
+05;73;02;09;01;;Libre;57834167;0
+05;73;02;13;;;TRANSFERENCIAS PARA GASTOS DE CAPITAL;53332928;0
+05;73;02;13;02;;Del Gobierno Central;53332928;0
+05;73;02;13;02;003;Subsecretaría de Bienes Nacionales;451246;0
+05;73;02;13;02;004;Subsecretaría de Desarrollo Regional y Administrativo;1021899;0
+05;73;02;13;02;006;Tesoro Público Ley N° 19.143, Patentes Mineras;940887;0
+05;73;02;13;02;013;Tesoro Público Artículo 129 bis 19 Ley N° 20.017, Código de Aguas;2285779;0
+05;73;02;13;02;019;Fondo de Inversión y Reconversión Regional;2838382;0
+05;73;02;13;02;020;Tesoro Público Ley N° 18.892, Patentes de Acuicultura;1109534;0
+05;73;02;13;02;030;Tesoro Público Ley N°20.378 - Fondo de Apoyo Regional (FAR);30567641;0
+05;73;02;13;02;032;Subsecretaría de Desarrollo Regional y Administrativo - Programas de Convergencia;14117560;0
+05;73;02;15;;;SALDO INICIAL DE CAJA;1000;0
+05;73;02;22;;;BIENES Y SERVICIOS DE CONSUMO;3221789;0
+05;73;02;24;;;TRANSFERENCIAS CORRIENTES;6699120;0
+05;73;02;24;01;;Al Sector Privado;3349560;0
+05;73;02;24;01;001;Actividades Culturales;1116520;0
+05;73;02;24;01;003;Actividades Deportivas;1116520;0
+05;73;02;24;01;005;Actividades de Seguridad Ciudadana;1116520;0
+05;73;02;24;03;;A Otras Entidades Públicas;3349560;0
+05;73;02;24;03;001;Municipalidades - Actividades Culturales;1116520;0
+05;73;02;24;03;003;Municipalidades - Actividades Deportivas;1116520;0
+05;73;02;24;03;005;Municipalidades - Actividades de Seguridad Ciudadana;1116520;0
+05;73;02;29;;;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS;9117773;0
+05;73;02;29;03;;Vehículos;2736444;0
+05;73;02;29;04;;Mobiliario y Otros;2280370;0
+05;73;02;29;05;;Máquinas y Equipos;3648592;0
+05;73;02;29;06;;Equipos Informáticos;452367;0
+05;73;02;31;;;INICIATIVAS DE INVERSIÓN;63850402;0
+05;73;02;31;02;;Proyectos;62485652;0
+05;73;02;31;03;;Programas de Inversión;1364750;0
+05;73;02;32;;;PRÉSTAMOS;0,001;0
+05;73;02;32;06;;Por Anticipos a Contratistas;0,001;0
+05;73;02;32;06;001;Anticipos a Contratistas;800000;0
+05;73;02;32;06;002;Recuperación de Anticipos a Contratistas;-800000;0
+05;73;02;33;;;TRANSFERENCIAS DE CAPITAL;29036940;0
+05;73;02;33;01;;Al Sector Privado;1321547;0
+05;73;02;33;01;001;Junta Nacional de Cuerpos de Bomberos de Chile;611820;0
+05;73;02;33;01;010;Aplicación Letra a) Artículo Cuarto Transitorio Ley N°20.378;154500;0
+05;73;02;33;01;814;FIA - Transferencia Programa Innovador en Escuelas y Liceos Agrícolas RMS;132970;0
+05;73;02;33;01;815;FIA - Transferencia Sistema Gestión de Innovación Manejo Integrado de Plagas;73001;0
+05;73;02;33;01;816;Fraunhohofer-Agropv: producción hortofrutícola con energía solar (30449383-0);92700;0
+05;73;02;33;01;817;Universidad del Desarrollo-Grandes ideas para una ciudad inteligente (30449277-0);45673;0
+05;73;02;33;01;818;Universidad Adolfo Ibáñez-Recarga hídrica de suelos para la infiltración de aguas (30449382-0);111595;0
+05;73;02;33;01;819;Universidad Mayor-Turismo barrial inteligente (33449384-0);99288;0
+05;73;02;33;02;;Al Gobierno Central;7295464;0
+05;73;02;33;02;020;Dirección General de Obras Públicas;824000;0
+05;73;02;33;02;021;Dirección de Planeamiento;6471464;0
+05;73;02;33;03;;A Otras Entidades Públicas;20419929;0
+05;73;02;33;03;125;Municipalidades (Fondo Regional de Iniciativa Local);3520148;0
+05;73;02;33;03;150;Municipalidades;12514500;0
+05;73;02;33;03;201;Consejo Nacional de la Cultura y las Artes (CNCA)-Transferencia Capacitación en Gestión Cultural Local y Regional RMS. (30381294-0);1190129;0
+05;73;02;33;03;784;Universidad de Santiago-Santiago originario: turismos sustentable (30444931-0);154500;0
+05;73;02;33;03;785;Universidad de Chile-Reciclaje del PET para una construcción sustentable (30449275-0);117829;0
+05;73;02;33;03;786;Universidad Metropolitana de Ciencias de la Educación-Elaboración de nonobiomateriales (30449426-0);58347;0
+05;73;02;33;03;787;Universidad de Santiago-Elaboración de productos IV gama (30449276-0);88580;0
+05;73;02;33;03;788;Pontificia Universidad Católica de Chile-Diseño más oficios, plataforma para la innovación (30449423-0);97519;0
+05;73;02;33;03;789;Universidad de Chile-Sustentabilidad económica de comunidades agrícolas (30449424-0);113057;0
+05;73;02;33;03;999;Provisión FIC (Sin Distribuir);2565320;0
+05;73;02;34;;;SERVICIO DE LA DEUDA;1000;0
+05;73;02;34;07;;Deuda Flotante;1000;0

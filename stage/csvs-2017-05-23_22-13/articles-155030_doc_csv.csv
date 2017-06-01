@@ -1,0 +1,61 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Denominación;Monto Pesos;Monto Dólar
+05;68;02;06;;;RENTAS DE LA PROPIEDAD;54677;0
+05;68;02;08;;;OTROS INGRESOS CORRIENTES;459758;0
+05;68;02;08;99;;Otros;459758;0
+05;68;02;09;;;APORTE FISCAL;58307611;0
+05;68;02;09;01;;Libre;58307611;0
+05;68;02;13;;;TRANSFERENCIAS PARA GASTOS DE CAPITAL;53324396;0
+05;68;02;13;02;;Del Gobierno Central;53324396;0
+05;68;02;13;02;003;Subsecretaría de Bienes Nacionales;275480;0
+05;68;02;13;02;004;Subsecretaría de Desarrollo Regional y Administrativo;3678669;0
+05;68;02;13;02;006;Tesoro Público Ley N° 19.143, Patentes Mineras;386202;0
+05;68;02;13;02;008;Tesoro Público Ley N°19.995, Casinos de Juegos;4182428;0
+05;68;02;13;02;013;Tesoro Público Artículo 129 bis 19 Ley N° 20.017, Código de Aguas;1294957;0
+05;68;02;13;02;019;Fondo de Inversión y Reconversión Regional;2860869;0
+05;68;02;13;02;020;Tesoro Público Ley N°18.892, Patentes de Acuicultura;3335;0
+05;68;02;13;02;030;Tesoro Público Ley N°20.378 - Fondo de Apoyo Regional (FAR);30809818;0
+05;68;02;13;02;032;Subsecretaría de Desarrollo Regional y Administrativo - Programas de Convergencia;9832638;0
+05;68;02;15;;;SALDO INICIAL DE CAJA;1000;0
+05;68;02;24;;;TRANSFERENCIAS CORRIENTES;6614855;0
+05;68;02;24;01;;Al Sector Privado;4818888;0
+05;68;02;24;01;001;Actividades Culturales;1396862;0
+05;68;02;24;01;002;Subsidio Operación Sistema de Autogeneración de Energía en Zonas Aisladas;370800;0
+05;68;02;24;01;003;Actividades Deportivas;1396862;0
+05;68;02;24;01;005;Actividades de Seguridad Ciudadana;698432;0
+05;68;02;24;01;006;Corporación Regional de Desarrollo del Bío Bío;257500;0
+05;68;02;24;01;017;Actividades Sociales;698432;0
+05;68;02;24;03;;A Otras Entidades Públicas;1795967;0
+05;68;02;24;03;001;Municipalidades - Actividades Culturales;598656;0
+05;68;02;24;03;003;Municipalidades - Actividades Deportivas;598656;0
+05;68;02;24;03;005;Municipalidades - Actividades de Seguridad Ciudadana;299327;0
+05;68;02;24;03;017;Municipalidades - Actividades Sociales;149664;0
+05;68;02;24;03;018;Otras Entidades Públicas - Actividades Sociales;149664;0
+05;68;02;29;;;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS;4318552;0
+05;68;02;29;03;;Vehículos;2079680;0
+05;68;02;29;04;;Mobiliario y Otros;47577;0
+05;68;02;29;05;;Máquinas y Equipos;2191295;0
+05;68;02;31;;;INICIATIVAS DE INVERSIÓN;79833030;0
+05;68;02;31;01;;Estudios Básicos;534155;0
+05;68;02;31;02;;Proyectos;76843564;0
+05;68;02;31;03;;Programas de Inversión;2455311;0
+05;68;02;32;;;PRÉSTAMOS;0,001;0
+05;68;02;32;06;;Por Anticipos a Contratistas;0,001;0
+05;68;02;32;06;001;Anticipos a Contratistas;800000;0
+05;68;02;32;06;002;Recuperación de Anticipos a Contratistas;-800000;0
+05;68;02;33;;;TRANSFERENCIAS DE CAPITAL;21380005;0
+05;68;02;33;01;;Al Sector Privado;3459536;0
+05;68;02;33;01;001;Junta Nacional de Cuerpos de Bomberos de Chile;2221536;0
+05;68;02;33;01;010;Aplicación Letra a) del Artículo Cuarto Transitorio de la Ley N°20.378;1030000;0
+05;68;02;33;01;202;INFOR-Capacitación para la Construcción con Madera en la Región del Bío Bío (30136721-0);103000;0
+05;68;02;33;01;220;INFOR-Transferencia Flora Melifera para Mejorar el Negocio Apícola del Bío Bío (30133819-0);105000;0
+05;68;02;33;03;;A Otras Entidades Públicas;17920469;0
+05;68;02;33;03;100;Municipalidades (Programa Mejoramiento de Barrios);5835720;0
+05;68;02;33;03;125;Municipalidades (Fondo Regional de Iniciativa Local);2334288;0
+05;68;02;33;03;150;Municipalidades;5908158;0
+05;68;02;33;03;204;FOSIS-Apoyo Microempresas de Personas con Discapacidad (30163072-0);571650;0
+05;68;02;33;03;206;SERNATUR-Fortalecimiento Integral de la Industria Turística (30326925-0);206000;0
+05;68;02;33;03;260;CONAF-Forestación Sistemas Agroforestales en Dunas Provincia de Arauco (30116467-0);154500;0
+05;68;02;33;03;311;SERNATUR-Red de Servicios al Turista (30112691-0);332154;0
+05;68;02;33;03;999;Provisión FIC (Sin Distribuir);2577999;0
+05;68;02;34;;;SERVICIO DE LA DEUDA;1000;0
+05;68;02;34;07;;Deuda Flotante;1000;0

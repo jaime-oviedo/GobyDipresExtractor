@@ -1,0 +1,63 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Denominación;Monto Pesos;Monto Dólar
+05;61;02;06;;;RENTAS DE LA PROPIEDAD;55097;0
+05;61;02;08;;;OTROS INGRESOS CORRIENTES;186529;0
+05;61;02;08;99;;Otros;186529;0
+05;61;02;09;;;APORTE FISCAL;18192433;0
+05;61;02;09;01;;Libre;18192433;0
+05;61;02;13;;;TRANSFERENCIAS PARA GASTOS DE CAPITAL;16702961;0
+05;61;02;13;02;;Del Gobierno Central;16702961;0
+05;61;02;13;02;003;Subsecretaría de Bienes Nacionales;2018765;0
+05;61;02;13;02;004;Subsecretaría de Desarrollo Regional y Administrativo;351598;0
+05;61;02;13;02;006;Tesoro Público-Ley N° 19.143, Patentes Mineras;3402417;0
+05;61;02;13;02;013;Tesoro Público Artículo 129 bis 19 Ley N°20.017 Código de Aguas;52964;0
+05;61;02;13;02;019;Fondo de Inversión y Reconversión Regional;2714576;0
+05;61;02;13;02;020;Tesoro Público Ley N°18.892, Patentes de Acuicultura;42430;0
+05;61;02;13;02;030;Tesoro Público Ley N° 20.378 - Fondo de Apoyo Regional (FAR);8120211;0
+05;61;02;15;;;SALDO INICIAL DE CAJA;1000;0
+05;61;02;22;;;BIENES Y SERVICIOS DE CONSUMO;187391;0
+05;61;02;24;;;TRANSFERENCIAS CORRIENTES;2003385;0
+05;61;02;24;01;;Al Sector Privado;1437251;0
+05;61;02;24;01;001;Actividades Culturales;479084;0
+05;61;02;24;01;003;Actividades Deportivas;479084;0
+05;61;02;24;01;005;Actividades de Seguridad Ciudadana;479083;0
+05;61;02;24;03;;A Otras Entidades Públicas;566134;0
+05;61;02;24;03;001;Municipalidades - Actividades Culturales;188711;0
+05;61;02;24;03;003;Municipalidades - Actividades Deportivas;188711;0
+05;61;02;24;03;005;Municipalidades - Actividades de Seguridad Ciudadana;188712;0
+05;61;02;29;;;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS;1264331;0
+05;61;02;29;03;;Vehículos;67980;0
+05;61;02;29;05;;Máquinas y Equipos;1196351;0
+05;61;02;31;;;INICIATIVAS DE INVERSIÓN;23106451;0
+05;61;02;31;01;;Estudios Básicos;680636;0
+05;61;02;31;02;;Proyectos;22425815;0
+05;61;02;32;;;PRÉSTAMOS;0,001;0
+05;61;02;32;06;;Por Anticipos a Contratistas;0,001;0
+05;61;02;32;06;001;Anticipos a Contratistas;800000;0
+05;61;02;32;06;002;Recuperación de Anticipos a Contratistas;-800000;0
+05;61;02;33;;;TRANSFERENCIAS DE CAPITAL;8575462;0
+05;61;02;33;01;;Al Sector Privado;1095466;0
+05;61;02;33;01;010;Aplicación Letra a) Artículo Cuarto Transitorio Ley N°20.378;257500;0
+05;61;02;33;01;111;Corporación Museo del Salitre;163801;0
+05;61;02;33;01;118;FIA-Convocatoria regional de proyectos de innovación agraria (30464201-0);173040;0
+05;61;02;33;01;120;Pontificia Universidad Católica de Chile-Sistema de Inteligencia para la Innovación Competitiva de Tarapacá   (30434579-0);103000;0
+05;61;02;33;01;121;Universidad Santo Tomás-Formación de Monitores y especialistas en Innovación para el Desarrollo de la Región de Tarapacá   (30434580-0);74163;0
+05;61;02;33;01;125;Universidad Católica Silva Henríquez-Nodo de Innovación y Emprendimiento Social para la Región de Tarapacá   (30434828-0);103000;0
+05;61;02;33;01;126;Universidad Católica Silva Henríquez-El Emprendimiento como factor de Innovación, en la Formación Técnico Profesional en la Región de Tarapacá   (30434829-0);72343;0
+05;61;02;33;01;127;Universidad Santo Tomás-Fortalecimiento de la Cadena de Valor del Sector Gastronómico de Tarapacá   (30434830-0);77250;0
+05;61;02;33;01;128;Universidad Santo Tomás-Programa de Nuevos Negocios Colaborativos e Innovadores en Turismo de Intereses Especiales del Tamarugal   (30434923-0);71369;0
+05;61;02;33;03;;A Otras Entidades Públicas;7479996;0
+05;61;02;33;03;103;UNAP-Transferencia catalizador de la industria ERNC regional en sistema PMGD (30167872-0);5768;0
+05;61;02;33;03;110;CONICYT-Transferencia diplomado regional en temas de ciencia (30400327-0);24205;0
+05;61;02;33;03;111;CONICYT-Transferencia acceso a equipamiento científico y tecnológico (30400329-0);10300;0
+05;61;02;33;03;125;Municipalidades (Fondo Regional de Iniciativa Local);3090000;0
+05;61;02;33;03;126;Universidad Arturo Prat de Iquique-Creación del Laboratorio de Innovación de Tarapacá : "Tarapacá LABS" para el diseño, co-creación y búsqueda colaborativa de soluciones a los desafíos regionales con visión global   (30434575-0);103000;0
+05;61;02;33;03;127;Universidad Arturo Prat de Iquique-Formación de Capital Humano Especializado a Nivel Técnico para la Provincia del Tamarugal   (30434581-0);103000;0
+05;61;02;33;03;128;Universidad Arturo Prat de Iquique-Medicina y Biología de Altura para la Región de Tarapacá : Segunda Etapa   (30434827-0);103000;0
+05;61;02;33;03;129;Universidad Arturo Prat de Iquique-Centro Piloto de la Biodegradación Experimental de Bolsas plásticas en el Centro Comercial de Iquique   (30434972-0);103000;0
+05;61;02;33;03;130;Universidad de Los Lagos-Turismo accesible como factor de competitividad para la Industria Turística de la Región de Tarapacá   (30434928-0);103000;0
+05;61;02;33;03;205;SEREMI DE AGRICULTURA-Transferencia capacitación prácticos agrícolas Tamarugal (30371038-0);103000;0
+05;61;02;33;03;207;SEREMI AGRICULTURA I REGIÓN-Transferencia capacitación y certificación en uso de plaguicidas (30233775-0);63950;0
+05;61;02;33;03;209;SEREMI de Bienes Nacionales - Saneamiento de propiedad rural de la comuna de Huara (30161277-0);162073;0
+05;61;02;33;03;999;Fondos FIC (Sin Distribuir);3505700;0
+05;61;02;34;;;SERVICIO DE LA DEUDA;1000;0
+05;61;02;34;07;;Deuda Flotante;1000;0

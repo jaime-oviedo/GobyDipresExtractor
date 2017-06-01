@@ -1,0 +1,85 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Denominación;Monto Pesos;Monto Dólar
+05;63;02;06;;;RENTAS DE LA PROPIEDAD;179575;0
+05;63;02;08;;;OTROS INGRESOS CORRIENTES;392954;0
+05;63;02;08;99;;Otros;392954;0
+05;63;02;09;;;APORTE FISCAL;20989549;0
+05;63;02;09;01;;Libre;20989549;0
+05;63;02;13;;;TRANSFERENCIAS PARA GASTOS DE CAPITAL;36428536;0
+05;63;02;13;02;;Del Gobierno Central;36428536;0
+05;63;02;13;02;003;Subsecretaría de Bienes Nacionales;539801;0
+05;63;02;13;02;004;Subsecretaría de Desarrollo Regional y Administrativo;412000;0
+05;63;02;13;02;006;Tesoro Público Ley N° 19.143, Patentes Mineras;11147404;0
+05;63;02;13;02;008;Tesoro Público Ley N°19.995, Casinos de Juegos;851802;0
+05;63;02;13;02;013;Tesoro Público Artículo 129 bis 19 Ley N° 20.017, Código de Aguas;482506;0
+05;63;02;13;02;019;Fondo de Inversión y Reconversión Regional;2960913;0
+05;63;02;13;02;020;Tesoro Público Ley N°18.892, Patentes de Acuicultura;104138;0
+05;63;02;13;02;030;Tesoro Público Ley N°20.378 - Fondo de Apoyo Regional (FAR);9597494;0
+05;63;02;13;02;032;Subsecretaría de Desarrollo Regional y Administrativo - Programas de Convergencia;10332478;0
+05;63;02;15;;;SALDO INICIAL DE CAJA;1747438;0
+05;63;02;22;;;BIENES Y SERVICIOS DE CONSUMO;93813;0
+05;63;02;24;;;TRANSFERENCIAS CORRIENTES;3965500;0
+05;63;02;24;01;;Al Sector Privado;1751000;0
+05;63;02;24;01;001;Actividades Culturales;309000;0
+05;63;02;24;01;003;Actividades Deportivas;309000;0
+05;63;02;24;01;005;Actividades de Seguridad Ciudadana;309000;0
+05;63;02;24;01;006;Corporación para la Competitividad e Innovación de la Región de Atacama;515000;0
+05;63;02;24;01;017;Actividades Sociales y de Rehabilitación de Drogas;309000;0
+05;63;02;24;03;;A Otras Entidades Públicas;2214500;0
+05;63;02;24;03;001;Municipalidades-Actividades Culturales;309000;0
+05;63;02;24;03;003;Municipalidades-Actividades Deportivas;309000;0
+05;63;02;24;03;005;Municipalidades-Actividades de Seguridad Ciudadana;309000;0
+05;63;02;24;03;011;Otras Entidades Publicas-Actividades Culturales;257500;0
+05;63;02;24;03;013;Otras Entidades Públicas-Actividades Deportivas;257500;0
+05;63;02;24;03;015;Otras Entidades Públicas-Actividades de Seguridad Ciudadana;257500;0
+05;63;02;24;03;017;Municipalidades-Actividades Sociales y de Rehabilitación de Drogas;257500;0
+05;63;02;24;03;018;Otras Entidades Públicas-Actividades Sociales;257500;0
+05;63;02;29;;;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS;44147;0
+05;63;02;29;05;;Máquinas y Equipos;44147;0
+05;63;02;31;;;INICIATIVAS DE INVERSIÓN;45770481;0
+05;63;02;31;01;;Estudios Básicos;172682;0
+05;63;02;31;02;;Proyectos;45597799;0
+05;63;02;32;;;PRÉSTAMOS;0,001;0
+05;63;02;32;06;;Por Anticipos a Contratistas;0,001;0
+05;63;02;32;06;001;Anticipos a Contratistas;800000;0
+05;63;02;32;06;002;Recuperación de Anticipos a Contratistas;-800000;0
+05;63;02;33;;;TRANSFERENCIAS DE CAPITAL;9863111;0
+05;63;02;33;01;;Al Sector Privado;241255;0
+05;63;02;33;01;010;Aplicación Letra a) Artículo Cuarto Transitorio Ley N°20.378;103000;0
+05;63;02;33;01;258;CORPORACIÓN PARA LA COMPETITIVIDAD DE LA REGION DE ATACAMA-Análisis creación de plataforma para la competitividad en la región de Atacama;16771;0
+05;63;02;33;01;262;UNIVERSIDAD TECNICA FEDERICO SANTA MARIA-Fortalecimiento capacidades regionales para evaluación y vigilancia problemas de contaminación atmosférica (30337223);9579;0
+05;63;02;33;01;276;INIA-Transferencia quinoa atacameña determinación y caracterización  (30432772-0);34835;0
+05;63;02;33;01;278;PONTIFICIA UNIVERSIDAD DE VALPARAISO-Transferencia Wilca Tech: Start UPS mujeres de Atacama (30432922-0);77070;0
+05;63;02;33;03;;A Otras Entidades Públicas;9621856;0
+05;63;02;33;03;125;Municipalidades (Fondo Regional de Iniciativa Local);206000;0
+05;63;02;33;03;206;SEREMI BIENES NACIONALES III REGION-Saneamiento de títulos de dominio, Región de Atacama (30132148-0);141353;0
+05;63;02;33;03;207;PROCHILE-Difusión fortalecimiento exportador de la PYMEX de la Región de Atacama (30132211-0);158264;0
+05;63;02;33;03;208;SUBSECRETARÍA DE MEDIO AMBIENTE III REGION ATACAMA-Protección área marina costera protegida por múltiples usos isla grande de Atacama (30134923-0);542717;0
+05;63;02;33;03;213;SUBSECRETARIA DE PESCA Y ACUICULTURA-Programa transferencia fomento productivo para el desarrollo de la pesca artesanal en la región de Atacama (30171674-0);154522;0
+05;63;02;33;03;214;SERNAM-Programa capacitación especialización y calificación de mujeres de Atacama (30137405-0);167215;0
+05;63;02;33;03;230;SERCOTEC-Transferencia mejoramiento operación MYPES del transporte público y escolar de la ciudad de Atacama (30409326-0);51500;0
+05;63;02;33;03;235;COMISION NACIONAL DE RIEGO-Transferencia para la inversión y fomento al riego, drenaje y fortalecimiento de las organizaciones regantes de Atacama en condiciones de sequia y aluvión (30394426-0);1545000;0
+05;63;02;33;03;236;SERNAPESCA III REGION-Transferencia para el desarrollo y fomento de la pesca artesanal en la región de Atacama (30394372-0);474253;0
+05;63;02;33;03;238;SEREMI MINERIA III REGION DE ATACAMA-Transferencia asistencia en emergencia pequeña minería y artesanal de la región de Atacama (30394577-0);52112;0
+05;63;02;33;03;239;SERNATUR - Plan turismo rural de Alto del Carmen (30365925-0);40686;0
+05;63;02;33;03;240;INDAP - Desarrollo sistema horto frutícolas (30393674-0);298958;0
+05;63;02;33;03;243;INDAP - Mejoramiento de la productividad de huertos frutícolas (30393722-0);124295;0
+05;63;02;33;03;259;CONICYT-Transferencia activación científica tecnológica sistema regional de innovación;157513;0
+05;63;02;33;03;260;INNOVA-CHILE-Transferencia fortalecimiento entorno emprendedor para el sistema regional de innovación (SIR) de la región de Atacama;65951;0
+05;63;02;33;03;268;U.DE ATACAMA-inventario de glaciares y otras reservas hídricas de la III Región de Atacama y áreas binacionales (30337509);3090;0
+05;63;02;33;03;275;CORFO-Transferencia fortalecimiento competitividad y desarrollo tecnológico (30421742-0);1002190;0
+05;63;02;33;03;279;U. DE ANTOFAGASTA-Transferencia valoración económica sustentable Altoandino Atacama (30432672-0);95697;0
+05;63;02;33;03;280;U. DE CHILE-Transferencia investigación aplicada portainjerto uva de mesa (30432824-0);101935;0
+05;63;02;33;03;281;U. DE CHILE-Transferencia desarrollo red agrometereológica Huasco y difusión (30432872-0);102794;0
+05;63;02;33;03;282;U. DE ATACAMA-Transferencia cultivo acuapónico peces y hortalizas Falda Verde (30432924-0);113285;0
+05;63;02;33;03;283;U. DE ATACAMA-Transferencia formación capital humano avanzado en salud (30432928-0);51243;0
+05;63;02;33;03;284;U. DE ATACAMA-Transferencia programa de acuicultura pequeña escala ostión ostra (30432928-0);92700;0
+05;63;02;33;03;285;U. DE ATACAMA-Transferencia desarrollo KIT de Identificación genética (ADN vegetal) (30432984-0);18091;0
+05;63;02;33;03;286;U. DE ATACAMA-Transferencia elaboración productos consumo humano con algas pardas (30432986-0);70359;0
+05;63;02;33;03;287;U. DE ATACAMA-Transferencia creación geoparque del desierto y costas de Atacama (30432988-0);20137;0
+05;63;02;33;03;288;U. DE ATACAMA-Transferencia laboratorio síntesis química LABSYQ-UDA (30432992-0);8044;0
+05;63;02;33;03;289;U. DE ATACAMA-Transferencia aumento de capital humano avanzado en la región de Atacama (30432995-0);9373;0
+05;63;02;33;03;290;U. DE ATACAMA-Transferencia desarrollo de nueva tecnología cultivo semilla ostión (30433072-0);51500;0
+05;63;02;33;03;291;UNIVERSIDAD DE VALPARAISO-Transferencia recomendador personalizado servicios turísticos PYMES (30432875-0);71070;0
+05;63;02;33;03;999;Provisión FIC (Sin Distribuir);3630009;0
+05;63;02;34;;;SERVICIO DE LA DEUDA;1000;0
+05;63;02;34;07;;Deuda Flotante;1000;0

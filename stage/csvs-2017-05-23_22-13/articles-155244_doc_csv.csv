@@ -1,0 +1,40 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Denominación;Monto Pesos;Monto Dólar
+18;24;01;07;;;INGRESOS DE OPERACIÓN;10;0
+18;24;01;07;01;;Venta de Bienes;10;0
+18;24;01;08;;;OTROS INGRESOS CORRIENTES;50642;0
+18;24;01;08;01;;Recuperaciones y Reembolsos por Licencias Médicas;32074;0
+18;24;01;08;02;;Multas y Sanciones Pecuniarias;10;0
+18;24;01;08;99;;Otros;18558;0
+18;24;01;09;;;APORTE FISCAL;110524748;0
+18;24;01;09;01;;Libre;110524748;0
+18;24;01;10;;;VENTA DE ACTIVOS NO FINANCIEROS;1075164;0
+18;24;01;10;01;;Terrenos;1075164;0
+18;24;01;12;;;RECUPERACIÓN DE PRÉSTAMOS;1989883;0
+18;24;01;12;02;;Hipotecarios;1989883;0
+18;24;01;13;;;TRANSFERENCIAS PARA GASTOS DE CAPITAL;6127;0
+18;24;01;13;03;;De Otras Entidades Públicas;6127;0
+18;24;01;13;03;001;De Municipalidades para Pavimentos Participativos;10;0
+18;24;01;13;03;003;De Municipalidades para Programa Rehabilitación de Espacios Públicos;6117;0
+18;24;01;15;;;SALDO INICIAL DE CAJA;23000;0
+18;24;01;21;;;GASTOS EN PERSONAL;2387507;0
+18;24;01;22;;;BIENES Y SERVICIOS DE CONSUMO;380316;0
+18;24;01;26;;;OTROS GASTOS CORRIENTES;10;0
+18;24;01;26;02;;Compensaciones por Daños a Terceros y/o a la Propiedad;10;0
+18;24;01;29;;;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS;15038;0
+18;24;01;29;04;;Mobiliario y Otros;8343;0
+18;24;01;29;05;;Máquinas y Equipos;6695;0
+18;24;01;31;;;INICIATIVAS DE INVERSIÓN;27391856;0
+18;24;01;31;02;;Proyectos;27391856;0
+18;24;01;32;;;PRÉSTAMOS;14299452;0
+18;24;01;32;02;;Hipotecarios;14299452;0
+18;24;01;32;02;003;Préstamos Subsidio Habitacional;14299452;0
+18;24;01;33;;;TRANSFERENCIAS DE CAPITAL;69195011;0
+18;24;01;33;01;;Al Sector Privado;69195011;0
+18;24;01;33;01;028;Subsidio de Protección del Patrimonio Familiar;23818147;0
+18;24;01;33;01;127;Subsidios Leasing;97192;0
+18;24;01;33;01;132;Sistema Integrado de Subsidio;16153182;0
+18;24;01;33;01;133;Fondo Solidario de Elección de Vivienda;20456118;0
+18;24;01;33;01;136;Programa Habitabilidad Rural;1403637;0
+18;24;01;33;01;137;Subsidio Extraordinario de Reactivación;7266735;0
+18;24;01;34;;;SERVICIO DE LA DEUDA;384;0
+18;24;01;34;07;;Deuda Flotante;384;0

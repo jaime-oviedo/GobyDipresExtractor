@@ -1,0 +1,57 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Denominación;Monto Pesos;Monto Dólar
+07;01;01;05;;;TRANSFERENCIAS CORRIENTES;16507152;0
+07;01;01;05;02;;Del Gobierno Central;16507152;0
+07;01;01;05;02;001;Subsecretaría de Pesca y Acuicultura;16507152;0
+07;01;01;07;;;INGRESOS DE OPERACIÓN;605912;0
+07;01;01;08;;;OTROS INGRESOS CORRIENTES;117056;0
+07;01;01;08;01;;Recuperaciones y Reembolsos por Licencias Médicas;99306;0
+07;01;01;08;02;;Multas y Sanciones Pecuniarias;4295;0
+07;01;01;08;99;;Otros;13455;0
+07;01;01;09;;;APORTE FISCAL;47631643;0
+07;01;01;09;01;;Libre;41477812;0
+07;01;01;09;02;;Servicio de la Deuda Interna;704657;0
+07;01;01;09;03;;Servicio de la Deuda Externa;5449174;0
+07;01;01;21;;;GASTOS EN PERSONAL;8029883;0
+07;01;01;22;;;BIENES Y SERVICIOS DE CONSUMO;2537417;0
+07;01;01;23;;;PRESTACIONES DE SEGURIDAD SOCIAL;10;0
+07;01;01;23;01;;Prestaciones Previsionales;10;0
+07;01;01;24;;;TRANSFERENCIAS CORRIENTES;45886066;0
+07;01;01;24;01;;Al Sector Privado;16847431;0
+07;01;01;24;01;008;Instituto Nacional de Normalización;340279;0
+07;01;01;24;01;009;Instituto de Fomento Pesquero;16507152;0
+07;01;01;24;02;;Al Gobierno Central;21669636;0
+07;01;01;24;02;004;Instituto Nacional de Estadísticas;431113;0
+07;01;01;24;02;006;FIE-Proyecto Bienes Públicos Estratégicos (Comité Innova);489250;0
+07;01;01;24;02;007;FIE-Iniciativas de Fomento Integradas (CORFO);3919871;0
+07;01;01;24;02;008;FIE-Programa Estratégico de Especialización Inteligente (CORFO);6240677;0
+07;01;01;24;02;009;FIE-Sistema Integrado de Gestión Sanitaria Acuicultura SERNAPESCA;1305710;0
+07;01;01;24;02;012;FIE-Innovación e I&D empresarial (Comité Innova);1369900;0
+07;01;01;24;02;013;FIE-Minería (CORFO);1446207;0
+07;01;01;24;02;014;FIE-Minería (Subsecretaría del Medio Ambiente);215270;0
+07;01;01;24;02;015;FIE-Minería (Subsecretaría de Minería);1144845;0
+07;01;01;24;02;016;FIE-Alimentos Saludables (Servicio Agrícola y Ganadero);489250;0
+07;01;01;24;02;017;FIE-Alimentos Saludables (Subsecretaría de Agricultura);978500;0
+07;01;01;24;02;018;FIE-Industria Solar (Subsecretaría de Energía);507842;0
+07;01;01;24;02;019;FIE-Acuícola (SERNAPESCA);2852328;0
+07;01;01;24;02;072;FIE-Alimentos Sustentables (Subsecretaría de Agricultura);278873;0
+07;01;01;24;03;;A Otras Entidades Públicas;7368999;0
+07;01;01;24;03;472;Tribunal Arbitral de Propiedad Industrial;533447;0
+07;01;01;24;03;477;Comisión Nacional de la Productividad;1110024;0
+07;01;01;24;03;478;Secretaría del Fondo de Inversión Estratégica;543493;0
+07;01;01;24;03;479;Agenda Digital;229148;0
+07;01;01;24;03;480;Escritorio Empresas y Personas;4732644;0
+07;01;01;24;03;482;Mercado Tecnológico para MIPYME;220243;0
+07;01;01;29;;;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS;395406;0
+07;01;01;29;04;;Mobiliario y Otros;5346;0
+07;01;01;29;05;;Máquinas y Equipos;22895;0
+07;01;01;29;06;;Equipos Informáticos;61800;0
+07;01;01;29;07;;Programas Informáticos;305365;0
+07;01;01;33;;;TRANSFERENCIAS DE CAPITAL;1859150;0
+07;01;01;33;02;;Al Gobierno Central;1859150;0
+07;01;01;33;02;001;FIE-Construcción Sustentable (Subsecretaría de Vivienda y Urbanismo);391400;0
+07;01;01;33;02;003;FIE-Capital Minería (CORFO);1467750;0
+07;01;01;34;;;SERVICIO DE LA DEUDA;6153831;0
+07;01;01;34;01;;Amortización Deuda Interna;349454;0
+07;01;01;34;02;;Amortización Deuda Externa;4595421;0
+07;01;01;34;03;;Intereses Deuda Interna;355203;0
+07;01;01;34;04;;Intereses Deuda Externa;853753;0

@@ -1,0 +1,28 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Denominación;Monto Pesos;Monto Dólar
+02;01;01;08;;;OTROS INGRESOS CORRIENTES;187151;0
+02;01;01;08;01;;Recuperaciones y Reembolsos por Licencias Médicas;147452;0
+02;01;01;08;99;;Otros;39699;0
+02;01;01;09;;;APORTE FISCAL;40205415;0
+02;01;01;09;01;;Libre;40205415;0
+02;01;01;21;;;GASTOS EN PERSONAL;20990803;0
+02;01;01;22;;;BIENES Y SERVICIOS DE CONSUMO;6244907;0
+02;01;01;23;;;PRESTACIONES DE SEGURIDAD SOCIAL;99859;0
+02;01;01;23;01;;Prestaciones Previsionales;99859;0
+02;01;01;24;;;TRANSFERENCIAS CORRIENTES;12480011;0
+02;01;01;24;01;;Al Sector Privado;693577;0
+02;01;01;24;01;009;Aplicación Ley N° 19.672;693577;0
+02;01;01;24;03;;A Otras Entidades Públicas;11742749;0
+02;01;01;24;03;001;Personal Apoyo Senadores;3209848;0
+02;01;01;24;03;002;Asesoría Externa Senadores;1477222;0
+02;01;01;24;03;003;Gastos Operacionales Senadores;4105070;0
+02;01;01;24;03;004;Personal Apoyo Comités;449978;0
+02;01;01;24;03;005;Asesoría Externa Comités;1309904;0
+02;01;01;24;03;006;Gastos Operacionales Comités;10942;0
+02;01;01;24;03;007;Otras Transferencias;1179785;0
+02;01;01;24;07;;A Organismos Internacionales;43685;0
+02;01;01;24;07;001;Asociación de Congresos;43685;0
+02;01;01;29;;;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS;576986;0
+02;01;01;29;04;;Mobiliario y Otros;26602;0
+02;01;01;29;05;;Máquinas y Equipos;77143;0
+02;01;01;29;06;;Equipos Informáticos;314131;0
+02;01;01;29;07;;Programas Informáticos;159110;0

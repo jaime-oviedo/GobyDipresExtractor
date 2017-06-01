@@ -1,0 +1,11 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Denominación;Monto Pesos;Monto Dólar
+16;10;02;09;;;APORTE FISCAL;352134985;0
+16;10;02;09;01;;Libre;349316570;0
+16;10;02;09;03;;Servicio de la Deuda Externa;2818415;0
+16;10;02;15;;;SALDO INICIAL DE CAJA;1000;0
+16;10;02;31;;;INICIATIVAS DE INVERSIÓN;349316570;0
+16;10;02;31;02;;Proyectos;349316570;0
+16;10;02;34;;;SERVICIO DE LA DEUDA;2818415;0
+16;10;02;34;02;;Amortización Deuda Externa;2509421;0
+16;10;02;34;04;;Intereses Deuda Externa;308994;0
+16;10;02;35;;;SALDO FINAL DE CAJA;1000;0

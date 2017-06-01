@@ -1,0 +1,26 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Denominación;Monto Pesos;Monto Dólar
+05;05;03;09;;;APORTE FISCAL;188522165;0
+05;05;03;09;01;;Libre;188522165;0
+05;05;03;13;;;TRANSFERENCIAS PARA GASTOS DE CAPITAL;2200015;0
+05;05;03;13;06;;De Gobiernos Extranjeros;2200015;0
+05;05;03;13;06;001;Del Gobierno Español - Instituto de Crédito Oficial de España;2200015;0
+05;05;03;14;;;ENDEUDAMIENTO;4315700;0
+05;05;03;14;02;;Endeudamiento Externo;4315700;0
+05;05;03;15;;;SALDO INICIAL DE CAJA;1000;0
+05;05;03;24;;;TRANSFERENCIAS CORRIENTES;71054161;0
+05;05;03;24;03;;A Otras Entidades Públicas;71054161;0
+05;05;03;24;03;402;Municipalidades (Compensación Gastos Censo);2701782;0
+05;05;03;24;03;403;Municipalidades (Compensación por Predios Exentos);61154655;0
+05;05;03;24;03;406;Municipalidades (Programa Esterilización y Atención Sanitaria de Animales de Compañia);7197724;0
+05;05;03;32;;;PRÉSTAMOS;11461490;0
+05;05;03;32;04;;De Fomento;11461490;0
+05;05;03;32;04;002;Municipalidades;11461490;0
+05;05;03;33;;;TRANSFERENCIAS DE CAPITAL;112522229;0
+05;05;03;33;03;;A Otras Entidades Públicas;112522229;0
+05;05;03;33;03;005;Municipalidades (Programa de Mejoramiento Urbano y Equipamiento Comunal);51454819;0
+05;05;03;33;03;006;Municipalidades (Programa Mejoramiento de Barrios);24906467;0
+05;05;03;33;03;100;Municipalidades (Fondo Recuperación de Ciudades);11002445;0
+05;05;03;33;03;110;Municipalidades (Fondo de Incentivo al Mejoramiento de la Gestión Municipal);16527098;0
+05;05;03;33;03;111;Municipalidades (Programa Revitalización de Barrios e Infraestructura Patrimonial Emblemática);8631400;0
+05;05;03;34;;;SERVICIO DE LA DEUDA;1000;0
+05;05;03;34;07;;Deuda Flotante;1000;0

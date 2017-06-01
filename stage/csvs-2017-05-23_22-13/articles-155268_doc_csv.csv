@@ -1,0 +1,38 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Denominación;Monto Pesos;Monto Dólar
+21;01;01;07;;;INGRESOS DE OPERACIÓN;1547;0
+21;01;01;08;;;OTROS INGRESOS CORRIENTES;259546;0
+21;01;01;08;01;;Recuperaciones y Reembolsos por Licencias Médicas;247922;0
+21;01;01;08;99;;Otros;11624;0
+21;01;01;09;;;APORTE FISCAL;53104527;0
+21;01;01;09;01;;Libre;51816788;0
+21;01;01;09;02;;Servicio de la Deuda Interna;1287739;0
+21;01;01;10;;;VENTA DE ACTIVOS NO FINANCIEROS;3241;0
+21;01;01;10;04;;Mobiliario y Otros;3241;0
+21;01;01;15;;;SALDO INICIAL DE CAJA;64500;0
+21;01;01;21;;;GASTOS EN PERSONAL;18487274;0
+21;01;01;22;;;BIENES Y SERVICIOS DE CONSUMO;2878325;0
+21;01;01;23;;;PRESTACIONES DE SEGURIDAD SOCIAL;11;0
+21;01;01;23;03;;Prestaciones Sociales del Empleador;11;0
+21;01;01;24;;;TRANSFERENCIAS CORRIENTES;30474864;0
+21;01;01;24;01;;Al Sector Privado;1667094;0
+21;01;01;24;01;321;Fundación de la Familia - Programa Red Telecentros;1667094;0
+21;01;01;24;03;;A Otras Entidades Públicas;28807770;0
+21;01;01;24;03;315;Elige Vivir Sano;551403;0
+21;01;01;24;03;341;Sistema de apoyo a la selección de Beneficios Sociales;6301156;0
+21;01;01;24;03;342;Apoyo, Monitoreo y Supervisión a la Gestión Territorial;1140241;0
+21;01;01;24;03;349;Subsidio al Pago Electrónico de Prestaciones Monetarias;3036591;0
+21;01;01;24;03;351;Sistema Nacional de Cuidado;1523888;0
+21;01;01;24;03;352;Programa Pago Cuidadores de Personas con Discapacidad;7744158;0
+21;01;01;24;03;353;Ayudas Técnicas Chile Crece Contigo;427656;0
+21;01;01;24;03;358;Programa Apoyo a la Atención de Salud Mental;316381;0
+21;01;01;24;03;409;Programa Asuntos Indígenas;1095174;0
+21;01;01;24;03;998;Programa Noche Digna;6671122;0
+21;01;01;29;;;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS;302648;0
+21;01;01;29;03;;Vehículos;59740;0
+21;01;01;29;04;;Mobiliario y Otros;13534;0
+21;01;01;29;05;;Máquinas y Equipos;13033;0
+21;01;01;29;06;;Equipos Informáticos;216341;0
+21;01;01;34;;;SERVICIO DE LA DEUDA;1290239;0
+21;01;01;34;01;;Amortización Deuda Interna;481040;0
+21;01;01;34;03;;Intereses Deuda Interna;806699;0
+21;01;01;34;07;;Deuda Flotante;2500;0

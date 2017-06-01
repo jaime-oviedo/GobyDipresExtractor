@@ -1,0 +1,49 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Denominación;Monto Pesos;Monto Dólar
+09;11;01;05;;;TRANSFERENCIAS CORRIENTES;113653155;0
+09;11;01;05;01;;Del Sector Privado;1066016;0
+09;11;01;05;01;003;Administradora del Fondo para Bonificación por Retiro;1066016;0
+09;11;01;05;02;;Del Gobierno Central;112587139;0
+09;11;01;05;02;080;Fondo para la Educación, Ley N° 20.630;112587139;0
+09;11;01;07;;;INGRESOS DE OPERACIÓN;1148;0
+09;11;01;08;;;OTROS INGRESOS CORRIENTES;12023379;0
+09;11;01;08;01;;Recuperaciones y Reembolsos por Licencias Médicas;7552837;0
+09;11;01;08;02;;Multas y Sanciones Pecuniarias;205137;0
+09;11;01;08;99;;Otros;4265405;0
+09;11;01;09;;;APORTE FISCAL;420767625;0
+09;11;01;09;01;;Libre;419953201;0
+09;11;01;09;03;;Servicio de la Deuda Externa;814424;0
+09;11;01;14;;;ENDEUDAMIENTO;21169642;0
+09;11;01;14;02;;Endeudamiento Externo;21169642;0
+09;11;01;15;;;SALDO INICIAL DE CAJA;1000;0
+09;11;01;21;;;GASTOS EN PERSONAL;179013881;0
+09;11;01;22;;;BIENES Y SERVICIOS DE CONSUMO;34600742;0
+09;11;01;23;;;PRESTACIONES DE SEGURIDAD SOCIAL;2291027;0
+09;11;01;23;01;;Prestaciones Previsionales;30531;0
+09;11;01;23;03;;Prestaciones Sociales del Empleador;2260496;0
+09;11;01;24;;;TRANSFERENCIAS CORRIENTES;185799231;0
+09;11;01;24;03;;A Otras Entidades Públicas;185799231;0
+09;11;01;24;03;170;Convenios con Municipalidades y otras Instituciones;178925756;0
+09;11;01;24;03;171;Programa de Material de Enseñanza;5092481;0
+09;11;01;24;03;178;Plan de Fomento de Lectura Primera Infancia;831968;0
+09;11;01;24;03;180;Capacitación a Terceros;949026;0
+09;11;01;25;;;INTEGROS AL FISCO;1685;0
+09;11;01;25;01;;Impuestos;1685;0
+09;11;01;29;;;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS;6541213;0
+09;11;01;29;03;;Vehículos;119686;0
+09;11;01;29;04;;Mobiliario y Otros;1682123;0
+09;11;01;29;05;;Máquinas y Equipos;70971;0
+09;11;01;29;06;;Equipos Informáticos;1442000;0
+09;11;01;29;07;;Programas Informáticos;1895200;0
+09;11;01;29;99;;Otros Activos no Financieros;1331233;0
+09;11;01;31;;;INICIATIVAS DE INVERSIÓN;152884445;0
+09;11;01;31;02;;Proyectos;152884445;0
+09;11;01;32;;;PRÉSTAMOS;0,001;0
+09;11;01;32;06;;Por Anticipos a Contratistas;0,001;0
+09;11;01;32;06;001;Anticipos a Contratistas;20889445;0
+09;11;01;32;06;002;Recuperación de Anticipos a Contratistas;-20889445;0
+09;11;01;33;;;TRANSFERENCIAS DE CAPITAL;5667301;0
+09;11;01;33;03;;A Otras Entidades Públicas;5667301;0
+09;11;01;34;;;SERVICIO DE LA DEUDA;815424;0
+09;11;01;34;04;;Intereses Deuda Externa;814424;0
+09;11;01;34;07;;Deuda Flotante;1000;0
+09;11;01;35;;;SALDO FINAL DE CAJA;1000;0

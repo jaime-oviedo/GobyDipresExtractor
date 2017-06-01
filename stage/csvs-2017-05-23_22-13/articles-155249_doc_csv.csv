@@ -1,0 +1,39 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Denominación;Monto Pesos;Monto Dólar
+18;29;01;07;;;INGRESOS DE OPERACIÓN;43260;0
+18;29;01;07;01;;Venta de Bienes;43260;0
+18;29;01;08;;;OTROS INGRESOS CORRIENTES;115418;0
+18;29;01;08;01;;Recuperaciones y Reembolsos por Licencias Médicas;48111;0
+18;29;01;08;02;;Multas y Sanciones Pecuniarias;1030;0
+18;29;01;08;99;;Otros;66277;0
+18;29;01;09;;;APORTE FISCAL;216954896;0
+18;29;01;09;01;;Libre;216954896;0
+18;29;01;12;;;RECUPERACIÓN DE PRÉSTAMOS;8124791;0
+18;29;01;12;02;;Hipotecarios;8124791;0
+18;29;01;13;;;TRANSFERENCIAS PARA GASTOS DE CAPITAL;172281;0
+18;29;01;13;03;;De Otras Entidades Públicas;172281;0
+18;29;01;13;03;001;De Municipalidades para Pavimentos Participativos;158382;0
+18;29;01;13;03;003;De Municipalidades para Programa Rehabilitación de Espacios Públicos;13899;0
+18;29;01;15;;;SALDO INICIAL DE CAJA;23000;0
+18;29;01;21;;;GASTOS EN PERSONAL;2777485;0
+18;29;01;22;;;BIENES Y SERVICIOS DE CONSUMO;506203;0
+18;29;01;26;;;OTROS GASTOS CORRIENTES;10;0
+18;29;01;26;02;;Compensaciones por Daños a Terceros y/o a la Propiedad;10;0
+18;29;01;29;;;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS;22660;0
+18;29;01;29;04;;Mobiliario y Otros;15450;0
+18;29;01;29;05;;Máquinas y Equipos;7210;0
+18;29;01;31;;;INICIATIVAS DE INVERSIÓN;37348326;0
+18;29;01;31;02;;Proyectos;37348326;0
+18;29;01;32;;;PRÉSTAMOS;37139033;0
+18;29;01;32;02;;Hipotecarios;37139033;0
+18;29;01;32;02;003;Préstamos Subsidio Habitacional;37139033;0
+18;29;01;33;;;TRANSFERENCIAS DE CAPITAL;147639682;0
+18;29;01;33;01;;Al Sector Privado;147639682;0
+18;29;01;33;01;023;Subsidios Fondo Solidario de Vivienda;4718;0
+18;29;01;33;01;028;Subsidio de Protección del Patrimonio Familiar;38996037;0
+18;29;01;33;01;127;Subsidios Leasing;9794;0
+18;29;01;33;01;132;Sistema Integrado de Subsidio;17399720;0
+18;29;01;33;01;133;Fondo Solidario de Elección de Vivienda;23658335;0
+18;29;01;33;01;136;Programa de Habitabilidad Rural;9056613;0
+18;29;01;33;01;137;Subsidio Extraordinario de Reactivación;58514465;0
+18;29;01;34;;;SERVICIO DE LA DEUDA;247;0
+18;29;01;34;07;;Deuda Flotante;247;0

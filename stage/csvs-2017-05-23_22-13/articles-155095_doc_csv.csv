@@ -1,0 +1,30 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Denominación;Monto Pesos;Monto Dólar
+09;01;29;09;;;APORTE FISCAL;249390485;0
+09;01;29;09;01;;Libre;249390485;0
+09;01;29;15;;;SALDO INICIAL DE CAJA;2000;0
+09;01;29;24;;;TRANSFERENCIAS CORRIENTES;203854498;0
+09;01;29;24;03;;A Otras Entidades Públicas;203854498;0
+09;01;29;24;03;196;Aporte Artículo 2° DFL (Ed) N°4, de 1981;129063132;0
+09;01;29;24;03;202;Fondo Desarrollo Institucional art 1° DFL (Ed.) N° 4 de 1981;5368788;0
+09;01;29;24;03;203;Universidad de Chile;9943745;0
+09;01;29;24;03;208;Aplicación Ley N° 20.374;2890224;0
+09;01;29;24;03;212;Apoyo Innovación Educación Superior;3272930;0
+09;01;29;24;03;213;Educación Superior Regional;4241130;0
+09;01;29;24;03;214;Plan de Fortalecimiento Universidades Estatales;8598500;0
+09;01;29;24;03;807;Convenio Marco Universidades Estatales;35749774;0
+09;01;29;24;03;813;Aplicación Ley N° 20.807;1545000;0
+09;01;29;24;03;850;Ley N°20.910, CFT Estatales;1213505;0
+09;01;29;24;03;852;Ley 20.842, Universidades O'Higgins y Aysén;1717894;0
+09;01;29;24;03;854;Aplicación artículo 45, Ley N°20.883;249876;0
+09;01;29;33;;;TRANSFERENCIAS DE CAPITAL;45535987;0
+09;01;29;33;03;;A Otras Entidades Públicas;45535987;0
+09;01;29;33;03;035;Fondo Desarrollo Institucional-Infraestructura Art 1° DFL. (Ed.) N° 4 de 1981;2504532;0
+09;01;29;33;03;036;Aplicación Letra a) Art.71 bis de la Ley N° 18.591;5786115;0
+09;01;29;33;03;404;Educación Superior Regional;606047;0
+09;01;29;33;03;407;Apoyo Innovación Educación Superior;482447;0
+09;01;29;33;03;410;Convenio Marco Universidades Estatales;22076600;0
+09;01;29;33;03;413;Ley N° 20.842, Universidades O´Higgins y Aysén-Infraestructura;4888526;0
+09;01;29;33;03;416;Ley N° 20.910, CFT Estatales, Infraestructura;9191720;0
+09;01;29;34;;;SERVICIO DE LA DEUDA;1000;0
+09;01;29;34;07;;Deuda Flotante;1000;0
+09;01;29;35;;;SALDO FINAL DE CAJA;1000;0

@@ -1,0 +1,37 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Denominación;Monto Pesos;Monto Dólar
+05;72;03;13;;;TRANSFERENCIAS PARA GASTOS DE CAPITAL;5110448;0
+05;72;03;13;02;;Del Gobierno Central;5110448;0
+05;72;03;13;02;007;Tesoro Público Ley N° 19.275, Fondo de Desarrollo de Magallanes;5110448;0
+05;72;03;15;;;SALDO INICIAL DE CAJA;3348058;0
+05;72;03;29;;;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS;416472;0
+05;72;03;29;03;;Vehículos;48514;0
+05;72;03;29;05;;Máquinas y Equipos;367958;0
+05;72;03;31;;;INICIATIVAS DE INVERSIÓN;2639303;0
+05;72;03;31;02;;Proyectos;2587869;0
+05;72;03;31;03;;Programas de Inversión;51434;0
+05;72;03;32;;;PRÉSTAMOS;0,001;0
+05;72;03;32;06;;Por Anticipos a Contratistas;0,001;0
+05;72;03;32;06;001;Anticipos a Contratistas;800000;0
+05;72;03;32;06;002;Recuperación de Anticipos a Contratistas;-800000;0
+05;72;03;33;;;TRANSFERENCIAS DE CAPITAL;5401731;0
+05;72;03;33;01;;Al Sector Privado;400554;0
+05;72;03;33;01;006;INIA - Recuperación y Explotación del Calafate en la región de Magallanes;193815;0
+05;72;03;33;01;101;INIA - Recuperación de la Producción y Sanidad de la Papa en Magallanes;206739;0
+05;72;03;33;03;;A Otras Entidades Públicas;5001177;0
+05;72;03;33;03;102;SUBSECRETARIA DE PESCA-Transferencia técnica desarrollo nuevos mercados productivos pesqueros en la región (30126679-0).;121187;0
+05;72;03;33;03;107;SENAME - Capacitación adolescentes privados de libertad a validar estudios, Punta Arenas (30131450-0);51191;0
+05;72;03;33;03;109;SEREMI MEDIO AMBIENTE XII REGIÓN - Capacitación compostaje para residuos sólidos orgánicos domiciliarios en la Región. (30123598-0);81191;0
+05;72;03;33;03;110;FOSIS - Transferencia Programa Yo Emprendo en la Región de Magallanes y Antártica Chilena;25750;0
+05;72;03;33;03;112;SENADIS - Protección Apoyo Empleabilidad y Emprendimiento Personas con Discapacidad;77250;0
+05;72;03;33;03;115;SUBPESCA - Transferencia Técnica, Medidas de Prevención ingreso Didymo Magallanes y Antártica Chilena BIP 30119504-0;127869;0
+05;72;03;33;03;117;SERNATUR-Capacitación implementación normas de calidad turísticas XII Región;47180;0
+05;72;03;33;03;122;SERNAPESCA-Transferencia técnica, desarrollo comercial, pesca artesanal, XII Región. (30203172-0);182310;0
+05;72;03;33;03;123;SUBPESCA-Transferencia Técnica y Capacitación, Pesca Artesanal, XII Región (30356282-0);223510;0
+05;72;03;33;03;126;SERCOTEC-Transferencia de Competencias y Recursos a Emprendedores y MIPES, XII Región. (30358373-0);705550;0
+05;72;03;33;03;127;CORFO-Transferencia Apoyo a la Inversión Productiva, XII Región (30375223-0);344889;0
+05;72;03;33;03;128;SEREMI AGRICULTURA-Transferencia ERNC Sector Silvoagropecuario, Región de Magallanes (30363072-0);436975;0
+05;72;03;33;03;129;SERNATUR-Transferencia Programa de Consolidación y Nuevos Destinos Turísticos de la Patagonia (30361778-0);1648000;0
+05;72;03;33;03;130;CONAF-Forestación germoplasma segunda etapa (30296324-0);227925;0
+05;72;03;33;03;131;SERNAM-Transferencia técnico financiera apoyo a emprendimientos y microempresarios (30365722-0);700400;0
+05;72;03;34;;;SERVICIO DE LA DEUDA;1000;0
+05;72;03;34;07;;Deuda Flotante;1000;0

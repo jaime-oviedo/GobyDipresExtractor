@@ -1,0 +1,64 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Denominación;Monto Pesos;Monto Dólar
+18;01;01;07;;;INGRESOS DE OPERACIÓN;10;0
+18;01;01;07;02;;Venta de Servicios;10;0
+18;01;01;08;;;OTROS INGRESOS CORRIENTES;1028445;0
+18;01;01;08;01;;Recuperaciones y Reembolsos por Licencias Médicas;801855;0
+18;01;01;08;02;;Multas y Sanciones Pecuniarias;20590;0
+18;01;01;08;99;;Otros;206000;0
+18;01;01;09;;;APORTE FISCAL;201860279;0
+18;01;01;09;01;;Libre;201860279;0
+18;01;01;10;;;VENTA DE ACTIVOS NO FINANCIEROS;49440;0
+18;01;01;10;03;;Vehículos;23690;0
+18;01;01;10;04;;Mobiliario y Otros;1030;0
+18;01;01;10;99;;Otros Activos no Financieros;24720;0
+18;01;01;12;;;RECUPERACIÓN DE PRÉSTAMOS;320000;0
+18;01;01;12;10;;Ingresos por Percibir;320000;0
+18;01;01;13;;;TRANSFERENCIAS PARA GASTOS DE CAPITAL;2704912;0
+18;01;01;13;02;;Del Gobierno Central;2704912;0
+18;01;01;13;02;005;IVA Concesiones Transantiago;1244372;0
+18;01;01;13;02;008;De la Subsecretaría de Energía;1069140;0
+18;01;01;13;02;015;Subsecretaría de Economía;391400;0
+18;01;01;15;;;SALDO INICIAL DE CAJA;120000;0
+18;01;01;21;;;GASTOS EN PERSONAL;73512027;0
+18;01;01;22;;;BIENES Y SERVICIOS DE CONSUMO;12282348;0
+18;01;01;23;;;PRESTACIONES DE SEGURIDAD SOCIAL;10;0
+18;01;01;23;01;;Prestaciones Previsionales;10;0
+18;01;01;24;;;TRANSFERENCIAS CORRIENTES;1022437;0
+18;01;01;24;01;;Al Sector Privado;1022437;0
+18;01;01;24;01;005;Fundación Nacional para la Superación de la Pobreza;772500;0
+18;01;01;24;01;012;Convenio MINVU - Instituto Forestal;28357;0
+18;01;01;24;01;500;Instituto de la Construcción;133643;0
+18;01;01;24;01;502;Instituto Nacional de Normalización;87937;0
+18;01;01;25;;;INTEGROS AL FISCO;7380;0
+18;01;01;25;01;;Impuestos;7380;0
+18;01;01;26;;;OTROS GASTOS CORRIENTES;4114371;0
+18;01;01;26;02;;Compensaciones por Daños a Terceros y/o a la Propiedad;4114371;0
+18;01;01;29;;;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS;4377344;0
+18;01;01;29;03;;Vehículos;299164;0
+18;01;01;29;04;;Mobiliario y Otros;72615;0
+18;01;01;29;05;;Máquinas y Equipos;108459;0
+18;01;01;29;06;;Equipos Informáticos;561299;0
+18;01;01;29;07;;Programas Informáticos;3335807;0
+18;01;01;31;;;INICIATIVAS DE INVERSIÓN;28590671;0
+18;01;01;31;02;;Proyectos;28590671;0
+18;01;01;33;;;TRANSFERENCIAS DE CAPITAL;82135548;0
+18;01;01;33;01;;Al Sector Privado;81667703;0
+18;01;01;33;01;027;IVA Concesiones Transantiago;1244372;0
+18;01;01;33;01;037;Cumplimiento Convenio MINVU-PNUD;986842;0
+18;01;01;33;01;041;Convenio Universidades;51486;0
+18;01;01;33;01;046;Convenio MINVU - SERNAC;30900;0
+18;01;01;33;01;047;Convenio MINVU - Fundacion Chile;45370;0
+18;01;01;33;01;050;Convenio MINVU - Centro de Innovación en Madera;76410;0
+18;01;01;33;01;124;Subsidio Complementario;171733;0
+18;01;01;33;01;125;Subsidio a la Originación;930123;0
+18;01;01;33;01;126;Subsidio Implicito;1927;0
+18;01;01;33;01;127;Subsidios Leasing;7252091;0
+18;01;01;33;01;129;Subsidios Cartera Hipotecaria;58484831;0
+18;01;01;33;01;130;Subsidio de Aislamiento Térmico;1069140;0
+18;01;01;33;01;134;Subsidio al Arriendo;11322478;0
+18;01;01;33;03;;A Otras Entidades Públicas;414388;0
+18;01;01;33;03;001;Otras Transferencias a  SERVIU;414388;0
+18;01;01;33;07;;A Organismos Internacionales;53457;0
+18;01;01;33;07;001;Convenio Cities Alliance;53457;0
+18;01;01;34;;;SERVICIO DE LA DEUDA;40950;0
+18;01;01;34;07;;Deuda Flotante;40950;0

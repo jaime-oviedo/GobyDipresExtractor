@@ -1,0 +1,45 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Denominación;Monto Pesos;Monto Dólar
+16;02;01;04;;;IMPOSICIONES PREVISIONALES;1992563661;0
+16;02;01;04;02;;Aportes del Trabajador;1992563661;0
+16;02;01;05;;;TRANSFERENCIAS CORRIENTES;103318478;0
+16;02;01;05;02;;Del Gobierno Central;103318478;0
+16;02;01;05;02;006;Caja de Previsión de la Defensa Nacional;865361;0
+16;02;01;05;02;009;Ley N° 20.595 y Sistema Chile Solidario;4039010;0
+16;02;01;05;02;011;Fondo para Diagnóstico y Tratamientos de Alto Costo Ley N°20.850;80000000;0
+16;02;01;05;02;015;Sistema de Protección Integral a la Infancia;18414107;0
+16;02;01;08;;;OTROS INGRESOS CORRIENTES;168167481;0
+16;02;01;08;01;;Recuperaciones y Reembolsos por Licencias Médicas;335951;0
+16;02;01;08;04;;Fondos de Terceros;162076885;0
+16;02;01;08;04;001;Curativa Cargo Usuario;162076885;0
+16;02;01;08;99;;Otros;5754645;0
+16;02;01;09;;;APORTE FISCAL;3998720706;0
+16;02;01;09;01;;Libre;3998720706;0
+16;02;01;12;;;RECUPERACIÓN DE PRÉSTAMOS;6656488;0
+16;02;01;12;05;;Médicos;6656488;0
+16;02;01;15;;;SALDO INICIAL DE CAJA;1000;0
+16;02;01;21;;;GASTOS EN PERSONAL;19354013;0
+16;02;01;22;;;BIENES Y SERVICIOS DE CONSUMO;26603754;0
+16;02;01;23;;;PRESTACIONES DE SEGURIDAD SOCIAL;918376944;0
+16;02;01;23;01;;Prestaciones Previsionales;918376944;0
+16;02;01;23;01;009;Bonificaciones de Salud;555587383;0
+16;02;01;23;01;014;Subsidio Cajas de Compensación de Asignación Familiar;362789561;0
+16;02;01;24;;;TRANSFERENCIAS CORRIENTES;5292235555;0
+16;02;01;24;02;;Al Gobierno Central;5212235555;0
+16;02;01;24;02;034;Instituto de Salud Pública de Chile;631267;0
+16;02;01;24;02;035;Programa de Atención Primaria;1524667712;0
+16;02;01;24;02;036;Programa de Prestaciones Valoradas;1609229339;0
+16;02;01;24;02;037;Programa de Prestaciones Institucionales;1965382495;0
+16;02;01;24;02;043;Subsecretaría de Salud Pública;112170242;0
+16;02;01;24;02;045;Comité Industrias Inteligentes;154500;0
+16;02;01;24;03;;A Otras Entidades Públicas;80000000;0
+16;02;01;24;03;410;Aplicación Ley N°20.850;80000000;0
+16;02;01;29;;;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS;1625759;0
+16;02;01;29;04;;Mobiliario y Otros;72593;0
+16;02;01;29;05;;Máquinas y Equipos;1321;0
+16;02;01;29;06;;Equipos Informáticos;1386010;0
+16;02;01;29;07;;Programas Informáticos;165835;0
+16;02;01;32;;;PRÉSTAMOS;11229789;0
+16;02;01;32;05;;Médicos;11229789;0
+16;02;01;34;;;SERVICIO DE LA DEUDA;1000;0
+16;02;01;34;07;;Deuda Flotante;1000;0
+16;02;01;35;;;SALDO FINAL DE CAJA;1000;0

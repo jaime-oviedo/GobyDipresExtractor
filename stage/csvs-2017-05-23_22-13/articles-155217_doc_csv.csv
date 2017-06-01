@@ -1,0 +1,29 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Denominación;Monto Pesos;Monto Dólar
+16;40;01;05;;;TRANSFERENCIAS CORRIENTES;61239412;0
+16;40;01;05;02;;Del Gobierno Central;61239412;0
+16;40;01;05;02;007;Fondo Nacional de Salud - Atención Primaria;8413940;0
+16;40;01;05;02;008;Fondo Nacional de Salud - Prestaciones Valoradas;8079467;0
+16;40;01;05;02;009;Fondo Nacional de Salud - Prestaciones Institucionales;44641898;0
+16;40;01;05;02;010;Subsecretaría de Salud Pública;104107;0
+16;40;01;06;;;RENTAS DE LA PROPIEDAD;10269;0
+16;40;01;07;;;INGRESOS DE OPERACIÓN;1803048;0
+16;40;01;08;;;OTROS INGRESOS CORRIENTES;763050;0
+16;40;01;08;01;;Recuperaciones y Reembolsos por Licencias Médicas;695402;0
+16;40;01;08;02;;Multas y Sanciones Pecuniarias;12779;0
+16;40;01;08;99;;Otros;54869;0
+16;40;01;12;;;RECUPERACIÓN DE PRÉSTAMOS;320980;0
+16;40;01;12;10;;Ingresos por Percibir;320980;0
+16;40;01;15;;;SALDO INICIAL DE CAJA;6632;0
+16;40;01;21;;;GASTOS EN PERSONAL;49138872;0
+16;40;01;22;;;BIENES Y SERVICIOS DE CONSUMO;14861141;0
+16;40;01;23;;;PRESTACIONES DE SEGURIDAD SOCIAL;600;0
+16;40;01;23;02;;Prestaciones de Asistencia Social;600;0
+16;40;01;23;02;004;Ayudas Económicas y Otros Pagos Preventivos;600;0
+16;40;01;24;;;TRANSFERENCIAS CORRIENTES;9755;0
+16;40;01;24;01;;Al Sector Privado;6011;0
+16;40;01;24;01;461;Centros de Prevención de Alcoholismo y Salud Mental;6011;0
+16;40;01;24;03;;A Otras Entidades Públicas;3744;0
+16;40;01;24;03;298;Atención Primaria, Ley N° 19.378;3744;0
+16;40;01;29;;;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS;126385;0
+16;40;01;29;04;;Mobiliario y Otros;126385;0
+16;40;01;35;;;SALDO FINAL DE CAJA;6638;0

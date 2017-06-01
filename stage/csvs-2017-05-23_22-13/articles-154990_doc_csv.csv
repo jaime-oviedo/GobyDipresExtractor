@@ -1,0 +1,26 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Denominación;Monto Pesos;Monto Dólar
+02;03;01;07;;;INGRESOS DE OPERACIÓN;5032;0
+02;03;01;07;02;;Venta de Servicios;5032;0
+02;03;01;08;;;OTROS INGRESOS CORRIENTES;76098;0
+02;03;01;08;01;;Recuperaciones y Reembolsos por Licencias Médicas;76098;0
+02;03;01;09;;;APORTE FISCAL;12101973;0
+02;03;01;09;01;;Libre;11911369;0
+02;03;01;09;03;;Servicio de la Deuda Externa;190604;0
+02;03;01;12;;;RECUPERACIÓN DE PRÉSTAMOS;113;0
+02;03;01;12;10;;Ingresos por Percibir;113;0
+02;03;01;21;;;GASTOS EN PERSONAL;9740826;0
+02;03;01;22;;;BIENES Y SERVICIOS DE CONSUMO;1769001;0
+02;03;01;23;;;PRESTACIONES DE SEGURIDAD SOCIAL;86680;0
+02;03;01;23;01;;Prestaciones Previsionales;86680;0
+02;03;01;24;;;TRANSFERENCIAS CORRIENTES;128775;0
+02;03;01;24;03;;A Otras Entidades Públicas;128775;0
+02;03;01;24;03;001;Programa Formación Cívica;128775;0
+02;03;01;29;;;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS;267330;0
+02;03;01;29;02;;Edificios;37869;0
+02;03;01;29;04;;Mobiliario y Otros;10407;0
+02;03;01;29;05;;Máquinas y Equipos;63393;0
+02;03;01;29;06;;Equipos Informáticos;85133;0
+02;03;01;29;07;;Programas Informáticos;70528;0
+02;03;01;34;;;SERVICIO DE LA DEUDA;190604;0
+02;03;01;34;02;;Amortización Deuda Externa;166419;0
+02;03;01;34;04;;Intereses Deuda Externa;24185;0

@@ -1,0 +1,32 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Denominación;Monto Pesos;Monto Dólar
+20;01;01;08;;;OTROS INGRESOS CORRIENTES;214122;0
+20;01;01;08;01;;Recuperaciones y Reembolsos por Licencias Médicas;169688;0
+20;01;01;08;99;;Otros;44434;0
+20;01;01;09;;;APORTE FISCAL;20400796;0
+20;01;01;09;01;;Libre;20052409;0
+20;01;01;09;03;;Servicio de la Deuda Externa;348387;0
+20;01;01;10;;;VENTA DE ACTIVOS NO FINANCIEROS;1545;0
+20;01;01;10;03;;Vehículos;1030;0
+20;01;01;10;04;;Mobiliario y Otros;515;0
+20;01;01;15;;;SALDO INICIAL DE CAJA;1000;0
+20;01;01;21;;;GASTOS EN PERSONAL;8947964;0
+20;01;01;22;;;BIENES Y SERVICIOS DE CONSUMO;4534015;0
+20;01;01;24;;;TRANSFERENCIAS CORRIENTES;6504543;0
+20;01;01;24;03;;A Otras Entidades Públicas;6504543;0
+20;01;01;24;03;313;División de Organizaciones Sociales;1252518;0
+20;01;01;24;03;314;Secretaría de Comunicaciones;1030000;0
+20;01;01;24;03;315;Seguimiento de Políticas Públicas y Gestión Institucional;946590;0
+20;01;01;24;03;316;Fondo de Fomento de Medios de Comunicación Regionales, Provinciales y Comunales;1571870;0
+20;01;01;24;03;318;Fondo de Fortalecimiento de Organizaciones y Asociaciones de Interés Público (Ley N° 20.500);1427060;0
+20;01;01;24;03;319;Observatorio de Participación Ciudadana y No Discriminación;276505;0
+20;01;01;29;;;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS;278139;0
+20;01;01;29;03;;Vehículos;72100;0
+20;01;01;29;04;;Mobiliario y Otros;18722;0
+20;01;01;29;05;;Máquinas y Equipos;20806;0
+20;01;01;29;06;;Equipos Informáticos;109179;0
+20;01;01;29;07;;Programas Informáticos;57332;0
+20;01;01;34;;;SERVICIO DE LA DEUDA;349387;0
+20;01;01;34;02;;Amortización Deuda Externa;235000;0
+20;01;01;34;04;;Intereses Deuda Externa;113387;0
+20;01;01;34;07;;Deuda Flotante;1000;0
+20;01;01;35;;;SALDO FINAL DE CAJA;3415;0

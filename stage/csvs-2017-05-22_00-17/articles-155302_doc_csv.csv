@@ -1,0 +1,85 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Denominación;Monto Pesos;Monto Dólar
+50;01;01;01;;;IMPUESTOS;30845500779;4000
+50;01;01;01;01;;Impuestos a la Renta;12389716573;1683027
+50;01;01;01;01;001;Primera Categoría;7241150355;1365531
+50;01;01;01;01;002;Segunda Categoría, Sueldos, Salarios y Pensiones;2770394817;0
+50;01;01;01;01;003;Global Complementario;529238685;0
+50;01;01;01;01;004;Adicional;1531430964;173357
+50;01;01;01;01;005;Tasa 40% DL N° 2.398 de 1978;148154043;0
+50;01;01;01;01;006;Artículo 21 Ley Impuesto a la Renta;116018700;24109
+50;01;01;01;01;007;Término de Giro;52417300;10
+50;01;01;01;01;009;Impuesto Específico a la Actividad Minera;911699;120020
+50;01;01;01;01;010;Instrumentos Deuda Art.104 N° 3 Ley Impuesto Renta;10;0
+50;01;01;01;02;;Impuesto al Valor Agregado;15498036928;0
+50;01;01;01;02;001;Tasa General Débitos;52536521561;0
+50;01;01;01;02;002;Tasa General Créditos;-44782131720;0
+50;01;01;01;02;101;Tasas Especiales Débitos;969587507;0
+50;01;01;01;02;102;Tasas Especiales Créditos;-397519034;0
+50;01;01;01;02;201;Tasa General de Importaciones;7171578614;0
+50;01;01;01;03;;Impuestos a Productos Específicos;2747408815;0
+50;01;01;01;03;001;Tabacos, Cigarros y Cigarrillos;1058069489;0
+50;01;01;01;03;002;Derechos de Explotación ENAP;3576160;0
+50;01;01;01;03;003;Gasolinas, Petróleo Diésel y Otros;1676082266;0
+50;01;01;01;03;004;Derechos de Extracción Ley de Pesca;9680900;0
+50;01;01;01;04;;Impuestos a los Actos Jurídicos;542565852;0
+50;01;01;01;05;;Impuestos al Comercio Exterior;349058923;6346
+50;01;01;01;05;001;Derechos Específicos de Internación;407160;0
+50;01;01;01;05;002;Derechos Ad-Valorem;360796362;0
+50;01;01;01;05;003;Otros;8306977;6346
+50;01;01;01;05;004;Sistemas de Pago;-20451576;0
+50;01;01;01;06;;Impuestos Varios;371970599;0
+50;01;01;01;06;001;Herencias y Donaciones;98802812;0
+50;01;01;01;06;002;Patentes Mineras;82114953;0
+50;01;01;01;06;004;Juegos de Azar;112867940;0
+50;01;01;01;06;006;Otros;78184894;0
+50;01;01;01;07;;Otros Ingresos Tributarios;203443519;11359
+50;01;01;01;07;001;Reajuste de Impuestos de Declaración Anual;22334200;0
+50;01;01;01;07;002;Multas e Intereses por Impuestos;181109319;11359
+50;01;01;01;09;;Sistemas de Pago de Impuestos;-1256700430;-1696732
+50;01;01;01;09;001;Pagos Provisionales del Año;7369023574;1192801
+50;01;01;01;09;002;Créditos para Declaración Anual de Renta;-8420639723;-1823596
+50;01;01;01;09;003;Devoluciones Determinadas Declaración Anual de Renta;3683076631;719688
+50;01;01;01;09;004;Devoluciones de Renta;-3576309304;-590143
+50;01;01;01;09;005;Reintegro de Devoluciones de Renta;26930075;9276
+50;01;01;01;09;101;IVA Remanente Crédito del Período;51872476974;0
+50;01;01;01;09;102;IVA Remanente Crédito Períodos Anteriores;-45121266082;0
+50;01;01;01;09;103;Devoluciones de IVA;-6968717129;0
+50;01;01;01;09;104;Reintegro de Devoluciones de IVA;17582700;0
+50;01;01;01;09;201;Devoluciones de Aduanas;-3326445;-327
+50;01;01;01;09;202;Devoluciones de Otros Impuestos;-3148356;0
+50;01;01;01;09;301;Fluctuación Deudores del Período;-833997103;-222
+50;01;01;01;09;302;Fluctuación Deudores de Períodos Anteriores;187588008;3000
+50;01;01;01;09;303;Reajuste por Pago Fuera de Plazo;45501651;0
+50;01;01;01;09;401;Diferencias de Pago;11372279;267
+50;01;01;01;09;501;Impuestos de Declaración y Pago Simultáneo Mensual de Empresas Constructoras;-359120709;0
+50;01;01;01;09;502;Recuperación Peajes Ley N° 19.764;-15331033;0
+50;01;01;01;09;503;Imputación Patentes Código de Aguas;-2552512;0
+50;01;01;01;09;504;Imputación Crédito SENCE Artículo 6° Ley N° 20.326;125182;0
+50;01;01;01;09;505;Crédito Sistemas Solares Térmicos Ley N° 20.365;-11202308;0
+50;01;01;01;09;701;Conversión de Pagos en Moneda Extranjera;845233200;-1207476
+50;01;01;05;;;TRANSFERENCIAS CORRIENTES;41186187;1280010
+50;01;01;05;01;;Del Sector Privado;10;0
+50;01;01;05;02;;Del Gobierno Central;38836579;1280010
+50;01;01;05;03;;De Otras Entidades Públicas;2349598;0
+50;01;01;06;;;RENTAS DE LA PROPIEDAD;249361362;15535
+50;01;01;06;02;;Dividendos;42731667;0
+50;01;01;06;03;;Intereses;23830533;13407
+50;01;01;06;04;;Participación de Utilidades;98461820;0
+50;01;01;06;99;;Otras Rentas de la Propiedad;84337342;2128
+50;01;01;07;;;INGRESOS DE OPERACIÓN;17511333;8657
+50;01;01;07;01;;Venta de Bienes;14997994;8657
+50;01;01;07;02;;Venta de Servicios;2513339;0
+50;01;01;08;;;OTROS INGRESOS CORRIENTES;344275079;9999
+50;01;01;08;02;;Multas y Sanciones Pecuniarias;102870332;0
+50;01;01;08;99;;Otros;241404747;9999
+50;01;01;08;99;001;Devoluciones y Reintegros no Provenientes de Impuestos;6569213;0
+50;01;01;08;99;999;Otros;234835534;9999
+50;01;01;10;;;VENTA DE ACTIVOS NO FINANCIEROS;332296;0
+50;01;01;11;;;VENTA DE ACTIVOS FINANCIEROS;2604155180;10158
+50;01;01;11;01;;Venta o Rescate de Títulos y Valores;2553388370;82672
+50;01;01;11;03;;Operaciones de Cambio;50766800;-72524
+50;01;01;11;99;;Otros Activos Financieros;10;10
+50;01;01;12;;;RECUPERACIÓN DE PRÉSTAMOS;10;0
+50;01;01;12;04;;De Fomento;10;0
+50;01;01;14;;;ENDEUDAMIENTO;6300000000;223298
+50;01;01;15;;;SALDO INICIAL DE CAJA;5000000;2000

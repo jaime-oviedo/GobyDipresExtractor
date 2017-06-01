@@ -1,0 +1,191 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Denominación;Monto Pesos;Monto Dólar
+50;01;05;27;;;APORTE FISCAL LIBRE;33540615527;479454
+50;01;05;27;01;;PRESIDENCIA DE LA REPÚBLICA;18979823;0
+50;01;05;27;01;001;Presidencia de la República;18979823;0
+50;01;05;27;02;;CONGRESO NACIONAL;117948203;0
+50;01;05;27;02;001;Senado;40205415;0
+50;01;05;27;02;002;Cámara de Diputados;64737169;0
+50;01;05;27;02;003;Biblioteca del Congreso;11911369;0
+50;01;05;27;02;004;Consejo Resolutivo de Asignaciones Parlamentarias;1094250;0
+50;01;05;27;03;;PODER JUDICIAL;528807304;0
+50;01;05;27;03;001;Poder Judicial;350704344;0
+50;01;05;27;03;003;Corporación Administrativa del Poder Judicial;174530123;0
+50;01;05;27;03;004;Academia Judicial;3572837;0
+50;01;05;27;04;;CONTRALORÍA GENERAL DE LA REPÚBLICA;70405877;0
+50;01;05;27;04;001;Contraloría General de la República;70405877;0
+50;01;05;27;05;;MINISTERIO DEL INTERIOR Y SEGURIDAD PÚBLICA;2633088212;58873
+50;01;05;27;05;002;Servicio de Gobierno Interior;63044535;0
+50;01;05;27;05;004;Oficina Nacional de Emergencia;13921316;0
+50;01;05;27;05;005;Subsecretaría de Desarrollo Regional y Administrativo;489184203;0
+50;01;05;27;05;007;Agencia Nacional de Inteligencia;6006664;0
+50;01;05;27;05;008;Subsecretaría de Prevención del Delito;44176886;0
+50;01;05;27;05;009;Servicio Nacional para Prevención y Rehabilitación Consumo de Drogas y Alcohol;61971960;0
+50;01;05;27;05;010;Subsecretaría del Interior;73354364;0
+50;01;05;27;05;031;Carabineros de Chile;1031148122;58873
+50;01;05;27;05;033;Policía de Investigaciones de Chile;303739300;0
+50;01;05;27;05;061;Gobierno Regional Región I Tarapacá;21794333;0
+50;01;05;27;05;062;Gobierno Regional Región II Antofagasta;29859592;0
+50;01;05;27;05;063;Gobierno Regional Región III Atacama;24698086;0
+50;01;05;27;05;064;Gobierno Regional Región IV Coquimbo;34214523;0
+50;01;05;27;05;065;Gobierno Regional Región V Valparaíso;42620226;0
+50;01;05;27;05;066;Gobierno Regional Región VI Libertador General Bernardo O'Higgins;34740355;0
+50;01;05;27;05;067;Gobierno Regional Región VII Maule;44650321;0
+50;01;05;27;05;068;Gobierno Regional Región VIII Bío-Bío;63643299;0
+50;01;05;27;05;069;Gobierno Regional Región IX Araucanía;50779316;0
+50;01;05;27;05;070;Gobierno Regional Región X Los Lagos;37094051;0
+50;01;05;27;05;071;Gobierno Regional Región XI Aysén del General Carlos Ibáñez del Campo;26095031;0
+50;01;05;27;05;072;Gobierno Regional Región XII Magallanes y Antártica Chilena;25754935;0
+50;01;05;27;05;073;Gobierno Regional Región Metropolitana de Santiago;64477554;0
+50;01;05;27;05;074;Gobierno Regional Región XIV Los Ríos;27926305;0
+50;01;05;27;05;075;Gobierno Regional Región XV Arica y Parinacota;18192935;0
+50;01;05;27;06;;MINISTERIO DE RELACIONES EXTERIORES;78199144;207132
+50;01;05;27;06;001;Secretaría y Administración General y Servicio Exterior;29747364;182983
+50;01;05;27;06;002;Dirección General de Relaciones Económicas Internacionales;25107933;24149
+50;01;05;27;06;003;Dirección de Fronteras y Límites del Estado;11209918;0
+50;01;05;27;06;004;Instituto Antártico Chileno;4243874;0
+50;01;05;27;06;005;Agencia de Cooperación Internacional de Chile;7890055;0
+50;01;05;27;07;;MINISTERIO DE ECONOMÍA, FOMENTO Y TURISMO;415497440;0
+50;01;05;27;07;001;Subsecretaría de Economía y Empresas de Menor Tamaño;195918165;0
+50;01;05;27;07;002;Servicio Nacional del Consumidor;10183919;0
+50;01;05;27;07;003;Subsecretaría de Pesca y Acuicultura;31715798;0
+50;01;05;27;07;004;Servicio Nacional de Pesca y Acuicultura;28800849;0
+50;01;05;27;07;006;Corporación de Fomento de la Producción;10100207;0
+50;01;05;27;07;007;Instituto Nacional de Estadísticas;60287656;0
+50;01;05;27;07;008;Fiscalía Nacional Económica;6529437;0
+50;01;05;27;07;009;Servicio Nacional de Turismo;25129709;0
+50;01;05;27;07;016;Servicio de Cooperación Técnica;20722634;0
+50;01;05;27;07;021;Agencia de Promoción de la Inversión Extranjera;4853548;0
+50;01;05;27;07;023;Instituto Nacional de Propiedad Industrial;6660946;0
+50;01;05;27;07;024;Subsecretaría de Turismo;9298411;0
+50;01;05;27;07;025;Superintendencia de Insolvencia y Reemprendimiento;5296161;0
+50;01;05;27;08;;MINISTERIO DE HACIENDA;407675364;0
+50;01;05;27;08;001;Secretaría y Administración General;23208137;0
+50;01;05;27;08;002;Dirección de Presupuestos;21773917;0
+50;01;05;27;08;003;Servicio de Impuestos Internos;181209425;0
+50;01;05;27;08;004;Servicio Nacional de Aduanas;66051705;0
+50;01;05;27;08;005;Servicio de Tesorerías;53682843;0
+50;01;05;27;08;007;Dirección de Compras y Contratación Pública;8397420;0
+50;01;05;27;08;008;Superintendencia de Valores y Seguros;16058501;0
+50;01;05;27;08;015;Dirección Nacional del Servicio Civil;10287175;0
+50;01;05;27;08;016;Unidad de Análisis Financiero;3172066;0
+50;01;05;27;08;017;Superintendencia de Casinos de Juego;4043925;0
+50;01;05;27;08;030;Consejo de Defensa del Estado;19790250;0
+50;01;05;27;09;;MINISTERIO DE EDUCACIÓN;9264059482;0
+50;01;05;27;09;001;Subsecretaría de Educación;7114353195;0
+50;01;05;27;09;002;Superintendencia de Educación;29223754;0
+50;01;05;27;09;003;Agencia de Calidad de la Educación;33934080;0
+50;01;05;27;09;004;Subsecretaría de Educación Parvularia;240736180;0
+50;01;05;27;09;005;Dirección de Bibliotecas, Archivos y Museos;53553029;0
+50;01;05;27;09;008;Comisión Nacional de Investigación Científica y Tecnológica;267254295;0
+50;01;05;27;09;009;Junta Nacional de Auxilio Escolar y Becas;978114793;0
+50;01;05;27;09;011;Junta Nacional de Jardines Infantiles;430013887;0
+50;01;05;27;09;015;Consejo Nacional de Educación;2019956;0
+50;01;05;27;09;016;Consejo Nacional de la Cultura y las Artes;114856313;0
+50;01;05;27;10;;MINISTERIO DE JUSTICIA Y DERECHOS HUMANOS;976368290;0
+50;01;05;27;10;001;Secretaría y Administración General;168598686;0
+50;01;05;27;10;002;Servicio de Registro Civil e Identificación;5615320;0
+50;01;05;27;10;003;Servicio Médico Legal;39767182;0
+50;01;05;27;10;004;Gendarmería de Chile;426361500;0
+50;01;05;27;10;006;Subsecretaría de Derechos Humanos;2984958;0
+50;01;05;27;10;007;Servicio Nacional de Menores;278193937;0
+50;01;05;27;10;009;Defensoría Penal Pública;54846707;0
+50;01;05;27;11;;MINISTERIO DE DEFENSA NACIONAL;1118674283;213449
+50;01;05;27;11;001;Ejército de Chile;513458111;35647
+50;01;05;27;11;005;Armada de Chile;361260373;66095
+50;01;05;27;11;009;Fuerza Aérea de Chile;205816651;77984
+50;01;05;27;11;018;Dirección General de Movilización Nacional;1625742;0
+50;01;05;27;11;019;Instituto Geográfico Militar;2077334;0
+50;01;05;27;11;020;Servicio Hidrográfico y Oceanográfico de la Armada de Chile;5041503;0
+50;01;05;27;11;022;Servicio Aerofotogramétrico de la FACH;1918457;0
+50;01;05;27;11;023;Subsecretaría para las Fuerzas Armadas;14569315;0
+50;01;05;27;11;024;Subsecretaría de Defensa;4334175;0
+50;01;05;27;11;025;Estado Mayor Conjunto;8572622;33723
+50;01;05;27;12;;MINISTERIO DE OBRAS PÚBLICAS;1891715845;0
+50;01;05;27;12;001;Secretaría y Administración General;19547922;0
+50;01;05;27;12;002;Dirección General de Obras Públicas;1847360627;0
+50;01;05;27;12;004;Dirección General de Aguas;13338078;0
+50;01;05;27;12;005;Instituto Nacional de Hidráulica;1367450;0
+50;01;05;27;12;007;Superintendencia de Servicios Sanitarios;10101768;0
+50;01;05;27;13;;MINISTERIO DE AGRICULTURA;443226714;0
+50;01;05;27;13;001;Subsecretaría de Agricultura;61088926;0
+50;01;05;27;13;002;Oficina de Estudios y Políticas Agrarias;6260011;0
+50;01;05;27;13;003;Instituto de Desarrollo Agropecuario;195341621;0
+50;01;05;27;13;004;Servicio Agrícola y Ganadero;95742324;0
+50;01;05;27;13;005;Corporación Nacional Forestal;72288396;0
+50;01;05;27;13;006;Comisión Nacional de Riego;12505436;0
+50;01;05;27;14;;MINISTERIO DE BIENES NACIONALES;11640686;0
+50;01;05;27;14;001;Subsecretaría de Bienes Nacionales;11640686;0
+50;01;05;27;15;;MINISTERIO DEL TRABAJO Y PREVISIÓN SOCIAL;6321569310;0
+50;01;05;27;15;001;Subsecretaría del Trabajo;21868929;0
+50;01;05;27;15;002;Dirección del Trabajo;63395645;0
+50;01;05;27;15;003;Subsecretaría de Previsión Social;6016426;0
+50;01;05;27;15;005;Servicio Nacional de Capacitación y Empleo;185622321;0
+50;01;05;27;15;006;Superintendencia de Seguridad Social;12926003;0
+50;01;05;27;15;007;Superintendencia de Pensiones;14501696;0
+50;01;05;27;15;009;Instituto de Previsión Social;4445308628;0
+50;01;05;27;15;013;Caja de Previsión de la Defensa Nacional;991565128;0
+50;01;05;27;15;014;Dirección de Previsión de Carabineros de Chile;580364534;0
+50;01;05;27;16;;MINISTERIO DE SALUD;4683331550;0
+50;01;05;27;16;002;Fondo Nacional de Salud;3998720706;0
+50;01;05;27;16;004;Instituto de Salud Pública de Chile;15772026;0
+50;01;05;27;16;009;Subsecretaría de Salud Pública;227143101;0
+50;01;05;27;16;010;Subsecretaría de Redes Asistenciales;428816222;0
+50;01;05;27;16;011;Superintendencia de Salud;12879495;0
+50;01;05;27;17;;MINISTERIO DE MINERÍA;69218644;0
+50;01;05;27;17;001;Secretaría y Administración General;37723190;0
+50;01;05;27;17;002;Comisión Chilena del Cobre;4827635;0
+50;01;05;27;17;003;Servicio Nacional de Geología y Minería;26667819;0
+50;01;05;27;18;;MINISTERIO DE VIVIENDA Y URBANISMO;2288809886;0
+50;01;05;27;18;001;Subsecretaría de Vivienda y Urbanismo;264756045;0
+50;01;05;27;18;002;Parque Metropolitano;23821163;0
+50;01;05;27;18;021;Serviu I Región;82249837;0
+50;01;05;27;18;022;Serviu II Región;52424673;0
+50;01;05;27;18;023;Serviu III Región;62482103;0
+50;01;05;27;18;024;Serviu IV Región;110524748;0
+50;01;05;27;18;025;Serviu V Región;185311803;0
+50;01;05;27;18;026;Serviu VI Región;92230726;0
+50;01;05;27;18;027;Serviu VII Región;181996678;0
+50;01;05;27;18;028;Serviu VIII Región;255375806;0
+50;01;05;27;18;029;Serviu IX Región;216954896;0
+50;01;05;27;18;030;Serviu X Región;133485403;0
+50;01;05;27;18;031;Serviu XI Región;30315681;0
+50;01;05;27;18;032;Serviu XII Región;41343350;0
+50;01;05;27;18;033;Serviu Región Metropolitana;476618473;0
+50;01;05;27;18;034;Serviu XIV Región;52805159;0
+50;01;05;27;18;035;Serviu XV Región;26113342;0
+50;01;05;27;19;;MINISTERIO DE TRANSPORTES Y TELECOMUNICACIONES;954275621;0
+50;01;05;27;19;001;Secretaría y Administración General de Transportes;928942082;0
+50;01;05;27;19;002;Subsecretaría de Telecomunicaciones;24210464;0
+50;01;05;27;19;003;Junta Aeronáutica Civil;1123075;0
+50;01;05;27;20;;MINISTERIO SECRETARÍA GENERAL DE GOBIERNO;28414596;0
+50;01;05;27;20;001;Secretaría General de Gobierno;20052409;0
+50;01;05;27;20;002;Consejo Nacional de Televisión;8362187;0
+50;01;05;27;21;;MINISTERIO DE DESARROLLO SOCIAL;610710332;0
+50;01;05;27;21;001;Subsecretaría de Servicios Sociales;351733728;0
+50;01;05;27;21;002;Fondo de Solidaridad e Inversión Social;60171968;0
+50;01;05;27;21;005;Instituto Nacional de la Juventud;7845336;0
+50;01;05;27;21;006;Corporación Nacional de Desarrollo Indígena;123485610;0
+50;01;05;27;21;007;Servicio Nacional de la Discapacidad;16374220;0
+50;01;05;27;21;008;Servicio Nacional del Adulto Mayor;30924667;0
+50;01;05;27;21;009;Subsecretaría de Evaluación Social;20174803;0
+50;01;05;27;22;;MINISTERIO SECRETARÍA GENERAL DE LA PRESIDENCIA DE LA REPÚBLICA;14948672;0
+50;01;05;27;22;001;Secretaría General de la Presidencia de la República;14948672;0
+50;01;05;27;23;;MINISTERIO PÚBLICO;177934009;0
+50;01;05;27;23;001;Ministerio Público;177934009;0
+50;01;05;27;24;;MINISTERIO DE ENERGÍA;142017095;0
+50;01;05;27;24;001;Subsecretaría de Energía;115477561;0
+50;01;05;27;24;002;Comisión Nacional de Energía;6106272;0
+50;01;05;27;24;003;Comisión Chilena de Energía Nuclear;7730877;0
+50;01;05;27;24;004;Superintendencia de Electricidad y Combustibles;12702385;0
+50;01;05;27;25;;MINISTERIO DEL MEDIO AMBIENTE;51304316;0
+50;01;05;27;25;001;Subsecretaría del  Medio Ambiente;28996707;0
+50;01;05;27;25;002;Servicio de Evaluación Ambiental;13453970;0
+50;01;05;27;25;003;Superintendencia del Medio Ambiente;8853639;0
+50;01;05;27;26;;MINISTERIO DEL DEPORTE;115618574;0
+50;01;05;27;26;001;Subsecretaría del Deporte;6605449;0
+50;01;05;27;26;002;Instituto Nacional de Deportes;109013125;0
+50;01;05;27;27;;MINISTERIO DE LA MUJER Y EQUIDAD DE GÉNERO;50993234;0
+50;01;05;27;27;001;Subsecretaría de la Mujer y Equidad de Género;6530004;0
+50;01;05;27;27;002;Servicio Nacional de la Mujer y Equidad de Género;44463230;0
+50;01;05;27;28;;SERVICIO ELECTORAL;55183021;0
+50;01;05;27;28;001;Servicio Electoral;55183021;0

@@ -1,0 +1,83 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Denominación;Monto Pesos;Monto Dólar
+50;01;03;22;;;BIENES Y SERVICIOS DE CONSUMO;122976;800
+50;01;03;23;;;PRESTACIONES DE SEGURIDAD SOCIAL;252530214;0
+50;01;03;23;01;;Prestaciones Previsionales;102171160;0
+50;01;03;23;01;001;Jubilaciones, Pensiones y Montepíos;49037583;0
+50;01;03;23;01;005;Fondo de Seguro Social de los Empleados Públicos;14420000;0
+50;01;03;23;01;017;Fondo Bono Laboral Ley N° 20.305;38713577;0
+50;01;03;23;02;;Prestaciones de Asistencia Social;150359044;0
+50;01;03;23;02;003;Garantía Estatal Pensiones Mínimas;150359044;0
+50;01;03;23;03;;Prestaciones Sociales del Empleador;10;0
+50;01;03;23;03;001;Indemnización de Cargo Fiscal;10;0
+50;01;03;24;;;TRANSFERENCIAS CORRIENTES;2388255471;5379
+50;01;03;24;01;;Al Sector Privado;103153391;0
+50;01;03;24;01;008;Reintegro Simplificado Gravámenes a Exportadores;1047819;0
+50;01;03;24;01;009;Otras Devoluciones;4652457;0
+50;01;03;24;01;010;Indemnización Bienes Confiscados Ley N° 19.568;219642;0
+50;01;03;24;01;011;Aporte Fondo de Cesantía Solidario Ley N° 19.728;10622836;0
+50;01;03;24;01;012;Bonificación al Ahorro Previsional Voluntario Art.20 O D.L. N° 3.500, de 1980;18707474;0
+50;01;03;24;01;028;De Aportes al Fondo Ley N° 20.444;10;0
+50;01;03;24;01;030;Reembolso Gasto Electoral a Candidatos y Partidos Políticos, Ley N° 19.884;50381955;0
+50;01;03;24;01;031;Bono Vocales de Mesa Ley N° 20.568;11112774;0
+50;01;03;24;01;033;Aporte Permanente a los Partidos Políticos Ley N°20.900;6408424;0
+50;01;03;24;02;;Al Gobierno Central;1031722260;0
+50;01;03;24;02;002;Préstamos Externos;135308335;0
+50;01;03;24;02;004;Otras;413925;0
+50;01;03;24;02;070;Fondo para la Educación Ley N° 20.630;700000000;0
+50;01;03;24;02;075;Fondo de Reserva de Pensiones Ley N° 20.128;196000000;0
+50;01;03;24;03;;A Otras Entidades Públicas;1253379810;10
+50;01;03;24;03;101;Transferencias y Devoluciones Varias;297624;0
+50;01;03;24;03;103;Anticipos Ley N° 13.196;0;10
+50;01;03;24;03;104;Provisión para Financiamientos Comprometidos;891472315;0
+50;01;03;24;03;105;Tribunal Constitucional Ley N° 17.997;4871286;0
+50;01;03;24;03;107;Aporte al Fondo Común Municipal;10007726;0
+50;01;03;24;03;108;Tarifas de Cargo Fiscal en Acuerdos, Convenios o Tratados Internacionales;5192745;0
+50;01;03;24;03;110;Consejo para la Transparencia;6374664;0
+50;01;03;24;03;111;Tribunal Calificador de Elecciones;1547560;0
+50;01;03;24;03;112;Tribunales Electorales Regionales;4227097;0
+50;01;03;24;03;120;Programa Contingencia contra el  Desempleo;10;0
+50;01;03;24;03;121;Tribunal de Defensa de la Libre Competencia;1849141;0
+50;01;03;24;03;123;Bonificaciones y Asignaciones Variables;260685845;0
+50;01;03;24;03;125;Aporte para Bonificación a Personal Municipal  Zonas Extremas Ley N° 20.198;3255157;0
+50;01;03;24;03;126;Aporte para Bonificación a Personal Asistentes de la Educación Zonas Extremas  Ley N° 20.313;9494911;0
+50;01;03;24;03;133;Instituto Nacional de Derechos Humanos;6658382;0
+50;01;03;24;03;134;Tribunales Ambientales;5155934;0
+50;01;03;24;03;228;De Aportes al Fondo Ley N° 20.444;10;0
+50;01;03;24;03;244;Municipalidades  Art. 129 bis 19 Código de Aguas;2608799;0
+50;01;03;24;03;255;Aporte Municipalidades Ley N° 20.922;36000000;0
+50;01;03;24;03;257;Aplicación Art. 44 Ley N° 20.883 Bonificación Adicional Zonas Extremas;3680604;0
+50;01;03;24;07;;A Organismos Internacionales;10;5369
+50;01;03;24;07;001;Organismos Financieros Internacionales;10;5369
+50;01;03;26;;;OTROS GASTOS CORRIENTES;7084888;10
+50;01;03;26;02;;Compensaciones por Daños a Terceros y/o a la Propiedad;7084878;10
+50;01;03;26;02;001;Cumplimiento de Sentencias Ejecutoriadas;10;10
+50;01;03;26;02;003;Indemnizaciones Artículo 1° Transitorio Ley N° 20.504;7084868;0
+50;01;03;26;03;;2% Constitucional;10;0
+50;01;03;26;03;001;2% constitucional;10;0
+50;01;03;30;;;ADQUISICIÓN DE ACTIVOS FINANCIEROS;30;308837
+50;01;03;30;01;;Compra de Títulos y Valores;10;300010
+50;01;03;30;02;;Compra de Acciones y Participaciones de Capital;10;8817
+50;01;03;30;99;;Otros Activos Financieros;10;10
+50;01;03;33;;;TRANSFERENCIAS DE CAPITAL;892088649;485404
+50;01;03;33;01;;Al Sector Privado;10;0
+50;01;03;33;01;028;De Aportes al Fondo Ley N° 20.444;10;0
+50;01;03;33;02;;Al Gobierno Central;837345082;485404
+50;01;03;33;02;001;Patentes Mineras Gobiernos Regionales Ley N° 19.143;33706216;0
+50;01;03;33;02;002;Fondo de Magallanes Ley  N° 19.275;5110448;0
+50;01;03;33;02;004;Recursos Fondo de Infraestructura;64555570;0
+50;01;03;33;02;005;IVA Concesiones;282581103;0
+50;01;03;33;02;016;Casinos de Juego Gobiernos Regionales Ley N° 19.995;26977026;0
+50;01;03;33;02;040;Patentes Geotérmicas Gobiernos Regionales Ley N° 19.657;448341;0
+50;01;03;33;02;059;Al Fondo de Reserva de Pensiones;0;485394
+50;01;03;33;02;060;Al Fondo de Estabilización Económica y Social;0;10
+50;01;03;33;02;080;Al Fondo de Apoyo Regional;264914513;0
+50;01;03;33;02;100;Al Fondo para  Diagnósticos y Tratamientos de Alto Costo;100000000;0
+50;01;03;33;02;144;Gobiernos Regionales  Art. 129 bis 19 Código de Aguas;17060676;0
+50;01;03;33;02;145;Fondo de Inversión y Reconversión Regional;33731366;0
+50;01;03;33;02;146;Patentes de Acuicultura Gobiernos Regionales Ley N° 18.892;8259823;0
+50;01;03;33;03;;A Otras Entidades Públicas;54743557;0
+50;01;03;33;03;001;Patentes Mineras Municipalidades Ley N° 19.143;27693596;0
+50;01;03;33;03;016;Casinos de Juego Municipalidades Ley N° 19.995;26977027;0
+50;01;03;33;03;040;Patentes Geotérmicas Municipalidades Ley N° 19.657;72924;0
+50;01;03;33;03;228;De Aportes al Fondo Ley N° 20.444;10;0
+50;01;03;35;;;SALDO FINAL DE CAJA;5000000;2000

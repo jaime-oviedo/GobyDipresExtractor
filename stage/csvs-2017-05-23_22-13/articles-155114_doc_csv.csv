@@ -1,0 +1,27 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Denominación;Monto Pesos;Monto Dólar
+10;01;01;07;;;INGRESOS DE OPERACIÓN;14725;0
+10;01;01;07;02;;Venta de Servicios;14725;0
+10;01;01;08;;;OTROS INGRESOS CORRIENTES;122375;0
+10;01;01;08;01;;Recuperaciones y Reembolsos por Licencias Médicas;113391;0
+10;01;01;08;99;;Otros;8984;0
+10;01;01;09;;;APORTE FISCAL;107494129;0
+10;01;01;09;01;;Libre;107494129;0
+10;01;01;21;;;GASTOS EN PERSONAL;9581295;0
+10;01;01;22;;;BIENES Y SERVICIOS DE CONSUMO;4203523;0
+10;01;01;24;;;TRANSFERENCIAS CORRIENTES;53736684;0
+10;01;01;24;01;;Al Sector Privado;9862768;0
+10;01;01;24;01;001;Programa de Licitaciones Sistema Nacional de Mediación;9575158;0
+10;01;01;24;01;002;Auditorías Externas Sistema Nacional de Mediación;117803;0
+10;01;01;24;01;269;Fundación de Asistencia Social y Legal a la Familia;169807;0
+10;01;01;24;03;;A Otras Entidades Públicas;43849182;0
+10;01;01;24;03;208;Corporaciones de Asistencia Judicial;43760602;0
+10;01;01;24;03;211;Programa de Gestión de Conflictos Locales;88580;0
+10;01;01;24;07;;A Organismos Internacionales;24734;0
+10;01;01;24;07;001;Conferencia de Ministros de Justicia Iberoamericanos;24734;0
+10;01;01;29;;;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS;109313;0
+10;01;01;29;04;;Mobiliario y Otros;8902;0
+10;01;01;29;05;;Máquinas y Equipos;18629;0
+10;01;01;29;06;;Equipos Informáticos;28840;0
+10;01;01;29;07;;Programas Informáticos;52942;0
+10;01;01;31;;;INICIATIVAS DE INVERSIÓN;40000414;0
+10;01;01;31;02;;Proyectos;40000414;0

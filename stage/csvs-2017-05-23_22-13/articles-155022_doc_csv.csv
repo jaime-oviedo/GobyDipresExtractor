@@ -1,0 +1,95 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Denominación;Monto Pesos;Monto Dólar
+05;64;02;08;;;OTROS INGRESOS CORRIENTES;418821;0
+05;64;02;08;99;;Otros;418821;0
+05;64;02;09;;;APORTE FISCAL;30022505;0
+05;64;02;09;01;;Libre;30022505;0
+05;64;02;13;;;TRANSFERENCIAS PARA GASTOS DE CAPITAL;25952776;0
+05;64;02;13;02;;Del Gobierno Central;25952776;0
+05;64;02;13;02;003;Subsecretaría de Bienes Nacionales;230377;0
+05;64;02;13;02;004;Subsecretaría de Desarrollo Regional y Administrativo;3206646;0
+05;64;02;13;02;006;Tesoro Público Ley N° 19.143, Patentes Mineras;3248450;0
+05;64;02;13;02;013;Tesoro Público Artículo 129 bis 19 Ley N° 20.017, Código de Aguas;333606;0
+05;64;02;13;02;019;Fondo de Inversión y Reconversión Regional;2866256;0
+05;64;02;13;02;020;Tesoro Público Ley N°18.892, Patentes de Acuicultura;145301;0
+05;64;02;13;02;030;Tesoro Público Ley N°20.378 - Fondo de Apoyo Regional (FAR);14315110;0
+05;64;02;13;02;032;Subsecretaría de Desarrollo Regional y Administrativo - Programas de Convergencia;1607030;0
+05;64;02;15;;;SALDO INICIAL DE CAJA;1000;0
+05;64;02;22;;;BIENES Y SERVICIOS DE CONSUMO;78755;0
+05;64;02;24;;;TRANSFERENCIAS CORRIENTES;4544236;0
+05;64;02;24;01;;Al Sector Privado;3954574;0
+05;64;02;24;01;001;Actividades Culturales;786297;0
+05;64;02;24;01;002;Pago de Subsidios para la Operación de Proyectos de Energía Fotovoltaica;370800;0
+05;64;02;24;01;003;Actividades Deportivas;550408;0
+05;64;02;24;01;005;Actividades de Seguridad Ciudadana;511093;0
+05;64;02;24;01;006;Corporación Agencia Regional de Desarrollo Productivo de la Región de Coquimbo;547301;0
+05;64;02;24;01;017;Actividades Sociales;511093;0
+05;64;02;24;01;021;CEAZA-Corporación Centro de Estudios Avanzados en Zonas Áridas;677582;0
+05;64;02;24;03;;A Otras Entidades Públicas;589662;0
+05;64;02;24;03;001;Municipalidades - Actividades Culturales;196574;0
+05;64;02;24;03;003;Municipalidades - Actividades Deportivas;137540;0
+05;64;02;24;03;005;Municipalidades - Actividades de Seguridad Ciudadana;127774;0
+05;64;02;24;03;017;Municipalidades - Actividades Sociales;127774;0
+05;64;02;29;;;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS;2520881;0
+05;64;02;29;03;;Vehículos;1407078;0
+05;64;02;29;05;;Máquinas y Equipos;1113803;0
+05;64;02;31;;;INICIATIVAS DE INVERSIÓN;29898940;0
+05;64;02;31;01;;Estudios Básicos;150349;0
+05;64;02;31;02;;Proyectos;29173717;0
+05;64;02;31;03;;Programas de Inversión;574874;0
+05;64;02;32;;;PRÉSTAMOS;0,001;0
+05;64;02;32;06;;Por Anticipos a Contratistas;0,001;0
+05;64;02;32;06;001;Anticipos a Contratistas;800000;0
+05;64;02;32;06;002;Recuperación de Anticipos a Contratistas;-800000;0
+05;64;02;33;;;TRANSFERENCIAS DE CAPITAL;19351290;0
+05;64;02;33;01;;Al Sector Privado;3533751;0
+05;64;02;33;01;001;Junta Nacional de Cuerpos de Bomberos de Chile;1482917;0
+05;64;02;33;01;010;Aplicación Letra a) del Artículo Cuarto Transitorio de la Ley N°20.378;927000;0
+05;64;02;33;01;111;UNIVERSIDAD CATÓLICA DEL NORTE-Puesta en marcha banco de tejido óseo.;17922;0
+05;64;02;33;01;119;CORPORACIÓN REGIONAL DE DESARROLLO PRODUCTIVO-Diagnóstico técnico-económico sistema transporte público masivo (etapa 1);43426;0
+05;64;02;33;01;121;FIA-Transferencia inventario productos patrimoniales (30336123-0);25750;0
+05;64;02;33;01;122;CORPORACIÓN REGIONAL DESARROLLO PRODUCTIVO-Transferencia estudio factibilidad de implementación centro energía (30326975-0);30900;0
+05;64;02;33;01;132;UNIVERSIDAD CATÓLICA DEL NORTE - Análisis Tecnología para Depuración de Aguas Residuales (30403172-0).;5744;0
+05;64;02;33;01;133;UNIVERSIDAD CATÓLICA DEL NORTE - Análisis Sist. Automatizado Conducción-Distrib. Agua Emb. Recoleta (30403174-0).;8571;0
+05;64;02;33;01;134;UNIVERSIDAD CATÓLICA DEL NORTE - Análisis Evaluación de Recursos Hídricos Subterráneos Costeros (30404173-0).;80618;0
+05;64;02;33;01;135;UNIVERSIDAD CATÓLICA DEL NORTE - Transferencia en el Uso de Atrapanieblas para uso Productivo (30404140-0).;43708;0
+05;64;02;33;01;136;INIA - Investigación Vigilancia Online de la Calidad del Agua (30403028-0).;49730;0
+05;64;02;33;01;137;INIA - Transferencia Tecnológica en Agronomía del Riego Frutales (30404122-0).;51469;0
+05;64;02;33;01;138;INIA - Transferencia Tecnológica para la Optimización del Riego en Hortalizas (30404134-0).;47083;0
+05;64;02;33;01;139;INIA - Análisis Forraje Verde Hidropónico para Crianceros del Limarí (30404133-0).;51444;0
+05;64;02;33;01;140;PONTIFICIA U. CATÓLICA DE CHILE - Análisis Gestión Predial de Recursos Hídricos, Calidad de Suelo (30404141-0).;44568;0
+05;64;02;33;01;141;FUNDACION CHILE - Análisis Reúso de Aguas Residuales Tratadas para uso Productivo (30404132-0).;43109;0
+05;64;02;33;01;142;CENTRO DE ESTUDIOS AVANZADOS EN ZONAS ÁRIDAS (CEAZA) - Investigación áreas potenciales e implementación de barreras de nieve (30403127-0);57406;0
+05;64;02;33;01;143;CENTRO DE ESTUDIOS AVANZADOS EN ZONAS ÁRIDAS (CEAZA) - Investigación transferencia tecnológica de bioproductos nativos (30403034-0);34763;0
+05;64;02;33;01;144;CENTRO DE ESTUDIOS AVANZADOS EN ZONAS ÁRIDAS (CEAZA) - Análisis monitoreo y modelación hidrológica cabeceras (30404077-0);51263;0
+05;64;02;33;01;145;FIA-Capacitación fortalecimiento innovación productores damascos Choapa (30413176-0);41175;0
+05;64;02;33;01;146;CENTRO DE ESTUDIOS AVANZADOS EN ZONAS ÁRIDAS (CEAZA) - Investigación método holístico de evaluación de caudal  ecológico (30404078-0);34825;0
+05;64;02;33;01;147;INIA-Análisis monitoreo del potencial de capacidad de carga animal (30404124-0);51244;0
+05;64;02;33;01;148;CENTRO DE ESTUDIOS AVANZADOS EN ZONAS ÁRIDAS (CEAZA) - Análisis, evaluación y monitoreo de pastizales (30404123-0);15969;0
+05;64;02;33;01;149;CORPORACIÓN REGIONAL DESARROLLO PRODUCTIVO-Diagnostico de sitios con potencial presencia de contaminantes (30413131-0);50985;0
+05;64;02;33;01;151;CORPORACIÓN REGIONAL DESARROLLO PRODUCTIVO-Diagnóstico cultura del agua en zonas áridas, en educación primaria (30413129-0);38625;0
+05;64;02;33;01;152;CENTRO DE AGUAS PARA ZONAS ARIDAS (CAZALAC)-Investigación producción acelerada de forraje con bajo consumo hídrico (30404025-0);20826;0
+05;64;02;33;01;201;INIA-Capacitación mejoramiento de sistemas caprinos de comunas rezagadas (30363441-0);69525;0
+05;64;02;33;01;208;INFOR - Capacitación  generación de un sistema de gestión de la vegetación (30431522-0);113186;0
+05;64;02;33;03;;A Otras Entidades Públicas;15817539;0
+05;64;02;33;03;100;Municipalidades (Programa Mejoramiento de Barrios);5770596;0
+05;64;02;33;03;114;INNOVACHILE-Transferencia evaluación comportamiento jibia en la región de Coquimbo (30350829-0);41200;0
+05;64;02;33;03;118;INNOVACHILE-Transferencia estudios hidrogeológicos y geofísicos por sectores y microcuencas (30382623-0);116055;0
+05;64;02;33;03;119;INNOVACHILE-Transferencia programa de difusión tecnológica de fomento a la reconversión agrícola (30382576-0);4063;0
+05;64;02;33;03;120;INNOVACHILE-Transferencia programa de difusión tecnológica a productores agrícolas (30382672-0);5379;0
+05;64;02;33;03;121;CONICYT-Transferencia diseño de magister orientado en gestión de recurso hídrico (30382173-0);60127;0
+05;64;02;33;03;122;U.DE LA SERENA- Análisis Optimización Uso en Agua Potable en Núcleos Urbanos (30404126-0);26193;0
+05;64;02;33;03;125;Municipalidades (Fondo Regional de Iniciativa Local);2060000;0
+05;64;02;33;03;126;U.DE LA SERENA- Análisis Seguimiento y Monitoreo Suelo Agrícola Ord. Territorial  (30403033-0);60971;0
+05;64;02;33;03;127;U. DE CHILE- Transferencia Riego de Precisión con Sensores de Suelo en Choapa   (30404130-0);46350;0
+05;64;02;33;03;128;U. DE CHILE-Prospección Germoplasma y Tecnología para Cosecha Temprana de fruta (30404028-0);46576;0
+05;64;02;33;03;129;U.DE CHILE- Transferencia Tecnológica e Innovación en Riego Uva Pisquera Limarí (30404129-0);64024;0
+05;64;02;33;03;202;SERNATUR-Transferencia puesta en valor de turismo intereses especiales en la Región de Coquimbo (30190673-0);67679;0
+05;64;02;33;03;203;SUBSECRETARIA DE MINERIA-Transferencia programa regular y desarrollo minería menor escala III Coquimbo (30313873-0);788797;0
+05;64;02;33;03;207;SUBSECRETARIA DE PESCA-Recuperación de la sustentabilidad de la actividad de pesca (30352777-0);189632;0
+05;64;02;33;03;209;CORFO -APL pequeña minería zonas rezagadas (30439627-0);137505;0
+05;64;02;33;03;210;INDAP- Gestión territorial de INDAP zonas rezagadas etapa II (30440032-0);1258660;0
+05;64;02;33;03;211;SUBSECRETARIA DE TELECOMUNICACIONES-Conectividad de Telecomunicaciones en los Territorios PIRDT Primera Etapa.;916070;0
+05;64;02;33;03;217;CORFO-Transferencia apoyo iniciativas PMDT y Zonas Rezagadas (30377078-0);28154;0
+05;64;02;33;03;999;Provisión FIC (Sin Distribuir);4129508;0
+05;64;02;34;;;SERVICIO DE LA DEUDA;1000;0
+05;64;02;34;07;;Deuda Flotante;1000;0

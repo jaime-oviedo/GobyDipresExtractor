@@ -1,0 +1,21 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Denominación;Monto Pesos;Monto Dólar
+15;01;03;05;;;TRANSFERENCIAS CORRIENTES;4396076;0
+15;01;03;05;02;;Del Gobierno Central;4396076;0
+15;01;03;05;02;001;Ley N° 20.595 y Sistema Chile Solidario;4396076;0
+15;01;03;09;;;APORTE FISCAL;10832667;0
+15;01;03;09;01;;Libre;10832667;0
+15;01;03;15;;;SALDO INICIAL DE CAJA;10;0
+15;01;03;21;;;GASTOS EN PERSONAL;348374;0
+15;01;03;22;;;BIENES Y SERVICIOS DE CONSUMO;115512;0
+15;01;03;24;;;TRANSFERENCIAS CORRIENTES;14759707;0
+15;01;03;24;01;;Al Sector Privado;4510569;0
+15;01;03;24;01;265;Programa Servicios Sociales;4330031;0
+15;01;03;24;01;267;Mejora a la empleabilidad para artesanos y artesanas tradicionales de zonas rurales;180538;0
+15;01;03;24;03;;A Otras Entidades Públicas;10249138;0
+15;01;03;24;03;260;Programa Bonificación a la Contratación de Mano de Obra;10;0
+15;01;03;24;03;263;Programa de Apoyo al Empleo Ley N° 20.595 y Sistema Chile Solidario;1782122;0
+15;01;03;24;03;264;Programa Inversión en la Comunidad;8142146;0
+15;01;03;24;03;266;Programa Desarrollo Competencias Laborales Mujeres Ley N° 20.595 y Sistema Chile Solidario;324860;0
+15;01;03;29;;;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS;5150;0
+15;01;03;29;07;;Programas Informáticos;5150;0
+15;01;03;35;;;SALDO FINAL DE CAJA;10;0

@@ -1,0 +1,23 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Denominación;Monto Pesos;Monto Dólar
+15;03;01;08;;;OTROS INGRESOS CORRIENTES;32033;0
+15;03;01;08;01;;Recuperaciones y Reembolsos por Licencias Médicas;32033;0
+15;03;01;09;;;APORTE FISCAL;7859796;0
+15;03;01;09;01;;Libre;6016426;0
+15;03;01;09;03;;Servicio de la Deuda Externa;1843370;0
+15;03;01;15;;;SALDO INICIAL DE CAJA;1500;0
+15;03;01;21;;;GASTOS EN PERSONAL;3174886;0
+15;03;01;22;;;BIENES Y SERVICIOS DE CONSUMO;981810;0
+15;03;01;24;;;TRANSFERENCIAS CORRIENTES;1772461;0
+15;03;01;24;01;;Al Sector Privado;1528037;0
+15;03;01;24;01;002;Fondo para la Educación Previsional;1528037;0
+15;03;01;24;03;;A Otras Entidades Públicas;244424;0
+15;03;01;24;03;001;Fondo para la Educación Previsional;244424;0
+15;03;01;29;;;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS;119302;0
+15;03;01;29;04;;Mobiliario y Otros;1246;0
+15;03;01;29;05;;Máquinas y Equipos;2009;0
+15;03;01;29;07;;Programas Informáticos;116047;0
+15;03;01;34;;;SERVICIO DE LA DEUDA;1843870;0
+15;03;01;34;02;;Amortización Deuda Externa;1768659;0
+15;03;01;34;04;;Intereses Deuda Externa;74711;0
+15;03;01;34;07;;Deuda Flotante;500;0
+15;03;01;35;;;SALDO FINAL DE CAJA;1000;0

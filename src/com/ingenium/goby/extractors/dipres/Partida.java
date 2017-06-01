@@ -4,22 +4,16 @@
 
 package com.ingenium.goby.extractors.dipres;
 
-import java.math.BigInteger;
 import java.util.Collection;
-import java.util.Iterator;
+import java.util.Collections;
 
 /**
  * Clase que representa una partida presupuestaria.
  *
  * @author JaimeRodrigo
  */
-final class Partida {
+final class Partida extends ElementoPresupuestario {
 
-  private final int numero;
-  private final String nombre;
-  private final Collection<Capitulo> capitulos;
-  private final BigInteger presupuesto;
-  
   /**
    * Crea una nueva instancia de la clase Partida.
    *
@@ -27,20 +21,13 @@ final class Partida {
    *          el valor del campo numero
    * @param nombre
    *          el valor del campo nombre
+   * @param descripcion
+   *          el valor del campo descripcion
    * @param capitulos
    *          el valor del campo capitulos
    */
-  public Partida(int numero, String nombre, Collection<Capitulo> capitulos) {
-    super();
-    this.numero = numero;
-    this.nombre = nombre;
-    this.capitulos = capitulos;
-    Iterator<Capitulo> a = capitulos.iterator();
-    BigInteger pres = BigInteger.ZERO;
-    while (a.hasNext()) {
-      pres = pres.add(a.next().getPresupuesto());
-    }
-    presupuesto = pres;
+  public Partida(int numero, String nombre, String descripcion, Collection<Capitulo> capitulos) {
+    super(numero, nombre, descripcion, capitulos);
   }
 
   /**
@@ -48,35 +35,9 @@ final class Partida {
    *
    * @return el valor del campo capitulos
    */
+  @SuppressWarnings("unchecked")
   public final Collection<Capitulo> getCapitulos() {
-    return capitulos;
+    return ((Collection<Capitulo>) Collections.unmodifiableCollection(this.getSubElementos()));
   }
-  
-  /**
-   * Devuelve el valor del campo nombre.
-   *
-   * @return el valor del campo nombre
-   */
-  public final String getNombre() {
-    return nombre;
-  }
-  
-  /**
-   * Devuelve el valor del campo numero.
-   *
-   * @return el valor del campo numero
-   */
-  public final int getNumero() {
-    return numero;
-  }
-  
-  /**
-   * Devuelve el valor del campo presupuesto.
-   * 
-   * @return el valor del campo presupuesto
-   */
-  public final BigInteger getPresupuesto() {
-    return presupuesto;
-  }
-  
+
 }

@@ -10,10 +10,10 @@ package com.ingenium.goby.extractors.dipres.clasificacion;
  * 
  * @author JaimeRodrigo
  */
-public final class ElementoClasificacionSimple extends ElementoClasificacion {
+public final class ClasificadorSimple extends Clasificador {
 
   /**
-   * Crea una nueva instancia de la clase ElementoClasificacionSimple.
+   * Crea una nueva instancia de la clase ClasificadorSimple.
    *
    * @param numero
    *          el valor del campo numero
@@ -22,7 +22,7 @@ public final class ElementoClasificacionSimple extends ElementoClasificacion {
    * @param descripcion
    *          el valor del campo descripcion
    */
-  public ElementoClasificacionSimple(int numero, String nombre,
+  public ClasificadorSimple(int numero, String nombre,
       String descripcion) {
     super(numero, nombre, descripcion);
   }

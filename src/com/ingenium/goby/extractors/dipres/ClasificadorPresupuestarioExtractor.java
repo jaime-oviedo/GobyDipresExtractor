@@ -6,6 +6,8 @@ package com.ingenium.goby.extractors.dipres;
 
 import com.ingenium.goby.extractors.ExtractionException;
 import com.ingenium.goby.extractors.Extractor;
+import com.ingenium.goby.extractors.dipres.clasificacion.Asignacion;
+import com.ingenium.goby.extractors.dipres.clasificacion.CatalogoClasificadoresPresupuestarios;
 import com.opencsv.CSVReader;
 
 import java.io.FileInputStream;
@@ -15,24 +17,25 @@ import java.io.InputStreamReader;
 import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.Iterator;
 import java.util.logging.Logger;
 
 /**
- * Esta clase lee un archivo separado por comas con la información de la ley de
- * presupuestos y lo extrae a un archivo Jason destino.
+ * Esta clase lee un archivo separado por comas con la información de la ley de presupuestos y lo
+ * extrae a un archivo Jason destino.
  *
  * @author JaimeRodrigo
  */
 public class ClasificadorPresupuestarioExtractor implements Extractor {
-  
+
   private final class ClasificadorPresupuestario {
-    
+
     private final int subtitulo;
     private final int item;
     private final int asignacion;
     private final String nombre;
     private final String descripcion;
-    
+
     /**
      * Crea una nueva instancia de la clase ClasificadorPresupuestario.
      *
@@ -56,7 +59,7 @@ public class ClasificadorPresupuestarioExtractor implements Extractor {
       this.nombre = nombre;
       this.descripcion = descripcion;
     }
-    
+
     @Override
     public String toString() {
       StringBuilder sb = new StringBuilder();
@@ -66,15 +69,50 @@ public class ClasificadorPresupuestarioExtractor implements Extractor {
           .append(";").append(descripcion).append(";");
       return sb.toString();
     }
+
+    public int getSubtitulo() {
+      return subtitulo;
+    }
+
+    public int getItem() {
+      return item;
+    }
+
+    public int getAsignacion() {
+      return asignacion;
+    }
+
+    public String getNombre() {
+      return nombre;
+    }
+
+    public String getDescripcion() {
+      return descripcion;
+    }
   }
-  
+
+  private static final class ClasificadorPresupuestarioMapper {
+
+    static final CatalogoClasificadoresPresupuestarios map(
+        Collection<ClasificadorPresupuestario> clasificadores) {
+      Iterator<ClasificadorPresupuestario> ic = clasificadores.iterator();
+      CatalogoClasificadoresPresupuestarios catalogo;
+      Collection<Asignacion> asignaciones = new ArrayList<>();
+      while (ic.hasNext()) {
+        ClasificadorPresupuestario clasificador = ic.next();
+
+      }
+      return null;
+    }
+  }
+
   private static final Logger log = Logger.getLogger(
       "com.ingenium.goby.extractors.dipres.ClasificadorPresupuestarioExtractor");
-  
+
   private final String extractionSource;
-  
+
   private final String extractionDestination;
-  
+
   /**
    * Crea una nueva instancia de la clase BudgetClassifierCVStoJSONParser.
    */
@@ -84,14 +122,15 @@ public class ClasificadorPresupuestarioExtractor implements Extractor {
     extractionDestination = Messages
         .getString("ClasificadorPresupuestarioExtractor.destinationUrl"); //$NON-NLS-1$
   }
-  
+
   /*
    * (non-Javadoc)
+   * 
    * @see com.ingenium.goby.extractors.Extractor#extract()
    */
   @Override
   public void extract() throws ExtractionException {
-    
+
     CSVReader reader = getReader();
     ClasificadorPresupuestarioExtractor.log.fine("Comenzando la extracción");
     String[] line;
@@ -106,25 +145,24 @@ public class ClasificadorPresupuestarioExtractor implements Extractor {
       }
     } catch (IOException e) {
       e.printStackTrace();
-      
+
     }
   }
-  
+
   /**
-   * Extrae los clasificadores presupuestarios a una colección en un formato
-   * plano.
+   * Extrae los clasificadores presupuestarios a una colección en un formato plano.
    *
    * @return la colección con los clasificadores extraidos
    * @throws ExtractionException
-   *           en caso de que no puedan extraerse los clasificadores por
-   *           problemas en el archivo fuente
+   *           en caso de que no puedan extraerse los clasificadores por problemas en el archivo
+   *           fuente
    **/
-  
-  Collection<ClasificadorPresupuestario> extractClasificadoresPresupuestarios()
+
+  CatalogoClasificadoresPresupuestarios extractClasificadoresPresupuestarios()
       throws ExtractionException {
-    
+
     CSVReader reader = getReader();
-    
+
     ClasificadorPresupuestarioExtractor.log.fine("Comenzando la extracción");
     Collection<ClasificadorPresupuestario> clasificadores = new ArrayList<>();
     String[] line;
@@ -139,7 +177,7 @@ public class ClasificadorPresupuestarioExtractor implements Extractor {
           index++;
         }
         int subtitulo = 0;
-        
+
         String s = elements.get(0);
         try {
           if (s != null) {
@@ -149,7 +187,7 @@ public class ClasificadorPresupuestarioExtractor implements Extractor {
           throw new ExtractionException(
               "No es posible extraer el número de subtitulo");
         }
-        
+
         int item = 0;
         s = elements.get(1);
         if (s != null) {
@@ -162,7 +200,7 @@ public class ClasificadorPresupuestarioExtractor implements Extractor {
         } else {
           item = 0;
         }
-        
+
         int asignacion = 0;
         s = elements.get(2);
         if (s != null) {
@@ -173,7 +211,7 @@ public class ClasificadorPresupuestarioExtractor implements Extractor {
                 .finest("No se pudo obtener un número de asignación");
           }
         }
-        
+
         String nombre;
         s = elements.get(3);
         if (s != null) {
@@ -190,7 +228,7 @@ public class ClasificadorPresupuestarioExtractor implements Extractor {
         } else {
           descripcion = "";
         }
-        
+
         ClasificadorPresupuestario c = new ClasificadorPresupuestario(subtitulo,
             item, asignacion, nombre, descripcion);
         clasificadores.add(c);
@@ -198,29 +236,31 @@ public class ClasificadorPresupuestarioExtractor implements Extractor {
       }
     } catch (IOException e) {
       e.printStackTrace();
-      
+
     }
-    return clasificadores;
+    return ClasificadorPresupuestarioMapper.map(clasificadores);
   }
-  
+
   /*
    * (non-Javadoc)
+   * 
    * @see com.ingenium.goby.extractors.Extractor#getExtractionDestination()
    */
   @Override
   public String getExtractionDestination() {
     return extractionDestination;
   }
-  
+
   /*
    * (non-Javadoc)
+   * 
    * @see com.ingenium.goby.extractors.Extractor#getExtractionSource()
    */
   @Override
   public String getExtractionSource() {
     return extractionSource;
   }
-  
+
   /**
    * Obtiene un CVSReader apuntando al archivo de origen detallado en el archivo
    * extractor.properties

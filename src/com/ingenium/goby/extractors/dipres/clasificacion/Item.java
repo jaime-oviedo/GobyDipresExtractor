@@ -4,15 +4,15 @@
 
 package com.ingenium.goby.extractors.dipres.clasificacion;
 
-import java.util.Collection;
+import java.util.Map;
 
 /**
  * Clase que representa el clasificador de item presupuestario.
  *
  * @author JaimeRodrigo
  */
-public class Item extends ElementoClasificacionCompuesto {
-  
+public final class Item extends ClasificadorCompuesto {
+
   /**
    * Crea una nueva instancia de la clase Item.
    *
@@ -26,7 +26,16 @@ public class Item extends ElementoClasificacionCompuesto {
    *          el valor del campo subElementos
    */
   public Item(int numero, String nombre, String descripcion,
-      Collection<? extends ElementoClasificacion> subElementos) {
+      Map<Integer, Asignacion> subElementos) {
     super(numero, nombre, descripcion, subElementos);
+  }
+
+  @SuppressWarnings("unchecked")
+  public Map<Integer, Asignacion> getAsignaciones() {
+    return (Map<Integer, Asignacion>) getSubElementos();
+  }
+
+  public void setAsignaciones(Map<Integer, Asignacion> asignaciones) {
+    super.setSubElementos(asignaciones);
   }
 }

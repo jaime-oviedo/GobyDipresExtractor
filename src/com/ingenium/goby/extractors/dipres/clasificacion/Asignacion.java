@@ -9,7 +9,7 @@ package com.ingenium.goby.extractors.dipres.clasificacion;
  *
  * @author JaimeRodrigo
  */
-public final class Asignacion extends ElementoClasificacion {
+public final class Asignacion extends Clasificador {
 
   /**
    * Crea una nueva instancia de la clase Asignacion.

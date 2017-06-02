@@ -4,7 +4,7 @@
 
 package com.ingenium.goby.extractors.dipres.ley;
 
-import com.ingenium.goby.extractors.dipres.clasificacion.ElementoClasificacionSimple;
+import com.ingenium.goby.extractors.dipres.clasificacion.ClasificadorSimple;
 
 import java.math.BigInteger;
 
@@ -15,7 +15,7 @@ import java.math.BigInteger;
  */
 abstract class ElementoPresupuesto {
 
-  protected final ElementoClasificacionSimple clasificador;
+  protected final ClasificadorSimple clasificador;
 
   protected final BigInteger presupuesto;
   
@@ -34,7 +34,7 @@ abstract class ElementoPresupuesto {
   public ElementoPresupuesto(int numero, String nombre, String descripcion,
       BigInteger presupuesto) {
     super();
-    clasificador = new ElementoClasificacionSimple(numero, nombre, descripcion);
+    clasificador = new ClasificadorSimple(numero, nombre, descripcion);
     this.presupuesto = presupuesto;
   }
   

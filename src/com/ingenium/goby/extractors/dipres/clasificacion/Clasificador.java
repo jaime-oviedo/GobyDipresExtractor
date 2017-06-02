@@ -9,14 +9,14 @@ package com.ingenium.goby.extractors.dipres.clasificacion;
  * 
  * @author JaimeRodrigo
  */
-public abstract class ElementoClasificacion {
+public abstract class Clasificador {
 
-  protected final int numero;
-  protected final String nombre;
-  protected final String descripcion;
-  
+  public int numero;
+  public String nombre;
+  public String descripcion;
+
   /**
-   * Crea una nueva instancia de la clase ElementoClasificacion.
+   * Crea una nueva instancia de la clase Clasificador.
    *
    * @param numero
    *          el valor del campo numero
@@ -25,13 +25,13 @@ public abstract class ElementoClasificacion {
    * @param descripcion
    *          el valor del campo descripcion
    */
-  public ElementoClasificacion(int numero, String nombre, String descripcion) {
+  public Clasificador(int numero, String nombre, String descripcion) {
     super();
     this.numero = numero;
     this.nombre = nombre;
     this.descripcion = descripcion;
   }
-  
+
   /**
    * Devuelve el valor del campo descripcion.
    *
@@ -40,7 +40,7 @@ public abstract class ElementoClasificacion {
   public final String getDescripcion() {
     return descripcion;
   }
-  
+
   /**
    * Devuelve el valor del campo nombre.
    *
@@ -49,7 +49,7 @@ public abstract class ElementoClasificacion {
   public final String getNombre() {
     return nombre;
   }
-  
+
   /**
    * Devuelve el valor del campo numero.
    *
@@ -58,5 +58,17 @@ public abstract class ElementoClasificacion {
   public final int getNumero() {
     return numero;
   }
-  
+
+  public final void setNumero(int numero) {
+    this.numero = numero;
+  }
+
+  public final void setNombre(String nombre) {
+    this.nombre = nombre;
+  }
+
+  public final void setDescripcion(String descripcion) {
+    this.descripcion = descripcion;
+  }
+
 }

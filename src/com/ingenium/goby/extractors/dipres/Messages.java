@@ -4,13 +4,13 @@ package com.ingenium.goby.extractors.dipres;
 import java.util.MissingResourceException;
 import java.util.ResourceBundle;
 
-class Messages {
+public class Messages {
   private static final String BUNDLE_NAME = "com.ingenium.goby.extractors."
       + "dipres.extractor"; //$NON-NLS-1$
-
+  
   private static final ResourceBundle RESOURCE_BUNDLE = ResourceBundle
       .getBundle(Messages.BUNDLE_NAME);
-
+  
   /**
    * Devuelve el string asociado a una llave en un archivo de propiedades.
    *
@@ -24,7 +24,7 @@ class Messages {
       return '!' + key + '!';
     }
   }
-
+  
   private Messages() {
   }
 }

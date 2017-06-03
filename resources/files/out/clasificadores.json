@@ -1,0 +1,706 @@
+{
+  "numero":0,
+  "nombre":"",
+  "descripcion":"",
+  "subtitulos":[
+    {
+      "numero":22,
+      "nombre":"Bienes y servicios de consumo",
+      "descripcion":"Bienes de consumo y servicios no personales, necesarios para el cumplimiento de las funciones y actividades de los organismos del sector público.",
+      "items":[
+        {
+          "numero":1,
+          "nombre":"Alimentos y Bebidas",
+          "descripcion":"Alimentación de funcionarios,  alumnos,  reclusos  y  demás  personas,  con  derecho  a  estos  beneficios  de  acuerdo  con  las leyes y los reglamentos vigentes, a excepción de las raciones otorgadas en dinero, las que se imputarán al respectivo ítem de Gastos en Personal. Incluye, además, los gastos que por concepto de alimentación de animales, corresponda realizar.",
+          "asignaciones":[ 
+            {
+              "numero":1,
+              "nombre":"Para Personas",
+              "descripcion":"Alimentos destinados al consumo de seres humanos."
+            },
+            {
+              "numero":2,
+              "nombre":"Para Animales",
+              "descripcion":"Alimentos para animales."
+            }
+          ]
+        },
+        {
+          "numero":2,
+          "nombre":"Textiles, Vestuario y Calzado",
+          "descripcion":"Textiles, acabados textiles, vestuarios y sus accesorios, prendas diversas de vestir y calzado.",
+          "asignaciones":[ 
+            {
+              "numero":1,
+              "nombre":"Textiles y Acabados Textiles",
+              "descripcion":"Hilados y telas de cualquier naturaleza. Incluye, además, los gastos por concepto de teñidos de telas y similares."
+            },
+            {
+              "numero":2,
+              "nombre":"Vestuario, Accesorios y Prendas Diversas",
+              "descripcion":"Uniformes, elementos de protección para el vestuario, prendas de vestir para usos agrícolas e industriales, ropa para escolares y demás artículos de naturaleza similar. Incluye gastos que origina la readaptación o transformación del vestuario."
+            },
+            {
+              "numero":3,
+              "nombre":"Calzado",
+              "descripcion":"Calzado de cualquier naturaleza, incluidos los de tela, caucho y plástico. Incluye, además, las adquisiciones de los materiales necesarios para la reparación de calzado."
+            }
+          ]
+        },
+        {
+          "numero":3,
+          "nombre":"Combustibles y Lubricantes",
+          "descripcion":"Combustibles y lubricantes para el consumo de vehículos, maquinarias, equipos de producción, tracción y elevación, calefacción y otros usos. Se incluye, además, otros gastos, tales como pago a remolcadores, lanchaje, sobretiempo de cuadrillas marítimas, viáticos, movilización, etc., que los proveedores facturen a los diversos servicios y que se originen exclusivamente por entrega y recepción de combustibles y lubricantes, cuando interviene en estas faenas personal ajeno a los distintos servicios. Comprende: -- Gasolina especial, corriente, de aviación y otros usos. -- Petróleo crudo, combustibles Nº 5 y 6 diésel, bunjers y otros petróleos. -- Otros combustibles como kerosene, nafta disolvente, tractorina, turbofuel, metanol, carbón  vegetal  y  mineral  y  otros  similares  no  calificados  anteriormente.  Se  excluyen  las adquisiciones de gas de cañería y/o licuado, las que deberán hacerse con cargo al ítem 05. No obstante, dichas adquisiciones, cuando se utilicen en la preparación de alimentos, tratándose de Servicios que deban proporcionarlos en forma masiva, podrán imputarse a la asignación que corresponda de este ítem. -- Lubricantes para lavado, motores, cajas de transmisión, diferenciales, rodamientos, engranajes, ferreterías y otros usos. Incluye, además, las adquisiciones de grasas, líquidos para frenos y demás lubricantes para equipos de transportes y usos agrícolas e industriales.",
+          "asignaciones":[ 
+            {
+              "numero":1,
+              "nombre":"Para Vehículos",
+              "descripcion":""
+            },
+            {
+              "numero":2,
+              "nombre":"Para Maquinarias, Equipos de Producción, Tracción y Elevación",
+              "descripcion":""
+            },
+            {
+              "numero":3,
+              "nombre":"Para Calefacción",
+              "descripcion":""
+            },
+            {
+              "numero":999,
+              "nombre":"Para Otros",
+              "descripcion":""
+            }
+          ]
+        },
+        {
+          "numero":4,
+          "nombre":"Materiales de Uso o Consumo",
+          "descripcion":"Son los gastos por concepto de adquisiciones de materiales de uso o consumo corriente, tales  como  materiales  de  oficina,  materiales  de  enseñanza,  productos  químicos  y  farmacéuticos, materiales y útiles quirúrgicos y útiles de aseo, menaje para casinos y  oficinas,  insumos  computacionales,  materiales  y  repuestos  y  accesorios  para  mantenimientos y reparaciones, para la dotación de los organismos del sector público.",
+          "asignaciones":[ 
+            {
+              "numero":1,
+              "nombre":"Materiales de Oficina",
+              "descripcion":"Comprende los gastos por concepto de adquisiciones de: -- Productos de Papeles, Cartones e Impresos y, en general, todo tipo de formularios e impresos y demás productos de esta naturaleza necesarios para el uso o consumo de  oficinas.  Incluye,  además,  materiales  para  impresión,  y  en  general,  todo  tipo  de  productos  químicos  necesarios  para  el  uso  o  consumo  de  oficinas. -- Materiales  y  Útiles  Diversos  de  Oficina  y,  en  general,  toda  clase  de  artículos  de  naturaleza  similar  para  el  uso  o  consumo  de  oficinas. -- Materiales y Útiles Diversos de Impresión, no incluidos anteriormente,  necesarios para el uso o consumo en unidades de impresión que mantengan  las distintas reparticiones de los Servicios Públicos."
+            },
+            {
+              "numero":2,
+              "nombre":"Textos y Otros Materiales de Enseñanza",
+              "descripcion":"Materiales Básicos de Enseñanza, tales como cuadernos, papeles de dibujos, de impresión, calco, recortes, libros de estudios y para bibliotecas, láminas, mapas, y, en general todo producto de naturaleza similar necesario para el uso o consumo de los establecimientos de educación en general, excluyéndose todo material de este tipo necesario para labores administrativas en los establecimientos -- Productos químicos destinados exclusivamente a la enseñanza -- Almácigos, semillas, plantas, árboles, minerales, hojalatas, láminas, planchas y planchones de acero, platinos, cañerías, productos de cobre, zinc, bronce, etc., alambre, artículos de cerrajería y demás materiales de naturaleza similar que se destinen exclusivamente a la enseñanza. Incluye, asimismo, la adquisición de libros y revistas de carácter técnico, láminas, mapas y otros similares, para los organismos del sector público. -- Materiales y útiles de enseñanza como herramientas menores, tiza, reglas, transportadores, compases, punteros para pizarrones, lápices, gomas, etc. -- Artículos e implementos de enseñanza deportiva, artículos de recreación y otros de naturaleza similar. -- Animales para la investigación destinada a la enseñanza."
+            },
+            {
+              "numero":3,
+              "nombre":"Productos Químicos",
+              "descripcion":"Productos químicos inorgánicos, sulfato de cobre, soda cáustica, carbonato de sodio y otros compuestos químicos inorgánicos"
+            },
+            {
+              "numero":4,
+              "nombre":"Productos Farmacéuticos",
+              "descripcion":"Vitaminas y preparados vitamínicos, productos bacteriológicos, sueros, vacunas, penicilina, estreptomicina y otros antibióticos, cafeína y otros alcaloides opiáceos"
+            },
+            {
+              "numero":5,
+              "nombre":"Materiales y Útiles Quirúrgicos",
+              "descripcion":"Útiles menores médico-quirúrgicos, tales como jeringas, agujas, gasas, vendajes, material de sutura, guantes para cirujano, tela  emplástica,  material  radiográfico  y  otros  necesarios  de  naturaleza  similar."
+            },
+            {
+              "numero":6,
+              "nombre":"Fertilizantes, Insecticidas, Fungicidas y Otros",
+              "descripcion":"Abonos naturales de origen animal o vegetal, salitre y otros productos semejantes, como DDT, naftalina, clordano, y otros productos químicos para combatir plagas, insectos, plantas dañinas, etc."
+            },
+            {
+              "numero":7,
+              "nombre":"Materiales y Útiles de Aseo",
+              "descripcion":"Todo producto destinado a ser consumido o usado en el aseo de las reparticiones del sector público."
+            },
+            {
+              "numero":999,
+              "nombre":"Otros",
+              "descripcion":"Otros materiales de uso o consumo no contemplados en los anteriores."
+            },
+            {
+              "numero":8,
+              "nombre":"Menaje para Oficina, Casino y Otros",
+              "descripcion":"Ceniceros, cuchillería, batería de cocina, candados, platos, vasos, botellas, azucareros, bandejas, alcuzas  y  demás  artículos  de  esta  naturaleza  necesarios  para  el  uso  en  oficinas,  casinos  y otras dependencias de las reparticiones públicas."
+            },
+            {
+              "numero":9,
+              "nombre":"Insumos, Repuestos y Accesorios Computacionales",
+              "descripcion":"Insumos y/o suministros necesarios para el funcionamiento de los equipos informáticos, tales como cintas, discos, disquetes, papel para impresoras, etc."
+            },
+            {
+              "numero":10,
+              "nombre":"Materiales para Mantenimiento y Reparaciones de Inmuebles",
+              "descripcion":"Artículos refractarios, vidrios, ladrillos, cemento, yeso, cal, baldosas, mosaicos, bloques y pastelones de cemento, codos,  cañerías  y  fitting,  materiales  para  pintar  y  barnizar,  materiales  de  cerrajería,  maderas, artículos eléctricos, productos aislantes y de impermeabilización, pegamentos, colas, anticorrosivos, desincrustantes, explosivos, papeles decorativos y, en general, todo artículo de naturaleza similar necesario para la mantención y reparación de las reparticiones de los organismos del sector público"
+            },
+            {
+              "numero":11,
+              "nombre":"Repuestos y Accesorios para Mantenimiento y Reparaciones de Vehículos",
+              "descripcion":"Neumáticos, cámaras, baterías, rodamientos, ejes, piñones, diferenciales, materiales eléctricos, pistones, bloques, motores, bujías, faroles, espejos, vidrios y, en general, todo material de esta naturaleza necesario para la mantención y reparación de vehículos motorizados."
+            },
+            {
+              "numero":12,
+              "nombre":"Otros Materiales, Repuestos y Útiles Diversos",
+              "descripcion":"Herramientas, materiales, repuestos y otros útiles necesarios para la mantención, seguridad y reparación de bienes inmuebles, instalaciones, maquinarias y equipos no incluidos en los rubros anteriores."
+            },
+            {
+              "numero":13,
+              "nombre":"Equipos Menores",
+              "descripcion":"Equipos e implementos menores diversos para uso institucional."
+            },
+            {
+              "numero":14,
+              "nombre":"Productos Elaborados de Cuero, Caucho y Plásticos",
+              "descripcion":"Poductos elaborados de cuero, caucho y plásticos, tales como pieles, cueros, curtidos y por curtir, bolsas, correas, monturas y otros productos de talabartería (a excepción de calzado, carteras y otras prendas de vestir), artículos de caucho tales como mangueras, cojines, etc. (a excepción de neumáticos y cámaras para vehículos motorizados), bolsas de polietileno y artículos de plásticos varios."
+            },
+            {
+              "numero":15,
+              "nombre":"Productos Agropecuarios y Forestales",
+              "descripcion":"Productos agropecuarios y forestales necesarios para la confección y mantenimiento de jardines, campos deportivos, y otros de similar naturaleza."
+            },
+            {
+              "numero":16,
+              "nombre":"Materias Primas y Semielaboradas",
+              "descripcion":"Materias primas y semielaboradas de origen agropecuario y forestal, minero e industrial que requieran los organismos del sector público, para la producción de bienes, a excepción de aquellos considerados como material de enseñanza."
+            }
+          ]
+        },
+        {
+          "numero":5,
+          "nombre":"Servicios Básicos",
+          "descripcion":"Consumos de energía eléctrica, agua potable, derechos de agua, compra de agua a particulares, gas de cañería y licuado, correo, servicios telefónicos y otros relacionados con la transmisión de voz y datos.",
+          "asignaciones":[ 
+            {
+              "numero":1,
+              "nombre":"Electricidad",
+              "descripcion":"Energía eléctrica, incluida la del alumbrado público."
+            },
+            {
+              "numero":2,
+              "nombre":"Agua",
+              "descripcion":"Agua potable, derechos de agua, venta de agua de particulares y otros análogos, destinados al regadío de parques y jardines de uso público."
+            },
+            {
+              "numero":3,
+              "nombre":"Gas",
+              "descripcion":""
+            },
+            {
+              "numero":4,
+              "nombre":"Correo",
+              "descripcion":""
+            },
+            {
+              "numero":5,
+              "nombre":"Telefonía Fija",
+              "descripcion":""
+            },
+            {
+              "numero":6,
+              "nombre":"Telefonía Celular",
+              "descripcion":""
+            },
+            {
+              "numero":7,
+              "nombre":"Acceso a Internet",
+              "descripcion":"Servicio  de  Internet,  a  cobros  fijos  o  variables según el consumo"
+            },
+            {
+              "numero":999,
+              "nombre":"Otros",
+              "descripcion":""
+            },
+            {
+              "numero":8,
+              "nombre":"Enlaces de Telecomunicaciones",
+              "descripcion":"Líneas de comunicación con redes o bases de datos públicos  y  privados,  a  través  de  microondas,  radiofrecuencia,  fibra  óptica,  satélite,  etc.  Incluye  tanto  los  gastos  de  instalación  como  el  costo  fijo  o  variable  determinado  en  el  contrato."
+            }
+          ]
+        },
+        {
+          "numero":6,
+          "nombre":"Mantenimiento y Reparaciones",
+          "descripcion":"Servicios que sean necesarios efectuar por concepto de reparaciones y mantenimiento de bienes muebles e inmuebles, instalaciones, construcciones menores y  sus  artículos  complementarios  como  cortinajes,  persianas,  rejas  de  fierro,  toldos  y  otros similares. En caso de que el cobro de la prestación de servicios incluya el valor de los materiales incorporados, el gasto total se imputará a este ítem, en la asignación que corresponda.",
+          "asignaciones":[ 
+            {
+              "numero":1,
+              "nombre":"Mantenimiento y Reparación de Edificaciones",
+              "descripcion":"Mantenimiento  y  reparación  de  edificios  para  oficinas  públicas, escuelas, penitenciarías, centros asistenciales y otros análogos. Se incluye mantenimiento y reparación de instalaciones como las eléctricas, ascensores, elevadores, agua, gas, aire acondicionado, telecomunicaciones, de radio y televisión."
+            },
+            {
+              "numero":2,
+              "nombre":"Mantenimiento y Reparación de Vehículos",
+              "descripcion":"Mantenimiento y reparación de automóviles, autobuses, camiones, jeep, motos, vehículos de tres ruedas, de equipos ferroviarios, marítimos y aéreos, y de equipos de tracción animal y mecánica."
+            },
+            {
+              "numero":3,
+              "nombre":"Mantenimiento y Reparación de Mobiliarios y Otros",
+              "descripcion":"Mmantenimiento  y  reparación  de  mobiliario  de  oficinas  y viviendas, muebles de instalaciones militares, policiales, educacionales, sanitarias y hospitalarias, de aduanas, puertos y aeropuertos, etc."
+            },
+            {
+              "numero":4,
+              "nombre":"Mantenimiento y Reparación de Máquinas y Equipos de Oficina",
+              "descripcion":"Mantenimiento y reparación de máquinas calculadoras, contables, relojes de control, máquinas de cálculo electrónico, equipos de aire acondicionado, reguladores de temperatura, calentadores, cocinas, refrigeradores, radios, televisores, aspiradoras, enceradoras, grabadoras, dictáfonos, escritorios, muebles metálicos, kardex, sillas, sillones, muebles de casino, de enseñanza, tales como pizarrones, bancos escolares, etc. Incluye, además, mantenimiento y reparación de máquinas de escribir y otras."
+            },
+            {
+              "numero":5,
+              "nombre":"Mantenimiento y Reparación de Maquinaria y Equipos de Producción",
+              "descripcion":"Mantenimiento y reparaciones de maquinarias y equipos agropecuarios, de maquinarias y equipos industriales, de equipos petroleros, maquinarias y equipos de servicios productivos, de equipos para tratamiento de aguas, de equipos de refrigeración, etc."
+            },
+            {
+              "numero":6,
+              "nombre":"Mantenimiento y Reparación de Otras Maquinarias y Equipos",
+              "descripcion":"Mantenimiento y reparaciones de: – Equipos Médicos, Sanitarios y de Investigación, tales como equipos de Rayos X, equipos dentales, aparatos de medición, equipos de laboratorios, etc.  – Máquinas y Equipos Viales destinados a la construcción y/o mantenimiento de calles, caminos, construcción de puentes y otras obras que forman parte de los procesos de construcción y mantenimiento vial. – Máquinas y Equipos de Construcción dedicados a  la  construcción  de  edificios,  obras  de  infraestructura,  instalaciones  adheridas  a  edificios  y  al  suelo,  a  excepción  de  los  equipos  viales."
+            },
+            {
+              "numero":7,
+              "nombre":"Mantenimiento y Reparación de Equipos Informáticos",
+              "descripcion":"Reparación y mantenimiento de los equipos computacionales y los dispositivos de comunicación, equipos eléctricos, cableados de red e instalaciones eléctricas de exclusivo uso informático."
+            },
+            {
+              "numero":999,
+              "nombre":"Otros",
+              "descripcion":"Mantenimiento y reparación de otras máquinas y equipos no incluidos en los items anteriores."
+            }
+          ]
+        },
+        {
+          "numero":7,
+          "nombre":"Publicidad y Difusión",
+          "descripcion":"",
+          "asignaciones":[ 
+            {
+              "numero":1,
+              "nombre":"Servicios de Publicidad",
+              "descripcion":"Publicidad, difusión o relaciones públicas en general, tales como avisos, promoción en periódicos, radios, televisión, cines, teatros, revistas, contratos con agencias publicitarias, servicios de exposiciones y, en general, todo gasto similar que se destine a estos objetivos, sujeto a la normativa del artículo 3º de la Ley Nº 19.896."
+            },
+            {
+              "numero":2,
+              "nombre":"Servicios de Impresión",
+              "descripcion":"Servicios  de  impresión  de  afiches,  folletos,  revistas  y  otros  elementos  que  se  destinen  para  estos  fines,  reproducción  de  memorias,  instrucciones, manuales y otros similares."
+            },
+            {
+              "numero":3,
+              "nombre":"Servicios de Encuademación y Empaste",
+              "descripcion":"Servicios de encuadernación y empaste de documentos, informes, libros y similares."
+            },
+            {
+              "numero":999,
+              "nombre":"Otros",
+              "descripcion":"Servicios de publicidad y difusión no contemplados en los items anteriores."
+            }
+          ]
+        },
+        {
+          "numero":8,
+          "nombre":"Servicios Generales",
+          "descripcion":"",
+          "asignaciones":[ 
+            {
+              "numero":1,
+              "nombre":"Servicios de Aseo",
+              "descripcion":"Servicios de limpieza, lavandería, desinfección, extracción de basura, encerado y otros análogos. Incluye, además, los gastos por convenios de extracción de basura domiciliaria, de ferias libres y barrido de calles y derechos por uso de vertederos de basura, de cargo de las Municipalidades"
+            },
+            {
+              "numero":2,
+              "nombre":"Servicios de Vigilancia",
+              "descripcion":"Servicios de guardias, cámaras de video, alarmas y otros implementos necesarios para resguardar el orden y la seguridad, de las personas y valores que se encuentren en un lugar físico determinado."
+            },
+            {
+              "numero":3,
+              "nombre":"Servicios de Mantención de Jardines",
+              "descripcion":"Servicio de mantención de jardines y áreas verdes, de dependencias de los organismos del sector público y los de cargo de las Municipalidades."
+            },
+            {
+              "numero":4,
+              "nombre":"Servicios de Mantención de Alumbrado Público",
+              "descripcion":""
+            },
+            {
+              "numero":5,
+              "nombre":"Servicios de Mantención de Semáforos",
+              "descripcion":""
+            },
+            {
+              "numero":6,
+              "nombre":"Servicios de Mantención de Señalizaciones de Tránsito",
+              "descripcion":"Mantención de señalizaciones de tránsito en la vía pública, cuando este servicio se encuentre licitado."
+            },
+            {
+              "numero":7,
+              "nombre":"Pasajes, Fletes y Bodegajes",
+              "descripcion":"Movilización, locomoción, mudanzas, transportes, pago de permisos de circulación de vehículos y placas patentes para vehículos motorizados, peajes, embalajes, remesas de formularios, materiales, muebles, útiles, enseres, transporte de correspondencia (incluyend despacho y bodegaje)"
+            },
+            {
+              "numero":999,
+              "nombre":"Otros",
+              "descripcion":""
+            },
+            {
+              "numero":8,
+              "nombre":"Salas Cunas y/o Jardines Infantiles",
+              "descripcion":""
+            },
+            {
+              "numero":9,
+              "nombre":"Servicios de Pago y Cobranza",
+              "descripcion":"Servicios para el pago y/o recaudación de  beneficios,  y  las  notificaciones  por  mora."
+            },
+            {
+              "numero":10,
+              "nombre":"Servicios de Suscripción y Similares",
+              "descripcion":"Suscripciones a revistas y diarios, y suscripciones o contrataciones de servicios nacionales e internacionales de información por medios electrónicos de transmisión de datos, textos o similares."
+            },
+            {
+              "numero":11,
+              "nombre":"Servicios de Producción y Desarrollo de Eventos",
+              "descripcion":"Producción  y desarrollo integral de eventos sociales, culturales y deportivos, que realizan en beneficio  de  la  comunidad  las  municipalidades."
+            }
+          ]
+        },
+        {
+          "numero":9,
+          "nombre":"Arriendos",
+          "descripcion":"",
+          "asignaciones":[ 
+            {
+              "numero":1,
+              "nombre":"Arriendo de Terrenos",
+              "descripcion":"Arriendo  de  terrenos  con  fines  de  estacionamientos,  acopio, etc."
+            },
+            {
+              "numero":2,
+              "nombre":"Arriendo de Edificios",
+              "descripcion":"Arriendo  de  edificios  para  oficina,  escuela,  habitación,  etc. "
+            },
+            {
+              "numero":3,
+              "nombre":"Arriendo de Vehículos",
+              "descripcion":"Arriendo de vehículos motorizados y no motorizados,  ya  sean  pactados  por  mes,  horas  o  en otra forma. Incluye arrendamiento de animales cuando sea procedente."
+            },
+            {
+              "numero":4,
+              "nombre":"Arriendo de Mobiliario y Otros",
+              "descripcion":"Arriendo  de  mobiliario  de  oficinas  y  viviendas,  muebles  de instalaciones militares, policiales, educacionales, sanitarias y hospitalarias, de aduanas, puertos y aeropuertos, etc."
+            },
+            {
+              "numero":5,
+              "nombre":"Arriendo de Máquinas y Equipos",
+              "descripcion":"Arriendo  de  máquinas  y  equipos  de  oficina,  agrícolas,  industriales, de construcción, otras máquinas y equipos necesarios."
+            },
+            {
+              "numero":6,
+              "nombre":"Arriendo de Equipos Informáticos",
+              "descripcion":"Arriendo de equipos computacionales, periféricos, adaptadores, accesorios, medios de respaldo y otros elementos complementarios, ubicados in situ o remotos. Incluye el arriendo de líneas y dispositivos de comunicaciones."
+            },
+            {
+              "numero":999,
+              "nombre":"Otros",
+              "descripcion":""
+            }
+          ]
+        },
+        {
+          "numero":10,
+          "nombre":"Servicios Financieros y de Seguros",
+          "descripcion":"",
+          "asignaciones":[ 
+            {
+              "numero":1,
+              "nombre":"Títulos y Valores",
+              "descripcion":"Servicios de compra y venta de valores."
+            },
+            {
+              "numero":2,
+              "nombre":"Seguros",
+              "descripcion":"Seguros contra daños y otros accidentes a la propiedad como incendios, colisión de vehículos, etc. "
+            },
+            {
+              "numero":3,
+              "nombre":"Servicios de Giros y Remesas",
+              "descripcion":"Servicios de giros y remesas de dinero y valores financieros."
+            },
+            {
+              "numero":4,
+              "nombre":"Servicios Bancarios",
+              "descripcion":""
+            },
+            {
+              "numero":999,
+              "nombre":"Otros",
+              "descripcion":""
+            }
+          ]
+        },
+        {
+          "numero":11,
+          "nombre":"Servicios Técnicos y Profesionales",
+          "descripcion":"",
+          "asignaciones":[ 
+            {
+              "numero":1,
+              "nombre":"Estudios e Investigaciones",
+              "descripcion":"Servicios de análisis, interpretaciones de asuntos técnicos, económicos y sociales"
+            },
+            {
+              "numero":2,
+              "nombre":"Cursos de Capacitación",
+              "descripcion":"Servicios de capacitación o perfeccionamiento."
+            },
+            {
+              "numero":3,
+              "nombre":"Servicios Informáticos",
+              "descripcion":"Consultorías para la mantención o readecuación de los sistemas informáticos para mantener su vigencia o utilidad."
+            },
+            {
+              "numero":999,
+              "nombre":"Otros",
+              "descripcion":""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "numero":29,
+      "nombre":"Activos no financieros",
+      "descripcion":"",
+      "items":[
+        {
+          "numero":1,
+          "nombre":"Terrenos",
+          "descripcion":""
+        },
+        {
+          "numero":2,
+          "nombre":"Edificios",
+          "descripcion":""
+        },
+        {
+          "numero":3,
+          "nombre":"Vehículos",
+          "descripcion":"Equipos empleados para transportar personas  y  objetos,  e  incluye  la  compra  de  automóviles,  station  wagons,  furgones,  buses,  buques, aeronaves, remolques y semirremolques y/o cualquier otro tipo de vehículos   motorizados."
+        },
+        {
+          "numero":99,
+          "nombre":"Otros Activos no Financieros",
+          "descripcion":""
+        },
+        {
+          "numero":4,
+          "nombre":"Mobiliario y Otros",
+          "descripcion":"Mobiliario  de  oficinas  y  de  viviendas,  muebles de instalaciones educacionales, hospitalarias, policiales, etc. Se incluyen los enseres  destinados  al  funcionamiento  de  oficinas,  casinos,  edificaciones  y  otras  instalaciones  públicas."
+        },
+        {
+          "numero":5,
+          "nombre":"Máquinas y Equipos",
+          "descripcion":"Máquinas, equipos y accesorios para el funcionamiento, producción o mantenimiento",
+          "asignaciones":[ 
+            {
+              "numero":1,
+              "nombre":"Máquinas y Equipos de Oficina",
+              "descripcion":""
+            },
+            {
+              "numero":2,
+              "nombre":"Maquinarias y Equipos para la Producción",
+              "descripcion":""
+            },
+            {
+              "numero":999,
+              "nombre":"Otras",
+              "descripcion":""
+            }
+          ]
+        },
+        {
+          "numero":6,
+          "nombre":"Equipos Informáticos",
+          "descripcion":"",
+          "asignaciones":[ 
+            {
+              "numero":1,
+              "nombre":"Equipos Computacionales y Periféricos",
+              "descripcion":"Equipos computacionales y unidades complementarias, tales como UPS, lectores de cinta, impresoras, lectoras-grabadoras de CD-ROM, etc."
+            },
+            {
+              "numero":2,
+              "nombre":"Equipos de Comunicaciones para Redes Informáticas",
+              "descripcion":"Equipos de comunicaciones, tales como Router,  Hub,  Firewall,  Balanceador  de  Carga  (CSS),  Scanner  de  Red,  Patch  Panel,  etc."
+            }
+          ]
+        },
+        {
+          "numero":7,
+          "nombre":"Programas Informáticos",
+          "descripcion":"",
+          "asignaciones":[ 
+            {
+              "numero":1,
+              "nombre":"Programas Computacionales",
+              "descripcion":"Software,  tales  como  procesadores  de texto, planillas electrónicas, bases de datos, etc."
+            },
+            {
+              "numero":2,
+              "nombre":"Sistemas de Información",
+              "descripcion":"Software  diseñados  específicamente  o  adecuados  a  las  necesidades de la institución, a partir de un producto genérico, o la contratación de un servicio  de  desarrollo  de  software  del  que  resulte  un  producto  final,  cuya  propiedad  intelectual pertenecerá a la institución."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "numero":30,
+      "nombre":"Activos financieros",
+      "descripcion":"Valores mobiliarios e instrumentos financieros  que  no  se  liquida,  vendan  o  rescaten  al  31  de  diciembre  del  año  en  curso.",
+      "items":[
+        {
+          "numero":1,
+          "nombre":"Títulos y Valores",
+          "descripcion":"Bonos y otros valores",
+          "asignaciones":[ 
+            {
+              "numero":1,
+              "nombre":"Depósitos a Plazo",
+              "descripcion":""
+            },
+            {
+              "numero":2,
+              "nombre":"Pactos de Retrocompra",
+              "descripcion":""
+            },
+            {
+              "numero":3,
+              "nombre":"Cuotas de Fondos Mutuos",
+              "descripcion":""
+            },
+            {
+              "numero":4,
+              "nombre":"Bonos o Pagarés",
+              "descripcion":""
+            },
+            {
+              "numero":5,
+              "nombre":"Letras Hipotecarias",
+              "descripcion":""
+            },
+            {
+              "numero":999,
+              "nombre":"Otros",
+              "descripcion":""
+            }
+          ]
+        },
+        {
+          "numero":2,
+          "nombre":"Acciones y Participaciones de Capital",
+          "descripcion":"Acciones u otros valores representativos de capital a empresas públicas o privadas nacionales u organismos e instituciones internacionales"
+        },
+        {
+          "numero":3,
+          "nombre":"Operaciones de Cambio",
+          "descripcion":""
+        },
+        {
+          "numero":99,
+          "nombre":"Otros Activos Financieros",
+          "descripcion":""
+        }
+      ]
+    },
+    {
+      "numero":31,
+      "nombre":"Iniciativas de inversión",
+      "descripcion":"",
+      "items":[
+        {
+          "numero":1,
+          "nombre":"Estudios Básicos",
+          "descripcion":"",
+          "asignaciones":[ 
+            {
+              "numero":1,
+              "nombre":"Gastos Administrativos",
+              "descripcion":""
+            },
+            {
+              "numero":2,
+              "nombre":"Consultorías",
+              "descripcion":""
+            }
+          ]
+        },
+        {
+          "numero":2,
+          "nombre":"Proyectos",
+          "descripcion":"",
+          "asignaciones":[ 
+            {
+              "numero":1,
+              "nombre":"Gastos Administrativos",
+              "descripcion":""
+            },
+            {
+              "numero":2,
+              "nombre":"Consultorías",
+              "descripcion":""
+            },
+            {
+              "numero":3,
+              "nombre":"Terrenos",
+              "descripcion":""
+            },
+            {
+              "numero":4,
+              "nombre":"Obras Civiles",
+              "descripcion":""
+            },
+            {
+              "numero":5,
+              "nombre":"Equipamiento",
+              "descripcion":""
+            },
+            {
+              "numero":6,
+              "nombre":"Equipos",
+              "descripcion":""
+            },
+            {
+              "numero":7,
+              "nombre":"Vehículos",
+              "descripcion":""
+            },
+            {
+              "numero":999,
+              "nombre":"Otros Gastos",
+              "descripcion":""
+            }
+          ]
+        },
+        {
+          "numero":3,
+          "nombre":"Programas de Inversión",
+          "descripcion":"",
+          "asignaciones":[ 
+            {
+              "numero":1,
+              "nombre":"Gastos Administrativos",
+              "descripcion":""
+            },
+            {
+              "numero":2,
+              "nombre":"Consultorías",
+              "descripcion":""
+            },
+            {
+              "numero":3,
+              "nombre":"Contratación del Programa",
+              "descripcion":""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

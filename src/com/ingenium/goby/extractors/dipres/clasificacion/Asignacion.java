@@ -24,5 +24,5 @@ public final class Asignacion extends Clasificador {
   public Asignacion(int numero, String nombre, String descripcion) {
     super(numero, nombre, descripcion);
   }
-
+  
 }

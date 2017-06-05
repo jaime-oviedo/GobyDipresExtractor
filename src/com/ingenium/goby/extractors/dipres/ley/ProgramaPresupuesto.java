@@ -12,7 +12,7 @@ import java.util.Collections;
  *
  * @author JaimeRodrigo
  */
-final class ProgramaPresupuesto extends ElementoPresupuestoCompuesto {
+final class ProgramaPresupuesto extends ElementoPresupuestarioCompuesto {
 
   /**
    * Crea una nueva instancia de la clase ProgramaPresupuesto.

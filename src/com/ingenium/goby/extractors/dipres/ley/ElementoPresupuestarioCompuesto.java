@@ -10,7 +10,7 @@ import java.util.Iterator;
  * Clase base que representa un elemento presupuestario que puede componerse
  * internamente de otros subelementos presupuestarios.
  **/
-abstract class ElementoPresupuestoCompuesto extends ElementoPresupuesto {
+abstract class ElementoPresupuestarioCompuesto extends ElementoPresupuestario {
   
   /**
    * Calcula el presupuesto agregado de un conjunto de elementos presupuestarios
@@ -21,16 +21,16 @@ abstract class ElementoPresupuestoCompuesto extends ElementoPresupuesto {
    * @return la suma de los presupuestos de los subelementos
    */
   private static BigInteger calculaPresupuesto(
-      Collection<? extends ElementoPresupuesto> subElementos2) {
+      Collection<? extends ElementoPresupuestario> subElementos2) {
     BigInteger presupuesto = BigInteger.ZERO;
-    Iterator<? extends ElementoPresupuesto> it = subElementos2.iterator();
+    Iterator<? extends ElementoPresupuestario> it = subElementos2.iterator();
     while (it.hasNext()) {
       presupuesto = presupuesto.add(it.next().getPresupuesto());
     }
     return null;
   }
   
-  protected final Collection<? extends ElementoPresupuesto> subElementos;
+  protected final Collection<? extends ElementoPresupuestario> subElementos;
 
   /**
    * Crea una nueva instancia de la clase Elemento presupuestario con una lista
@@ -45,7 +45,7 @@ abstract class ElementoPresupuestoCompuesto extends ElementoPresupuesto {
    * @param presupuesto
    *          el valor del campo presupuesto
    */
-  public ElementoPresupuestoCompuesto(int numero, String nombre,
+  public ElementoPresupuestarioCompuesto(int numero, String nombre,
       String descripcion, BigInteger presupuesto) {
     super(numero, nombre, descripcion, presupuesto);
     subElementos = Collections.emptyList();
@@ -63,15 +63,15 @@ abstract class ElementoPresupuestoCompuesto extends ElementoPresupuesto {
    *          el valor del campo descripcion
    */
 
-  public ElementoPresupuestoCompuesto(int numero, String nombre,
+  public ElementoPresupuestarioCompuesto(int numero, String nombre,
       String descripcion,
-      Collection<? extends ElementoPresupuesto> subElementos) {
+      Collection<? extends ElementoPresupuestario> subElementos) {
     super(numero, nombre, descripcion,
-        ElementoPresupuestoCompuesto.calculaPresupuesto(subElementos));
+        ElementoPresupuestarioCompuesto.calculaPresupuesto(subElementos));
     this.subElementos = subElementos;
   }
   
-  public Collection<? extends ElementoPresupuesto> getSubElementos() {
+  public Collection<? extends ElementoPresupuestario> getSubElementos() {
     return subElementos;
   }
 }

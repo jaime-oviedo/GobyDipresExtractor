@@ -5,8 +5,6 @@
 package com.ingenium.goby.extractors.dipres.clasificacion;
 
 import com.ingenium.goby.extractors.ExtractionException;
-import com.ingenium.goby.extractors.dipres.clasificacion.CatalogoClasificadoresPresupuestarios;
-import com.ingenium.goby.extractors.dipres.clasificacion.ClasificadorPresupuestarioExtractor;
 
 import org.junit.Assert;
 import org.junit.Test;
@@ -17,10 +15,10 @@ import org.junit.Test;
  * @author JaimeRodrigo
  */
 public class ClasificadorPresupuestarioExtractorTest {
-  
+
   /**
-   * Metodo de prueba para
-   * {@link com.ingenium.goby.extractors.dipres.clasificacion.ClasificadorPresupuestarioExtractor#extract()}.
+   * Metodo de prueba para ClasificadorPresupuestarioExtractor#extract().
+   *
    */
   @Test
   public final void testExtract() {
@@ -33,7 +31,7 @@ public class ClasificadorPresupuestarioExtractorTest {
     }
     Assert.assertTrue(true);
   }
-  
+
   /**
    * Metodo de prueba para extractClasificadores.
    */
@@ -41,7 +39,7 @@ public class ClasificadorPresupuestarioExtractorTest {
   public final void testExtractClasificadores() {
     ClasificadorPresupuestarioExtractor bce = new ClasificadorPresupuestarioExtractor();
     try {
-      
+
       CatalogoClasificadoresPresupuestarios clasificadores = bce
           .extractClasificadoresPresupuestarios();
       System.out.println(clasificadores.toJsonString(0));
@@ -51,5 +49,5 @@ public class ClasificadorPresupuestarioExtractorTest {
     }
     Assert.assertTrue(true);
   }
-  
+
 }

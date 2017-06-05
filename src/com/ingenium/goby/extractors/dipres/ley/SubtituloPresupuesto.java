@@ -12,7 +12,7 @@ import java.util.Collections;
  *
  * @author JaimeRodrigo
  */
-final class SubtituloPresupuesto extends ElementoPresupuestoCompuesto {
+final class SubtituloPresupuesto extends ElementoPresupuestarioCompuesto {
 
   /**
    * Crea una nueva instancia de la clase SubtituloPresupuesto.

@@ -13,14 +13,14 @@ import java.math.BigInteger;
  *
  * @author JaimeRodrigo
  */
-abstract class ElementoPresupuesto {
+public class ElementoPresupuestario {
 
   protected final ClasificadorSimple clasificador;
 
   protected final BigInteger presupuesto;
-  
+
   /**
-   * Crea una nueva instancia de la clase ElementoPresupuesto.
+   * Crea una nueva instancia de la clase ElementoPresupuestario.
    *
    * @param numero
    *          el valor del campo numero
@@ -31,13 +31,13 @@ abstract class ElementoPresupuesto {
    * @param presupuesto
    *          el valor del campo presupuesto
    */
-  public ElementoPresupuesto(int numero, String nombre, String descripcion,
+  public ElementoPresupuestario(int numero, String nombre, String descripcion,
       BigInteger presupuesto) {
     super();
     clasificador = new ClasificadorSimple(numero, nombre, descripcion);
     this.presupuesto = presupuesto;
   }
-  
+
   /**
    * Devuelve el valor del campo descripcion.
    *
@@ -46,7 +46,7 @@ abstract class ElementoPresupuesto {
   public String getDescripcion() {
     return clasificador.getDescripcion();
   }
-  
+
   /**
    * Devuelve el valor del campo nombre.
    *
@@ -55,7 +55,7 @@ abstract class ElementoPresupuesto {
   public final String getNombre() {
     return clasificador.getNombre();
   }
-  
+
   /**
    * Devuelve el valor del campo numero.
    *
@@ -64,7 +64,7 @@ abstract class ElementoPresupuesto {
   public final int getNumero() {
     return clasificador.getNumero();
   }
-  
+
   /**
    * Devuelve el valor del campo presupuesto.
    *
@@ -74,4 +74,7 @@ abstract class ElementoPresupuesto {
     return presupuesto;
   }
 
+  public final void setNombre(String nombre) {
+    this.clasificador.setNombre(nombre);
+  }
 }

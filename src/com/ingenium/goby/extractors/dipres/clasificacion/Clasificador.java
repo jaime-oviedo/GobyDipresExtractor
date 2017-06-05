@@ -9,12 +9,12 @@ package com.ingenium.goby.extractors.dipres.clasificacion;
  *
  * @author JaimeRodrigo
  */
-public abstract class Clasificador {
-  
+public class Clasificador {
+
   private Integer numero;
   private String nombre;
   private String descripcion;
-  
+
   /**
    * Crea una nueva instancia de la clase Clasificador.
    *
@@ -31,7 +31,7 @@ public abstract class Clasificador {
     this.nombre = nombre;
     this.descripcion = descripcion;
   }
-  
+
   /**
    * Devuelve el valor del campo descripcion.
    *
@@ -40,7 +40,7 @@ public abstract class Clasificador {
   public final String getDescripcion() {
     return descripcion;
   }
-  
+
   /**
    * Devuelve el valor del campo nombre.
    *
@@ -49,7 +49,7 @@ public abstract class Clasificador {
   public final String getNombre() {
     return nombre;
   }
-  
+
   /**
    * Devuelve el valor del campo numero.
    *
@@ -58,25 +58,24 @@ public abstract class Clasificador {
   public final Integer getNumero() {
     return numero;
   }
-  
+
   public final void setDescripcion(String descripcion) {
     this.descripcion = descripcion;
   }
-  
+
   public final void setNombre(String nombre) {
     this.nombre = nombre;
   }
-  
+
   public final void setNumero(Integer numero) {
     this.numero = numero;
   }
-  
+
   /**
    * Convierte el clasificador en un string Json
    *
    * @param nestingLevel
-   *          el número basico de identaciones. Resulta útil al anidar
-   *          transformaciones a Json.
+   *          el número basico de identaciones. Resulta útil al anidar transformaciones a Json.
    * @return la representación del clasificador en un objeto Json
    */
   public String toJsonString(int nestingLevel) {
@@ -84,7 +83,7 @@ public abstract class Clasificador {
     for (int i = 0; i < nestingLevel; i++) {
       nesting.append("  ");
     }
-    
+
     StringBuilder sb = new StringBuilder(nesting);
     sb.append("{\n");
     nesting.append("  ");

@@ -11,10 +11,10 @@ import java.math.BigInteger;
  *
  * @author JaimeRodrigo
  */
-final class AsignacionPresupuesto extends ElementoPresupuesto {
+final class AsignacionPresupuestaria extends ElementoPresupuestario {
 
   /**
-   * Crea una nueva instancia de la clase AsignacionPresupuesto.
+   * Crea una nueva instancia de la clase AsignacionPresupuestaria.
    *
    * @param numero
    *          el valor del campo numero
@@ -23,7 +23,7 @@ final class AsignacionPresupuesto extends ElementoPresupuesto {
    * @param presupuesto
    *          el valor del campo presupuesto
    */
-  public AsignacionPresupuesto(int numero, String nombre, String descripcion,
+  public AsignacionPresupuestaria(int numero, String nombre, String descripcion,
       BigInteger presupuesto) {
     super(numero, nombre, descripcion, presupuesto);
   }

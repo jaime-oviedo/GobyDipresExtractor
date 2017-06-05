@@ -5,11 +5,11 @@ import java.util.Iterator;
 
 final class PresupuestoJsonMapper {
   
-  public static String map(AsignacionPresupuesto a) {
+  public static String map(AsignacionPresupuestaria a) {
     return PresupuestoJsonMapper.map(a, 0);
   }
 
-  public static String map(AsignacionPresupuesto a, int nesting) {
+  public static String map(AsignacionPresupuestaria a, int nesting) {
     return PresupuestoJsonMapper.mapBase(a).toString();
   }
   
@@ -20,7 +20,7 @@ final class PresupuestoJsonMapper {
         sb.append("  ");
       }
       sb.append("\"asignaciones\":{\n");
-      Iterator<AsignacionPresupuesto> it = i.getAsignaciones().iterator();
+      Iterator<AsignacionPresupuestaria> it = i.getAsignaciones().iterator();
       while (it.hasNext()) {
         for (int n = 0; n < (nesting + 1); n++) {
           sb.append("  ");
@@ -34,7 +34,7 @@ final class PresupuestoJsonMapper {
     return sb.toString();
   }
   
-  private static StringBuilder mapBase(ElementoPresupuesto ep) {
+  private static StringBuilder mapBase(ElementoPresupuestario ep) {
     StringBuilder sb = new StringBuilder();
     sb.append("\"nombre\":" + "\"" + ep.getNombre() + "\"" + ",");
     sb.append("\"numero\":" + ep.getNumero() + ",");

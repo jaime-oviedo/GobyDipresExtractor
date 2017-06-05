@@ -13,7 +13,7 @@ import java.util.Collections;
  *
  * @author JaimeRodrigo
  */
-final class ItemPresupuesto extends ElementoPresupuestoCompuesto {
+class ItemPresupuesto extends ElementoPresupuestarioCompuesto {
 
   /**
    * Crea una nueva instancia de la clase ItemPresupuesto.
@@ -41,7 +41,7 @@ final class ItemPresupuesto extends ElementoPresupuestoCompuesto {
    *          el valor del campo asignaciones
    */
   public ItemPresupuesto(int numero, String nombre, String descripcion,
-      Collection<AsignacionPresupuesto> asignaciones) {
+      Collection<AsignacionPresupuestaria> asignaciones) {
     super(numero, nombre, descripcion, asignaciones);
   }
 
@@ -50,9 +50,9 @@ final class ItemPresupuesto extends ElementoPresupuestoCompuesto {
    *
    * @return el valor del campo asignaciones
    */
-  public final Collection<AsignacionPresupuesto> getAsignaciones() {
+  public final Collection<AsignacionPresupuestaria> getAsignaciones() {
     @SuppressWarnings("unchecked")
-    Collection<AsignacionPresupuesto> a = (Collection<AsignacionPresupuesto>) Collections
+    Collection<AsignacionPresupuestaria> a = (Collection<AsignacionPresupuestaria>) Collections
         .unmodifiableCollection(getSubElementos());
     return a;
   }

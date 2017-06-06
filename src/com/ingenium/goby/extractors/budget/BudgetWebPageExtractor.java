@@ -17,7 +17,7 @@ import com.ingenium.goby.extractors.Extractor;
  *     derived_abstraction="platform:/resource/goby-design/goby-classifier-extractor.emx#_UTAVAEquEeeJsdrfgQXeQw"
  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UTAVAEquEeeJsdrfgQXeQw"
  */
-class DipresPageExtractor implements Extractor {
+class BudgetWebPageExtractor implements Extractor {
 
   /** 
   * <!-- begin-UML-doc -->
@@ -39,11 +39,11 @@ class DipresPageExtractor implements Extractor {
   * <!-- end-UML-doc -->
   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UbF6AEquEeeJsdrfgQXeQw"
   */
-  public DipresPageExtractor() {
+  public BudgetWebPageExtractor() {
     // begin-user-code
-    extractionSource = Messages.getString("DipresPageExtractor.sourceUrl"); //$NON-NLS-1$
+    extractionSource = Messages.getString("BudgetWebPageExtractor.sourceUrl"); //$NON-NLS-1$
     extractionDestination = Messages
-        .getString("DipresPageExtractor.destinationUrl"); //$NON-NLS-1$
+        .getString("BudgetWebPageExtractor.destinationUrl"); //$NON-NLS-1$
     // end-user-code
   }
 

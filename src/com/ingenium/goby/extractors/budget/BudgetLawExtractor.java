@@ -23,7 +23,7 @@ public class BudgetLawExtractor implements Extractor {
   * <!-- end-UML-doc -->
   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UjBG8EquEeeJsdrfgQXeQw"
   */
-  private final DipresPageExtractor dpe;
+  private final BudgetWebPageExtractor dpe;
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -45,7 +45,7 @@ public class BudgetLawExtractor implements Extractor {
   */
   public BudgetLawExtractor() {
     // begin-user-code
-    dpe = new DipresPageExtractor();
+    dpe = new BudgetWebPageExtractor();
     bfle = new BudgetFileListExtractor();
     bfe = new BudgetFileExtractor();
     // end-user-code

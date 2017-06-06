@@ -40,8 +40,7 @@ public class ClasificadorPresupuestarioExtractorTest {
     BudgetClassifiersExtractor bce = new BudgetClassifiersExtractor();
     try {
 
-      BudgetClassifiersCatalog clasificadores = bce
-          .extractBudgetClassifiers();
+      BudgetClassifiersCatalog clasificadores = bce.extractBudgetClassifiers();
       System.out.println(clasificadores.toJsonString(0));
     } catch (ExtractionException e) {
       Assert.fail();

@@ -4,31 +4,48 @@
 
 package com.ingenium.goby.extractors;
 
-/**
- * Excepción que captura problemas que impiden la extracción de información.
- *
- * @author JaimeRodrigo
+/** 
+ * <!-- begin-UML-doc -->
+ * Excepción&nbsp;que&nbsp;captura&nbsp;problemas&nbsp;que&nbsp;impiden&nbsp;la&nbsp;extracción&nbsp;de&nbsp;información.<br><br>@author&nbsp;JaimeRodrigo
+ * <!-- end-UML-doc -->
+ * @author joviedo
+ * @uml.annotations
+ *     derived_abstraction="platform:/resource/goby-design/goby-classifier-extractor.emx#_UaL7EEquEeeJsdrfgQXeQw"
+ * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UaL7EEquEeeJsdrfgQXeQw"
  */
 public class ExtractionException extends Exception {
 
-  /**
-   * Identificador de serie de la clase.
-   */
+  /** 
+  * <!-- begin-UML-doc -->
+  * Identificador&nbsp;de&nbsp;serie&nbsp;de&nbsp;la&nbsp;clase.
+  * <!-- end-UML-doc -->
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UgkP4EquEeeJsdrfgQXeQw"
+  */
   private static final long serialVersionUID = 1797242167551088990L;
 
-  /**
-   * Crea una nueva instancia de ExtractionException.
-   */
+  /** 
+  * <!-- begin-UML-doc -->
+  * Crea&nbsp;una&nbsp;nueva&nbsp;instancia&nbsp;de&nbsp;ExtractionException.
+  * <!-- end-UML-doc -->
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UgmFEEquEeeJsdrfgQXeQw"
+  */
   public ExtractionException() {
+    // begin-user-code
     super();
+    // end-user-code
   }
 
-  /**
-   * Crea una nueva instancia de ExtractionException usando un mensaje de
-   * explicación.
-   */
+  /** 
+  * <!-- begin-UML-doc -->
+  * Crea&nbsp;una&nbsp;nueva&nbsp;instancia&nbsp;de&nbsp;ExtractionException&nbsp;usando&nbsp;un&nbsp;mensaje&nbsp;de<br>explicación.
+  * <!-- end-UML-doc -->
+  * @param message
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UgnTMEquEeeJsdrfgQXeQw"
+  */
   public ExtractionException(String message) {
+    // begin-user-code
     super(message);
+    // end-user-code
   }
 
 }

@@ -9,51 +9,82 @@ import java.io.PrintWriter;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 
-/**
- * Clase que descarga una página web, intentando corregir automáticamente
- * cualquier error de tags HTML mal cerrados.<br>
- * La descarga es sólo del texto html, no de sus imágenes ni de sus recursos
- * enlazados.
- *
- * @author JaimeRodrigo
+/** 
+ * <!-- begin-UML-doc -->
+ * Clase&nbsp;que&nbsp;descarga&nbsp;una&nbsp;página&nbsp;web,&nbsp;intentando&nbsp;corregir&nbsp;automáticamente<br>cualquier&nbsp;error&nbsp;de&nbsp;tags&nbsp;HTML&nbsp;mal&nbsp;cerrados.<br><br>La&nbsp;descarga&nbsp;es&nbsp;sólo&nbsp;del&nbsp;texto&nbsp;html,&nbsp;no&nbsp;de&nbsp;sus&nbsp;imágenes&nbsp;ni&nbsp;de&nbsp;sus&nbsp;recursos<br>enlazados.<br><br>@author&nbsp;JaimeRodrigo
+ * <!-- end-UML-doc -->
+ * @author joviedo
+ * @uml.annotations
+ *     derived_abstraction="platform:/resource/goby-design/goby-classifier-extractor.emx#_UaNwQEquEeeJsdrfgQXeQw"
+ * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UaNwQEquEeeJsdrfgQXeQw"
  */
 public class FormattedWebPageDownloader {
-  
+
+  /** 
+  * <!-- begin-UML-doc -->
+  * <!-- end-UML-doc -->
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UgsywEquEeeJsdrfgQXeQw"
+  */
   private String source;
+  /** 
+  * <!-- begin-UML-doc -->
+  * <!-- end-UML-doc -->
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UguA4EquEeeJsdrfgQXeQw"
+  */
   private String destination;
-  
-  /**
-   * Crea una nueva instancia de FormattedWebPageDownloader.
-   */
+
+  /** 
+  * <!-- begin-UML-doc -->
+  * Crea&nbsp;una&nbsp;nueva&nbsp;instancia&nbsp;de&nbsp;FormattedWebPageDownloader.
+  * <!-- end-UML-doc -->
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UgvPAEquEeeJsdrfgQXeQw"
+  */
   public FormattedWebPageDownloader() {
+    // begin-user-code
     super();
-    
+
+    // end-user-code
   }
-  
-  /**
-   * Crea una nueva instancia de FormattedWebPageDownloader.
-   *
-   * @param source
-   *          la URL de donde se obtendrá el archivo
-   * @param destination
-   *          la URL de donde se almacenará el archivo
-   */
+
+  /** 
+  * <!-- begin-UML-doc -->
+  * Crea&nbsp;una&nbsp;nueva&nbsp;instancia&nbsp;de&nbsp;FormattedWebPageDownloader.<br><br>@param&nbsp;source<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;la&nbsp;URL&nbsp;de&nbsp;donde&nbsp;se&nbsp;obtendrá&nbsp;el&nbsp;archivo<br>@param&nbsp;destination<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;la&nbsp;URL&nbsp;de&nbsp;donde&nbsp;se&nbsp;almacenará&nbsp;el&nbsp;archivo
+  * <!-- end-UML-doc -->
+  * @param source
+  * @param destination
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UgxEMEquEeeJsdrfgQXeQw"
+  */
   public FormattedWebPageDownloader(String source, String destination) {
+    // begin-user-code
     super();
     this.source = source;
     this.destination = destination;
-    
+
+    // end-user-code
   }
-  
+
+  /** 
+  * <!-- begin-UML-doc -->
+  * <!-- end-UML-doc -->
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_Ugy5YEquEeeJsdrfgQXeQw"
+  */
   public void download() {
+    // begin-user-code
     download(source, destination);
+    // end-user-code
   }
-  
-  /**
-   * Descarga el archivo desde la fuente especificada al destino especificado.
-   */
-  
+
+  /** 
+  * <!-- begin-UML-doc -->
+  * Descarga&nbsp;el&nbsp;archivo&nbsp;desde&nbsp;la&nbsp;fuente&nbsp;especificada&nbsp;al&nbsp;destino&nbsp;especificado.
+  * <!-- end-UML-doc -->
+  * @param source
+  * @param destination
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_Ug0ukEquEeeJsdrfgQXeQw"
+  */
+
   public void download(String source, String destination) {
+    // begin-user-code
     PrintWriter outputStream;
     Document page;
     try {
@@ -65,7 +96,7 @@ public class FormattedWebPageDownloader {
       e.printStackTrace();
       return;
     }
-    
+
     try {
       page = Jsoup.connect(source).get();
       page = Jsoup.parse(page.html());
@@ -78,11 +109,11 @@ public class FormattedWebPageDownloader {
       }
       return;
     }
-    
+
     if (outputStream != null) {
       outputStream.write(page.toString());
       outputStream.close();
-      
+
       if (outputStream.checkError()) {
         System.out.println(
             "Un error desconocido ocurrió durante la escritura o el cierre del "
@@ -90,45 +121,60 @@ public class FormattedWebPageDownloader {
                 + "quedado corrupto o el stream podría haber quedado abierto.");
       }
     }
-    
+
+    // end-user-code
   }
-  
-  /**
-   * Devuelve el directorio y el nombre con el que se guarda el archivo.
-   *
-   * @return directorio y el nombre con el que se guarda el archivo
-   */
+
+  /** 
+  * <!-- begin-UML-doc -->
+  * Devuelve&nbsp;el&nbsp;directorio&nbsp;y&nbsp;el&nbsp;nombre&nbsp;con&nbsp;el&nbsp;que&nbsp;se&nbsp;guarda&nbsp;el&nbsp;archivo.<br><br>@return&nbsp;directorio&nbsp;y&nbsp;el&nbsp;nombre&nbsp;con&nbsp;el&nbsp;que&nbsp;se&nbsp;guarda&nbsp;el&nbsp;archivo
+  * <!-- end-UML-doc -->
+  * @return
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_Ug2jwEquEeeJsdrfgQXeQw"
+  */
   public String getDestination() {
+    // begin-user-code
     return destination;
+    // end-user-code
   }
-  
-  /**
-   * Devuelve la URL de donde se obtendrá el archivo.
-   *
-   * @return the source
-   */
+
+  /** 
+  * <!-- begin-UML-doc -->
+  * Devuelve&nbsp;la&nbsp;URL&nbsp;de&nbsp;donde&nbsp;se&nbsp;obtendrá&nbsp;el&nbsp;archivo.<br><br>@return&nbsp;the&nbsp;source
+  * <!-- end-UML-doc -->
+  * @return
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_Ug4Y8EquEeeJsdrfgQXeQw"
+  */
   public String getSource() {
+    // begin-user-code
     return source;
+    // end-user-code
   }
-  
-  /**
-   * Establece el directorio y el nombre con el que se guarda el archivo.
-   *
-   * @param destination
-   *          the destination to set
-   */
+
+  /** 
+  * <!-- begin-UML-doc -->
+  * Establece&nbsp;el&nbsp;directorio&nbsp;y&nbsp;el&nbsp;nombre&nbsp;con&nbsp;el&nbsp;que&nbsp;se&nbsp;guarda&nbsp;el&nbsp;archivo.<br><br>@param&nbsp;destination<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the&nbsp;destination&nbsp;to&nbsp;set
+  * <!-- end-UML-doc -->
+  * @param destination
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_Ug61MEquEeeJsdrfgQXeQw"
+  */
   public void setDestination(String destination) {
+    // begin-user-code
     this.destination = destination;
+    // end-user-code
   }
-  
-  /**
-   * Establece la URL de donde se obtendrá el archivo.
-   *
-   * @param source
-   *          la URL de donde se obtendrá el archivo
-   */
+
+  /** 
+  * <!-- begin-UML-doc -->
+  * Establece&nbsp;la&nbsp;URL&nbsp;de&nbsp;donde&nbsp;se&nbsp;obtendrá&nbsp;el&nbsp;archivo.<br><br>@param&nbsp;source<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;la&nbsp;URL&nbsp;de&nbsp;donde&nbsp;se&nbsp;obtendrá&nbsp;el&nbsp;archivo
+  * <!-- end-UML-doc -->
+  * @param source
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_Ug8qYEquEeeJsdrfgQXeQw"
+  */
   public void setSource(String source) {
+    // begin-user-code
     this.source = source;
+    // end-user-code
   }
-  
+
 }

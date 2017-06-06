@@ -11,20 +11,34 @@ import java.io.InputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
-/**
- * Esta clase permite la descarga de un archivo desde un sitio Web.
- *
- * @author JaimeRodrigo
+/** 
+ * <!-- begin-UML-doc -->
+ * Esta&nbsp;clase&nbsp;permite&nbsp;la&nbsp;descarga&nbsp;de&nbsp;un&nbsp;archivo&nbsp;desde&nbsp;un&nbsp;sitio&nbsp;Web.<br><br>@author&nbsp;JaimeRodrigo
+ * <!-- end-UML-doc -->
+ * @author joviedo
+ * @uml.annotations
+ *     derived_abstraction="platform:/resource/goby-design/goby-classifier-extractor.emx#_UZsy4EquEeeJsdrfgQXeQw"
+ * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UZsy4EquEeeJsdrfgQXeQw"
  */
 public class SimpleFileDownloader implements Downloader {
 
-  private static final int BUFFER_SIZE = 4096;
+  /** 
+  * <!-- begin-UML-doc -->
+  * <!-- end-UML-doc -->
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UemhAEquEeeJsdrfgQXeQw"
+  */
+  private static final int BUFFER_SIZE = new Integer(4096);
 
-  /**
-   * Crea una nueva instancia de la clase SimpleFileDownloader.
-   */
+  /** 
+  * <!-- begin-UML-doc -->
+  * Crea&nbsp;una&nbsp;nueva&nbsp;instancia&nbsp;de&nbsp;la&nbsp;clase&nbsp;SimpleFileDownloader.
+  * <!-- end-UML-doc -->
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UenvIEquEeeJsdrfgQXeQw"
+  */
   public SimpleFileDownloader() {
+    // begin-user-code
     // TODO Auto-generated constructor stub
+    // end-user-code
   }
 
   /*
@@ -32,8 +46,17 @@ public class SimpleFileDownloader implements Downloader {
    * @see com.ingenium.commons.util.Downloader#download(java.lang.String,
    * java.lang.String)
    */
+  /** 
+  * <!-- begin-UML-doc -->
+  * <!-- end-UML-doc -->
+  * @param source
+  * @param destination
+  * @throws IOException
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UeqLYEquEeeJsdrfgQXeQw"
+  */
   @Override
   public void download(String source, String destination) throws IOException {
+    // begin-user-code
     URL url = new URL(source);
     HttpURLConnection httpConn = (HttpURLConnection) url.openConnection();
     int responseCode = httpConn.getResponseCode();
@@ -102,6 +125,7 @@ public class SimpleFileDownloader implements Downloader {
     // outputStream.close();
     // }
     // }
+    // end-user-code
   }
 
 }

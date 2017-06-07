@@ -5,4 +5,4 @@
  * @author JaimeRodrigo
  *
  */
-package com.ingenium.goby.extractors.dipres;
+package com.ingenium.goby.extractors.budget;

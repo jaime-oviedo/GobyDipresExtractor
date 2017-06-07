@@ -30,7 +30,7 @@ public class BudgetFileListExtractorTest {
       Assert.fail("extraction failed");
     }
 
-    final File f = new File(extractor.getExtractionDestination());
+    final File f = new File(extractor.getDestination());
     Assert.assertTrue(f.exists() && !f.isDirectory());
   }
   

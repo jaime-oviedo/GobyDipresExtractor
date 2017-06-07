@@ -17,6 +17,25 @@ public interface Extractor {
 
   /** 
   * <!-- begin-UML-doc -->
+  * <p>Sets the location of the destination file.</p>
+  * <!-- end-UML-doc -->
+  * @param destination <p>the new location of the destination file</p>
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_14K9oEuGEeeV1tNCHYSKhw"
+  */
+  public void setDestination(String destination);
+
+  /** 
+  * <!-- begin-UML-doc -->
+  * <p>Sets the location of the source file.</p>
+  * <!-- end-UML-doc -->
+  * @param source <p>the new location of the source file</p>
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_cFJrgEuGEeeV1tNCHYSKhw"
+  */
+  public void setSource(String source);
+
+  /** 
+  * <!-- begin-UML-doc -->
+  * <p>Performs the extraction.</p>
   * <!-- end-UML-doc -->
   * @throws ExtractionException
   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UfdcoEquEeeJsdrfgQXeQw"
@@ -25,18 +44,20 @@ public interface Extractor {
 
   /** 
   * <!-- begin-UML-doc -->
+  * <p>Gets the location of the destination file.</p>
   * <!-- end-UML-doc -->
-  * @return
+  * @return <p>the location of the destination file.</p>
   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UfeqwEquEeeJsdrfgQXeQw"
   */
-  public String getExtractionDestination();
+  public String getDestination();
 
   /** 
   * <!-- begin-UML-doc -->
+  * <p>Gets the location of the source file.</p>
   * <!-- end-UML-doc -->
-  * @return
+  * @return <p>the location of the source file</p>
   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_Ufgf8EquEeeJsdrfgQXeQw"
   */
-  public String getExtractionSource();
+  public String getSource();
 
 }

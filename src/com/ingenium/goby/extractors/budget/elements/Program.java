@@ -1,5 +1,5 @@
 
-package com.ingenium.goby.extractors.budget.clasificacion;
+package com.ingenium.goby.extractors.budget.elements;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -93,49 +93,50 @@ public class Program extends CompositeBudgetElement {
     // end-user-code
   }
 
-  /** 
-  * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * @param nestingLevel
-  * @return
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_Ui7nYEquEeeJsdrfgQXeQw"
-  */
-  @Override
-  public String toJsonString(int nestingLevel) {
-    // begin-user-code
-    StringBuilder nesting = new StringBuilder();
-    for (int i = 0; i < nestingLevel; i++) {
-      nesting.append("  ");
-    }
-
-    StringBuilder sb = new StringBuilder(nesting);
-    sb.append("{\n");
-    nesting.append("  ");
-    String q = "\"";
-    sb.append(nesting).append(q + "number" + q + ":" + getNumber() + ",\n");
-    sb.append(nesting).append(q + "name" + q + ":" + q + getName() + q + ",\n");
-    sb.append(nesting)
-        .append(q + "description" + q + ":" + q + getDescription() + q);
-
-    if (getSubtitles().size() > 0) {
-      sb.append(",\n");
-      sb.append(nesting).append(q + "subtitles" + q + ":[\n");
-      Iterator<Subtitle> i = getSubtitles().iterator();
-      while (i.hasNext()) {
-        Subtitle item = i.next();
-        sb.append(item.toJsonString(nestingLevel + 2));
-        if (i.hasNext()) {
-          sb.append(",\n");
-        } else {
-          sb.append("\n");
-        }
-      }
-      sb.append(nesting).append("]\n");
-    }
-    nesting.delete(nesting.length() - 2, nesting.length());
-    sb.append(nesting).append("}");
-    return sb.toString();
-    // end-user-code
-  }
+  // /**
+  // * <!-- begin-UML-doc -->
+  // * <!-- end-UML-doc -->
+  // * @param nestingLevel
+  // * @return
+  // * @generated
+  // "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_Ui7nYEquEeeJsdrfgQXeQw"
+  // */
+  // @Override
+  // public String toJsonString(int nestingLevel) {
+  // // begin-user-code
+  // StringBuilder nesting = new StringBuilder();
+  // for (int i = 0; i < nestingLevel; i++) {
+  // nesting.append(" ");
+  // }
+  //
+  // StringBuilder sb = new StringBuilder(nesting);
+  // sb.append("{\n");
+  // nesting.append(" ");
+  // String q = "\"";
+  // sb.append(nesting).append(q + "number" + q + ":" + getNumber() + ",\n");
+  // sb.append(nesting).append(q + "name" + q + ":" + q + getName() + q + ",\n");
+  // sb.append(nesting)
+  // .append(q + "description" + q + ":" + q + getDescription() + q);
+  //
+  // if (getSubtitles().size() > 0) {
+  // sb.append(",\n");
+  // sb.append(nesting).append(q + "subtitles" + q + ":[\n");
+  // Iterator<Subtitle> i = getSubtitles().iterator();
+  // while (i.hasNext()) {
+  // Subtitle item = i.next();
+  // sb.append(item.toJsonString(nestingLevel + 2));
+  // if (i.hasNext()) {
+  // sb.append(",\n");
+  // } else {
+  // sb.append("\n");
+  // }
+  // }
+  // sb.append(nesting).append("]\n");
+  // }
+  // nesting.delete(nesting.length() - 2, nesting.length());
+  // sb.append(nesting).append("}");
+  // return sb.toString();
+  // // end-user-code
+  // }
 
 }

@@ -1,13 +1,13 @@
 {
   "number":0,
-  "name":"",
-  "description":"",
-  "subtitles":[
+  "name":"Budget Classifiers Catalog",
+  "description":"This catalog contains the hierarchical structure of the budget classifier used in the Budget Law, including the name and description of each classifier, when relevant.",
+  "subtitles":[ 
     {
       "number":22,
       "name":"Bienes y servicios de consumo",
       "description":"Bienes de consumo y servicios no personales, necesarios para el cumplimiento de las funciones y actividades de los organismos del sector público.",
-      "items":[
+      "items":[ 
         {
           "number":1,
           "name":"Alimentos y Bebidas",
@@ -466,32 +466,27 @@
       "number":29,
       "name":"Activos no financieros",
       "description":"",
-      "items":[
+      "items":[ 
         {
           "number":1,
           "name":"Terrenos",
-          "description":""
-        },
+          "description":""        },
         {
           "number":2,
           "name":"Edificios",
-          "description":""
-        },
+          "description":""        },
         {
           "number":3,
           "name":"Vehículos",
-          "description":"Equipos empleados para transportar personas  y  objetos,  e  incluye  la  compra  de  automóviles,  station  wagons,  furgones,  buses,  buques, aeronaves, remolques y semirremolques y/o cualquier otro tipo de vehículos   motorizados."
-        },
+          "description":"Equipos empleados para transportar personas  y  objetos,  e  incluye  la  compra  de  automóviles,  station  wagons,  furgones,  buses,  buques, aeronaves, remolques y semirremolques y/o cualquier otro tipo de vehículos   motorizados."        },
         {
           "number":99,
           "name":"Otros Activos no Financieros",
-          "description":""
-        },
+          "description":""        },
         {
           "number":4,
           "name":"Mobiliario y Otros",
-          "description":"Mobiliario  de  oficinas  y  de  viviendas,  muebles de instalaciones educacionales, hospitalarias, policiales, etc. Se incluyen los enseres  destinados  al  funcionamiento  de  oficinas,  casinos,  edificaciones  y  otras  instalaciones  públicas."
-        },
+          "description":"Mobiliario  de  oficinas  y  de  viviendas,  muebles de instalaciones educacionales, hospitalarias, policiales, etc. Se incluyen los enseres  destinados  al  funcionamiento  de  oficinas,  casinos,  edificaciones  y  otras  instalaciones  públicas."        },
         {
           "number":5,
           "name":"Máquinas y Equipos",
@@ -554,7 +549,7 @@
       "number":30,
       "name":"Activos financieros",
       "description":"Valores mobiliarios e instrumentos financieros  que  no  se  liquida,  vendan  o  rescaten  al  31  de  diciembre  del  año  en  curso.",
-      "items":[
+      "items":[ 
         {
           "number":1,
           "name":"Títulos y Valores",
@@ -595,25 +590,22 @@
         {
           "number":2,
           "name":"Acciones y Participaciones de Capital",
-          "description":"Acciones u otros valores representativos de capital a empresas públicas o privadas nacionales u organismos e instituciones internacionales"
-        },
+          "description":"Acciones u otros valores representativos de capital a empresas públicas o privadas nacionales u organismos e instituciones internacionales"        },
         {
           "number":3,
           "name":"Operaciones de Cambio",
-          "description":""
-        },
+          "description":""        },
         {
           "number":99,
           "name":"Otros Activos Financieros",
-          "description":""
-        }
+          "description":""        }
       ]
     },
     {
       "number":31,
       "name":"Iniciativas de inversión",
       "description":"",
-      "items":[
+      "items":[ 
         {
           "number":1,
           "name":"Estudios Básicos",

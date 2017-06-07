@@ -6,7 +6,7 @@ package com.ingenium.goby.extractors.budget;
 
 import com.ingenium.commons.util.FormattedWebPageDownloader;
 import com.ingenium.goby.extractors.ExtractionException;
-import com.ingenium.goby.extractors.Extractor;
+import com.ingenium.goby.extractors.ExtractorImpl;
 
 /** 
  * <!-- begin-UML-doc -->
@@ -17,21 +17,7 @@ import com.ingenium.goby.extractors.Extractor;
  *     derived_abstraction="platform:/resource/goby-design/goby-classifier-extractor.emx#_UTAVAEquEeeJsdrfgQXeQw"
  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UTAVAEquEeeJsdrfgQXeQw"
  */
-class BudgetWebPageExtractor implements Extractor {
-
-  /** 
-  * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_Ua-lQEquEeeJsdrfgQXeQw"
-  */
-  private final String extractionSource;
-
-  /** 
-  * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UbEE0EquEeeJsdrfgQXeQw"
-  */
-  private final String extractionDestination;
+class BudgetWebPageExtractor extends ExtractorImpl {
 
   /** 
   * <!-- begin-UML-doc -->
@@ -41,9 +27,9 @@ class BudgetWebPageExtractor implements Extractor {
   */
   public BudgetWebPageExtractor() {
     // begin-user-code
-    extractionSource = Messages.getString("BudgetWebPageExtractor.sourceUrl"); //$NON-NLS-1$
-    extractionDestination = Messages
-        .getString("BudgetWebPageExtractor.destinationUrl"); //$NON-NLS-1$
+    super();
+    setSource(Messages.getString("BudgetWebPageExtractor.sourceUrl")); //$NON-NLS-1$
+    setDestination(Messages.getString("BudgetWebPageExtractor.destinationUrl")); //$NON-NLS-1$
     // end-user-code
   }
 
@@ -57,43 +43,9 @@ class BudgetWebPageExtractor implements Extractor {
   public void extract() throws ExtractionException {
     // begin-user-code
     FormattedWebPageDownloader downloader = new FormattedWebPageDownloader(
-        extractionSource, extractionDestination);
+        getSource(), getDestination());
     downloader.download();
 
-    // end-user-code
-  }
-
-  /*
-   * (non-Javadoc)
-   * @see com.ingenium.goby.extractors.Extractor#getExtractionDestination()
-   */
-  /** 
-  * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * @return
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UbRgMEquEeeJsdrfgQXeQw"
-  */
-  @Override
-  public String getExtractionDestination() {
-    // begin-user-code
-    return extractionDestination;
-    // end-user-code
-  }
-
-  /*
-   * (non-Javadoc)
-   * @see com.ingenium.goby.extractors.Extractor#getExtractionSource()
-   */
-  /** 
-  * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * @return
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UbVxoEquEeeJsdrfgQXeQw"
-  */
-  @Override
-  public String getExtractionSource() {
-    // begin-user-code
-    return extractionSource;
     // end-user-code
   }
 

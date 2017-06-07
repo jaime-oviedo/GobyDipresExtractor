@@ -6,7 +6,7 @@ package com.ingenium.goby.extractors.budget;
 
 import com.ingenium.commons.util.SimpleFileDownloader;
 import com.ingenium.goby.extractors.ExtractionException;
-import com.ingenium.goby.extractors.Extractor;
+import com.ingenium.goby.extractors.ExtractorImpl;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -31,7 +31,7 @@ import java.util.logging.Logger;
  *     derived_abstraction="platform:/resource/goby-design/goby-classifier-extractor.emx#_UaW6MEquEeeJsdrfgQXeQw"
  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UaW6MEquEeeJsdrfgQXeQw"
  */
-class BudgetFileExtractor implements Extractor {
+class BudgetFileExtractor extends ExtractorImpl {
 
   /** 
   * <!-- begin-UML-doc -->
@@ -101,6 +101,7 @@ class BudgetFileExtractor implements Extractor {
 
   /*
    * (non-Javadoc)
+   * 
    * @see com.ingenium.goby.extractors.Extractor#extract()
    */
   /** 
@@ -184,40 +185,6 @@ class BudgetFileExtractor implements Extractor {
         throw new ExtractionException(msg.toString());
       }
     }
-    // end-user-code
-  }
-
-  /*
-   * (non-Javadoc)
-   * @see com.ingenium.goby.extractors.Extractor#getExtractionDestination()
-   */
-  /** 
-  * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * @return
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_Uh2CQEquEeeJsdrfgQXeQw"
-  */
-  @Override
-  public String getExtractionDestination() {
-    // begin-user-code
-    return extractionDestination;
-    // end-user-code
-  }
-
-  /*
-   * (non-Javadoc)
-   * @see com.ingenium.goby.extractors.Extractor#getExtractionSource()
-   */
-  /** 
-  * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * @return
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_Uh5FkEquEeeJsdrfgQXeQw"
-  */
-  @Override
-  public String getExtractionSource() {
-    // begin-user-code
-    return extractionSource;
     // end-user-code
   }
 

@@ -2,7 +2,7 @@
  * Copyright (c) 2017 Ingenium Software Ltda.
  */
 
-package com.ingenium.goby.extractors.budget.clasificacion;
+package com.ingenium.goby.extractors.budget.elements;
 
 /** 
  * <!-- begin-UML-doc -->

@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.ingenium.goby.extractors.budget.clasificacion;
+package com.ingenium.goby.extractors.budget.elements;
 
 /** 
  * <!-- begin-UML-doc -->

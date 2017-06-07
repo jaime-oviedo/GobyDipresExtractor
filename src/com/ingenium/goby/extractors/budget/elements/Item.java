@@ -2,7 +2,7 @@
  * Copyright (c) 2017 Ingenium Software Ltda.
  */
 
-package com.ingenium.goby.extractors.budget.clasificacion;
+package com.ingenium.goby.extractors.budget.elements;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -98,50 +98,51 @@ public final class Item extends CompositeBudgetElement {
     // end-user-code
   }
 
-  /** 
-  * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * @param nestingLevel
-  * @return
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_Uc_XcEquEeeJsdrfgQXeQw"
-  */
-  @Override
-  public String toJsonString(int nestingLevel) {
-    // begin-user-code
-    StringBuilder nesting = new StringBuilder();
-    for (int i = 0; i < nestingLevel; i++) {
-      nesting.append("  ");
-    }
-
-    StringBuilder sb = new StringBuilder(nesting);
-    sb.append("{\n");
-    nesting.append("  ");
-    String q = "\"";
-    sb.append(nesting).append(q + "number" + q + ":" + getNumber() + ",\n");
-    sb.append(nesting).append(q + "name" + q + ":" + q + getName() + q + ",\n");
-    sb.append(nesting)
-        .append(q + "description" + q + ":" + q + getDescription() + q);
-
-    if (getAsignaciones().size() > 0) {
-      sb.append(",\n");
-      sb.append(nesting).append(q + "assignments" + q + ":[ \n");
-      Iterator<Assignment> i = getAsignaciones().iterator();
-      while (i.hasNext()) {
-        Assignment assignment = i.next();
-        sb.append(assignment.toJsonString(nestingLevel + 2));
-        if (i.hasNext()) {
-          sb.append(",\n");
-        } else {
-          sb.append("\n");
-        }
-      }
-      sb.append(nesting).append("]\n");
-    } else {
-      sb.append("\n");
-    }
-    nesting.delete(nesting.length() - 2, nesting.length());
-    sb.append(nesting).append("}");
-    return sb.toString();
-    // end-user-code
-  }
+  // /**
+  // * <!-- begin-UML-doc -->
+  // * <!-- end-UML-doc -->
+  // * @param nestingLevel
+  // * @return
+  // * @generated
+  // "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_Uc_XcEquEeeJsdrfgQXeQw"
+  // */
+  // @Override
+  // public String toJsonString(int nestingLevel) {
+  // // begin-user-code
+  // StringBuilder nesting = new StringBuilder();
+  // for (int i = 0; i < nestingLevel; i++) {
+  // nesting.append(" ");
+  // }
+  //
+  // StringBuilder sb = new StringBuilder(nesting);
+  // sb.append("{\n");
+  // nesting.append(" ");
+  // String q = "\"";
+  // sb.append(nesting).append(q + "number" + q + ":" + getNumber() + ",\n");
+  // sb.append(nesting).append(q + "name" + q + ":" + q + getName() + q + ",\n");
+  // sb.append(nesting)
+  // .append(q + "description" + q + ":" + q + getDescription() + q);
+  //
+  // if (getAsignaciones().size() > 0) {
+  // sb.append(",\n");
+  // sb.append(nesting).append(q + "assignments" + q + ":[ \n");
+  // Iterator<Assignment> i = getAsignaciones().iterator();
+  // while (i.hasNext()) {
+  // Assignment assignment = i.next();
+  // sb.append(assignment.toJsonString(nestingLevel + 2));
+  // if (i.hasNext()) {
+  // sb.append(",\n");
+  // } else {
+  // sb.append("\n");
+  // }
+  // }
+  // sb.append(nesting).append("]\n");
+  // } else {
+  // sb.append("\n");
+  // }
+  // nesting.delete(nesting.length() - 2, nesting.length());
+  // sb.append(nesting).append("}");
+  // return sb.toString();
+  // // end-user-code
+  // }
 }

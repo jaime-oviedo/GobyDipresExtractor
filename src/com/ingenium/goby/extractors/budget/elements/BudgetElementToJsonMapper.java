@@ -1,9 +1,25 @@
-package com.ingenium.goby.extractors.budget.clasificacion;
+package com.ingenium.goby.extractors.budget.elements;
 
 import java.util.Iterator;
 
+/** 
+ * <!-- begin-UML-doc -->
+ * <!-- end-UML-doc -->
+ * @author joviedo
+ * @uml.annotations
+ *     derived_abstraction="platform:/resource/goby-design/goby-classifier-extractor.emx#_tOVToEt-EeeC6_ZX80x4yQ"
+ * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_tOVToEt-EeeC6_ZX80x4yQ"
+ */
 public class BudgetElementToJsonMapper {
 
+  /** 
+  * <!-- begin-UML-doc -->
+  * <!-- end-UML-doc -->
+  * @param element
+  * @param nestingLevel
+  * @return
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_tRANIEt-EeeC6_ZX80x4yQ"
+  */
   public static String map(BudgetElement element, int nestingLevel) {
     // begin-user-code
     StringBuilder nesting = new StringBuilder();
@@ -88,8 +104,15 @@ public class BudgetElementToJsonMapper {
     // end-user-code
   }
 
-  public BudgetElementToJsonMapper() {
+  /** 
+  * <!-- begin-UML-doc -->
+  * <!-- end-UML-doc -->
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_tRD3gEt-EeeC6_ZX80x4yQ"
+  */
+  private BudgetElementToJsonMapper() {
+    // begin-user-code
     // TODO Auto-generated constructor stub
+    // end-user-code
   }
 
 }

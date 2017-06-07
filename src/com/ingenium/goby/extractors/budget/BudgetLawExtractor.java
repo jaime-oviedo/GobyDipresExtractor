@@ -4,6 +4,7 @@
 
 package com.ingenium.goby.extractors.budget;
 
+import com.ingenium.goby.extractors.ExtractorImpl;
 import com.ingenium.goby.extractors.ExtractionException;
 import com.ingenium.goby.extractors.Extractor;
 
@@ -16,7 +17,7 @@ import com.ingenium.goby.extractors.Extractor;
  *     derived_abstraction="platform:/resource/goby-design/goby-classifier-extractor.emx#_UautoEquEeeJsdrfgQXeQw"
  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UautoEquEeeJsdrfgQXeQw"
  */
-public class BudgetLawExtractor implements Extractor {
+public class BudgetLawExtractor extends ExtractorImpl {
 
   /** 
   * <!-- begin-UML-doc -->
@@ -67,40 +68,6 @@ public class BudgetLawExtractor implements Extractor {
     dpe.extract();
     bfle.extract();
     bfe.extract();
-    // end-user-code
-  }
-
-  /*
-   * (non-Javadoc)
-   * @see com.ingenium.goby.extractors.Extractor#getExtractionDestination()
-   */
-  /** 
-  * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * @return
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UjKQ4EquEeeJsdrfgQXeQw"
-  */
-  @Override
-  public String getExtractionDestination() {
-    // begin-user-code
-    return bfe.getExtractionDestination();
-    // end-user-code
-  }
-
-  /*
-   * (non-Javadoc)
-   * @see com.ingenium.goby.extractors.Extractor#getExtractionSource()
-   */
-  /** 
-  * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * @return
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UjNUMEquEeeJsdrfgQXeQw"
-  */
-  @Override
-  public String getExtractionSource() {
-    // begin-user-code
-    return dpe.getExtractionSource();
     // end-user-code
   }
 

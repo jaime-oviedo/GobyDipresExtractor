@@ -18,13 +18,11 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Date;
 import java.util.Iterator;
-import java.util.logging.ConsoleHandler;
-import java.util.logging.Level;
 import java.util.logging.Logger;
 
 /** 
  * <!-- begin-UML-doc -->
- * Esta&nbsp;clase&nbsp;extrae&nbsp;los&nbsp;archivos&nbsp;de&nbsp;presupuesto&nbsp;desde&nbsp;el&nbsp;sitio&nbsp;de&nbsp;la&nbsp;DIPRES.<br><br>@author&nbsp;JaimeRodrigo
+ * <p>This class extracts budget-related files from the Chilean Budget Directorate's website.</p>
  * <!-- end-UML-doc -->
  * @author joviedo
  * @uml.annotations
@@ -43,34 +41,15 @@ class BudgetFileExtractor extends ExtractorImpl {
 
   /** 
   * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UhqcEEquEeeJsdrfgQXeQw"
-  */
-  private final String extractionListSource;
-
-  /** 
-  * <!-- begin-UML-doc -->
+  * <p>The URL where the files are stored.</p>
   * <!-- end-UML-doc -->
   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UhrqMEquEeeJsdrfgQXeQw"
   */
-  private final String extractionSource;
+  private String documentsSource;
 
   /** 
   * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_Uhs4UEquEeeJsdrfgQXeQw"
-  */
-  private final String destinationBasePath;
-
-  /** 
-  * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UhutgEquEeeJsdrfgQXeQw"
-  */
-  private String extractionDestination;
-
-  /** 
-  * <!-- begin-UML-doc -->
+  * <p>A list of strings holding the name of the files to be downloaded.</p>
   * <!-- end-UML-doc -->
   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_Uhv7oEquEeeJsdrfgQXeQw"
   */
@@ -78,24 +57,75 @@ class BudgetFileExtractor extends ExtractorImpl {
 
   /** 
   * <!-- begin-UML-doc -->
-  * Crea&nbsp;una&nbsp;nueva&nbsp;instancia&nbsp;de&nbsp;la&nbsp;clase&nbsp;BudgetFileExtractor.
+  * <p>This flag indicates if a timestamp will be added to the base destination directory for each download batch.</p>
   * <!-- end-UML-doc -->
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_Uhxw0EquEeeJsdrfgQXeQw"
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_ZoXkIExDEeeo2IEzB8X7BA"
+  */
+  private boolean useTimestamp = true;
+
+  /** 
+  * <!-- begin-UML-doc -->
+  * <p>A time stamp used to create the destination directory for the downloaded files.</p>
+  * <!-- end-UML-doc -->
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_yNL2YExGEeeo2IEzB8X7BA"
+  */
+  private String tstamp;
+
+  /** 
+  * <!-- begin-UML-doc -->
+  * <p>A list of files that were successfully downloaded by the extraction.</p>
+  * <!-- end-UML-doc -->
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_qxM7EExIEeeo2IEzB8X7BA"
+  */
+  private Collection<String> downloadedFiles;
+
+  /** 
+  * <!-- begin-UML-doc -->
+  * <p>A list of files that could not be downloaded.</p>
+  * <!-- end-UML-doc -->
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_CGN5sExJEeeo2IEzB8X7BA"
+  */
+  private Collection<String> failedFiles;
+
+  /** 
+  * <!-- begin-UML-doc -->
+  * <p>Creates a new file extractor that uses parameters obtained from a properties file.</p>
+  * <!-- end-UML-doc -->
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_X82S8ExCEeeo2IEzB8X7BA"
   */
   public BudgetFileExtractor() {
     // begin-user-code
-    extractionListSource = Messages
-        .getString("BudgetFileExtractor.extractionListFile"); //$NON-NLS-1$
-    extractionSource = Messages.getString("BudgetFileExtractor.basePath"); //$NON-NLS-1$
-    destinationBasePath = Messages
-        .getString("BudgetFileExtractor.destinationBasePath"); //$NON-NLS-1$
+    setSource(Messages.getString("BudgetFileExtractor.extractionListFile")); //$NON-NLS-1$
+    documentsSource = Messages.getString("BudgetFileExtractor.basePath"); //$NON-NLS-1$
+    setDestination(
+        Messages.getString("BudgetFileExtractor.destinationBasePath")); //$NON-NLS-1$
     budgetFileList = new ArrayList<>();
+    downloadedFiles = new ArrayList<>();
+    failedFiles = new ArrayList<>();
+    // end-user-code
+  }
 
-    BudgetFileExtractor.log.setLevel(Level.ALL);
-    ConsoleHandler handler = new ConsoleHandler();
-    handler.setLevel(Level.ALL);
-    BudgetFileExtractor.log.addHandler(handler);
-
+  /** 
+  * <!-- begin-UML-doc -->
+  * <p>Creates a new file extractor that uses the given parameters as a source and destination.</p>
+  * <!-- end-UML-doc -->
+  * @param listSource <p>The location of the file that contains the list of CSVs to be downoladed.</p>
+  * @param documentsSource <p>The URL of the files to be downloaded</p>
+  * @param destinationFolder <p>the destination folder for the downloaded files</p>
+  * @param useTimestamp <p>a flag to indicate if a time stamp should be appended to the destination folder</p>
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_Uhxw0EquEeeJsdrfgQXeQw"
+  */
+  public BudgetFileExtractor(String listSource, String documentsSource,
+      String destinationFolder, boolean useTimestamp) {
+    // begin-user-code
+    setSource(listSource);
+    this.documentsSource = documentsSource;
+    this.useTimestamp = useTimestamp;
+    setDestination(
+        Messages.getString("BudgetFileExtractor.destinationBasePath")); //$NON-NLS-1$
+    budgetFileList = new ArrayList<>();
+    downloadedFiles = new ArrayList<>();
+    failedFiles = new ArrayList<>();
     // end-user-code
   }
 
@@ -106,6 +136,7 @@ class BudgetFileExtractor extends ExtractorImpl {
    */
   /** 
   * <!-- begin-UML-doc -->
+  * <p>Perform the extraction of the budget files.</p>
   * <!-- end-UML-doc -->
   * @throws ExtractionException
   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UhzmAEquEeeJsdrfgQXeQw"
@@ -116,7 +147,7 @@ class BudgetFileExtractor extends ExtractorImpl {
 
     FileReader extractionListReader = null;
     try {
-      extractionListReader = new FileReader(extractionListSource);
+      extractionListReader = new FileReader(getSource());
     } catch (FileNotFoundException e) {
       throw (new ExtractionException(
           "No se encontró el archivo con la lista de documentos a descargar"));
@@ -150,9 +181,12 @@ class BudgetFileExtractor extends ExtractorImpl {
 
     // Se genera un directorio asociado al timestamp de descarga
 
-    extractionDestination = destinationBasePath + '-'
-        + new SimpleDateFormat("yyyy-MM-dd_HH-mm").format(new Date());
-    ;
+    if (useTimestamp) {
+      String baseDestination = getDestination();
+      this.tstamp = new SimpleDateFormat("yyyy-MM-dd_HH-mm").format(new Date());
+      setDestination(baseDestination + '-' + this.tstamp);
+    }
+    String extractionDestination = getDestination();
     File destinationDirectory = new File(extractionDestination);
     BudgetFileExtractor.log
         .finest("Generando directorio:" + extractionDestination);
@@ -162,12 +196,11 @@ class BudgetFileExtractor extends ExtractorImpl {
     SimpleFileDownloader downloader = new SimpleFileDownloader();
     Iterator<String> i = budgetFileList.iterator();
 
-    Collection<String> downloadedFiles = new ArrayList<>();
-    Collection<String> failedFiles = new ArrayList<>();
-
+    downloadedFiles = new ArrayList<>();
+    failedFiles = new ArrayList<>();
     while (i.hasNext()) {
       String fileName = i.next();
-      String sourceFile = extractionSource + '/' + fileName;
+      String sourceFile = documentsSource + '/' + fileName;
       BudgetFileExtractor.log
           .finest("Se descargará el siguiente archivo:" + sourceFile);
       try {
@@ -185,6 +218,101 @@ class BudgetFileExtractor extends ExtractorImpl {
         throw new ExtractionException(msg.toString());
       }
     }
+    // end-user-code
+  }
+
+  /** 
+  * <!-- begin-UML-doc -->
+  * <p>Returns the value of the timestamp usage flag.</p>
+  * <!-- end-UML-doc -->
+  * @return <p>true if a timestamp is to be appended to the base download directory, false otherwise</p>
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_d_3v4ExDEeeo2IEzB8X7BA"
+  */
+  public boolean useTimestamp() {
+    // begin-user-code
+    return this.useTimestamp;
+    // end-user-code
+  }
+
+  /** 
+  * <!-- begin-UML-doc -->
+  * <p>Sets the value of the timestamp usage flag.</p>
+  * <!-- end-UML-doc -->
+  * @param flag <p>true if a timestamp is to be appended to the base download directory, false otherwise</p>
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_i_kkEExDEeeo2IEzB8X7BA"
+  */
+  public void useTimestamp(boolean flag) {
+    // begin-user-code
+    this.useTimestamp = flag;
+
+    // end-user-code
+  }
+
+  /** 
+  * <!-- begin-UML-doc -->
+  * <p>Returns the URL of the files to be downloaded.</p>
+  * <!-- end-UML-doc -->
+  * @return <p>the URL of the files to be downloaded</p>
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_kYkP8ExGEeeo2IEzB8X7BA"
+  */
+  public String getDocumentsSource() {
+    // begin-user-code
+    return documentsSource;
+
+    // end-user-code
+  }
+
+  /** 
+  * <!-- begin-UML-doc -->
+  * <p>Sets the URL where the files will be stored.</p>
+  * <!-- end-UML-doc -->
+  * @param documentsSource <p>the URL where the files will be stored.</p>
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_lpoPMExGEeeo2IEzB8X7BA"
+  */
+  public void setDocumentsSource(String documentsSource) {
+    // begin-user-code
+    this.documentsSource = documentsSource;
+
+    // end-user-code
+  }
+
+  /** 
+  * <!-- begin-UML-doc -->
+  * <p>Returns the time stamp used to create the destination directory for the downloaded files.</p>
+  * <!-- end-UML-doc -->
+  * @return <p>time stamp used to create the destination directory for the downloaded files.</p>
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_1ZJcEExGEeeo2IEzB8X7BA"
+  */
+  public String getTimestamp() {
+    // begin-user-code
+    return tstamp;
+
+    // end-user-code
+  }
+
+  /** 
+  * <!-- begin-UML-doc -->
+  * <p>Returns the list of files that were successfully downloaded by the extraction.</p>
+  * <!-- end-UML-doc -->
+  * @return <p>the list of files that were successfully downloaded by the extraction.</p>
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_Hw49gExJEeeo2IEzB8X7BA"
+  */
+  public Collection<String> getDownloadedFiles() {
+    // begin-user-code
+    return downloadedFiles;
+    // end-user-code
+  }
+
+  /** 
+  * <!-- begin-UML-doc -->
+  * <p>Returns the list of files that could not be downloaded.</p>
+  * <!-- end-UML-doc -->
+  * @return <p>the list of files that could not be downloaded</p>
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_JUnaEExJEeeo2IEzB8X7BA"
+  */
+  public Collection<String> getFailedFiles() {
+    // begin-user-code
+    return failedFiles;
     // end-user-code
   }
 

@@ -4,9 +4,8 @@
 
 package com.ingenium.goby.extractors.budget;
 
-import com.ingenium.goby.extractors.ExtractorImpl;
 import com.ingenium.goby.extractors.ExtractionException;
-import com.ingenium.goby.extractors.Extractor;
+import com.ingenium.goby.extractors.ExtractorImpl;
 
 /** 
  * <!-- begin-UML-doc -->
@@ -54,6 +53,7 @@ public class BudgetLawExtractor extends ExtractorImpl {
 
   /*
    * (non-Javadoc)
+   * 
    * @see com.ingenium.goby.extractors.Extractor#extract()
    */
   /** 

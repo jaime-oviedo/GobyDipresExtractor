@@ -23,5 +23,17 @@ public enum BudgetCurrency {
   * <!-- end-UML-doc -->
   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_sS8OME1GEeekuqvl4T6tsg"
   */
-  DOLLAR
+  DOLLAR,
+  /** 
+  * <!-- begin-UML-doc -->
+  * <!-- end-UML-doc -->
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_nkhZcE1VEeekuqvl4T6tsg"
+  */
+  MIXED,
+  /** 
+  * <!-- begin-UML-doc -->
+  * <!-- end-UML-doc -->
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_oyC8gE1VEeekuqvl4T6tsg"
+  */
+  NONE
 }

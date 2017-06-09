@@ -32,7 +32,7 @@ public class BudgetElementsCatalog {
     // begin-user-code
     program = new Program(0, "Budget Classifiers Catalog",
         "This catalog contains the hierarchical structure of the budget classifier used in the Budget Law, including the name and description of each classifier, when relevant.",
-        BudgetElementType.CLASSIFICATION);
+        BudgetElementType.BUDGETARY_CLASSIFICATION);
     // end-user-code
   }
 
@@ -109,7 +109,7 @@ public class BudgetElementsCatalog {
   * @return <p>the special program that holds the catalog's elements</p>
   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_tThVoEt-EeeC6_ZX80x4yQ"
   */
-  final Program getProgram() {
+  public Program getProgram() {
     // begin-user-code
     return program;
     // end-user-code
@@ -122,7 +122,7 @@ public class BudgetElementsCatalog {
   * @param program
   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_tTjK0Et-EeeC6_ZX80x4yQ"
   */
-  final void setProgram(Program program) {
+  public void setProgram(Program program) {
     // begin-user-code
     this.program = program;
     // end-user-code
@@ -141,17 +141,4 @@ public class BudgetElementsCatalog {
     // end-user-code
   }
 
-  // /**
-  // * <!-- begin-UML-doc --> <!-- end-UML-doc -->
-  // *
-  // * @param nestingLevel
-  // * @return
-  // * @generated
-  // "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UeGxwEquEeeJsdrfgQXeQw"
-  // */
-  // public String toJsonString(int nestingLevel) {
-  // // begin-user-code
-  // return program.toJsonString(nestingLevel);
-  // // end-user-code
-  // }
 }

@@ -15,6 +15,12 @@ public enum BudgetHierarchyLevel {
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_D_VwIEyZEeekuqvl4T6tsg"
+  */
+  ROOT,
+  /** 
+  * <!-- begin-UML-doc -->
+  * <!-- end-UML-doc -->
   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_kMX9QEq1EeeJsdrfgQXeQw"
   */
   ASSIGNMENT,

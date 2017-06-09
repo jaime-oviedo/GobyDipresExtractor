@@ -2,11 +2,16 @@
  * Copyright (c) 2017 Ingenium Software Ltda.
  */
 
-package com.ingenium.goby.extractors.budget.elements;
+package com.ingenium.goby.extractors.budget;
 
 import com.ingenium.goby.extractors.ExtractionException;
 import com.ingenium.goby.extractors.ExtractorImpl;
-import com.ingenium.goby.extractors.budget.Messages;
+import com.ingenium.goby.extractors.budget.elements.Assignment;
+import com.ingenium.goby.extractors.budget.elements.BudgetElementToJsonMapper;
+import com.ingenium.goby.extractors.budget.elements.BudgetElementType;
+import com.ingenium.goby.extractors.budget.elements.BudgetElementsCatalog;
+import com.ingenium.goby.extractors.budget.elements.Item;
+import com.ingenium.goby.extractors.budget.elements.Subtitle;
 import com.opencsv.CSVReader;
 
 import java.io.BufferedWriter;
@@ -42,7 +47,7 @@ public class BudgetElementsExtractor extends ExtractorImpl {
   *     derived_abstraction="platform:/resource/goby-design/goby-classifier-extractor.emx#_UaQMgEquEeeJsdrfgQXeQw"
   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UaQMgEquEeeJsdrfgQXeQw"
   */
-  private final class PlainBudgetClassifier {
+  private final class PlainBudgetElement {
 
     /** 
     * <!-- begin-UML-doc -->
@@ -86,7 +91,7 @@ public class BudgetElementsExtractor extends ExtractorImpl {
     * @param description <p>the value of the description field.</p>
     * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UhHpgEquEeeJsdrfgQXeQw"
     */
-    public PlainBudgetClassifier(int subtitle, int item, int assignment,
+    public PlainBudgetElement(int subtitle, int item, int assignment,
         String name, String description) {
       // begin-user-code
       super();
@@ -185,7 +190,7 @@ public class BudgetElementsExtractor extends ExtractorImpl {
   *     derived_abstraction="platform:/resource/goby-design/goby-classifier-extractor.emx#_UagrMEquEeeJsdrfgQXeQw"
   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UagrMEquEeeJsdrfgQXeQw"
   */
-  private static final class BudgetClassifierMapper {
+  private static final class BudgetElementsMapper {
 
     /** 
     * <!-- begin-UML-doc -->
@@ -195,12 +200,12 @@ public class BudgetElementsExtractor extends ExtractorImpl {
     * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UiMnkEquEeeJsdrfgQXeQw"
     */
     static final BudgetElementsCatalog map(
-        Collection<PlainBudgetClassifier> classifiers) {
+        Collection<PlainBudgetElement> classifiers) {
       // begin-user-code
-      Iterator<PlainBudgetClassifier> ic = classifiers.iterator();
+      Iterator<PlainBudgetElement> ic = classifiers.iterator();
       BudgetElementsCatalog ccp = new BudgetElementsCatalog();
       while (ic.hasNext()) {
-        PlainBudgetClassifier cp = ic.next();
+        PlainBudgetElement cp = ic.next();
         Integer subtitle = cp.getSubtitle();
         Integer item = cp.getItem();
         Integer asignacion = cp.getAssignment();
@@ -209,16 +214,16 @@ public class BudgetElementsExtractor extends ExtractorImpl {
         if (asignacion == 0) {
           if (item == 0) {
             Subtitle st = new Subtitle(subtitle, name, description,
-                BudgetElementType.CLASSIFICATION);
+                BudgetElementType.BUDGETARY_CLASSIFICATION);
             ccp.addSubtitle(st);
           } else {
             Item i = new Item(item, name, description,
-                BudgetElementType.CLASSIFICATION);
+                BudgetElementType.BUDGETARY_CLASSIFICATION);
             ccp.addItem(subtitle, i);
           }
         } else {
           Assignment a = new Assignment(asignacion, name, description,
-              BudgetElementType.CLASSIFICATION);
+              BudgetElementType.BUDGETARY_CLASSIFICATION);
           ccp.addAssignment(subtitle, item, a);
         }
       }
@@ -232,8 +237,8 @@ public class BudgetElementsExtractor extends ExtractorImpl {
   * <!-- end-UML-doc -->
   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_Uda1QEquEeeJsdrfgQXeQw"
   */
-  private static final Logger log = Logger.getLogger(
-      "com.ingenium.goby.extractors.dipres.ClasificadorPresupuestarioExtractor");
+  private static final Logger log = Logger
+      .getLogger("com.ingenium.goby.extractors.BudgetElementsExtractor");
 
   /** 
   * <!-- begin-UML-doc -->
@@ -264,7 +269,7 @@ public class BudgetElementsExtractor extends ExtractorImpl {
   @Override
   public void extract() throws ExtractionException {
     // begin-user-code
-    BudgetElementsCatalog ccp = extractBudgetClassifiers();
+    BudgetElementsCatalog ccp = extractElements();
     String mappedCatalog = BudgetElementToJsonMapper.map(ccp.getProgram(), 0);
     File file = new File(this.getDestination());
     file.getParentFile().mkdirs();
@@ -286,25 +291,25 @@ public class BudgetElementsExtractor extends ExtractorImpl {
 
   /** 
   * <!-- begin-UML-doc -->
-  * xtrae&nbsp;los&nbsp;clasificadores&nbsp;presupuestarios&nbsp;a&nbsp;una&nbsp;colección&nbsp;en&nbsp;un<br><br>formato<br><br><br><br>plano.<br><br><br><br><br><br><br><br><br><br>@return&nbsp;la&nbsp;colección&nbsp;con&nbsp;los&nbsp;clasificadores&nbsp;extraidos<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><br>@throws&nbsp;ExtractionException<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;en&nbsp;caso&nbsp;de&nbsp;que&nbsp;no&nbsp;puedan&nbsp;extraerse&nbsp;los&nbsp;clasificadores&nbsp;por<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;problemas&nbsp;en&nbsp;el&nbsp;archivo&nbsp;fuent<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  * <p>Extracts the budget elements in a collection of plain objects.</p>
   * <!-- end-UML-doc -->
   * @return
   * @throws ExtractionException
   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UdrT8EquEeeJsdrfgQXeQw"
   */
 
-  BudgetElementsCatalog extractBudgetClassifiers() throws ExtractionException {
+  BudgetElementsCatalog extractElements() throws ExtractionException {
     // begin-user-code
 
     CSVReader reader = getReader();
 
     BudgetElementsExtractor.log.fine("Comenzando la extracción");
-    Collection<PlainBudgetClassifier> classifiers = new ArrayList<>();
+    Collection<PlainBudgetElement> budgetElements = new ArrayList<>();
     String[] line;
     int cnumber = 0;
     try {
       while ((line = reader.readNext()) != null) {
-        System.out.println("Procesando item " + cnumber);
+        log.fine("Procesando item " + cnumber);
         ArrayList<String> elements = new ArrayList<>();
         int index = 0;
         for (String element : line) {
@@ -364,15 +369,15 @@ public class BudgetElementsExtractor extends ExtractorImpl {
           description = "";
         }
 
-        PlainBudgetClassifier c = new PlainBudgetClassifier(subtitle, item,
+        PlainBudgetElement c = new PlainBudgetElement(subtitle, item,
             assignment, name, description);
-        classifiers.add(c);
+        budgetElements.add(c);
         cnumber++;
       }
     } catch (IOException e) {
       e.printStackTrace();
     }
-    return BudgetClassifierMapper.map(classifiers);
+    return BudgetElementsMapper.map(budgetElements);
     // end-user-code
   }
 

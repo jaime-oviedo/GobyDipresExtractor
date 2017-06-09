@@ -4,6 +4,8 @@
 
 package com.ingenium.goby.extractors.budget.elements;
 
+import com.ingenium.goby.extractors.budget.BudgetElementsExtractor;
+
 import java.io.File;
 
 import org.apache.commons.io.FileUtils;

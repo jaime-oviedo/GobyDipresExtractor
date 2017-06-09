@@ -15,9 +15,15 @@ public enum BudgetElementType {
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_7gCokEyYEeekuqvl4T6tsg"
+  */
+  INSTITUTIONAL_CLASSIFICATION,
+  /** 
+  * <!-- begin-UML-doc -->
+  * <!-- end-UML-doc -->
   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_wP_VkEq0EeeJsdrfgQXeQw"
   */
-  CLASSIFICATION,
+  BUDGETARY_CLASSIFICATION,
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->

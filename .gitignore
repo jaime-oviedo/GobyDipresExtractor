@@ -3,3 +3,4 @@
 /.settings/
 /tmp/
 /stage/
+*.class

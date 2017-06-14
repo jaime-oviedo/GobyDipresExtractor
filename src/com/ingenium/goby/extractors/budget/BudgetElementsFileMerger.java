@@ -393,9 +393,10 @@ public class BudgetElementsFileMerger extends ExtractorImpl {
   }
   
   /** 
-  * (non-Javadoc)
-  * @see Extractor#extract()
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UfdcoEquEeeJsdrfgQXeQw?INHERITED"
+  * <!-- begin-UML-doc -->
+  * <!-- end-UML-doc -->
+  * @throws ExtractionException
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_8GseIFCkEeepS4o1HFdgQg"
   */
   @Override
   public void extract() throws ExtractionException {

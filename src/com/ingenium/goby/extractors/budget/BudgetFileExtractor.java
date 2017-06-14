@@ -61,7 +61,7 @@ class BudgetFileExtractor extends ExtractorImpl {
   * <!-- end-UML-doc -->
   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_ZoXkIExDEeeo2IEzB8X7BA"
   */
-  private boolean useTimestamp = true;
+  private boolean useTimestamp;
   
   /** 
   * <!-- begin-UML-doc -->
@@ -243,7 +243,7 @@ class BudgetFileExtractor extends ExtractorImpl {
   * @param flag <p>true if a timestamp is to be appended to the base download directory, false otherwise</p>
   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_i_kkEExDEeeo2IEzB8X7BA"
   */
-  public void useTimestamp(boolean flag) {
+  public void useTimestampUsage(boolean flag) {
     // begin-user-code
     this.useTimestamp = flag;
     

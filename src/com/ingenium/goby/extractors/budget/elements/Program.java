@@ -8,17 +8,16 @@ import java.util.Iterator;
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
- * @author JaimeRodrigo
+ * @author joviedo
  * @uml.annotations
  *     derived_abstraction="platform:/resource/goby-design/goby-classifier-extractor.emx#_UasRYEquEeeJsdrfgQXeQw"
  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UasRYEquEeeJsdrfgQXeQw"
  */
 public class Program extends CompositeBudgetElement {
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
-  * Crea una nueva instancia de la clase Program.
   * @param numero
   * @param name
   * @param description
@@ -31,7 +30,7 @@ public class Program extends CompositeBudgetElement {
     super(numero, name, description, type, BudgetHierarchyLevel.PROGRAM);
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -43,7 +42,7 @@ public class Program extends CompositeBudgetElement {
     super.addSubelement(subtitle);
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -56,7 +55,7 @@ public class Program extends CompositeBudgetElement {
     return (Subtitle) super.getSubelements().get(subtitleNumber);
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * Retorna&nbsp;los&nbsp;subtitulos&nbsp;asociados&nbsp;al&nbsp;programa.<br><br><br><br><br>@return&nbsp;los&nbsp;subtitulos&nbsp;asociados&nbsp;al&nbsp;program
@@ -75,7 +74,7 @@ public class Program extends CompositeBudgetElement {
     return subtitles;
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * stablece&nbsp;los&nbsp;subtitulos&nbsp;para&nbsp;el&nbsp;programa.<br><br><br><br>@param&nbsp;subtitulos<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;el&nbsp;nuevo&nbsp;conjunto&nbsp;de&nbsp;subtitulos<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -93,7 +92,7 @@ public class Program extends CompositeBudgetElement {
     super.setSubelements(classifiers);
     // end-user-code
   }
-  
+
   // /**
   // * <!-- begin-UML-doc -->
   // * <!-- end-UML-doc -->
@@ -139,5 +138,5 @@ public class Program extends CompositeBudgetElement {
   // return sb.toString();
   // // end-user-code
   // }
-  
+
 }

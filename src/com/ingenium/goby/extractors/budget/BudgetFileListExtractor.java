@@ -24,25 +24,24 @@ import org.jsoup.select.Elements;
  * <!-- begin-UML-doc -->
  * Clase&nbsp;que&nbsp;descarga&nbsp;la&nbsp;lista&nbsp;de&nbsp;archivos&nbsp;que&nbsp;contienen&nbsp;información&nbsp;de&nbsp;la&nbsp;Ley<br>de&nbsp;Presupuestos.<br><br>@author&nbsp;JaimeRodrigo
  * <!-- end-UML-doc -->
- * @author JaimeRodrigo
+ * @author joviedo
  * @uml.annotations
  *     derived_abstraction="platform:/resource/goby-design/goby-classifier-extractor.emx#_UXFjwEquEeeJsdrfgQXeQw"
  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UXFjwEquEeeJsdrfgQXeQw"
  */
 class BudgetFileListExtractor extends ExtractorImpl {
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UdIhYEquEeeJsdrfgQXeQw"
   */
   private Collection<String> budgetFileList;
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * Crea&nbsp;una&nbsp;nueva&nbsp;instancia&nbsp;de&nbsp;BudgetFileListExtractor.
   * <!-- end-UML-doc -->
-  * Crea una nueva instancia de la clase BudgetFileListExtractor.
   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UdK9oEquEeeJsdrfgQXeQw"
   */
   public BudgetFileListExtractor() {
@@ -54,7 +53,7 @@ class BudgetFileListExtractor extends ExtractorImpl {
     budgetFileList = new ArrayList<>();
     // end-user-code
   }
-  
+
   /*
    * (non-Javadoc)
    * 
@@ -90,10 +89,10 @@ class BudgetFileListExtractor extends ExtractorImpl {
         outputStream.close();
       }
     }
-    
+
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->

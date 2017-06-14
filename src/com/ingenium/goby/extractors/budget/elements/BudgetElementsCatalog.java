@@ -7,13 +7,13 @@ import java.util.Collection;
  * <!-- begin-UML-doc -->
  * <p>Represents a hierarchical catalog of budget elements.</p>
  * <!-- end-UML-doc -->
- * @author JaimeRodrigo
+ * @author joviedo
  * @uml.annotations
  *     derived_abstraction="platform:/resource/goby-design/goby-classifier-extractor.emx#_UXJ1MEquEeeJsdrfgQXeQw"
  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UXJ1MEquEeeJsdrfgQXeQw"
  */
 public class BudgetElementsCatalog {
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <p>Program element used to hold the elements of the catalog.</p>
@@ -21,12 +21,11 @@ public class BudgetElementsCatalog {
   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_Ud4vUEquEeeJsdrfgQXeQw"
   */
   private Program program;
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <p>Creates a new BudgetElementsCatalog.</p>
   * <!-- end-UML-doc -->
-  * Crea una nueva instancia de la clase BudgetElementsCatalog.
   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_Ud6kgEquEeeJsdrfgQXeQw"
   */
   public BudgetElementsCatalog() {
@@ -36,7 +35,7 @@ public class BudgetElementsCatalog {
         BudgetElementType.BUDGETARY_CLASSIFICATION);
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <p>Adds a subtitle to the catalog.</p>
@@ -49,7 +48,7 @@ public class BudgetElementsCatalog {
     program.addSubtitle(subtitle);
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <p>Adds an item to the catalog within the provided subtitle.</p>
@@ -66,7 +65,7 @@ public class BudgetElementsCatalog {
     }
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <p>Adds an assignment to the catalog within the provided subtitle and item.</p>
@@ -88,7 +87,7 @@ public class BudgetElementsCatalog {
     }
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <p>Returns the subtitle identified by the provided number.</p>
@@ -102,7 +101,7 @@ public class BudgetElementsCatalog {
     return program.getSubtitulo(numero);
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <p>Returns the special program that holds the catalog's elements.</p>
@@ -115,7 +114,7 @@ public class BudgetElementsCatalog {
     return program;
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <p>Sets the special program</p>
@@ -128,7 +127,7 @@ public class BudgetElementsCatalog {
     this.program = program;
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <p>Gets all the subtitles in the catalog.</p>
@@ -141,5 +140,5 @@ public class BudgetElementsCatalog {
     return program.getSubtitles();
     // end-user-code
   }
-  
+
 }

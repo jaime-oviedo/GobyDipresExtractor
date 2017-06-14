@@ -10,8 +10,8 @@ package com.ingenium.goby.extractors.budget.elements;
  * <!-- end-UML-doc -->
  * @author joviedo
  * @uml.annotations
- *     derived_abstraction="platform:/resource/goby-design/goby-classifier-extractor.emx#_Ua33kEquEeeJsdrfgQXeQw"
- * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_Ua33kEquEeeJsdrfgQXeQw"
+ *     derived_abstraction="platform:/resource/goby-design/elements.efx#_Ua33kEquEeeJsdrfgQXeQw"
+ * @generated "sourceid:platform:/resource/goby-design/elements.efx#_Ua33kEquEeeJsdrfgQXeQw"
  */
 public final class SimpleClassifier extends BudgetElement {
 
@@ -22,7 +22,7 @@ public final class SimpleClassifier extends BudgetElement {
   * @param number
   * @param name
   * @param description
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_Uj2NYEquEeeJsdrfgQXeQw"
+  * @generated "sourceid:platform:/resource/goby-design/elements.efx#_Uj2NYEquEeeJsdrfgQXeQw"
   */
   public SimpleClassifier(int number, String name, String description) {
     // begin-user-code

@@ -10,8 +10,8 @@ package com.ingenium.goby.extractors.budget.elements;
  * <!-- end-UML-doc -->
  * @author joviedo
  * @uml.annotations
- *     derived_abstraction="platform:/resource/goby-design/goby-classifier-extractor.emx#_UZvPIEquEeeJsdrfgQXeQw"
- * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UZvPIEquEeeJsdrfgQXeQw"
+ *     derived_abstraction="platform:/resource/goby-design/elements.efx#_UZvPIEquEeeJsdrfgQXeQw"
+ * @generated "sourceid:platform:/resource/goby-design/elements.efx#_UZvPIEquEeeJsdrfgQXeQw"
  */
 public final class Assignment extends BudgetElement {
 
@@ -23,7 +23,7 @@ public final class Assignment extends BudgetElement {
   * @param name <p>the value of the name field.</p>
   * @param description <p>the value of the description field.</p>
   * @param type <p>the value of the title field.</p>
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UewSAEquEeeJsdrfgQXeQw"
+  * @generated "sourceid:platform:/resource/goby-design/elements.efx#_UewSAEquEeeJsdrfgQXeQw"
   */
   public Assignment(int number, String name, String description,
       BudgetElementType type) {

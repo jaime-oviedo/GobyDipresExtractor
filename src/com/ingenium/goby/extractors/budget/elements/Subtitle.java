@@ -10,8 +10,8 @@ import java.util.Iterator;
  * <!-- end-UML-doc -->
  * @author joviedo
  * @uml.annotations
- *     derived_abstraction="platform:/resource/goby-design/goby-classifier-extractor.emx#_Uawi0EquEeeJsdrfgQXeQw"
- * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_Uawi0EquEeeJsdrfgQXeQw"
+ *     derived_abstraction="platform:/resource/goby-design/elements.efx#_Uawi0EquEeeJsdrfgQXeQw"
+ * @generated "sourceid:platform:/resource/goby-design/elements.efx#_Uawi0EquEeeJsdrfgQXeQw"
  */
 public class Subtitle extends CompositeBudgetElement {
 
@@ -22,7 +22,7 @@ public class Subtitle extends CompositeBudgetElement {
   * @param name
   * @param description
   * @param type
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UjSMsEquEeeJsdrfgQXeQw"
+  * @generated "sourceid:platform:/resource/goby-design/elements.efx#_UjSMsEquEeeJsdrfgQXeQw"
   */
   public Subtitle(int number, String name, String description,
       BudgetElementType type) {
@@ -35,7 +35,7 @@ public class Subtitle extends CompositeBudgetElement {
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
   * @param item
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UjUo8EquEeeJsdrfgQXeQw"
+  * @generated "sourceid:platform:/resource/goby-design/elements.efx#_UjUo8EquEeeJsdrfgQXeQw"
   */
   public void addItem(Item item) {
     // begin-user-code
@@ -48,7 +48,7 @@ public class Subtitle extends CompositeBudgetElement {
   * <!-- end-UML-doc -->
   * @param itemNumber
   * @return
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UjV3EEquEeeJsdrfgQXeQw"
+  * @generated "sourceid:platform:/resource/goby-design/elements.efx#_UjV3EEquEeeJsdrfgQXeQw"
   */
   public Item getItem(Integer itemNumber) {
     // begin-user-code
@@ -61,7 +61,7 @@ public class Subtitle extends CompositeBudgetElement {
   * etorna&nbsp;los&nbsp;items&nbsp;asociados&nbsp;al&nbsp;subtitulo.<br><br><br><br><br>@return&nbsp;los&nbsp;items&nbsp;asociados&nbsp;al&nbsp;subtitul
   * <!-- end-UML-doc -->
   * @return
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UjXFMEquEeeJsdrfgQXeQw"
+  * @generated "sourceid:platform:/resource/goby-design/elements.efx#_UjXFMEquEeeJsdrfgQXeQw"
   */
   public Collection<Item> getItems() {
     // begin-user-code
@@ -80,7 +80,7 @@ public class Subtitle extends CompositeBudgetElement {
   * stablece&nbsp;los&nbsp;items&nbsp;para&nbsp;la&nbsp;asignacion.<br><br><br><br>@param&nbsp;items<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;el&nbsp;nuevo&nbsp;conjunto&nbsp;de&nbsp;asignaciones<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   * <!-- end-UML-doc -->
   * @param items
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UjZhcEquEeeJsdrfgQXeQw"
+  * @generated "sourceid:platform:/resource/goby-design/elements.efx#_UjZhcEquEeeJsdrfgQXeQw"
   */
   public void setItems(Collection<Item> items) {
     // begin-user-code

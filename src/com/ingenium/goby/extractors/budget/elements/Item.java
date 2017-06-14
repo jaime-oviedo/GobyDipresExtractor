@@ -14,8 +14,8 @@ import java.util.Iterator;
  * <!-- end-UML-doc -->
  * @author joviedo
  * @uml.annotations
- *     derived_abstraction="platform:/resource/goby-design/goby-classifier-extractor.emx#_UXEVoEquEeeJsdrfgQXeQw"
- * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UXEVoEquEeeJsdrfgQXeQw"
+ *     derived_abstraction="platform:/resource/goby-design/elements.efx#_UXEVoEquEeeJsdrfgQXeQw"
+ * @generated "sourceid:platform:/resource/goby-design/elements.efx#_UXEVoEquEeeJsdrfgQXeQw"
  */
 public final class Item extends CompositeBudgetElement {
 
@@ -27,7 +27,7 @@ public final class Item extends CompositeBudgetElement {
   * @param name
   * @param description
   * @param type
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UbdGYEquEeeJsdrfgQXeQw"
+  * @generated "sourceid:platform:/resource/goby-design/elements.efx#_UbdGYEquEeeJsdrfgQXeQw"
   */
   public Item(int number, String name, String description,
       BudgetElementType type) {
@@ -40,7 +40,7 @@ public final class Item extends CompositeBudgetElement {
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
   * @param assignment
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UbjNAEquEeeJsdrfgQXeQw"
+  * @generated "sourceid:platform:/resource/goby-design/elements.efx#_UbjNAEquEeeJsdrfgQXeQw"
   */
   public void addAsignacion(Assignment assignment) {
     // begin-user-code
@@ -53,7 +53,7 @@ public final class Item extends CompositeBudgetElement {
   * <!-- end-UML-doc -->
   * @param assignmentNumber
   * @return
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UblCMEquEeeJsdrfgQXeQw"
+  * @generated "sourceid:platform:/resource/goby-design/elements.efx#_UblCMEquEeeJsdrfgQXeQw"
   */
   public Assignment getAsignacion(Integer assignmentNumber) {
     // begin-user-code
@@ -66,7 +66,7 @@ public final class Item extends CompositeBudgetElement {
   * btiene&nbsp;las&nbsp;asigaciones&nbsp;correspondientes&nbsp;a&nbsp;este&nbsp;item.<br><br><br><br><br>@return&nbsp;las&nbsp;asigaciones&nbsp;correspondientes&nbsp;a&nbsp;este&nbsp;ite
   * <!-- end-UML-doc -->
   * @return
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UbnecEquEeeJsdrfgQXeQw"
+  * @generated "sourceid:platform:/resource/goby-design/elements.efx#_UbnecEquEeeJsdrfgQXeQw"
   */
   public Collection<Assignment> getAsignaciones() {
     // begin-user-code
@@ -85,7 +85,7 @@ public final class Item extends CompositeBudgetElement {
   * stablece&nbsp;las&nbsp;asignaciones&nbsp;para&nbsp;el&nbsp;item.<br><br><br><br><br>@param&nbsp;asignaciones<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;el&nbsp;nuevo&nbsp;conjunto&nbsp;de&nbsp;asignacione
   * <!-- end-UML-doc -->
   * @param assignments
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_Uc87MEquEeeJsdrfgQXeQw"
+  * @generated "sourceid:platform:/resource/goby-design/elements.efx#_Uc87MEquEeeJsdrfgQXeQw"
   */
   public void setAsignaciones(Collection<Assignment> assignments) {
     // begin-user-code

@@ -26,15 +26,15 @@ import org.jsoup.select.Elements;
  * <!-- end-UML-doc -->
  * @author joviedo
  * @uml.annotations
- *     derived_abstraction="platform:/resource/goby-design/goby-classifier-extractor.emx#_UXFjwEquEeeJsdrfgQXeQw"
- * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UXFjwEquEeeJsdrfgQXeQw"
+ *     derived_abstraction="platform:/resource/goby-design/budget.efx#_UXFjwEquEeeJsdrfgQXeQw"
+ * @generated "sourceid:platform:/resource/goby-design/budget.efx#_UXFjwEquEeeJsdrfgQXeQw"
  */
 class BudgetFileListExtractor extends ExtractorImpl {
 
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UdIhYEquEeeJsdrfgQXeQw"
+  * @generated "sourceid:platform:/resource/goby-design/budget.efx#_UdIhYEquEeeJsdrfgQXeQw"
   */
   private Collection<String> budgetFileList;
 
@@ -42,7 +42,7 @@ class BudgetFileListExtractor extends ExtractorImpl {
   * <!-- begin-UML-doc -->
   * Crea&nbsp;una&nbsp;nueva&nbsp;instancia&nbsp;de&nbsp;BudgetFileListExtractor.
   * <!-- end-UML-doc -->
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UdK9oEquEeeJsdrfgQXeQw"
+  * @generated "sourceid:platform:/resource/goby-design/budget.efx#_UdK9oEquEeeJsdrfgQXeQw"
   */
   public BudgetFileListExtractor() {
     // begin-user-code
@@ -63,7 +63,7 @@ class BudgetFileListExtractor extends ExtractorImpl {
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
   * @throws ExtractionException
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UdMy0EquEeeJsdrfgQXeQw"
+  * @generated "sourceid:platform:/resource/goby-design/budget.efx#_UdMy0EquEeeJsdrfgQXeQw"
   */
   @Override
   public void extract() throws ExtractionException {
@@ -98,7 +98,7 @@ class BudgetFileListExtractor extends ExtractorImpl {
   * <!-- end-UML-doc -->
   * @return
   * @throws ExtractionException
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UdQdMEquEeeJsdrfgQXeQw"
+  * @generated "sourceid:platform:/resource/goby-design/budget.efx#_UdQdMEquEeeJsdrfgQXeQw"
   */
   public Collection<String> getBudgetFileList() throws ExtractionException {
     // begin-user-code

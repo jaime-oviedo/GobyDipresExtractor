@@ -13,27 +13,27 @@ import com.ingenium.goby.extractors.ExtractorImpl;
  * <!-- end-UML-doc -->
  * @author joviedo
  * @uml.annotations
- *     derived_abstraction="platform:/resource/goby-design/goby-classifier-extractor.emx#_UautoEquEeeJsdrfgQXeQw"
- * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UautoEquEeeJsdrfgQXeQw"
+ *     derived_abstraction="platform:/resource/goby-design/budget.efx#_UautoEquEeeJsdrfgQXeQw"
+ * @generated "sourceid:platform:/resource/goby-design/budget.efx#_UautoEquEeeJsdrfgQXeQw"
  */
 public class BudgetLawExtractor extends ExtractorImpl {
 
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UjBG8EquEeeJsdrfgQXeQw"
+  * @generated "sourceid:platform:/resource/goby-design/budget.efx#_UjBG8EquEeeJsdrfgQXeQw"
   */
   private final BudgetWebPageExtractor dpe;
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UjCVEEquEeeJsdrfgQXeQw"
+  * @generated "sourceid:platform:/resource/goby-design/budget.efx#_UjCVEEquEeeJsdrfgQXeQw"
   */
   private final BudgetFileListExtractor bfle;
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UjDjMEquEeeJsdrfgQXeQw"
+  * @generated "sourceid:platform:/resource/goby-design/budget.efx#_UjDjMEquEeeJsdrfgQXeQw"
   */
   private final BudgetFileExtractor bfe;
 
@@ -41,7 +41,7 @@ public class BudgetLawExtractor extends ExtractorImpl {
   * <!-- begin-UML-doc -->
   * Crea&nbsp;una&nbsp;nueva&nbsp;instancia&nbsp;de&nbsp;la&nbsp;clase&nbsp;BudgetLawExtractor.
   * <!-- end-UML-doc -->
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UjFYYEquEeeJsdrfgQXeQw"
+  * @generated "sourceid:platform:/resource/goby-design/budget.efx#_UjFYYEquEeeJsdrfgQXeQw"
   */
   public BudgetLawExtractor() {
     // begin-user-code
@@ -60,7 +60,7 @@ public class BudgetLawExtractor extends ExtractorImpl {
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
   * @throws ExtractionException
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UjH0oEquEeeJsdrfgQXeQw"
+  * @generated "sourceid:platform:/resource/goby-design/budget.efx#_UjH0oEquEeeJsdrfgQXeQw"
   */
   @Override
   public void extract() throws ExtractionException {

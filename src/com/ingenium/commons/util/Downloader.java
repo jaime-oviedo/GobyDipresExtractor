@@ -12,8 +12,8 @@ import java.io.IOException;
  * <!-- end-UML-doc -->
  * @author joviedo
  * @uml.annotations
- *     derived_abstraction="platform:/resource/goby-design/goby-classifier-extractor.emx#_UXNfkEquEeeJsdrfgQXeQw"
- * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UXNfkEquEeeJsdrfgQXeQw"
+ *     derived_abstraction="platform:/resource/goby-design/util.efx#_UXNfkEquEeeJsdrfgQXeQw"
+ * @generated "sourceid:platform:/resource/goby-design/util.efx#_UXNfkEquEeeJsdrfgQXeQw"
  */
 public interface Downloader {
 
@@ -23,7 +23,7 @@ public interface Downloader {
   * @param source
   * @param destination
   * @throws IOException
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UeKcIEquEeeJsdrfgQXeQw"
+  * @generated "sourceid:platform:/resource/goby-design/util.efx#_UeKcIEquEeeJsdrfgQXeQw"
   */
   public void download(String source, String destination) throws IOException;
 

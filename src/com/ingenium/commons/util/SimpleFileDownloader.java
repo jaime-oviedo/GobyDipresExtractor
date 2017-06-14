@@ -17,15 +17,15 @@ import java.net.URL;
  * <!-- end-UML-doc -->
  * @author joviedo
  * @uml.annotations
- *     derived_abstraction="platform:/resource/goby-design/goby-classifier-extractor.emx#_UZsy4EquEeeJsdrfgQXeQw"
- * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UZsy4EquEeeJsdrfgQXeQw"
+ *     derived_abstraction="platform:/resource/goby-design/util.efx#_UZsy4EquEeeJsdrfgQXeQw"
+ * @generated "sourceid:platform:/resource/goby-design/util.efx#_UZsy4EquEeeJsdrfgQXeQw"
  */
 public class SimpleFileDownloader implements Downloader {
 
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UemhAEquEeeJsdrfgQXeQw"
+  * @generated "sourceid:platform:/resource/goby-design/util.efx#_UemhAEquEeeJsdrfgQXeQw"
   */
   private static final int BUFFER_SIZE = new Integer(4096);
 
@@ -33,7 +33,7 @@ public class SimpleFileDownloader implements Downloader {
   * <!-- begin-UML-doc -->
   * Crea&nbsp;una&nbsp;nueva&nbsp;instancia&nbsp;de&nbsp;la&nbsp;clase&nbsp;SimpleFileDownloader.
   * <!-- end-UML-doc -->
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UenvIEquEeeJsdrfgQXeQw"
+  * @generated "sourceid:platform:/resource/goby-design/util.efx#_UenvIEquEeeJsdrfgQXeQw"
   */
   public SimpleFileDownloader() {
     // begin-user-code
@@ -52,7 +52,7 @@ public class SimpleFileDownloader implements Downloader {
   * @param source
   * @param destination
   * @throws IOException
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UeqLYEquEeeJsdrfgQXeQw"
+  * @generated "sourceid:platform:/resource/goby-design/util.efx#_UeqLYEquEeeJsdrfgQXeQw"
   */
   @Override
   public void download(String source, String destination) throws IOException {

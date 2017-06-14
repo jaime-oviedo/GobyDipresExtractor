@@ -5,8 +5,8 @@
 package com.ingenium.goby.extractors.budget;
 
 import com.ingenium.goby.extractors.ExtractionException;
-import com.ingenium.goby.extractors.Extractor;
 import com.ingenium.goby.extractors.ExtractorImpl;
+import com.ingenium.goby.extractors.budget.elements.BudgetCurrency;
 import com.ingenium.goby.extractors.budget.elements.BudgetElement;
 import com.ingenium.goby.extractors.budget.elements.BudgetElementType;
 import com.ingenium.goby.extractors.budget.elements.BudgetHierarchyLevel;
@@ -18,77 +18,104 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.math.BigInteger;
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.logging.Logger;
 
-/** 
- * <!-- begin-UML-doc -->
- * <!-- end-UML-doc -->
+/**
+ * <!-- begin-UML-doc --> <!-- end-UML-doc -->
+ * 
  * @author joviedo
- * @uml.annotations
- *     derived_abstraction="platform:/resource/goby-design/goby-classifier-extractor.emx#_xiP9AEyIEeekuqvl4T6tsg"
- * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_xiP9AEyIEeekuqvl4T6tsg"
+ * @uml.annotations derived_abstraction="platform:/resource/goby-design/budget.efx#_xiP9AEyIEeekuqvl4T6tsg"
+ * @generated "sourceid:platform:/resource/goby-design/budget.efx#_xiP9AEyIEeekuqvl4T6tsg"
  */
 public class BudgetElementsFileMerger extends ExtractorImpl {
-  /** 
-  * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_P727kEyQEeekuqvl4T6tsg"
-  */
-  private static final Logger log = Logger
-      .getLogger("com.ingenium.goby.extractors.BudgetElementsFileMerger");
-  /** 
-  * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_caJBMEyQEeekuqvl4T6tsg"
-  */
-  private Collection<String> mergedFiles;
-  /** 
-  * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_gcrCgEyQEeekuqvl4T6tsg"
-  */
-  private Collection<String> notMergedFiles;
+  /**
+   * <!-- begin-UML-doc --> <!-- end-UML-doc -->
+   * 
+   * @author joviedo
+   * @uml.annotations derived_abstraction="platform:/resource/goby-design/budget.efx#_6n5lcFETEeeJofrcP_B-sg"
+   * @generated "sourceid:platform:/resource/goby-design/budget.efx#_6n5lcFETEeeJofrcP_B-sg"
+   */
+  public class BudgetLine {
+    /**
+     * <!-- begin-UML-doc --> <!-- end-UML-doc -->
+     * 
+     * @generated "sourceid:platform:/resource/goby-design/budget.efx#_8XGSMFETEeeJofrcP_B-sg"
+     */
+    private String[] lineContents = null;
 
-  /** 
-  * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_xAZhQEyVEeekuqvl4T6tsg"
-  */
-  private BudgetElementType mergedElementsType;
+    /**
+     * <!-- begin-UML-doc --> <!-- end-UML-doc -->
+     * 
+     * @return
+     * @generated "sourceid:platform:/resource/goby-design/budget.efx#_NV3gcFEUEeeJofrcP_B-sg"
+     */
+    public String[] getLineContents() {
+      // begin-user-code
+      return lineContents;
+      // end-user-code
+    }
 
-  /** 
-  * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_g8otQEyWEeekuqvl4T6tsg"
-  */
-  private CompositeBudgetElement budgetElementRoot;
-
-  /** 
-  * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_-Y8QsEyKEeekuqvl4T6tsg"
-  */
-  public void BudgetElementFileMerger() {
-    // begin-user-code
-    setSource(Messages.getString("BudgetFileExtractor.destinationBasePath"));
-    setDestination(
-        Messages.getString("BudgetFileExtractor.destinationBasePath"));
-    mergedElementsType = BudgetElementType.BUDGETARY_CLASSIFICATION;
-    budgetElementRoot = null;
-    // end-user-code
+    /**
+     * <!-- begin-UML-doc --> <!-- end-UML-doc -->
+     * 
+     * @param lineContents
+     * @generated "sourceid:platform:/resource/goby-design/budget.efx#_TIPuwFEUEeeJofrcP_B-sg"
+     */
+    public BudgetLine(String[] lineContents) {
+      // begin-user-code
+      this.lineContents = lineContents;
+      // end-user-code
+    }
   }
 
-  /** 
-  * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * @param sourceDirectory
-  * @param outputFile
-  * @param mergedElementsType
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_PGKRYEyKEeekuqvl4T6tsg"
-  */
+  /**
+   * <!-- begin-UML-doc --> <!-- end-UML-doc -->
+   * 
+   * @generated "sourceid:platform:/resource/goby-design/budget.efx#_P727kEyQEeekuqvl4T6tsg"
+   */
+  private static final Logger log = Logger
+      .getLogger("com.ingenium.goby.extractors.BudgetElementsFileMerger");
+  /**
+   * <!-- begin-UML-doc --> <!-- end-UML-doc -->
+   * 
+   * @generated "sourceid:platform:/resource/goby-design/budget.efx#_caJBMEyQEeekuqvl4T6tsg"
+   */
+  private Collection<String> mergedFiles;
+  /**
+   * <!-- begin-UML-doc --> <!-- end-UML-doc -->
+   * 
+   * @generated "sourceid:platform:/resource/goby-design/budget.efx#_gcrCgEyQEeekuqvl4T6tsg"
+   */
+  private Collection<String> notMergedFiles;
+
+  /**
+   * <!-- begin-UML-doc --> <!-- end-UML-doc -->
+   * 
+   * @generated "sourceid:platform:/resource/goby-design/budget.efx#_xAZhQEyVEeekuqvl4T6tsg"
+   */
+  private final BudgetElementType mergedElementsType;
+
+  /**
+   * <!-- begin-UML-doc --> <!-- end-UML-doc -->
+   * 
+   * @generated "sourceid:platform:/resource/goby-design/budget.efx#_g8otQEyWEeekuqvl4T6tsg"
+   */
+  private CompositeBudgetElement budgetElementRoot;
+
+  /**
+   * <!-- begin-UML-doc --> <!-- end-UML-doc -->
+   * 
+   * @param sourceDirectory
+   * @param outputFile
+   * @param mergedElementsType
+   * @generated "sourceid:platform:/resource/goby-design/budget.efx#_PGKRYEyKEeekuqvl4T6tsg"
+   */
   public BudgetElementsFileMerger(String sourceDirectory, String outputFile,
       BudgetElementType mergedElementsType) {
     // begin-user-code
@@ -99,12 +126,12 @@ public class BudgetElementsFileMerger extends ExtractorImpl {
     // end-user-code
   }
 
-  /** 
-  * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * @throws ExtractionException
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_BRcu4EyLEeekuqvl4T6tsg"
-  */
+  /**
+   * <!-- begin-UML-doc --> <!-- end-UML-doc -->
+   * 
+   * @throws ExtractionException
+   * @generated "sourceid:platform:/resource/goby-design/budget.efx#_BRcu4EyLEeekuqvl4T6tsg"
+   */
   public void merge() throws ExtractionException {
     // begin-user-code
     String sourcePath = this.getSource();
@@ -171,19 +198,23 @@ public class BudgetElementsFileMerger extends ExtractorImpl {
         e.printStackTrace();
         break;
       }
+      List<BudgetLine> bLines = new ArrayList<>();
+      for (String[] line : lines) {
+        bLines.add(new BudgetLine(line));
+      }
 
       switch (mergedElementsType) {
       case BUDGETARY_CLASSIFICATION:
-        extractBudgetaryClassifiers(lines);
+        extractBudgetaryClassifiers(bLines);
         break;
       case INSTITUTIONAL_CLASSIFICATION:
-        extractInstitutionalClassifiers(lines);
+        extractInstitutionalClassifiers(bLines);
         break;
       case BUDGET:
-        extractBudgetLaw(lines);
+        extractBudgetLaw(bLines);
         break;
       case EXECUTION:
-        extractBudgetExecution(lines);
+        extractBudgetExecution(bLines);
         break;
       default:
         log.severe(
@@ -199,41 +230,153 @@ public class BudgetElementsFileMerger extends ExtractorImpl {
     // end-user-code
   }
 
-  /** 
-  * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * @param lines
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_upPpYEylEeekuqvl4T6tsg"
-  */
-  private void extractBudgetExecution(List<String> lines) {
+  /**
+   * <!-- begin-UML-doc --> <!-- end-UML-doc -->
+   * 
+   * @param lines
+   * @generated "sourceid:platform:/resource/goby-design/budget.efx#_rqSTcFEPEeefZJp_ndvc2g"
+   */
+  private void extractBudgetExecution(List<BudgetLine> lines) {
+    // begin-user-code
+    Map<Integer, CompositeBudgetElement> institutionalClassifiers = new HashMap<>();
+    // List<CompositeBuddgetElement> Institutions = getInstitutionsTree(BudgetElementType
+    // mergedElementsType);
+
+    for (BudgetLine bline : lines) {
+      String[] line = bline.getLineContents();
+      int batchNumber = 0;
+      String s = line[0];
+      if (s != null) {
+        batchNumber = Integer.parseInt(s);
+      }
+      int chapterNumber = 0;
+      s = line[1];
+      if (s != null) {
+        chapterNumber = Integer.parseInt(s);
+      }
+      int programNumber = 0;
+      s = line[2];
+      if (s != null) {
+        programNumber = Integer.parseInt(s);
+      }
+
+      int subtitleNumber = 0;
+      s = line[3];
+      if (s != null) {
+        subtitleNumber = Integer.parseInt(s);
+      }
+
+      int itemNumber = 0;
+      s = line[4];
+      if (s != null) {
+        itemNumber = Integer.parseInt(s);
+      }
+
+      int assignmentNumber = 0;
+      s = line[5];
+      if (s != null) {
+        assignmentNumber = Integer.parseInt(s);
+      }
+
+      String name = "";
+      s = line[6];
+      if (s != null) {
+        name = s;
+      }
+
+      BigInteger initialBudget = BigInteger.ZERO;
+      s = line[7];
+      if (s != null) {
+        initialBudget = BigInteger.valueOf(Long.valueOf(s));
+      }
+
+      BigInteger initialDollarBudget = BigInteger.ZERO;
+      s = line[7];
+      if (s != null) {
+        initialDollarBudget = BigInteger.valueOf(Long.valueOf(s));
+      }
+      long initialBudgetLong = initialBudget.longValue();
+      long initialDollarBudgetLong = initialDollarBudget.longValue();
+      BudgetCurrency bc = (initialBudgetLong >= 0
+          && initialDollarBudgetLong == 0) ? BudgetCurrency.PESO
+              : (initialBudgetLong == 0 && initialDollarBudgetLong > 0)
+                  ? BudgetCurrency.DOLLAR : BudgetCurrency.MIXED;
+
+      CompositeBudgetElement batch = (CompositeBudgetElement) budgetElementRoot
+          .getSubelement(batchNumber);
+      CompositeBudgetElement chapter = (CompositeBudgetElement) batch
+          .getSubelement(chapterNumber);
+      CompositeBudgetElement program = (CompositeBudgetElement) chapter
+          .getSubelement(programNumber);
+      CompositeBudgetElement subtitle = (CompositeBudgetElement) program
+          .getSubelement(subtitleNumber);
+
+      if (assignmentNumber != 0) {
+        CompositeBudgetElement item = (CompositeBudgetElement) subtitle
+            .getSubelement(itemNumber);
+        BudgetElement assignment = new BudgetElement(programNumber, name, "",
+            mergedElementsType, BudgetHierarchyLevel.ASSIGNMENT);
+        assignment.setCurrency(bc);
+        assignment.setInitialBudget(initialBudget);
+        assignment.setInitialDollarBudget(initialDollarBudget);
+        item.addSubelement(assignment);
+        break;
+      }
+
+      if (assignmentNumber == 0 && itemNumber != 0) {
+
+        BudgetElement item = new BudgetElement(programNumber, name, "",
+            mergedElementsType, BudgetHierarchyLevel.ITEM);
+        item.setInitialBudget(initialBudget);
+        item.setInitialDollarBudget(initialDollarBudget);
+        item.setCurrency(bc);
+        subtitle.addSubelement(item);
+        break;
+      }
+
+      if (assignmentNumber == 0 && itemNumber == 0 && subtitleNumber != 0) {
+        subtitle.setInitialBudget(initialBudget);
+        subtitle.setInitialBudget(initialDollarBudget);
+        subtitle.setCurrency(bc);
+        break;
+      }
+
+      if (batchNumber != 0) {
+        budgetElementRoot.addSubelement(new CompositeBudgetElement(batchNumber,
+            name, "", mergedElementsType, BudgetHierarchyLevel.BATCH));
+      } else {
+        log.warning("Unable to process line:" + line.toString()
+            + " while extracting institutional classifiers.");
+      }
+    }
+
+    // end-user-code
+  }
+
+  /**
+   * <!-- begin-UML-doc --> <!-- end-UML-doc -->
+   * 
+   * @param lines
+   * @generated "sourceid:platform:/resource/goby-design/budget.efx#_updEwEylEeekuqvl4T6tsg"
+   */
+  private void extractBudgetLaw(List<BudgetLine> lines) {
     // begin-user-code
     // TODO Auto-generated method stub
 
     // end-user-code
   }
 
-  /** 
-  * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * @param lines
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_updEwEylEeekuqvl4T6tsg"
-  */
-  private void extractBudgetLaw(List<String> lines) {
+  /**
+   * <!-- begin-UML-doc --> <!-- end-UML-doc -->
+   * 
+   * @param lines
+   * @generated "sourceid:platform:/resource/goby-design/budget.efx#_uprHMEylEeekuqvl4T6tsg"
+   */
+  private void extractInstitutionalClassifiers(List<BudgetLine> lines) {
     // begin-user-code
-    // TODO Auto-generated method stub
-
-    // end-user-code
-  }
-
-  /** 
-  * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * @param lines
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_uprHMEylEeekuqvl4T6tsg"
-  */
-  private void extractInstitutionalClassifiers(List<String> lines) {
-    // begin-user-code
-    for (String[] line : lines) {
+    Map<Integer, CompositeBudgetElement> institutionalClassifiers = new HashMap<>();
+    for (BudgetLine bline : lines) {
+      String[] line = bline.getLineContents();
       int batch = 0;
       String s = line[0];
       if (s != null) {
@@ -281,26 +424,28 @@ public class BudgetElementsFileMerger extends ExtractorImpl {
       }
 
       if (batch != 0) {
-        budgetElementRoot.addSubelement(new CompositeBudgetElement(batch, name,
-            description, mergedElementsType, BudgetHierarchyLevel.BATCH));
+        institutionalClassifiers.put(new Integer(batch),
+            new CompositeBudgetElement(batch, name, description,
+                mergedElementsType, BudgetHierarchyLevel.BATCH));
       } else {
         log.warning("Unable to process line:" + line.toString()
             + " while extracting institutional classifiers.");
       }
     }
-
+    // return institutionalClassifiers.values();
     // end-user-code
   }
 
-  /** 
-  * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * @param lines
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_up5wsEylEeekuqvl4T6tsg"
-  */
-  private void extractBudgetaryClassifiers(List<String> lines) {
+  /**
+   * <!-- begin-UML-doc --> <!-- end-UML-doc -->
+   * 
+   * @param lines
+   * @generated "sourceid:platform:/resource/goby-design/budget.efx#_up5wsEylEeekuqvl4T6tsg"
+   */
+  private void extractBudgetaryClassifiers(List<BudgetLine> lines) {
     // begin-user-code
-    for (String[] line : lines) {
+    for (BudgetLine bline : lines) {
+      String[] line = bline.getLineContents();
       int subtitle = 0;
       String s = line[0];
       if (s != null) {
@@ -360,13 +505,13 @@ public class BudgetElementsFileMerger extends ExtractorImpl {
     // end-user-code
   }
 
-  /** 
-  * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * @param child
-  * @return
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_uqIaMEylEeekuqvl4T6tsg"
-  */
+  /**
+   * <!-- begin-UML-doc --> <!-- end-UML-doc -->
+   * 
+   * @param child
+   * @return
+   * @generated "sourceid:platform:/resource/goby-design/budget.efx#_uqIaMEylEeekuqvl4T6tsg"
+   */
   private CSVReader getReader(File child) {
     // begin-user-code
     FileInputStream fi = null;
@@ -383,65 +528,52 @@ public class BudgetElementsFileMerger extends ExtractorImpl {
     // end-user-code
   }
 
-  /** 
-  * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * @return
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_j-QS4EyQEeekuqvl4T6tsg"
-  */
+  /**
+   * <!-- begin-UML-doc --> <!-- end-UML-doc -->
+   * 
+   * @return
+   * @generated "sourceid:platform:/resource/goby-design/budget.efx#_j-QS4EyQEeekuqvl4T6tsg"
+   */
   public Collection<String> getMergedFiles() {
     // begin-user-code
     return mergedFiles;
     // end-user-code
   }
 
-  /** 
-  * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * @return
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_mJ0ykEyQEeekuqvl4T6tsg"
-  */
+  /**
+   * <!-- begin-UML-doc --> <!-- end-UML-doc -->
+   * 
+   * @return
+   * @generated "sourceid:platform:/resource/goby-design/budget.efx#_mJ0ykEyQEeekuqvl4T6tsg"
+   */
   public Collection<String> getNotMergedFiles() {
     // begin-user-code
     return notMergedFiles;
     // end-user-code
   }
 
-  /** 
-  * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * @return
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_2sUiQEyVEeekuqvl4T6tsg"
-  */
+  /**
+   * <!-- begin-UML-doc --> <!-- end-UML-doc -->
+   * 
+   * @return
+   * @generated "sourceid:platform:/resource/goby-design/budget.efx#_2sUiQEyVEeekuqvl4T6tsg"
+   */
   public BudgetElementType getMergedElementsType() {
     // begin-user-code
     return mergedElementsType;
     // end-user-code
   }
 
-  /** 
-  * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * @param type
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_71Fy4EyVEeekuqvl4T6tsg"
-  */
-  public void setMergedElementsType(BudgetElementType type) {
-    // begin-user-code
-    this.mergedElementsType = type;
-
-    // end-user-code
-  }
-
-  /** 
-  * (non-Javadoc)
-  * @see Extractor#extract()
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UfdcoEquEeeJsdrfgQXeQw?INHERITED"
-  */
+  /**
+   * <!-- begin-UML-doc --> <!-- end-UML-doc -->
+   * 
+   * @throws ExtractionException
+   * @generated "sourceid:platform:/resource/goby-design/budget.efx#_sS95gFEOEeefZJp_ndvc2g"
+   */
   @Override
   public void extract() throws ExtractionException {
     // begin-user-code
     merge();
-
     // end-user-code
   }
 }

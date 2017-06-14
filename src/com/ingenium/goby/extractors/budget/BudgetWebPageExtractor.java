@@ -14,8 +14,8 @@ import com.ingenium.goby.extractors.ExtractorImpl;
  * <!-- end-UML-doc -->
  * @author joviedo
  * @uml.annotations
- *     derived_abstraction="platform:/resource/goby-design/goby-classifier-extractor.emx#_UTAVAEquEeeJsdrfgQXeQw"
- * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UTAVAEquEeeJsdrfgQXeQw"
+ *     derived_abstraction="platform:/resource/goby-design/budget.efx#_UTAVAEquEeeJsdrfgQXeQw"
+ * @generated "sourceid:platform:/resource/goby-design/budget.efx#_UTAVAEquEeeJsdrfgQXeQw"
  */
 class BudgetWebPageExtractor extends ExtractorImpl {
 
@@ -23,7 +23,7 @@ class BudgetWebPageExtractor extends ExtractorImpl {
   * <!-- begin-UML-doc -->
   * Crea&nbsp;una&nbsp;nueva&nbsp;instancia&nbsp;de&nbsp;la&nbsp;clase.
   * <!-- end-UML-doc -->
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UbF6AEquEeeJsdrfgQXeQw"
+  * @generated "sourceid:platform:/resource/goby-design/budget.efx#_UbF6AEquEeeJsdrfgQXeQw"
   */
   public BudgetWebPageExtractor() {
     // begin-user-code
@@ -37,7 +37,7 @@ class BudgetWebPageExtractor extends ExtractorImpl {
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
   * @throws ExtractionException
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UbN10EquEeeJsdrfgQXeQw"
+  * @generated "sourceid:platform:/resource/goby-design/budget.efx#_UbN10EquEeeJsdrfgQXeQw"
   */
   @Override
   public void extract() throws ExtractionException {

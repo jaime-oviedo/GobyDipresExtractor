@@ -34,8 +34,8 @@ import java.util.logging.Logger;
  * <!-- end-UML-doc -->
  * @author joviedo
  * @uml.annotations
- *     derived_abstraction="platform:/resource/goby-design/goby-classifier-extractor.emx#_UXHY8EquEeeJsdrfgQXeQw"
- * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UXHY8EquEeeJsdrfgQXeQw"
+ *     derived_abstraction="platform:/resource/goby-design/budget.efx#_UXHY8EquEeeJsdrfgQXeQw"
+ * @generated "sourceid:platform:/resource/goby-design/budget.efx#_UXHY8EquEeeJsdrfgQXeQw"
  */
 public class BudgetElementsExtractor extends ExtractorImpl {
 
@@ -44,39 +44,39 @@ public class BudgetElementsExtractor extends ExtractorImpl {
   * <!-- end-UML-doc -->
   * @author joviedo
   * @uml.annotations
-  *     derived_abstraction="platform:/resource/goby-design/goby-classifier-extractor.emx#_UaQMgEquEeeJsdrfgQXeQw"
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UaQMgEquEeeJsdrfgQXeQw"
+  *     derived_abstraction="platform:/resource/goby-design/budget.efx#_UaQMgEquEeeJsdrfgQXeQw"
+  * @generated "sourceid:platform:/resource/goby-design/budget.efx#_UaQMgEquEeeJsdrfgQXeQw"
   */
   private final class PlainBudgetElement {
 
     /** 
     * <!-- begin-UML-doc -->
     * <!-- end-UML-doc -->
-    * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UhA70EquEeeJsdrfgQXeQw"
+    * @generated "sourceid:platform:/resource/goby-design/budget.efx#_UhA70EquEeeJsdrfgQXeQw"
     */
     private final int subtitle;
     /** 
     * <!-- begin-UML-doc -->
     * <!-- end-UML-doc -->
-    * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UhCJ8EquEeeJsdrfgQXeQw"
+    * @generated "sourceid:platform:/resource/goby-design/budget.efx#_UhCJ8EquEeeJsdrfgQXeQw"
     */
     private final int item;
     /** 
     * <!-- begin-UML-doc -->
     * <!-- end-UML-doc -->
-    * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UhDYEEquEeeJsdrfgQXeQw"
+    * @generated "sourceid:platform:/resource/goby-design/budget.efx#_UhDYEEquEeeJsdrfgQXeQw"
     */
     private final int assignment;
     /** 
     * <!-- begin-UML-doc -->
     * <!-- end-UML-doc -->
-    * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UhEmMEquEeeJsdrfgQXeQw"
+    * @generated "sourceid:platform:/resource/goby-design/budget.efx#_UhEmMEquEeeJsdrfgQXeQw"
     */
     private final String name;
     /** 
     * <!-- begin-UML-doc -->
     * <!-- end-UML-doc -->
-    * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UhF0UEquEeeJsdrfgQXeQw"
+    * @generated "sourceid:platform:/resource/goby-design/budget.efx#_UhF0UEquEeeJsdrfgQXeQw"
     */
     private final String description;
 
@@ -89,7 +89,7 @@ public class BudgetElementsExtractor extends ExtractorImpl {
     * @param assignment <p>the value of the assignment field.</p>
     * @param name <p>the value of the name field.</p>
     * @param description <p>the value of the description field.</p>
-    * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UhHpgEquEeeJsdrfgQXeQw"
+    * @generated "sourceid:platform:/resource/goby-design/budget.efx#_UhHpgEquEeeJsdrfgQXeQw"
     */
     public PlainBudgetElement(int subtitle, int item, int assignment,
         String name, String description) {
@@ -107,7 +107,7 @@ public class BudgetElementsExtractor extends ExtractorImpl {
     * <!-- begin-UML-doc -->
     * <!-- end-UML-doc -->
     * @return
-    * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UhKFwEquEeeJsdrfgQXeQw"
+    * @generated "sourceid:platform:/resource/goby-design/budget.efx#_UhKFwEquEeeJsdrfgQXeQw"
     */
     @Override
     public String toString() {
@@ -125,7 +125,7 @@ public class BudgetElementsExtractor extends ExtractorImpl {
     * <!-- begin-UML-doc -->
     * <!-- end-UML-doc -->
     * @return
-    * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UhT2wEquEeeJsdrfgQXeQw"
+    * @generated "sourceid:platform:/resource/goby-design/budget.efx#_UhT2wEquEeeJsdrfgQXeQw"
     */
     public int getSubtitle() {
       // begin-user-code
@@ -137,7 +137,7 @@ public class BudgetElementsExtractor extends ExtractorImpl {
     * <!-- begin-UML-doc -->
     * <!-- end-UML-doc -->
     * @return
-    * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UhVr8EquEeeJsdrfgQXeQw"
+    * @generated "sourceid:platform:/resource/goby-design/budget.efx#_UhVr8EquEeeJsdrfgQXeQw"
     */
     public int getItem() {
       // begin-user-code
@@ -149,7 +149,7 @@ public class BudgetElementsExtractor extends ExtractorImpl {
     * <!-- begin-UML-doc -->
     * <!-- end-UML-doc -->
     * @return
-    * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UhW6EEquEeeJsdrfgQXeQw"
+    * @generated "sourceid:platform:/resource/goby-design/budget.efx#_UhW6EEquEeeJsdrfgQXeQw"
     */
     public int getAssignment() {
       // begin-user-code
@@ -161,7 +161,7 @@ public class BudgetElementsExtractor extends ExtractorImpl {
     * <!-- begin-UML-doc -->
     * <!-- end-UML-doc -->
     * @return
-    * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UhYvQEquEeeJsdrfgQXeQw"
+    * @generated "sourceid:platform:/resource/goby-design/budget.efx#_UhYvQEquEeeJsdrfgQXeQw"
     */
     public String getName() {
       // begin-user-code
@@ -173,7 +173,7 @@ public class BudgetElementsExtractor extends ExtractorImpl {
     * <!-- begin-UML-doc -->
     * <!-- end-UML-doc -->
     * @return
-    * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UhZ9YEquEeeJsdrfgQXeQw"
+    * @generated "sourceid:platform:/resource/goby-design/budget.efx#_UhZ9YEquEeeJsdrfgQXeQw"
     */
     public String getDescription() {
       // begin-user-code
@@ -187,8 +187,8 @@ public class BudgetElementsExtractor extends ExtractorImpl {
   * <!-- end-UML-doc -->
   * @author joviedo
   * @uml.annotations
-  *     derived_abstraction="platform:/resource/goby-design/goby-classifier-extractor.emx#_UagrMEquEeeJsdrfgQXeQw"
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UagrMEquEeeJsdrfgQXeQw"
+  *     derived_abstraction="platform:/resource/goby-design/budget.efx#_UagrMEquEeeJsdrfgQXeQw"
+  * @generated "sourceid:platform:/resource/goby-design/budget.efx#_UagrMEquEeeJsdrfgQXeQw"
   */
   private static final class BudgetElementsMapper {
 
@@ -197,7 +197,7 @@ public class BudgetElementsExtractor extends ExtractorImpl {
     * <!-- end-UML-doc -->
     * @param classifiers
     * @return
-    * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UiMnkEquEeeJsdrfgQXeQw"
+    * @generated "sourceid:platform:/resource/goby-design/budget.efx#_UiMnkEquEeeJsdrfgQXeQw"
     */
     static final BudgetElementsCatalog map(
         Collection<PlainBudgetElement> classifiers) {
@@ -235,7 +235,7 @@ public class BudgetElementsExtractor extends ExtractorImpl {
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_Uda1QEquEeeJsdrfgQXeQw"
+  * @generated "sourceid:platform:/resource/goby-design/budget.efx#_Uda1QEquEeeJsdrfgQXeQw"
   */
   private static final Logger log = Logger
       .getLogger("com.ingenium.goby.extractors.BudgetElementsExtractor");
@@ -244,7 +244,7 @@ public class BudgetElementsExtractor extends ExtractorImpl {
   * <!-- begin-UML-doc -->
   * <p>Creates a new instance of a BudgetElementExtractor.</p>
   * <!-- end-UML-doc -->
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UdnpkEquEeeJsdrfgQXeQw"
+  * @generated "sourceid:platform:/resource/goby-design/budget.efx#_UdnpkEquEeeJsdrfgQXeQw"
   */
   public BudgetElementsExtractor() {
     // begin-user-code
@@ -264,7 +264,7 @@ public class BudgetElementsExtractor extends ExtractorImpl {
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
   * @throws ExtractionException
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UdpewEquEeeJsdrfgQXeQw"
+  * @generated "sourceid:platform:/resource/goby-design/budget.efx#_UdpewEquEeeJsdrfgQXeQw"
   */
   @Override
   public void extract() throws ExtractionException {
@@ -295,7 +295,7 @@ public class BudgetElementsExtractor extends ExtractorImpl {
   * <!-- end-UML-doc -->
   * @return
   * @throws ExtractionException
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UdrT8EquEeeJsdrfgQXeQw"
+  * @generated "sourceid:platform:/resource/goby-design/budget.efx#_UdrT8EquEeeJsdrfgQXeQw"
   */
 
   BudgetElementsCatalog extractElements() throws ExtractionException {
@@ -387,7 +387,7 @@ public class BudgetElementsExtractor extends ExtractorImpl {
   * <!-- end-UML-doc -->
   * @return
   * @throws ExtractionException
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_Udz20EquEeeJsdrfgQXeQw"
+  * @generated "sourceid:platform:/resource/goby-design/budget.efx#_Udz20EquEeeJsdrfgQXeQw"
   */
   private CSVReader getReader() throws ExtractionException {
     // begin-user-code

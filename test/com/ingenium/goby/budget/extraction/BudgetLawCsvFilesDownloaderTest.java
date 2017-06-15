@@ -2,7 +2,7 @@
  *
  */
 
-package com.ingenium.goby.extractors.budget;
+package com.ingenium.goby.budget.extraction;
 
 import com.ingenium.goby.extractors.ExtractionException;
 
@@ -11,18 +11,17 @@ import org.junit.Test;
 
 /**
  * Pruebas para la clase BudgetFileExtractor.
- * 
+ *
  * @author JaimeRodrigo
  */
-public class BudgetFileExtractorTest {
-  
+public class BudgetLawCsvFilesDownloaderTest {
+
   /**
-   * Test method for
-   * {@link com.ingenium.goby.extractors.budget.BudgetFileExtractor#extract()}.
+   * Test method for {@link com.ingenium.goby.budget.extraction.BudgetFileExtractor#extract()}.
    */
   @Test
   public final void testExtract() {
-    BudgetFileExtractor bfe = new BudgetFileExtractor();
+    BudgetLawCsvFilesDownloader bfe = new BudgetLawCsvFilesDownloader();
     try {
       bfe.extract();
     } catch (ExtractionException e) {
@@ -31,5 +30,5 @@ public class BudgetFileExtractorTest {
     }
     Assert.assertTrue(true);
   }
-  
+
 }

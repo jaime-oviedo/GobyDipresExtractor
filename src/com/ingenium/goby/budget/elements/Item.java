@@ -2,7 +2,7 @@
  * Copyright (c) 2017 Ingenium Software Ltda.
  */
 
-package com.ingenium.goby.extractors.budget.elements;
+package com.ingenium.goby.budget.elements;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -14,8 +14,8 @@ import java.util.Iterator;
  * <!-- end-UML-doc -->
  * @author JaimeRodrigo
  * @uml.annotations
- *     derived_abstraction="platform:/resource/goby-design/elements.efx#_UXEVoEquEeeJsdrfgQXeQw"
- * @generated "sourceid:platform:/resource/goby-design/elements.efx#_UXEVoEquEeeJsdrfgQXeQw"
+ *     derived_abstraction="platform:/resource/goby-design/goby-classifier-extractor.emx#_UXEVoEquEeeJsdrfgQXeQw"
+ * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UXEVoEquEeeJsdrfgQXeQw"
  */
 public final class Item extends CompositeBudgetElement {
   
@@ -28,7 +28,7 @@ public final class Item extends CompositeBudgetElement {
   * @param name
   * @param description
   * @param type
-  * @generated "sourceid:platform:/resource/goby-design/elements.efx#_UbdGYEquEeeJsdrfgQXeQw"
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UbdGYEquEeeJsdrfgQXeQw"
   */
   public Item(int number, String name, String description,
       BudgetElementType type) {
@@ -41,9 +41,9 @@ public final class Item extends CompositeBudgetElement {
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
   * @param assignment
-  * @generated "sourceid:platform:/resource/goby-design/elements.efx#_UbjNAEquEeeJsdrfgQXeQw"
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UbjNAEquEeeJsdrfgQXeQw"
   */
-  public void addAsignacion(Assignment assignment) {
+  public void addAssignment(Assignment assignment) {
     // begin-user-code
     super.addSubelement(assignment);
     // end-user-code
@@ -54,9 +54,9 @@ public final class Item extends CompositeBudgetElement {
   * <!-- end-UML-doc -->
   * @param assignmentNumber
   * @return
-  * @generated "sourceid:platform:/resource/goby-design/elements.efx#_UblCMEquEeeJsdrfgQXeQw"
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UblCMEquEeeJsdrfgQXeQw"
   */
-  public Assignment getAsignacion(Integer assignmentNumber) {
+  public Assignment getAssignment(Integer assignmentNumber) {
     // begin-user-code
     return (Assignment) super.getSubelements().get(assignmentNumber);
     // end-user-code
@@ -67,9 +67,9 @@ public final class Item extends CompositeBudgetElement {
   * btiene&nbsp;las&nbsp;asigaciones&nbsp;correspondientes&nbsp;a&nbsp;este&nbsp;item.<br><br><br><br><br>@return&nbsp;las&nbsp;asigaciones&nbsp;correspondientes&nbsp;a&nbsp;este&nbsp;ite
   * <!-- end-UML-doc -->
   * @return
-  * @generated "sourceid:platform:/resource/goby-design/elements.efx#_UbnecEquEeeJsdrfgQXeQw"
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UbnecEquEeeJsdrfgQXeQw"
   */
-  public Collection<Assignment> getAsignaciones() {
+  public Collection<Assignment> getAssignments() {
     // begin-user-code
     Iterator<BudgetElement> it = getSubelements().values().iterator();
     Collection<Assignment> assignments = new ArrayList<>();
@@ -86,9 +86,9 @@ public final class Item extends CompositeBudgetElement {
   * stablece&nbsp;las&nbsp;asignaciones&nbsp;para&nbsp;el&nbsp;item.<br><br><br><br><br>@param&nbsp;asignaciones<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;el&nbsp;nuevo&nbsp;conjunto&nbsp;de&nbsp;asignacione
   * <!-- end-UML-doc -->
   * @param assignments
-  * @generated "sourceid:platform:/resource/goby-design/elements.efx#_Uc87MEquEeeJsdrfgQXeQw"
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_Uc87MEquEeeJsdrfgQXeQw"
   */
-  public void setAsignaciones(Collection<Assignment> assignments) {
+  public void setAssignments(Collection<Assignment> assignments) {
     // begin-user-code
     Collection<BudgetElement> classifiers = new ArrayList<>();
     Iterator<Assignment> it = assignments.iterator();
@@ -99,51 +99,4 @@ public final class Item extends CompositeBudgetElement {
     // end-user-code
   }
   
-  // /**
-  // * <!-- begin-UML-doc -->
-  // * <!-- end-UML-doc -->
-  // * @param nestingLevel
-  // * @return
-  // * @generated
-  // "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_Uc_XcEquEeeJsdrfgQXeQw"
-  // */
-  // @Override
-  // public String toJsonString(int nestingLevel) {
-  // // begin-user-code
-  // StringBuilder nesting = new StringBuilder();
-  // for (int i = 0; i < nestingLevel; i++) {
-  // nesting.append(" ");
-  // }
-  //
-  // StringBuilder sb = new StringBuilder(nesting);
-  // sb.append("{\n");
-  // nesting.append(" ");
-  // String q = "\"";
-  // sb.append(nesting).append(q + "number" + q + ":" + getNumber() + ",\n");
-  // sb.append(nesting).append(q + "name" + q + ":" + q + getName() + q + ",\n");
-  // sb.append(nesting)
-  // .append(q + "description" + q + ":" + q + getDescription() + q);
-  //
-  // if (getAsignaciones().size() > 0) {
-  // sb.append(",\n");
-  // sb.append(nesting).append(q + "assignments" + q + ":[ \n");
-  // Iterator<Assignment> i = getAsignaciones().iterator();
-  // while (i.hasNext()) {
-  // Assignment assignment = i.next();
-  // sb.append(assignment.toJsonString(nestingLevel + 2));
-  // if (i.hasNext()) {
-  // sb.append(",\n");
-  // } else {
-  // sb.append("\n");
-  // }
-  // }
-  // sb.append(nesting).append("]\n");
-  // } else {
-  // sb.append("\n");
-  // }
-  // nesting.delete(nesting.length() - 2, nesting.length());
-  // sb.append(nesting).append("}");
-  // return sb.toString();
-  // // end-user-code
-  // }
 }

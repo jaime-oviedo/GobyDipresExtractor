@@ -4,7 +4,7 @@
 
 package com.ingenium.goby.extractors.budget.elements;
 
-import com.ingenium.goby.extractors.budget.BudgetElementsExtractor;
+import com.ingenium.goby.budget.extraction.ClassifiersCatalogExtractor;
 
 import java.io.File;
 
@@ -24,7 +24,7 @@ public class ClasificadorPresupuestarioExtractorTest {
    */
   @Test
   public final void testExtractClasificadores() {
-    BudgetElementsExtractor bce = new BudgetElementsExtractor();
+    ClassifiersCatalogExtractor bce = new ClassifiersCatalogExtractor();
     String s = File.separator;
     String source = "test" + s + "com" + s + "ingenium" + s + "goby" + s
         + "extractors" + s + "budget" + s + "fixture" + s

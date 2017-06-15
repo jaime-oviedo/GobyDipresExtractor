@@ -2,8 +2,9 @@
  *
  */
 
-package com.ingenium.goby.extractors.budget;
+package com.ingenium.goby.budget.extraction;
 
+import com.ingenium.goby.budget.Messages;
 import com.ingenium.goby.extractors.ExtractionException;
 import com.ingenium.goby.extractors.ExtractorImpl;
 
@@ -26,15 +27,15 @@ import org.jsoup.select.Elements;
  * <!-- end-UML-doc -->
  * @author JaimeRodrigo
  * @uml.annotations
- *     derived_abstraction="platform:/resource/goby-design/budget.efx#_UXFjwEquEeeJsdrfgQXeQw"
- * @generated "sourceid:platform:/resource/goby-design/budget.efx#_UXFjwEquEeeJsdrfgQXeQw"
+ *     derived_abstraction="platform:/resource/goby-design/goby-classifier-extractor.emx#_UXFjwEquEeeJsdrfgQXeQw"
+ * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UXFjwEquEeeJsdrfgQXeQw"
  */
-class BudgetFileListExtractor extends ExtractorImpl {
+class BudgetLawCsvFilesListExtractor extends ExtractorImpl {
   
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
-  * @generated "sourceid:platform:/resource/goby-design/budget.efx#_UdIhYEquEeeJsdrfgQXeQw"
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UdIhYEquEeeJsdrfgQXeQw"
   */
   private Collection<String> budgetFileList;
   
@@ -42,14 +43,14 @@ class BudgetFileListExtractor extends ExtractorImpl {
   * <!-- begin-UML-doc -->
   * Crea&nbsp;una&nbsp;nueva&nbsp;instancia&nbsp;de&nbsp;BudgetFileListExtractor.
   * <!-- end-UML-doc -->
-  * Crea una nueva instancia de la clase BudgetFileListExtractor.
-  * @generated "sourceid:platform:/resource/goby-design/budget.efx#_UdK9oEquEeeJsdrfgQXeQw"
+  * Crea una nueva instancia de la clase BudgetLawCsvFilesListExtractor.
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UdK9oEquEeeJsdrfgQXeQw"
   */
-  public BudgetFileListExtractor() {
+  public BudgetLawCsvFilesListExtractor() {
     // begin-user-code
     super();
-    this.setSource(Messages.getString("BudgetFileListExtractor.sourceUrl")); //$NON-NLS-1$
-    this.setDestination(
+    setSource(Messages.getString("BudgetFileListExtractor.sourceUrl")); //$NON-NLS-1$
+    setDestination(
         Messages.getString("BudgetFileListExtractor.destinationUrl")); //$NON-NLS-1$
     budgetFileList = new ArrayList<>();
     // end-user-code
@@ -57,24 +58,24 @@ class BudgetFileListExtractor extends ExtractorImpl {
   
   /*
    * (non-Javadoc)
-   * 
+   *
    * @see com.ingenium.goby.extractors.Extractor#extract()
    */
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
   * @throws ExtractionException
-  * @generated "sourceid:platform:/resource/goby-design/budget.efx#_UdMy0EquEeeJsdrfgQXeQw"
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UdMy0EquEeeJsdrfgQXeQw"
   */
   @Override
   public void extract() throws ExtractionException {
     // begin-user-code
-    final File input = new File(this.getSource());
+    final File input = new File(getSource());
     PrintWriter outputStream = null;
     Document doc;
     try {
       outputStream = new PrintWriter(
-          new BufferedWriter(new FileWriter(this.getDestination())));
+          new BufferedWriter(new FileWriter(getDestination())));
       doc = Jsoup.parse(input, "UTF-8");
       final Elements links = doc.select("a[href$=csv]");
       for (Element link : links) {
@@ -99,7 +100,7 @@ class BudgetFileListExtractor extends ExtractorImpl {
   * <!-- end-UML-doc -->
   * @return
   * @throws ExtractionException
-  * @generated "sourceid:platform:/resource/goby-design/budget.efx#_UdQdMEquEeeJsdrfgQXeQw"
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UdQdMEquEeeJsdrfgQXeQw"
   */
   public Collection<String> getBudgetFileList() throws ExtractionException {
     // begin-user-code

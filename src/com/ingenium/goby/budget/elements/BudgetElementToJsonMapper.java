@@ -1,5 +1,5 @@
 
-package com.ingenium.goby.extractors.budget.elements;
+package com.ingenium.goby.budget.elements;
 
 import java.util.Iterator;
 
@@ -8,8 +8,8 @@ import java.util.Iterator;
  * <!-- end-UML-doc -->
  * @author JaimeRodrigo
  * @uml.annotations
- *     derived_abstraction="platform:/resource/goby-design/elements.efx#_tOVToEt-EeeC6_ZX80x4yQ"
- * @generated "sourceid:platform:/resource/goby-design/elements.efx#_tOVToEt-EeeC6_ZX80x4yQ"
+ *     derived_abstraction="platform:/resource/goby-design/goby-classifier-extractor.emx#_tOVToEt-EeeC6_ZX80x4yQ"
+ * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_tOVToEt-EeeC6_ZX80x4yQ"
  */
 public class BudgetElementToJsonMapper {
   
@@ -19,7 +19,7 @@ public class BudgetElementToJsonMapper {
   * @param element
   * @param nestingLevel
   * @return
-  * @generated "sourceid:platform:/resource/goby-design/elements.efx#_tRANIEt-EeeC6_ZX80x4yQ"
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_tRANIEt-EeeC6_ZX80x4yQ"
   */
   public static String map(BudgetElement element, int nestingLevel) {
     // begin-user-code
@@ -110,7 +110,7 @@ public class BudgetElementToJsonMapper {
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
   * Crea una nueva instancia de la clase BudgetElementToJsonMapper.
-  * @generated "sourceid:platform:/resource/goby-design/elements.efx#_tRD3gEt-EeeC6_ZX80x4yQ"
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_tRD3gEt-EeeC6_ZX80x4yQ"
   */
   private BudgetElementToJsonMapper() {
     // begin-user-code

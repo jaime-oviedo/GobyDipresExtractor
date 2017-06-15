@@ -2,9 +2,10 @@
  *
  */
 
-package com.ingenium.goby.extractors.budget;
+package com.ingenium.goby.budget.extraction.download;
 
 import com.ingenium.commons.util.FormattedWebPageDownloader;
+import com.ingenium.goby.budget.Messages;
 import com.ingenium.goby.extractors.ExtractionException;
 import com.ingenium.goby.extractors.ExtractorImpl;
 
@@ -14,19 +15,18 @@ import com.ingenium.goby.extractors.ExtractorImpl;
  * <!-- end-UML-doc -->
  * @author JaimeRodrigo
  * @uml.annotations
- *     derived_abstraction="platform:/resource/goby-design/budget.efx#_UTAVAEquEeeJsdrfgQXeQw"
- * @generated "sourceid:platform:/resource/goby-design/budget.efx#_UTAVAEquEeeJsdrfgQXeQw"
+ *     derived_abstraction="platform:/resource/goby-design/goby-classifier-extractor.emx#_UTAVAEquEeeJsdrfgQXeQw"
+ * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UTAVAEquEeeJsdrfgQXeQw"
  */
-class BudgetWebPageExtractor extends ExtractorImpl {
+public class BudgetLawWebPageDownloader extends ExtractorImpl {
   
   /** 
   * <!-- begin-UML-doc -->
   * Crea&nbsp;una&nbsp;nueva&nbsp;instancia&nbsp;de&nbsp;la&nbsp;clase.
   * <!-- end-UML-doc -->
-  * Crea una nueva instancia de la clase BudgetWebPageExtractor.
-  * @generated "sourceid:platform:/resource/goby-design/budget.efx#_UbF6AEquEeeJsdrfgQXeQw"
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UbF6AEquEeeJsdrfgQXeQw"
   */
-  public BudgetWebPageExtractor() {
+  public BudgetLawWebPageDownloader() {
     // begin-user-code
     super();
     setSource(Messages.getString("BudgetWebPageExtractor.sourceUrl")); //$NON-NLS-1$
@@ -38,7 +38,7 @@ class BudgetWebPageExtractor extends ExtractorImpl {
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
   * @throws ExtractionException
-  * @generated "sourceid:platform:/resource/goby-design/budget.efx#_UbN10EquEeeJsdrfgQXeQw"
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UbN10EquEeeJsdrfgQXeQw"
   */
   @Override
   public void extract() throws ExtractionException {

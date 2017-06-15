@@ -2,7 +2,7 @@
  *
  */
 
-package com.ingenium.goby.extractors.budget;
+package com.ingenium.goby.budget.extraction;
 
 import com.ingenium.goby.extractors.ExtractionException;
 
@@ -18,7 +18,7 @@ public class BudgetLawExtractorTest {
 
   /**
    * Test method for
-   * {@link com.ingenium.goby.extractors.budget.BudgetLawExtractor#extract()}.
+   * {@link com.ingenium.goby.budget.extraction.BudgetLawExtractor#extract()}.
    */
   @Test
   public final void testExtract() {

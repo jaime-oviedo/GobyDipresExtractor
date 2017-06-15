@@ -2,7 +2,7 @@
  * Copyright (c) 2017 Ingenium Software Ltda.
  */
 
-package com.ingenium.goby.extractors.budget.elements;
+package com.ingenium.goby.budget.elements;
 
 import java.math.BigInteger;
 import java.util.Collection;
@@ -17,8 +17,8 @@ import java.util.logging.Logger;
  * <!-- end-UML-doc -->
  * @author JaimeRodrigo
  * @uml.annotations
- *     derived_abstraction="platform:/resource/goby-design/elements.efx#_UaAU4EquEeeJsdrfgQXeQw"
- * @generated "sourceid:platform:/resource/goby-design/elements.efx#_UaAU4EquEeeJsdrfgQXeQw"
+ *     derived_abstraction="platform:/resource/goby-design/goby-classifier-extractor.emx#_UaAU4EquEeeJsdrfgQXeQw"
+ * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UaAU4EquEeeJsdrfgQXeQw"
  */
 public class CompositeBudgetElement extends BudgetElement {
   
@@ -27,44 +27,44 @@ public class CompositeBudgetElement extends BudgetElement {
   * <!-- end-UML-doc -->
   * @author JaimeRodrigo
   * @uml.annotations
-  *     derived_abstraction="platform:/resource/goby-design/elements.efx#_ohbmwFD8EeeDDreW7cLBoA"
-  * @generated "sourceid:platform:/resource/goby-design/elements.efx#_ohbmwFD8EeeDDreW7cLBoA?DATATYPE"
+  *     derived_abstraction="platform:/resource/goby-design/goby-classifier-extractor.emx#_ohbmwFD8EeeDDreW7cLBoA"
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_ohbmwFD8EeeDDreW7cLBoA?DATATYPE"
   */
   public enum ChangeType {
     /** 
     * <!-- begin-UML-doc -->
     * <!-- end-UML-doc -->
-    * @generated "sourceid:platform:/resource/goby-design/elements.efx#_pv92cFD8EeeDDreW7cLBoA"
+    * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_pv92cFD8EeeDDreW7cLBoA"
     */
     INITIAL_BUDGET,
     /** 
     * <!-- begin-UML-doc -->
     * <!-- end-UML-doc -->
-    * @generated "sourceid:platform:/resource/goby-design/elements.efx#_q_0UwFD8EeeDDreW7cLBoA"
+    * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_q_0UwFD8EeeDDreW7cLBoA"
     */
     INITIAL_DOLLAR_BUDGET,
     /** 
     * <!-- begin-UML-doc -->
     * <!-- end-UML-doc -->
-    * @generated "sourceid:platform:/resource/goby-design/elements.efx#_sF82YFD8EeeDDreW7cLBoA"
+    * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_sF82YFD8EeeDDreW7cLBoA"
     */
     ACTUAL_BUDGET,
     /** 
     * <!-- begin-UML-doc -->
     * <!-- end-UML-doc -->
-    * @generated "sourceid:platform:/resource/goby-design/elements.efx#_s9ap4FD8EeeDDreW7cLBoA"
+    * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_s9ap4FD8EeeDDreW7cLBoA"
     */
     ACTUAL_DOLLAR_BUDGET,
     /** 
     * <!-- begin-UML-doc -->
     * <!-- end-UML-doc -->
-    * @generated "sourceid:platform:/resource/goby-design/elements.efx#_uGw3kFD8EeeDDreW7cLBoA"
+    * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_uGw3kFD8EeeDDreW7cLBoA"
     */
     CUMULATIVE_EXECUTION,
     /** 
     * <!-- begin-UML-doc -->
     * <!-- end-UML-doc -->
-    * @generated "sourceid:platform:/resource/goby-design/elements.efx#_voGugFD8EeeDDreW7cLBoA"
+    * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_voGugFD8EeeDDreW7cLBoA"
     */
     CUMULATIVE_DOLLAR_EXECUTION
   }
@@ -72,14 +72,14 @@ public class CompositeBudgetElement extends BudgetElement {
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
-  * @generated "sourceid:platform:/resource/goby-design/elements.efx#_UgPfwEquEeeJsdrfgQXeQw"
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UgPfwEquEeeJsdrfgQXeQw"
   */
   private Map<Integer, BudgetElement> subElements;
   
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
-  * @generated "sourceid:platform:/resource/goby-design/elements.efx#_tegaMFD7EeeDDreW7cLBoA"
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_tegaMFD7EeeDDreW7cLBoA"
   */
   private static final Logger log = Logger
       .getLogger("com.ingenium.goby.extractors.CompositeBudgetElement");
@@ -94,7 +94,7 @@ public class CompositeBudgetElement extends BudgetElement {
   * @param description
   * @param type
   * @param level
-  * @generated "sourceid:platform:/resource/goby-design/elements.efx#_UgRU8EquEeeJsdrfgQXeQw"
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UgRU8EquEeeJsdrfgQXeQw"
   */
   
   public CompositeBudgetElement(int number, String name, String description,
@@ -109,7 +109,7 @@ public class CompositeBudgetElement extends BudgetElement {
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
   * @param subelement
-  * @generated "sourceid:platform:/resource/goby-design/elements.efx#_UgTxMEquEeeJsdrfgQXeQw"
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UgTxMEquEeeJsdrfgQXeQw"
   */
   public void addSubelement(BudgetElement subelement) {
     // begin-user-code
@@ -123,7 +123,7 @@ public class CompositeBudgetElement extends BudgetElement {
   * <!-- end-UML-doc -->
   * @param number
   * @return
-  * @generated "sourceid:platform:/resource/goby-design/elements.efx#_UgU_UEquEeeJsdrfgQXeQw"
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UgU_UEquEeeJsdrfgQXeQw"
   */
   public BudgetElement getSubelement(Integer number) {
     // begin-user-code
@@ -136,7 +136,7 @@ public class CompositeBudgetElement extends BudgetElement {
   * Devuelve&nbsp;el&nbsp;valor&nbsp;del&nbsp;campo&nbsp;subElementos.<br><br>@return&nbsp;el&nbsp;valor&nbsp;del&nbsp;campo&nbsp;subElementos
   * <!-- end-UML-doc -->
   * @return
-  * @generated "sourceid:platform:/resource/goby-design/elements.efx#_UgW0gEquEeeJsdrfgQXeQw"
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UgW0gEquEeeJsdrfgQXeQw"
   */
   public Map<Integer, BudgetElement> getSubelements() {
     // begin-user-code
@@ -149,7 +149,7 @@ public class CompositeBudgetElement extends BudgetElement {
   * Establece&nbsp;el&nbsp;valor&nbsp;del&nbsp;campo&nbsp;subElementos.<br><br>@param&nbsp;clasificadores<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;el&nbsp;valor&nbsp;del&nbsp;campo&nbsp;subElementos
   * <!-- end-UML-doc -->
   * @param budgetElements
-  * @generated "sourceid:platform:/resource/goby-design/elements.efx#_UgZQwEquEeeJsdrfgQXeQw"
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UgZQwEquEeeJsdrfgQXeQw"
   */
   public void setSubelements(Collection<BudgetElement> budgetElements) {
     // begin-user-code
@@ -166,7 +166,7 @@ public class CompositeBudgetElement extends BudgetElement {
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
-  * @generated "sourceid:platform:/resource/goby-design/elements.efx#_YIBkUE1XEeekuqvl4T6tsg"
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_YIBkUE1XEeekuqvl4T6tsg"
   */
   private void recalculate() {
     // begin-user-code
@@ -184,7 +184,7 @@ public class CompositeBudgetElement extends BudgetElement {
   * <!-- end-UML-doc -->
   * @param changeType
   * @return
-  * @generated "sourceid:platform:/resource/goby-design/elements.efx#_xh0CIFD8EeeDDreW7cLBoA"
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_xh0CIFD8EeeDDreW7cLBoA"
   */
   private BigInteger recalculate(ChangeType changeType) {
     // begin-user-code
@@ -250,7 +250,7 @@ public class CompositeBudgetElement extends BudgetElement {
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
   * @param execution
-  * @generated "sourceid:platform:/resource/goby-design/elements.efx#_0K-RMFEGEeeDDreW7cLBoA"
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_0K-RMFEGEeeDDreW7cLBoA"
   */
   @Override
   public void setCumulativeDollarExecution(BigInteger execution) {
@@ -271,7 +271,7 @@ public class CompositeBudgetElement extends BudgetElement {
   * <p>Sets the element's budget as was established in the budgetary law.</p>
   * <!-- end-UML-doc -->
   * @param budget <p>the element's budget as was established in the budgetary law</p>
-  * @generated "sourceid:platform:/resource/goby-design/elements.efx#_XZylUE1XEeekuqvl4T6tsg"
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_XZylUE1XEeekuqvl4T6tsg"
   */
   @Override
   public void setInitialBudget(BigInteger budget) {
@@ -292,7 +292,7 @@ public class CompositeBudgetElement extends BudgetElement {
   * <p>Sets the current budget for the element.</p>
   * <!-- end-UML-doc -->
   * @param budget <p>the new current budget for the element</p>
-  * @generated "sourceid:platform:/resource/goby-design/elements.efx#_XZzMYE1XEeekuqvl4T6tsg"
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_XZzMYE1XEeekuqvl4T6tsg"
   */
   @Override
   public void setActualBudget(BigInteger budget) {
@@ -313,7 +313,7 @@ public class CompositeBudgetElement extends BudgetElement {
   * <p>Sets the amount of the element's budget that has been spent.</p>
   * <!-- end-UML-doc -->
   * @param execution <p>the new amount of the element's budget that has been spent</p>
-  * @generated "sourceid:platform:/resource/goby-design/elements.efx#_XZ0agE1XEeekuqvl4T6tsg"
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_XZ0agE1XEeekuqvl4T6tsg"
   */
   @Override
   public void setCumulativeExecution(BigInteger execution) {
@@ -334,7 +334,7 @@ public class CompositeBudgetElement extends BudgetElement {
   * <p>Sets the current dollar budget for the element.</p>
   * <!-- end-UML-doc -->
   * @param budget <p>Sets the current dollar budget for the element.</p>
-  * @generated "sourceid:platform:/resource/goby-design/elements.efx#_XZ1Bk01XEeekuqvl4T6tsg"
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_XZ1Bk01XEeekuqvl4T6tsg"
   */
   @Override
   public void setActualDollarBudget(BigInteger budget) {
@@ -355,7 +355,7 @@ public class CompositeBudgetElement extends BudgetElement {
   * <p>Sets the element's dollar budget as was established in the budgetary law.</p>
   * <!-- end-UML-doc -->
   * @param budget <p>the element's dollar budget as was established in the budgetary law.</p>
-  * @generated "sourceid:platform:/resource/goby-design/elements.efx#_XZ2PsE1XEeekuqvl4T6tsg"
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_XZ2PsE1XEeekuqvl4T6tsg"
   */
   @Override
   public void setInitialDollarBudget(BigInteger budget) {

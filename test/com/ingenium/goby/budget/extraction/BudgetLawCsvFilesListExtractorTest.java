@@ -2,7 +2,7 @@
  *
  */
 
-package com.ingenium.goby.extractors.budget;
+package com.ingenium.goby.budget.extraction;
 
 import java.io.File;
 
@@ -10,19 +10,18 @@ import org.junit.Assert;
 import org.junit.Test;
 
 /**
- * Pruebas de la clase BudgetFileListExtractorTest.
+ * Pruebas de la clase BudgetLawCsvFilesListExtractorTest.
  *
  * @author JaimeRodrigo
  */
-public class BudgetFileListExtractorTest {
-  
+public class BudgetLawCsvFilesListExtractorTest {
+
   /**
-   * Test method for
-   * {@link com.ingenium.goby.extractors.budget.BudgetFileListExtractor#extract()}.
+   * Test method for {@link com.ingenium.goby.budget.extraction.BudgetFileListExtractor#extract()}.
    */
   @Test
   public void testExtract() {
-    final BudgetFileListExtractor extractor = new BudgetFileListExtractor();
+    final BudgetLawCsvFilesListExtractor extractor = new BudgetLawCsvFilesListExtractor();
     try {
       extractor.extract();
     } catch (final Exception e) {
@@ -33,5 +32,5 @@ public class BudgetFileListExtractorTest {
     final File f = new File(extractor.getDestination());
     Assert.assertTrue(f.exists() && !f.isDirectory());
   }
-  
+
 }

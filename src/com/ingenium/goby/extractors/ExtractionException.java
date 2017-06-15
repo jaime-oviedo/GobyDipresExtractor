@@ -10,8 +10,8 @@ package com.ingenium.goby.extractors;
  * <!-- end-UML-doc -->
  * @author JaimeRodrigo
  * @uml.annotations
- *     derived_abstraction="platform:/resource/goby-design/extractors.efx#_UaL7EEquEeeJsdrfgQXeQw"
- * @generated "sourceid:platform:/resource/goby-design/extractors.efx#_UaL7EEquEeeJsdrfgQXeQw"
+ *     derived_abstraction="platform:/resource/goby-design/goby-classifier-extractor.emx#_UaL7EEquEeeJsdrfgQXeQw"
+ * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UaL7EEquEeeJsdrfgQXeQw"
  */
 public class ExtractionException extends Exception {
   
@@ -19,7 +19,7 @@ public class ExtractionException extends Exception {
   * <!-- begin-UML-doc -->
   * Identificador&nbsp;de&nbsp;serie&nbsp;de&nbsp;la&nbsp;clase.
   * <!-- end-UML-doc -->
-  * @generated "sourceid:platform:/resource/goby-design/extractors.efx#_UgkP4EquEeeJsdrfgQXeQw"
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UgkP4EquEeeJsdrfgQXeQw"
   */
   private static final long serialVersionUID = 1797242167551088990L;
   
@@ -28,7 +28,7 @@ public class ExtractionException extends Exception {
   * Crea&nbsp;una&nbsp;nueva&nbsp;instancia&nbsp;de&nbsp;ExtractionException.
   * <!-- end-UML-doc -->
   * Crea una nueva instancia de la clase ExtractionException.
-  * @generated "sourceid:platform:/resource/goby-design/extractors.efx#_UgmFEEquEeeJsdrfgQXeQw"
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UgmFEEquEeeJsdrfgQXeQw"
   */
   public ExtractionException() {
     // begin-user-code
@@ -42,7 +42,7 @@ public class ExtractionException extends Exception {
   * <!-- end-UML-doc -->
   * Crea una nueva instancia de la clase ExtractionException.
   * @param message
-  * @generated "sourceid:platform:/resource/goby-design/extractors.efx#_UgnTMEquEeeJsdrfgQXeQw"
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UgnTMEquEeeJsdrfgQXeQw"
   */
   public ExtractionException(String message) {
     // begin-user-code

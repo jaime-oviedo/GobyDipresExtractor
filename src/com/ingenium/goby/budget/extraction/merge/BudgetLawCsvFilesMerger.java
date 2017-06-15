@@ -1,16 +1,16 @@
 /**
- * 
+ *
  */
 
-package com.ingenium.goby.extractors.budget;
+package com.ingenium.goby.budget.extraction.merge;
 
+import com.ingenium.goby.budget.elements.BudgetCurrency;
+import com.ingenium.goby.budget.elements.BudgetElement;
+import com.ingenium.goby.budget.elements.BudgetElementType;
+import com.ingenium.goby.budget.elements.BudgetHierarchyLevel;
+import com.ingenium.goby.budget.elements.CompositeBudgetElement;
 import com.ingenium.goby.extractors.ExtractionException;
 import com.ingenium.goby.extractors.ExtractorImpl;
-import com.ingenium.goby.extractors.budget.elements.BudgetCurrency;
-import com.ingenium.goby.extractors.budget.elements.BudgetElement;
-import com.ingenium.goby.extractors.budget.elements.BudgetElementType;
-import com.ingenium.goby.extractors.budget.elements.BudgetHierarchyLevel;
-import com.ingenium.goby.extractors.budget.elements.CompositeBudgetElement;
 import com.opencsv.CSVReader;
 
 import java.io.File;
@@ -31,23 +31,23 @@ import java.util.logging.Logger;
  * <!-- end-UML-doc -->
  * @author JaimeRodrigo
  * @uml.annotations
- *     derived_abstraction="platform:/resource/goby-design/budget.efx#_xiP9AEyIEeekuqvl4T6tsg"
- * @generated "sourceid:platform:/resource/goby-design/budget.efx#_xiP9AEyIEeekuqvl4T6tsg"
+ *     derived_abstraction="platform:/resource/goby-design/goby-classifier-extractor.emx#_xiP9AEyIEeekuqvl4T6tsg"
+ * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_xiP9AEyIEeekuqvl4T6tsg"
  */
-public class BudgetElementsFileMerger extends ExtractorImpl {
+public class BudgetLawCsvFilesMerger extends ExtractorImpl {
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
   * @author JaimeRodrigo
   * @uml.annotations
-  *     derived_abstraction="platform:/resource/goby-design/budget.efx#_6n5lcFETEeeJofrcP_B-sg"
-  * @generated "sourceid:platform:/resource/goby-design/budget.efx#_6n5lcFETEeeJofrcP_B-sg"
+  *     derived_abstraction="platform:/resource/goby-design/goby-classifier-extractor.emx#_6n5lcFETEeeJofrcP_B-sg"
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_6n5lcFETEeeJofrcP_B-sg"
   */
   public class BudgetLine {
     /** 
     * <!-- begin-UML-doc -->
     * <!-- end-UML-doc -->
-    * @generated "sourceid:platform:/resource/goby-design/budget.efx#_8XGSMFETEeeJofrcP_B-sg"
+    * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_8XGSMFETEeeJofrcP_B-sg"
     */
     private String[] lineContents = null;
     
@@ -55,7 +55,7 @@ public class BudgetElementsFileMerger extends ExtractorImpl {
     * <!-- begin-UML-doc -->
     * <!-- end-UML-doc -->
     * @return
-    * @generated "sourceid:platform:/resource/goby-design/budget.efx#_NV3gcFEUEeeJofrcP_B-sg"
+    * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_NV3gcFEUEeeJofrcP_B-sg"
     */
     public String[] getLineContents() {
       // begin-user-code
@@ -68,7 +68,7 @@ public class BudgetElementsFileMerger extends ExtractorImpl {
     * <!-- end-UML-doc -->
     * Crea una nueva instancia de la clase BudgetLine.
     * @param lineContents
-    * @generated "sourceid:platform:/resource/goby-design/budget.efx#_TIPuwFEUEeeJofrcP_B-sg"
+    * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_TIPuwFEUEeeJofrcP_B-sg"
     */
     public BudgetLine(String[] lineContents) {
       // begin-user-code
@@ -80,47 +80,46 @@ public class BudgetElementsFileMerger extends ExtractorImpl {
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
-  * @generated "sourceid:platform:/resource/goby-design/budget.efx#_P727kEyQEeekuqvl4T6tsg"
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_P727kEyQEeekuqvl4T6tsg"
   */
-  private static final Logger log = Logger
-      .getLogger("com.ingenium.goby.extractors.BudgetElementsFileMerger");
+  private static final Logger log = Logger.getLogger(
+      "com.ingenium.goby.budget.extraction.extraction.merge.BudgetLawCsvFilesMerger");
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
-  * @generated "sourceid:platform:/resource/goby-design/budget.efx#_caJBMEyQEeekuqvl4T6tsg"
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_caJBMEyQEeekuqvl4T6tsg"
   */
   private Collection<String> mergedFiles;
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
-  * @generated "sourceid:platform:/resource/goby-design/budget.efx#_gcrCgEyQEeekuqvl4T6tsg"
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_gcrCgEyQEeekuqvl4T6tsg"
   */
   private Collection<String> notMergedFiles;
   
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
-  * @generated "sourceid:platform:/resource/goby-design/budget.efx#_xAZhQEyVEeekuqvl4T6tsg"
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_xAZhQEyVEeekuqvl4T6tsg"
   */
   private final BudgetElementType mergedElementsType;
   
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
-  * @generated "sourceid:platform:/resource/goby-design/budget.efx#_g8otQEyWEeekuqvl4T6tsg"
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_g8otQEyWEeekuqvl4T6tsg"
   */
   private CompositeBudgetElement budgetElementRoot;
   
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
-  * Crea una nueva instancia de la clase BudgetElementsFileMerger.
   * @param sourceDirectory
   * @param outputFile
   * @param mergedElementsType
-  * @generated "sourceid:platform:/resource/goby-design/budget.efx#_PGKRYEyKEeekuqvl4T6tsg"
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_PGKRYEyKEeekuqvl4T6tsg"
   */
-  public BudgetElementsFileMerger(String sourceDirectory, String outputFile,
+  public BudgetLawCsvFilesMerger(String sourceDirectory, String outputFile,
       BudgetElementType mergedElementsType) {
     // begin-user-code
     setSource(sourceDirectory);
@@ -134,17 +133,18 @@ public class BudgetElementsFileMerger extends ExtractorImpl {
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
   * @throws ExtractionException
-  * @generated "sourceid:platform:/resource/goby-design/budget.efx#_BRcu4EyLEeekuqvl4T6tsg"
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_BRcu4EyLEeekuqvl4T6tsg"
   */
   public void merge() throws ExtractionException {
     // begin-user-code
-    String sourcePath = this.getSource();
+    String sourcePath = getSource();
     File dir = new File(sourcePath);
     File[] directoryListing = dir.listFiles();
     
     if (directoryListing == null) {
-      log.severe("The provided source URI does not point to a directory:"
-          + getSource());
+      BudgetLawCsvFilesMerger.log
+          .severe("The provided source URI does not point to a directory:"
+              + getSource());
       throw new ExtractionException(
           ("The provided source URI does not point to a directory:"
               + getSource()));
@@ -180,7 +180,7 @@ public class BudgetElementsFileMerger extends ExtractorImpl {
             BudgetElementType.EXECUTION, BudgetHierarchyLevel.ROOT);
         break;
       default:
-        log.severe(
+        BudgetLawCsvFilesMerger.log.severe(
             "Can't perform the extraction because the elements' type is undefined:"
                 + mergedElementsType.toString());
         throw new ExtractionException(
@@ -197,7 +197,7 @@ public class BudgetElementsFileMerger extends ExtractorImpl {
       try {
         lines = reader.readAll();
       } catch (IOException e) {
-        log.warning("Unable to read file contents");
+        BudgetLawCsvFilesMerger.log.warning("Unable to read file contents");
         notMergedFiles.add(child.getName());
         e.printStackTrace();
         break;
@@ -221,7 +221,7 @@ public class BudgetElementsFileMerger extends ExtractorImpl {
           extractBudgetExecution(bLines);
           break;
         default:
-          log.severe(
+          BudgetLawCsvFilesMerger.log.severe(
               "Can't perform the extraction because the elements' type is undefined:"
                   + mergedElementsType.toString());
           throw new ExtractionException(
@@ -238,7 +238,7 @@ public class BudgetElementsFileMerger extends ExtractorImpl {
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
   * @param lines
-  * @generated "sourceid:platform:/resource/goby-design/budget.efx#_rqSTcFEPEeefZJp_ndvc2g"
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_rqSTcFEPEeefZJp_ndvc2g"
   */
   private void extractBudgetExecution(List<BudgetLine> lines) {
     // begin-user-code
@@ -301,9 +301,9 @@ public class BudgetElementsFileMerger extends ExtractorImpl {
       }
       long initialBudgetLong = initialBudget.longValue();
       long initialDollarBudgetLong = initialDollarBudget.longValue();
-      BudgetCurrency bc = (initialBudgetLong >= 0
-          && initialDollarBudgetLong == 0) ? BudgetCurrency.PESO
-              : (initialBudgetLong == 0 && initialDollarBudgetLong > 0)
+      BudgetCurrency bc = ((initialBudgetLong >= 0)
+          && (initialDollarBudgetLong == 0)) ? BudgetCurrency.PESO
+              : ((initialBudgetLong == 0) && (initialDollarBudgetLong > 0))
                   ? BudgetCurrency.DOLLAR : BudgetCurrency.MIXED;
       
       CompositeBudgetElement batch = (CompositeBudgetElement) budgetElementRoot
@@ -327,7 +327,7 @@ public class BudgetElementsFileMerger extends ExtractorImpl {
         break;
       }
       
-      if (assignmentNumber == 0 && itemNumber != 0) {
+      if ((assignmentNumber == 0) && (itemNumber != 0)) {
         
         BudgetElement item = new BudgetElement(programNumber, name, "",
             mergedElementsType, BudgetHierarchyLevel.ITEM);
@@ -338,7 +338,8 @@ public class BudgetElementsFileMerger extends ExtractorImpl {
         break;
       }
       
-      if (assignmentNumber == 0 && itemNumber == 0 && subtitleNumber != 0) {
+      if ((assignmentNumber == 0) && (itemNumber == 0)
+          && (subtitleNumber != 0)) {
         subtitle.setInitialBudget(initialBudget);
         subtitle.setInitialBudget(initialDollarBudget);
         subtitle.setCurrency(bc);
@@ -349,8 +350,8 @@ public class BudgetElementsFileMerger extends ExtractorImpl {
         budgetElementRoot.addSubelement(new CompositeBudgetElement(batchNumber,
             name, "", mergedElementsType, BudgetHierarchyLevel.BATCH));
       } else {
-        log.warning("Unable to process line:" + line.toString()
-            + " while extracting institutional classifiers.");
+        BudgetLawCsvFilesMerger.log.warning("Unable to process line:"
+            + line.toString() + " while extracting institutional classifiers.");
       }
     }
     
@@ -361,7 +362,7 @@ public class BudgetElementsFileMerger extends ExtractorImpl {
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
   * @param lines
-  * @generated "sourceid:platform:/resource/goby-design/budget.efx#_updEwEylEeekuqvl4T6tsg"
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_updEwEylEeekuqvl4T6tsg"
   */
   private void extractBudgetLaw(List<BudgetLine> lines) {
     // begin-user-code
@@ -374,7 +375,7 @@ public class BudgetElementsFileMerger extends ExtractorImpl {
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
   * @param lines
-  * @generated "sourceid:platform:/resource/goby-design/budget.efx#_uprHMEylEeekuqvl4T6tsg"
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_uprHMEylEeekuqvl4T6tsg"
   */
   private void extractInstitutionalClassifiers(List<BudgetLine> lines) {
     // begin-user-code
@@ -418,7 +419,7 @@ public class BudgetElementsFileMerger extends ExtractorImpl {
         break;
       }
       
-      if (program == 0 && chapter != 0) {
+      if ((program == 0) && (chapter != 0)) {
         CompositeBudgetElement ch = new CompositeBudgetElement(chapter, name,
             description, mergedElementsType, BudgetHierarchyLevel.CHAPTER);
         CompositeBudgetElement b = (CompositeBudgetElement) budgetElementRoot
@@ -432,8 +433,8 @@ public class BudgetElementsFileMerger extends ExtractorImpl {
             new CompositeBudgetElement(batch, name, description,
                 mergedElementsType, BudgetHierarchyLevel.BATCH));
       } else {
-        log.warning("Unable to process line:" + line.toString()
-            + " while extracting institutional classifiers.");
+        BudgetLawCsvFilesMerger.log.warning("Unable to process line:"
+            + line.toString() + " while extracting institutional classifiers.");
       }
     }
     // return institutionalClassifiers.values();
@@ -444,7 +445,7 @@ public class BudgetElementsFileMerger extends ExtractorImpl {
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
   * @param lines
-  * @generated "sourceid:platform:/resource/goby-design/budget.efx#_up5wsEylEeekuqvl4T6tsg"
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_up5wsEylEeekuqvl4T6tsg"
   */
   private void extractBudgetaryClassifiers(List<BudgetLine> lines) {
     // begin-user-code
@@ -487,7 +488,7 @@ public class BudgetElementsFileMerger extends ExtractorImpl {
         break;
       }
       
-      if (assignment == 0 && item != 0) {
+      if ((assignment == 0) && (item != 0)) {
         CompositeBudgetElement it = new CompositeBudgetElement(item, name,
             description, mergedElementsType, BudgetHierarchyLevel.ITEM);
         CompositeBudgetElement st = (CompositeBudgetElement) budgetElementRoot
@@ -501,8 +502,8 @@ public class BudgetElementsFileMerger extends ExtractorImpl {
             new CompositeBudgetElement(subtitle, name, description,
                 mergedElementsType, BudgetHierarchyLevel.SUBTITLE));
       } else {
-        log.warning("Unable to process line:" + line.toString()
-            + " while extracting budgetary classifiers.");
+        BudgetLawCsvFilesMerger.log.warning("Unable to process line:"
+            + line.toString() + " while extracting budgetary classifiers.");
       }
     }
     
@@ -514,7 +515,7 @@ public class BudgetElementsFileMerger extends ExtractorImpl {
   * <!-- end-UML-doc -->
   * @param child
   * @return
-  * @generated "sourceid:platform:/resource/goby-design/budget.efx#_uqIaMEylEeekuqvl4T6tsg"
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_uqIaMEylEeekuqvl4T6tsg"
   */
   private CSVReader getReader(File child) {
     // begin-user-code
@@ -522,7 +523,8 @@ public class BudgetElementsFileMerger extends ExtractorImpl {
     try {
       fi = new FileInputStream(child);
     } catch (FileNotFoundException e) {
-      log.warning("Unable to download file" + child.getName());
+      BudgetLawCsvFilesMerger.log
+          .warning("Unable to download file" + child.getName());
       notMergedFiles.add(child.getName());
       e.printStackTrace();
       return null;
@@ -536,7 +538,7 @@ public class BudgetElementsFileMerger extends ExtractorImpl {
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
   * @return
-  * @generated "sourceid:platform:/resource/goby-design/budget.efx#_j-QS4EyQEeekuqvl4T6tsg"
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_j-QS4EyQEeekuqvl4T6tsg"
   */
   public Collection<String> getMergedFiles() {
     // begin-user-code
@@ -548,7 +550,7 @@ public class BudgetElementsFileMerger extends ExtractorImpl {
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
   * @return
-  * @generated "sourceid:platform:/resource/goby-design/budget.efx#_mJ0ykEyQEeekuqvl4T6tsg"
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_mJ0ykEyQEeekuqvl4T6tsg"
   */
   public Collection<String> getNotMergedFiles() {
     // begin-user-code
@@ -560,7 +562,7 @@ public class BudgetElementsFileMerger extends ExtractorImpl {
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
   * @return
-  * @generated "sourceid:platform:/resource/goby-design/budget.efx#_2sUiQEyVEeekuqvl4T6tsg"
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_2sUiQEyVEeekuqvl4T6tsg"
   */
   public BudgetElementType getMergedElementsType() {
     // begin-user-code
@@ -572,7 +574,7 @@ public class BudgetElementsFileMerger extends ExtractorImpl {
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
   * @throws ExtractionException
-  * @generated "sourceid:platform:/resource/goby-design/budget.efx#_sS95gFEOEeefZJp_ndvc2g"
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_sS95gFEOEeefZJp_ndvc2g"
   */
   @Override
   public void extract() throws ExtractionException {

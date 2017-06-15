@@ -4,26 +4,23 @@
 
 package com.ingenium.goby.budget.elements;
 
-import java.util.ArrayList;
 import java.util.Collection;
-import java.util.Iterator;
 
 /** 
  * <!-- begin-UML-doc -->
- * lase&nbsp;que&nbsp;representa&nbsp;el&nbsp;clasificador&nbsp;de&nbsp;item&nbsp;presupuestario.<br><br><br><br><br>@author&nbsp;JaimeRodrig
+ * <p>Class that represents a budgetary item.<br>@author JaimeRodrigo<br></p>
  * <!-- end-UML-doc -->
- * @author JaimeRodrigo
+ * @author joviedo
  * @uml.annotations
  *     derived_abstraction="platform:/resource/goby-design/goby-classifier-extractor.emx#_UXEVoEquEeeJsdrfgQXeQw"
  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UXEVoEquEeeJsdrfgQXeQw"
  */
 public final class Item extends CompositeBudgetElement {
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * rea&nbsp;una&nbsp;nueva&nbsp;instancia&nbsp;de&nbsp;la&nbsp;clase&nbsp;Item.<br><br><br><br><br>@param&nbsp;numero<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;el&nbsp;valor&nbsp;del&nbsp;campo&nbsp;numero<br><br>@param&nbsp;nombre<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;el&nbsp;valor&nbsp;del&nbsp;campo&nbsp;nombre<br><br>@param&nbsp;descripcion<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;el&nbsp;valor&nbsp;del&nbsp;campo&nbsp;descripcio
   * <!-- end-UML-doc -->
-  * Crea una nueva instancia de la clase Item.
   * @param number
   * @param name
   * @param description
@@ -36,9 +33,10 @@ public final class Item extends CompositeBudgetElement {
     super(number, name, description, type, BudgetHierarchyLevel.ITEM);
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
+  * <p>Adds a new assignment.</p>
   * <!-- end-UML-doc -->
   * @param assignment
   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UbjNAEquEeeJsdrfgQXeQw"
@@ -48,7 +46,7 @@ public final class Item extends CompositeBudgetElement {
     super.addSubelement(assignment);
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -56,12 +54,12 @@ public final class Item extends CompositeBudgetElement {
   * @return
   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UblCMEquEeeJsdrfgQXeQw"
   */
-  public Assignment getAssignment(Integer assignmentNumber) {
+  public Assignment getAssignment(int assignmentNumber) {
     // begin-user-code
     return (Assignment) super.getSubelements().get(assignmentNumber);
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * btiene&nbsp;las&nbsp;asigaciones&nbsp;correspondientes&nbsp;a&nbsp;este&nbsp;item.<br><br><br><br><br>@return&nbsp;las&nbsp;asigaciones&nbsp;correspondientes&nbsp;a&nbsp;este&nbsp;ite
@@ -69,18 +67,13 @@ public final class Item extends CompositeBudgetElement {
   * @return
   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UbnecEquEeeJsdrfgQXeQw"
   */
+  @SuppressWarnings("unchecked")
   public Collection<Assignment> getAssignments() {
     // begin-user-code
-    Iterator<BudgetElement> it = getSubelements().values().iterator();
-    Collection<Assignment> assignments = new ArrayList<>();
-    while (it.hasNext()) {
-      Assignment assignment = (Assignment) it.next();
-      assignments.add(assignment);
-    }
-    return assignments;
+    return (Collection<Assignment>) super.getSubelements().values();
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * stablece&nbsp;las&nbsp;asignaciones&nbsp;para&nbsp;el&nbsp;item.<br><br><br><br><br>@param&nbsp;asignaciones<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;el&nbsp;nuevo&nbsp;conjunto&nbsp;de&nbsp;asignacione
@@ -90,13 +83,8 @@ public final class Item extends CompositeBudgetElement {
   */
   public void setAssignments(Collection<Assignment> assignments) {
     // begin-user-code
-    Collection<BudgetElement> classifiers = new ArrayList<>();
-    Iterator<Assignment> it = assignments.iterator();
-    while (it.hasNext()) {
-      classifiers.add(it.next());
-    }
-    super.setSubelements(classifiers);
+    super.setSubelements(assignments);
     // end-user-code
   }
-  
+
 }

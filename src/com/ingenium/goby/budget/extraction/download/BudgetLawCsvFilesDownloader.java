@@ -13,13 +13,13 @@ import com.ingenium.goby.extractors.ExtractionException;
  * <!-- begin-UML-doc -->
  * <p>This class extracts budget-related files from the Chilean Budget Directorate's website.</p>
  * <!-- end-UML-doc -->
- * @author JaimeRodrigo
+ * @author joviedo
  * @uml.annotations
  *     derived_abstraction="platform:/resource/goby-design/goby-classifier-extractor.emx#_UaW6MEquEeeJsdrfgQXeQw"
  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UaW6MEquEeeJsdrfgQXeQw"
  */
-class BudgetLawCsvFilesDownloader extends ExtractorImpl {
-  
+public class BudgetLawCsvFilesDownloader extends ExtractorImpl {
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -69,12 +69,11 @@ class BudgetLawCsvFilesDownloader extends ExtractorImpl {
   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_CGN5sExJEeeo2IEzB8X7BA"
   */
   private Collection<String> failedFiles;
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <p>Creates a new file extractor that uses parameters obtained from a properties file.</p>
   * <!-- end-UML-doc -->
-  * Crea una nueva instancia de la clase BudgetLawCsvFilesDownloader.
   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_X82S8ExCEeeo2IEzB8X7BA"
   */
   public BudgetLawCsvFilesDownloader() {
@@ -82,12 +81,11 @@ class BudgetLawCsvFilesDownloader extends ExtractorImpl {
     // TODO Auto-generated constructor stub
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <p>Creates a new file extractor that uses the given parameters as a source and destination.</p>
   * <!-- end-UML-doc -->
-  * Crea una nueva instancia de la clase BudgetLawCsvFilesDownloader.
   * @param listSource <p>The location of the file that contains the list of CSVs to be downoladed.</p>
   * @param documentsSource <p>The URL of the files to be downloaded</p>
   * @param destinationFolder <p>the destination folder for the downloaded files</p>
@@ -100,7 +98,7 @@ class BudgetLawCsvFilesDownloader extends ExtractorImpl {
     // TODO Auto-generated constructor stub
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <p>Perform the extraction of the budget files.</p>
@@ -111,10 +109,10 @@ class BudgetLawCsvFilesDownloader extends ExtractorImpl {
   public void extract() throws ExtractionException {
     // begin-user-code
     // TODO Auto-generated method stub
-    
+
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <p>Returns the value of the timestamp usage flag.</p>
@@ -128,7 +126,7 @@ class BudgetLawCsvFilesDownloader extends ExtractorImpl {
     return false;
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <p>Sets the value of the timestamp usage flag.</p>
@@ -139,10 +137,10 @@ class BudgetLawCsvFilesDownloader extends ExtractorImpl {
   public void useTimestamp(boolean flag) {
     // begin-user-code
     // TODO Auto-generated method stub
-    
+
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <p>Returns the URL of the files to be downloaded.</p>
@@ -156,7 +154,7 @@ class BudgetLawCsvFilesDownloader extends ExtractorImpl {
     return null;
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <p>Sets the URL where the files will be stored.</p>
@@ -167,10 +165,10 @@ class BudgetLawCsvFilesDownloader extends ExtractorImpl {
   public void setDocumentsSource(String documentsSource) {
     // begin-user-code
     // TODO Auto-generated method stub
-    
+
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <p>Returns the time stamp used to create the destination directory for the downloaded files.</p>
@@ -184,7 +182,7 @@ class BudgetLawCsvFilesDownloader extends ExtractorImpl {
     return null;
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <p>Returns the list of files that were successfully downloaded by the extraction.</p>
@@ -198,7 +196,7 @@ class BudgetLawCsvFilesDownloader extends ExtractorImpl {
     return null;
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <p>Returns the list of files that could not be downloaded.</p>

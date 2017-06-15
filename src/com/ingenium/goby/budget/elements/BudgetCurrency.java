@@ -6,8 +6,9 @@ package com.ingenium.goby.budget.elements;
 
 /** 
  * <!-- begin-UML-doc -->
+ * <p>Enumeration of all valid currency options</p>
  * <!-- end-UML-doc -->
- * @author JaimeRodrigo
+ * @author joviedo
  * @uml.annotations
  *     derived_abstraction="platform:/resource/goby-design/goby-classifier-extractor.emx#_pXE6AE1GEeekuqvl4T6tsg"
  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_pXE6AE1GEeekuqvl4T6tsg?DATATYPE"

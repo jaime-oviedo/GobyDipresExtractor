@@ -7,10 +7,10 @@ package com.ingenium.goby.budget.extraction;
 import com.ingenium.goby.budget.Messages;
 import com.ingenium.goby.budget.classifier.ClassifiersCatalog;
 import com.ingenium.goby.budget.elements.Assignment;
-import com.ingenium.goby.budget.elements.BudgetElementToJsonMapper;
 import com.ingenium.goby.budget.elements.BudgetElementType;
 import com.ingenium.goby.budget.elements.Item;
 import com.ingenium.goby.budget.elements.Subtitle;
+import com.ingenium.goby.budget.extraction.map.BudgetElementToJsonMapper;
 import com.ingenium.goby.extractors.ExtractionException;
 import com.ingenium.goby.extractors.ExtractorImpl;
 import com.opencsv.CSVReader;
@@ -29,93 +29,69 @@ import java.util.Collection;
 import java.util.Iterator;
 import java.util.logging.Logger;
 
-/**
+/** 
  * <!-- begin-UML-doc -->
- * <p>
- * This class reads a csv file with the budget classifiers' information and generates an equivalent
- * Json file.
- * </p>
- * <p>
- *
- * @author JaimeRodrigo
- *                      </p>
- *                      <!-- end-UML-doc -->
- *
- * @author JaimeRodrigo
- * @uml.annotations derived_abstraction="platform:/resource/goby-design/goby-classifier-extractor.emx#_UXHY8EquEeeJsdrfgQXeQw"
+ * <p>This class reads a csv file with the budget classifiers' information and generates an equivalent Json file.</p><p>@author JaimeRodrigo</p>
+ * <!-- end-UML-doc -->
+ * @author joviedo
+ * @uml.annotations
+ *     derived_abstraction="platform:/resource/goby-design/goby-classifier-extractor.emx#_UXHY8EquEeeJsdrfgQXeQw"
  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UXHY8EquEeeJsdrfgQXeQw"
  */
 public class ClassifiersCatalogExtractor extends ExtractorImpl {
 
-  /**
-   * <!-- begin-UML-doc --> <!-- end-UML-doc -->
-   *
-   * @author JaimeRodrigo
-   * @uml.annotations derived_abstraction="platform:/resource/goby-design/goby-classifier-extractor.emx#_UaQMgEquEeeJsdrfgQXeQw"
-   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UaQMgEquEeeJsdrfgQXeQw"
-   */
+  /** 
+  * <!-- begin-UML-doc -->
+  * <!-- end-UML-doc -->
+  * @author joviedo
+  * @uml.annotations
+  *     derived_abstraction="platform:/resource/goby-design/goby-classifier-extractor.emx#_UaQMgEquEeeJsdrfgQXeQw"
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UaQMgEquEeeJsdrfgQXeQw"
+  */
   private final class PlainBudgetElement {
 
-    /**
-     * <!-- begin-UML-doc --> <!-- end-UML-doc -->
-     *
-     * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UhA70EquEeeJsdrfgQXeQw"
-     */
+    /** 
+    * <!-- begin-UML-doc -->
+    * <!-- end-UML-doc -->
+    * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UhA70EquEeeJsdrfgQXeQw"
+    */
     private final int subtitle;
-    /**
-     * <!-- begin-UML-doc --> <!-- end-UML-doc -->
-     *
-     * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UhCJ8EquEeeJsdrfgQXeQw"
-     */
+    /** 
+    * <!-- begin-UML-doc -->
+    * <!-- end-UML-doc -->
+    * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UhCJ8EquEeeJsdrfgQXeQw"
+    */
     private final int item;
-    /**
-     * <!-- begin-UML-doc --> <!-- end-UML-doc -->
-     *
-     * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UhDYEEquEeeJsdrfgQXeQw"
-     */
+    /** 
+    * <!-- begin-UML-doc -->
+    * <!-- end-UML-doc -->
+    * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UhDYEEquEeeJsdrfgQXeQw"
+    */
     private final int assignment;
-    /**
-     * <!-- begin-UML-doc --> <!-- end-UML-doc -->
-     *
-     * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UhEmMEquEeeJsdrfgQXeQw"
-     */
+    /** 
+    * <!-- begin-UML-doc -->
+    * <!-- end-UML-doc -->
+    * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UhEmMEquEeeJsdrfgQXeQw"
+    */
     private final String name;
-    /**
-     * <!-- begin-UML-doc --> <!-- end-UML-doc -->
-     *
-     * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UhF0UEquEeeJsdrfgQXeQw"
-     */
+    /** 
+    * <!-- begin-UML-doc -->
+    * <!-- end-UML-doc -->
+    * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UhF0UEquEeeJsdrfgQXeQw"
+    */
     private final String description;
 
-    /**
-     * <!-- begin-UML-doc -->
-     * <p>
-     * Creates a new instance of PlainBudgetClassifier.
-     * </p>
-     * <!-- end-UML-doc --> Crea una nueva instancia de la clase PlainBudgetElement.
-     *
-     * @param subtitle
-     *          <p>
-     *          the value of the subtitle field.
-     *          </p>
-     * @param item
-     *          <p>
-     *          the value of the item field.
-     *          </p>
-     * @param assignment
-     *          <p>
-     *          the value of the assignment field.
-     *          </p>
-     * @param name
-     *          <p>
-     *          the value of the name field.
-     *          </p>
-     * @param description
-     *          <p>
-     *          the value of the description field.
-     *          </p>
-     * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UhHpgEquEeeJsdrfgQXeQw"
-     */
+    /** 
+    * <!-- begin-UML-doc -->
+    * <p>Creates a new instance of PlainBudgetClassifier.</p>
+    * <!-- end-UML-doc -->
+    * @param subtitle <p>the value of the subtitle field.</p>
+    * @param item <p>the value of the item field.</p>
+    * @param assignment <p>the value of the assignment field.</p>
+    * @param name <p>the value of the name field.</p>
+    * @param description <p>the value of the description field.</p>
+    * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UhHpgEquEeeJsdrfgQXeQw"
+    */
     public PlainBudgetElement(int subtitle, int item, int assignment,
         String name, String description) {
       // begin-user-code
@@ -128,12 +104,12 @@ public class ClassifiersCatalogExtractor extends ExtractorImpl {
       // end-user-code
     }
 
-    /**
-     * <!-- begin-UML-doc --> <!-- end-UML-doc -->
-     *
-     * @return
-     * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UhKFwEquEeeJsdrfgQXeQw"
-     */
+    /** 
+    * <!-- begin-UML-doc -->
+    * <!-- end-UML-doc -->
+    * @return
+    * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UhKFwEquEeeJsdrfgQXeQw"
+    */
     @Override
     public String toString() {
       // begin-user-code
@@ -146,60 +122,60 @@ public class ClassifiersCatalogExtractor extends ExtractorImpl {
       // end-user-code
     }
 
-    /**
-     * <!-- begin-UML-doc --> <!-- end-UML-doc -->
-     *
-     * @return
-     * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UhT2wEquEeeJsdrfgQXeQw"
-     */
+    /** 
+    * <!-- begin-UML-doc -->
+    * <!-- end-UML-doc -->
+    * @return
+    * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UhT2wEquEeeJsdrfgQXeQw"
+    */
     public int getSubtitle() {
       // begin-user-code
       return subtitle;
       // end-user-code
     }
 
-    /**
-     * <!-- begin-UML-doc --> <!-- end-UML-doc -->
-     *
-     * @return
-     * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UhVr8EquEeeJsdrfgQXeQw"
-     */
+    /** 
+    * <!-- begin-UML-doc -->
+    * <!-- end-UML-doc -->
+    * @return
+    * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UhVr8EquEeeJsdrfgQXeQw"
+    */
     public int getItem() {
       // begin-user-code
       return item;
       // end-user-code
     }
 
-    /**
-     * <!-- begin-UML-doc --> <!-- end-UML-doc -->
-     *
-     * @return
-     * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UhW6EEquEeeJsdrfgQXeQw"
-     */
+    /** 
+    * <!-- begin-UML-doc -->
+    * <!-- end-UML-doc -->
+    * @return
+    * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UhW6EEquEeeJsdrfgQXeQw"
+    */
     public int getAssignment() {
       // begin-user-code
       return assignment;
       // end-user-code
     }
 
-    /**
-     * <!-- begin-UML-doc --> <!-- end-UML-doc -->
-     *
-     * @return
-     * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UhYvQEquEeeJsdrfgQXeQw"
-     */
+    /** 
+    * <!-- begin-UML-doc -->
+    * <!-- end-UML-doc -->
+    * @return
+    * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UhYvQEquEeeJsdrfgQXeQw"
+    */
     public String getName() {
       // begin-user-code
       return name;
       // end-user-code
     }
 
-    /**
-     * <!-- begin-UML-doc --> <!-- end-UML-doc -->
-     *
-     * @return
-     * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UhZ9YEquEeeJsdrfgQXeQw"
-     */
+    /** 
+    * <!-- begin-UML-doc -->
+    * <!-- end-UML-doc -->
+    * @return
+    * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UhZ9YEquEeeJsdrfgQXeQw"
+    */
     public String getDescription() {
       // begin-user-code
       return description;
@@ -207,22 +183,23 @@ public class ClassifiersCatalogExtractor extends ExtractorImpl {
     }
   }
 
-  /**
-   * <!-- begin-UML-doc --> <!-- end-UML-doc -->
-   *
-   * @author JaimeRodrigo
-   * @uml.annotations derived_abstraction="platform:/resource/goby-design/goby-classifier-extractor.emx#_UagrMEquEeeJsdrfgQXeQw"
-   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UagrMEquEeeJsdrfgQXeQw"
-   */
+  /** 
+  * <!-- begin-UML-doc -->
+  * <!-- end-UML-doc -->
+  * @author joviedo
+  * @uml.annotations
+  *     derived_abstraction="platform:/resource/goby-design/goby-classifier-extractor.emx#_UagrMEquEeeJsdrfgQXeQw"
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UagrMEquEeeJsdrfgQXeQw"
+  */
   private static final class BudgetElementsMapper {
 
-    /**
-     * <!-- begin-UML-doc --> <!-- end-UML-doc -->
-     *
-     * @param classifiers
-     * @return
-     * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UiMnkEquEeeJsdrfgQXeQw"
-     */
+    /** 
+    * <!-- begin-UML-doc -->
+    * <!-- end-UML-doc -->
+    * @param classifiers
+    * @return
+    * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UiMnkEquEeeJsdrfgQXeQw"
+    */
     static final ClassifiersCatalog map(
         Collection<PlainBudgetElement> classifiers) {
       // begin-user-code
@@ -256,23 +233,20 @@ public class ClassifiersCatalogExtractor extends ExtractorImpl {
     }
   }
 
-  /**
-   * <!-- begin-UML-doc --> <!-- end-UML-doc -->
-   *
-   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_Uda1QEquEeeJsdrfgQXeQw"
-   */
+  /** 
+  * <!-- begin-UML-doc -->
+  * <!-- end-UML-doc -->
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_Uda1QEquEeeJsdrfgQXeQw"
+  */
   private static final Logger log = Logger
       .getLogger("com.ingenium.goby.extractors.BudgetElementsExtractor");
 
-  /**
-   * <!-- begin-UML-doc -->
-   * <p>
-   * Creates a new instance of a BudgetElementExtractor.
-   * </p>
-   * <!-- end-UML-doc --> Crea una nueva instancia de la clase ClassifiersCatalogExtractor.
-   *
-   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UdnpkEquEeeJsdrfgQXeQw"
-   */
+  /** 
+  * <!-- begin-UML-doc -->
+  * <p>Creates a new instance of a BudgetElementExtractor.</p>
+  * <!-- end-UML-doc -->
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UdnpkEquEeeJsdrfgQXeQw"
+  */
   public ClassifiersCatalogExtractor() {
     // begin-user-code
     super();
@@ -287,12 +261,12 @@ public class ClassifiersCatalogExtractor extends ExtractorImpl {
    *
    * @see com.ingenium.goby.extractors.Extractor#extract()
    */
-  /**
-   * <!-- begin-UML-doc --> <!-- end-UML-doc -->
-   *
-   * @throws ExtractionException
-   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UdpewEquEeeJsdrfgQXeQw"
-   */
+  /** 
+  * <!-- begin-UML-doc -->
+  * <!-- end-UML-doc -->
+  * @throws ExtractionException
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UdpewEquEeeJsdrfgQXeQw"
+  */
   @Override
   public void extract() throws ExtractionException {
     // begin-user-code
@@ -316,17 +290,14 @@ public class ClassifiersCatalogExtractor extends ExtractorImpl {
     // end-user-code
   }
 
-  /**
-   * <!-- begin-UML-doc -->
-   * <p>
-   * Extracts the budget elements in a collection of plain objects.
-   * </p>
-   * <!-- end-UML-doc -->
-   *
-   * @return
-   * @throws ExtractionException
-   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UdrT8EquEeeJsdrfgQXeQw"
-   */
+  /** 
+  * <!-- begin-UML-doc -->
+  * <p>Extracts the budget elements in a collection of plain objects.</p>
+  * <!-- end-UML-doc -->
+  * @return
+  * @throws ExtractionException
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UdrT8EquEeeJsdrfgQXeQw"
+  */
 
   ClassifiersCatalog extractClassifierCatalog() throws ExtractionException {
     // begin-user-code
@@ -411,40 +382,14 @@ public class ClassifiersCatalogExtractor extends ExtractorImpl {
     // end-user-code
   }
 
-  /**
-   * <!-- begin-UML-doc -->
-   * btiene&nbsp;un&nbsp;CVSReader&nbsp;apuntando&nbsp;al&nbsp;archivo&nbsp;de&nbsp;origen&nbsp;detallado&nbsp;en&nbsp;el<br>
-   * <br>
-   * archivo<br>
-   * <br>
-   * <br>
-   * <br>
-   * extractor.properties<br>
-   * <br>
-   * <br>
-   * <br>
-   * <br>
-   * <br>
-   * <br>
-   * <br>
-   * <br>
-   * <br>
-   * @return&nbsp;el&nbsp;reader<br>
-   *                                 <br>
-   *                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
-   *                                 <br>
-   * @throws&nbsp;ExtractionException<br>
-   *                                        <br>
-   *                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>
-   *                                        <br>
-   *                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;en&nbsp;caso&nbsp;de&nbsp;que&nbsp;no&nbsp;pueda&nbsp;obtenerse&nbsp;el&nbsp;handler&nbsp;al&nbsp;reade<br>
-   *                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-   *                                        <!-- end-UML-doc -->
-   *
-   * @return
-   * @throws ExtractionException
-   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_Udz20EquEeeJsdrfgQXeQw"
-   */
+  /** 
+  * <!-- begin-UML-doc -->
+  * btiene&nbsp;un&nbsp;CVSReader&nbsp;apuntando&nbsp;al&nbsp;archivo&nbsp;de&nbsp;origen&nbsp;detallado&nbsp;en&nbsp;el<br><br>archivo<br><br><br><br>extractor.properties<br><br><br><br><br><br><br><br><br><br>@return&nbsp;el&nbsp;reader<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><br>@throws&nbsp;ExtractionException<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;en&nbsp;caso&nbsp;de&nbsp;que&nbsp;no&nbsp;pueda&nbsp;obtenerse&nbsp;el&nbsp;handler&nbsp;al&nbsp;reade<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  * <!-- end-UML-doc -->
+  * @return
+  * @throws ExtractionException
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_Udz20EquEeeJsdrfgQXeQw"
+  */
   private CSVReader getReader() throws ExtractionException {
     // begin-user-code
     FileInputStream fi;

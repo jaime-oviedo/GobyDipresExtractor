@@ -13,13 +13,13 @@ import java.util.Collection;
  * <!-- begin-UML-doc -->
  * <p>Represents a hierarchical catalog of budget elements.</p>
  * <!-- end-UML-doc -->
- * @author JaimeRodrigo
+ * @author joviedo
  * @uml.annotations
  *     derived_abstraction="platform:/resource/goby-design/goby-classifier-extractor.emx#_UXJ1MEquEeeJsdrfgQXeQw"
  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UXJ1MEquEeeJsdrfgQXeQw"
  */
 public class ClassifiersCatalog {
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <p>Program element used to hold the elements of the catalog.</p>
@@ -27,12 +27,11 @@ public class ClassifiersCatalog {
   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_Ud4vUEquEeeJsdrfgQXeQw"
   */
   private Program root;
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <p>Creates a new BudgetElementsCatalog.</p>
   * <!-- end-UML-doc -->
-  * Crea una nueva instancia de la clase ClassifiersCatalog.
   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_Ud6kgEquEeeJsdrfgQXeQw"
   */
   public ClassifiersCatalog() {
@@ -42,7 +41,7 @@ public class ClassifiersCatalog {
         BudgetElementType.BUDGETARY_CLASSIFICATION);
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <p>Adds a subtitle to the catalog.</p>
@@ -55,7 +54,7 @@ public class ClassifiersCatalog {
     root.addSubtitle(subtitle);
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <p>Adds an item to the catalog within the provided subtitle.</p>
@@ -66,13 +65,13 @@ public class ClassifiersCatalog {
   */
   public void addItem(Integer subtitleNumber, Item item) {
     // begin-user-code
-    Subtitle s = root.getSubtitulo(subtitleNumber);
+    Subtitle s = root.getSubtitle(subtitleNumber);
     if (s != null) {
       s.addItem(item);
     }
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <p>Adds an assignment to the catalog within the provided subtitle and item.</p>
@@ -85,7 +84,7 @@ public class ClassifiersCatalog {
   public void addAssignment(Integer subtitleNumber, Integer itemNumber,
       Assignment assignment) {
     // begin-user-code
-    Subtitle s = root.getSubtitulo(subtitleNumber);
+    Subtitle s = root.getSubtitle(subtitleNumber);
     if (s != null) {
       Item item = s.getItem(itemNumber);
       if (item != null) {
@@ -94,7 +93,7 @@ public class ClassifiersCatalog {
     }
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <p>Returns the subtitle identified by the provided number.</p>
@@ -105,10 +104,10 @@ public class ClassifiersCatalog {
   */
   public Subtitle getSubtitle(Integer numero) {
     // begin-user-code
-    return root.getSubtitulo(numero);
+    return root.getSubtitle(numero);
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <p>Returns the special program that holds the catalog's elements.</p>
@@ -121,7 +120,7 @@ public class ClassifiersCatalog {
     return root;
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <p>Sets the special program</p>
@@ -134,7 +133,7 @@ public class ClassifiersCatalog {
     root = program;
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <p>Gets all the subtitles in the catalog.</p>
@@ -147,5 +146,5 @@ public class ClassifiersCatalog {
     return root.getSubtitles();
     // end-user-code
   }
-  
+
 }

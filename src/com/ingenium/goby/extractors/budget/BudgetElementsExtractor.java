@@ -32,23 +32,23 @@ import java.util.logging.Logger;
  * <!-- begin-UML-doc -->
  * <p>This class reads a csv file with the budget classifiers' information and generates an equivalent Json file.</p><p>@author JaimeRodrigo</p>
  * <!-- end-UML-doc -->
- * @author joviedo
+ * @author JaimeRodrigo
  * @uml.annotations
  *     derived_abstraction="platform:/resource/goby-design/budget.efx#_UXHY8EquEeeJsdrfgQXeQw"
  * @generated "sourceid:platform:/resource/goby-design/budget.efx#_UXHY8EquEeeJsdrfgQXeQw"
  */
 public class BudgetElementsExtractor extends ExtractorImpl {
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
-  * @author joviedo
+  * @author JaimeRodrigo
   * @uml.annotations
   *     derived_abstraction="platform:/resource/goby-design/budget.efx#_UaQMgEquEeeJsdrfgQXeQw"
   * @generated "sourceid:platform:/resource/goby-design/budget.efx#_UaQMgEquEeeJsdrfgQXeQw"
   */
   private final class PlainBudgetElement {
-
+    
     /** 
     * <!-- begin-UML-doc -->
     * <!-- end-UML-doc -->
@@ -79,11 +79,12 @@ public class BudgetElementsExtractor extends ExtractorImpl {
     * @generated "sourceid:platform:/resource/goby-design/budget.efx#_UhF0UEquEeeJsdrfgQXeQw"
     */
     private final String description;
-
+    
     /** 
     * <!-- begin-UML-doc -->
     * <p>Creates a new instance of PlainBudgetClassifier.</p>
     * <!-- end-UML-doc -->
+    * Crea una nueva instancia de la clase PlainBudgetElement.
     * @param subtitle <p>the value of the subtitle field.</p>
     * @param item <p>the value of the item field.</p>
     * @param assignment <p>the value of the assignment field.</p>
@@ -102,7 +103,7 @@ public class BudgetElementsExtractor extends ExtractorImpl {
       this.description = description;
       // end-user-code
     }
-
+    
     /** 
     * <!-- begin-UML-doc -->
     * <!-- end-UML-doc -->
@@ -120,7 +121,7 @@ public class BudgetElementsExtractor extends ExtractorImpl {
       return sb.toString();
       // end-user-code
     }
-
+    
     /** 
     * <!-- begin-UML-doc -->
     * <!-- end-UML-doc -->
@@ -132,7 +133,7 @@ public class BudgetElementsExtractor extends ExtractorImpl {
       return subtitle;
       // end-user-code
     }
-
+    
     /** 
     * <!-- begin-UML-doc -->
     * <!-- end-UML-doc -->
@@ -144,7 +145,7 @@ public class BudgetElementsExtractor extends ExtractorImpl {
       return item;
       // end-user-code
     }
-
+    
     /** 
     * <!-- begin-UML-doc -->
     * <!-- end-UML-doc -->
@@ -156,7 +157,7 @@ public class BudgetElementsExtractor extends ExtractorImpl {
       return assignment;
       // end-user-code
     }
-
+    
     /** 
     * <!-- begin-UML-doc -->
     * <!-- end-UML-doc -->
@@ -168,7 +169,7 @@ public class BudgetElementsExtractor extends ExtractorImpl {
       return name;
       // end-user-code
     }
-
+    
     /** 
     * <!-- begin-UML-doc -->
     * <!-- end-UML-doc -->
@@ -181,17 +182,17 @@ public class BudgetElementsExtractor extends ExtractorImpl {
       // end-user-code
     }
   }
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
-  * @author joviedo
+  * @author JaimeRodrigo
   * @uml.annotations
   *     derived_abstraction="platform:/resource/goby-design/budget.efx#_UagrMEquEeeJsdrfgQXeQw"
   * @generated "sourceid:platform:/resource/goby-design/budget.efx#_UagrMEquEeeJsdrfgQXeQw"
   */
   private static final class BudgetElementsMapper {
-
+    
     /** 
     * <!-- begin-UML-doc -->
     * <!-- end-UML-doc -->
@@ -231,7 +232,7 @@ public class BudgetElementsExtractor extends ExtractorImpl {
       // end-user-code
     }
   }
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -239,11 +240,12 @@ public class BudgetElementsExtractor extends ExtractorImpl {
   */
   private static final Logger log = Logger
       .getLogger("com.ingenium.goby.extractors.BudgetElementsExtractor");
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <p>Creates a new instance of a BudgetElementExtractor.</p>
   * <!-- end-UML-doc -->
+  * Crea una nueva instancia de la clase BudgetElementsExtractor.
   * @generated "sourceid:platform:/resource/goby-design/budget.efx#_UdnpkEquEeeJsdrfgQXeQw"
   */
   public BudgetElementsExtractor() {
@@ -254,7 +256,7 @@ public class BudgetElementsExtractor extends ExtractorImpl {
         Messages.getString("BudgetElementsExtractor.destinationUrl")); //$NON-NLS-1$
     // end-user-code
   }
-
+  
   /*
    * (non-Javadoc)
    * 
@@ -273,7 +275,7 @@ public class BudgetElementsExtractor extends ExtractorImpl {
     String mappedCatalog = BudgetElementToJsonMapper.map(ccp.getProgram(), 0);
     File file = new File(this.getDestination());
     file.getParentFile().mkdirs();
-
+    
     PrintWriter outputStream = null;
     try {
       outputStream = new PrintWriter(new BufferedWriter(new FileWriter(file)));
@@ -288,7 +290,7 @@ public class BudgetElementsExtractor extends ExtractorImpl {
     }
     // end-user-code
   }
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <p>Extracts the budget elements in a collection of plain objects.</p>
@@ -297,12 +299,12 @@ public class BudgetElementsExtractor extends ExtractorImpl {
   * @throws ExtractionException
   * @generated "sourceid:platform:/resource/goby-design/budget.efx#_UdrT8EquEeeJsdrfgQXeQw"
   */
-
+  
   BudgetElementsCatalog extractElements() throws ExtractionException {
     // begin-user-code
-
+    
     CSVReader reader = getReader();
-
+    
     BudgetElementsExtractor.log.fine("Comenzando la extracción");
     Collection<PlainBudgetElement> budgetElements = new ArrayList<>();
     String[] line;
@@ -317,7 +319,7 @@ public class BudgetElementsExtractor extends ExtractorImpl {
           index++;
         }
         int subtitle = 0;
-
+        
         String s = elements.get(0);
         try {
           if (s != null) {
@@ -327,7 +329,7 @@ public class BudgetElementsExtractor extends ExtractorImpl {
           throw new ExtractionException(
               "No es posible extraer el número de subtitle");
         }
-
+        
         int item = 0;
         s = elements.get(1);
         if (s != null) {
@@ -340,7 +342,7 @@ public class BudgetElementsExtractor extends ExtractorImpl {
         } else {
           item = 0;
         }
-
+        
         int assignment = 0;
         s = elements.get(2);
         if (s != null) {
@@ -351,7 +353,7 @@ public class BudgetElementsExtractor extends ExtractorImpl {
                 .finest("No se pudo obtener un número de asignación");
           }
         }
-
+        
         String name;
         s = elements.get(3);
         if (s != null) {
@@ -368,7 +370,7 @@ public class BudgetElementsExtractor extends ExtractorImpl {
         } else {
           description = "";
         }
-
+        
         PlainBudgetElement c = new PlainBudgetElement(subtitle, item,
             assignment, name, description);
         budgetElements.add(c);
@@ -380,7 +382,7 @@ public class BudgetElementsExtractor extends ExtractorImpl {
     return BudgetElementsMapper.map(budgetElements);
     // end-user-code
   }
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * btiene&nbsp;un&nbsp;CVSReader&nbsp;apuntando&nbsp;al&nbsp;archivo&nbsp;de&nbsp;origen&nbsp;detallado&nbsp;en&nbsp;el<br><br>archivo<br><br><br><br>extractor.properties<br><br><br><br><br><br><br><br><br><br>@return&nbsp;el&nbsp;reader<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><br>@throws&nbsp;ExtractionException<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;en&nbsp;caso&nbsp;de&nbsp;que&nbsp;no&nbsp;pueda&nbsp;obtenerse&nbsp;el&nbsp;handler&nbsp;al&nbsp;reade<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -415,5 +417,5 @@ public class BudgetElementsExtractor extends ExtractorImpl {
     return reader;
     // end-user-code
   }
-
+  
 }

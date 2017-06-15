@@ -7,7 +7,7 @@ package com.ingenium.goby.extractors;
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
- * @author joviedo
+ * @author JaimeRodrigo
  * @uml.annotations
  *     derived_abstraction="platform:/resource/goby-design/extractors.efx#_REJYAEuNEeeV1tNCHYSKhw"
  * @generated "sourceid:platform:/resource/goby-design/extractors.efx#_REJYAEuNEeeV1tNCHYSKhw"
@@ -25,7 +25,7 @@ public abstract class ExtractorImpl implements Extractor {
   * @generated "sourceid:platform:/resource/goby-design/extractors.efx#_f-tS0EuNEeeV1tNCHYSKhw"
   */
   private String destination;
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <p>Sets the location of the destination file.</p>
@@ -39,7 +39,7 @@ public abstract class ExtractorImpl implements Extractor {
     this.destination = destination;
     // end-user-code
   }
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <p>Sets the location of the source file.</p>
@@ -53,7 +53,7 @@ public abstract class ExtractorImpl implements Extractor {
     this.source = source;
     // end-user-code
   }
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <p>Gets the location of the destination file.</p>
@@ -67,7 +67,7 @@ public abstract class ExtractorImpl implements Extractor {
     return destination;
     // end-user-code
   }
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <p>Gets the location of the source file.</p>

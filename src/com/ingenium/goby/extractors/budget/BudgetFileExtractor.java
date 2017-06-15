@@ -24,13 +24,13 @@ import java.util.logging.Logger;
  * <!-- begin-UML-doc -->
  * <p>This class extracts budget-related files from the Chilean Budget Directorate's website.</p>
  * <!-- end-UML-doc -->
- * @author joviedo
+ * @author JaimeRodrigo
  * @uml.annotations
  *     derived_abstraction="platform:/resource/goby-design/budget.efx#_UaW6MEquEeeJsdrfgQXeQw"
  * @generated "sourceid:platform:/resource/goby-design/budget.efx#_UaW6MEquEeeJsdrfgQXeQw"
  */
 class BudgetFileExtractor extends ExtractorImpl {
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -38,7 +38,7 @@ class BudgetFileExtractor extends ExtractorImpl {
   */
   private static final Logger log = Logger.getLogger(
       "com.ingenium.goby.extractors.dipres.BudgetFileExtractorLogger");
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <p>The URL where the files are stored.</p>
@@ -46,7 +46,7 @@ class BudgetFileExtractor extends ExtractorImpl {
   * @generated "sourceid:platform:/resource/goby-design/budget.efx#_UhrqMEquEeeJsdrfgQXeQw"
   */
   private String documentsSource;
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <p>A list of strings holding the name of the files to be downloaded.</p>
@@ -54,7 +54,7 @@ class BudgetFileExtractor extends ExtractorImpl {
   * @generated "sourceid:platform:/resource/goby-design/budget.efx#_Uhv7oEquEeeJsdrfgQXeQw"
   */
   private Collection<String> budgetFileList;
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <p>This flag indicates if a timestamp will be added to the base destination directory for each download batch.</p>
@@ -62,7 +62,7 @@ class BudgetFileExtractor extends ExtractorImpl {
   * @generated "sourceid:platform:/resource/goby-design/budget.efx#_ZoXkIExDEeeo2IEzB8X7BA"
   */
   private boolean useTimestamp = new Boolean(true);
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <p>A time stamp used to create the destination directory for the downloaded files.</p>
@@ -70,7 +70,7 @@ class BudgetFileExtractor extends ExtractorImpl {
   * @generated "sourceid:platform:/resource/goby-design/budget.efx#_yNL2YExGEeeo2IEzB8X7BA"
   */
   private String tstamp;
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <p>A list of files that were successfully downloaded by the extraction.</p>
@@ -78,7 +78,7 @@ class BudgetFileExtractor extends ExtractorImpl {
   * @generated "sourceid:platform:/resource/goby-design/budget.efx#_qxM7EExIEeeo2IEzB8X7BA"
   */
   private Collection<String> downloadedFiles;
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <p>A list of files that could not be downloaded.</p>
@@ -86,11 +86,12 @@ class BudgetFileExtractor extends ExtractorImpl {
   * @generated "sourceid:platform:/resource/goby-design/budget.efx#_CGN5sExJEeeo2IEzB8X7BA"
   */
   private Collection<String> failedFiles;
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <p>Creates a new file extractor that uses parameters obtained from a properties file.</p>
   * <!-- end-UML-doc -->
+  * Crea una nueva instancia de la clase BudgetFileExtractor.
   * @generated "sourceid:platform:/resource/goby-design/budget.efx#_X82S8ExCEeeo2IEzB8X7BA"
   */
   public BudgetFileExtractor() {
@@ -104,11 +105,12 @@ class BudgetFileExtractor extends ExtractorImpl {
     failedFiles = new ArrayList<>();
     // end-user-code
   }
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <p>Creates a new file extractor that uses the given parameters as a source and destination.</p>
   * <!-- end-UML-doc -->
+  * Crea una nueva instancia de la clase BudgetFileExtractor.
   * @param listSource <p>The location of the file that contains the list of CSVs to be downoladed.</p>
   * @param documentsSource <p>The URL of the files to be downloaded</p>
   * @param destinationFolder <p>the destination folder for the downloaded files</p>
@@ -128,7 +130,7 @@ class BudgetFileExtractor extends ExtractorImpl {
     failedFiles = new ArrayList<>();
     // end-user-code
   }
-
+  
   /*
    * (non-Javadoc)
    * 
@@ -144,7 +146,7 @@ class BudgetFileExtractor extends ExtractorImpl {
   @Override
   public void extract() throws ExtractionException {
     // begin-user-code
-
+    
     FileReader extractionListReader = null;
     try {
       extractionListReader = new FileReader(getSource());
@@ -152,13 +154,13 @@ class BudgetFileExtractor extends ExtractorImpl {
       throw (new ExtractionException(
           "No se encontró el archivo con la lista de documentos a descargar"));
     }
-
+    
     // Se encontró el archivo de lista de descarga
-
+    
     BufferedReader extractionListFileStream = new BufferedReader(
         extractionListReader);
     String l;
-
+    
     // Primero se extrae la lista de csvs a descargar
     try {
       while ((l = extractionListFileStream.readLine()) != null) {
@@ -178,9 +180,9 @@ class BudgetFileExtractor extends ExtractorImpl {
         }
       }
     }
-
+    
     // Se genera un directorio asociado al timestamp de descarga
-
+    
     if (useTimestamp) {
       String baseDestination = getDestination();
       this.tstamp = new SimpleDateFormat("yyyy-MM-dd_HH-mm").format(new Date());
@@ -191,11 +193,11 @@ class BudgetFileExtractor extends ExtractorImpl {
     BudgetFileExtractor.log
         .finest("Generando directorio:" + extractionDestination);
     destinationDirectory.mkdirs();
-
+    
     // Ahora se descargan los documentos uno a uno
     SimpleFileDownloader downloader = new SimpleFileDownloader();
     Iterator<String> i = budgetFileList.iterator();
-
+    
     downloadedFiles = new ArrayList<>();
     failedFiles = new ArrayList<>();
     while (i.hasNext()) {
@@ -220,7 +222,7 @@ class BudgetFileExtractor extends ExtractorImpl {
     }
     // end-user-code
   }
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <p>Returns the value of the timestamp usage flag.</p>
@@ -233,7 +235,7 @@ class BudgetFileExtractor extends ExtractorImpl {
     return this.useTimestamp;
     // end-user-code
   }
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <p>Sets the value of the timestamp usage flag.</p>
@@ -244,10 +246,10 @@ class BudgetFileExtractor extends ExtractorImpl {
   public void useTimestamp(boolean flag) {
     // begin-user-code
     this.useTimestamp = flag;
-
+    
     // end-user-code
   }
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <p>Returns the URL of the files to be downloaded.</p>
@@ -258,10 +260,10 @@ class BudgetFileExtractor extends ExtractorImpl {
   public String getDocumentsSource() {
     // begin-user-code
     return documentsSource;
-
+    
     // end-user-code
   }
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <p>Sets the URL where the files will be stored.</p>
@@ -272,10 +274,10 @@ class BudgetFileExtractor extends ExtractorImpl {
   public void setDocumentsSource(String documentsSource) {
     // begin-user-code
     this.documentsSource = documentsSource;
-
+    
     // end-user-code
   }
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <p>Returns the time stamp used to create the destination directory for the downloaded files.</p>
@@ -286,10 +288,10 @@ class BudgetFileExtractor extends ExtractorImpl {
   public String getTimestamp() {
     // begin-user-code
     return tstamp;
-
+    
     // end-user-code
   }
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <p>Returns the list of files that were successfully downloaded by the extraction.</p>
@@ -302,7 +304,7 @@ class BudgetFileExtractor extends ExtractorImpl {
     return downloadedFiles;
     // end-user-code
   }
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <p>Returns the list of files that could not be downloaded.</p>
@@ -315,5 +317,5 @@ class BudgetFileExtractor extends ExtractorImpl {
     return failedFiles;
     // end-user-code
   }
-
+  
 }

@@ -17,7 +17,7 @@ import org.junit.Test;
  *
  * @author JaimeRodrigo
  */
-public class ClasificadorPresupuestarioExtractorTest {
+public class ClassifiersCatalogExtractorTest {
 
   /**
    * Tests the correct extraction of a json budget classifier catalog from a csv.

@@ -4,6 +4,7 @@
 
 package com.ingenium.goby.budget.extraction;
 
+import com.ingenium.goby.budget.extraction.download.BudgetLawCsvFilesDownloader;
 import com.ingenium.goby.extractors.ExtractionException;
 
 import org.junit.Assert;

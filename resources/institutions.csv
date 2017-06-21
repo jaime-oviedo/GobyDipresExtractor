@@ -190,7 +190,7 @@
 9;3;0;Agencia de Calidad de la Educación
 9;3;1;Agencia de Calidad de la Educación
 9;4;0;Subsecretaría de Educación Parvularia
-9;5;1;Subsecretaría de Educación Parvularia
+9;4;1;Subsecretaría de Educación Parvularia
 9;5;0;Dirección de Bibliotecas, Archivos y Museos
 9;5;1;Dirección de Bibliotecas, Archivos y Museos
 9;5;2;Red de Bibliotecas Públicas
@@ -552,12 +552,12 @@
 50;0;0; Tesoro Público
 50;1;0;Fisco
 50;1;1;Ingresos Generales de la Nación
-50;2;2;Subsidios
-50;3;3;Operaciones Complementarias
-50;4;4;Servicio de la Deuda Pública
-50;5;5;Aporte Fiscal Libre
-50;6;6;Fondo de Reserva de Pensiones
-50;7;7;Fondo de Estabilización Económica y Social
-50;8;8;Fondo para la Educación
-50;9;9;Fondo de Apoyo Regional
-50;10;10;Fondo para Diagnósticos y Tratamientos de Alto Costo
+50;1;2;Subsidios
+50;1;3;Operaciones Complementarias
+50;1;4;Servicio de la Deuda Pública
+50;1;5;Aporte Fiscal Libre
+50;1;6;Fondo de Reserva de Pensiones
+50;1;7;Fondo de Estabilización Económica y Social
+50;1;8;Fondo para la Educación
+50;1;9;Fondo de Apoyo Regional
+50;1;10;Fondo para Diagnósticos y Tratamientos de Alto Costo

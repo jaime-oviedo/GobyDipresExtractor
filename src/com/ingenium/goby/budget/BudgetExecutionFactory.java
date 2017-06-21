@@ -7,7 +7,7 @@ package com.ingenium.goby.budget;
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
- * @author JaimeRodrigo
+ * @author joviedo
  * @uml.annotations
  *     derived_abstraction="platform:/resource/goby-design/goby-classifier-extractor.emx#_N4VqkFH0Eee-AoOzRlyylA"
  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_N4VqkFH0Eee-AoOzRlyylA"

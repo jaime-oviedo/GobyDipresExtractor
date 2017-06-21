@@ -29,7 +29,7 @@ import java.util.logging.Logger;
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
- * @author JaimeRodrigo
+ * @author joviedo
  * @uml.annotations
  *     derived_abstraction="platform:/resource/goby-design/goby-classifier-extractor.emx#_xiP9AEyIEeekuqvl4T6tsg"
  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_xiP9AEyIEeekuqvl4T6tsg"
@@ -38,7 +38,7 @@ public class BudgetLawCsvFilesMerger extends DownloaderImpl {
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
-  * @author JaimeRodrigo
+  * @author joviedo
   * @uml.annotations
   *     derived_abstraction="platform:/resource/goby-design/goby-classifier-extractor.emx#_6n5lcFETEeeJofrcP_B-sg"
   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_6n5lcFETEeeJofrcP_B-sg"
@@ -50,7 +50,7 @@ public class BudgetLawCsvFilesMerger extends DownloaderImpl {
     * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_8XGSMFETEeeJofrcP_B-sg"
     */
     private String[] lineContents = null;
-    
+
     /** 
     * <!-- begin-UML-doc -->
     * <!-- end-UML-doc -->
@@ -62,11 +62,10 @@ public class BudgetLawCsvFilesMerger extends DownloaderImpl {
       return lineContents;
       // end-user-code
     }
-    
+
     /** 
     * <!-- begin-UML-doc -->
     * <!-- end-UML-doc -->
-    * Crea una nueva instancia de la clase BudgetLine.
     * @param lineContents
     * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_TIPuwFEUEeeJofrcP_B-sg"
     */
@@ -76,7 +75,7 @@ public class BudgetLawCsvFilesMerger extends DownloaderImpl {
       // end-user-code
     }
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -96,21 +95,21 @@ public class BudgetLawCsvFilesMerger extends DownloaderImpl {
   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_gcrCgEyQEeekuqvl4T6tsg"
   */
   private Collection<String> notMergedFiles;
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_xAZhQEyVEeekuqvl4T6tsg"
   */
   private final BudgetElementType mergedElementsType;
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_g8otQEyWEeekuqvl4T6tsg"
   */
   private CompositeBudgetElement budgetElementRoot;
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -128,7 +127,7 @@ public class BudgetLawCsvFilesMerger extends DownloaderImpl {
     budgetElementRoot = null;
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -140,7 +139,7 @@ public class BudgetLawCsvFilesMerger extends DownloaderImpl {
     String sourcePath = getSource();
     File dir = new File(sourcePath);
     File[] directoryListing = dir.listFiles();
-    
+
     if (directoryListing == null) {
       BudgetLawCsvFilesMerger.log
           .severe("The provided source URI does not point to a directory:"
@@ -149,45 +148,45 @@ public class BudgetLawCsvFilesMerger extends DownloaderImpl {
           ("The provided source URI does not point to a directory:"
               + getSource()));
     }
-    
+
     mergedFiles = new ArrayList<>();
     notMergedFiles = new ArrayList<>();
-    
+
     switch (mergedElementsType) {
-      case BUDGETARY_CLASSIFICATION:
-        budgetElementRoot = new CompositeBudgetElement(0,
-            "Catalogo de clasificadores presupuestarios",
-            "Catalogo que contiene la jerarquía de clasificadores presupuestarios",
-            BudgetElementType.BUDGETARY_CLASSIFICATION,
-            BudgetHierarchyLevel.ROOT);
-        break;
-      case INSTITUTIONAL_CLASSIFICATION:
-        budgetElementRoot = new CompositeBudgetElement(0,
-            "Catalogo de clasificadores institucionales",
-            "Catalogo que contiene la jerarquía institucional del gobierno",
-            BudgetElementType.INSTITUTIONAL_CLASSIFICATION,
-            BudgetHierarchyLevel.ROOT);
-        break;
-      case BUDGET:
-        budgetElementRoot = new CompositeBudgetElement(0, "Ley de Presupuestos",
-            "Ley de Presupuestos", BudgetElementType.BUDGET,
-            BudgetHierarchyLevel.ROOT);
-        break;
-      case EXECUTION:
-        budgetElementRoot = new CompositeBudgetElement(0,
-            "Ejecución de la Ley de Presupuestos",
-            "Estructuración jerárquica de la ejecución de la ley de presupuesto de acuerdo a los clasificadores institucionales y presupuestarios.",
-            BudgetElementType.EXECUTION, BudgetHierarchyLevel.ROOT);
-        break;
-      default:
-        BudgetLawCsvFilesMerger.log.severe(
-            "Can't perform the extraction because the elements' type is undefined:"
-                + mergedElementsType.toString());
-        throw new DownloadException(
-            "Can't perform the extraction because the elements' type is undefined:"
-                + mergedElementsType.toString());
+    case BUDGETARY_CLASSIFICATION:
+      budgetElementRoot = new CompositeBudgetElement(0,
+          "Catalogo de clasificadores presupuestarios",
+          "Catalogo que contiene la jerarquía de clasificadores presupuestarios",
+          BudgetElementType.BUDGETARY_CLASSIFICATION,
+          BudgetHierarchyLevel.ROOT);
+      break;
+    case INSTITUTIONAL_CLASSIFICATION:
+      budgetElementRoot = new CompositeBudgetElement(0,
+          "Catalogo de clasificadores institucionales",
+          "Catalogo que contiene la jerarquía institucional del gobierno",
+          BudgetElementType.INSTITUTIONAL_CLASSIFICATION,
+          BudgetHierarchyLevel.ROOT);
+      break;
+    case BUDGET:
+      budgetElementRoot = new CompositeBudgetElement(0, "Ley de Presupuestos",
+          "Ley de Presupuestos", BudgetElementType.BUDGET,
+          BudgetHierarchyLevel.ROOT);
+      break;
+    case EXECUTION:
+      budgetElementRoot = new CompositeBudgetElement(0,
+          "Ejecución de la Ley de Presupuestos",
+          "Estructuración jerárquica de la ejecución de la ley de presupuesto de acuerdo a los clasificadores institucionales y presupuestarios.",
+          BudgetElementType.EXECUTION, BudgetHierarchyLevel.ROOT);
+      break;
+    default:
+      BudgetLawCsvFilesMerger.log.severe(
+          "Can't perform the extraction because the elements' type is undefined:"
+              + mergedElementsType.toString());
+      throw new DownloadException(
+          "Can't perform the extraction because the elements' type is undefined:"
+              + mergedElementsType.toString());
     }
-    
+
     for (File child : directoryListing) {
       CSVReader reader = getReader(child);
       if (reader == null) {
@@ -206,34 +205,34 @@ public class BudgetLawCsvFilesMerger extends DownloaderImpl {
       for (String[] line : lines) {
         bLines.add(new BudgetLine(line));
       }
-      
+
       switch (mergedElementsType) {
-        case BUDGETARY_CLASSIFICATION:
-          extractBudgetaryClassifiers(bLines);
-          break;
-        case INSTITUTIONAL_CLASSIFICATION:
-          extractInstitutionalClassifiers(bLines);
-          break;
-        case BUDGET:
-          extractBudgetLaw(bLines);
-          break;
-        case EXECUTION:
-          extractBudgetExecution(bLines);
-          break;
-        default:
-          BudgetLawCsvFilesMerger.log.severe(
-              "Can't perform the extraction because the elements' type is undefined:"
-                  + mergedElementsType.toString());
-          throw new DownloadException(
-              "Can't perform the extraction because the elements' type is undefined:"
-                  + mergedElementsType.toString());
+      case BUDGETARY_CLASSIFICATION:
+        extractBudgetaryClassifiers(bLines);
+        break;
+      case INSTITUTIONAL_CLASSIFICATION:
+        extractInstitutionalClassifiers(bLines);
+        break;
+      case BUDGET:
+        extractBudgetLaw(bLines);
+        break;
+      case EXECUTION:
+        extractBudgetExecution(bLines);
+        break;
+      default:
+        BudgetLawCsvFilesMerger.log.severe(
+            "Can't perform the extraction because the elements' type is undefined:"
+                + mergedElementsType.toString());
+        throw new DownloadException(
+            "Can't perform the extraction because the elements' type is undefined:"
+                + mergedElementsType.toString());
       }
       mergedFiles.add(child.getName());
     }
-    
+
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -245,7 +244,7 @@ public class BudgetLawCsvFilesMerger extends DownloaderImpl {
     Map<Integer, CompositeBudgetElement> institutionalClassifiers = new HashMap<>();
     // List<CompositeBuddgetElement> Institutions = getInstitutionsTree(BudgetElementType
     // mergedElementsType);
-    
+
     for (BudgetLine bline : lines) {
       String[] line = bline.getLineContents();
       int batchNumber = 0;
@@ -263,37 +262,37 @@ public class BudgetLawCsvFilesMerger extends DownloaderImpl {
       if (s != null) {
         programNumber = Integer.parseInt(s);
       }
-      
+
       int subtitleNumber = 0;
       s = line[3];
       if (s != null) {
         subtitleNumber = Integer.parseInt(s);
       }
-      
+
       int itemNumber = 0;
       s = line[4];
       if (s != null) {
         itemNumber = Integer.parseInt(s);
       }
-      
+
       int assignmentNumber = 0;
       s = line[5];
       if (s != null) {
         assignmentNumber = Integer.parseInt(s);
       }
-      
+
       String name = "";
       s = line[6];
       if (s != null) {
         name = s;
       }
-      
+
       BigInteger initialBudget = BigInteger.ZERO;
       s = line[7];
       if (s != null) {
         initialBudget = BigInteger.valueOf(Long.valueOf(s));
       }
-      
+
       BigInteger initialDollarBudget = BigInteger.ZERO;
       s = line[7];
       if (s != null) {
@@ -305,7 +304,7 @@ public class BudgetLawCsvFilesMerger extends DownloaderImpl {
           && (initialDollarBudgetLong == 0)) ? BudgetCurrency.PESO
               : ((initialBudgetLong == 0) && (initialDollarBudgetLong > 0))
                   ? BudgetCurrency.DOLLAR : BudgetCurrency.MIXED;
-      
+
       CompositeBudgetElement batch = (CompositeBudgetElement) budgetElementRoot
           .getSubelement(batchNumber);
       CompositeBudgetElement chapter = (CompositeBudgetElement) batch
@@ -314,7 +313,7 @@ public class BudgetLawCsvFilesMerger extends DownloaderImpl {
           .getSubelement(programNumber);
       CompositeBudgetElement subtitle = (CompositeBudgetElement) program
           .getSubelement(subtitleNumber);
-      
+
       if (assignmentNumber != 0) {
         CompositeBudgetElement item = (CompositeBudgetElement) subtitle
             .getSubelement(itemNumber);
@@ -326,9 +325,9 @@ public class BudgetLawCsvFilesMerger extends DownloaderImpl {
         item.addSubelement(assignment);
         break;
       }
-      
+
       if ((assignmentNumber == 0) && (itemNumber != 0)) {
-        
+
         BudgetElement item = new BudgetElement(programNumber, name, "",
             mergedElementsType, BudgetHierarchyLevel.ITEM);
         item.setInitialBudget(initialBudget);
@@ -337,7 +336,7 @@ public class BudgetLawCsvFilesMerger extends DownloaderImpl {
         subtitle.addSubelement(item);
         break;
       }
-      
+
       if ((assignmentNumber == 0) && (itemNumber == 0)
           && (subtitleNumber != 0)) {
         subtitle.setInitialBudget(initialBudget);
@@ -345,7 +344,7 @@ public class BudgetLawCsvFilesMerger extends DownloaderImpl {
         subtitle.setCurrency(bc);
         break;
       }
-      
+
       if (batchNumber != 0) {
         budgetElementRoot.addSubelement(new CompositeBudgetElement(batchNumber,
             name, "", mergedElementsType, BudgetHierarchyLevel.BATCH));
@@ -354,10 +353,10 @@ public class BudgetLawCsvFilesMerger extends DownloaderImpl {
             + line.toString() + " while extracting institutional classifiers.");
       }
     }
-    
+
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -367,10 +366,10 @@ public class BudgetLawCsvFilesMerger extends DownloaderImpl {
   private void extractBudgetLaw(List<BudgetLine> lines) {
     // begin-user-code
     // TODO Auto-generated method stub
-    
+
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -407,7 +406,7 @@ public class BudgetLawCsvFilesMerger extends DownloaderImpl {
       if (s != null) {
         description = s;
       }
-      
+
       if (program != 0) {
         CompositeBudgetElement p = new CompositeBudgetElement(program, name,
             description, mergedElementsType, BudgetHierarchyLevel.PROGRAM);
@@ -418,7 +417,7 @@ public class BudgetLawCsvFilesMerger extends DownloaderImpl {
         ch.addSubelement(p);
         break;
       }
-      
+
       if ((program == 0) && (chapter != 0)) {
         CompositeBudgetElement ch = new CompositeBudgetElement(chapter, name,
             description, mergedElementsType, BudgetHierarchyLevel.CHAPTER);
@@ -427,7 +426,7 @@ public class BudgetLawCsvFilesMerger extends DownloaderImpl {
         b.addSubelement(ch);
         break;
       }
-      
+
       if (batch != 0) {
         institutionalClassifiers.put(new Integer(batch),
             new CompositeBudgetElement(batch, name, description,
@@ -440,7 +439,7 @@ public class BudgetLawCsvFilesMerger extends DownloaderImpl {
     // return institutionalClassifiers.values();
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -476,7 +475,7 @@ public class BudgetLawCsvFilesMerger extends DownloaderImpl {
       if (s != null) {
         description = s;
       }
-      
+
       if (assignment != 0) {
         BudgetElement a = new BudgetElement(assignment, name, description,
             mergedElementsType, BudgetHierarchyLevel.ASSIGNMENT);
@@ -487,7 +486,7 @@ public class BudgetLawCsvFilesMerger extends DownloaderImpl {
         it.addSubelement(a);
         break;
       }
-      
+
       if ((assignment == 0) && (item != 0)) {
         CompositeBudgetElement it = new CompositeBudgetElement(item, name,
             description, mergedElementsType, BudgetHierarchyLevel.ITEM);
@@ -496,7 +495,7 @@ public class BudgetLawCsvFilesMerger extends DownloaderImpl {
         st.addSubelement(it);
         break;
       }
-      
+
       if (subtitle != 0) {
         budgetElementRoot.addSubelement(
             new CompositeBudgetElement(subtitle, name, description,
@@ -506,10 +505,10 @@ public class BudgetLawCsvFilesMerger extends DownloaderImpl {
             + line.toString() + " while extracting budgetary classifiers.");
       }
     }
-    
+
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -533,7 +532,7 @@ public class BudgetLawCsvFilesMerger extends DownloaderImpl {
     return reader;
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -545,7 +544,7 @@ public class BudgetLawCsvFilesMerger extends DownloaderImpl {
     return mergedFiles;
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -557,7 +556,7 @@ public class BudgetLawCsvFilesMerger extends DownloaderImpl {
     return notMergedFiles;
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -569,7 +568,7 @@ public class BudgetLawCsvFilesMerger extends DownloaderImpl {
     return mergedElementsType;
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->

@@ -4,10 +4,13 @@
 
 package com.ingenium.goby.budget;
 
+import com.ingenium.goby.budget.extraction.ExtractionException;
+import com.ingenium.goby.budget.extraction.InstitutionsCatalogExtractor;
+
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
- * @author JaimeRodrigo
+ * @author joviedo
  * @uml.annotations
  *     derived_abstraction="platform:/resource/goby-design/goby-classifier-extractor.emx#_I5RIgFH0Eee-AoOzRlyylA"
  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_I5RIgFH0Eee-AoOzRlyylA"
@@ -18,11 +21,113 @@ public class InstitutionsCatalogFactory {
   * <!-- end-UML-doc -->
   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_6YiYMFLeEeeyIrnvp3X3kA"
   */
-  private InstitutionsCatalogFactory instance;
+  private static InstitutionsCatalogFactory instance;
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_neproFLfEeeyIrnvp3X3kA"
   */
   private InstitutionsCatalog institutionsCatalog;
+  /** 
+  * <!-- begin-UML-doc -->
+  * <!-- end-UML-doc -->
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_yYKl0FajEeen0bP8VRV_UQ"
+  */
+  private boolean extract = true;
+
+  /** 
+  * <!-- begin-UML-doc -->
+  * <!-- end-UML-doc -->
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_KqcogFalEeen0bP8VRV_UQ"
+  */
+  private String source;
+
+  /** 
+  * <!-- begin-UML-doc -->
+  * <!-- end-UML-doc -->
+  * @return
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_xUpTUFajEeen0bP8VRV_UQ"
+  */
+  public static InstitutionsCatalogFactory getInstance() {
+    // begin-user-code
+    if (InstitutionsCatalogFactory.instance == null) {
+      InstitutionsCatalogFactory.instance = new InstitutionsCatalogFactory();
+      instance.setSource(
+          Messages.getString("InstitutionsCatalogFactory.sourceUrl")); //$NON-NLS-1$
+    }
+    return InstitutionsCatalogFactory.instance;
+    // end-user-code
+  }
+
+  /** 
+  * <!-- begin-UML-doc -->
+  * <!-- end-UML-doc -->
+  * @return
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_xUuy4FajEeen0bP8VRV_UQ"
+  */
+  public InstitutionsCatalog getInstitutionsCatalog() {
+    // begin-user-code
+    if (extract) {
+      InstitutionsCatalogExtractor extractor = new InstitutionsCatalogExtractor(
+          source);
+      try {
+        institutionsCatalog = extractor.extract();
+        extract = false;
+      } catch (ExtractionException e) {
+        // TODO Auto-generated catch block
+        e.printStackTrace();
+      }
+    }
+    return institutionsCatalog;
+    // end-user-code
+  }
+
+  /** 
+  * <!-- begin-UML-doc -->
+  * <!-- end-UML-doc -->
+  * @param forceExtraction
+  * @return
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_xUuy4lajEeen0bP8VRV_UQ"
+  */
+  public InstitutionsCatalog getInstitutionsCatalog(boolean forceExtraction) {
+    // begin-user-code
+    extract = forceExtraction;
+    return getInstitutionsCatalog();
+    // end-user-code
+  }
+
+  /** 
+  * <!-- begin-UML-doc -->
+  * <!-- end-UML-doc -->
+  * @return
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_hPBMMFamEeen0bP8VRV_UQ"
+  */
+  String getSource() {
+    // begin-user-code
+    return source;
+    // end-user-code
+  }
+
+  /** 
+  * <!-- begin-UML-doc -->
+  * <!-- end-UML-doc -->
+  * @param source
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_jSaAQFamEeen0bP8VRV_UQ"
+  */
+  void setSource(String source) {
+    // begin-user-code
+    this.source = source;
+    // end-user-code
+  }
+
+  /** 
+  * <!-- begin-UML-doc -->
+  * <!-- end-UML-doc -->
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_0ctToFanEeen0bP8VRV_UQ"
+  */
+  private InstitutionsCatalogFactory() {
+    // begin-user-code
+    super();
+    // end-user-code
+  }
 }

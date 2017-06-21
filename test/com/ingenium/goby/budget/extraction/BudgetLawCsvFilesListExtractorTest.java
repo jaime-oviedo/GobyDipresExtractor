@@ -23,7 +23,7 @@ public class BudgetLawCsvFilesListExtractorTest {
   public void testExtract() {
     final BudgetLawCsvFilesListExtractor extractor = new BudgetLawCsvFilesListExtractor();
     try {
-      extractor.extract();
+      extractor.download();
     } catch (final Exception e) {
       e.printStackTrace();
       Assert.fail("extraction failed");

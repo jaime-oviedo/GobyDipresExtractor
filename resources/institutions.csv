@@ -1,0 +1,563 @@
+﻿Partida;Capítulo;Programa;Denominación
+1;0;0; Presidencia de la República
+1;1;0;Presidencia de la República
+1;1;1;Presidencia de la República
+2;0;0; Congreso Nacional
+2;1;0;Senado
+2;1;1;Senado
+2;2;0;Cámara de Diputados
+2;2;1;Cámara de Diputados
+2;3;0;Biblioteca del Congreso
+2;3;1;Biblioteca del Congreso
+2;4;0;Consejo Resolutivo de Asignaciones Parlamentarias
+2;4;1;Consejo Resolutivo de Asignaciones Parlamentarias
+3;0;0; Poder Judicial
+3;1;0;Poder Judicial
+3;1;1;Poder Judicial
+3;1;2;Unidades de Apoyo a Tribunales
+3;3;0;Corporación Administrativa del Poder Judicial
+3;3;1;Corporación Administrativa del Poder Judicial
+3;4;0;Academia Judicial
+3;4;1;Academia Judicial
+4;0;0; Contraloría General de la República
+4;1;0;Contraloría
+4;1;1;Contraloría
+5;0;0; Ministerio del Interior y Seguridad Pública
+5;2;0;Servicio de Gobierno Interior
+5;2;1;Servicio de Gobierno Interior
+5;4;0;Oficina Nacional de Emergencia
+5;4;1;Oficina Nacional de Emergencia
+5;5;0;Subsecretaría de Desarrollo Regional y Administrativo
+5;5;1;Subsecretaría de Desarrollo Regional y Administrativo
+5;5;2;Fortalecimiento de la Gestión Subnacional
+5;5;3;Programas de Desarrollo Local
+5;5;5;Transferencias a Gobiernos Regionales
+5;5;6;Programas de Convergencia
+5;7;0;Agencia Nacional de Inteligencia
+5;7;1;Agencia Nacional de Inteligencia
+5;8;0;Subsecretaría de Prevención del Delito
+5;8;1;Subsecretaría de Prevención del Delito
+5;8;2;Centros Regionales de Atención y Orientación a Víctimas
+5;9;0;Servicio Nacional para Prevención y Rehabilitación Consumo de Drogas y Alcohol
+5;9;1;Servicio Nacional para Prevención y Rehabilitación Consumo de Drogas y Alcohol
+5;10;0;Subsecretaría del Interior
+5;10;1;Subsecretaría del Interior
+5;10;1;Red de Conectividad del Estado
+5;10;1;Fondo Social
+5;10;1;Bomberos de Chile
+5;31;0;Carabineros de Chile
+5;31;1;Carabineros de Chile
+5;32;0;Hospital de Carabineros
+5;32;1;Hospital de Carabineros
+5;33;0;Policía de Investigaciones de Chile
+5;33;1;Policía de Investigaciones de Chile
+5;61;0;Gobierno Regional Región I Tarapacá
+5;61;1;Gastos de Funcionamiento Región I
+5;61;2;Inversión Regional Región I
+5;62;0;Gobierno Regional Región II Antofagasta
+5;62;1;Gastos de Funcionamiento Región II
+5;62;2;Inversión Regional Región II
+5;63;0;Gobierno Regional Región III Atacama
+5;63;1;Gastos de Funcionamiento Región III
+5;63;2;Inversión Regional Región III
+5;64;0;Gobierno Regional Región IV Coquimbo
+5;64;1;Gastos de Funcionamiento Región IV
+5;64;2;Inversión Regional Región IV
+5;65;0;Gobierno Regional Región V Valparaíso
+5;65;1;Gastos de Funcionamiento Región V
+5;65;2;Inversión Regional Región V
+5;66;0;Gobierno Regional Región VI Libertador General Bernardo O'Higgins
+5;66;1;Gastos de Funcionamiento Región VI
+5;66;2;Inversión Regional Región VI
+5;67;0;Gobierno Regional Región VII Maule
+5;67;1;Gastos de Funcionamiento Región VII
+5;67;2;Inversión Regional Región VII
+5;68;0;Gobierno Regional Región VIII Bio-Bio
+5;68;1;Gastos de Funcionamiento Región VIII
+5;68;2;Inversión Regional Región VIII
+5;69;0;Gobierno Regional Región IX Araucanía
+5;69;1;Gastos de Funcionamiento Región IX
+5;69;2;Inversión Regional Región IX
+5;70;0;Gobierno Regional Región X Los Lagos
+5;70;1;Gastos de Funcionamiento Región X
+5;70;2;Inversión Regional Región X
+5;71;0;Gobierno Regional Región XI Aysén del Gral. Carlos Ibáñez del Campo
+5;71;1;Gastos de Funcionamiento Región XI
+5;71;2;Inversión Regional Región XI
+5;72;0;Gobierno Regional Región XII Magallanes y Antártica Chilena
+5;72;1;Gastos de Funcionamiento Región XII
+5;72;2;Inversión Regional Región XII
+5;72;3;Fondo de Desarrollo de Magallanes y de la Antártica Chilena
+5;73;0;Gobierno Regional Región Metropolitana de Santiago
+5;73;1;Gastos de Funcionamiento Región Metropolitana
+5;73;2;Inversión Regional Región Metropolitana
+5;74;0;Gobierno Regional Región XIV los Ríos
+5;74;1;Gastos de Funcionamiento Región XIV
+5;74;2;Inversión Regional Región XIV
+5;75;0;Gobierno Regional Región XV Arica y Parinacota
+5;75;1;Gastos de Funcionamiento Región XV
+5;75;2;Inversión Regional Región XV
+6;0;0; Ministerio de Relaciones Exteriores
+6;1;0;Secretaría y Administración General y Servicio Exterior
+6;1;1;Secretaría y Administración General y Servicio Exterior
+6;2;0;Dirección General de Relaciones Económicas Internacionales
+6;2;1;Dirección General de Relaciones Económicas Internacionales
+6;2;2;Promoción de Exportaciones
+6;3;0;Dirección de Fronteras y Límites del Estado
+6;3;1;Dirección de Fronteras y Límites del Estado
+6;4;0;Instituto Antártico Chileno
+6;4;1;Instituto Antártico Chileno
+6;5;0;Agencia de Cooperación Internacional de Chile
+6;5;1;Agencia de Cooperación Internacional de Chile
+7;0;0; Ministerio de Economía, Fomento y Turismo
+7;1;0;Subsecretaría de Economía y Empresas de Menor Tamaño
+7;1;1;Subsecretaria de Economía y Empresas de Menor Tamaño
+7;1;7;Programa Fondo de Innovación para Competitividad
+7;1;8;Secretaria Ejecutiva Consejo Nacional de Innovación
+7;1;11;Programa Iniciativa Científica Millenium
+7;2;0;Servicio Nacional del Consumidor
+7;2;1;Servicio Nacional del Consumidor
+7;3;0;Subsecretaría de Pesca y Acuicultura
+7;3;1;Subsecretaría de Pesca y Acuicultura
+7;3;2;Fondo de Administración Pesquero
+7;4;0;Servicio Nacional de Pesca y Acuicultura
+7;4;1;Servicio Nacional de Pesca y Acuicultura
+7;6;0;Corporación de Fomento de la Producción
+7;6;1;Corporación de Fomento de la Producción
+7;7;0;Instituto Nacional de Estadísticas
+7;7;1;Instituto Nacional de Estadísticas
+7;7;2;Programa Censos
+7;8;0;Fiscalía Nacional Económica
+7;8;1;Fiscalía Nacional Económica
+7;9;0;Servicio Nacional de Turismo
+7;9;1;Servicio Nacional de Turismo
+7;16;0;Servicio de Cooperación Técnica
+7;16;1;Servicio de Cooperación Técnica
+7;19;0;Comité Innova Chile
+7;19;1;Comité Innova Chile
+7;21;0;Agencia de Promoción de la Inversión Extranjera
+7;21;1;Agencia de Promoción de la Inversión Extranjera
+7;23;0;Instituto Nacional de Propiedad Industrial
+7;23;1;Instituto nacional de Propiedad Industrial
+7;24;0;Subsecretaría de Turismo
+7;24;1;Subsecretaría de Turismo
+7;25;0;Superintendencia de Insolvencia y Reemprendimiento
+7;25;1;Superintendencia de Insolvencia y Reemprendimiento
+8;0;0; Ministerio de Hacienda
+8;1;0;Secretaría y Administración General
+8;1;1;Secretaría y Administración General
+8;1;6;Unidad Administradora de los Tribunales Tributarios y Aduaneros
+8;1;7;Sistema Integrado de Comercio Exterior (SICEX)
+8;1;8;Programa de Modernización Sector Público
+8;2;0;Dirección de Presupuestos
+8;2;1;Dirección de Presupuestos
+8;3;0;Servicio de Impuestos Internos
+8;3;1;Servicio de Impuestos Internos
+8;4;0;Servicio Nacional de Aduanas
+8;4;1;Servicio Nacional de Aduanas
+8;5;0;Servicio de Tesorerías
+8;5;1;Servicio de Tesorerías
+8;7;0;Dirección de Compras y Contratación Pública
+8;7;1;Dirección de Compras y Contratación Pública
+8;8;0;Superintendencia de Valores y Seguros
+8;8;1;Superintendencia de Valores y Seguros
+8;11;0;Superintendencia de Bancos e Instituciones Financieras
+8;11;1;Superintendencia de Bancos e Instituciones Financieras
+8;15;0;Dirección Nacional del Servicio Civil
+8;15;1;Dirección Nacional del Servicio Civil
+8;16;0;Unidad de Análisis Financiero
+8;16;1;Unidad de Análisis Financiero
+8;17;0;Superintendencia de Casinos de Juego
+8;17;1;Superintendencia de Casinos de Juego
+8;30;0;Consejo de Defensa del Estado
+8;30;1;Consejo de Defensa del Estado
+9;0;0; Ministerio de Educación
+9;1;0;Subsecretaría de Educación
+9;1;1;Subsecretaría de Educación
+9;1;2;Programa de Infraestructura Educacional
+9;1;3;Mejoramiento de la Calidad de la Educación
+9;1;4;Desarrollo Curricular y Evaluación
+9;1;8;Apoyo y Supervisión de Establecimientos Educacionales Subvencionados
+9;1;11;Recursos Educativos
+9;1;12;Fortalecimiento de la Educación Escolar Pública
+9;1;20;Subvenciones a los Establecimientos Educacionales
+9;1;21;Gestión de Subvenciones a Establecimientos Educacionales
+9;1;29;Fortalecimiento de la Educación Superior Pública
+9;1;30;Educación Superior
+9;1;31;Gastos de Operación de Educación Superior
+9;2;0;Superintendencia de Educación
+9;2;1;Superintendencia de Educación
+9;3;0;Agencia de Calidad de la Educación
+9;3;1;Agencia de Calidad de la Educación
+9;4;0;Subsecretaría de Educación Parvularia
+9;5;1;Subsecretaría de Educación Parvularia
+9;5;0;Dirección de Bibliotecas, Archivos y Museos
+9;5;1;Dirección de Bibliotecas, Archivos y Museos
+9;5;2;Red de Bibliotecas Públicas
+9;5;3;Consejo de Monumentos Nacionales
+9;8;0;Comisión Nacional de Investigación Científica y Tecnológica
+9;8;1;Comisión Nacional de Investigación Científica y Tecnológica
+9;9;0;Junta Nacional de Auxilio Escolar y Becas
+9;9;1;Junta Nacional de Auxilio Escolar y Becas
+9;9;2;Salud Escolar
+9;9;3;Becas y Asistencialidad Estudiantil
+9;11;0;Junta Nacional de Jardines Infantiles
+9;11;1;Junta Nacional de Jardines Infantiles
+9;11;2;Programas Alternativos de Enseñanza Pre-escolar
+9;13;0;Consejo de Rectores
+9;13;1;Consejo de Rectores
+9;15;0;Consejo Nacional de Educación
+9;15;1;Consejo Nacional de Educación
+9;16;0;Consejo Nacional de la Cultura y las Artes
+9;16;1;Consejo Nacional de la Cultura y las Artes
+9;16;2;Fondos Culturales y Artísticos
+10;0;0; Ministerio de Justicia y Derechos Humanos
+10;1;0;Secretaría y Administración General
+10;1;1;Secretaría y Administración General
+10;1;2;Programa de Concesiones Ministerio de Justicia
+10;2;0;Servicio de Registro Civil e Identificación
+10;2;1;Servicio de Registro Civil e Identificación
+10;3;0;Servicio Médico Legal
+10;3;1;Servicio Médico Legal
+10;4;0;Gendarmería de Chile
+10;4;1;Gendarmería de Chile
+10;4;2;Programas de Rehabilitación y Reinserción Social
+10;6;0;Subsecretaría de Derechos Humanos
+10;6;1;Subsecretaría de Derechos Humanos
+10;7;0;Servicio Nacional de Menores
+10;7;1;Servicio Nacional de Menores
+10;7;2;Programa de Administración Directa y Proyectos Nacionales
+10;9;0;Defensoría Penal Pública
+10;9;1;Defensoría Penal Pública
+11;0;0; Ministerio de Defensa Nacional
+11;1;0;Ejército de Chile
+11;1;1;Ejército de Chile
+11;3;0;Organismos de Salud del Ejército
+11;3;1;Organismos de Salud del Ejército
+11;4;0;Organismos de Industria Militar
+11;4;1;Organismos de Industria Militar
+11;5;0;Armada de Chile
+11;5;1;Armada de Chile
+11;7;0;Dirección General del Territorio Marítimo
+11;7;1;Dirección General del Territorio Marítimo
+11;8;0;Dirección de Sanidad
+11;8;1;Dirección de Sanidad
+11;9;0;Fuerza Aérea de Chile
+11;9;1;Fuerza Aérea de Chile
+11;11;0;Organismos de Salud de la Fach
+11;11;1;Organismos de Salud de la Fach
+11;18;0;Dirección General de Movilización Nacional
+11;18;1;Dirección General de Movilización Nacional
+11;19;0;Instituto Geográfico Militar
+11;19;1;Instituto Geográfico Militar
+11;20;0;Servicio Hidrográfico y Oceanográfico de la Armada de Chile
+11;20;1;Servicio Hidrográfico y Oceanográfico de la Armada de Chile
+11;21;0;Dirección General de Aeronáutica Civil
+11;21;1;Dirección General de Aeronáutica Civil
+11;22;0;Servicio Aerofotogramétrico de la Fuerza Aérea de Chile
+11;22;1;Servicio Aerofotogramétrico de la Fuerza Aérea de Chile
+11;23;0;Subsecretaría para las Fuerzas Armadas
+11;23;1;Subsecretaria para las Fuerzas Armadas
+11;24;0;Subsecretaria de Defensa
+11;24;1;Subsecretaria de Defensa
+11;25;0;Estado Mayor Conjunto
+11;25;1;Estado Mayor Conjunto
+12;0;0; Ministerio de Obras Públicas
+12;1;0;Secretaría y Administración General
+12;1;1;Secretaría y Administración General
+12;2;0;Dirección General de Obras Públicas
+12;2;1;Administración y Ejecución de Obras Públicas
+12;2;2;Dirección de Arquitectura
+12;2;3;Dirección de Obras Hidráulicas
+12;2;4;Dirección de Vialidad
+12;2;6;Dirección de Obras Portuarias
+12;2;7;Dirección de Aeropuertos
+12;2;8;Administración Sistema Concesiones
+12;2;11;Dirección de Planeamiento
+12;2;12;Agua Potable Rural
+12;4;0;Dirección General de Aguas
+12;4;1;Dirección General de Aguas
+12;5;0;Instituto Nacional de Hidráulica
+12;5;1;Instituto Nacional de Hidráulica
+12;7;0;Superintendencia de Servicios Sanitarios
+12;7;1;Superintendencia de Servicios Sanitarios
+13;0;0;Ministerio de Agricultura
+13;1;0;Subsecretaría de Agricultura
+13;1;1;Subsecretaría de Agricultura
+13;1;2;Investigación e Innovación Tecnológica Silvoagropecuaria
+13;2;0;Oficina de Estudios y Políticas Agrarias
+13;2;1;Oficina de Estudios y Políticas Agrarias
+13;3;0;Instituto de Desarrollo Agropecuario
+13;3;1;Instituto de Desarrollo Agropecuario
+13;4;0;Servicio Agrícola y Ganadero
+13;4;1;Servicio Agrícola y Ganadero
+13;4;4;Inspecciones Exportaciones Silvoagropecuarias
+13;4;5;Programa Desarrollo Ganadero
+13;4;6;Vigilancia y Control Silvoagrícola
+13;4;7;Programa de Controles Fronterizos
+13;4;8;Programa Gestión y Conservación de Recursos Naturales Renovables
+13;4;9;Laboratorios
+13;5;0;Corporación Nacional Forestal
+13;5;1;Corporación Nacional Forestal
+13;5;3;Programa de Manejo del Fuego
+13;5;4;Áreas Silvestres Protegidas
+13;5;5;Gestión Forestal
+13;5;6;Programa de Arborización Urbana
+13;6;0;Comisión Nacional de Riego
+13;1;1;Comisión Nacional de Riego
+14;0;0;Ministerio de Bienes Nacionales
+14;1;0;Subsecretaría de Bienes Nacionales
+14;1;1;Subsecretaría de Bienes Nacionales
+14;1;3;Regularización de la Propiedad Raíz
+14;1;4;Administración de Bienes
+14;1;5;Catastro
+15;0;0; Ministerio del Trabajo y Previsión Social
+15;1;0;Subsecretaría del Trabajo
+15;1;1;Subsecretaría del Trabajo
+15;1;3;Proempleo
+15;2;0;Dirección del Trabajo
+15;2;1;Dirección Del Trabajo
+15;3;0;Subsecretaría de Previsión Social
+15;3;1;Subsecretaría de Previsión Social
+15;4;0;Dirección General de Crédito Prendario
+15;4;1;Dirección General de Crédito Prendario
+15;5;0;Servicio Nacional de Capacitación y Empleo
+15;5;1;Servicio Nacional de Capacitación y Empleo
+15;6;0;Superintendencia de Seguridad Social
+15;6;1;Superintendencia de Seguridad Social
+15;7;0;Superintendencia de Pensiones
+15;7;1;Superintendencia de Pensiones
+15;9;0;Instituto de Previsión Social
+15;9;1;Instituto de Previsión Social
+15;10;0;Instituto de Seguridad Laboral
+15;10;1;Instituto de Seguridad Laboral
+15;13;0;Caja de Previsión de la Defensa Nacional
+15;13;1;Caja de Previsión de la Defensa Nacional
+15;13;2;Fondo de Medicina Curativa
+15;14;0;Dirección de Previsión de Carabineros de Chile
+15;14;1;Dirección de Previsión de Carabineros de Chile
+16;0;0; Ministerio de Salud
+16;2;0;Fondo Nacional De Salud
+16;2;1;Fondo Nacional de Salud
+16;2;2;Programa de Atención Primaria
+16;2;3;Programa de Prestaciones Valoradas
+16;2;4;Programa de Prestaciones Institucionales
+16;4;0;Instituto de Salud Pública de Chile
+16;4;1;Instituto de Salud Pública de Chile
+16;5;0;Central de Abastecimiento del Sistema Nacional de Salud
+16;5;1;Central de Abastecimiento del Sistema Nacional de Salud
+16;9;0;Subsecretaría de Salud Pública
+16;9;1;Subsecretaría de Salud Pública
+16;10;0;Subsecretaría de Redes Asistenciales
+16;10;1;Subsecretaría de Redes Asistenciales
+16;10;2;Inversión Sectorial de Salud
+16;11;0;Superintendencia de Salud
+16;11;1;Superintendencia de Salud
+16;20;0;Servicio de Salud Arica
+16;20;1;Servicio de Salud Arica
+16;21;0;Servicio de Salud Iquique
+16;21;1;Servicio de Salud Iquique
+16;22;0;Servicio de Salud Antofagasta
+16;22;1;Servicio de Salud Antofagasta
+16;23;0;Servicio de Salud Atacama
+16;23;1;Servicio de Salud Atacama
+16;24;0;Servicio de Salud Coquimbo
+16;24;1;Servicio de Salud Coquimbo
+16;25;0;Servicio de Salud Valparaíso - San Antonio
+16;25;1;Servicio de Salud Valparaíso - San Antonio
+16;26;0;Servicio de Salud Viña del Mar - Quillota
+16;26;1;Servicio de Salud Viña del Mar - Quillota
+16;27;0;Servicio de Salud Aconcagua
+16;27;1;Servicio de Salud Aconcagua
+16;28;0;Servicio de Salud Libertador General Bernardo O'Higgins
+16;28;1;Servicio de Salud Libertador General Bernardo O'Higgins
+16;29;0;Servicio de Salud Maule
+16;29;1;Servicio de Salud Maule
+16;30;0;Servicio de Salud Ñuble
+16;30;1;Servicio de Salud Ñuble
+16;31;0;Servicio de Salud Concepción
+16;31;1;Servicio de Salud Concepción
+16;32;0;Servicio de Salud Talcahuano
+16;32;1;Servicio de Salud Talcahuano
+16;33;0;Servicio de Salud Bio-bio
+16;33;1;Servicio de Salud Bio-bio
+16;34;0;Servicio de Salud Arauco
+16;34;1;Servicio de Salud Arauco
+16;35;0;Servicio De Salud Araucanía Norte
+16;35;1;Servicio De Salud Araucanía Norte
+16;36;0;Servicio de Salud Araucanía Sur
+16;36;1;Servicio de Salud Araucanía Sur
+16;37;0;Servicio de Salud Valdivia
+16;37;1;Servicio de Salud Valdivia
+16;38;0;Servicio de Salud Osorno
+16;38;1;Servicio de Salud Osorno
+16;39;0;Servicio de Salud del Reloncaví
+16;39;1;Servicio de Salud del Reloncaví
+16;40;0;Servicio de Salud Aysén del General Carlos Ibáñez del Campo
+16;40;1;Servicio de Salud Aysén del General Carlos Ibáñez del Campo
+16;41;0;Servicio de Salud Magallanes
+16;41;1;Servicio de Salud Magallanes
+16;42;0;Servicio de Salud Metropolitano Oriente
+16;42;1;Servicio de Salud Metropolitano Oriente
+16;43;0;Servicio de Salud Metropolitano Central
+16;43;1;Servicio de Salud Metropolitano Central
+16;44;0;Servicio de Salud Metropolitano Sur
+16;44;1;Servicio de Salud Metropolitano Sur
+16;45;0;Servicio de Salud Metropolitano Norte
+16;45;1;Servicio de Salud Metropolitano Norte
+16;46;0;Servicio de Salud Metropolitano Occidente
+16;46;1;Servicio de Salud Metropolitano Occidente
+16;47;0;Servicio de Salud Metropolitano Sur-Oriente
+16;47;1;Servicio de Salud Metropolitano Sur-Oriente
+16;49;0;Programa Contingencias Operacionales
+16;49;1;Programa Contingencias Operacionales
+16;50;0;Hospital Padre Alberto Hurtado
+16;50;1;Hospital Padre Alberto Hurtado
+16;51;0;Centro de Referencia de Salud Maipú
+16;51;1;Centro de Referencia de Salud Maipú
+16;52;0;Centro de Referencia de Salud de Peñalolén Cordillera Oriente
+16;52;1;Centro de Referencia de Salud de Peñalolén Cordillera Oriente
+16;53;0;Servicio de Salud Chiloé
+16;53;1;Servicio de Salud Chiloé
+17;0;0;Ministerio de Minería
+17;1;0;Secretaría y Administración General
+17;1;1;Secretaría y Administración General
+17;1;2;Fomento de la Pequeña y Mediana Minería
+17;2;0;Comisión Chilena del Cobre
+17;1;1;Comisión Chilena del Cobre
+17;3;0;Servicio Nacional de Geología y Minería
+17;3;1;Servicio Nacional de Geología y Minería
+17;3;2;Red Nacional de Vigilancia Volcánica
+17;3;3;Plan Nacional de Geología
+17;3;4;Programa de Seguridad Minera
+18;0;0; Ministerio de Vivienda y Urbanismo
+18;1;0;Subsecretaría de Vivienda y Urbanismo
+18;1;1;Subsecretaría de Vivienda y Urbanismo
+18;1;2;Campamentos
+18;1;4;Recuperación de Barrios
+18;2;0;Parque Metropolitano
+18;2;1;Parque Metropolitano
+18;21;0;Serviu I Región
+18;21;1;Serviu I Región
+18;22;0;Serviu II Región
+18;22;1;Serviu II Región
+18;23;0;Serviu III Región
+18;23;1;Serviu III Región
+18;24;0;Serviu IV Región
+18;24;1;Serviu IV Región
+18;25;0;Serviu V Región
+18;25;1;Serviu V Región
+18;26;0;Serviu VI Región
+18;26;1;Serviu VI Región
+18;27;0;Serviu VII Región
+18;27;1;Serviu VII Región
+18;28;0;Serviu VIII Región
+18;28;1;Serviu VIII Región
+18;29;0;Serviu IX Región
+18;29;1;Serviu IX Región
+18;30;0;Serviu X Región
+18;30;1;Serviu X Región
+18;31;0;Serviu XI Región
+18;31;1;Serviu XI Región
+18;32;0;Serviu XII Región
+18;32;1;Serviu XII Región
+18;33;0;Serviu Región Metropolitana
+18;33;1;Serviu Región Metropolitana
+18;34;0;Serviu XIV Región
+18;34;1;Serviu XIV Región
+18;35;0;Serviu XV Región
+18;35;1;Serviu XV Región
+19;0;0; Ministerio de Transportes y Telecomunicaciones
+19;1;0;Secretaría y Administración General de Transportes
+19;1;1;Secretaría y Administración General de Transportes
+19;1;2;Empresa de los Ferrocarriles del Estado
+19;1;3;Transantiago
+19;1;4;Unidad Operativa de Control de Tránsito
+19;1;5;Fiscalización y Control
+19;1;6;Subsidio Nacional al Transporte Público
+19;1;7;Programa de Desarrollo Logístico
+19;1;8;Programa de Vialidad y Transporte Urbano: Sectra
+19;2;0;Subsecretaría de Telecomunicaciones
+19;2;1;Subsecretaría de Telecomunicaciones
+19;3;0;Junta de Aeronáutica Civil
+19;3;1;Junta de Aeronáutica Civil
+20;0;0;Ministerio Secretaría General de Gobierno
+20;1;0;Secretaría General de Gobierno
+20;1;1;Secretaría General de Gobierno
+20;2;0;Consejo Nacional de Televisión
+20;2;1;Consejo Nacional de Televisión
+21;0;0;Ministerio de Desarrollo Social
+21;1;0;Subsecretaría de Servicios Sociales
+21;1;1;Subsecretaría de Servicios Sociales
+21;1;5;Ingreso Ético Familiar y Sistema Chile Solidario
+21;1;6;Sistema de Protección Integral a la Infancia
+21;2;0;Fondo de Solidaridad e Inversión Social
+21;2;1;Fondo de Solidaridad e Inversión Social
+21;5;0;Instituto Nacional de la Juventud
+21;5;1;Instituto Nacional de la Juventud
+21;6;0;Corporación Nacional de Desarrollo Indígena
+21;6;1;Corporación Nacional De Desarrollo Indígena
+21;7;0;Servicio Nacional de la Discapacidad
+21;7;1;Servicio Nacional de la Discapacidad
+21;8;0;Servicio Nacional del Adulto Mayor
+21;8;1;Servicio Nacional del Adulto Mayor
+21;9;0;Subsecretaria de Evaluación Social
+21;9;1;Subsecretaria de Evaluación Social
+22;0;0;Ministerio Secretaría General de la Presidencia de la República
+22;1;0;Secretaría General de la Presidencia de la República
+22;1;1;Secretaría General de la Presidencia de la República
+22;1;4;Gobierno Digital
+22;1;5;Consejo de Auditoría Interna General de Gobierno
+22;1;6;Consejo Nacional de la Infancia
+23;0;0; Ministerio Público
+23;1;0;Ministerio Público
+23;1;1;Ministerio Público
+24;0;0;Ministerio de Energía
+24;1;0;Subsecretaría de Energía
+24;1;1;Subsecretaría de Energía
+24;1;3;Apoyo al Desarrollo de Energías Renovables no Convencionales
+24;1;4;Programa Energización Rural y Social
+24;1;5;Plan de Acción de Eficiencia Energética
+24;2;0;Comisión Nacional de Energía
+24;2;1;Comisión Nacional de Energía
+24;3;0;Comisión Chilena de Energía Nuclear
+24;3;1;Comisión Chilena de Energía Nuclear
+24;4;0;Superintendencia de Electricidad y Combustibles
+24;4;1;Superintendencia de Electricidad y Combustibles
+25;0;0; Ministerio del Medio Ambiente
+25;1;0;Subsecretaría del Medio Ambiente
+25;1;1;Subsecretaría del Medio Ambiente
+25;2;0;Servicio de Evaluación Ambiental
+25;2;1;Servicio de Evaluación Ambiental
+25;3;0;Superintendencia del Medio Ambiente
+25;3;1;Superintendencia del Medio Ambiente
+26;0;0; Ministerio del Deporte
+26;1;0;Subsecretaría del Deporte
+26;1;1;Subsecretaría del Deporte
+26;2;0;Instituto Nacional de Deportes
+26;2;1;Instituto Nacional de Deportes
+26;2;2;Fondo Nacional para el Fomento del Deporte
+27;0;0; Ministerio de la Mujer y la Equidad de Género
+27;1;0;Subsecretaría de la Mujer y la Equidad de Género
+27;1;1;Subsecretaría de la Mujer y la Equidad de Género
+27;2;0;Servicio Nacional de la Mujer y la Equidad de Género
+27;2;1;Servicio Nacional de la Mujer y la Equidad de Género
+27;2;2;Mujer y Trabajo
+27;2;3;Prevención y Atención de Violencia contra las Mujeres
+28;0;0; Servicio Electoral
+28;1;0;Servicio Electoral
+28;1;1;Servicio Electoral
+28;1;2;Elecciones Municipales
+28;1;3;Elecciones Parlamentarias y Presidencial
+50;0;0; Tesoro Público
+50;1;0;Fisco
+50;1;1;Ingresos Generales de la Nación
+50;2;2;Subsidios
+50;3;3;Operaciones Complementarias
+50;4;4;Servicio de la Deuda Pública
+50;5;5;Aporte Fiscal Libre
+50;6;6;Fondo de Reserva de Pensiones
+50;7;7;Fondo de Estabilización Económica y Social
+50;8;8;Fondo para la Educación
+50;9;9;Fondo de Apoyo Regional
+50;10;10;Fondo para Diagnósticos y Tratamientos de Alto Costo

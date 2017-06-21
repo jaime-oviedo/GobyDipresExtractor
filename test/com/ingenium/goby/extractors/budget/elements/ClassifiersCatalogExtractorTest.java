@@ -36,7 +36,7 @@ public class ClassifiersCatalogExtractorTest {
     bce.setSource(source);
     bce.setDestination(destination);
     try {
-      bce.extract();
+      bce.download();
       File file1 = new File(destination);
       File file2 = new File(objective);
       Assert.assertTrue(FileUtils.contentEquals(file1, file2));

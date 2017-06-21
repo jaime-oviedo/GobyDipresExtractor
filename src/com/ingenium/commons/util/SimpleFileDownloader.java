@@ -15,24 +15,25 @@ import java.net.URL;
  * <!-- begin-UML-doc -->
  * Esta&nbsp;clase&nbsp;permite&nbsp;la&nbsp;descarga&nbsp;de&nbsp;un&nbsp;archivo&nbsp;desde&nbsp;un&nbsp;sitio&nbsp;Web.<br><br>@author&nbsp;JaimeRodrigo
  * <!-- end-UML-doc -->
- * @author joviedo
+ * @author JaimeRodrigo
  * @uml.annotations
  *     derived_abstraction="platform:/resource/goby-design/goby-classifier-extractor.emx#_UZsy4EquEeeJsdrfgQXeQw"
  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UZsy4EquEeeJsdrfgQXeQw"
  */
-public class SimpleFileDownloader implements Downloader {
-
+public class SimpleFileDownloader {
+  
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UemhAEquEeeJsdrfgQXeQw"
   */
   private static final int BUFFER_SIZE = new Integer(4096);
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * Crea&nbsp;una&nbsp;nueva&nbsp;instancia&nbsp;de&nbsp;la&nbsp;clase&nbsp;SimpleFileDownloader.
   * <!-- end-UML-doc -->
+  * Crea una nueva instancia de la clase SimpleFileDownloader.
   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UenvIEquEeeJsdrfgQXeQw"
   */
   public SimpleFileDownloader() {
@@ -40,11 +41,11 @@ public class SimpleFileDownloader implements Downloader {
     // TODO Auto-generated constructor stub
     // end-user-code
   }
-
+  
   /*
    * (non-Javadoc)
-   * @see com.ingenium.commons.util.Downloader#download(java.lang.String,
-   * java.lang.String)
+   * 
+   * @see com.ingenium.commons.util.Downloader#download(java.lang.String, java.lang.String)
    */
   /** 
   * <!-- begin-UML-doc -->
@@ -54,20 +55,19 @@ public class SimpleFileDownloader implements Downloader {
   * @throws IOException
   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UeqLYEquEeeJsdrfgQXeQw"
   */
-  @Override
   public void download(String source, String destination) throws IOException {
     // begin-user-code
     URL url = new URL(source);
     HttpURLConnection httpConn = (HttpURLConnection) url.openConnection();
     int responseCode = httpConn.getResponseCode();
-
+    
     // always check HTTP response code first
     if (responseCode == HttpURLConnection.HTTP_OK) {
       String fileName = "";
       final String disposition = httpConn.getHeaderField("Content-Disposition");
       final String contentType = httpConn.getContentType();
       final int contentLength = httpConn.getContentLength();
-
+      
       if (disposition != null) {
         // extracts file name from header field
         int index = disposition.indexOf("filename=");
@@ -127,5 +127,5 @@ public class SimpleFileDownloader implements Downloader {
     // }
     // end-user-code
   }
-
+  
 }

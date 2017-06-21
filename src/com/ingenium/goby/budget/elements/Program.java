@@ -7,16 +7,17 @@ import java.util.Collection;
  * <!-- begin-UML-doc -->
  * <p>Class that represents a budgetary program.<br>@author JaimeOviedo</p>
  * <!-- end-UML-doc -->
- * @author joviedo
+ * @author JaimeRodrigo
  * @uml.annotations
  *     derived_abstraction="platform:/resource/goby-design/goby-classifier-extractor.emx#_UasRYEquEeeJsdrfgQXeQw"
  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UasRYEquEeeJsdrfgQXeQw"
  */
 public class Program extends CompositeBudgetElement {
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
+  * Crea una nueva instancia de la clase Program.
   * @param number
   * @param name
   * @param description
@@ -29,7 +30,7 @@ public class Program extends CompositeBudgetElement {
     super(number, name, description, type, BudgetHierarchyLevel.PROGRAM);
     // end-user-code
   }
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <p>Adds a new assignment.</p>
@@ -44,10 +45,10 @@ public class Program extends CompositeBudgetElement {
     // begin-user-code
     Subtitle subtitle = (Subtitle) getSubelement(subtitleNumber);
     subtitle.addAssignment(itemNumber, assignment);
-
+    
     // end-user-code
   }
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -64,7 +65,7 @@ public class Program extends CompositeBudgetElement {
     return subtitle.getAssignment(itemNumber, assignmentNumber);
     // end-user-code
   }
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -78,7 +79,7 @@ public class Program extends CompositeBudgetElement {
     subtitle.addItem(item);
     // end-user-code
   }
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -93,7 +94,7 @@ public class Program extends CompositeBudgetElement {
     return subtitle.getItem(itemNumber);
     // end-user-code
   }
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -105,7 +106,7 @@ public class Program extends CompositeBudgetElement {
     super.addSubelement(subtitle);
     // end-user-code
   }
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -118,7 +119,7 @@ public class Program extends CompositeBudgetElement {
     return (Subtitle) super.getSubelements().get(subtitleNumber);
     // end-user-code
   }
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * Retorna&nbsp;los&nbsp;subtitulos&nbsp;asociados&nbsp;al&nbsp;programa.<br><br><br><br><br>@return&nbsp;los&nbsp;subtitulos&nbsp;asociados&nbsp;al&nbsp;program
@@ -132,7 +133,7 @@ public class Program extends CompositeBudgetElement {
     return (Collection<Subtitle>) super.getSubelements().values();
     // end-user-code
   }
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * stablece&nbsp;los&nbsp;subtitulos&nbsp;para&nbsp;el&nbsp;programa.<br><br><br><br>@param&nbsp;subtitulos<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;el&nbsp;nuevo&nbsp;conjunto&nbsp;de&nbsp;subtitulos<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;

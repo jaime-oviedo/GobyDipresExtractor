@@ -8,23 +8,24 @@ import com.ingenium.goby.budget.elements.CompositeBudgetElement;
 
 import java.util.Iterator;
 
-/**
- * <!-- begin-UML-doc --> <!-- end-UML-doc -->
- *
- * @author JaimeRodrigo
- * @uml.annotations derived_abstraction="platform:/resource/goby-design/goby-classifier-extractor.emx#_tOVToEt-EeeC6_ZX80x4yQ"
+/** 
+ * <!-- begin-UML-doc -->
+ * <!-- end-UML-doc -->
+ * @author joviedo
+ * @uml.annotations
+ *     derived_abstraction="platform:/resource/goby-design/goby-classifier-extractor.emx#_tOVToEt-EeeC6_ZX80x4yQ"
  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_tOVToEt-EeeC6_ZX80x4yQ"
  */
 public class BudgetElementToJsonMapper {
 
-  /**
-   * <!-- begin-UML-doc --> <!-- end-UML-doc -->
-   *
-   * @param element
-   * @param nestingLevel
-   * @return
-   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_tRANIEt-EeeC6_ZX80x4yQ"
-   */
+  /** 
+  * <!-- begin-UML-doc -->
+  * <!-- end-UML-doc -->
+  * @param element
+  * @param nestingLevel
+  * @return
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_tRANIEt-EeeC6_ZX80x4yQ"
+  */
   public static String map(BudgetElement element, int nestingLevel) {
     // begin-user-code
     StringBuilder nesting = new StringBuilder();
@@ -124,12 +125,11 @@ public class BudgetElementToJsonMapper {
     // end-user-code
   }
 
-  /**
-   * <!-- begin-UML-doc --> <!-- end-UML-doc --> Crea una nueva instancia de la clase
-   * BudgetElementToJsonMapper.
-   *
-   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_tRD3gEt-EeeC6_ZX80x4yQ"
-   */
+  /** 
+  * <!-- begin-UML-doc -->
+  * <!-- end-UML-doc -->
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_tRD3gEt-EeeC6_ZX80x4yQ"
+  */
   private BudgetElementToJsonMapper() {
     // begin-user-code
     super();

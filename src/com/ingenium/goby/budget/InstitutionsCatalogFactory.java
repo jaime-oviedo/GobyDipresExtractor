@@ -10,7 +10,7 @@ import com.ingenium.goby.budget.extraction.InstitutionsCatalogExtractor;
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
- * @author JaimeRodrigo
+ * @author joviedo
  * @uml.annotations
  *     derived_abstraction="platform:/resource/goby-design/goby-classifier-extractor.emx#_I5RIgFH0Eee-AoOzRlyylA"
  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_I5RIgFH0Eee-AoOzRlyylA"
@@ -31,22 +31,22 @@ public class InstitutionsCatalogFactory {
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_MJkCUFbbEeeJ1LOQolUiwg"
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_yYKl0FajEeen0bP8VRV_UQ"
   */
   private boolean extract = true;
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_Ujru8FbbEeeJ1LOQolUiwg"
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_KqcogFalEeen0bP8VRV_UQ"
   */
   private String source;
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
   * @return
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_Sihk8FbaEeeJ1LOQolUiwg"
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_xUpTUFajEeen0bP8VRV_UQ"
   */
   public static InstitutionsCatalogFactory getInstance() {
     // begin-user-code
@@ -58,12 +58,12 @@ public class InstitutionsCatalogFactory {
     return InstitutionsCatalogFactory.instance;
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
   * @return
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_U2rY4FbaEeeJ1LOQolUiwg"
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_xUuy4FajEeen0bP8VRV_UQ"
   */
   public InstitutionsCatalog getInstitutionsCatalog() {
     // begin-user-code
@@ -81,13 +81,13 @@ public class InstitutionsCatalogFactory {
     return institutionsCatalog;
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
   * @param forceExtraction
   * @return
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_m9plUFbaEeeJ1LOQolUiwg"
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_xUuy4lajEeen0bP8VRV_UQ"
   */
   public InstitutionsCatalog getInstitutionsCatalog(boolean forceExtraction) {
     // begin-user-code
@@ -95,36 +95,35 @@ public class InstitutionsCatalogFactory {
     return getInstitutionsCatalog();
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
   * @return
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_cji98FbaEeeJ1LOQolUiwg"
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_hPBMMFamEeen0bP8VRV_UQ"
   */
-  public String getSource() {
+  String getSource() {
     // begin-user-code
     return source;
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
   * @param source
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_gTW3kFbaEeeJ1LOQolUiwg"
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_jSaAQFamEeen0bP8VRV_UQ"
   */
-  public void setSource(String source) {
+  void setSource(String source) {
     // begin-user-code
     this.source = source;
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
-  * Crea una nueva instancia de la clase InstitutionsCatalogFactory.
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_h_sdkFbaEeeJ1LOQolUiwg"
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_0ctToFanEeen0bP8VRV_UQ"
   */
   private InstitutionsCatalogFactory() {
     // begin-user-code

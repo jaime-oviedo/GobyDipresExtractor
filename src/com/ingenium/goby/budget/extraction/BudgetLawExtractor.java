@@ -13,13 +13,13 @@ import com.ingenium.goby.extractors.DownloaderImpl;
  * <!-- begin-UML-doc -->
  * Esta&nbsp;clase&nbsp;extrae&nbsp;toda&nbsp;la&nbsp;Ley&nbsp;de&nbsp;Presupuestos&nbsp;desde&nbsp;el&nbsp;sitio&nbsp;de&nbsp;la&nbsp;DIPRES.<br><br>@author&nbsp;JaimeRodrigo
  * <!-- end-UML-doc -->
- * @author JaimeRodrigo
+ * @author joviedo
  * @uml.annotations
  *     derived_abstraction="platform:/resource/goby-design/goby-classifier-extractor.emx#_UautoEquEeeJsdrfgQXeQw"
  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UautoEquEeeJsdrfgQXeQw"
  */
 public class BudgetLawExtractor extends DownloaderImpl {
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -38,12 +38,11 @@ public class BudgetLawExtractor extends DownloaderImpl {
   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UjDjMEquEeeJsdrfgQXeQw"
   */
   private final BudgetLawCsvFilesDownloader bfe;
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * Crea&nbsp;una&nbsp;nueva&nbsp;instancia&nbsp;de&nbsp;la&nbsp;clase&nbsp;BudgetLawExtractor.
   * <!-- end-UML-doc -->
-  * Crea una nueva instancia de la clase BudgetLawExtractor.
   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UjFYYEquEeeJsdrfgQXeQw"
   */
   public BudgetLawExtractor() {
@@ -53,7 +52,7 @@ public class BudgetLawExtractor extends DownloaderImpl {
     bfe = new BudgetLawCsvFilesDownloader();
     // end-user-code
   }
-  
+
   /*
    * (non-Javadoc)
    *
@@ -73,5 +72,5 @@ public class BudgetLawExtractor extends DownloaderImpl {
     bfe.download();
     // end-user-code
   }
-  
+
 }

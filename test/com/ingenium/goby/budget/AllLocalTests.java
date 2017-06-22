@@ -9,6 +9,7 @@ import org.junit.runners.Suite.SuiteClasses;
 
 @RunWith(Suite.class)
 @SuiteClasses({ ClassifiersCatalogExtractorTest.class,
+    InstitutionsCatalogFactoryTest.class,
     BudgetLawCsvFilesListExtractorTest.class })
 public class AllLocalTests {
 

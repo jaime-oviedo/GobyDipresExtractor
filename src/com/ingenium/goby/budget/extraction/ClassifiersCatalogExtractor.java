@@ -13,6 +13,7 @@ import com.ingenium.goby.budget.elements.Program;
 import com.ingenium.goby.budget.elements.Subtitle;
 import com.ingenium.goby.budget.extraction.map.BudgetElementToJsonMapper;
 import com.ingenium.goby.extractors.DownloadException;
+import com.ingenium.goby.extractors.Downloader;
 import com.ingenium.goby.extractors.DownloaderImpl;
 import com.opencsv.CSVReader;
 
@@ -34,18 +35,18 @@ import java.util.logging.Logger;
  * <!-- begin-UML-doc -->
  * <p>This class reads a csv file with the budget classifiers' information and generates an equivalent Json file.</p><p>@author JaimeRodrigo</p>
  * <!-- end-UML-doc -->
- * @author JaimeRodrigo
+ * @author joviedo
  * @uml.annotations
  *     derived_abstraction="platform:/resource/goby-design/goby-classifier-extractor.emx#_UXHY8EquEeeJsdrfgQXeQw"
  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UXHY8EquEeeJsdrfgQXeQw"
  */
 public class ClassifiersCatalogExtractor extends DownloaderImpl {
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <p>Represents a hierarchical catalog of budget elements.</p>
   * <!-- end-UML-doc -->
-  * @author JaimeRodrigo
+  * @author joviedo
   * @uml.annotations
   *     derived_abstraction="platform:/resource/goby-design/goby-classifier-extractor.emx#_UXJ1MEquEeeJsdrfgQXeQw"
   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UXJ1MEquEeeJsdrfgQXeQw"
@@ -58,7 +59,7 @@ public class ClassifiersCatalogExtractor extends DownloaderImpl {
     * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_Ud4vUEquEeeJsdrfgQXeQw"
     */
     private Program root;
-    
+
     /** 
     * <!-- begin-UML-doc -->
     * <p>Creates a new BudgetElementsCatalog.</p>
@@ -70,10 +71,10 @@ public class ClassifiersCatalogExtractor extends DownloaderImpl {
       root = new Program(0, "Catalogo de clasificadores presupuestarios",
           "Estructura jerárquica de los clasificadores por objeto del gasto usados en el presupuesto",
           BudgetElementType.BUDGETARY_CLASSIFICATION);
-      
+
       // end-user-code
     }
-    
+
     /** 
     * <!-- begin-UML-doc -->
     * <p>Adds a subtitle to the catalog.</p>
@@ -86,7 +87,7 @@ public class ClassifiersCatalogExtractor extends DownloaderImpl {
       root.addSubtitle(subtitle);
       // end-user-code
     }
-    
+
     /** 
     * <!-- begin-UML-doc -->
     * <p>Adds an item to the catalog within the provided subtitle.</p>
@@ -98,10 +99,10 @@ public class ClassifiersCatalogExtractor extends DownloaderImpl {
     public void addItem(Integer subtitleNumber, Item item) {
       // begin-user-code
       root.addItem(subtitleNumber, item);
-      
+
       // end-user-code
     }
-    
+
     /** 
     * <!-- begin-UML-doc -->
     * <p>Adds an assignment to the catalog within the provided subtitle and item.</p>
@@ -115,10 +116,10 @@ public class ClassifiersCatalogExtractor extends DownloaderImpl {
         Assignment assignment) {
       // begin-user-code
       root.addAssignment(subtitleNumber, itemNumber, assignment);
-      
+
       // end-user-code
     }
-    
+
     /** 
     * <!-- begin-UML-doc -->
     * <p>Returns the special program that holds the catalog's elements.</p>
@@ -131,7 +132,7 @@ public class ClassifiersCatalogExtractor extends DownloaderImpl {
       return root;
       // end-user-code
     }
-    
+
     /** 
     * <!-- begin-UML-doc -->
     * <p>Sets the special program</p>
@@ -142,10 +143,10 @@ public class ClassifiersCatalogExtractor extends DownloaderImpl {
     public void setProgram(Program program) {
       // begin-user-code
       root = program;
-      
+
       // end-user-code
     }
-    
+
     /** 
     * <!-- begin-UML-doc -->
     * <p>Gets all the subtitles in the catalog.</p>
@@ -159,7 +160,7 @@ public class ClassifiersCatalogExtractor extends DownloaderImpl {
       return root.getSubtitles();
       // end-user-code
     }
-    
+
     /** 
     * <!-- begin-UML-doc -->
     * <!-- end-UML-doc -->
@@ -174,17 +175,17 @@ public class ClassifiersCatalogExtractor extends DownloaderImpl {
       // end-user-code
     }
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
-  * @author JaimeRodrigo
+  * @author joviedo
   * @uml.annotations
   *     derived_abstraction="platform:/resource/goby-design/goby-classifier-extractor.emx#_UaQMgEquEeeJsdrfgQXeQw"
   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UaQMgEquEeeJsdrfgQXeQw"
   */
   protected final class PlainBudgetElement {
-    
+
     /** 
     * <!-- begin-UML-doc -->
     * <!-- end-UML-doc -->
@@ -215,12 +216,11 @@ public class ClassifiersCatalogExtractor extends DownloaderImpl {
     * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UhF0UEquEeeJsdrfgQXeQw"
     */
     private final String description;
-    
+
     /** 
     * <!-- begin-UML-doc -->
     * <p>Creates a new instance of PlainBudgetClassifier.</p>
     * <!-- end-UML-doc -->
-    * Crea una nueva instancia de la clase PlainBudgetElement.
     * @param subtitle <p>the value of the subtitle field.</p>
     * @param item <p>the value of the item field.</p>
     * @param assignment <p>the value of the assignment field.</p>
@@ -239,7 +239,7 @@ public class ClassifiersCatalogExtractor extends DownloaderImpl {
       this.description = description;
       // end-user-code
     }
-    
+
     /** 
     * <!-- begin-UML-doc -->
     * <!-- end-UML-doc -->
@@ -257,7 +257,7 @@ public class ClassifiersCatalogExtractor extends DownloaderImpl {
       return sb.toString();
       // end-user-code
     }
-    
+
     /** 
     * <!-- begin-UML-doc -->
     * <!-- end-UML-doc -->
@@ -269,7 +269,7 @@ public class ClassifiersCatalogExtractor extends DownloaderImpl {
       return subtitle;
       // end-user-code
     }
-    
+
     /** 
     * <!-- begin-UML-doc -->
     * <!-- end-UML-doc -->
@@ -281,7 +281,7 @@ public class ClassifiersCatalogExtractor extends DownloaderImpl {
       return item;
       // end-user-code
     }
-    
+
     /** 
     * <!-- begin-UML-doc -->
     * <!-- end-UML-doc -->
@@ -293,7 +293,7 @@ public class ClassifiersCatalogExtractor extends DownloaderImpl {
       return assignment;
       // end-user-code
     }
-    
+
     /** 
     * <!-- begin-UML-doc -->
     * <!-- end-UML-doc -->
@@ -305,7 +305,7 @@ public class ClassifiersCatalogExtractor extends DownloaderImpl {
       return name;
       // end-user-code
     }
-    
+
     /** 
     * <!-- begin-UML-doc -->
     * <!-- end-UML-doc -->
@@ -318,17 +318,17 @@ public class ClassifiersCatalogExtractor extends DownloaderImpl {
       // end-user-code
     }
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
-  * @author JaimeRodrigo
+  * @author joviedo
   * @uml.annotations
   *     derived_abstraction="platform:/resource/goby-design/goby-classifier-extractor.emx#_UagrMEquEeeJsdrfgQXeQw"
   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UagrMEquEeeJsdrfgQXeQw"
   */
   protected class BudgetClassifiersMapper {
-    
+
     /** 
     * <!-- begin-UML-doc -->
     * <!-- end-UML-doc -->
@@ -368,7 +368,7 @@ public class ClassifiersCatalogExtractor extends DownloaderImpl {
       // end-user-code
     }
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -376,19 +376,18 @@ public class ClassifiersCatalogExtractor extends DownloaderImpl {
   */
   private static final Logger log = Logger
       .getLogger("com.ingenium.goby.extractors.BudgetElementsExtractor");
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_4kcKEFLuEeeyIrnvp3X3kA"
   */
   private ClassifiersCatalog classifiersCatalog;
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <p>Creates a new instance of a BudgetElementExtractor.</p>
   * <!-- end-UML-doc -->
-  * Crea una nueva instancia de la clase ClassifiersCatalogExtractor.
   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UdnpkEquEeeJsdrfgQXeQw"
   */
   public ClassifiersCatalogExtractor() {
@@ -400,7 +399,7 @@ public class ClassifiersCatalogExtractor extends DownloaderImpl {
         Messages.getString("ClassifiersCatalogExtractor.destinationUrl")); //$NON-NLS-1$
     // end-user-code
   }
-  
+
   /*
    * (non-Javadoc)
    *
@@ -412,16 +411,15 @@ public class ClassifiersCatalogExtractor extends DownloaderImpl {
   * @throws DownloadException
   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UdpewEquEeeJsdrfgQXeQw"
   */
-  
-  @Override
-  public void download() throws DownloadException {
+
+  public void extract() throws DownloadException {
     // begin-user-code
     ClassifiersCatalogImpl ccp = extractClassifierCatalog();
     classifiersCatalog = ccp;
     String mappedCatalog = BudgetElementToJsonMapper.map(ccp.getProgram(), 0);
     File file = new File(getDestination());
     file.getParentFile().mkdirs();
-    
+
     PrintWriter outputStream = null;
     try {
       outputStream = new PrintWriter(new BufferedWriter(new FileWriter(file)));
@@ -436,7 +434,7 @@ public class ClassifiersCatalogExtractor extends DownloaderImpl {
     }
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <p>Extracts the budget elements in a collection of plain objects.</p>
@@ -445,13 +443,13 @@ public class ClassifiersCatalogExtractor extends DownloaderImpl {
   * @throws DownloadException
   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UdrT8EquEeeJsdrfgQXeQw"
   */
-  
+
   private ClassifiersCatalogImpl extractClassifierCatalog()
       throws DownloadException {
     // begin-user-code
-    
+
     CSVReader reader = getReader();
-    
+
     ClassifiersCatalogExtractor.log.fine("Comenzando la extracción");
     Collection<PlainBudgetElement> budgetElements = new ArrayList<>();
     String[] line;
@@ -466,7 +464,7 @@ public class ClassifiersCatalogExtractor extends DownloaderImpl {
           index++;
         }
         int subtitle = 0;
-        
+
         String s = elements.get(0);
         try {
           if (s != null) {
@@ -476,7 +474,7 @@ public class ClassifiersCatalogExtractor extends DownloaderImpl {
           throw new DownloadException(
               "No es posible extraer el número de subtitle");
         }
-        
+
         int item = 0;
         s = elements.get(1);
         if (s != null) {
@@ -489,7 +487,7 @@ public class ClassifiersCatalogExtractor extends DownloaderImpl {
         } else {
           item = 0;
         }
-        
+
         int assignment = 0;
         s = elements.get(2);
         if (s != null) {
@@ -500,7 +498,7 @@ public class ClassifiersCatalogExtractor extends DownloaderImpl {
                 .finest("No se pudo obtener un número de asignación");
           }
         }
-        
+
         String name;
         s = elements.get(3);
         if (s != null) {
@@ -517,7 +515,7 @@ public class ClassifiersCatalogExtractor extends DownloaderImpl {
         } else {
           description = "";
         }
-        
+
         PlainBudgetElement c = new PlainBudgetElement(subtitle, item,
             assignment, name, description);
         budgetElements.add(c);
@@ -530,7 +528,7 @@ public class ClassifiersCatalogExtractor extends DownloaderImpl {
     return mapper.map(budgetElements);
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <p>Gets a CSV reader pointing to the source file specified in a the properties file.</p>
@@ -565,7 +563,7 @@ public class ClassifiersCatalogExtractor extends DownloaderImpl {
     return reader;
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -577,5 +575,18 @@ public class ClassifiersCatalogExtractor extends DownloaderImpl {
     return classifiersCatalog;
     // end-user-code
   }
-  
+
+  /** 
+  * (non-Javadoc)
+  * @see Downloader#download()
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UfdcoEquEeeJsdrfgQXeQw?INHERITED"
+  */
+  @Override
+  public void download() throws DownloadException {
+    // begin-user-code
+    // TODO Auto-generated method stub
+
+    // end-user-code
+  }
+
 }

@@ -10,7 +10,7 @@ import com.ingenium.goby.extractors.DownloadException;
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
- * @author JaimeRodrigo
+ * @author joviedo
  * @uml.annotations
  *     derived_abstraction="platform:/resource/goby-design/goby-classifier-extractor.emx#_A8MkQFH0Eee-AoOzRlyylA"
  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_A8MkQFH0Eee-AoOzRlyylA"
@@ -28,21 +28,21 @@ public class ClassifiersCatalogFactory {
   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_meeoEFLfEeeyIrnvp3X3kA"
   */
   private ClassifiersCatalog classifiersCatalog;
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_EhlrYFNZEeeyIrnvp3X3kA"
   */
   private boolean extract = true;
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_VXRIAFbbEeeJ1LOQolUiwg"
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_iPj4oFalEeen0bP8VRV_UQ"
   */
   private String source;
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -59,7 +59,7 @@ public class ClassifiersCatalogFactory {
     return ClassifiersCatalogFactory.instance;
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -82,7 +82,7 @@ public class ClassifiersCatalogFactory {
     return classifiersCatalog;
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -94,14 +94,13 @@ public class ClassifiersCatalogFactory {
     // begin-user-code
     extract = forceExtraction;
     return getClassifiersCatalog();
-    
+
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
-  * Crea una nueva instancia de la clase ClassifiersCatalogFactory.
   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_GeRTIFNcEeeyIrnvp3X3kA"
   */
   private ClassifiersCatalogFactory() {
@@ -109,26 +108,26 @@ public class ClassifiersCatalogFactory {
     super();
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
   * @return
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_xyExMFbaEeeJ1LOQolUiwg"
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_m64i0FamEeen0bP8VRV_UQ"
   */
-  public String getSource() {
+  String getSource() {
     // begin-user-code
     return source;
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
   * @param source
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_xyFYQFbaEeeJ1LOQolUiwg"
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_m65J4FamEeen0bP8VRV_UQ"
   */
-  public void setSource(String source) {
+  void setSource(String source) {
     // begin-user-code
     this.source = source;
     // end-user-code

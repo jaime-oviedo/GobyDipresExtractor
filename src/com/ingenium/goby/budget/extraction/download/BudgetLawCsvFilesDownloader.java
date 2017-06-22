@@ -25,13 +25,13 @@ import java.util.logging.Logger;
  * <!-- begin-UML-doc -->
  * <p>This class extracts budget-related files from the Chilean Budget Directorate's website.</p>
  * <!-- end-UML-doc -->
- * @author joviedo
+ * @author JaimeRodrigo
  * @uml.annotations
  *     derived_abstraction="platform:/resource/goby-design/goby-classifier-extractor.emx#_UaW6MEquEeeJsdrfgQXeQw"
  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UaW6MEquEeeJsdrfgQXeQw"
  */
 public class BudgetLawCsvFilesDownloader extends DownloaderImpl {
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -39,7 +39,7 @@ public class BudgetLawCsvFilesDownloader extends DownloaderImpl {
   */
   private static final Logger log = Logger.getLogger(
       "com.ingenium.goby.budget.extraction.download.BudgetLawCsvFilesDownloader");
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <p>The URL where the files are stored.</p>
@@ -47,7 +47,7 @@ public class BudgetLawCsvFilesDownloader extends DownloaderImpl {
   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UhrqMEquEeeJsdrfgQXeQw"
   */
   private String documentsSource;
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <p>A list of strings holding the name of the files to be downloaded.</p>
@@ -55,7 +55,7 @@ public class BudgetLawCsvFilesDownloader extends DownloaderImpl {
   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_Uhv7oEquEeeJsdrfgQXeQw"
   */
   private Collection<String> budgetFileList;
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <p>This flag indicates if a timestamp will be added to the base destination directory for each download batch.</p>
@@ -63,7 +63,7 @@ public class BudgetLawCsvFilesDownloader extends DownloaderImpl {
   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_ZoXkIExDEeeo2IEzB8X7BA"
   */
   private boolean useTimestamp = new Boolean(true);
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <p>A time stamp used to create the destination directory for the downloaded files.</p>
@@ -71,7 +71,7 @@ public class BudgetLawCsvFilesDownloader extends DownloaderImpl {
   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_yNL2YExGEeeo2IEzB8X7BA"
   */
   private String tstamp;
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <p>A list of files that were successfully downloaded by the extraction.</p>
@@ -79,7 +79,7 @@ public class BudgetLawCsvFilesDownloader extends DownloaderImpl {
   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_qxM7EExIEeeo2IEzB8X7BA"
   */
   private Collection<String> downloadedFiles;
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <p>A list of files that could not be downloaded.</p>
@@ -87,11 +87,12 @@ public class BudgetLawCsvFilesDownloader extends DownloaderImpl {
   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_CGN5sExJEeeo2IEzB8X7BA"
   */
   private Collection<String> failedFiles;
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <p>Creates a new file extractor that uses parameters obtained from a properties file.</p>
   * <!-- end-UML-doc -->
+  * Crea una nueva instancia de la clase BudgetLawCsvFilesDownloader.
   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_X82S8ExCEeeo2IEzB8X7BA"
   */
   public BudgetLawCsvFilesDownloader() {
@@ -107,11 +108,12 @@ public class BudgetLawCsvFilesDownloader extends DownloaderImpl {
     failedFiles = new ArrayList<>();
     // end-user-code
   }
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <p>Creates a new file extractor that uses the given parameters as a source and destination.</p>
   * <!-- end-UML-doc -->
+  * Crea una nueva instancia de la clase BudgetLawCsvFilesDownloader.
   * @param listSource <p>The location of the file that contains the list of CSVs to be downoladed.</p>
   * @param documentsSource <p>The URL of the files to be downloaded</p>
   * @param destinationFolder <p>the destination folder for the downloaded files</p>
@@ -131,7 +133,7 @@ public class BudgetLawCsvFilesDownloader extends DownloaderImpl {
     failedFiles = new ArrayList<>();
     // end-user-code
   }
-
+  
   /*
    * (non-Javadoc)
    *
@@ -147,7 +149,7 @@ public class BudgetLawCsvFilesDownloader extends DownloaderImpl {
   @Override
   public void download() throws DownloadException {
     // begin-user-code
-
+    
     FileReader extractionListReader = null;
     try {
       extractionListReader = new FileReader(getSource());
@@ -155,13 +157,13 @@ public class BudgetLawCsvFilesDownloader extends DownloaderImpl {
       throw (new DownloadException(
           "No se encontró el archivo con la lista de documentos a descargar"));
     }
-
+    
     // Se encontró el archivo de lista de descarga
-
+    
     BufferedReader extractionListFileStream = new BufferedReader(
         extractionListReader);
     String l;
-
+    
     // Primero se extrae la lista de csvs a descargar
     try {
       while ((l = extractionListFileStream.readLine()) != null) {
@@ -181,9 +183,9 @@ public class BudgetLawCsvFilesDownloader extends DownloaderImpl {
         }
       }
     }
-
+    
     // Se genera un directorio asociado al timestamp de descarga
-
+    
     if (useTimestamp) {
       String baseDestination = getDestination();
       tstamp = new SimpleDateFormat("yyyy-MM-dd_HH-mm").format(new Date());
@@ -194,11 +196,11 @@ public class BudgetLawCsvFilesDownloader extends DownloaderImpl {
     BudgetLawCsvFilesDownloader.log
         .finest("Generando directorio:" + extractionDestination);
     destinationDirectory.mkdirs();
-
+    
     // Ahora se descargan los documentos uno a uno
     SimpleFileDownloader downloader = new SimpleFileDownloader();
     Iterator<String> i = budgetFileList.iterator();
-
+    
     downloadedFiles = new ArrayList<>();
     failedFiles = new ArrayList<>();
     while (i.hasNext()) {
@@ -223,7 +225,7 @@ public class BudgetLawCsvFilesDownloader extends DownloaderImpl {
     }
     // end-user-code
   }
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <p>Returns the value of the timestamp usage flag.</p>
@@ -236,7 +238,7 @@ public class BudgetLawCsvFilesDownloader extends DownloaderImpl {
     return useTimestamp;
     // end-user-code
   }
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <p>Sets the value of the timestamp usage flag.</p>
@@ -247,10 +249,10 @@ public class BudgetLawCsvFilesDownloader extends DownloaderImpl {
   public void useTimestamp(boolean flag) {
     // begin-user-code
     useTimestamp = flag;
-
+    
     // end-user-code
   }
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <p>Returns the URL of the files to be downloaded.</p>
@@ -261,10 +263,10 @@ public class BudgetLawCsvFilesDownloader extends DownloaderImpl {
   public String getDocumentsSource() {
     // begin-user-code
     return documentsSource;
-
+    
     // end-user-code
   }
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <p>Sets the URL where the files will be stored.</p>
@@ -275,10 +277,10 @@ public class BudgetLawCsvFilesDownloader extends DownloaderImpl {
   public void setDocumentsSource(String documentsSource) {
     // begin-user-code
     this.documentsSource = documentsSource;
-
+    
     // end-user-code
   }
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <p>Returns the time stamp used to create the destination directory for the downloaded files.</p>
@@ -289,10 +291,10 @@ public class BudgetLawCsvFilesDownloader extends DownloaderImpl {
   public String getTimestamp() {
     // begin-user-code
     return tstamp;
-
+    
     // end-user-code
   }
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <p>Returns the list of files that were successfully downloaded by the extraction.</p>
@@ -305,7 +307,7 @@ public class BudgetLawCsvFilesDownloader extends DownloaderImpl {
     return downloadedFiles;
     // end-user-code
   }
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <p>Returns the list of files that could not be downloaded.</p>
@@ -318,5 +320,5 @@ public class BudgetLawCsvFilesDownloader extends DownloaderImpl {
     return failedFiles;
     // end-user-code
   }
-
+  
 }

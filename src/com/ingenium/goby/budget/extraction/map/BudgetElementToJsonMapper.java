@@ -8,24 +8,23 @@ import com.ingenium.goby.budget.elements.CompositeBudgetElement;
 
 import java.util.Iterator;
 
-/** 
- * <!-- begin-UML-doc -->
- * <!-- end-UML-doc -->
- * @author joviedo
- * @uml.annotations
- *     derived_abstraction="platform:/resource/goby-design/goby-classifier-extractor.emx#_tOVToEt-EeeC6_ZX80x4yQ"
+/**
+ * <!-- begin-UML-doc --> <!-- end-UML-doc -->
+ *
+ * @author JaimeRodrigo
+ * @uml.annotations derived_abstraction="platform:/resource/goby-design/goby-classifier-extractor.emx#_tOVToEt-EeeC6_ZX80x4yQ"
  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_tOVToEt-EeeC6_ZX80x4yQ"
  */
 public class BudgetElementToJsonMapper {
 
-  /** 
-  * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * @param element
-  * @param nestingLevel
-  * @return
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_tRANIEt-EeeC6_ZX80x4yQ"
-  */
+  /**
+   * <!-- begin-UML-doc --> <!-- end-UML-doc -->
+   *
+   * @param element
+   * @param nestingLevel
+   * @return
+   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_tRANIEt-EeeC6_ZX80x4yQ"
+   */
   public static String map(BudgetElement element, int nestingLevel) {
     // begin-user-code
     StringBuilder nesting = new StringBuilder();
@@ -43,7 +42,6 @@ public class BudgetElementToJsonMapper {
         .append(q + "name" + q + ":" + q + element.getName() + q + ",\n");
     sb.append(nesting)
         .append(q + "description" + q + ":" + q + element.getDescription() + q);
-
     BudgetElementType type = element.getType();
     switch (type) {
     case BUDGET:
@@ -81,6 +79,19 @@ public class BudgetElementToJsonMapper {
         case CHAPTER:
           label = "programs";
           break;
+        case BATCH:
+          label = "chapters";
+          break;
+        case ROOT:
+          switch (element.getType()) {
+          case BUDGETARY_CLASSIFICATION:
+            label = "subtitles";
+            break;
+          default:
+            label = "batches";
+            break;
+          }
+          break;
         default:
           label = "";
           break;
@@ -101,6 +112,8 @@ public class BudgetElementToJsonMapper {
           }
           sb.append(nesting).append("]\n");
         }
+      } else {
+        sb.append("\n");
       }
     } else {
       sb.append("\n");
@@ -111,11 +124,12 @@ public class BudgetElementToJsonMapper {
     // end-user-code
   }
 
-  /** 
-  * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_tRD3gEt-EeeC6_ZX80x4yQ"
-  */
+  /**
+   * <!-- begin-UML-doc --> <!-- end-UML-doc --> Crea una nueva instancia de la clase
+   * BudgetElementToJsonMapper.
+   *
+   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_tRD3gEt-EeeC6_ZX80x4yQ"
+   */
   private BudgetElementToJsonMapper() {
     // begin-user-code
     super();

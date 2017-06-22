@@ -9,35 +9,36 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-/**
- * <!-- begin-UML-doc --> <!-- end-UML-doc -->
- * 
+/** 
+ * <!-- begin-UML-doc -->
+ * <!-- end-UML-doc -->
  * @author joviedo
- * @uml.annotations derived_abstraction="platform:/resource/goby-design/goby-classifier-extractor.emx#_yNL6EFdBEee4ttLK_7FK1A"
+ * @uml.annotations
+ *     derived_abstraction="platform:/resource/goby-design/goby-classifier-extractor.emx#_yNL6EFdBEee4ttLK_7FK1A"
  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_yNL6EFdBEee4ttLK_7FK1A"
  */
 public class FileSystemInjector implements Injector {
-  /**
-   * <!-- begin-UML-doc --> <!-- end-UML-doc -->
-   * 
-   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_20YusFdBEee4ttLK_7FK1A"
-   */
+  /** 
+  * <!-- begin-UML-doc -->
+  * <!-- end-UML-doc -->
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_20YusFdBEee4ttLK_7FK1A"
+  */
   private final String destination;
 
-  /**
-   * <!-- begin-UML-doc --> <!-- end-UML-doc -->
-   * 
-   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_DkOzgFdEEee4ttLK_7FK1A"
-   */
-  private Object element;
+  /** 
+  * <!-- begin-UML-doc -->
+  * <!-- end-UML-doc -->
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_DkOzgFdEEee4ttLK_7FK1A"
+  */
+  private final Object element;
 
-  /**
-   * <!-- begin-UML-doc --> <!-- end-UML-doc -->
-   * 
-   * @param destination
-   * @param element
-   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_8Hj4gFdBEee4ttLK_7FK1A"
-   */
+  /** 
+  * <!-- begin-UML-doc -->
+  * <!-- end-UML-doc -->
+  * @param destination
+  * @param element
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_8Hj4gFdBEee4ttLK_7FK1A"
+  */
   public FileSystemInjector(String destination, Object element) {
     // begin-user-code
     this.destination = destination;
@@ -45,12 +46,12 @@ public class FileSystemInjector implements Injector {
     // end-user-code
   }
 
-  /**
-   * <!-- begin-UML-doc --> <!-- end-UML-doc -->
-   * 
-   * @return
-   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_rTB5cFdDEee4ttLK_7FK1A"
-   */
+  /** 
+  * <!-- begin-UML-doc -->
+  * <!-- end-UML-doc -->
+  * @return
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_rTB5cFdDEee4ttLK_7FK1A"
+  */
   @Override
   public String getDestination() {
     // begin-user-code
@@ -58,12 +59,11 @@ public class FileSystemInjector implements Injector {
     // end-user-code
   }
 
-  /**
-   * (non-Javadoc)
-   * 
-   * @see Injector#inject()
-   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_oqc_kFdBEee4ttLK_7FK1A?INHERITED"
-   */
+  /** 
+  * (non-Javadoc)
+  * @see Injector#inject()
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_oqc_kFdBEee4ttLK_7FK1A?INHERITED"
+  */
   @Override
   public void inject() throws InjectionException {
     // begin-user-code

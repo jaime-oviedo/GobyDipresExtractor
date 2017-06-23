@@ -1,6 +1,7 @@
 /**
  * 
  */
+
 package com.ingenium.goby.budget.injection;
 
 import java.io.BufferedWriter;
@@ -12,7 +13,7 @@ import java.io.PrintWriter;
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
- * @author joviedo
+ * @author JaimeRodrigo
  * @uml.annotations
  *     derived_abstraction="platform:/resource/goby-design/goby-classifier-extractor.emx#_yNL6EFdBEee4ttLK_7FK1A"
  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_yNL6EFdBEee4ttLK_7FK1A"
@@ -24,17 +25,18 @@ public class FileSystemInjector implements Injector {
   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_20YusFdBEee4ttLK_7FK1A"
   */
   private final String destination;
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_DkOzgFdEEee4ttLK_7FK1A"
   */
   private final Object element;
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
+  * Crea una nueva instancia de la clase FileSystemInjector.
   * @param destination
   * @param element
   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_8Hj4gFdBEee4ttLK_7FK1A"
@@ -45,7 +47,7 @@ public class FileSystemInjector implements Injector {
     this.element = element;
     // end-user-code
   }
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -58,7 +60,7 @@ public class FileSystemInjector implements Injector {
     return destination;
     // end-user-code
   }
-
+  
   /** 
   * (non-Javadoc)
   * @see Injector#inject()
@@ -69,7 +71,7 @@ public class FileSystemInjector implements Injector {
     // begin-user-code
     File file = new File(getDestination());
     file.getParentFile().mkdirs();
-
+    
     PrintWriter outputStream = null;
     try {
       outputStream = new PrintWriter(new BufferedWriter(new FileWriter(file)));
@@ -82,7 +84,7 @@ public class FileSystemInjector implements Injector {
         outputStream.close();
       }
     }
-
+    
     // end-user-code
   }
 }

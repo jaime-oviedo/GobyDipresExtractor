@@ -1,0 +1,66 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Denominación;Monto Pesos;Monto Dólar
+13;03;01;05;;;TRANSFERENCIAS CORRIENTES;3991236;0
+13;03;01;05;01;;Del Sector Privado;10;0
+13;03;01;05;01;003;Administradora de Fondos para Bonificación por Retiro;10;0
+13;03;01;05;02;;Del Gobierno Central;3991226;0
+13;03;01;05;02;008;Corporación Nacional de Desarrollo Indígena;3898526;0
+13;03;01;05;02;999;CORFO - Aplicación Fondo de Cobertura de Riesgos;92700;0
+13;03;01;06;;;RENTAS DE LA PROPIEDAD;3605000;0
+13;03;01;08;;;OTROS INGRESOS CORRIENTES;1400760;0
+13;03;01;08;01;;Recuperaciones y Reembolsos por Licencias Médicas;700473;0
+13;03;01;08;99;;Otros;700287;0
+13;03;01;09;;;APORTE FISCAL;195341621;0
+13;03;01;09;01;;Libre;195341621;0
+13;03;01;10;;;VENTA DE ACTIVOS NO FINANCIEROS;44959;0
+13;03;01;10;03;;Vehículos;44959;0
+13;03;01;12;;;RECUPERACIÓN DE PRÉSTAMOS;62036900;0
+13;03;01;12;04;;De Fomento;62036900;0
+13;03;01;13;;;TRANSFERENCIAS PARA GASTOS DE CAPITAL;4622545;0
+13;03;01;13;02;;Del Gobierno Central;4622545;0
+13;03;01;13;02;008;Corporación Nacional de Desarrollo Indígena;3521331;0
+13;03;01;13;02;009;Comisión Nacional de Riego;1101214;0
+13;03;01;21;;;GASTOS EN PERSONAL;38110813;0
+13;03;01;22;;;BIENES Y SERVICIOS DE CONSUMO;7508471;0
+13;03;01;23;;;PRESTACIONES DE SEGURIDAD SOCIAL;10;0
+13;03;01;23;03;;Prestaciones Sociales del Empleador;10;0
+13;03;01;24;;;TRANSFERENCIAS CORRIENTES;78810157;0
+13;03;01;24;01;;Al Sector Privado;78806912;0
+13;03;01;24;01;386;Apoyo a la Contratación del Seguro Agrícola;1392560;0
+13;03;01;24;01;389;Sistema de Incentivos Ley N° 20.412;20496432;0
+13;03;01;24;01;404;Emergencias;1500000;0
+13;03;01;24;01;407;Servicios Desarrollo de Capacidades Productivas y Empresariales;2151739;0
+13;03;01;24;01;415;Servicios de Asesoría Técnica;11237062;0
+13;03;01;24;01;416;Programa de Desarrollo de Acción Local;17981776;0
+13;03;01;24;01;417;Convenio INDAP-PRODEMU;1692490;0
+13;03;01;24;01;418;Programa de Desarrollo Territorial Indígena;17742300;0
+13;03;01;24;01;419;Desarrollo Integral de Pequeños Productores Campesinos del Secano-PADIS;627900;0
+13;03;01;24;01;420;Alianzas Productivas;2971109;0
+13;03;01;24;01;421;Asesoría para Comercialización;1013544;0
+13;03;01;24;07;;A Organismos Internacionales;3245;0
+13;03;01;24;07;001;Asociación Latinoamericana de Instituciones Financieras para el Desarrollo - ALIDE;3245;0
+13;03;01;25;;;INTEGROS AL FISCO;10;0
+13;03;01;25;01;;Impuestos;10;0
+13;03;01;26;;;OTROS GASTOS CORRIENTES;10;0
+13;03;01;26;02;;Compensaciones por Daños a Terceros y/o a la Propiedad;10;0
+13;03;01;29;;;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS;1640055;0
+13;03;01;29;03;;Vehículos;224793;0
+13;03;01;29;06;;Equipos Informáticos;591426;0
+13;03;01;29;07;;Programas Informáticos;823836;0
+13;03;01;31;;;INICIATIVAS DE INVERSIÓN;601670;0
+13;03;01;31;02;;Proyectos;601670;0
+13;03;01;32;;;PRÉSTAMOS;77898399;0
+13;03;01;32;04;;De Fomento;77898399;0
+13;03;01;32;04;004;Corto Plazo;53277405;0
+13;03;01;32;04;005;Largo Plazo;22833173;0
+13;03;01;32;04;006;Fondo Rotatorio - Ley 18.450;1787821;0
+13;03;01;33;;;TRANSFERENCIAS DE CAPITAL;66473426;0
+13;03;01;33;01;;Al Sector Privado;66473426;0
+13;03;01;33;01;001;Riego;13798125;0
+13;03;01;33;01;002;Programa Desarrollo Inversiones;10067875;0
+13;03;01;33;01;006;Programa de Desarrollo de Acción Local;21122729;0
+13;03;01;33;01;007;Programa de Desarrollo Territorial Indígena;13738291;0
+13;03;01;33;01;008;Praderas Suplementarias;4420419;0
+13;03;01;33;01;009;Alianzas Productivas;1389492;0
+13;03;01;33;01;010;Convenio INDAP-PRODEMU;1149521;0
+13;03;01;33;01;011;Desarrollo Integral de Pequeños Productores Campesinos del Secano-PADIS;627324;0
+13;03;01;33;01;012;Inversiones para Comercialización;159650;0

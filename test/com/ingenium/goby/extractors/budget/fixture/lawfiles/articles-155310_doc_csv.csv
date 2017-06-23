@@ -1,0 +1,28 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Denominación;Monto Pesos;Monto Dólar
+50;01;09;11;;;VENTA DE ACTIVOS FINANCIEROS;10;0
+50;01;09;11;01;;Venta o Rescate de Títulos y Valores;10;0
+50;01;09;13;;;TRANSFERENCIAS PARA GASTOS DE CAPITAL;321183496;0
+50;01;09;13;02;;Del Gobierno Central;321183496;0
+50;01;09;13;02;050;De Operaciones Complementarias;264914513;0
+50;01;09;13;02;090;De Subsidio Nacional al Transporte Público;56268983;0
+50;01;09;30;;;ADQUISICIÓN DE ACTIVOS FINANCIEROS;36776022;0
+50;01;09;30;01;;Compra de Títulos y Valores;36776022;0
+50;01;09;33;;;TRANSFERENCIAS DE CAPITAL;284407484;0
+50;01;09;33;02;;Al Gobierno Central;284407474;0
+50;01;09;33;02;003;Subsecretaría de Desarrollo Regional y Administrativo;42230000;0
+50;01;09;33;02;041;Gobierno Regional Región I Tarapacá;8120211;0
+50;01;09;33;02;042;Gobierno Regional Región II Antofagasta;10994858;0
+50;01;09;33;02;043;Gobierno Regional Región III Atacama;9597494;0
+50;01;09;33;02;044;Gobierno Regional Región IV Coquimbo;14315110;0
+50;01;09;33;02;045;Gobierno Regional Región V Valparaíso;18432127;0
+50;01;09;33;02;046;Gobierno Regional Región VI O'Higgins;14838214;0
+50;01;09;33;02;047;Gobierno Regional Región VII Maule;21306774;0
+50;01;09;33;02;048;Gobierno Regional Región VIII Bío Bío;30809818;0
+50;01;09;33;02;049;Gobierno Regional Región IX Araucanía;24508360;0
+50;01;09;33;02;050;Gobierno Regional Región X Los Lagos;17121948;0
+50;01;09;33;02;051;Gobierno Regional Región XI Aysén;11004545;0
+50;01;09;33;02;052;Gobierno Regional Región XII Magallanes;11074775;0
+50;01;09;33;02;053;Gobierno Regional Región XIII Metropolitana;30567641;0
+50;01;09;33;02;054;Gobierno Regional Región XIV Los Ríos;12348629;0
+50;01;09;33;02;055;Gobierno Regional Región XV Arica y Parinacota;7136970;0
+50;01;09;33;03;;A Otras Entidades Públicas;10;0

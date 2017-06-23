@@ -1,0 +1,48 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Denominación;Monto Pesos;Monto Dólar
+09;01;30;05;;;TRANSFERENCIAS CORRIENTES;105594152;0
+09;01;30;05;02;;Del Gobierno Central;105594152;0
+09;01;30;05;02;080;Fondo para la Educación, Ley N° 20.630;105594152;0
+09;01;30;09;;;APORTE FISCAL;1796772795;0
+09;01;30;09;01;;Libre;1664547784;0
+09;01;30;09;02;;Servicio de la Deuda Interna;123672541;0
+09;01;30;09;03;;Servicio de la Deuda Externa;8552470;0
+09;01;30;12;;;RECUPERACIÓN DE PRÉSTAMOS;84984850;0
+09;01;30;12;10;;Ingresos por Percibir;84984850;0
+09;01;30;12;10;001;Créditos de Educación Superior;84984850;0
+09;01;30;14;;;ENDEUDAMIENTO;1093274;0
+09;01;30;14;02;;Endeudamiento Externo;1093274;0
+09;01;30;15;;;SALDO INICIAL DE CAJA;2000;0
+09;01;30;24;;;TRANSFERENCIAS CORRIENTES;1134133188;0
+09;01;30;24;03;;A Otras Entidades Públicas;1134133188;0
+09;01;30;24;03;196;Aporte Artículo 2° DFL (Ed) N°4, de 1981;93615208;0
+09;01;30;24;03;198;Financiamiento del acceso gratuito a las Universidades 2017;518994279;0
+09;01;30;24;03;199;Financiamiento del acceso gratuito a Institutos Profesionales y Centros de Formación Técnica 2017;228907846;0
+09;01;30;24;03;200;Becas Educación Superior;229475793;0
+09;01;30;24;03;202;Fondo Desarrollo Institucional art 1° DFL (Ed.) N° 4 de 1981;3012658;0
+09;01;30;24;03;204;Pasantías Técnicos Nivel Superior;3632038;0
+09;01;30;24;03;212;Apoyo Innovación Educación Superior;601932;0
+09;01;30;24;03;213;Educación Superior Regional;931532;0
+09;01;30;24;03;214;Fortalecimiento Universidades art. 1° DFL (Ed.) N° 4 de 1981;1390500;0
+09;01;30;24;03;218;Basal por Desempeño Universidades Art. 1° DFL. (Ed.) N° 4 de 1981;25723489;0
+09;01;30;24;03;300;Semestre en el Extranjero Beca Vocación de Profesor;481113;0
+09;01;30;24;03;606;Cursos de Idiomas para Becas Chile;181754;0
+09;01;30;24;03;802;Fondo de Desarrollo Institucional;2627818;0
+09;01;30;24;03;805;Aplicación Ley N° 20.634;20643228;0
+09;01;30;24;03;853;Aporte para Fomento de Investigación;3914000;0
+09;01;30;30;;;ADQUISICIÓN DE ACTIVOS FINANCIEROS;705783389;0
+09;01;30;30;01;;Compra de Títulos y Valores;705783389;0
+09;01;30;33;;;TRANSFERENCIAS DE CAPITAL;16303483;0
+09;01;30;33;03;;A Otras Entidades Públicas;16303483;0
+09;01;30;33;03;035;Fondo Desarrollo Institucional-Infraestructura Art 1° DFL. (Ed.) N° 4 de 1981;981446;0
+09;01;30;33;03;036;Aplicación Letra a) Art.71 bis de la Ley N° 18.591;7515296;0
+09;01;30;33;03;401;Fondo de Desarrollo Institucional  - Infraestructura;849008;0
+09;01;30;33;03;404;Educación Superior Regional;151512;0
+09;01;30;33;03;407;Apoyo Innovación Educación Superior;103000;0
+09;01;30;33;03;409;Basal por Desempeño Universidades Art. 1° DFL. (Ed.) N° 4 de 1981;6703221;0
+09;01;30;34;;;SERVICIO DE LA DEUDA;132226011;0
+09;01;30;34;01;;Amortización Deuda Interna;108540233;0
+09;01;30;34;02;;Amortización Deuda Externa;8274951;0
+09;01;30;34;03;;Intereses Deuda Interna;15132308;0
+09;01;30;34;04;;Intereses Deuda Externa;277519;0
+09;01;30;34;07;;Deuda Flotante;1000;0
+09;01;30;35;;;SALDO FINAL DE CAJA;1000;0

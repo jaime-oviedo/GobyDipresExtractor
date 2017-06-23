@@ -1,0 +1,47 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Denominación;Monto Pesos;Monto Dólar
+18;33;01;06;;;RENTAS DE LA PROPIEDAD;267450;0
+18;33;01;06;01;;Arriendo de Activos No Financieros;267347;0
+18;33;01;06;03;;Intereses;103;0
+18;33;01;07;;;INGRESOS DE OPERACIÓN;1684050;0
+18;33;01;07;01;;Venta de Bienes;36050;0
+18;33;01;07;02;;Venta de Servicios;1648000;0
+18;33;01;08;;;OTROS INGRESOS CORRIENTES;1946583;0
+18;33;01;08;01;;Recuperaciones y Reembolsos por Licencias Médicas;245902;0
+18;33;01;08;02;;Multas y Sanciones Pecuniarias;88055;0
+18;33;01;08;99;;Otros;1612626;0
+18;33;01;09;;;APORTE FISCAL;476618473;0
+18;33;01;09;01;;Libre;476618473;0
+18;33;01;10;;;VENTA DE ACTIVOS NO FINANCIEROS;1177888;0
+18;33;01;10;01;;Terrenos;1074888;0
+18;33;01;10;99;;Otros Activos no Financieros;103000;0
+18;33;01;12;;;RECUPERACIÓN DE PRÉSTAMOS;3342800;0
+18;33;01;12;02;;Hipotecarios;3342800;0
+18;33;01;13;;;TRANSFERENCIAS PARA GASTOS DE CAPITAL;2215765;0
+18;33;01;13;03;;De Otras Entidades Públicas;2215765;0
+18;33;01;13;03;001;De Municipalidades para Pavimentos Participativos;2209968;0
+18;33;01;13;03;003;De Municipalidades para Programa Rehabilitación de Espacios Públicos;5797;0
+18;33;01;15;;;SALDO INICIAL DE CAJA;24000;0
+18;33;01;21;;;GASTOS EN PERSONAL;12897181;0
+18;33;01;22;;;BIENES Y SERVICIOS DE CONSUMO;1635513;0
+18;33;01;26;;;OTROS GASTOS CORRIENTES;10;0
+18;33;01;26;02;;Compensaciones por Daños a Terceros y/o a la Propiedad;10;0
+18;33;01;29;;;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS;82915;0
+18;33;01;29;04;;Mobiliario y Otros;32960;0
+18;33;01;29;05;;Máquinas y Equipos;49955;0
+18;33;01;31;;;INICIATIVAS DE INVERSIÓN;56615435;0
+18;33;01;31;02;;Proyectos;56615435;0
+18;33;01;32;;;PRÉSTAMOS;145449973;0
+18;33;01;32;02;;Hipotecarios;145449973;0
+18;33;01;32;02;003;Préstamos Subsidio Habitacional;145449973;0
+18;33;01;33;;;TRANSFERENCIAS DE CAPITAL;270594022;0
+18;33;01;33;01;;Al Sector Privado;270594022;0
+18;33;01;33;01;023;Subsidios Fondo Solidario de Vivienda;1491753;0
+18;33;01;33;01;025;Sistema Subsidio Habitacional;327;0
+18;33;01;33;01;028;Subsidio de Protección del Patrimonio Familiar;81357071;0
+18;33;01;33;01;127;Subsidios Leasing;809410;0
+18;33;01;33;01;132;Sistema Integrado de Subsidio;86163628;0
+18;33;01;33;01;133;Fondo Solidario de Elección de Vivienda;64365649;0
+18;33;01;33;01;136;Programa Habitacional Rural;869250;0
+18;33;01;33;01;137;Subsidio Extraordinario de Reactivación;35536934;0
+18;33;01;34;;;SERVICIO DE LA DEUDA;1960;0
+18;33;01;34;07;;Deuda Flotante;1960;0

@@ -4,8 +4,6 @@
 
 package com.ingenium.goby.budget.extraction;
 
-import com.ingenium.goby.extractors.DownloadException;
-
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -21,10 +19,10 @@ public class BudgetLawExtractorTest {
    */
   @Test
   public final void testExtract() {
-    BudgetLawExtractor ble = new BudgetLawExtractor();
+    BudgetLawExtractor ble = new BudgetLawExtractor("");
     try {
-      ble.download();
-    } catch (DownloadException e) {
+      ble.extract();
+    } catch (ExtractionException e) {
       Assert.fail("Algo falló"); // TODO
       e.printStackTrace();
     }

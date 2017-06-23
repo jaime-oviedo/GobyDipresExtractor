@@ -4,15 +4,15 @@
 
 package com.ingenium.goby.budget.extraction.merge;
 
+import com.ingenium.commons.util.DownloadException;
 import com.ingenium.goby.budget.elements.BudgetElementType;
-import com.ingenium.goby.extractors.DownloadException;
 
 import java.util.logging.Logger;
 
 /**
  * <!-- begin-UML-doc --> <!-- end-UML-doc -->
  * 
- * @author JaimeRodrigo
+ * @author joviedo
  * @uml.annotations derived_abstraction="platform:/resource/goby-design/goby-classifier-extractor.emx#_xiP9AEyIEeekuqvl4T6tsg"
  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_xiP9AEyIEeekuqvl4T6tsg"
  */

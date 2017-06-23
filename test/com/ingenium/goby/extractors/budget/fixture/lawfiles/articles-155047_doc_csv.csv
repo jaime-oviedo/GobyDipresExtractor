@@ -1,0 +1,33 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Denominación;Monto Pesos;Monto Dólar
+06;02;01;05;;;TRANSFERENCIAS CORRIENTES;103000;0
+06;02;01;05;02;;Del Gobierno Central;103000;0
+06;02;01;05;02;006;CORFO;103000;0
+06;02;01;07;;;INGRESOS DE OPERACIÓN;910458;0
+06;02;01;08;;;OTROS INGRESOS CORRIENTES;123983;106
+06;02;01;08;01;;Recuperaciones y Reembolsos por Licencias Médicas;123983;0
+06;02;01;08;99;;Otros;0;106
+06;02;01;09;;;APORTE FISCAL;13466888;10823
+06;02;01;09;01;;Libre;13225795;10823
+06;02;01;09;03;;Servicio de la Deuda Externa;241093;0
+06;02;01;11;;;VENTA DE ACTIVOS FINANCIEROS;-291900;417
+06;02;01;11;03;;Operaciones de Cambio;-291900;417
+06;02;01;21;;;GASTOS EN PERSONAL;10059092;6167
+06;02;01;22;;;BIENES Y SERVICIOS DE CONSUMO;1521135;713
+06;02;01;24;;;TRANSFERENCIAS CORRIENTES;2533879;3577
+06;02;01;24;03;;A Otras Entidades Públicas;2533879;3577
+06;02;01;24;03;552;Certificación de Origen;900472;0
+06;02;01;24;03;554;Negociaciones y Administración de Acuerdos;1437655;3161
+06;02;01;24;03;557;Defensa Comercial;132374;271
+06;02;01;24;03;560;Profundización Inserción Económica Asia;63368;145
+06;02;01;24;03;561;Programa de Defensa en Arbitrajes de Inversión Extranjera;10;0
+06;02;01;29;;;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS;165130;292
+06;02;01;29;04;;Mobiliario y Otros;14626;0
+06;02;01;29;05;;Máquinas y Equipos;19787;0
+06;02;01;29;06;;Equipos Informáticos;105564;0
+06;02;01;29;07;;Programas Informáticos;25153;292
+06;02;01;33;;;TRANSFERENCIAS DE CAPITAL;0;300
+06;02;01;33;01;;Al Sector Privado;0;300
+06;02;01;33;01;065;Fundación Chilena del Pacífico;0;300
+06;02;01;34;;;SERVICIO DE LA DEUDA;33193;297
+06;02;01;34;02;;Amortización Deuda Externa;0;297
+06;02;01;34;04;;Intereses Deuda Externa;33193;0

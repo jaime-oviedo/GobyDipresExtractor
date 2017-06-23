@@ -1,0 +1,82 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Denominación;Monto Pesos;Monto Dólar
+05;70;02;06;;;RENTAS DE LA PROPIEDAD;8834;0
+05;70;02;08;;;OTROS INGRESOS CORRIENTES;508796;0
+05;70;02;08;99;;Otros;508796;0
+05;70;02;09;;;APORTE FISCAL;32832005;0
+05;70;02;09;01;;Libre;32832005;0
+05;70;02;13;;;TRANSFERENCIAS PARA GASTOS DE CAPITAL;36070714;0
+05;70;02;13;02;;Del Gobierno Central;36070714;0
+05;70;02;13;02;003;Subsecretaría de Bienes Nacionales;739452;0
+05;70;02;13;02;004;Subsecretaría de Desarrollo Regional y Administrativo;4810227;0
+05;70;02;13;02;006;Tesoro Público Ley N° 19.143, Patentes Mineras;166444;0
+05;70;02;13;02;008;Tesoro Público Ley N°19.995, Casinos de Juegos;907340;0
+05;70;02;13;02;013;Tesoro Público Artículo 129 bis 19 Ley N° 20.017, Código de Aguas;3490923;0
+05;70;02;13;02;019;Fondo de Inversión y Reconversión Regional;1589872;0
+05;70;02;13;02;020;Tesoro Público Ley N°18.892, Patentes de Acuicultura;3841756;0
+05;70;02;13;02;030;Tesoro Público Ley N°20.378 - Fondo de Apoyo Regional (FAR);17121948;0
+05;70;02;13;02;032;Subsecretaría de Desarrollo Regional y Administrativo - Programas de Convergencia;3402752;0
+05;70;02;15;;;SALDO INICIAL DE CAJA;1000;0
+05;70;02;24;;;TRANSFERENCIAS CORRIENTES;6040950;0
+05;70;02;24;01;;Al Sector Privado;4753450;0
+05;70;02;24;01;001;Actividades Culturales;978500;0
+05;70;02;24;01;002;Subsidio Operación Sistema de Autogeneración Energía en Zonas Aisladas;1817950;0
+05;70;02;24;01;003;Actividades Deportivas;978500;0
+05;70;02;24;01;005;Actividades de Seguridad Ciudadana;978500;0
+05;70;02;24;03;;A Otras Entidades Públicas;1287500;0
+05;70;02;24;03;001;Municipalidades - Actividades Culturales;216300;0
+05;70;02;24;03;003;Municipalidades - Actividades Deportivas;247200;0
+05;70;02;24;03;004;Municipalidades - Subsidio Operación Sistema de Autogeneración de Energía en Zonas Aisladas;515000;0
+05;70;02;24;03;005;Municipalidades - Actividades de Seguridad Ciudadana;206000;0
+05;70;02;24;03;011;Otras Entidades Publicas - Actividades Culturales;41200;0
+05;70;02;24;03;013;Otras Entidades Públicas-Actividades Deportivas;10300;0
+05;70;02;24;03;015;Otras Entidades Públicas-Actividades de Seguridad Ciudadana;51500;0
+05;70;02;29;;;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS;5807334;0
+05;70;02;29;03;;Vehículos;2060000;0
+05;70;02;29;04;;Mobiliario y Otros;721000;0
+05;70;02;29;05;;Máquinas y Equipos;3026334;0
+05;70;02;31;;;INICIATIVAS DE INVERSIÓN;41179838;0
+05;70;02;31;01;;Estudios Básicos;103000;0
+05;70;02;31;02;;Proyectos;40994438;0
+05;70;02;31;03;;Programas de Inversión;82400;0
+05;70;02;32;;;PRÉSTAMOS;0,001;0
+05;70;02;32;06;;Por Anticipos a Contratistas;0,001;0
+05;70;02;32;06;001;Anticipos a Contratistas;800000;0
+05;70;02;32;06;002;Recuperación de Anticipos a Contratistas;-800000;0
+05;70;02;33;;;TRANSFERENCIAS DE CAPITAL;16392227;0
+05;70;02;33;01;;Al Sector Privado;712945;0
+05;70;02;33;01;010;Aplicación Letra a) Artículo Cuarto Transitorio Ley N° 20.378;712945;0
+05;70;02;33;03;;A Otras Entidades Públicas;15679282;0
+05;70;02;33;03;100;Municipalidades (Programa Mejoramiento de Barrios);1030000;0
+05;70;02;33;03;125;Municipalidades (Fondo Regional de Iniciativa Local);6180000;0
+05;70;02;33;03;204;SECRETARÍA REGIONAL MINISTERIAL DEL MEDIO AMBIENTE - Transf. Educ. para la implementación Buenas Prácticas Ambientales Osorno (30136293-0);136406;0
+05;70;02;33;03;205;SECRETARÍA REGIONAL MINISTERIAL DEL MEDIO AMBIENTE - Transf. Recambio Calefactores para la ciudad de Osorno (30136269-0);140679;0
+05;70;02;33;03;206;INDAP - Trans. Programa Inv. Prod. en Familias Usuarias de Prog. de Asesorías INDAP (30137060-0);1030000;0
+05;70;02;33;03;234;INDAP-Capacitación Asesoría Técnica en Turismo Rural Pequeños Agricultores (30136317-0);48925;0
+05;70;02;33;03;235;SERNAM-Fondo de Apoyo a la Creación y Desarrollo del Emprendimiento Femenino (30126939-0);219472;0
+05;70;02;33;03;237;SEREMI AGRICULTURA-Transferencia Desarrollo Negocio Asociativo Ganadero en Agricultura Familiar Campesina (30325327-0);79825;0
+05;70;02;33;03;238;SERNAPESCA-Programa de Fomento y Desarrollo de la Pesca Artesanal Región de Los Lagos 2014-2016 (30343724-0);329600;0
+05;70;02;33;03;239;SUBPESCA-Programa de Fomento y Desarrollo de la Pesca Artesanal Región de Los Lagos 2014-2016 (30343724-0);412000;0
+05;70;02;33;03;241;SERNATUR-Desarrollo del Turismo de Intereses Especiales en Territorio Patagonia Verde (30337226-0);328313;0
+05;70;02;33;03;242;MINISTERIO DEL MEDIO AMBIENTE-Aplicación de un Modelo de Gestión para el Manejo y Uso Sustentable del Territorio Noroeste de Chiloé (30136320-0);199202;0
+05;70;02;33;03;244;SERCOTEC-Capacitación Centro de Emprendimiento Chaitén (30342023-0);51652;0
+05;70;02;33;03;245;SERCOTEC-Inversión en la MIPE del Mejillón Chileno (30135459-0);258839;0
+05;70;02;33;03;247;SERNATUR - Transferencia Gestión del Territorio Turístico, Región de Los Lagos (30342025-0);216300;0
+05;70;02;33;03;248;SERCOTEC - Transferencia Mejoramiento de la Productividad en Áreas de Manejo II (30349427-0);139256;0
+05;70;02;33;03;251;CORFO - Trasferencia Desarrollo Sustentable Destino Turístico Patagonia Verde (30342073-0);292263;0
+05;70;02;33;03;252;CORFO - Transferencia PDT Pecuario Bovino y Agroindustrial  Prov. Palena y Cochamó (30342022-0);50341;0
+05;70;02;33;03;264;CORFO - Transferencia Fortalecer la Pesca Artesanal Chaitén, Hualaihué,  Cochamó (30341732-0);96048;0
+05;70;02;33;03;265;INDAP - Transferencia Asesoría Especializada Consolidación Tenencia Tierra En AFC (30341329-0);93398;0
+05;70;02;33;03;266;INDAP - Transferencia y Asesoría  Técnica En Turismo Rural II Etapa (30341325-0);90125;0
+05;70;02;33;03;267;INDAP - Transferencia Fortalecimiento y Competitividad de la Artesanía (30341323-0);50470;0
+05;70;02;33;03;268;INDAP - Transferencia Programa Regularización Derechos Aprovechamientos de Agua (30341275-0);50985;0
+05;70;02;33;03;269;INDAP - Transferencia Obras Menores de Riego y Suministro de Agua AFC (30341233-0);309000;0
+05;70;02;33;03;270;SEREMI AGRICULTURA - Transferencia Adopción Tecnológica Desarrollo Capital Humano AFC, Chaitén (30326872-0);15450;0
+05;70;02;33;03;271;SERCOTEC - Transferencia Fortalecimiento Micro y Pequeña Empresa Patagonia Verde (30345125-0);272950;0
+05;70;02;33;03;272;CONADI - Transferencia Apoyo a la Competitividad Productores Mapuche Williche (30363825-0);386250;0
+05;70;02;33;03;273;SENCE - Capacitación núcleos gestores territorios PIRDT (30405874-0);125660;0
+05;70;02;33;03;274;FOSIS - Fomento productivo asociativo 2 (30364279-0);515000;0
+05;70;02;33;03;275;Comisión Nacional de Riego - Programa integral de riego Región de Los Lagos 2016-2018 (30434988-0);515000;0
+05;70;02;33;03;277;SUBPESCA - Capital semilla ejes productivos provincia de Palena (30398531-0);154500;0
+05;70;02;33;03;999;Provisión FIC (Sin Distribuir);1861373;0
+05;70;02;34;;;SERVICIO DE LA DEUDA;1000;0
+05;70;02;34;07;;Deuda Flotante;1000;0

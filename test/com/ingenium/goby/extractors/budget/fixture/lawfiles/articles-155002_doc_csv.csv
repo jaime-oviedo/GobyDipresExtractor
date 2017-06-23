@@ -1,0 +1,36 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Denominación;Monto Pesos;Monto Dólar
+05;05;05;09;;;APORTE FISCAL;95106351;0
+05;05;05;09;01;;Libre;95106351;0
+05;05;05;13;;;TRANSFERENCIAS PARA GASTOS DE CAPITAL;75721310;0
+05;05;05;13;02;;Del Gobierno Central;75721310;0
+05;05;05;13;02;006;Subsecretaría de Educación;27536508;0
+05;05;05;13;02;080;Tesoro Público Ley N°20.378 - Fondo de Apoyo Regional (FAR);42230000;0
+05;05;05;13;02;081;Subsecretaría de Energía - Programa 04;5954802;0
+05;05;05;33;;;TRANSFERENCIAS DE CAPITAL;170827661;0
+05;05;05;33;02;;Al Gobierno Central;27536508;0
+05;05;05;33;02;001;Programa Inversión Regional Región I;351598;0
+05;05;05;33;02;002;Programa Inversión Regional Región II;3348554;0
+05;05;05;33;02;003;Programa Inversión Regional Región III;412000;0
+05;05;05;33;02;004;Programa Inversión Regional Región IV;3206646;0
+05;05;05;33;02;005;Programa Inversión Regional Región V;412000;0
+05;05;05;33;02;006;Programa Inversión Regional Región VI;412000;0
+05;05;05;33;02;007;Programa Inversión Regional Región VII;810992;0
+05;05;05;33;02;008;Programa Inversión Regional Región VIII;3678669;0
+05;05;05;33;02;009;Programa Inversión Regional Región IX;4216269;0
+05;05;05;33;02;010;Programa Inversión Regional Región X;4810227;0
+05;05;05;33;02;011;Programa Inversión Regional Región XI;2743226;0
+05;05;05;33;02;012;Programa Inversión Regional Región XII;412000;0
+05;05;05;33;02;013;Programa Inversión Regional Región Metropolitana;1021899;0
+05;05;05;33;02;014;Programa Inversión Regional Región XIV;1155307;0
+05;05;05;33;02;015;Programa Inversión Regional Región XV;545121;0
+05;05;05;33;03;;A Otras Entidades Públicas;143291153;0
+05;05;05;33;03;001;Provisión Fondo Nacional de Desarrollo Regional;48673002;0
+05;05;05;33;03;017;Provisión Programa Infraestructura Rural;4099377;0
+05;05;05;33;03;021;Provisión Puesta en Valor del Patrimonio;7301933;0
+05;05;05;33;03;025;Provisión de Apoyo a la Gestión Subnacional;3403241;0
+05;05;05;33;03;130;Provisión Saneamiento Sanitario;11560625;0
+05;05;05;33;03;190;Provisión Programa Residuos Sólidos;5775278;0
+05;05;05;33;03;418;Provisión Ley N°20.378 - Fondo de Apoyo Regional (FAR);42230000;0
+05;05;05;33;03;421;Provisión Regularización Mayores Ingresos Propios;5820230;0
+05;05;05;33;03;426;Provisión Energización;11183790;0
+05;05;05;33;03;429;Provisión Recuperación Daños por Catástrofes;3243677;0

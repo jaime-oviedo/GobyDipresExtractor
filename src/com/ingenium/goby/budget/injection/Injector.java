@@ -7,7 +7,7 @@ package com.ingenium.goby.budget.injection;
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
- * @author JaimeRodrigo
+ * @author joviedo
  * @uml.annotations
  *     derived_abstraction="platform:/resource/goby-design/goby-classifier-extractor.emx#_kNOmUFdBEee4ttLK_7FK1A"
  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_kNOmUFdBEee4ttLK_7FK1A"
@@ -20,7 +20,7 @@ public interface Injector {
   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_oqc_kFdBEee4ttLK_7FK1A"
   */
   public void inject() throws InjectionException;
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->

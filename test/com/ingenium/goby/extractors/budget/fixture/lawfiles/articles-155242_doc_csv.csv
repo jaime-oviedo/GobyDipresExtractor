@@ -1,0 +1,43 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Denominación;Monto Pesos;Monto Dólar
+18;22;01;06;;;RENTAS DE LA PROPIEDAD;26780;0
+18;22;01;06;01;;Arriendo de Activos No Financieros;26780;0
+18;22;01;07;;;INGRESOS DE OPERACIÓN;58710;0
+18;22;01;07;01;;Venta de Bienes;2060;0
+18;22;01;07;02;;Venta de Servicios;56650;0
+18;22;01;08;;;OTROS INGRESOS CORRIENTES;51087;0
+18;22;01;08;01;;Recuperaciones y Reembolsos por Licencias Médicas;42766;0
+18;22;01;08;99;;Otros;8321;0
+18;22;01;09;;;APORTE FISCAL;52424673;0
+18;22;01;09;01;;Libre;52424673;0
+18;22;01;10;;;VENTA DE ACTIVOS NO FINANCIEROS;1725620;0
+18;22;01;10;01;;Terrenos;1725620;0
+18;22;01;13;;;TRANSFERENCIAS PARA GASTOS DE CAPITAL;6962474;0
+18;22;01;13;02;;Del Gobierno Central;6652513;0
+18;22;01;13;02;001;Gobierno Regional Región II Antofagasta;6652513;0
+18;22;01;13;03;;De Otras Entidades Públicas;309961;0
+18;22;01;13;03;001;De Municipalidades para Pavimentos Participativos;294360;0
+18;22;01;13;03;003;De Municipalidades para Programa Rehabilitación de Espacios Públicos;15601;0
+18;22;01;15;;;SALDO INICIAL DE CAJA;23000;0
+18;22;01;21;;;GASTOS EN PERSONAL;2555433;0
+18;22;01;22;;;BIENES Y SERVICIOS DE CONSUMO;370804;0
+18;22;01;26;;;OTROS GASTOS CORRIENTES;10;0
+18;22;01;26;02;;Compensaciones por Daños a Terceros y/o a la Propiedad;10;0
+18;22;01;29;;;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS;11330;0
+18;22;01;29;04;;Mobiliario y Otros;6695;0
+18;22;01;29;05;;Máquinas y Equipos;4635;0
+18;22;01;31;;;INICIATIVAS DE INVERSIÓN;23414402;0
+18;22;01;31;02;;Proyectos;23414402;0
+18;22;01;32;;;PRÉSTAMOS;15047193;0
+18;22;01;32;02;;Hipotecarios;15047193;0
+18;22;01;32;02;003;Préstamos Subsidio Habitacional;15047193;0
+18;22;01;33;;;TRANSFERENCIAS DE CAPITAL;19872709;0
+18;22;01;33;01;;Al Sector Privado;19872709;0
+18;22;01;33;01;023;Subsidios Fondo Solidario de Vivienda;36478;0
+18;22;01;33;01;028;Subsidio de Protección del Patrimonio Familiar;4774124;0
+18;22;01;33;01;127;Subsidios Leasing;25680;0
+18;22;01;33;01;132;Sistema Integrado de Subsidio;3404812;0
+18;22;01;33;01;133;Fondo Solidario de Elección de Vivienda;10361084;0
+18;22;01;33;01;136;Programa Habitabilidad Rural;313563;0
+18;22;01;33;01;137;Subsidio Extraordinario de Reactivación;956968;0
+18;22;01;34;;;SERVICIO DE LA DEUDA;463;0
+18;22;01;34;07;;Deuda Flotante;463;0

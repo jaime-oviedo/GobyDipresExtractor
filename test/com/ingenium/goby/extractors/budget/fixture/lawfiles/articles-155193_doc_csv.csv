@@ -1,0 +1,81 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Denominación;Monto Pesos;Monto Dólar
+16;09;01;05;;;TRANSFERENCIAS CORRIENTES;182725912;0
+16;09;01;05;02;;Del Gobierno Central;182725912;0
+16;09;01;05;02;001;Fondo Nacional de Salud;112170242;0
+16;09;01;05;02;012;Instituto de Salud Pública de Chile;1;0
+16;09;01;05;02;015;Instituto de Seguridad Laboral;11816023;0
+16;09;01;05;02;022;Fondo Unico de Prestaciones Familiares y Subsidios de Cesantía;58739646;0
+16;09;01;07;;;INGRESOS DE OPERACIÓN;19096520;0
+16;09;01;08;;;OTROS INGRESOS CORRIENTES;4950634;0
+16;09;01;08;01;;Recuperaciones y Reembolsos por Licencias Médicas;1540098;0
+16;09;01;08;02;;Multas y Sanciones Pecuniarias;3066043;0
+16;09;01;08;99;;Otros;344493;0
+16;09;01;09;;;APORTE FISCAL;227143101;0
+16;09;01;09;01;;Libre;227143101;0
+16;09;01;12;;;RECUPERACIÓN DE PRÉSTAMOS;136140;0
+16;09;01;12;10;;Ingresos por Percibir;136140;0
+16;09;01;15;;;SALDO INICIAL DE CAJA;4620;0
+16;09;01;21;;;GASTOS EN PERSONAL;88826710;0
+16;09;01;22;;;BIENES Y SERVICIOS DE CONSUMO;39787894;0
+16;09;01;23;;;PRESTACIONES DE SEGURIDAD SOCIAL;175562874;0
+16;09;01;23;01;;Prestaciones Previsionales;116823228;0
+16;09;01;23;01;010;Subsidios de Reposo Preventivo;18384;0
+16;09;01;23;01;011;Subsidios de Enfermedad y Medicina Curativa;105092467;0
+16;09;01;23;01;012;Subsidios por Accidentes del Trabajo;4652986;0
+16;09;01;23;01;013;Subsidios de Reposo Maternal, Artículo 196 Código del Trabajo;7059391;0
+16;09;01;23;02;;Prestaciones de Asistencia Social;58739646;0
+16;09;01;23;02;005;Subsidios de Reposo Maternal y Cuidado del Niño;58739646;0
+16;09;01;24;;;TRANSFERENCIAS CORRIENTES;126626939;0
+16;09;01;24;01;;Al Sector Privado;109549878;0
+16;09;01;24;01;003;Programa Nacional de Alimentación Complementaria;45613420;0
+16;09;01;24;01;004;Programa Ampliado de Inmunizaciones;39973143;0
+16;09;01;24;01;007;Programa de Alimentación Complementaria para el Adulto Mayor;23963315;0
+16;09;01;24;02;;Al Gobierno Central;9658482;0
+16;09;01;24;02;001;Servicio de Salud Arica;1481615;0
+16;09;01;24;02;002;Servicio de Salud Iquique;269344;0
+16;09;01;24;02;003;Servicio de Salud Antofagasta;379350;0
+16;09;01;24;02;004;Servicio de Salud Atacama;289746;0
+16;09;01;24;02;005;Servicio de Salud Coquimbo;426247;0
+16;09;01;24;02;006;Servicio de Salud Valparaíso - San Antonio;264133;0
+16;09;01;24;02;007;Servicio de Salud Viña del Mar - Quillota;419757;0
+16;09;01;24;02;008;Servicio de Salud Aconcagua;191523;0
+16;09;01;24;02;009;Servicio de Salud Libertador General Bernardo O'Higgins;411672;0
+16;09;01;24;02;010;Servicio de Salud Maule;340857;0
+16;09;01;24;02;011;Servicio de Salud Ñuble;342060;0
+16;09;01;24;02;012;Servicio de Salud Concepción;369243;0
+16;09;01;24;02;013;Servicio de Salud Talcahuano;130803;0
+16;09;01;24;02;014;Servicio de Salud Bío - Bío;149179;0
+16;09;01;24;02;015;Servicio de Salud Arauco;92701;0
+16;09;01;24;02;016;Servicio de Salud Araucanía Norte;175263;0
+16;09;01;24;02;017;Servicio de Salud Araucanía Sur;297211;0
+16;09;01;24;02;018;Servicio de Salud Valdivia;169153;0
+16;09;01;24;02;019;Servicio de Salud Osorno;184549;0
+16;09;01;24;02;020;Servicio de Salud del Reloncaví;374574;0
+16;09;01;24;02;021;Servicio de Salud Aysén del General Carlos Ibáñez del Campo;104107;0
+16;09;01;24;02;022;Servicio de Salud Magallanes;202726;0
+16;09;01;24;02;023;Servicio de Salud Metropolitano Oriente;293003;0
+16;09;01;24;02;024;Servicio de Salud Metropolitano Central;368081;0
+16;09;01;24;02;025;Servicio de Salud Metropolitano Sur;416381;0
+16;09;01;24;02;026;Servicio de Salud Metropolitano Norte;585108;0
+16;09;01;24;02;027;Servicio de Salud Metropolitano Occidente;447017;0
+16;09;01;24;02;028;Servicio de Salud Metropolitano Sur - Oriente;299132;0
+16;09;01;24;02;038;Hospital Padre Alberto Hurtado;447;0
+16;09;01;24;02;039;Centro de Referencia de Salud de Maipú;431;0
+16;09;01;24;02;041;Centro de Referencia de Salud de Peñalolén Cordillera Oriente;91;0
+16;09;01;24;02;042;Servicio de Salud Chiloé;182978;0
+16;09;01;24;03;;A Otras Entidades Públicas;7418579;0
+16;09;01;24;03;299;Programas Especiales, Atención Primaria;4066782;0
+16;09;01;24;03;397;Programa de Enfermedades Emergentes;2830158;0
+16;09;01;24;03;421;Fondo Nacional de Investigación y Desarrollo en Salud;521639;0
+16;09;01;26;;;OTROS GASTOS CORRIENTES;231614;0
+16;09;01;26;01;;Devoluciones;115807;0
+16;09;01;26;02;;Compensaciones por Daños a Terceros y/o a la Propiedad;115807;0
+16;09;01;29;;;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS;3013276;0
+16;09;01;29;03;;Vehículos;103000;0
+16;09;01;29;04;;Mobiliario y Otros;180092;0
+16;09;01;29;05;;Máquinas y Equipos;1780987;0
+16;09;01;29;06;;Equipos Informáticos;320632;0
+16;09;01;29;07;;Programas Informáticos;628565;0
+16;09;01;34;;;SERVICIO DE LA DEUDA;3000;0
+16;09;01;34;07;;Deuda Flotante;3000;0
+16;09;01;35;;;SALDO FINAL DE CAJA;4620;0

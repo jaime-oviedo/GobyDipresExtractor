@@ -1,0 +1,14 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Denominación;Monto Pesos;Monto Dólar
+50;01;08;06;;;RENTAS DE LA PROPIEDAD;10;23684
+50;01;08;06;03;;Intereses;10;23684
+50;01;08;06;03;061;Intereses;10;23684
+50;01;08;11;;;VENTA DE ACTIVOS FINANCIEROS;20;999990
+50;01;08;11;01;;Venta o Rescate de Títulos y Valores;10;1000000
+50;01;08;11;03;;Operaciones de Cambio;10;-10
+50;01;08;22;;;BIENES Y SERVICIOS DE CONSUMO;0;10
+50;01;08;24;;;TRANSFERENCIAS CORRIENTES;10;1000000
+50;01;08;24;02;;Al Gobierno Central;10;1000000
+50;01;08;24;02;071;A Ingresos Generales de la Nación;10;1000000
+50;01;08;30;;;ADQUISICIÓN DE ACTIVOS FINANCIEROS;20;23664
+50;01;08;30;01;;Compra de Títulos y Valores;10;23654
+50;01;08;30;99;;Otros Activos Financieros;10;10

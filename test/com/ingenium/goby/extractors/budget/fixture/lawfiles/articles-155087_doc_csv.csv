@@ -1,0 +1,25 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Denominación;Monto Pesos;Monto Dólar
+09;01;02;08;;;OTROS INGRESOS CORRIENTES;11904;0
+09;01;02;08;01;;Recuperaciones y Reembolsos por Licencias Médicas;5952;0
+09;01;02;08;99;;Otros;5952;0
+09;01;02;09;;;APORTE FISCAL;38607551;0
+09;01;02;09;01;;Libre;38607551;0
+09;01;02;15;;;SALDO INICIAL DE CAJA;1000;0
+09;01;02;21;;;GASTOS EN PERSONAL;2032189;0
+09;01;02;22;;;BIENES Y SERVICIOS DE CONSUMO;544806;0
+09;01;02;24;;;TRANSFERENCIAS CORRIENTES;961539;0
+09;01;02;24;03;;A Otras Entidades Públicas;961539;0
+09;01;02;24;03;002;Aporte Establecimientos DFL (Ed.) N°2, de 1998;961539;0
+09;01;02;29;;;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS;1944928;0
+09;01;02;29;05;;Máquinas y Equipos;1944928;0
+09;01;02;31;;;INICIATIVAS DE INVERSIÓN;4587609;0
+09;01;02;31;02;;Proyectos;4587609;0
+09;01;02;33;;;TRANSFERENCIAS DE CAPITAL;28547384;0
+09;01;02;33;02;;Al Gobierno Central;27536508;0
+09;01;02;33;02;001;Subsecretaría de Desarrollo Regional y Administrativo - Programa 05;27536508;0
+09;01;02;33;03;;A Otras Entidades Públicas;1010876;0
+09;01;02;33;03;002;Equipamiento de Establecimientos de Educación Técnico Profesional;341747;0
+09;01;02;33;03;024;Aporte Suplementario por Costo de Capital Adicional;669129;0
+09;01;02;34;;;SERVICIO DE LA DEUDA;1000;0
+09;01;02;34;07;;Deuda Flotante;1000;0
+09;01;02;35;;;SALDO FINAL DE CAJA;1000;0

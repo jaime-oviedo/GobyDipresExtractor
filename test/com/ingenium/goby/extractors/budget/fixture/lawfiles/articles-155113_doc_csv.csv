@@ -1,0 +1,15 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Denominación;Monto Pesos;Monto Dólar
+09;16;02;09;;;APORTE FISCAL;35968938;0
+09;16;02;09;01;;Libre;35968938;0
+09;16;02;15;;;SALDO INICIAL DE CAJA;1000;0
+09;16;02;21;;;GASTOS EN PERSONAL;2314473;0
+09;16;02;22;;;BIENES Y SERVICIOS DE CONSUMO;545413;0
+09;16;02;24;;;TRANSFERENCIAS CORRIENTES;33108052;0
+09;16;02;24;03;;A Otras Entidades Públicas;33108052;0
+09;16;02;24;03;094;Fondo Nacional de Fomento del Libro y la Lectura, Ley N° 19.227;6815204;0
+09;16;02;24;03;097;Fondo Nacional de Desarrollo Cultural y las Artes, Ley N° 19.891;13266671;0
+09;16;02;24;03;520;Fondo para el Fomento de la Música Nacional, Ley N° 19.928;4870889;0
+09;16;02;24;03;521;Fondo de Fomento Audiovisual, Ley N° 19.981;8155288;0
+09;16;02;34;;;SERVICIO DE LA DEUDA;1000;0
+09;16;02;34;07;;Deuda Flotante;1000;0
+09;16;02;35;;;SALDO FINAL DE CAJA;1000;0

@@ -1,0 +1,62 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Denominación;Monto Pesos;Monto Dólar
+05;72;02;06;;;RENTAS DE LA PROPIEDAD;14968;0
+05;72;02;08;;;OTROS INGRESOS CORRIENTES;491873;0
+05;72;02;08;99;;Otros;491873;0
+05;72;02;09;;;APORTE FISCAL;21577122;0
+05;72;02;09;01;;Libre;21577122;0
+05;72;02;13;;;TRANSFERENCIAS PARA GASTOS DE CAPITAL;22804019;0
+05;72;02;13;01;;Del Sector Privado;1476223;0
+05;72;02;13;01;001;Concesión Zona Franca de Punta Arenas;1476223;0
+05;72;02;13;02;;Del Gobierno Central;21327796;0
+05;72;02;13;02;003;Subsecretaría de Bienes Nacionales;283196;0
+05;72;02;13;02;004;Subsecretaría de Desarrollo Regional y Administrativo;412000;0
+05;72;02;13;02;006;Tesoro Público Ley N° 19.143, Patentes Mineras;207526;0
+05;72;02;13;02;008;Tesoro Público Ley N°19.995, Casinos de Juegos;1481222;0
+05;72;02;13;02;013;Tesoro Público Artículo 129 bis 19 Ley N° 20.017, Código de Aguas;33499;0
+05;72;02;13;02;019;Fondo de Inversión y Reconversión Regional;1792498;0
+05;72;02;13;02;020;Tesoro Público Ley N°18.892, Patentes de Acuicultura;557231;0
+05;72;02;13;02;030;Tesoro Público Ley N°20.378 - Fondo de Apoyo Regional (FAR);11074775;0
+05;72;02;13;02;032;Subsecretaría de Desarrollo Regional y Administrativo - Programas de Convergencia;5485849;0
+05;72;02;15;;;SALDO INICIAL DE CAJA;1000;0
+05;72;02;24;;;TRANSFERENCIAS CORRIENTES;2355297;0
+05;72;02;24;01;;Al Sector Privado;1442000;0
+05;72;02;24;01;001;Actividades Culturales;463500;0
+05;72;02;24;01;003;Actividades Deportivas;463500;0
+05;72;02;24;01;005;Actividades de Seguridad Ciudadana;10300;0
+05;72;02;24;01;017;Actividades Sociales;504700;0
+05;72;02;24;03;;A Otras Entidades Públicas;913297;0
+05;72;02;24;03;001;Municipalidades - Actividades Culturales;187030;0
+05;72;02;24;03;003;Municipalidades - Actividades Deportivas;159430;0
+05;72;02;24;03;004;Municipalidades-Subsidio Operación de Sistemas de Autogeneración de Energía en Zonas Aisladas;22173;0
+05;72;02;24;03;005;Municipalidades - Actividades de Seguridad Ciudadana;23148;0
+05;72;02;24;03;011;Otras Entidades Públicas - Actividades Culturales;125996;0
+05;72;02;24;03;013;Otras Entidades Públicas - Actividades Deportivas;58159;0
+05;72;02;24;03;015;Otras Entidades Públicas - Actividades de Seguridad Ciudadana;30340;0
+05;72;02;24;03;017;Municipalidades-Actividades Sociales;177996;0
+05;72;02;24;03;018;Otras Entidades Públicas - Actividades Sociales;129025;0
+05;72;02;29;;;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS;1085571;0
+05;72;02;29;03;;Vehículos;762213;0
+05;72;02;29;05;;Máquinas y Equipos;323358;0
+05;72;02;31;;;INICIATIVAS DE INVERSIÓN;33603668;0
+05;72;02;31;01;;Estudios Básicos;549669;0
+05;72;02;31;02;;Proyectos;32680720;0
+05;72;02;31;03;;Programas de Inversión;373279;0
+05;72;02;32;;;PRÉSTAMOS;0,001;0
+05;72;02;32;06;;Por Anticipos a Contratistas;0,001;0
+05;72;02;32;06;001;Anticipos a Contratistas;800000;0
+05;72;02;32;06;002;Recuperación de Anticipos a Contratistas;-800000;0
+05;72;02;33;;;TRANSFERENCIAS DE CAPITAL;7843446;0
+05;72;02;33;01;;Al Sector Privado;515000;0
+05;72;02;33;01;010;Aplicación Letra a) Artículo Cuarto Transitorio Ley N°20.378;515000;0
+05;72;02;33;02;;Al Gobierno Central;1620492;0
+05;72;02;33;02;010;Subsecretaría de Energía;246314;0
+05;72;02;33;02;011;FOSIS - Programa de Desarrollo Social;1374178;0
+05;72;02;33;03;;A Otras Entidades Públicas;5707954;0
+05;72;02;33;03;125;Municipalidades (Fondo Regional de Iniciativa Local);3605000;0
+05;72;02;33;03;221;CONICYT-Transferencia Científica y Tecnológica para el Desarrollo Sustentable, XII Región. (30240972-0);345050;0
+05;72;02;33;03;228;SERNAC-Capacitación programa escolar en educación financiera, XII región (30392529-0);141707;0
+05;72;02;33;03;229;SEREMI Bienes Nacionales - Saneamiento de títulos de dominio rural (30450172-0);43114;0
+05;72;02;33;03;643;SERNATUR - Capacitación y conciencia turísticas para la comunidad y trabajadores (30096436-0 );28310;0
+05;72;02;33;03;999;Provisión FIC (Sin Distribuir);1544773;0
+05;72;02;34;;;SERVICIO DE LA DEUDA;1000;0
+05;72;02;34;07;;Deuda Flotante;1000;0

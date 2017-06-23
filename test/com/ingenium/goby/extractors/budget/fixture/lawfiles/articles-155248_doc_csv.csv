@@ -1,0 +1,43 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Denominación;Monto Pesos;Monto Dólar
+18;28;01;06;;;RENTAS DE LA PROPIEDAD;123600;0
+18;28;01;06;01;;Arriendo de Activos No Financieros;123600;0
+18;28;01;07;;;INGRESOS DE OPERACIÓN;166860;0
+18;28;01;07;02;;Venta de Servicios;166860;0
+18;28;01;08;;;OTROS INGRESOS CORRIENTES;360514;0
+18;28;01;08;01;;Recuperaciones y Reembolsos por Licencias Médicas;160371;0
+18;28;01;08;99;;Otros;200143;0
+18;28;01;09;;;APORTE FISCAL;255375806;0
+18;28;01;09;01;;Libre;255375806;0
+18;28;01;10;;;VENTA DE ACTIVOS NO FINANCIEROS;787379;0
+18;28;01;10;01;;Terrenos;787379;0
+18;28;01;12;;;RECUPERACIÓN DE PRÉSTAMOS;18564284;0
+18;28;01;12;02;;Hipotecarios;18564284;0
+18;28;01;13;;;TRANSFERENCIAS PARA GASTOS DE CAPITAL;663519;0
+18;28;01;13;03;;De Otras Entidades Públicas;663519;0
+18;28;01;13;03;001;De Municipalidades para Pavimentos Participativos;656817;0
+18;28;01;13;03;003;De Municipalidades para Programa Rehabilitación de Espacios Públicos;6702;0
+18;28;01;15;;;SALDO INICIAL DE CAJA;23000;0
+18;28;01;21;;;GASTOS EN PERSONAL;7195948;0
+18;28;01;22;;;BIENES Y SERVICIOS DE CONSUMO;745614;0
+18;28;01;26;;;OTROS GASTOS CORRIENTES;10;0
+18;28;01;26;02;;Compensaciones por Daños a Terceros y/o a la Propiedad;10;0
+18;28;01;29;;;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS;31724;0
+18;28;01;29;04;;Mobiliario y Otros;26780;0
+18;28;01;29;05;;Máquinas y Equipos;4944;0
+18;28;01;31;;;INICIATIVAS DE INVERSIÓN;59883317;0
+18;28;01;31;02;;Proyectos;59883317;0
+18;28;01;32;;;PRÉSTAMOS;69030998;0
+18;28;01;32;02;;Hipotecarios;69030998;0
+18;28;01;32;02;003;Préstamos Subsidio Habitacional;69030998;0
+18;28;01;33;;;TRANSFERENCIAS DE CAPITAL;139176073;0
+18;28;01;33;01;;Al Sector Privado;139176073;0
+18;28;01;33;01;023;Subsidios Fondo Solidario de Vivienda;3822529;0
+18;28;01;33;01;025;Sistema Subsidio Habitacional;7411;0
+18;28;01;33;01;028;Subsidio de Protección del Patrimonio Familiar;36860883;0
+18;28;01;33;01;127;Subsidios Leasing;89491;0
+18;28;01;33;01;132;Sistema Integrado de Subsidio;39043294;0
+18;28;01;33;01;133;Fondo Solidario de Elección de Vivienda;25253087;0
+18;28;01;33;01;136;Programa Habitabilidad Rural;3189718;0
+18;28;01;33;01;137;Subsidio Extraordinario de Reactivación;30909660;0
+18;28;01;34;;;SERVICIO DE LA DEUDA;1278;0
+18;28;01;34;07;;Deuda Flotante;1278;0

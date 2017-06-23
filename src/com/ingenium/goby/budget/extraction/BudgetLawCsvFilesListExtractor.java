@@ -4,9 +4,9 @@
 
 package com.ingenium.goby.budget.extraction;
 
+import com.ingenium.commons.util.DownloadException;
+import com.ingenium.commons.util.DownloaderImpl;
 import com.ingenium.goby.budget.Messages;
-import com.ingenium.goby.extractors.DownloadException;
-import com.ingenium.goby.extractors.DownloaderImpl;
 
 import java.io.BufferedWriter;
 import java.io.File;
@@ -21,31 +21,33 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
-/** 
+/**
  * <!-- begin-UML-doc -->
- * Clase&nbsp;que&nbsp;descarga&nbsp;la&nbsp;lista&nbsp;de&nbsp;archivos&nbsp;que&nbsp;contienen&nbsp;información&nbsp;de&nbsp;la&nbsp;Ley<br>de&nbsp;Presupuestos.<br><br>@author&nbsp;JaimeRodrigo
- * <!-- end-UML-doc -->
- * @author JaimeRodrigo
- * @uml.annotations
- *     derived_abstraction="platform:/resource/goby-design/goby-classifier-extractor.emx#_UXFjwEquEeeJsdrfgQXeQw"
+ * Clase&nbsp;que&nbsp;descarga&nbsp;la&nbsp;lista&nbsp;de&nbsp;archivos&nbsp;que&nbsp;contienen&nbsp;información&nbsp;de&nbsp;la&nbsp;Ley<br>
+ * de&nbsp;Presupuestos.<br>
+ * <br>
+ * @author&nbsp;JaimeRodrigo <!-- end-UML-doc -->
+ * 
+ * @author joviedo
+ * @uml.annotations derived_abstraction="platform:/resource/goby-design/goby-classifier-extractor.emx#_UXFjwEquEeeJsdrfgQXeQw"
  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UXFjwEquEeeJsdrfgQXeQw"
  */
 public class BudgetLawCsvFilesListExtractor extends DownloaderImpl {
-  
-  /** 
-  * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UdIhYEquEeeJsdrfgQXeQw"
-  */
+
+  /**
+   * <!-- begin-UML-doc --> <!-- end-UML-doc -->
+   * 
+   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UdIhYEquEeeJsdrfgQXeQw"
+   */
   private Collection<String> budgetFileList;
-  
-  /** 
-  * <!-- begin-UML-doc -->
-  * Crea&nbsp;una&nbsp;nueva&nbsp;instancia&nbsp;de&nbsp;BudgetFileListExtractor.
-  * <!-- end-UML-doc -->
-  * Crea una nueva instancia de la clase BudgetLawCsvFilesListExtractor.
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UdK9oEquEeeJsdrfgQXeQw"
-  */
+
+  /**
+   * <!-- begin-UML-doc -->
+   * Crea&nbsp;una&nbsp;nueva&nbsp;instancia&nbsp;de&nbsp;BudgetFileListExtractor. <!-- end-UML-doc
+   * -->
+   * 
+   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UdK9oEquEeeJsdrfgQXeQw"
+   */
   public BudgetLawCsvFilesListExtractor() {
     // begin-user-code
     super();
@@ -55,18 +57,18 @@ public class BudgetLawCsvFilesListExtractor extends DownloaderImpl {
     budgetFileList = new ArrayList<>();
     // end-user-code
   }
-  
+
   /*
    * (non-Javadoc)
    *
    * @see com.ingenium.goby.extractors.Extractor#extract()
    */
-  /** 
-  * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * @throws DownloadException
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UdMy0EquEeeJsdrfgQXeQw"
-  */
+  /**
+   * <!-- begin-UML-doc --> <!-- end-UML-doc -->
+   * 
+   * @throws DownloadException
+   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UdMy0EquEeeJsdrfgQXeQw"
+   */
   @Override
   public void download() throws DownloadException {
     // begin-user-code
@@ -91,22 +93,22 @@ public class BudgetLawCsvFilesListExtractor extends DownloaderImpl {
         outputStream.close();
       }
     }
-    
+
     // end-user-code
   }
-  
-  /** 
-  * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * @return
-  * @throws DownloadException
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UdQdMEquEeeJsdrfgQXeQw"
-  */
+
+  /**
+   * <!-- begin-UML-doc --> <!-- end-UML-doc -->
+   * 
+   * @return
+   * @throws DownloadException
+   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UdQdMEquEeeJsdrfgQXeQw"
+   */
   public Collection<String> getBudgetFileList() throws DownloadException {
     // begin-user-code
     download();
     return budgetFileList;
     // end-user-code
   }
-  
+
 }

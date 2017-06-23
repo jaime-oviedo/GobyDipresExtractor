@@ -1,0 +1,42 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Denominación;Monto Pesos;Monto Dólar
+15;05;01;05;;;TRANSFERENCIAS CORRIENTES;77349238;0
+15;05;01;05;02;;Del Gobierno Central;76965827;0
+15;05;01;05;02;008;Ingreso Ético Familiar y Sistema Chile Solidario;76965827;0
+15;05;01;05;03;;De Otras Entidades Públicas;383411;0
+15;05;01;05;03;007;Administradora del Fondo de Cesantía Solidario;383411;0
+15;05;01;07;;;INGRESOS DE OPERACIÓN;311996;0
+15;05;01;08;;;OTROS INGRESOS CORRIENTES;484927;0
+15;05;01;08;01;;Recuperaciones y Reembolsos por Licencias Médicas;215838;0
+15;05;01;08;02;;Multas y Sanciones Pecuniarias;98952;0
+15;05;01;08;99;;Otros;170137;0
+15;05;01;09;;;APORTE FISCAL;185720795;0
+15;05;01;09;01;;Libre;185622321;0
+15;05;01;09;03;;Servicio de la Deuda Externa;98474;0
+15;05;01;14;;;ENDEUDAMIENTO;1446594;0
+15;05;01;14;02;;Endeudamiento Externo;1446594;0
+15;05;01;15;;;SALDO INICIAL DE CAJA;263928;0
+15;05;01;21;;;GASTOS EN PERSONAL;14725657;0
+15;05;01;22;;;BIENES Y SERVICIOS DE CONSUMO;8604692;0
+15;05;01;24;;;TRANSFERENCIAS CORRIENTES;240656002;0
+15;05;01;24;01;;Al Sector Privado;237408913;0
+15;05;01;24;01;003;Becas;989975;0
+15;05;01;24;01;004;Bono de Capacitación para Micro y Pequeños Empresarios;1376518;0
+15;05;01;24;01;007;Programa Más Capaz;56904513;0
+15;05;01;24;01;011;Programa de Capacitación en Oficios;16660641;0
+15;05;01;24;01;090;Programa de Formación en el Puesto de Trabajo;1101214;0
+15;05;01;24;01;266;Programa de Intermediación Laboral;5469253;0
+15;05;01;24;01;270;Certificación de Competencias Laborales;1737104;0
+15;05;01;24;01;442;Seguros;184381;0
+15;05;01;24;01;453;Subsidio al Empleo, Ley N° 20.338;76019487;0
+15;05;01;24;01;454;Subsidio Empleo a la Mujer, Ley N° 20.595;76965827;0
+15;05;01;24;03;;A Otras Entidades Públicas;3221142;0
+15;05;01;24;03;257;Programa de Becas;3221142;0
+15;05;01;24;07;;A Organismos Internacionales;25947;0
+15;05;01;24;07;001;Organismos Internacionales;25947;0
+15;05;01;29;;;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS;1480653;0
+15;05;01;29;06;;Equipos Informáticos;530204;0
+15;05;01;29;07;;Programas Informáticos;950449;0
+15;05;01;34;;;SERVICIO DE LA DEUDA;100474;0
+15;05;01;34;04;;Intereses Deuda Externa;98474;0
+15;05;01;34;07;;Deuda Flotante;2000;0
+15;05;01;35;;;SALDO FINAL DE CAJA;10000;0

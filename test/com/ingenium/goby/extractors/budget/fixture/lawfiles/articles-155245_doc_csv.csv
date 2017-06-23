@@ -1,0 +1,40 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Denominación;Monto Pesos;Monto Dólar
+18;25;01;06;;;RENTAS DE LA PROPIEDAD;1236;0
+18;25;01;06;03;;Intereses;1236;0
+18;25;01;07;;;INGRESOS DE OPERACIÓN;416326;0
+18;25;01;07;02;;Venta de Servicios;416326;0
+18;25;01;08;;;OTROS INGRESOS CORRIENTES;698958;0
+18;25;01;08;01;;Recuperaciones y Reembolsos por Licencias Médicas;117605;0
+18;25;01;08;99;;Otros;581353;0
+18;25;01;09;;;APORTE FISCAL;185311803;0
+18;25;01;09;01;;Libre;185311803;0
+18;25;01;13;;;TRANSFERENCIAS PARA GASTOS DE CAPITAL;1984491;0
+18;25;01;13;03;;De Otras Entidades Públicas;1984491;0
+18;25;01;13;03;001;De Municipalidades para Pavimentos Participativos;1979135;0
+18;25;01;13;03;003;De Municipalidades para Programa Rehabilitación de Espacios Públicos;5356;0
+18;25;01;15;;;SALDO INICIAL DE CAJA;23000;0
+18;25;01;21;;;GASTOS EN PERSONAL;4789950;0
+18;25;01;22;;;BIENES Y SERVICIOS DE CONSUMO;690668;0
+18;25;01;26;;;OTROS GASTOS CORRIENTES;10;0
+18;25;01;26;02;;Compensaciones por Daños a Terceros y/o a la Propiedad;10;0
+18;25;01;29;;;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS;187666;0
+18;25;01;29;02;;Edificios;152646;0
+18;25;01;29;04;;Mobiliario y Otros;20600;0
+18;25;01;29;05;;Máquinas y Equipos;14420;0
+18;25;01;31;;;INICIATIVAS DE INVERSIÓN;41283218;0
+18;25;01;31;02;;Proyectos;41283218;0
+18;25;01;32;;;PRÉSTAMOS;46845950;0
+18;25;01;32;02;;Hipotecarios;46845950;0
+18;25;01;32;02;003;Préstamos Subsidio Habitacional;46845950;0
+18;25;01;33;;;TRANSFERENCIAS DE CAPITAL;94638016;0
+18;25;01;33;01;;Al Sector Privado;94638016;0
+18;25;01;33;01;023;Subsidios Fondo Solidario de Vivienda;1531539;0
+18;25;01;33;01;025;Sistema Subsidio Habitacional;1061;0
+18;25;01;33;01;028;Subsidio de Protección del Patrimonio Familiar;22936253;0
+18;25;01;33;01;127;Subsidios Leasing;120107;0
+18;25;01;33;01;132;Sistema Integrado de Subsidio;34508742;0
+18;25;01;33;01;133;Fondo Solidario de Elección de Vivienda;17378645;0
+18;25;01;33;01;136;Programa Habitabilidad Rural;1035935;0
+18;25;01;33;01;137;Subsidio Extraordinario de Reactivación;17125734;0
+18;25;01;34;;;SERVICIO DE LA DEUDA;336;0
+18;25;01;34;07;;Deuda Flotante;336;0

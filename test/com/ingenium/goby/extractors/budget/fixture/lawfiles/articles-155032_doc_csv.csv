@@ -1,0 +1,65 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Denominación;Monto Pesos;Monto Dólar
+05;69;02;08;;;OTROS INGRESOS CORRIENTES;240741;0
+05;69;02;08;99;;Otros;240741;0
+05;69;02;09;;;APORTE FISCAL;46579457;0
+05;69;02;09;01;;Libre;46579457;0
+05;69;02;13;;;TRANSFERENCIAS PARA GASTOS DE CAPITAL;53391570;0
+05;69;02;13;02;;Del Gobierno Central;53391570;0
+05;69;02;13;02;003;Subsecretaría de Bienes Nacionales;161088;0
+05;69;02;13;02;004;Subsecretaría de Desarrollo Regional y Administrativo;4216269;0
+05;69;02;13;02;006;Tesoro Público Ley N° 19.143, Patentes Mineras;121078;0
+05;69;02;13;02;008;Tesoro Público Ley N°19.995, Casinos de Juegos;1890604;0
+05;69;02;13;02;013;Tesoro Público Artículo 129 bis 19 Ley N° 20.017, Código de Aguas;921941;0
+05;69;02;13;02;019;Fondo de Inversión y Reconversión Regional;2275743;0
+05;69;02;13;02;020;Tesoro Público Ley N°18.892, Patentes de Acuicultura;3636;0
+05;69;02;13;02;030;Tesoro Público Ley N°20.378 - Fondo de Apoyo Regional (FAR);24508360;0
+05;69;02;13;02;032;Subsecretaría de Desarrollo Regional y Administrativo - Programas de Convergencia;19292851;0
+05;69;02;15;;;SALDO INICIAL DE CAJA;1000;0
+05;69;02;24;;;TRANSFERENCIAS CORRIENTES;6764728;0
+05;69;02;24;01;;Al Sector Privado;3932971;0
+05;69;02;24;01;001;Actividades Culturales;943919;0
+05;69;02;24;01;003;Actividades Deportivas;943919;0
+05;69;02;24;01;005;Actividades de Seguridad Ciudadana;943919;0
+05;69;02;24;01;006;Corporación Agencia Regional de Desarrollo Productivo de la Araucanía;1101214;0
+05;69;02;24;03;;A Otras Entidades Públicas;2831757;0
+05;69;02;24;03;001;Municipalidades - Actividades Culturales;943919;0
+05;69;02;24;03;003;Municipalidades - Actividades Deportivas;943919;0
+05;69;02;24;03;005;Municipalidades - Actividades de Seguridad Ciudadana;943919;0
+05;69;02;29;;;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS;422220;0
+05;69;02;29;03;;Vehículos;208866;0
+05;69;02;29;05;;Máquinas y Equipos;213354;0
+05;69;02;31;;;INICIATIVAS DE INVERSIÓN;75474734;0
+05;69;02;31;01;;Estudios Básicos;104505;0
+05;69;02;31;02;;Proyectos;75131668;0
+05;69;02;31;03;;Programas de Inversión;238561;0
+05;69;02;32;;;PRÉSTAMOS;0,001;0
+05;69;02;32;06;;Por Anticipos a Contratistas;0,001;0
+05;69;02;32;06;001;Anticipos a Contratistas;800000;0
+05;69;02;32;06;002;Recuperación de Anticipos a Contratistas;-800000;0
+05;69;02;33;;;TRANSFERENCIAS DE CAPITAL;17550086;0
+05;69;02;33;01;;Al Sector Privado;2318943;0
+05;69;02;33;01;006;CARDP - Transferencia Reactivación y Fortalecimiento Productivo - Región de la Araucanía;1069140;0
+05;69;02;33;01;010;Aplicación Letra a) del Artículo Cuarto Transitorio de la Ley N°20.378;889303;0
+05;69;02;33;01;272;Corporación Centro de Genómica Nutricional Agro-Acuícola (CGNA) 2010-2014 (30112705-0);360500;0
+05;69;02;33;03;;A Otras Entidades Públicas;15231143;0
+05;69;02;33;03;100;Municipalidades (Programa Mejoramiento de Barrios);2688661;0
+05;69;02;33;03;125;Municipalidades (Fondo Regional de Iniciativa Local);4120000;0
+05;69;02;33;03;204;SAG-Programa de Trazabilidad Bovina a Pequeños Productores (30131491-0);130120;0
+05;69;02;33;03;212;SERNATUR-Programa difusión nacional e internacional del destino Araucanía del 2012 al 2014 (30108144-0);42542;0
+05;69;02;33;03;222;CORFO-Programa de emprendimientos locales (PEL), 2012-2013 (30121123-0);262684;0
+05;69;02;33;03;227;SECRETARIA REGIONAL MINISTERIAL DEL MEDIO AMBIENTE-Programa de recambio de calefactores de Temuco y Padre Las Casas, 2012-2013.;1275140;0
+05;69;02;33;03;228;SEREMI DE BIENES NACIONALES REGION DE LA ARAUCANÍA-Programa de regularización de la propiedad raíz mediante demanda estructurada en la región (30112538-0);472850;0
+05;69;02;33;03;230;SERVIU IX REGION-Transferencia subsidio programa protección patrimonio familiar (30127629-0);1069139;0
+05;69;02;33;03;242;CORFO - Transferencia Fomento para la Aceleración de Emprendimiento Innovador (30280072-0);5717;0
+05;69;02;33;03;245;FOSIS REGIÓN DE LA ARAUCANÍA - Transferencia de Emprendimiento y Microfinanzas - Yo Emprendo en Comunidad (30341124-0);84676;0
+05;69;02;33;03;246;SERNAM REGIÓN DE LA ARAUCANÍA - Transferencia Programa Mujer Trabajadora Jefa de Hogar (30330872-0);618000;0
+05;69;02;33;03;248;CORFO - Programa Promoción de Inversiones - Apoyo a la Inversión en Zonas de Oportunidades (30337512-0);411999;0
+05;69;02;33;03;250;CORFO-Programa de Apoyo al Entorno para el Emprendimiento y la Innovación (30351123-0);61800;0
+05;69;02;33;03;252;SERCOTEC-Transferencia Diversificación Sector Pesca Artesanal de Pto. Saavedra (3039125-0);208066;0
+05;69;02;33;03;253;INDAP-Transferencia Programa Praderas Suplementarias (30383373-0);772500;0
+05;69;02;33;03;254;INDAP-Transferencia Programa de Obras Menores de Riego (30383375-0);360500;0
+05;69;02;33;03;255;Subsecretaría de Minería-Programa de Capacitación y Transferencia Tecnológica para la Pequeña Minería Artesanal de La Araucanía. (30361734-0);154500;0
+05;69;02;33;03;257;SERNAPESCA - Miticultura pequeña escala del río Imperial (30418452-0);244162;0
+05;69;02;33;03;999;Provisión FIC (Sin Distribuir);2248087;0
+05;69;02;34;;;SERVICIO DE LA DEUDA;1000;0
+05;69;02;34;07;;Deuda Flotante;1000;0

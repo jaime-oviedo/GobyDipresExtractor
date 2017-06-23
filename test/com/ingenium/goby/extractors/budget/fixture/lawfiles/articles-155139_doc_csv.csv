@@ -1,0 +1,25 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Denominación;Monto Pesos;Monto Dólar
+11;25;01;05;;;TRANSFERENCIAS CORRIENTES;451763;0
+11;25;01;05;02;;Del Gobierno Central;451763;0
+11;25;01;05;02;002;Armada de Chile;206112;0
+11;25;01;05;02;003;Fuerza Aérea de Chile;143659;0
+11;25;01;05;02;005;Ejército de Chile;101992;0
+11;25;01;09;;;APORTE FISCAL;8572622;33723
+11;25;01;09;01;;Libre;8572622;33723
+11;25;01;21;;;GASTOS EN PERSONAL;648181;450
+11;25;01;22;;;BIENES Y SERVICIOS DE CONSUMO;1167656;515
+11;25;01;24;;;TRANSFERENCIAS CORRIENTES;7175073;32758
+11;25;01;24;02;;Al Gobierno Central;1086731;21243
+11;25;01;24;02;005;Fondo para Misiones de Paz-Ejército de Chile;696020;10579
+11;25;01;24;02;006;Fondo para Misiones de Paz-Armada de Chile;236089;5304
+11;25;01;24;02;007;Fondo para Misiones de Paz-Fuerza Aérea de Chile;154622;5360
+11;25;01;24;03;;A Otras Entidades Públicas;6088342;11512
+11;25;01;24;03;037;Comando Conjunto Austral;258241;0
+11;25;01;24;03;041;Fondo para Misiones de Paz;1452546;10684
+11;25;01;24;03;044;Centro Nacional de Desminado;4090761;235
+11;25;01;24;03;045;Comando Conjunto Norte;277896;0
+11;25;01;24;03;046;Programa de Cooperación Internacional en Centroamérica;8898;593
+11;25;01;24;07;;A Organismos Internacionales;0;3
+11;25;01;24;07;001;OTAN;0;3
+11;25;01;29;;;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS;33475;0
+11;25;01;29;07;;Programas Informáticos;33475;0

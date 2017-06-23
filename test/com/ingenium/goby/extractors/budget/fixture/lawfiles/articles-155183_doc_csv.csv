@@ -1,0 +1,43 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Denominación;Monto Pesos;Monto Dólar
+15;10;01;04;;;IMPOSICIONES PREVISIONALES;66743316;0
+15;10;01;04;01;;Aportes del Empleador;66202224;0
+15;10;01;04;02;;Aportes del Trabajador;541092;0
+15;10;01;05;;;TRANSFERENCIAS CORRIENTES;268843;0
+15;10;01;05;02;;Del Gobierno Central;268843;0
+15;10;01;05;02;004;Fondo Único de Prestaciones Familiares y Subsidios de Cesantía;268843;0
+15;10;01;06;;;RENTAS DE LA PROPIEDAD;83443;0
+15;10;01;08;;;OTROS INGRESOS CORRIENTES;6394408;0
+15;10;01;08;01;;Recuperaciones y Reembolsos por Licencias Médicas;266962;0
+15;10;01;08;02;;Multas y Sanciones Pecuniarias;4605646;0
+15;10;01;08;99;;Otros;1521800;0
+15;10;01;11;;;VENTA DE ACTIVOS FINANCIEROS;2894076;0
+15;10;01;11;01;;Venta o Rescate de Títulos y Valores;2894076;0
+15;10;01;15;;;SALDO INICIAL DE CAJA;85775;0
+15;10;01;21;;;GASTOS EN PERSONAL;9804241;0
+15;10;01;22;;;BIENES Y SERVICIOS DE CONSUMO;4178567;0
+15;10;01;23;;;PRESTACIONES DE SEGURIDAD SOCIAL;45728786;0
+15;10;01;23;01;;Prestaciones Previsionales;45143855;0
+15;10;01;23;01;001;Jubilaciones, Pensiones y Montepíos;24234215;0
+15;10;01;23;01;004;Desahucios e Indemnizaciones;971362;0
+15;10;01;23;01;006;Asignación por Muerte;7716;0
+15;10;01;23;01;008;Devolución de Imposiciones;1130085;0
+15;10;01;23;01;009;Bonificaciones de Salud;15347828;0
+15;10;01;23;01;012;Subsidios por Accidentes del Trabajo;3452649;0
+15;10;01;23;02;;Prestaciones de Asistencia Social;584931;0
+15;10;01;23;02;001;Asignación Familiar;268843;0
+15;10;01;23;02;002;Pensiones Asistenciales;316088;0
+15;10;01;24;;;TRANSFERENCIAS CORRIENTES;12429394;0
+15;10;01;24;01;;Al Sector Privado;610969;0
+15;10;01;24;01;001;Concurrencias;610969;0
+15;10;01;24;02;;Al Gobierno Central;11816023;0
+15;10;01;24;02;001;Subsecretaría de Salud Pública;11816023;0
+15;10;01;24;07;;A Organismos Internacionales;2402;0
+15;10;01;24;07;001;Organismos Internacionales;2402;0
+15;10;01;29;;;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS;339524;0
+15;10;01;29;06;;Equipos Informáticos;41200;0
+15;10;01;29;07;;Programas Informáticos;298324;0
+15;10;01;30;;;ADQUISICIÓN DE ACTIVOS FINANCIEROS;3824118;0
+15;10;01;30;01;;Compra de Títulos y Valores;3824118;0
+15;10;01;34;;;SERVICIO DE LA DEUDA;50000;0
+15;10;01;34;07;;Deuda Flotante;50000;0
+15;10;01;35;;;SALDO FINAL DE CAJA;115231;0

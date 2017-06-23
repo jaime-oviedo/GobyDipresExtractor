@@ -1,0 +1,34 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Denominación;Monto Pesos;Monto Dólar
+11;18;01;05;;;TRANSFERENCIAS CORRIENTES;84772;0
+11;18;01;05;02;;Del Gobierno Central;84772;0
+11;18;01;05;02;002;Ejército de Chile;46078;0
+11;18;01;05;02;003;Carabineros de Chile;8672;0
+11;18;01;05;02;004;Armada de Chile;25262;0
+11;18;01;05;02;005;Fuerza Aérea de Chile;4760;0
+11;18;01;06;;;RENTAS DE LA PROPIEDAD;7113;0
+11;18;01;06;99;;Otras Rentas de la Propiedad;7113;0
+11;18;01;07;;;INGRESOS DE OPERACIÓN;4803778;0
+11;18;01;07;02;;Venta de Servicios;4803778;0
+11;18;01;08;;;OTROS INGRESOS CORRIENTES;9867;0
+11;18;01;08;01;;Recuperaciones y Reembolsos por Licencias Médicas;7134;0
+11;18;01;08;99;;Otros;2733;0
+11;18;01;09;;;APORTE FISCAL;1625742;0
+11;18;01;09;01;;Libre;1625742;0
+11;18;01;21;;;GASTOS EN PERSONAL;1492803;0
+11;18;01;22;;;BIENES Y SERVICIOS DE CONSUMO;1440831;0
+11;18;01;24;;;TRANSFERENCIAS CORRIENTES;3457562;0
+11;18;01;24;01;;Al Sector Privado;1273517;0
+11;18;01;24;01;333;Programa de Incentivos Servicio Militar;1273517;0
+11;18;01;24;02;;Al Gobierno Central;2148309;0
+11;18;01;24;02;001;Ejército de Chile;46661;0
+11;18;01;24;02;003;Carabineros de Chile;2101648;0
+11;18;01;24;03;;A Otras Entidades Públicas;35736;0
+11;18;01;24;03;243;Bienestar Social;35736;0
+11;18;01;29;;;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS;121835;0
+11;18;01;29;04;;Mobiliario y Otros;19380;0
+11;18;01;29;05;;Máquinas y Equipos;5459;0
+11;18;01;29;06;;Equipos Informáticos;67332;0
+11;18;01;29;07;;Programas Informáticos;29664;0
+11;18;01;33;;;TRANSFERENCIAS DE CAPITAL;18241;0
+11;18;01;33;02;;Al Gobierno Central;18241;0
+11;18;01;33;02;002;Ejército de Chile;18241;0

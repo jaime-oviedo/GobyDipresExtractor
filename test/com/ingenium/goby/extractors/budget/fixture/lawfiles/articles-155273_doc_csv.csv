@@ -1,0 +1,46 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Denominación;Monto Pesos;Monto Dólar
+21;06;01;08;;;OTROS INGRESOS CORRIENTES;319928;0
+21;06;01;08;01;;Recuperaciones y Reembolsos por Licencias Médicas;317362;0
+21;06;01;08;99;;Otros;2566;0
+21;06;01;09;;;APORTE FISCAL;128383187;0
+21;06;01;09;01;;Libre;123485610;0
+21;06;01;09;03;;Servicio de la Deuda Externa;4897577;0
+21;06;01;10;;;VENTA DE ACTIVOS NO FINANCIEROS;3090;0
+21;06;01;10;03;;Vehículos;3090;0
+21;06;01;15;;;SALDO INICIAL DE CAJA;2000;0
+21;06;01;21;;;GASTOS EN PERSONAL;9381545;0
+21;06;01;22;;;BIENES Y SERVICIOS DE CONSUMO;1568010;0
+21;06;01;24;;;TRANSFERENCIAS CORRIENTES;18754072;0
+21;06;01;24;01;;Al Sector Privado;12119317;0
+21;06;01;24;01;576;Fondo de Desarrollo Indígena;8907425;0
+21;06;01;24;01;579;Fondo de Cultura y Educación Indígena;1968602;0
+21;06;01;24;01;589;Protección del Medio Ambiente y Recursos Naturales;61649;0
+21;06;01;24;01;599;Consulta a los Pueblos Indígenas;1055946;0
+21;06;01;24;01;600;Turismo y Pueblos Indígenas;125695;0
+21;06;01;24;02;;Al Gobierno Central;4882673;0
+21;06;01;24;02;003;Instituto de Desarrollo Agropecuario;3898526;0
+21;06;01;24;02;004;Subsecretaría de Bienes Nacionales;572147;0
+21;06;01;24;02;005;Corporación de Fomento de la Producción;412000;0
+21;06;01;24;03;;A Otras Entidades Públicas;1752082;0
+21;06;01;24;03;887;Programa de Apoyo al Turismo y Pueblos Indígenas;396437;0
+21;06;01;24;03;888;Programa de Apoyo a la Protección Ambiental Indígena;203725;0
+21;06;01;24;03;889;Instrumentos Cofinanciados de Apoyo al Fondo de Desarrollo Indígena;541526;0
+21;06;01;24;03;999;Programa de Apoyo al Fondo de Cultura y Educación  Indígena;610394;0
+21;06;01;29;;;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS;124389;0
+21;06;01;29;03;;Vehículos;16995;0
+21;06;01;29;04;;Mobiliario y Otros;21836;0
+21;06;01;29;06;;Equipos Informáticos;24937;0
+21;06;01;29;07;;Programas Informáticos;60621;0
+21;06;01;33;;;TRANSFERENCIAS DE CAPITAL;93980612;0
+21;06;01;33;01;;Al Sector Privado;89203478;0
+21;06;01;33;01;043;Fondo de Tierras y Aguas Indígenas;80819749;0
+21;06;01;33;01;044;Gastos Asociados de Administración;1060373;0
+21;06;01;33;01;045;Programa Chile Indígena;7323356;0
+21;06;01;33;02;;Al Gobierno Central;3521331;0
+21;06;01;33;02;003;Instituto de Desarrollo Agropecuario;3521331;0
+21;06;01;33;03;;A Otras Entidades Públicas;1255803;0
+21;06;01;33;03;999;Programa de Apoyo al Fondo de Tierras y Aguas Indígenas;1255803;0
+21;06;01;34;;;SERVICIO DE LA DEUDA;4899577;0
+21;06;01;34;02;;Amortización Deuda Externa;3978047;0
+21;06;01;34;04;;Intereses Deuda Externa;919530;0
+21;06;01;34;07;;Deuda Flotante;2000;0

@@ -1,6 +1,7 @@
 /**
  * 
  */
+
 package com.ingenium.commons.util;
 
 import java.io.BufferedInputStream;
@@ -18,7 +19,7 @@ import org.apache.commons.io.IOUtils;
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
- * @author joviedo
+ * @author JaimeRodrigo
  * @uml.annotations
  *     derived_abstraction="platform:/resource/goby-design/goby-classifier-extractor.emx#_gsMO4FdJEee4ttLK_7FK1A"
  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_gsMO4FdJEee4ttLK_7FK1A"
@@ -61,5 +62,5 @@ public class BulkFileMerger {
     }
     // end-user-code
   }
-
+  
 }

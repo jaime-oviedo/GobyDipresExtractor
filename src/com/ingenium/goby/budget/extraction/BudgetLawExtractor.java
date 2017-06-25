@@ -24,24 +24,24 @@ import java.util.logging.Logger;
  * <!-- begin-UML-doc -->
  * Esta&nbsp;clase&nbsp;extrae&nbsp;toda&nbsp;la&nbsp;Ley&nbsp;de&nbsp;Presupuestos&nbsp;desde&nbsp;el&nbsp;sitio&nbsp;de&nbsp;la&nbsp;DIPRES.<br><br>@author&nbsp;JaimeRodrigo
  * <!-- end-UML-doc -->
- * @author joviedo
+ * @author JaimeRodrigo
  * @uml.annotations
  *     derived_abstraction="platform:/resource/goby-design/goby-classifier-extractor.emx#_UautoEquEeeJsdrfgQXeQw"
  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UautoEquEeeJsdrfgQXeQw"
  */
 public class BudgetLawExtractor {
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
-  * @author joviedo
+  * @author JaimeRodrigo
   * @uml.annotations
   *     derived_abstraction="platform:/resource/goby-design/goby-classifier-extractor.emx#_lSO08FhREeeLhanfOp3nJA"
   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_lSO08FhREeeLhanfOp3nJA"
   */
   public class BudgetLawImpl extends CompositeBudgetElement
       implements BudgetLaw {
-
+    
     /** 
     * <!-- begin-UML-doc -->
     * <!-- end-UML-doc -->
@@ -55,10 +55,11 @@ public class BudgetLawExtractor {
       return (Batch) getSubelement(batchNumber);
       // end-user-code
     }
-
+    
     /** 
     * <!-- begin-UML-doc -->
     * <!-- end-UML-doc -->
+    * Crea una nueva instancia de la clase BudgetLawImpl.
     * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_KnOqkFhUEeeLhanfOp3nJA"
     */
     public BudgetLawImpl() {
@@ -67,7 +68,7 @@ public class BudgetLawExtractor {
           BudgetHierarchyLevel.ROOT);
       // end-user-code
     }
-
+    
     /** 
     * <!-- begin-UML-doc -->
     * <!-- end-UML-doc -->
@@ -82,7 +83,7 @@ public class BudgetLawExtractor {
       // end-user-code
     }
   }
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -90,18 +91,19 @@ public class BudgetLawExtractor {
   */
   private static final Logger log = Logger
       .getLogger("com.ingenium.goby.extractors.BudgetLawExtractor");
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_Mqu6wFhREeeLhanfOp3nJA"
   */
   private final String source;
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * Crea&nbsp;una&nbsp;nueva&nbsp;instancia&nbsp;de&nbsp;la&nbsp;clase&nbsp;BudgetLawExtractor.
   * <!-- end-UML-doc -->
+  * Crea una nueva instancia de la clase BudgetLawExtractor.
   * @param source
   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UjFYYEquEeeJsdrfgQXeQw"
   */
@@ -110,7 +112,7 @@ public class BudgetLawExtractor {
     this.source = source;
     // end-user-code
   }
-
+  
   /*
    * (non-Javadoc)
    *
@@ -133,15 +135,15 @@ public class BudgetLawExtractor {
       throw new ExtractionException("Source file not found");
     }
     CSVReader reader = null;
-
+    
     BudgetLawImpl law = new BudgetLawImpl();
     try {
       String line[];
       reader = new CSVReader(new InputStreamReader(fi, "UTF-8"), ';', '"', 1);
       while ((line = reader.readNext()) != null) {
-
+        
         int batchNumber = 0;
-
+        
         String s = line[0];
         try {
           if (s != null) {
@@ -150,7 +152,7 @@ public class BudgetLawExtractor {
         } catch (Exception e) {
           throw new ExtractionException("Unable to extract batch number.");
         }
-
+        
         int chapterNumber = 0;
         s = line[1];
         if (s != null) {
@@ -162,7 +164,7 @@ public class BudgetLawExtractor {
         } else {
           chapterNumber = 0;
         }
-
+        
         int programNumber = 0;
         s = line[2];
         if (s != null) {
@@ -172,7 +174,7 @@ public class BudgetLawExtractor {
             BudgetLawExtractor.log.finest("Unable to extact program number.");
           }
         }
-
+        
         int subtitleNumber = 0;
         s = line[3];
         if (s != null) {
@@ -182,7 +184,7 @@ public class BudgetLawExtractor {
             BudgetLawExtractor.log.finest("Unable to extact program number.");
           }
         }
-
+        
         int itemNumber = 0;
         s = line[4];
         if (s != null) {
@@ -192,7 +194,7 @@ public class BudgetLawExtractor {
             BudgetLawExtractor.log.finest("Unable to extact program number.");
           }
         }
-
+        
         int assignmentNumber = 0;
         s = line[5];
         if (s != null) {
@@ -202,7 +204,7 @@ public class BudgetLawExtractor {
             BudgetLawExtractor.log.finest("Unable to extact program number.");
           }
         }
-
+        
         String name;
         s = line[6];
         if (s != null) {
@@ -211,7 +213,7 @@ public class BudgetLawExtractor {
           throw new ExtractionException("Unable to obtain name for element:"
               + batchNumber + chapterNumber + programNumber);
         }
-
+        
         int budgetNumber = 0;
         s = line[7];
         if (s != null) {
@@ -221,7 +223,7 @@ public class BudgetLawExtractor {
             BudgetLawExtractor.log.finest("Unable to extact program number.");
           }
         }
-
+        
         int dollarBudgetNumber = 0;
         s = line[8];
         if (s != null) {
@@ -231,7 +233,7 @@ public class BudgetLawExtractor {
             BudgetLawExtractor.log.finest("Unable to extact program number.");
           }
         }
-
+        
         if (programNumber != 0) {
           Batch batch = law.getBatch(batchNumber);
           if (batch != null) {
@@ -240,9 +242,9 @@ public class BudgetLawExtractor {
             continue;
           }
         }
-
+        
         if (chapterNumber != 0)
-
+        
         {
           Batch batch = law.getBatch(batchNumber);
           if (batch != null) {
@@ -251,19 +253,19 @@ public class BudgetLawExtractor {
             continue;
           }
         }
-
+        
         if (batchNumber != 0) {
           Batch batch = new Batch(batchNumber, name, "",
               BudgetElementType.BUDGET);
           law.addSubelement(batch);
           continue;
         }
-
+        
         throw new ExtractionException(
             "Malformed csv file, found budgetary items (chapter or program) without previously created parent");
-
+        
       }
-
+      
       reader.close();
     } catch (Exception e) {
       throw new ExtractionException(
@@ -280,9 +282,9 @@ public class BudgetLawExtractor {
         e.printStackTrace();
       }
     }
-
+    
     return law;
     // end-user-code
   }
-
+  
 }

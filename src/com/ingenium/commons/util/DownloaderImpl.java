@@ -7,7 +7,7 @@ package com.ingenium.commons.util;
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
- * @author JaimeRodrigo
+ * @author joviedo
  * @uml.annotations
  *     derived_abstraction="platform:/resource/goby-design/goby-classifier-extractor.emx#_REJYAEuNEeeV1tNCHYSKhw"
  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_REJYAEuNEeeV1tNCHYSKhw"
@@ -25,7 +25,7 @@ public abstract class DownloaderImpl implements Downloader {
   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_f-tS0EuNEeeV1tNCHYSKhw"
   */
   private String destination;
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <p>Sets the location of the destination file.</p>
@@ -39,7 +39,7 @@ public abstract class DownloaderImpl implements Downloader {
     this.destination = destination;
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <p>Sets the location of the source file.</p>
@@ -53,7 +53,7 @@ public abstract class DownloaderImpl implements Downloader {
     this.source = source;
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <p>Gets the location of the destination file.</p>
@@ -67,7 +67,7 @@ public abstract class DownloaderImpl implements Downloader {
     return destination;
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <p>Gets the location of the source file.</p>

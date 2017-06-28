@@ -21,36 +21,34 @@ import org.junit.Test;
  *
  * @author JaimeRodrigo
  */
-public class ClassifiersCatalogFactoryTest {
+public class BudgetLawFactoryTest {
 
   /**
-   * Tests the correct extraction of a json budget classifier catalog from a csv.
+   * Tests the correct extraction of a json budget law from a csv.
    */
   @Test
-  public final void testExtractClasificadores() {
+  public final void testExtractBudgetLaw() {
     String s = File.separator;
     String source = "test" + s + "com" + s + "ingenium" + s + "goby" + s
-        + "extractors" + s + "budget" + s + "fixture" + s + "classifiers.csv";
+        + "extractors" + s + "budget" + s + "fixture" + s + "law.csv";
 
-    ClassifiersCatalogFactory factory = ClassifiersCatalogFactory.getInstance();
+    BudgetLawFactory factory = BudgetLawFactory.getInstance();
     factory.setSource(source);
-    ClassifiersCatalog catalog = factory.getClassifiersCatalog(true);
+    BudgetLaw catalog = factory.getBudgetLaw(true);
 
-    CompositeBudgetElement b = new CompositeBudgetElement(0,
-        "Catalogo de clasificadores presupuestarios",
-        "Estructura jerárquica de los clasificadores por objeto del gasto usados en el presupuesto",
-        BudgetElementType.BUDGETARY_CLASSIFICATION, BudgetHierarchyLevel.ROOT);
-    b.setSubelements(catalog.getSubtitles());
+    CompositeBudgetElement law = new CompositeBudgetElement(0,
+        "Ley de Presupuestos", "", BudgetElementType.BUDGET,
+        BudgetHierarchyLevel.ROOT);
+    law.setSubelements(catalog.getBatches());
 
-    String jsonCatalog = BudgetElementToJsonMapper.map(b, 0);
-    String destination = "tmp" + s + "classifiers.json";
+    String jsonCatalog = BudgetElementToJsonMapper.map(law, 0);
+    String destination = "tmp" + s + "law.json";
     FileSystemInjector fsi = new FileSystemInjector(destination, jsonCatalog);
     try {
       fsi.inject();
       File file1 = new File(destination);
       String objective = "test" + s + "com" + s + "ingenium" + s + "goby" + s
-          + "extractors" + s + "budget" + s + "fixture" + s
-          + "classifiers.json";
+          + "extractors" + s + "budget" + s + "fixture" + s + "law.json";
       File file2 = new File(objective);
       Assert.assertTrue(FileUtils.contentEquals(file1, file2));
     } catch (Exception e) {

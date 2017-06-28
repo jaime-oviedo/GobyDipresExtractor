@@ -2,7 +2,7 @@ package com.ingenium.goby.budget.extraction.merge;
 
 import static org.junit.Assert.fail;
 
-import com.ingenium.commons.util.BulkFileMerger;
+import com.ingenium.commons.util.BulkCsvFilesMerger;
 
 import java.io.File;
 
@@ -18,8 +18,8 @@ public class BudgetFilesMergeTest {
     String destinationDirectory = "tmp";
     String destinationFilename = "budgetLaw.csv";
 
-    BulkFileMerger.merge(souceDirectory, destinationDirectory,
-        destinationFilename);
+    BulkCsvFilesMerger.merge(souceDirectory, destinationDirectory,
+        destinationFilename, 1);
     fail("Not yet implemented");
   }
 

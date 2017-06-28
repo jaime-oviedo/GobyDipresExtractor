@@ -10,7 +10,7 @@ import com.ingenium.goby.budget.extraction.InstitutionsCatalogExtractor;
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
- * @author JaimeRodrigo
+ * @author joviedo
  * @uml.annotations
  *     derived_abstraction="platform:/resource/goby-design/goby-classifier-extractor.emx#_I5RIgFH0Eee-AoOzRlyylA"
  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_I5RIgFH0Eee-AoOzRlyylA"
@@ -33,22 +33,22 @@ public class InstitutionsCatalogFactory {
   * <!-- end-UML-doc -->
   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_yYKl0FajEeen0bP8VRV_UQ"
   */
-  private boolean extract = true;
-  
+  private boolean extract = new Boolean(true);
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_KqcogFalEeen0bP8VRV_UQ"
   */
   private String source;
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
   * @return
   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_xUpTUFajEeen0bP8VRV_UQ"
   */
-  public static InstitutionsCatalogFactory getInstance() {
+  public synchronized static InstitutionsCatalogFactory getInstance() {
     // begin-user-code
     if (InstitutionsCatalogFactory.instance == null) {
       InstitutionsCatalogFactory.instance = new InstitutionsCatalogFactory();
@@ -58,7 +58,7 @@ public class InstitutionsCatalogFactory {
     return InstitutionsCatalogFactory.instance;
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -81,7 +81,7 @@ public class InstitutionsCatalogFactory {
     return institutionsCatalog;
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -95,7 +95,7 @@ public class InstitutionsCatalogFactory {
     return getInstitutionsCatalog();
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -107,7 +107,7 @@ public class InstitutionsCatalogFactory {
     return source;
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -119,11 +119,10 @@ public class InstitutionsCatalogFactory {
     this.source = source;
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
-  * Crea una nueva instancia de la clase InstitutionsCatalogFactory.
   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_0ctToFanEeen0bP8VRV_UQ"
   */
   private InstitutionsCatalogFactory() {

@@ -7,17 +7,16 @@ package com.ingenium.goby.budget.injection;
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
- * @author JaimeRodrigo
+ * @author joviedo
  * @uml.annotations
  *     derived_abstraction="platform:/resource/goby-design/goby-classifier-extractor.emx#_q4ar8FdBEee4ttLK_7FK1A"
  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_q4ar8FdBEee4ttLK_7FK1A"
  */
 public class InjectionException extends Exception {
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
-  * Crea una nueva instancia de la clase InjectionException.
   * @param message
   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_d6CCkFdEEee4ttLK_7FK1A"
   */

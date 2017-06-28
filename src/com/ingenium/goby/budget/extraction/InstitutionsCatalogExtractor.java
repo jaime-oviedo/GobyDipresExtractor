@@ -23,7 +23,7 @@ import java.util.logging.Logger;
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
- * @author JaimeRodrigo
+ * @author joviedo
  * @uml.annotations
  *     derived_abstraction="platform:/resource/goby-design/goby-classifier-extractor.emx#_dLNpsFYQEeeKVoBZn1AqUw"
  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_dLNpsFYQEeeKVoBZn1AqUw"
@@ -32,7 +32,7 @@ public class InstitutionsCatalogExtractor {
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
-  * @author JaimeRodrigo
+  * @author joviedo
   * @uml.annotations
   *     derived_abstraction="platform:/resource/goby-design/goby-classifier-extractor.emx#_J2HjoFYYEeeKVoBZn1AqUw"
   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_J2HjoFYYEeeKVoBZn1AqUw"
@@ -42,7 +42,6 @@ public class InstitutionsCatalogExtractor {
     /** 
     * <!-- begin-UML-doc -->
     * <!-- end-UML-doc -->
-    * Crea una nueva instancia de la clase InstitutionsCatalogImpl.
     * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_N3jYwFYYEeeKVoBZn1AqUw"
     */
     public InstitutionsCatalogImpl() {
@@ -51,7 +50,7 @@ public class InstitutionsCatalogExtractor {
           BudgetHierarchyLevel.ROOT);
       // end-user-code
     }
-    
+
     /** 
     * <!-- begin-UML-doc -->
     * <!-- end-UML-doc -->
@@ -65,7 +64,7 @@ public class InstitutionsCatalogExtractor {
       return (Collection<Batch>) getSubelements().values();
       // end-user-code
     }
-    
+
     /** 
     * <!-- begin-UML-doc -->
     * <!-- end-UML-doc -->
@@ -80,14 +79,14 @@ public class InstitutionsCatalogExtractor {
       // end-user-code
     }
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_p71cgFYQEeeKVoBZn1AqUw"
   */
   private final String source;
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -95,11 +94,10 @@ public class InstitutionsCatalogExtractor {
   */
   private static final Logger log = Logger
       .getLogger("com.ingenium.goby.extractors.InstitutionsCatalogExtractor");
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
-  * Crea una nueva instancia de la clase InstitutionsCatalogExtractor.
   * @param source
   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_omT0AFYQEeeKVoBZn1AqUw"
   */
@@ -108,7 +106,7 @@ public class InstitutionsCatalogExtractor {
     this.source = source;
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -118,7 +116,7 @@ public class InstitutionsCatalogExtractor {
   */
   public InstitutionsCatalog extract() throws ExtractionException {
     // begin-user-code
-    
+
     // get the csv file reader handler
     FileInputStream fi;
     try {
@@ -128,15 +126,15 @@ public class InstitutionsCatalogExtractor {
       throw new ExtractionException("Source file not found");
     }
     CSVReader reader = null;
-    
+
     InstitutionsCatalogImpl catalog = new InstitutionsCatalogImpl();
     try {
       String line[];
       reader = new CSVReader(new InputStreamReader(fi, "UTF-8"), ';', '"', 0);
       while ((line = reader.readNext()) != null) {
-        
+
         int batchNumber = 0;
-        
+
         String s = line[0];
         try {
           if (s != null) {
@@ -145,7 +143,7 @@ public class InstitutionsCatalogExtractor {
         } catch (Exception e) {
           throw new ExtractionException("Unable to extract batch number.");
         }
-        
+
         int chapterNumber = 0;
         s = line[1];
         if (s != null) {
@@ -158,7 +156,7 @@ public class InstitutionsCatalogExtractor {
         } else {
           chapterNumber = 0;
         }
-        
+
         int programNumber = 0;
         s = line[2];
         if (s != null) {
@@ -169,7 +167,7 @@ public class InstitutionsCatalogExtractor {
                 .finest("Unable to extact program number.");
           }
         }
-        
+
         String name;
         s = line[3];
         if (s != null) {
@@ -179,7 +177,7 @@ public class InstitutionsCatalogExtractor {
               + batchNumber + chapterNumber + programNumber);
         }
         String description = "";
-        
+
         if (programNumber != 0) {
           Batch batch = catalog.getBatch(batchNumber);
           if (batch != null) {
@@ -188,9 +186,9 @@ public class InstitutionsCatalogExtractor {
             continue;
           }
         }
-        
+
         if (chapterNumber != 0)
-        
+
         {
           Batch batch = catalog.getBatch(batchNumber);
           if (batch != null) {
@@ -199,26 +197,27 @@ public class InstitutionsCatalogExtractor {
             continue;
           }
         }
-        
+
         if (batchNumber != 0) {
           Batch batch = new Batch(batchNumber, name, description,
               BudgetElementType.INSTITUTIONAL_CLASSIFICATION);
           catalog.addSubelement(batch);
           continue;
         }
-        
+
         throw new ExtractionException(
             "Malformed csv file, found budgetary items (chapter or program) without previously created parent");
-        
+
       }
-      
+
       reader.close();
-    } catch (Exception e) {
+    } catch (IOException e) {
       throw new ExtractionException(
           "Unable to create input stream or csv reader");
     } finally {
       try {
-        reader.close();
+        if (reader != null)
+          reader.close();
       } catch (IOException e) {
         e.printStackTrace();
       }
@@ -228,7 +227,7 @@ public class InstitutionsCatalogExtractor {
         e.printStackTrace();
       }
     }
-    
+
     return catalog;
     // end-user-code
   }

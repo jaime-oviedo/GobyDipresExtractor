@@ -2,7 +2,7 @@
   "number":0,
   "name":"Catalogo de clasificadores presupuestarios",
   "description":"Estructura jerárquica de los clasificadores por objeto del gasto usados en el presupuesto",
-  "batches":[ 
+  "subtitles":[ 
     {
       "number":22,
       "name":"Bienes y servicios de consumo",

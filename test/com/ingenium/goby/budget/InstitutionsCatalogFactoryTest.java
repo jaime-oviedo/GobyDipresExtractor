@@ -26,7 +26,8 @@ public class InstitutionsCatalogFactoryTest {
     InstitutionsCatalog catalog = factory.getInstitutionsCatalog(true);
 
     CompositeBudgetElement b = new CompositeBudgetElement(0,
-        "Catálogo Institucional", "", BudgetElementType.NONE,
+        "Catálogo Institucional", "",
+        BudgetElementType.INSTITUTIONAL_CLASSIFICATION,
         BudgetHierarchyLevel.ROOT);
     b.setSubelements(catalog.getBatches());
 

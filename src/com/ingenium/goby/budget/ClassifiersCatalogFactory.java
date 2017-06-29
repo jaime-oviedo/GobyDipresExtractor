@@ -7,48 +7,47 @@ package com.ingenium.goby.budget;
 import com.ingenium.goby.budget.extraction.ClassifiersCatalogExtractor;
 import com.ingenium.goby.budget.extraction.ExtractionException;
 
-/** 
- * <!-- begin-UML-doc -->
- * <!-- end-UML-doc -->
+/**
+ * <!-- begin-UML-doc --> <!-- end-UML-doc -->
+ * 
  * @author JaimeRodrigo
- * @uml.annotations
- *     derived_abstraction="platform:/resource/goby-design/goby-classifier-extractor.emx#_A8MkQFH0Eee-AoOzRlyylA"
+ * @uml.annotations derived_abstraction="platform:/resource/goby-design/goby-classifier-extractor.emx#_A8MkQFH0Eee-AoOzRlyylA"
  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_A8MkQFH0Eee-AoOzRlyylA"
  */
 public class ClassifiersCatalogFactory {
-  /** 
-  * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_3r-EQFLeEeeyIrnvp3X3kA"
-  */
+  /**
+   * <!-- begin-UML-doc --> <!-- end-UML-doc -->
+   * 
+   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_3r-EQFLeEeeyIrnvp3X3kA"
+   */
   private static ClassifiersCatalogFactory instance = null;
-  /** 
-  * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_meeoEFLfEeeyIrnvp3X3kA"
-  */
+  /**
+   * <!-- begin-UML-doc --> <!-- end-UML-doc -->
+   * 
+   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_meeoEFLfEeeyIrnvp3X3kA"
+   */
   private ClassifiersCatalog classifiersCatalog;
-  
-  /** 
-  * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_EhlrYFNZEeeyIrnvp3X3kA"
-  */
+
+  /**
+   * <!-- begin-UML-doc --> <!-- end-UML-doc -->
+   * 
+   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_EhlrYFNZEeeyIrnvp3X3kA"
+   */
   private boolean extract;
-  
-  /** 
-  * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_iPj4oFalEeen0bP8VRV_UQ"
-  */
+
+  /**
+   * <!-- begin-UML-doc --> <!-- end-UML-doc -->
+   * 
+   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_iPj4oFalEeen0bP8VRV_UQ"
+   */
   private String source;
-  
-  /** 
-  * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * @return
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_KwtEAFLgEeeyIrnvp3X3kA"
-  */
+
+  /**
+   * <!-- begin-UML-doc --> <!-- end-UML-doc -->
+   * 
+   * @return
+   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_KwtEAFLgEeeyIrnvp3X3kA"
+   */
   public synchronized static ClassifiersCatalogFactory getInstance() {
     // begin-user-code
     if (ClassifiersCatalogFactory.instance == null) {
@@ -59,13 +58,13 @@ public class ClassifiersCatalogFactory {
     return ClassifiersCatalogFactory.instance;
     // end-user-code
   }
-  
-  /** 
-  * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * @return
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_NkT0EFLgEeeyIrnvp3X3kA"
-  */
+
+  /**
+   * <!-- begin-UML-doc --> <!-- end-UML-doc -->
+   * 
+   * @return
+   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_NkT0EFLgEeeyIrnvp3X3kA"
+   */
   public ClassifiersCatalog getClassifiersCatalog() {
     // begin-user-code
     if (extract) {
@@ -82,52 +81,53 @@ public class ClassifiersCatalogFactory {
     return classifiersCatalog;
     // end-user-code
   }
-  
-  /** 
-  * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * @param forceExtraction
-  * @return
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_IZ718FNZEeeyIrnvp3X3kA"
-  */
+
+  /**
+   * <!-- begin-UML-doc --> <!-- end-UML-doc -->
+   * 
+   * @param forceExtraction
+   * @return
+   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_IZ718FNZEeeyIrnvp3X3kA"
+   */
   public ClassifiersCatalog getClassifiersCatalog(boolean forceExtraction) {
     // begin-user-code
     extract = forceExtraction;
     return getClassifiersCatalog();
-    
+
     // end-user-code
   }
-  
-  /** 
-  * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * Crea una nueva instancia de la clase ClassifiersCatalogFactory.
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_GeRTIFNcEeeyIrnvp3X3kA"
-  */
+
+  /**
+   * <!-- begin-UML-doc --> <!-- end-UML-doc --> Crea una nueva instancia de la clase
+   * ClassifiersCatalogFactory.
+   * 
+   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_GeRTIFNcEeeyIrnvp3X3kA"
+   */
   private ClassifiersCatalogFactory() {
     // begin-user-code
     super();
+    extract = true;
     // end-user-code
   }
-  
-  /** 
-  * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * @return
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_m64i0FamEeen0bP8VRV_UQ"
-  */
+
+  /**
+   * <!-- begin-UML-doc --> <!-- end-UML-doc -->
+   * 
+   * @return
+   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_m64i0FamEeen0bP8VRV_UQ"
+   */
   String getSource() {
     // begin-user-code
     return source;
     // end-user-code
   }
-  
-  /** 
-  * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * @param source
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_m65J4FamEeen0bP8VRV_UQ"
-  */
+
+  /**
+   * <!-- begin-UML-doc --> <!-- end-UML-doc -->
+   * 
+   * @param source
+   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_m65J4FamEeen0bP8VRV_UQ"
+   */
   void setSource(String source) {
     // begin-user-code
     this.source = source;

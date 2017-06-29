@@ -1,17 +1,17 @@
-22; ; ;Bienes y servicios de consumo;Bienes de consumo y servicios no personales, necesarios para el cumplimiento de las funciones y actividades de los organismos del sector público.
-22;1; ;Alimentos y Bebidas;Alimentación de funcionarios,  alumnos,  reclusos  y  demás  personas,  con  derecho  a  estos  beneficios  de  acuerdo  con  las leyes y los reglamentos vigentes, a excepción de las raciones otorgadas en dinero, las que se imputarán al respectivo ítem de Gastos en Personal. Incluye, además, los gastos que por concepto de alimentación de animales, corresponda realizar.
+22;;;Bienes y servicios de consumo;Bienes de consumo y servicios no personales, necesarios para el cumplimiento de las funciones y actividades de los organismos del sector público.
+22;1;;Alimentos y Bebidas;Alimentación de funcionarios,  alumnos,  reclusos  y  demás  personas,  con  derecho  a  estos  beneficios  de  acuerdo  con  las leyes y los reglamentos vigentes, a excepción de las raciones otorgadas en dinero, las que se imputarán al respectivo ítem de Gastos en Personal. Incluye, además, los gastos que por concepto de alimentación de animales, corresponda realizar.
 22;1;1;Para Personas;Alimentos destinados al consumo de seres humanos.
 22;1;2;Para Animales;Alimentos para animales.
-22;2; ;Textiles, Vestuario y Calzado;Textiles, acabados textiles, vestuarios y sus accesorios, prendas diversas de vestir y calzado.
+22;2;;Textiles, Vestuario y Calzado;Textiles, acabados textiles, vestuarios y sus accesorios, prendas diversas de vestir y calzado.
 22;2;1;Textiles y Acabados Textiles;Hilados y telas de cualquier naturaleza. Incluye, además, los gastos por concepto de teñidos de telas y similares.
 22;2;2;Vestuario, Accesorios y Prendas Diversas;Uniformes, elementos de protección para el vestuario, prendas de vestir para usos agrícolas e industriales, ropa para escolares y demás artículos de naturaleza similar. Incluye gastos que origina la readaptación o transformación del vestuario.
 22;2;3;Calzado;Calzado de cualquier naturaleza, incluidos los de tela, caucho y plástico. Incluye, además, las adquisiciones de los materiales necesarios para la reparación de calzado.
-22;3; ;Combustibles y Lubricantes;Combustibles y lubricantes para el consumo de vehículos, maquinarias, equipos de producción, tracción y elevación, calefacción y otros usos. Se incluye, además, otros gastos, tales como pago a remolcadores, lanchaje, sobretiempo de cuadrillas marítimas, viáticos, movilización, etc., que los proveedores facturen a los diversos servicios y que se originen exclusivamente por entrega y recepción de combustibles y lubricantes, cuando interviene en estas faenas personal ajeno a los distintos servicios. Comprende: -- Gasolina especial, corriente, de aviación y otros usos. -- Petróleo crudo, combustibles Nº 5 y 6 diésel, bunjers y otros petróleos. -- Otros combustibles como kerosene, nafta disolvente, tractorina, turbofuel, metanol, carbón  vegetal  y  mineral  y  otros  similares  no  calificados  anteriormente.  Se  excluyen  las adquisiciones de gas de cañería y/o licuado, las que deberán hacerse con cargo al ítem 05. No obstante, dichas adquisiciones, cuando se utilicen en la preparación de alimentos, tratándose de Servicios que deban proporcionarlos en forma masiva, podrán imputarse a la asignación que corresponda de este ítem. -- Lubricantes para lavado, motores, cajas de transmisión, diferenciales, rodamientos, engranajes, ferreterías y otros usos. Incluye, además, las adquisiciones de grasas, líquidos para frenos y demás lubricantes para equipos de transportes y usos agrícolas e industriales.
+22;3;;Combustibles y Lubricantes;Combustibles y lubricantes para el consumo de vehículos, maquinarias, equipos de producción, tracción y elevación, calefacción y otros usos. Se incluye, además, otros gastos, tales como pago a remolcadores, lanchaje, sobretiempo de cuadrillas marítimas, viáticos, movilización, etc., que los proveedores facturen a los diversos servicios y que se originen exclusivamente por entrega y recepción de combustibles y lubricantes, cuando interviene en estas faenas personal ajeno a los distintos servicios. Comprende: -- Gasolina especial, corriente, de aviación y otros usos. -- Petróleo crudo, combustibles Nº 5 y 6 diésel, bunjers y otros petróleos. -- Otros combustibles como kerosene, nafta disolvente, tractorina, turbofuel, metanol, carbón  vegetal  y  mineral  y  otros  similares  no  calificados  anteriormente.  Se  excluyen  las adquisiciones de gas de cañería y/o licuado, las que deberán hacerse con cargo al ítem 05. No obstante, dichas adquisiciones, cuando se utilicen en la preparación de alimentos, tratándose de Servicios que deban proporcionarlos en forma masiva, podrán imputarse a la asignación que corresponda de este ítem. -- Lubricantes para lavado, motores, cajas de transmisión, diferenciales, rodamientos, engranajes, ferreterías y otros usos. Incluye, además, las adquisiciones de grasas, líquidos para frenos y demás lubricantes para equipos de transportes y usos agrícolas e industriales.
 22;3;1;Para Vehículos;
 22;3;2;Para Maquinarias, Equipos de Producción, Tracción y Elevación;
 22;3;3;Para Calefacción;
 22;3;999;Para Otros;
-22;4; ;Materiales de Uso o Consumo;Son los gastos por concepto de adquisiciones de materiales de uso o consumo corriente, tales  como  materiales  de  oficina,  materiales  de  enseñanza,  productos  químicos  y  farmacéuticos, materiales y útiles quirúrgicos y útiles de aseo, menaje para casinos y  oficinas,  insumos  computacionales,  materiales  y  repuestos  y  accesorios  para  mantenimientos y reparaciones, para la dotación de los organismos del sector público.
+22;4;;Materiales de Uso o Consumo;Son los gastos por concepto de adquisiciones de materiales de uso o consumo corriente, tales  como  materiales  de  oficina,  materiales  de  enseñanza,  productos  químicos  y  farmacéuticos, materiales y útiles quirúrgicos y útiles de aseo, menaje para casinos y  oficinas,  insumos  computacionales,  materiales  y  repuestos  y  accesorios  para  mantenimientos y reparaciones, para la dotación de los organismos del sector público.
 22;4;1;Materiales de Oficina;Comprende los gastos por concepto de adquisiciones de: -- Productos de Papeles, Cartones e Impresos y, en general, todo tipo de formularios e impresos y demás productos de esta naturaleza necesarios para el uso o consumo de  oficinas.  Incluye,  además,  materiales  para  impresión,  y  en  general,  todo  tipo  de  productos  químicos  necesarios  para  el  uso  o  consumo  de  oficinas. -- Materiales  y  Útiles  Diversos  de  Oficina  y,  en  general,  toda  clase  de  artículos  de  naturaleza  similar  para  el  uso  o  consumo  de  oficinas. -- Materiales y Útiles Diversos de Impresión, no incluidos anteriormente,  necesarios para el uso o consumo en unidades de impresión que mantengan  las distintas reparticiones de los Servicios Públicos.
 22;4;2;Textos y Otros Materiales de Enseñanza;Materiales Básicos de Enseñanza, tales como cuadernos, papeles de dibujos, de impresión, calco, recortes, libros de estudios y para bibliotecas, láminas, mapas, y, en general todo producto de naturaleza similar necesario para el uso o consumo de los establecimientos de educación en general, excluyéndose todo material de este tipo necesario para labores administrativas en los establecimientos -- Productos químicos destinados exclusivamente a la enseñanza -- Almácigos, semillas, plantas, árboles, minerales, hojalatas, láminas, planchas y planchones de acero, platinos, cañerías, productos de cobre, zinc, bronce, etc., alambre, artículos de cerrajería y demás materiales de naturaleza similar que se destinen exclusivamente a la enseñanza. Incluye, asimismo, la adquisición de libros y revistas de carácter técnico, láminas, mapas y otros similares, para los organismos del sector público. -- Materiales y útiles de enseñanza como herramientas menores, tiza, reglas, transportadores, compases, punteros para pizarrones, lápices, gomas, etc. -- Artículos e implementos de enseñanza deportiva, artículos de recreación y otros de naturaleza similar. -- Animales para la investigación destinada a la enseñanza.
 22;4;3;Productos Químicos;Productos químicos inorgánicos, sulfato de cobre, soda cáustica, carbonato de sodio y otros compuestos químicos inorgánicos; productos químicos orgánicos, tales como alcoholes, glicerina, aguarrás y otros compuestos orgánicos.
@@ -29,7 +29,7 @@
 22;4;15;Productos Agropecuarios y Forestales;Productos agropecuarios y forestales necesarios para la confección y mantenimiento de jardines, campos deportivos, y otros de similar naturaleza.
 22;4;16;Materias Primas y Semielaboradas;Materias primas y semielaboradas de origen agropecuario y forestal, minero e industrial que requieran los organismos del sector público, para la producción de bienes, a excepción de aquellos considerados como material de enseñanza.
 22;4;999;Otros;Otros materiales de uso o consumo no contemplados en los anteriores.
-22;5; ;Servicios Básicos;Consumos de energía eléctrica, agua potable, derechos de agua, compra de agua a particulares, gas de cañería y licuado, correo, servicios telefónicos y otros relacionados con la transmisión de voz y datos.
+22;5;;Servicios Básicos;Consumos de energía eléctrica, agua potable, derechos de agua, compra de agua a particulares, gas de cañería y licuado, correo, servicios telefónicos y otros relacionados con la transmisión de voz y datos.
 22;5;1;Electricidad;Energía eléctrica, incluida la del alumbrado público.
 22;5;2;Agua;Agua potable, derechos de agua, venta de agua de particulares y otros análogos, destinados al regadío de parques y jardines de uso público.
 22;5;3;Gas;
@@ -39,7 +39,7 @@
 22;5;7;Acceso a Internet;Servicio  de  Internet,  a  cobros  fijos  o  variables según el consumo
 22;5;8;Enlaces de Telecomunicaciones;Líneas de comunicación con redes o bases de datos públicos  y  privados,  a  través  de  microondas,  radiofrecuencia,  fibra  óptica,  satélite,  etc.  Incluye  tanto  los  gastos  de  instalación  como  el  costo  fijo  o  variable  determinado  en  el  contrato.
 22;5;999;Otros;
-22;6; ;Mantenimiento y Reparaciones;Servicios que sean necesarios efectuar por concepto de reparaciones y mantenimiento de bienes muebles e inmuebles, instalaciones, construcciones menores y  sus  artículos  complementarios  como  cortinajes,  persianas,  rejas  de  fierro,  toldos  y  otros similares. En caso de que el cobro de la prestación de servicios incluya el valor de los materiales incorporados, el gasto total se imputará a este ítem, en la asignación que corresponda.
+22;6;;Mantenimiento y Reparaciones;Servicios que sean necesarios efectuar por concepto de reparaciones y mantenimiento de bienes muebles e inmuebles, instalaciones, construcciones menores y  sus  artículos  complementarios  como  cortinajes,  persianas,  rejas  de  fierro,  toldos  y  otros similares. En caso de que el cobro de la prestación de servicios incluya el valor de los materiales incorporados, el gasto total se imputará a este ítem, en la asignación que corresponda.
 22;6;1;Mantenimiento y Reparación de Edificaciones;Mantenimiento  y  reparación  de  edificios  para  oficinas  públicas, escuelas, penitenciarías, centros asistenciales y otros análogos. Se incluye mantenimiento y reparación de instalaciones como las eléctricas, ascensores, elevadores, agua, gas, aire acondicionado, telecomunicaciones, de radio y televisión.
 22;6;2;Mantenimiento y Reparación de Vehículos;Mantenimiento y reparación de automóviles, autobuses, camiones, jeep, motos, vehículos de tres ruedas, de equipos ferroviarios, marítimos y aéreos, y de equipos de tracción animal y mecánica.
 22;6;3;Mantenimiento y Reparación de Mobiliarios y Otros;Mmantenimiento  y  reparación  de  mobiliario  de  oficinas  y viviendas, muebles de instalaciones militares, policiales, educacionales, sanitarias y hospitalarias, de aduanas, puertos y aeropuertos, etc.
@@ -48,12 +48,12 @@
 22;6;6;Mantenimiento y Reparación de Otras Maquinarias y Equipos;Mantenimiento y reparaciones de: – Equipos Médicos, Sanitarios y de Investigación, tales como equipos de Rayos X, equipos dentales, aparatos de medición, equipos de laboratorios, etc.  – Máquinas y Equipos Viales destinados a la construcción y/o mantenimiento de calles, caminos, construcción de puentes y otras obras que forman parte de los procesos de construcción y mantenimiento vial. – Máquinas y Equipos de Construcción dedicados a  la  construcción  de  edificios,  obras  de  infraestructura,  instalaciones  adheridas  a  edificios  y  al  suelo,  a  excepción  de  los  equipos  viales.
 22;6;7;Mantenimiento y Reparación de Equipos Informáticos;Reparación y mantenimiento de los equipos computacionales y los dispositivos de comunicación, equipos eléctricos, cableados de red e instalaciones eléctricas de exclusivo uso informático.
 22;6;999;Otros;Mantenimiento y reparación de otras máquinas y equipos no incluidos en los items anteriores.
-22;7; ;Publicidad y Difusión;
+22;7;;Publicidad y Difusión;
 22;7;1;Servicios de Publicidad;Publicidad, difusión o relaciones públicas en general, tales como avisos, promoción en periódicos, radios, televisión, cines, teatros, revistas, contratos con agencias publicitarias, servicios de exposiciones y, en general, todo gasto similar que se destine a estos objetivos, sujeto a la normativa del artículo 3º de la Ley Nº 19.896.
 22;7;2;Servicios de Impresión;Servicios  de  impresión  de  afiches,  folletos,  revistas  y  otros  elementos  que  se  destinen  para  estos  fines,  reproducción  de  memorias,  instrucciones, manuales y otros similares.
 22;7;3;Servicios de Encuademación y Empaste;Servicios de encuadernación y empaste de documentos, informes, libros y similares.
 22;7;999;Otros;Servicios de publicidad y difusión no contemplados en los items anteriores.
-22;8; ;Servicios Generales;
+22;8;;Servicios Generales;
 22;8;1;Servicios de Aseo;Servicios de limpieza, lavandería, desinfección, extracción de basura, encerado y otros análogos. Incluye, además, los gastos por convenios de extracción de basura domiciliaria, de ferias libres y barrido de calles y derechos por uso de vertederos de basura, de cargo de las Municipalidades
 22;8;2;Servicios de Vigilancia;Servicios de guardias, cámaras de video, alarmas y otros implementos necesarios para resguardar el orden y la seguridad, de las personas y valores que se encuentren en un lugar físico determinado.
 22;8;3;Servicios de Mantención de Jardines;Servicio de mantención de jardines y áreas verdes, de dependencias de los organismos del sector público y los de cargo de las Municipalidades.
@@ -66,7 +66,7 @@
 22;8;10;Servicios de Suscripción y Similares;Suscripciones a revistas y diarios, y suscripciones o contrataciones de servicios nacionales e internacionales de información por medios electrónicos de transmisión de datos, textos o similares.
 22;8;11;Servicios de Producción y Desarrollo de Eventos;Producción  y desarrollo integral de eventos sociales, culturales y deportivos, que realizan en beneficio  de  la  comunidad  las  municipalidades.
 22;8;999;Otros;
-22;9; ;Arriendos;
+22;9;;Arriendos;
 22;9;1;Arriendo de Terrenos;Arriendo  de  terrenos  con  fines  de  estacionamientos,  acopio, etc.
 22;9;2;Arriendo de Edificios;Arriendo  de  edificios  para  oficina,  escuela,  habitación,  etc. 
 22;9;3;Arriendo de Vehículos;Arriendo de vehículos motorizados y no motorizados,  ya  sean  pactados  por  mes,  horas  o  en otra forma. Incluye arrendamiento de animales cuando sea procedente.
@@ -74,49 +74,49 @@
 22;9;5;Arriendo de Máquinas y Equipos;Arriendo  de  máquinas  y  equipos  de  oficina,  agrícolas,  industriales, de construcción, otras máquinas y equipos necesarios.
 22;9;6;Arriendo de Equipos Informáticos;Arriendo de equipos computacionales, periféricos, adaptadores, accesorios, medios de respaldo y otros elementos complementarios, ubicados in situ o remotos. Incluye el arriendo de líneas y dispositivos de comunicaciones.
 22;9;999;Otros;
-22;10; ;Servicios Financieros y de Seguros;
+22;10;;Servicios Financieros y de Seguros;
 22;10;1;Títulos y Valores;Servicios de compra y venta de valores.
 22;10;2;Seguros;Seguros contra daños y otros accidentes a la propiedad como incendios, colisión de vehículos, etc. 
 22;10;3;Servicios de Giros y Remesas;Servicios de giros y remesas de dinero y valores financieros.
 22;10;4;Servicios Bancarios;
 22;10;999;Otros;
-22;11; ;Servicios Técnicos y Profesionales;
+22;11;;Servicios Técnicos y Profesionales;
 22;11;1;Estudios e Investigaciones;Servicios de análisis, interpretaciones de asuntos técnicos, económicos y sociales; investigaciones  sociales,  estadísticas,  científicas,  técnicas,  económicas y otros análogos.
 22;11;2;Cursos de Capacitación;Servicios de capacitación o perfeccionamiento.
 22;11;3;Servicios Informáticos;Consultorías para la mantención o readecuación de los sistemas informáticos para mantener su vigencia o utilidad.
 22;11;999;Otros;
-29; ; ;Activos no financieros;
-29;1; ;Terrenos;
-29;2; ;Edificios;
-29;3; ;Vehículos;Equipos empleados para transportar personas  y  objetos,  e  incluye  la  compra  de  automóviles,  station  wagons,  furgones,  buses,  buques, aeronaves, remolques y semirremolques y/o cualquier otro tipo de vehículos   motorizados.
-29;4; ;Mobiliario y Otros;Mobiliario  de  oficinas  y  de  viviendas,  muebles de instalaciones educacionales, hospitalarias, policiales, etc. Se incluyen los enseres  destinados  al  funcionamiento  de  oficinas,  casinos,  edificaciones  y  otras  instalaciones  públicas.
-29;5; ;Máquinas y Equipos;Máquinas, equipos y accesorios para el funcionamiento, producción o mantenimiento
+29;;;Activos no financieros;
+29;1;;Terrenos;
+29;2;;Edificios;
+29;3;;Vehículos;Equipos empleados para transportar personas  y  objetos,  e  incluye  la  compra  de  automóviles,  station  wagons,  furgones,  buses,  buques, aeronaves, remolques y semirremolques y/o cualquier otro tipo de vehículos   motorizados.
+29;4;;Mobiliario y Otros;Mobiliario  de  oficinas  y  de  viviendas,  muebles de instalaciones educacionales, hospitalarias, policiales, etc. Se incluyen los enseres  destinados  al  funcionamiento  de  oficinas,  casinos,  edificaciones  y  otras  instalaciones  públicas.
+29;5;;Máquinas y Equipos;Máquinas, equipos y accesorios para el funcionamiento, producción o mantenimiento
 29;5;1;Máquinas y Equipos de Oficina;
 29;5;2;Maquinarias y Equipos para la Producción;
 29;5;999;Otras;
-29;6; ;Equipos Informáticos;
+29;6;;Equipos Informáticos;
 29;6;1;Equipos Computacionales y Periféricos;Equipos computacionales y unidades complementarias, tales como UPS, lectores de cinta, impresoras, lectoras-grabadoras de CD-ROM, etc.
 29;6;2;Equipos de Comunicaciones para Redes Informáticas;Equipos de comunicaciones, tales como Router,  Hub,  Firewall,  Balanceador  de  Carga  (CSS),  Scanner  de  Red,  Patch  Panel,  etc.
-29;7; ;Programas Informáticos;
+29;7;;Programas Informáticos;
 29;7;1;Programas Computacionales;Software,  tales  como  procesadores  de texto, planillas electrónicas, bases de datos, etc.
 29;7;2;Sistemas de Información;Software  diseñados  específicamente  o  adecuados  a  las  necesidades de la institución, a partir de un producto genérico, o la contratación de un servicio  de  desarrollo  de  software  del  que  resulte  un  producto  final,  cuya  propiedad  intelectual pertenecerá a la institución.
-29;99; ;Otros Activos no Financieros;
-30; ; ;Activos financieros;Valores mobiliarios e instrumentos financieros  que  no  se  liquida,  vendan  o  rescaten  al  31  de  diciembre  del  año  en  curso.
-30;1; ;Títulos y Valores;Bonos y otros valores
+29;99;;Otros Activos no Financieros;
+30;;;Activos financieros;Valores mobiliarios e instrumentos financieros  que  no  se  liquida,  vendan  o  rescaten  al  31  de  diciembre  del  año  en  curso.
+30;1;;Títulos y Valores;Bonos y otros valores
 30;1;1;Depósitos a Plazo;
 30;1;2;Pactos de Retrocompra;
 30;1;3;Cuotas de Fondos Mutuos;
 30;1;4;Bonos o Pagarés;
 30;1;5;Letras Hipotecarias;
 30;1;999;Otros;
-30;2; ;Acciones y Participaciones de Capital;Acciones u otros valores representativos de capital a empresas públicas o privadas nacionales u organismos e instituciones internacionales
-30;3; ;Operaciones de Cambio;
-30;99; ;Otros Activos Financieros;
-31; ; ;Iniciativas de inversión;
-31;1; ;Estudios Básicos;
+30;2;;Acciones y Participaciones de Capital;Acciones u otros valores representativos de capital a empresas públicas o privadas nacionales u organismos e instituciones internacionales
+30;3;;Operaciones de Cambio;
+30;99;;Otros Activos Financieros;
+31;;;Iniciativas de inversión;
+31;1;;Estudios Básicos;
 31;1;1;Gastos Administrativos;
 31;1;2;Consultorías;
-31;2; ;Proyectos;
+31;2;;Proyectos;
 31;2;1;Gastos Administrativos;
 31;2;2;Consultorías;
 31;2;3;Terrenos;
@@ -125,7 +125,7 @@
 31;2;6;Equipos;
 31;2;7;Vehículos;
 31;2;999;Otros Gastos;
-31;3; ;Programas de Inversión;
+31;3;;Programas de Inversión;
 31;3;1;Gastos Administrativos;
 31;3;2;Consultorías;
 31;3;3;Contratación del Programa;

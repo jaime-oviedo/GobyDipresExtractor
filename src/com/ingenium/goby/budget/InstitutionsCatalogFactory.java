@@ -7,47 +7,46 @@ package com.ingenium.goby.budget;
 import com.ingenium.goby.budget.extraction.ExtractionException;
 import com.ingenium.goby.budget.extraction.InstitutionsCatalogExtractor;
 
-/** 
- * <!-- begin-UML-doc -->
- * <!-- end-UML-doc -->
+/**
+ * <!-- begin-UML-doc --> <!-- end-UML-doc -->
+ * 
  * @author JaimeRodrigo
- * @uml.annotations
- *     derived_abstraction="platform:/resource/goby-design/goby-classifier-extractor.emx#_I5RIgFH0Eee-AoOzRlyylA"
+ * @uml.annotations derived_abstraction="platform:/resource/goby-design/goby-classifier-extractor.emx#_I5RIgFH0Eee-AoOzRlyylA"
  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_I5RIgFH0Eee-AoOzRlyylA"
  */
 public class InstitutionsCatalogFactory {
-  /** 
-  * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_6YiYMFLeEeeyIrnvp3X3kA"
-  */
+  /**
+   * <!-- begin-UML-doc --> <!-- end-UML-doc -->
+   * 
+   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_6YiYMFLeEeeyIrnvp3X3kA"
+   */
   private static InstitutionsCatalogFactory instance = null;
-  /** 
-  * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_neproFLfEeeyIrnvp3X3kA"
-  */
+  /**
+   * <!-- begin-UML-doc --> <!-- end-UML-doc -->
+   * 
+   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_neproFLfEeeyIrnvp3X3kA"
+   */
   private InstitutionsCatalog institutionsCatalog;
-  /** 
-  * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_yYKl0FajEeen0bP8VRV_UQ"
-  */
+  /**
+   * <!-- begin-UML-doc --> <!-- end-UML-doc -->
+   * 
+   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_yYKl0FajEeen0bP8VRV_UQ"
+   */
   private boolean extract;
-  
-  /** 
-  * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_KqcogFalEeen0bP8VRV_UQ"
-  */
+
+  /**
+   * <!-- begin-UML-doc --> <!-- end-UML-doc -->
+   * 
+   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_KqcogFalEeen0bP8VRV_UQ"
+   */
   private String source;
-  
-  /** 
-  * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * @return
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_xUpTUFajEeen0bP8VRV_UQ"
-  */
+
+  /**
+   * <!-- begin-UML-doc --> <!-- end-UML-doc -->
+   * 
+   * @return
+   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_xUpTUFajEeen0bP8VRV_UQ"
+   */
   public synchronized static InstitutionsCatalogFactory getInstance() {
     // begin-user-code
     if (InstitutionsCatalogFactory.instance == null) {
@@ -58,13 +57,13 @@ public class InstitutionsCatalogFactory {
     return InstitutionsCatalogFactory.instance;
     // end-user-code
   }
-  
-  /** 
-  * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * @return
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_xUuy4FajEeen0bP8VRV_UQ"
-  */
+
+  /**
+   * <!-- begin-UML-doc --> <!-- end-UML-doc -->
+   * 
+   * @return
+   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_xUuy4FajEeen0bP8VRV_UQ"
+   */
   public InstitutionsCatalog getInstitutionsCatalog() {
     // begin-user-code
     if (extract) {
@@ -81,54 +80,55 @@ public class InstitutionsCatalogFactory {
     return institutionsCatalog;
     // end-user-code
   }
-  
-  /** 
-  * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * @param forceExtraction
-  * @return
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_xUuy4lajEeen0bP8VRV_UQ"
-  */
+
+  /**
+   * <!-- begin-UML-doc --> <!-- end-UML-doc -->
+   * 
+   * @param forceExtraction
+   * @return
+   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_xUuy4lajEeen0bP8VRV_UQ"
+   */
   public InstitutionsCatalog getInstitutionsCatalog(boolean forceExtraction) {
     // begin-user-code
     extract = forceExtraction;
     return getInstitutionsCatalog();
     // end-user-code
   }
-  
-  /** 
-  * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * @return
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_hPBMMFamEeen0bP8VRV_UQ"
-  */
+
+  /**
+   * <!-- begin-UML-doc --> <!-- end-UML-doc -->
+   * 
+   * @return
+   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_hPBMMFamEeen0bP8VRV_UQ"
+   */
   String getSource() {
     // begin-user-code
     return source;
     // end-user-code
   }
-  
-  /** 
-  * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * @param source
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_jSaAQFamEeen0bP8VRV_UQ"
-  */
+
+  /**
+   * <!-- begin-UML-doc --> <!-- end-UML-doc -->
+   * 
+   * @param source
+   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_jSaAQFamEeen0bP8VRV_UQ"
+   */
   void setSource(String source) {
     // begin-user-code
     this.source = source;
     // end-user-code
   }
-  
-  /** 
-  * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * Crea una nueva instancia de la clase InstitutionsCatalogFactory.
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_0ctToFanEeen0bP8VRV_UQ"
-  */
+
+  /**
+   * <!-- begin-UML-doc --> <!-- end-UML-doc --> Crea una nueva instancia de la clase
+   * InstitutionsCatalogFactory.
+   * 
+   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_0ctToFanEeen0bP8VRV_UQ"
+   */
   private InstitutionsCatalogFactory() {
     // begin-user-code
     super();
+    extract = true;
     // end-user-code
   }
 }

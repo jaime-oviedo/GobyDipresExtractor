@@ -18,41 +18,40 @@ import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 import java.util.List;
 
-/** 
- * <!-- begin-UML-doc -->
- * <!-- end-UML-doc -->
+/**
+ * <!-- begin-UML-doc --> <!-- end-UML-doc -->
+ * 
  * @author JaimeRodrigo
- * @uml.annotations
- *     derived_abstraction="platform:/resource/goby-design/goby-classifier-extractor.emx#_CARQ8FwnEee6qYx77erG2w"
+ * @uml.annotations derived_abstraction="platform:/resource/goby-design/goby-classifier-extractor.emx#_CARQ8FwnEee6qYx77erG2w"
  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_CARQ8FwnEee6qYx77erG2w"
  */
 public class BulkCsvFilesMerger {
-  /** 
-  * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * @param souceDirectory
-  * @param destinationDirectory
-  * @param destinationFileName
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_GXM08FwnEee6qYx77erG2w"
-  */
+  /**
+   * <!-- begin-UML-doc --> <!-- end-UML-doc -->
+   * 
+   * @param souceDirectory
+   * @param destinationDirectory
+   * @param destinationFileName
+   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_GXM08FwnEee6qYx77erG2w"
+   */
   public static void merge(String souceDirectory, String destinationDirectory,
       String destinationFileName) {
     // begin-user-code
     BulkCsvFilesMerger.merge(souceDirectory, destinationDirectory,
         destinationFileName, 0);
-    
+
     // end-user-code
   }
-  
-  /** 
-  * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * @param souceDirectory
-  * @param destinationDirectory
-  * @param destinationFileName
-  * @param linesToSkip
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_1ELjEFwoEee6qYx77erG2w"
-  */
+
+  /**
+   * <!-- begin-UML-doc --> <!-- end-UML-doc -->
+   * 
+   * @param souceDirectory
+   * @param destinationDirectory
+   * @param destinationFileName
+   * @param linesToSkip
+   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_1ELjEFwoEee6qYx77erG2w"
+   */
   public static void merge(String souceDirectory, String destinationDirectory,
       String destinationFileName, int linesToSkip) {
     // begin-user-code
@@ -64,11 +63,11 @@ public class BulkCsvFilesMerger {
       return;
     }
     List<String[]> csvEntries = new ArrayList<>(100);
-    
+
     for (File source : sources) {
-      
+
       FileInputStream is = null;
-      
+
       try {
         is = new FileInputStream(source);
       } catch (FileNotFoundException e1) {
@@ -76,7 +75,7 @@ public class BulkCsvFilesMerger {
         continue;
       }
       InputStreamReader isr = null;
-      
+
       try {
         isr = new InputStreamReader(is, "CP1250");
       } catch (UnsupportedEncodingException e1) {
@@ -91,18 +90,18 @@ public class BulkCsvFilesMerger {
         e1.printStackTrace();
         continue;
       }
-      
+
       BufferedReader buffReader = new BufferedReader(isr);
-      
+
       CSVReader reader = null;
       reader = new CSVReader(buffReader, ';', '"', linesToSkip);
-      
+
       try {
         csvEntries.addAll(reader.readAll());
       } catch (IOException e) {
         e.printStackTrace();
       }
-      
+
       try {
         reader.close();
       } catch (IOException e) {
@@ -113,7 +112,8 @@ public class BulkCsvFilesMerger {
     destinationFile.delete();
     CSVWriter writer = null;
     try {
-      writer = new CSVWriter(new FileWriter(destinationFile), ';');
+      writer = new CSVWriter(new FileWriter(destinationFile), ';',
+          CSVWriter.NO_QUOTE_CHARACTER);
       writer.writeAll(csvEntries);
     } catch (IOException e) {
       e.printStackTrace();
@@ -125,9 +125,9 @@ public class BulkCsvFilesMerger {
           e.printStackTrace();
         }
       }
-      
+
     }
-    
+
     // end-user-code
   }
 }

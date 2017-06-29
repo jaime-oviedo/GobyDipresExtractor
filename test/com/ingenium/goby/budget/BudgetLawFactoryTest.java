@@ -30,7 +30,7 @@ public class BudgetLawFactoryTest {
   public final void testExtractBudgetLaw() {
     String s = File.separator;
     String source = "test" + s + "com" + s + "ingenium" + s + "goby" + s
-        + "extractors" + s + "budget" + s + "fixture" + s + "law.csv";
+        + "extractors" + s + "budget" + s + "fixture" + s + "budgetLaw.csv";
 
     BudgetLawFactory factory = BudgetLawFactory.getInstance();
     factory.setSource(source);
@@ -42,13 +42,13 @@ public class BudgetLawFactoryTest {
     law.setSubelements(catalog.getBatches());
 
     String jsonCatalog = BudgetElementToJsonMapper.map(law, 0);
-    String destination = "tmp" + s + "law.json";
+    String destination = "tmp" + s + "budgetLaw.json";
     FileSystemInjector fsi = new FileSystemInjector(destination, jsonCatalog);
     try {
       fsi.inject();
       File file1 = new File(destination);
       String objective = "test" + s + "com" + s + "ingenium" + s + "goby" + s
-          + "extractors" + s + "budget" + s + "fixture" + s + "law.json";
+          + "extractors" + s + "budget" + s + "fixture" + s + "budgetLaw.json";
       File file2 = new File(objective);
       Assert.assertTrue(FileUtils.contentEquals(file1, file2));
     } catch (Exception e) {

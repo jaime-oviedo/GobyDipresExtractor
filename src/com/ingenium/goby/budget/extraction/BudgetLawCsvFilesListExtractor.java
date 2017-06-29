@@ -4,8 +4,8 @@
 
 package com.ingenium.goby.budget.extraction;
 
+import com.ingenium.commons.util.AbstractDownloader;
 import com.ingenium.commons.util.DownloadException;
-import com.ingenium.commons.util.DownloaderImpl;
 import com.ingenium.goby.budget.Messages;
 
 import java.io.BufferedWriter;
@@ -25,24 +25,25 @@ import org.jsoup.select.Elements;
  * <!-- begin-UML-doc -->
  * Clase&nbsp;que&nbsp;descarga&nbsp;la&nbsp;lista&nbsp;de&nbsp;archivos&nbsp;que&nbsp;contienen&nbsp;información&nbsp;de&nbsp;la&nbsp;Ley<br>de&nbsp;Presupuestos.<br><br>@author&nbsp;JaimeRodrigo
  * <!-- end-UML-doc -->
- * @author joviedo
+ * @author JaimeRodrigo
  * @uml.annotations
  *     derived_abstraction="platform:/resource/goby-design/goby-classifier-extractor.emx#_UXFjwEquEeeJsdrfgQXeQw"
  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UXFjwEquEeeJsdrfgQXeQw"
  */
-public class BudgetLawCsvFilesListExtractor extends DownloaderImpl {
-
+public class BudgetLawCsvFilesListExtractor extends AbstractDownloader {
+  
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UdIhYEquEeeJsdrfgQXeQw"
   */
   private Collection<String> budgetFileList;
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * Crea&nbsp;una&nbsp;nueva&nbsp;instancia&nbsp;de&nbsp;BudgetFileListExtractor.
   * <!-- end-UML-doc -->
+  * Crea una nueva instancia de la clase BudgetLawCsvFilesListExtractor.
   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UdK9oEquEeeJsdrfgQXeQw"
   */
   public BudgetLawCsvFilesListExtractor() {
@@ -51,10 +52,10 @@ public class BudgetLawCsvFilesListExtractor extends DownloaderImpl {
     setSource(Messages.getString("BudgetLawCsvFilesListExtractor.sourceUrl")); //$NON-NLS-1$
     setDestination(
         Messages.getString("BudgetLawCsvFilesListExtractor.destinationUrl")); //$NON-NLS-1$
-    budgetFileList = new ArrayList<>();
+    budgetFileList = new ArrayList<>(400);
     // end-user-code
   }
-
+  
   /*
    * (non-Javadoc)
    *
@@ -71,14 +72,15 @@ public class BudgetLawCsvFilesListExtractor extends DownloaderImpl {
     // begin-user-code
     final File input = new File(getSource());
     PrintWriter outputStream = null;
-    Document doc;
+    Document doc = null;
     try {
       outputStream = new PrintWriter(
           new BufferedWriter(new FileWriter(getDestination())));
       doc = Jsoup.parse(input, "UTF-8");
       final Elements links = doc.select("a[href$=csv]");
       for (Element link : links) {
-        String fileName = link.attr("href") + "\n";
+        String fileName = new StringBuffer(link.attr("href"))
+            .append(System.lineSeparator()).toString();
         budgetFileList.add(fileName);
         outputStream.write(fileName);
       }
@@ -90,10 +92,10 @@ public class BudgetLawCsvFilesListExtractor extends DownloaderImpl {
         outputStream.close();
       }
     }
-
+    
     // end-user-code
   }
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -107,5 +109,5 @@ public class BudgetLawCsvFilesListExtractor extends DownloaderImpl {
     return budgetFileList;
     // end-user-code
   }
-
+  
 }

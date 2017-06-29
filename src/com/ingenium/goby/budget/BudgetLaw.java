@@ -10,13 +10,13 @@ import java.util.Collection;
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
- * @author joviedo
+ * @author JaimeRodrigo
  * @uml.annotations
  *     derived_abstraction="platform:/resource/goby-design/goby-classifier-extractor.emx#_bm8IkFH0Eee-AoOzRlyylA"
  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_bm8IkFH0Eee-AoOzRlyylA"
  */
 public interface BudgetLaw {
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -25,7 +25,7 @@ public interface BudgetLaw {
   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_wAQRYFeiEeeJT_eFoT-0rA"
   */
   public Batch getBatch(int batchNumber);
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->

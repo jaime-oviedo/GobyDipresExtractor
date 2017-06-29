@@ -12,7 +12,7 @@ import java.util.logging.Logger;
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
- * @author joviedo
+ * @author JaimeRodrigo
  * @uml.annotations
  *     derived_abstraction="platform:/resource/goby-design/goby-classifier-extractor.emx#_xiP9AEyIEeekuqvl4T6tsg"
  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_xiP9AEyIEeekuqvl4T6tsg"
@@ -25,10 +25,11 @@ public class BudgetLawCsvFilesMerger {
   */
   private static final Logger log = Logger.getLogger(
       "com.ingenium.goby.budget.extraction.extraction.merge.BudgetLawCsvFilesMerger");
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
+  * Crea una nueva instancia de la clase BudgetLawCsvFilesMerger.
   * @param sourceDirectory
   * @param outputFile
   * @param mergedElementsType
@@ -37,10 +38,10 @@ public class BudgetLawCsvFilesMerger {
   public BudgetLawCsvFilesMerger(String sourceDirectory, String outputFile,
       BudgetElementType mergedElementsType) {
     // begin-user-code
-
+    
     // end-user-code
   }
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -49,7 +50,7 @@ public class BudgetLawCsvFilesMerger {
   */
   public void merge() throws DownloadException {
     // begin-user-code
-
+    
     // end-user-code
   }
 }

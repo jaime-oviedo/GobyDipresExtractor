@@ -10,13 +10,13 @@ import java.math.BigInteger;
  * <!-- begin-UML-doc -->
  * <p>Base element for the budget classifier's hierarchy.</p><p>@author JaimeOviedo</p>
  * <!-- end-UML-doc -->
- * @author joviedo
+ * @author JaimeRodrigo
  * @uml.annotations
  *     derived_abstraction="platform:/resource/goby-design/goby-classifier-extractor.emx#_UZ4ZEEquEeeJsdrfgQXeQw"
  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UZ4ZEEquEeeJsdrfgQXeQw"
  */
 public class BudgetElement {
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <p>The number that identifies the element within his hierarchical level.</p>
@@ -38,7 +38,7 @@ public class BudgetElement {
   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_Ufn0sEquEeeJsdrfgQXeQw"
   */
   private String description;
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <p>The type of the element: CLASSIFIER, BUDGET or EXECUTION.</p>
@@ -53,7 +53,7 @@ public class BudgetElement {
   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_eL3MUEq1EeeJsdrfgQXeQw"
   */
   private final BudgetHierarchyLevel level;
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <p>The element's budget as was established in the budgetary law.</p>
@@ -82,7 +82,7 @@ public class BudgetElement {
   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_ym_UQE1IEeekuqvl4T6tsg"
   */
   private BigInteger cumulativeExecution;
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <p>The current dollar budget for the element.</p>
@@ -95,7 +95,7 @@ public class BudgetElement {
   * <!-- end-UML-doc -->
   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_jKbzwE1VEeekuqvl4T6tsg"
   */
-  private BigInteger cummulativeDollarExecution;
+  private BigInteger cumulativeDollarExecution;
   /** 
   * <!-- begin-UML-doc -->
   * <p>The element's dollar budget as was established in the budgetary law.</p>
@@ -103,37 +103,12 @@ public class BudgetElement {
   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_sdc3QE1VEeekuqvl4T6tsg"
   */
   private BigInteger initialDollarBudget;
-
-  /** 
-  * <!-- begin-UML-doc -->
-  * <p>Returns the value of the type field</p>
-  * <!-- end-UML-doc -->
-  * @return <p>the value of the type field</p>
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_cuAscErwEeeJsdrfgQXeQw"
-  */
-  public final BudgetElementType getType() {
-    // begin-user-code
-    return type;
-    // end-user-code
-  }
-
-  /** 
-  * <!-- begin-UML-doc -->
-  * <p>Returns the value of the level field.</p>
-  * <!-- end-UML-doc -->
-  * @return <p>the value of the description field</p>
-  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_cuRLIErwEeeJsdrfgQXeQw"
-  */
-  public final BudgetHierarchyLevel getLevel() {
-    // begin-user-code
-    return level;
-    // end-user-code
-  }
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <p>Creates a new Budget Element.</p>
   * <!-- end-UML-doc -->
+  * Crea una nueva instancia de la clase BudgetElement.
   * @param number <p>the number that identifies the element within his hierarchical level</p>
   * @param name <p>the name of the element</p>
   * @param description <p>the detailed intended usage of the element</p>
@@ -150,15 +125,61 @@ public class BudgetElement {
     this.description = description;
     this.type = type;
     this.level = level;
-    this.actualBudget = BigInteger.ZERO;
-    this.actualDollarBudget = BigInteger.ZERO;
-    this.cumulativeExecution = BigInteger.ZERO;
-    this.cummulativeDollarExecution = BigInteger.ZERO;
-    this.initialBudget = BigInteger.ZERO;
-    this.initialDollarBudget = BigInteger.ZERO;
+    actualBudget = BigInteger.ZERO;
+    actualDollarBudget = BigInteger.ZERO;
+    cumulativeExecution = BigInteger.ZERO;
+    cumulativeDollarExecution = BigInteger.ZERO;
+    initialBudget = BigInteger.ZERO;
+    initialDollarBudget = BigInteger.ZERO;
     // end-user-code
   }
-
+  
+  /** 
+  * <!-- begin-UML-doc -->
+  * <!-- end-UML-doc -->
+  * Crea una nueva instancia de la clase BudgetElement.
+  * @param element
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_ZHA9sFxhEee8GZGMCONk9w"
+  */
+  public BudgetElement(BudgetElement element) {
+    // begin-user-code
+    this(element.getNumber(), element.getName(), element.getDescription(),
+        element.getType(), element.getLevel());
+    initialBudget = element.getInitialBudget();
+    initialDollarBudget = element.getInitialDollarBudget();
+    actualBudget = element.getActualBudget();
+    actualDollarBudget = element.getActualDollarBudget();
+    cumulativeExecution = element.getCumulativeExecution();
+    cumulativeDollarExecution = element.getCumulativeDollarExecution();
+    // end-user-code
+  }
+  
+  /** 
+  * <!-- begin-UML-doc -->
+  * <p>Returns the value of the type field</p>
+  * <!-- end-UML-doc -->
+  * @return <p>the value of the type field</p>
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_cuAscErwEeeJsdrfgQXeQw"
+  */
+  public final BudgetElementType getType() {
+    // begin-user-code
+    return type;
+    // end-user-code
+  }
+  
+  /** 
+  * <!-- begin-UML-doc -->
+  * <p>Returns the value of the level field.</p>
+  * <!-- end-UML-doc -->
+  * @return <p>the value of the description field</p>
+  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_cuRLIErwEeeJsdrfgQXeQw"
+  */
+  public final BudgetHierarchyLevel getLevel() {
+    // begin-user-code
+    return level;
+    // end-user-code
+  }
+  
   /** 
   * <!-- begin-UML-doc -->
   * <p>Returns the value of the description field.</p>
@@ -171,7 +192,7 @@ public class BudgetElement {
     return description;
     // end-user-code
   }
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <p>Returns the value of the name field.</p>
@@ -184,7 +205,7 @@ public class BudgetElement {
     return name;
     // end-user-code
   }
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <p>Returns the value of the number field</p>
@@ -197,7 +218,7 @@ public class BudgetElement {
     return number;
     // end-user-code
   }
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <p>Sets the value of the description field.</p>
@@ -210,7 +231,7 @@ public class BudgetElement {
     this.description = description;
     // end-user-code
   }
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <p>Sets the value of the name field.</p>
@@ -223,7 +244,7 @@ public class BudgetElement {
     this.name = name;
     // end-user-code
   }
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <p>Sets the value of the number field.</p>
@@ -236,7 +257,7 @@ public class BudgetElement {
     this.number = number;
     // end-user-code
   }
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <p>Returns the element's budget as was established in the budgetary law</p>
@@ -249,7 +270,7 @@ public class BudgetElement {
     return initialBudget;
     // end-user-code
   }
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <p>Returns the current budget for the element.</p>
@@ -262,7 +283,7 @@ public class BudgetElement {
     return actualBudget;
     // end-user-code
   }
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <p>Sets the element's budget as was established in the budgetary law.</p>
@@ -275,7 +296,7 @@ public class BudgetElement {
     initialBudget = budget;
     // end-user-code
   }
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <p>Returns the budget element's currency.</p>
@@ -288,7 +309,7 @@ public class BudgetElement {
     return currency;
     // end-user-code
   }
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <p>Sets the current budget for the element.</p>
@@ -301,7 +322,7 @@ public class BudgetElement {
     actualBudget = budget;
     // end-user-code
   }
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <p>Returns the amount of the element's budget that has been spent.</p>
@@ -314,7 +335,7 @@ public class BudgetElement {
     return cumulativeExecution;
     // end-user-code
   }
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <p>Sets the amount of the element's budget that has been spent.</p>
@@ -327,7 +348,7 @@ public class BudgetElement {
     cumulativeExecution = execution;
     // end-user-code
   }
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <p>Returns the current dollar budget for the element.</p>
@@ -340,7 +361,7 @@ public class BudgetElement {
     return actualDollarBudget;
     // end-user-code
   }
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <p>Sets the current dollar budget for the element.</p>
@@ -353,7 +374,7 @@ public class BudgetElement {
     actualDollarBudget = budget;
     // end-user-code
   }
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <p>Returns the element's dollar budget as was established in the budgetary law</p>
@@ -366,7 +387,7 @@ public class BudgetElement {
     return initialDollarBudget;
     // end-user-code
   }
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <p>Sets the element's dollar budget as was established in the budgetary law.</p>
@@ -379,7 +400,7 @@ public class BudgetElement {
     initialDollarBudget = budget;
     // end-user-code
   }
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -388,10 +409,10 @@ public class BudgetElement {
   */
   public BigInteger getCumulativeDollarExecution() {
     // begin-user-code
-    return this.cummulativeDollarExecution;
+    return cumulativeDollarExecution;
     // end-user-code
   }
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -400,10 +421,10 @@ public class BudgetElement {
   */
   public void setCumulativeDollarExecution(BigInteger execution) {
     // begin-user-code
-    this.cummulativeDollarExecution = execution;
+    cumulativeDollarExecution = execution;
     // end-user-code
   }
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <p>Sets the budget element's currency.</p>
@@ -416,5 +437,5 @@ public class BudgetElement {
     this.currency = currency;
     // end-user-code
   }
-
+  
 }

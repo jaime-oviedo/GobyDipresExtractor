@@ -1,0 +1,89 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Denominación;Monto Pesos;Monto Dólar
+05;67;02;06;;;RENTAS DE LA PROPIEDAD;40159;0
+05;67;02;08;;;OTROS INGRESOS CORRIENTES;292991;0
+05;67;02;08;99;;Otros;292991;0
+05;67;02;09;;;APORTE FISCAL;40620725;0
+05;67;02;09;01;;Libre;40620725;0
+05;67;02;13;;;TRANSFERENCIAS PARA GASTOS DE CAPITAL;30434000;0
+05;67;02;13;02;;Del Gobierno Central;30434000;0
+05;67;02;13;02;003;Subsecretaría de Bienes Nacionales;291792;0
+05;67;02;13;02;004;Subsecretaría de Desarrollo Regional y Administrativo;810992;0
+05;67;02;13;02;006;Tesoro Público Ley N° 19.143, Patentes Mineras;380372;0
+05;67;02;13;02;008;Tesoro Público Ley N°19.995, Casinos de Juegos;1071513;0
+05;67;02;13;02;013;Tesoro Público Artículo 129 bis 19 Ley N° 20.017, Código de Aguas;2554516;0
+05;67;02;13;02;019;Fondo de Inversión y Reconversión Regional;1978457;0
+05;67;02;13;02;030;Tesoro Público Ley N°20.378 - Fondo de Apoyo Regional (FAR);21306774;0
+05;67;02;13;02;032;Subsecretaría de Desarrollo Regional y Administrativo - Programas de Convergencia;2039584;0
+05;67;02;15;;;SALDO INICIAL DE CAJA;1000;0
+05;67;02;24;;;TRANSFERENCIAS CORRIENTES;4473194;0
+05;67;02;24;01;;Al Sector Privado;3896394;0
+05;67;02;24;01;001;Actividades Culturales;1133000;0
+05;67;02;24;01;003;Actividades Deportivas;1184500;0
+05;67;02;24;01;005;Actividades de Seguridad Ciudadana;445894;0
+05;67;02;24;01;006;Corporación Agencia Regional de Desarrollo Productivo de la Región del Maule;515000;0
+05;67;02;24;01;017;Actividades Sociales;618000;0
+05;67;02;24;03;;A Otras Entidades Públicas;576800;0
+05;67;02;24;03;001;Municipalidades - Actividades Culturales;401700;0
+05;67;02;24;03;011;Otras Entidades Públicas - Actividades Culturales;92700;0
+05;67;02;24;03;013;Otras Entidades Públicas-Actividades Deportivas;41200;0
+05;67;02;24;03;015;Otras Entidades Públicas-Actividades de Seguridad Ciudadana;41200;0
+05;67;02;29;;;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS;2516762;0
+05;67;02;29;03;;Vehículos;861420;0
+05;67;02;29;04;;Mobiliario y Otros;110342;0
+05;67;02;29;05;;Máquinas y Equipos;1545000;0
+05;67;02;31;;;INICIATIVAS DE INVERSIÓN;48500205;0
+05;67;02;31;01;;Estudios Básicos;161607;0
+05;67;02;31;02;;Proyectos;48338598;0
+05;67;02;32;;;PRÉSTAMOS;0,001;0
+05;67;02;32;06;;Por Anticipos a Contratistas;0,001;0
+05;67;02;32;06;001;Anticipos a Contratistas;800000;0
+05;67;02;32;06;002;Recuperación de Anticipos a Contratistas;-800000;0
+05;67;02;33;;;TRANSFERENCIAS DE CAPITAL;15897714;0
+05;67;02;33;01;;Al Sector Privado;1108773;0
+05;67;02;33;01;001;Junta Nacional de Cuerpos de Bomberos de Chile;515000;0
+05;67;02;33;01;010;Aplicación Letra a) Artículo Cuarto Transitorio Ley N°20.378;412000;0
+05;67;02;33;01;201;Instituto de Investigaciones Agropecuarias (INIA)-Recuperación de caudales por estimulación mixta para precipitaciones;20562;0
+05;67;02;33;01;234;Corporación Regional de Desarrollo Productivo - Diagnóstico de las economías de barrio (30442723-0);72100;0
+05;67;02;33;01;235;Corporación Regional de Desarrollo Productivo - Diagnóstico y caracterización uso de energía en MIPYME de la madera (30442834-0);25560;0
+05;67;02;33;01;236;Corporación Regional de Desarrollo Productivo - Diagnóstico zonas con aptitud vitivinícola en provincia de Cauquenes Costa (30442835-0);23690;0
+05;67;02;33;01;237;Corporación Regional de Desarrollo Productivo - Diagnóstico industrialización y acceso a comercialización productores hortícolas (30437272-0);39861;0
+05;67;02;33;03;;A Otras Entidades Públicas;14788941;0
+05;67;02;33;03;100;Municipalidades (Programa Mejoramiento de Barrios);2575000;0
+05;67;02;33;03;125;Municipalidades (Fondo Regional de Iniciativa Local);5150000;0
+05;67;02;33;03;207;CORFO-Apoyo a la Inversión en Zonas  de Oportunidades (30303223-0);206000;0
+05;67;02;33;03;208;CORFO-Transferencia para Mejorar la Competitividad Vía Tecnologías Limpias;93242;0
+05;67;02;33;03;221;SERNATUR-Desarrollo Turístico Territorial;34989;0
+05;67;02;33;03;233;SERCOTEC-Centro de Desarrollo Empresarial de Cauquenes (30369122-0);70880;0
+05;67;02;33;03;234;Subsecretaría de Pesca-Transferencia fomento productivo para organizaciones de pescadores artesanales, 2012-2013.;34584;0
+05;67;02;33;03;240;SEREMI Agricultura-Regularización de derecho de agua para el riego en Maule;10300;0
+05;67;02;33;03;244;Servicio de Salud del Maule-Capacitación Becas Maule 100 Médicos Especialistas para la región;1030000;0
+05;67;02;33;03;245;SERCOTEC-Apoyo a Emprendedores de Pueblos Originarios del Maule (30369123-0);317050;0
+05;67;02;33;03;250;INDAP-Inscripción Derechos de Aprov. de Aguas Subterráneas Sector Retiro;15759;0
+05;67;02;33;03;251;Servicio Agrícola y Ganadero-Difusión para el Control de Polilla Lobesia Botrana (30370123-0);358585;0
+05;67;02;33;03;260;SEREMI de Transportes y Telecomunicaciones-Mejoramiento Conectividad Sector El Morro - Chanco (30388523-0);16315;0
+05;67;02;33;03;261;SEREMI de Transportes y Telecomunicaciones-Mejoramiento Conectividad San Pedro de Armengol-Cauquenes (30388432-0);18416;0
+05;67;02;33;03;262;SEREMI de Transportes y Telecomunicaciones-Saneamiento Caracterización del Transporte Público Zonas Rezagadas (30386876-0);32188;0
+05;67;02;33;03;263;SERNATUR-Control Modelo Caracterización Territorial Turística Zonas Rezagadas (30386672-0);21109;0
+05;67;02;33;03;270;SERNATUR-Desarrollo Productos Turísticos Retiro, Parral, Longaví (30392675-0);61968;0
+05;67;02;33;03;271;SERNATUR-Transferencia Bianual Identidad, Gestión y Promoción Turística de la Región del Maule (30368625-0);206000;0
+05;67;02;33;03;272;CORFO-Programas Estratégicos Regionales (30373923-0);13905;0
+05;67;02;33;03;273;CORFO-Programa Regional de Apoyo al Emprendimiento (30395272-0);216712;0
+05;67;02;33;03;274;Comisión Nacional de Riego-Programa Integral de Riego Región del Maule (30392723-0);206000;0
+05;67;02;33;03;275;Comisión Nacional de Riego-Programa Integral de Riego Región del Maule 2015-2018 (30392724-0);125197;0
+05;67;02;33;03;278;Servicio Agrícola y Ganadero-Mejoramiento Suelos Agrícolas Región del Maule (30392577-0);309000;0
+05;67;02;33;03;279;SEREMI Bienes Nacionales-Regularización de Títulos de Dominio Región del Maule (30398575-0);206000;0
+05;67;02;33;03;280;SERCOTEC-Explotación Acuicultura Sustentable de Pequeña Escala (30388739-0);77250;0
+05;67;02;33;03;281;SERNATUR - Fortalecimiento turístico comuna de Romeral, Río Claro, San Rafael (30477545-0);38393;0
+05;67;02;33;03;282;SERNATUR - Fortalecimiento turístico comuna de Curepto, Empedrado, Cauquenes (30447544-0);35226;0
+05;67;02;33;03;283;SENCE - Emprendimiento jóvenes en la región (30443672-0);206000;0
+05;67;02;33;03;284;SENCE - Capacitación emprendimiento jóvenes con discapacidad (30443723-0);95404;0
+05;67;02;33;03;286;Subsecretaría de Pesca - Fomento productivo para organizaciones pesca artesanal (30447823-0);103000;0
+05;67;02;33;03;287;CORFO - Acuerdos de producción limpia vitivinícola, berries y turismo zonas rezagadas (30436888-0);103000;0
+05;67;02;33;03;288;CORFO - Implementación en prácticas de producción limpia (30444022-0);103000;0
+05;67;02;33;03;290;FOSIS - Fomento para la competitividad 2016 (30444572-0);206000;0
+05;67;02;33;03;291;SERCOTEC - Asesoría y acceso al financiamiento para empresas y emprendedores (30443625-0);206000;0
+05;67;02;33;03;292;SERNAM - Fortalecimiento comercialización en microempresarias  zonas rezagadas (30453437-0);103000;0
+05;67;02;33;03;297;SEREMI de Transportes y Telecomunicaciones-Conectividad Wi-Fi urbano y rural territorio rezagado I y II (30459095-0);103000;0
+05;67;02;33;03;999;Provisión FIC (Sin Distribuir);2080469;0
+05;67;02;34;;;SERVICIO DE LA DEUDA;1000;0
+05;67;02;34;07;;Deuda Flotante;1000;0

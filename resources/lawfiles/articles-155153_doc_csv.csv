@@ -1,0 +1,38 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Denominación;Monto Pesos;Monto Dólar
+13;01;01;05;;;TRANSFERENCIAS CORRIENTES;278883;0
+13;01;01;05;01;;Del Sector Privado;10;0
+13;01;01;05;01;003;Administradora de Fondos para Bonificación por Retiro;10;0
+13;01;01;05;02;;Del Gobierno Central;278873;0
+13;01;01;05;02;024;De Subsecretaría de Economía FIE  a  ACHIPIA;278873;0
+13;01;01;08;;;OTROS INGRESOS CORRIENTES;76878;0
+13;01;01;08;01;;Recuperaciones y Reembolsos por Licencias Médicas;68578;0
+13;01;01;08;99;;Otros;8300;0
+13;01;01;09;;;APORTE FISCAL;29882454;0
+13;01;01;09;01;;Libre;29882454;0
+13;01;01;21;;;GASTOS EN PERSONAL;5791146;0
+13;01;01;22;;;BIENES Y SERVICIOS DE CONSUMO;1368826;0
+13;01;01;23;;;PRESTACIONES DE SEGURIDAD SOCIAL;10;0
+13;01;01;23;03;;Prestaciones Sociales del Empleador;10;0
+13;01;01;24;;;TRANSFERENCIAS CORRIENTES;22914997;0
+13;01;01;24;01;;Al Sector Privado;1235271;0
+13;01;01;24;01;368;Fundación de Comunicaciones del Agro;619683;0
+13;01;01;24;01;369;Emergencias Agrícolas;10;0
+13;01;01;24;01;370;Programa de Apoyo a la Educación Agrícola y Rural;283563;0
+13;01;01;24;01;377;Red Agroclimática Nacional;282106;0
+13;01;01;24;01;381;Consorcio Lechero S.A.;15697;0
+13;01;01;24;01;382;Corporación Cinco al Día;34212;0
+13;01;01;24;02;;Al Gobierno Central;20099284;0
+13;01;01;24;02;001;Programa Promoción de Exportaciones - DIRECON;9910951;0
+13;01;01;24;02;002;Corporación de Fomento de la Producción;4173755;0
+13;01;01;24;02;006;Corporación de Fomento de la Producción - Seguro Agrícola;6014578;0
+13;01;01;24;03;;A Otras Entidades Públicas;1567873;0
+13;01;01;24;03;359;Agencia Chilena para la Inocuidad Alimentaria;1072848;0
+13;01;01;24;03;383;Apoyo a la Comercialización de Pequeños Productores de Trigo;495025;0
+13;01;01;24;07;;A Organismos Internacionales;12569;0
+13;01;01;24;07;002;Fondo Latinoamericano de Arroces para Riego;12569;0
+13;01;01;29;;;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS;163236;0
+13;01;01;29;03;;Vehículos;17057;0
+13;01;01;29;04;;Mobiliario y Otros;4367;0
+13;01;01;29;05;;Máquinas y Equipos;3667;0
+13;01;01;29;06;;Equipos Informáticos;82226;0
+13;01;01;29;07;;Programas Informáticos;55919;0

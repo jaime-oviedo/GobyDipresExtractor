@@ -1,0 +1,21 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Denominación;Monto Pesos;Monto Dólar
+50;01;07;06;;;RENTAS DE LA PROPIEDAD;0;188521
+50;01;07;06;03;;Intereses;0;188521
+50;01;07;06;03;061;Intereses;0;188511
+50;01;07;06;03;062;Ganancias de Capital;0;10
+50;01;07;11;;;VENTA DE ACTIVOS FINANCIEROS;0;2730
+50;01;07;11;01;;Venta o Rescate de Títulos y Valores;0;2720
+50;01;07;11;99;;Otros Activos Financieros;0;10
+50;01;07;13;;;TRANSFERENCIAS PARA GASTOS DE CAPITAL;0;10
+50;01;07;13;02;;Del Gobierno Central;0;10
+50;01;07;13;02;050;De Operaciones Complementarias;0;10
+50;01;07;22;;;BIENES Y SERVICIOS DE CONSUMO;0;2720
+50;01;07;24;;;TRANSFERENCIAS CORRIENTES;0;10
+50;01;07;24;02;;Al Gobierno Central;0;10
+50;01;07;24;02;060;A Ingresos Generales de la Nación;0;10
+50;01;07;30;;;ADQUISICIÓN DE ACTIVOS FINANCIEROS;0;188521
+50;01;07;30;01;;Compra de Títulos y Valores;0;188511
+50;01;07;30;99;;Otros Activos Financieros;0;10
+50;01;07;33;;;TRANSFERENCIAS DE CAPITAL;0;10
+50;01;07;33;02;;Al Gobierno Central;0;10
+50;01;07;33;02;059;Al Fondo de Reserva de Pensiones;0;10

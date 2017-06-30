@@ -1,0 +1,61 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Denominación;Monto Pesos;Monto Dólar
+11;01;01;05;;;TRANSFERENCIAS CORRIENTES;2072315;10579
+11;01;01;05;02;;Del Gobierno Central;2072315;10579
+11;01;01;05;02;002;Armada de Chile;5768;0
+11;01;01;05;02;006;Dirección General de Movilización Nacional;46661;0
+11;01;01;05;02;008;Fuerza Aérea de Chile;17958;0
+11;01;01;05;02;013;Programa Antártico - Subsecretaría para las Fuerzas Armadas;662810;0
+11;01;01;05;02;014;Subsecretaría para las Fuerzas Armadas;448999;0
+11;01;01;05;02;015;Fondo para Misiones de Paz-Estado Mayor Conjunto;696020;10579
+11;01;01;05;02;017;Red de Respaldo de Telecomunicaciones - ONEMI;194099;0
+11;01;01;08;;;OTROS INGRESOS CORRIENTES;3162778;0
+11;01;01;08;99;;Otros;3162778;0
+11;01;01;09;;;APORTE FISCAL;513458111;35647
+11;01;01;09;01;;Libre;513458111;35647
+11;01;01;10;;;VENTA DE ACTIVOS NO FINANCIEROS;5552740;0
+11;01;01;10;01;;Terrenos;5552740;0
+11;01;01;11;;;VENTA DE ACTIVOS FINANCIEROS;5929700;-8471
+11;01;01;11;03;;Operaciones de Cambio;5929700;-8471
+11;01;01;12;;;RECUPERACIÓN DE PRÉSTAMOS;1427086;946
+11;01;01;12;07;;Por Anticipos por Cambio de Residencia;1427086;946
+11;01;01;13;;;TRANSFERENCIAS PARA GASTOS DE CAPITAL;18241;0
+11;01;01;13;02;;Del Gobierno Central;18241;0
+11;01;01;13;02;002;Dirección General de Movilización Nacional;18241;0
+11;01;01;21;;;GASTOS EN PERSONAL;448883222;26120
+11;01;01;22;;;BIENES Y SERVICIOS DE CONSUMO;73579974;10683
+11;01;01;23;;;PRESTACIONES DE SEGURIDAD SOCIAL;515000;148
+11;01;01;23;01;;Prestaciones Previsionales;515000;148
+11;01;01;24;;;TRANSFERENCIAS CORRIENTES;4742333;671
+11;01;01;24;01;;Al Sector Privado;1006991;365
+11;01;01;24;01;003;Becas;79133;0
+11;01;01;24;01;004;Premios y Otros;126724;0
+11;01;01;24;01;008;Bienestar Social;801134;365
+11;01;01;24;02;;Al Gobierno Central;1574621;0
+11;01;01;24;02;002;Organismos de Salud del Ejército;1329337;0
+11;01;01;24;02;003;Dirección General de Movilización Nacional;46078;0
+11;01;01;24;02;005;Armada de Chile;14348;0
+11;01;01;24;02;007;Subsecretaría para las Fuerzas Armadas;19185;0
+11;01;01;24;02;008;Estado Mayor Conjunto;101992;0
+11;01;01;24;02;009;Subsecretaría de Defensa;8734;0
+11;01;01;24;02;011;Organismos de Industria Militar;28874;0
+11;01;01;24;02;012;Instituto Geográfico Militar;26073;0
+11;01;01;24;03;;A Otras Entidades Públicas;180212;0
+11;01;01;24;03;230;Fomento Equino y Deporte Ecuestre;47650;0
+11;01;01;24;03;243;Bienestar Social;132562;0
+11;01;01;24;04;;A Empresas Públicas no Financieras;1980509;306
+11;01;01;24;04;229;Fábricas y Maestranzas del Ejército;1980509;306
+11;01;01;25;;;INTEGROS AL FISCO;2472;0
+11;01;01;25;01;;Impuestos;2472;0
+11;01;01;29;;;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS;1415283;133
+11;01;01;29;04;;Mobiliario y Otros;801394;14
+11;01;01;29;05;;Máquinas y Equipos;138599;11
+11;01;01;29;06;;Equipos Informáticos;324619;106
+11;01;01;29;07;;Programas Informáticos;143152;2
+11;01;01;29;99;;Otros Activos no Financieros;7519;0
+11;01;01;31;;;INICIATIVAS DE INVERSIÓN;1050966;0
+11;01;01;31;02;;Proyectos;1050966;0
+11;01;01;32;;;PRÉSTAMOS;1427086;946
+11;01;01;32;07;;Por Anticipos por Cambio de Residencia;1427086;946
+11;01;01;33;;;TRANSFERENCIAS DE CAPITAL;4635;0
+11;01;01;33;03;;A Otras Entidades Públicas;4635;0
+11;01;01;33;03;001;Fomento Equino y Deporte Ecuestre;4635;0

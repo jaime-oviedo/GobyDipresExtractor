@@ -20,7 +20,7 @@ import java.util.List;
 
 /**
  * <!-- begin-UML-doc --> <!-- end-UML-doc -->
- * 
+ *
  * @author JaimeRodrigo
  * @uml.annotations derived_abstraction="platform:/resource/goby-design/goby-classifier-extractor.emx#_CARQ8FwnEee6qYx77erG2w"
  * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_CARQ8FwnEee6qYx77erG2w"
@@ -28,7 +28,7 @@ import java.util.List;
 public class BulkCsvFilesMerger {
   /**
    * <!-- begin-UML-doc --> <!-- end-UML-doc -->
-   * 
+   *
    * @param souceDirectory
    * @param destinationDirectory
    * @param destinationFileName
@@ -45,7 +45,7 @@ public class BulkCsvFilesMerger {
 
   /**
    * <!-- begin-UML-doc --> <!-- end-UML-doc -->
-   * 
+   *
    * @param souceDirectory
    * @param destinationDirectory
    * @param destinationFileName
@@ -67,18 +67,49 @@ public class BulkCsvFilesMerger {
     for (File source : sources) {
 
       FileInputStream is = null;
-
+      InputStreamReader isr = null;
+      CSVReader reader = null;
+      BufferedReader buffReader = null;
       try {
         is = new FileInputStream(source);
+        isr = new InputStreamReader(is, "CP1250");
+        buffReader = new BufferedReader(isr);
+        reader = new CSVReader(buffReader, ';', '"', linesToSkip);
+        csvEntries.addAll(reader.readAll());
       } catch (FileNotFoundException e1) {
         e1.printStackTrace();
         continue;
-      }
-      InputStreamReader isr = null;
-
-      try {
-        isr = new InputStreamReader(is, "CP1250");
       } catch (UnsupportedEncodingException e1) {
+        e1.printStackTrace();
+        continue;
+      } catch (IOException e) {
+        e.printStackTrace();
+        continue;
+      } finally {
+        if (reader != null) {
+          try {
+            reader.close();
+          } catch (IOException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+          }
+        }
+        if (buffReader != null) {
+          try {
+            buffReader.close();
+          } catch (IOException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+          }
+        }
+        if (isr != null) {
+          try {
+            isr.close();
+          } catch (IOException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+          }
+        }
         if (is != null) {
           try {
             is.close();
@@ -87,27 +118,10 @@ public class BulkCsvFilesMerger {
             e.printStackTrace();
           }
         }
-        e1.printStackTrace();
-        continue;
       }
 
-      BufferedReader buffReader = new BufferedReader(isr);
-
-      CSVReader reader = null;
-      reader = new CSVReader(buffReader, ';', '"', linesToSkip);
-
-      try {
-        csvEntries.addAll(reader.readAll());
-      } catch (IOException e) {
-        e.printStackTrace();
-      }
-
-      try {
-        reader.close();
-      } catch (IOException e) {
-        e.printStackTrace();
-      }
     }
+
     File destinationFile = new File(destination);
     destinationFile.delete();
     CSVWriter writer = null;

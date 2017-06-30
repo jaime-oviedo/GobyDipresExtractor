@@ -30,8 +30,9 @@ public class BudgetLawWebPageDownloader extends AbstractDownloader {
   public BudgetLawWebPageDownloader() {
     // begin-user-code
     super();
-    setSource(Messages.getString("BudgetWebPageExtractor.sourceUrl")); //$NON-NLS-1$
-    setDestination(Messages.getString("BudgetWebPageExtractor.destinationUrl")); //$NON-NLS-1$
+    setSource(Messages.getString("BudgetLawWebPageDownloader.sourceUrl")); //$NON-NLS-1$
+    setDestination(
+        Messages.getString("BudgetLawWebPageDownloader.destinationUrl")); //$NON-NLS-1$
     // end-user-code
   }
   

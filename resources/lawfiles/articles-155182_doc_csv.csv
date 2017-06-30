@@ -1,0 +1,72 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Denominación;Monto Pesos;Monto Dólar
+15;09;01;04;;;IMPOSICIONES PREVISIONALES;75041179;0
+15;09;01;04;02;;Aportes del Trabajador;75041179;0
+15;09;01;05;;;TRANSFERENCIAS CORRIENTES;245963049;0
+15;09;01;05;02;;Del Gobierno Central;232523908;0
+15;09;01;05;02;004;Fondo Único de Prestaciones Familiares y Subsidios de Cesantía;36523908;0
+15;09;01;05;02;075;Fondo de Reserva de Pensiones Ley N° 20.128;196000000;0
+15;09;01;05;03;;De Otras Entidades Públicas;13439141;0
+15;09;01;05;03;001;Comisión Revalorizadora de Pensiones;13439141;0
+15;09;01;06;;;RENTAS DE LA PROPIEDAD;198901;0
+15;09;01;07;;;INGRESOS DE OPERACIÓN;239582;0
+15;09;01;08;;;OTROS INGRESOS CORRIENTES;41327642;0
+15;09;01;08;01;;Recuperaciones y Reembolsos por Licencias Médicas;1361101;0
+15;09;01;08;02;;Multas y Sanciones Pecuniarias;8031899;0
+15;09;01;08;99;;Otros;31934642;0
+15;09;01;09;;;APORTE FISCAL;4445308628;0
+15;09;01;09;01;;Libre;4445308628;0
+15;09;01;10;;;VENTA DE ACTIVOS NO FINANCIEROS;13611;0
+15;09;01;10;04;;Mobiliario y Otros;13611;0
+15;09;01;11;;;VENTA DE ACTIVOS FINANCIEROS;52970555;0
+15;09;01;11;01;;Venta o Rescate de Títulos y Valores;52970555;0
+15;09;01;12;;;RECUPERACIÓN DE PRÉSTAMOS;209665;0
+15;09;01;12;01;;De Asistencia Social;18540;0
+15;09;01;12;02;;Hipotecarios;158829;0
+15;09;01;12;05;;Médicos;618;0
+15;09;01;12;09;;Por Ventas a Plazo;31678;0
+15;09;01;15;;;SALDO INICIAL DE CAJA;11000000;0
+15;09;01;21;;;GASTOS EN PERSONAL;53510992;0
+15;09;01;22;;;BIENES Y SERVICIOS DE CONSUMO;77411355;0
+15;09;01;23;;;PRESTACIONES DE SEGURIDAD SOCIAL;4242845830;0
+15;09;01;23;01;;Prestaciones Previsionales;3180230047;0
+15;09;01;23;01;001;Jubilaciones, Pensiones y Montepíos;2327387291;0
+15;09;01;23;01;002;Bonificaciones;359943;0
+15;09;01;23;01;003;Bono de Reconocimiento;704194557;0
+15;09;01;23;01;004;Desahucios e Indemnizaciones;27345665;0
+15;09;01;23;01;006;Asignación por Muerte;26315705;0
+15;09;01;23;01;007;Seguro de Vida;21938011;0
+15;09;01;23;01;008;Devolución de Imposiciones;130863;0
+15;09;01;23;01;016;Bonificación por Hijo para las Mujeres;72558012;0
+15;09;01;23;02;;Prestaciones de Asistencia Social;1062615783;0
+15;09;01;23;02;001;Asignación Familiar;27018541;0
+15;09;01;23;02;006;Subsidio de Cesantía;22156;0
+15;09;01;23;02;007;Pensiones Básicas Solidarias de Vejez;471731043;0
+15;09;01;23;02;008;Pensiones Básicas Solidarias de Invalidez;203953578;0
+15;09;01;23;02;009;Subsidio de Discapacidad Mental;17839213;0
+15;09;01;23;02;010;Bono para Cónyuges que cumplan cincuenta años de matrimonio;4941054;0
+15;09;01;23;02;011;Bonificación Ley N° 20.531;192532550;0
+15;09;01;23;02;012;Aporte Familiar Permanente de Marzo;144577648;0
+15;09;01;24;;;TRANSFERENCIAS CORRIENTES;432158870;0
+15;09;01;24;01;;Al Sector Privado;420798820;0
+15;09;01;24;01;006;Otras;1173679;0
+15;09;01;24;01;007;Aporte Previsional Solidario;416980182;0
+15;09;01;24;01;008;Traslados y Hospedajes Pensiones Básicas Solidarias de Invalidez;161969;0
+15;09;01;24;01;009;Subsidio Previsional a los Trabajadores Jóvenes;2379990;0
+15;09;01;24;01;011;Promoción de Derechos Previsionales y de Seguridad Social para mujeres en territorios rurales de difícil conectividad;103000;0
+15;09;01;24;03;;A Otras Entidades Públicas;11344333;0
+15;09;01;24;03;263;Comisión Revalorizadora de Pensiones;7332854;0
+15;09;01;24;03;405;Comisiones Médicas, D.L. N° 3.500;4011479;0
+15;09;01;24;07;;A Organismos Internacionales;15717;0
+15;09;01;24;07;001;Organismos Internacionales;15717;0
+15;09;01;29;;;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS;518605;0
+15;09;01;29;04;;Mobiliario y Otros;72100;0
+15;09;01;29;05;;Máquinas y Equipos;25750;0
+15;09;01;29;06;;Equipos Informáticos;206000;0
+15;09;01;29;07;;Programas Informáticos;214755;0
+15;09;01;30;;;ADQUISICIÓN DE ACTIVOS FINANCIEROS;54777910;0
+15;09;01;30;01;;Compra de Títulos y Valores;54777910;0
+15;09;01;32;;;PRÉSTAMOS;39250;0
+15;09;01;32;01;;De Asistencia Social;39250;0
+15;09;01;34;;;SERVICIO DE LA DEUDA;10000;0
+15;09;01;34;07;;Deuda Flotante;10000;0
+15;09;01;35;;;SALDO FINAL DE CAJA;11000000;0

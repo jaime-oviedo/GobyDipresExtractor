@@ -18,7 +18,7 @@ public class Messages {
   * <!-- end-UML-doc -->
   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_Uh_zQEquEeeJsdrfgQXeQw"
   */
-  private static final String BUNDLE_NAME = "com.ingenium.goby.budget.extraction.extractor";
+  private static final String BUNDLE_NAME = "com.ingenium.goby.budget.extractor";
   
   /** 
   * <!-- begin-UML-doc -->
@@ -30,9 +30,9 @@ public class Messages {
   
   /** 
   * <!-- begin-UML-doc -->
-  * Devuelve&nbsp;el&nbsp;string&nbsp;asociado&nbsp;a&nbsp;una&nbsp;llave&nbsp;en&nbsp;un&nbsp;archivo&nbsp;de&nbsp;propiedades.<br><br>@param&nbsp;key<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;la&nbsp;llave&nbsp;para&nbsp;buscar&nbsp;el&nbsp;string
+  * <p>Returns the string associated to the given key in the properties archive</p>
   * <!-- end-UML-doc -->
-  * @param key
+  * @param key <p>the key that identifies the string to fetch from the properties files</p>
   * @return
   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UiEEsEquEeeJsdrfgQXeQw"
   */

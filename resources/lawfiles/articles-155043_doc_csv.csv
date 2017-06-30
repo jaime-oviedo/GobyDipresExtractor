@@ -1,0 +1,64 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Denominación;Monto Pesos;Monto Dólar
+05;74;02;08;;;OTROS INGRESOS CORRIENTES;482838;0
+05;74;02;08;99;;Otros;482838;0
+05;74;02;09;;;APORTE FISCAL;23947885;0
+05;74;02;09;01;;Libre;23947885;0
+05;74;02;13;;;TRANSFERENCIAS PARA GASTOS DE CAPITAL;19546029;0
+05;74;02;13;02;;Del Gobierno Central;19546029;0
+05;74;02;13;02;003;Subsecretaría Bienes Nacionales;153037;0
+05;74;02;13;02;004;Subsecretaría de Desarrollo Regional y Administrativo;1155307;0
+05;74;02;13;02;006;Tesoro Público Ley N° 19.143, Patentes Mineras;150849;0
+05;74;02;13;02;008;Tesoro Público Ley N°19.995, Casinos de Juegos;1000032;0
+05;74;02;13;02;013;Tesoro Público Artículo 129 bis 19 Ley N° 20.017, Código de Aguas;2282201;0
+05;74;02;13;02;019;Fondo de Inversión y Reconversión Regional;1146641;0
+05;74;02;13;02;020;Tesoro Público Ley N°18.892, Patentes de Acuicultura;160533;0
+05;74;02;13;02;030;Tesoro Público Ley N°20.378 - Fondo de Apoyo Regional (FAR);12348629;0
+05;74;02;13;02;032;Subsecretaría de Desarrollo Regional y Administrativo - Programa de Convergencia;1148800;0
+05;74;02;15;;;SALDO INICIAL DE CAJA;1000;0
+05;74;02;22;;;BIENES Y SERVICIOS DE CONSUMO;15342;0
+05;74;02;24;;;TRANSFERENCIAS CORRIENTES;3066745;0
+05;74;02;24;01;;Al Sector Privado;1849819;0
+05;74;02;24;01;001;Actividades Culturales;508749;0
+05;74;02;24;01;003;Actividades Deportivas;508749;0
+05;74;02;24;01;005;Actividades de Seguridad Ciudadana;405642;0
+05;74;02;24;01;006;Corporación Agencia de Desarrollo Productivo de Los Ríos;426679;0
+05;74;02;24;03;;A Otras Entidades Públicas;1216926;0
+05;74;02;24;03;001;Municipalidades - Actividades Culturales;405642;0
+05;74;02;24;03;003;Municipalidades - Actividades Deportivas;405642;0
+05;74;02;24;03;005;Municipalidades - Actividades de Seguridad Ciudadana;405642;0
+05;74;02;29;;;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS;618000;0
+05;74;02;29;03;;Vehículos;206000;0
+05;74;02;29;05;;Máquinas y Equipos;412000;0
+05;74;02;31;;;INICIATIVAS DE INVERSIÓN;32996049;0
+05;74;02;31;01;;Estudios Básicos;220243;0
+05;74;02;31;02;;Proyectos;32643660;0
+05;74;02;31;03;;Programas de Inversión;132146;0
+05;74;02;32;;;PRÉSTAMOS;0,001;0
+05;74;02;32;06;;Por Anticipos a Contratistas;0,001;0
+05;74;02;32;06;001;Anticipos a Contratistas;800000;0
+05;74;02;32;06;002;Recuperación de Anticipos a Contratistas;-800000;0
+05;74;02;33;;;TRANSFERENCIAS DE CAPITAL;7280616;0
+05;74;02;33;01;;Al Sector Privado;824000;0
+05;74;02;33;01;010;Aplicación Letra a) Artículo Cuarto Transitorio Ley N°20.378;824000;0
+05;74;02;33;03;;A Otras Entidades Públicas;6456616;0
+05;74;02;33;03;106;CONICYT-Transferencia Centro Regional de Investigación, Sector Silvoagropecuario (30361532-0);51500;0
+05;74;02;33;03;125;Municipalidades (Fondo Regional de Iniciativa Local);4120000;0
+05;74;02;33;03;202;SERNATUR - Transferencia Cartera Iniciativas 2014, Política Regional de Turismo (30137564-0);103000;0
+05;74;02;33;03;244;SUBSECRETARIA DE AGRICULTURA-Transferencia Programa Regional de Mejoramiento de Fertilidad de Suelos Sector Pecuario;3708;0
+05;74;02;33;03;245;SUBSECRETARIA DE AGRICULTURA- Transferencia Programa de Implementación Unidades Demostrativas Extensión Rural de Liceos EMTP Jóvenes y Comunidad Rural. (30283572-0);5047;0
+05;74;02;33;03;246;SUBSECRETARIA DE AGRICULTURA-Transferencia Programa de Fortalecimiento de la Educación Rural Orientado al Entorno con Pertinencia Productiva y Cultural. (30283622-0);5665;0
+05;74;02;33;03;248;SUBSECRETARIA DE AGRICULTURA-Transferencia Gestión Social y Organización para la Producción (GSOP)(30283922-0);18746;0
+05;74;02;33;03;249;SUBSECRETARIA DE AGRICULTURA-Transferencia Unidad de Implementación y Seguimiento de la PRDSAP (UIS-SAP)(30283923-0);7725;0
+05;74;02;33;03;262;SENCE-Transferencia Capacitación para Trabajadores de la Región de Los Ríos. (30339922-0);51500;0
+05;74;02;33;03;263;SUBSECRETARIA DE AGRICULTURA - Transferencia Programa Regional de Mejoramiento de la Sanidad Bovina y Trazabilidad Pequeños Agricultores y Habitantes Rurales Vulnerables. (30338624-0);37914;0
+05;74;02;33;03;264;SERVICIO AGRICOLA GANADERO- Transferencia Programa Control Comunitario del Visón en la Región de Los Ríos (30376022-0);103000;0
+05;74;02;33;03;286;Subsecretaría de Minería-Desarrollo de la pequeña minería (30427474-0);51500;0
+05;74;02;33;03;289;FOSIS - Implementación ruta El Caulle (30460055-0);103000;0
+05;74;02;33;03;290;FOSIS  - Ruta de Trumao segunda etapa (30448123-0);103000;0
+05;74;02;33;03;293;INDAP - Asesoría técnica, asociatividad y comercialización sector silvoagropecuario (30443575-0);41200;0
+05;74;02;33;03;294;INIA - Desarrollo hortofrutícola (30443578-0);8240;0
+05;74;02;33;03;295;SEREMI Bienes Nacionales-Saneamiento de títulos de dominio (30442894-0);10300;0
+05;74;02;33;03;297;SERNATUR - Desarrollo turismo cuenca Lago Ranco (30445676-0);20105;0
+05;74;02;33;03;999;Provisión FIC (Sin Distribuir);1611466;0
+05;74;02;34;;;SERVICIO DE LA DEUDA;1000;0
+05;74;02;34;07;;Deuda Flotante;1000;0

@@ -1,0 +1,40 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Denominación;Monto Pesos;Monto Dólar
+21;02;01;05;;;TRANSFERENCIAS CORRIENTES;18052114;0
+21;02;01;05;02;;Del Gobierno Central;18052114;0
+21;02;01;05;02;002;Subsecretaría de Servicios Sociales - Programa 05;18052114;0
+21;02;01;07;;;INGRESOS DE OPERACIÓN;1384;0
+21;02;01;08;;;OTROS INGRESOS CORRIENTES;970698;0
+21;02;01;08;01;;Recuperaciones y Reembolsos por Licencias Médicas;221763;0
+21;02;01;08;99;;Otros;748935;0
+21;02;01;09;;;APORTE FISCAL;60171968;0
+21;02;01;09;01;;Libre;60171968;0
+21;02;01;12;;;RECUPERACIÓN DE PRÉSTAMOS;1315;0
+21;02;01;12;10;;Ingresos por Percibir;1315;0
+21;02;01;13;;;TRANSFERENCIAS PARA GASTOS DE CAPITAL;1374178;0
+21;02;01;13;02;;Del Gobierno Central;1374178;0
+21;02;01;13;02;006;Gobierno Regional de Magallanes y Antártica Chilena;1374178;0
+21;02;01;15;;;SALDO INICIAL DE CAJA;1000;0
+21;02;01;21;;;GASTOS EN PERSONAL;13328914;0
+21;02;01;22;;;BIENES Y SERVICIOS DE CONSUMO;2437303;0
+21;02;01;24;;;TRANSFERENCIAS CORRIENTES;22881625;0
+21;02;01;24;01;;Al Sector Privado;795748;0
+21;02;01;24;01;548;Alianzas Público-Privadas;795748;0
+21;02;01;24;03;;A Otras Entidades Públicas;22085877;0
+21;02;01;24;03;334;Programa de Acompañamiento Psicosocial;10234105;0
+21;02;01;24;03;337;Programa de Acompañamiento Sociolaboral;9649344;0
+21;02;01;24;03;339;Programa Eje;2202428;0
+21;02;01;29;;;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS;992194;0
+21;02;01;29;04;;Mobiliario y Otros;60623;0
+21;02;01;29;05;;Máquinas y Equipos;25317;0
+21;02;01;29;06;;Equipos Informáticos;397410;0
+21;02;01;29;07;;Programas Informáticos;508844;0
+21;02;01;33;;;TRANSFERENCIAS DE CAPITAL;40931621;0
+21;02;01;33;01;;Al Sector Privado;40126961;0
+21;02;01;33;01;001;Programa de Emprendimiento y Microfinanzas;27088315;0
+21;02;01;33;01;002;Programa de Desarrollo Social;6748103;0
+21;02;01;33;01;007;Programa de Empleabilidad;5479894;0
+21;02;01;33;01;009;Programa de Educación Financiera;810649;0
+21;02;01;33;03;;A Otras Entidades Públicas;804660;0
+21;02;01;33;03;003;Intervención en Territorios;804660;0
+21;02;01;34;;;SERVICIO DE LA DEUDA;1000;0
+21;02;01;34;07;;Deuda Flotante;1000;0

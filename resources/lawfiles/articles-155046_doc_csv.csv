@@ -1,0 +1,54 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Denominación;Monto Pesos;Monto Dólar
+06;01;01;05;;;TRANSFERENCIAS CORRIENTES;1869700;0
+06;01;01;05;02;;Del Gobierno Central;1869700;0
+06;01;01;05;02;001;Consejo Nacional de la Cultura y las Artes;1260700;0
+06;01;01;05;02;005;Secretaría y Administración General de Hacienda (Programa 01);609000;0
+06;01;01;07;;;INGRESOS DE OPERACIÓN;330050;0
+06;01;01;08;;;OTROS INGRESOS CORRIENTES;407203;2874
+06;01;01;08;01;;Recuperaciones y Reembolsos por Licencias Médicas;228303;0
+06;01;01;08;99;;Otros;178900;2874
+06;01;01;09;;;APORTE FISCAL;29747364;182983
+06;01;01;09;01;;Libre;29747364;182983
+06;01;01;11;;;VENTA DE ACTIVOS FINANCIEROS;-1869700;2671
+06;01;01;11;03;;Operaciones de Cambio;-1869700;2671
+06;01;01;12;;;RECUPERACIÓN DE PRÉSTAMOS;0;250
+06;01;01;12;07;;Por Anticipos por Cambio de Residencia;0;250
+06;01;01;21;;;GASTOS EN PERSONAL;21064945;87551
+06;01;01;22;;;BIENES Y SERVICIOS DE CONSUMO;5373180;42979
+06;01;01;24;;;TRANSFERENCIAS CORRIENTES;1092300;53842
+06;01;01;24;01;;Al Sector Privado;151401;126
+06;01;01;24;01;001;Instituto Chileno de Campos de Hielo;83347;0
+06;01;01;24;01;003;Comunidades de Chilenos en el Exterior;0;36
+06;01;01;24;01;004;Consejo Chile - California;0;90
+06;01;01;24;01;006;Consejo Chileno para las Relaciones Internacionales;68054;0
+06;01;01;24;02;;Al Gobierno Central;194088;0
+06;01;01;24;02;004;Instituto Nacional de Estadísticas;194088;0
+06;01;01;24;03;;A Otras Entidades Públicas;746811;3394
+06;01;01;24;03;037;Programa de Actividades Específicas en el Exterior;0;2544
+06;01;01;24;03;038;Programa Académico en Relaciones Internacionales;219904;0
+06;01;01;24;03;039;Programa de Reuniones Internacionales;285996;0
+06;01;01;24;03;597;Integración Vecinal con Zonas Fronterizas;41264;0
+06;01;01;24;03;609;Inserción Internacional de las Regiones;56650;0
+06;01;01;24;03;614;Programa Posicionamiento de Chile en Asociaciones Estratégicas con Países Afines;0;234
+06;01;01;24;03;617;Programa Oficina de Desarrollo Organizacional;103000;0
+06;01;01;24;03;619;Modernización de la Gestión Consular;0;270
+06;01;01;24;03;622;Mejoramiento de la atención ciudadana en el Ministerio de RR.EE.;14247;0
+06;01;01;24;03;625;Acercamientos Políticos y Estratégicos;0;166
+06;01;01;24;03;626;Registro de Chilenos en el Exterior;25750;8
+06;01;01;24;03;627;Programa de Fortalecimiento de la Política Consular y Migratoria;0;172
+06;01;01;24;07;;A Organismos Internacionales;0;50322
+06;01;01;24;07;001;Organismos Internacionales;0;50322
+06;01;01;26;;;OTROS GASTOS CORRIENTES;0;600
+06;01;01;26;02;;Compensaciones por Daños a Terceros y/o a la Propiedad;0;600
+06;01;01;29;;;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS;2580302;2371
+06;01;01;29;02;;Edificios;2528111;0
+06;01;01;29;03;;Vehículos;0;300
+06;01;01;29;04;;Mobiliario y Otros;22321;168
+06;01;01;29;05;;Máquinas y Equipos;29870;0
+06;01;01;29;06;;Equipos Informáticos;0;894
+06;01;01;29;07;;Programas Informáticos;0;709
+06;01;01;29;99;;Otros Activos no Financieros;0;300
+06;01;01;31;;;INICIATIVAS DE INVERSIÓN;373890;1185
+06;01;01;31;02;;Proyectos;373890;1185
+06;01;01;32;;;PRÉSTAMOS;0;250
+06;01;01;32;07;;Por Anticipos por Cambio de Residencia;0;250

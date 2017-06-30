@@ -1,0 +1,38 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Denominación;Monto Pesos;Monto Dólar
+18;27;01;08;;;OTROS INGRESOS CORRIENTES;64358;0
+18;27;01;08;01;;Recuperaciones y Reembolsos por Licencias Médicas;48111;0
+18;27;01;08;99;;Otros;16247;0
+18;27;01;09;;;APORTE FISCAL;181996678;0
+18;27;01;09;01;;Libre;181996678;0
+18;27;01;12;;;RECUPERACIÓN DE PRÉSTAMOS;7072512;0
+18;27;01;12;02;;Hipotecarios;7072512;0
+18;27;01;13;;;TRANSFERENCIAS PARA GASTOS DE CAPITAL;589584;0
+18;27;01;13;03;;De Otras Entidades Públicas;589584;0
+18;27;01;13;03;001;De Municipalidades para Pavimentos Participativos;574737;0
+18;27;01;13;03;003;De Municipalidades para Programa Rehabilitación de Espacios Públicos;14847;0
+18;27;01;15;;;SALDO INICIAL DE CAJA;23000;0
+18;27;01;21;;;GASTOS EN PERSONAL;2676968;0
+18;27;01;22;;;BIENES Y SERVICIOS DE CONSUMO;538562;0
+18;27;01;26;;;OTROS GASTOS CORRIENTES;10;0
+18;27;01;26;02;;Compensaciones por Daños a Terceros y/o a la Propiedad;10;0
+18;27;01;29;;;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS;692985;0
+18;27;01;29;02;;Edificios;667544;0
+18;27;01;29;04;;Mobiliario y Otros;16480;0
+18;27;01;29;05;;Máquinas y Equipos;8961;0
+18;27;01;31;;;INICIATIVAS DE INVERSIÓN;41060039;0
+18;27;01;31;02;;Proyectos;41060039;0
+18;27;01;32;;;PRÉSTAMOS;33608898;0
+18;27;01;32;02;;Hipotecarios;33608898;0
+18;27;01;32;02;003;Préstamos Subsidio Habitacional;33608898;0
+18;27;01;33;;;TRANSFERENCIAS DE CAPITAL;111168013;0
+18;27;01;33;01;;Al Sector Privado;111168013;0
+18;27;01;33;01;023;Subsidios Fondo Solidario de Vivienda;1535730;0
+18;27;01;33;01;025;Sistema Subsidio Habitacional;22286;0
+18;27;01;33;01;028;Subsidio de Protección del Patrimonio Familiar;32227443;0
+18;27;01;33;01;127;Subsidios Leasing;8882;0
+18;27;01;33;01;132;Sistema Integrado de Subsidio;22380960;0
+18;27;01;33;01;133;Fondo Solidario de Elección de Vivienda;14374679;0
+18;27;01;33;01;136;Programa de Habitabilidad Rural;9997853;0
+18;27;01;33;01;137;Subsidio Extraordinario de Reactivación;30620180;0
+18;27;01;34;;;SERVICIO DE LA DEUDA;657;0
+18;27;01;34;07;;Deuda Flotante;657;0

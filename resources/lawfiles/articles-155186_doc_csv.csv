@@ -1,0 +1,64 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Denominación;Monto Pesos;Monto Dólar
+15;14;01;04;;;IMPOSICIONES PREVISIONALES;145982386;0
+15;14;01;04;01;;Aportes del Empleador;496652;0
+15;14;01;04;02;;Aportes del Trabajador;145485734;0
+15;14;01;05;;;TRANSFERENCIAS CORRIENTES;13982519;0
+15;14;01;05;02;;Del Gobierno Central;340638;0
+15;14;01;05;02;004;Fondo Único de Prestaciones Familiares y Subsidios de Cesantía;340638;0
+15;14;01;05;03;;De Otras Entidades Públicas;13641881;0
+15;14;01;05;03;001;Fondo de Auxilio Social;13246911;0
+15;14;01;05;03;012;Comisión Revalorizadora de Pensiones;394970;0
+15;14;01;06;;;RENTAS DE LA PROPIEDAD;443108;0
+15;14;01;07;;;INGRESOS DE OPERACIÓN;218071;0
+15;14;01;08;;;OTROS INGRESOS CORRIENTES;3624445;0
+15;14;01;08;02;;Multas y Sanciones Pecuniarias;2907;0
+15;14;01;08;99;;Otros;3621538;0
+15;14;01;09;;;APORTE FISCAL;580364534;0
+15;14;01;09;01;;Libre;580364534;0
+15;14;01;10;;;VENTA DE ACTIVOS NO FINANCIEROS;16;0
+15;14;01;10;04;;Mobiliario y Otros;16;0
+15;14;01;11;;;VENTA DE ACTIVOS FINANCIEROS;2524373;0
+15;14;01;11;01;;Venta o Rescate de Títulos y Valores;2524373;0
+15;14;01;12;;;RECUPERACIÓN DE PRÉSTAMOS;24095645;0
+15;14;01;12;01;;De Asistencia Social;6310;0
+15;14;01;12;05;;Médicos;24089335;0
+15;14;01;15;;;SALDO INICIAL DE CAJA;100840;0
+15;14;01;21;;;GASTOS EN PERSONAL;4405599;0
+15;14;01;22;;;BIENES Y SERVICIOS DE CONSUMO;3373425;0
+15;14;01;23;;;PRESTACIONES DE SEGURIDAD SOCIAL;669777589;0
+15;14;01;23;01;;Prestaciones Previsionales;629111628;0
+15;14;01;23;01;001;Jubilaciones, Pensiones y Montepíos;621339422;0
+15;14;01;23;01;002;Bonificaciones;279467;0
+15;14;01;23;01;003;Bono de Reconocimiento;5459462;0
+15;14;01;23;01;004;Desahucios e Indemnizaciones;477623;0
+15;14;01;23;01;006;Asignación por Muerte;1390349;0
+15;14;01;23;01;008;Devolución de Imposiciones;165305;0
+15;14;01;23;02;;Prestaciones de Asistencia Social;340638;0
+15;14;01;23;02;001;Asignación Familiar;340638;0
+15;14;01;23;03;;Prestaciones Sociales del Empleador;40325323;0
+15;14;01;23;03;002;Beneficios Médicos;40325323;0
+15;14;01;24;;;TRANSFERENCIAS CORRIENTES;66130045;0
+15;14;01;24;03;;A Otras Entidades Públicas;66130045;0
+15;14;01;24;03;281;Fondo de Auxilio Social;13246911;0
+15;14;01;24;03;282;Fondo Desahucio Mutualidad de Carabineros;300;0
+15;14;01;24;03;283;Aporte Medicina Preventiva;5977997;0
+15;14;01;24;03;284;Aporte Fondo de Desahucio Carabineros;390808;0
+15;14;01;24;03;285;Aporte Hospital Dirección de Previsión de Carabineros;441746;0
+15;14;01;24;03;286;Fondo Medicina Preventiva;8050619;0
+15;14;01;24;03;287;Hospital de Carabineros;6487336;0
+15;14;01;24;03;288;Fondo Hospital Dirección de Previsión de Carabineros;19576576;0
+15;14;01;24;03;289;Comisión Revalorizadora de Pensiones;10404369;0
+15;14;01;24;03;290;Aporte Fondo Desahucio Policía de Investigaciones;367821;0
+15;14;01;24;03;291;Fondos Servicio Odontológico;1185562;0
+15;14;01;29;;;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS;522253;0
+15;14;01;29;05;;Máquinas y Equipos;88690;0
+15;14;01;29;06;;Equipos Informáticos;99529;0
+15;14;01;29;07;;Programas Informáticos;334034;0
+15;14;01;30;;;ADQUISICIÓN DE ACTIVOS FINANCIEROS;2891381;0
+15;14;01;30;01;;Compra de Títulos y Valores;2891381;0
+15;14;01;32;;;PRÉSTAMOS;24095645;0
+15;14;01;32;01;;De Asistencia Social;6310;0
+15;14;01;32;05;;Médicos;24089335;0
+15;14;01;34;;;SERVICIO DE LA DEUDA;90000;0
+15;14;01;34;07;;Deuda Flotante;90000;0
+15;14;01;35;;;SALDO FINAL DE CAJA;50000;0

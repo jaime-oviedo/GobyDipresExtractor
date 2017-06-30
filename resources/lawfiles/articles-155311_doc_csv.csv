@@ -1,0 +1,19 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Denominación;Monto Pesos;Monto Dólar
+50;01;10;05;;;TRANSFERENCIAS CORRIENTES;40;0
+50;01;10;05;01;;Del Sector Privado;10;0
+50;01;10;05;03;;De Otras Entidades Públicas;10;0
+50;01;10;05;06;;De Gobiernos Extranjeros;10;0
+50;01;10;05;07;;De Organismos Internacionales;10;0
+50;01;10;06;;;RENTAS DE LA PROPIEDAD;3678612;0
+50;01;10;06;03;;Intereses;3678612;0
+50;01;10;06;03;010;Intereses;3678612;0
+50;01;10;11;;;VENTA DE ACTIVOS FINANCIEROS;10;0
+50;01;10;11;01;;Venta o Rescate de Títulos y Valores;10;0
+50;01;10;13;;;TRANSFERENCIAS PARA GASTOS DE CAPITAL;100000000;0
+50;01;10;13;02;;Del Gobierno Central;100000000;0
+50;01;10;13;02;100;De Operaciones Complementarias;100000000;0
+50;01;10;24;;;TRANSFERENCIAS CORRIENTES;80000000;0
+50;01;10;24;02;;Al Gobierno Central;80000000;0
+50;01;10;24;02;090;Al Fondo Nacional de Salud, aplicación del Fondo para Diagnóstico y Tratamientos de Alto Costo Ley N°20.850;80000000;0
+50;01;10;30;;;ADQUISICIÓN DE ACTIVOS FINANCIEROS;23678662;0
+50;01;10;30;01;;Compra de Títulos y Valores;23678662;0

@@ -1,0 +1,25 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Denominación;Monto Pesos;Monto Dólar
+24;01;05;08;;;OTROS INGRESOS CORRIENTES;30;0
+24;01;05;08;01;;Recuperaciones y Reembolsos por Licencias Médicas;10;0
+24;01;05;08;02;;Multas y Sanciones Pecuniarias;10;0
+24;01;05;08;99;;Otros;10;0
+24;01;05;09;;;APORTE FISCAL;19248298;0
+24;01;05;09;01;;Libre;19248298;0
+24;01;05;13;;;TRANSFERENCIAS PARA GASTOS DE CAPITAL;2618898;0
+24;01;05;13;02;;Del Gobierno Central;2618898;0
+24;01;05;13;02;012;Gobierno Regional de Magallanes y Antártica Chilena;246314;0
+24;01;05;13;02;015;Gobierno Regional de Arica y Parinacota;2372584;0
+24;01;05;21;;;GASTOS EN PERSONAL;1766501;0
+24;01;05;22;;;BIENES Y SERVICIOS DE CONSUMO;1995494;0
+24;01;05;24;;;TRANSFERENCIAS CORRIENTES;15439221;0
+24;01;05;24;01;;Al Sector Privado;2058719;0
+24;01;05;24;01;006;Agencia Chilena de Eficiencia Energética;2058719;0
+24;01;05;24;03;;A Otras Entidades Públicas;13380502;0
+24;01;05;24;03;006;Aplicación Plan de Acción de Eficiencia Energética;13380502;0
+24;01;05;29;;;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS;41200;0
+24;01;05;29;05;;Máquinas y Equipos;41200;0
+24;01;05;33;;;TRANSFERENCIAS DE CAPITAL;2624810;0
+24;01;05;33;01;;Al Sector Privado;1972635;0
+24;01;05;33;01;001;Agencia Chilena de Eficiencia Energética;1972635;0
+24;01;05;33;03;;A Otras Entidades Públicas;652175;0
+24;01;05;33;03;001;Aplicación Plan de Acción de Eficiencia Energética;652175;0

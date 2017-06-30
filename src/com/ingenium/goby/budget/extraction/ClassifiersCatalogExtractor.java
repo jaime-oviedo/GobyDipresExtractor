@@ -27,10 +27,9 @@ import java.util.logging.Logger;
  * Json file.
  * </p>
  * <p>
- * 
  * @author JaimeRodrigo
- *                      </p>
- *                      <!-- end-UML-doc -->
+ * </p>
+ * <!-- end-UML-doc -->
  * 
  * @author JaimeRodrigo
  * @uml.annotations derived_abstraction="platform:/resource/goby-design/goby-classifier-extractor.emx#_UXHY8EquEeeJsdrfgQXeQw"
@@ -181,7 +180,7 @@ public class ClassifiersCatalogExtractor {
 
         int itemNumber = 0;
         s = line[1];
-        if (s != null && !"".equals(s)) {
+        if ((s != null) && !"".equals(s)) {
           try {
             itemNumber = Integer.parseInt(s);
           } catch (NumberFormatException e) {
@@ -194,7 +193,7 @@ public class ClassifiersCatalogExtractor {
 
         int assignmentNumber = 0;
         s = line[2];
-        if (s != null && !"".equals(s)) {
+        if ((s != null) && !"".equals(s)) {
           try {
             assignmentNumber = Integer.parseInt(s);
           } catch (NumberFormatException e) {
@@ -208,8 +207,10 @@ public class ClassifiersCatalogExtractor {
         if (s != null) {
           name = s;
         } else {
-          throw new ExtractionException("Unable to obtain name for element:"
-              + subtitleNumber + itemNumber + assignmentNumber);
+          throw new ExtractionException(
+              new StringBuffer("Unable to obtain name for element:")
+                  .append(subtitleNumber).append(itemNumber)
+                  .append(assignmentNumber).toString());
         }
         String description = "";
         s = line[4];

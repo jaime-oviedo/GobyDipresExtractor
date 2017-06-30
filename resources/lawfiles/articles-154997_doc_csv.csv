@@ -1,0 +1,38 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Denominación;Monto Pesos;Monto Dólar
+05;02;01;05;;;TRANSFERENCIAS CORRIENTES;10;0
+05;02;01;05;01;;Del Sector Privado;10;0
+05;02;01;05;01;001;Donaciones;10;0
+05;02;01;08;;;OTROS INGRESOS CORRIENTES;182727;0
+05;02;01;08;01;;Recuperaciones y Reembolsos por Licencias Médicas;166057;0
+05;02;01;08;99;;Otros;16670;0
+05;02;01;09;;;APORTE FISCAL;63044535;0
+05;02;01;09;01;;Libre;63044535;0
+05;02;01;10;;;VENTA DE ACTIVOS NO FINANCIEROS;41382;0
+05;02;01;10;03;;Vehículos;41382;0
+05;02;01;21;;;GASTOS EN PERSONAL;31671298;0
+05;02;01;22;;;BIENES Y SERVICIOS DE CONSUMO;6582441;0
+05;02;01;23;;;PRESTACIONES DE SEGURIDAD SOCIAL;10;0
+05;02;01;23;01;;Prestaciones Previsionales;10;0
+05;02;01;24;;;TRANSFERENCIAS CORRIENTES;10048445;0
+05;02;01;24;01;;Al Sector Privado;10;0
+05;02;01;24;01;033;Fondo de Solidaridad Nacional;10;0
+05;02;01;24;03;;A Otras Entidades Públicas;10048435;0
+05;02;01;24;03;011;Ley de Régimen  Interior;10;0
+05;02;01;24;03;012;Administración de Complejos Fronterizos;6546902;0
+05;02;01;24;03;013;Programa de Atención a Migrantes;1545000;0
+05;02;01;24;03;800;Programa de Coordinación, Orden Público y Gestión Territorial;1956523;0
+05;02;01;29;;;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS;474725;0
+05;02;01;29;03;;Vehículos;202142;0
+05;02;01;29;04;;Mobiliario y Otros;26541;0
+05;02;01;29;05;;Máquinas y Equipos;24118;0
+05;02;01;29;06;;Equipos Informáticos;173905;0
+05;02;01;29;07;;Programas Informáticos;48019;0
+05;02;01;31;;;INICIATIVAS DE INVERSIÓN;8410715;0
+05;02;01;31;02;;Proyectos;8410715;0
+05;02;01;32;;;PRÉSTAMOS;10;0
+05;02;01;32;07;;Por Anticipos por Cambio de Residencia;10;0
+05;02;01;33;;;TRANSFERENCIAS DE CAPITAL;6081010;0
+05;02;01;33;01;;Al Sector Privado;3400000;0
+05;02;01;33;01;002;Reintegro Crédito IVA  Concesiones;3400000;0
+05;02;01;33;03;;A Otras Entidades Públicas;2681010;0
+05;02;01;33;03;002;Programa Mitigación de Riesgo;2681010;0

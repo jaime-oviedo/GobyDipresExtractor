@@ -1,0 +1,58 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Denominación;Monto Pesos;Monto Dólar
+09;16;01;07;;;INGRESOS DE OPERACIÓN;12431;0
+09;16;01;08;;;OTROS INGRESOS CORRIENTES;398944;0
+09;16;01;08;01;;Recuperaciones y Reembolsos por Licencias Médicas;171521;0
+09;16;01;08;99;;Otros;227423;0
+09;16;01;09;;;APORTE FISCAL;78887375;0
+09;16;01;09;01;;Libre;78887375;0
+09;16;01;12;;;RECUPERACIÓN DE PRÉSTAMOS;83572;0
+09;16;01;13;;;TRANSFERENCIAS PARA GASTOS DE CAPITAL;2802653;0
+09;16;01;13;02;;Del Gobierno Central;2802653;0
+09;16;01;13;02;001;De Subsecretaría de Desarrollo Regional y Administrativo;2802653;0
+09;16;01;15;;;SALDO INICIAL DE CAJA;1000;0
+09;16;01;21;;;GASTOS EN PERSONAL;13913462;0
+09;16;01;22;;;BIENES Y SERVICIOS DE CONSUMO;4159165;0
+09;16;01;23;;;PRESTACIONES DE SEGURIDAD SOCIAL;17157;0
+09;16;01;23;03;;Prestaciones Sociales del Empleador;17157;0
+09;16;01;24;;;TRANSFERENCIAS CORRIENTES;51174575;0
+09;16;01;24;01;;Al Sector Privado;19804514;0
+09;16;01;24;01;081;Fundación Artesanías de Chile;803181;0
+09;16;01;24;01;188;Corporación Cultural Municipalidad de Santiago;2898085;0
+09;16;01;24;01;268;Orquestas Sinfónicas Juveniles e Infantiles de Chile;2936465;0
+09;16;01;24;01;269;Centro Cultural Palacio de la Moneda;2075048;0
+09;16;01;24;01;279;Corporación Centro Cultural Gabriela Mistral;2965824;0
+09;16;01;24;01;290;Otras Instituciones Colaboradoras;5502354;0
+09;16;01;24;01;291;Parque Cultural Valparaíso;1148144;0
+09;16;01;24;01;292;Programa de Orquestas Regionales Profesionales;1475413;0
+09;16;01;24;02;;Al Gobierno Central;1260700;0
+09;16;01;24;02;002;Ministerio de Relaciones Exteriores;1260700;0
+09;16;01;24;03;;A Otras Entidades Públicas;30109361;0
+09;16;01;24;03;087;Actividades de Fomento y Desarrollo Cultural;13590132;0
+09;16;01;24;03;098;Conjuntos Artísticos Estables;3454696;0
+09;16;01;24;03;122;Fomento del Arte en la Educación;1407435;0
+09;16;01;24;03;123;Fomento y Desarrollo del Patrimonio Nacional;507735;0
+09;16;01;24;03;129;Red Cultura;3079700;0
+09;16;01;24;03;135;Centros de Creación y Desarrollo Artístico para Niños y Jóvenes;2104883;0
+09;16;01;24;03;136;Sistema Nacional de Patrimonio Material e Inmaterial;956732;0
+09;16;01;24;03;138;Programa de Intermediación Cultural;2542247;0
+09;16;01;24;03;139;Programa Nacional de Desarrollo Artístico en la Educación;1313866;0
+09;16;01;24;03;143;Fomento y Difusión del Arte y las Culturas de Pueblos Indígenas;1151935;0
+09;16;01;25;;;INTEGROS AL FISCO;690;0
+09;16;01;25;01;;Impuestos;690;0
+09;16;01;29;;;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS;1532234;0
+09;16;01;29;04;;Mobiliario y Otros;178038;0
+09;16;01;29;05;;Máquinas y Equipos;333970;0
+09;16;01;29;06;;Equipos Informáticos;450749;0
+09;16;01;29;07;;Programas Informáticos;569477;0
+09;16;01;31;;;INICIATIVAS DE INVERSIÓN;1469767;0
+09;16;01;31;02;;Proyectos;1469767;0
+09;16;01;33;;;TRANSFERENCIAS DE CAPITAL;9916925;0
+09;16;01;33;01;;Al Sector Privado;2060000;0
+09;16;01;33;01;002;Fondo del Patrimonio;2060000;0
+09;16;01;33;03;;A Otras Entidades Públicas;7856925;0
+09;16;01;33;03;001;Centros Culturales;1247661;0
+09;16;01;33;03;002;Programa de Financiamiento de Infraestructura Cultural Pública y/o Privada;2055612;0
+09;16;01;33;03;003;Teatros Regionales;4553652;0
+09;16;01;34;;;SERVICIO DE LA DEUDA;1000;0
+09;16;01;34;07;;Deuda Flotante;1000;0
+09;16;01;35;;;SALDO FINAL DE CAJA;1000;0

@@ -1,0 +1,34 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Denominación;Monto Pesos;Monto Dólar
+04;01;01;08;;;OTROS INGRESOS CORRIENTES;1399059;0
+04;01;01;08;01;;Recuperaciones y Reembolsos por Licencias Médicas;883816;0
+04;01;01;08;02;;Multas y Sanciones Pecuniarias;31;0
+04;01;01;08;99;;Otros;515212;0
+04;01;01;09;;;APORTE FISCAL;71637069;0
+04;01;01;09;01;;Libre;70405877;0
+04;01;01;09;03;;Servicio de la Deuda Externa;1231192;0
+04;01;01;10;;;VENTA DE ACTIVOS NO FINANCIEROS;23920;0
+04;01;01;10;03;;Vehículos;23874;0
+04;01;01;10;04;;Mobiliario y Otros;10;0
+04;01;01;10;05;;Máquinas y Equipos;26;0
+04;01;01;10;99;;Otros Activos no Financieros;10;0
+04;01;01;12;;;RECUPERACIÓN DE PRÉSTAMOS;138664;0
+04;01;01;12;10;;Ingresos por Percibir;138664;0
+04;01;01;21;;;GASTOS EN PERSONAL;55560295;0
+04;01;01;22;;;BIENES Y SERVICIOS DE CONSUMO;10046530;0
+04;01;01;24;;;TRANSFERENCIAS CORRIENTES;112633;0
+04;01;01;24;01;;Al Sector Privado;13976;0
+04;01;01;24;01;006;Otras Transferencias;13976;0
+04;01;01;24;07;;A Organismos Internacionales;98657;0
+04;01;01;24;07;002;A Organismos Internacionales;98657;0
+04;01;01;25;;;INTEGROS AL FISCO;5119;0
+04;01;01;25;01;;Impuestos;5119;0
+04;01;01;29;;;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS;3362822;0
+04;01;01;29;04;;Mobiliario y Otros;25750;0
+04;01;01;29;05;;Máquinas y Equipos;51500;0
+04;01;01;29;06;;Equipos Informáticos;1883115;0
+04;01;01;29;07;;Programas Informáticos;1402457;0
+04;01;01;31;;;INICIATIVAS DE INVERSIÓN;2880121;0
+04;01;01;31;02;;Proyectos;2880121;0
+04;01;01;34;;;SERVICIO DE LA DEUDA;1231192;0
+04;01;01;34;02;;Amortización Deuda Externa;994295;0
+04;01;01;34;04;;Intereses Deuda Externa;236897;0

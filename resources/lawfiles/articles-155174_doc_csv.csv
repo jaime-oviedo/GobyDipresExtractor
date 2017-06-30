@@ -1,0 +1,24 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Denominación;Monto Pesos;Monto Dólar
+15;01;01;08;;;OTROS INGRESOS CORRIENTES;55711;0
+15;01;01;08;01;;Recuperaciones y Reembolsos por Licencias Médicas;55061;0
+15;01;01;08;99;;Otros;650;0
+15;01;01;09;;;APORTE FISCAL;11036262;0
+15;01;01;09;01;;Libre;11036262;0
+15;01;01;15;;;SALDO INICIAL DE CAJA;50000;0
+15;01;01;21;;;GASTOS EN PERSONAL;5525632;0
+15;01;01;22;;;BIENES Y SERVICIOS DE CONSUMO;2187903;0
+15;01;01;24;;;TRANSFERENCIAS CORRIENTES;3136508;0
+15;01;01;24;01;;Al Sector Privado;1429708;0
+15;01;01;24;01;432;Programa Diálogo Social;407150;0
+15;01;01;24;01;435;Fondo de Formación Sindical y Relaciones Laborales Colaborativas;1022558;0
+15;01;01;24;03;;A Otras Entidades Públicas;1706800;0
+15;01;01;24;03;261;Comisión del Sistema Nacional de Certificación de Competencias Laborales;1706800;0
+15;01;01;25;;;INTEGROS AL FISCO;153;0
+15;01;01;25;01;;Impuestos;153;0
+15;01;01;29;;;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS;287777;0
+15;01;01;29;05;;Máquinas y Equipos;6953;0
+15;01;01;29;06;;Equipos Informáticos;98086;0
+15;01;01;29;07;;Programas Informáticos;182738;0
+15;01;01;34;;;SERVICIO DE LA DEUDA;2000;0
+15;01;01;34;07;;Deuda Flotante;2000;0
+15;01;01;35;;;SALDO FINAL DE CAJA;2000;0

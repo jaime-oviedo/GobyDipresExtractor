@@ -1,0 +1,34 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Denominación;Monto Pesos;Monto Dólar
+25;01;01;05;;;TRANSFERENCIAS CORRIENTES;215270;0
+25;01;01;05;02;;Del Gobierno Central;215270;0
+25;01;01;05;02;023;Subsecretaría de Economía;215270;0
+25;01;01;08;;;OTROS INGRESOS CORRIENTES;138541;0
+25;01;01;08;01;;Recuperaciones y Reembolsos por Licencias Médicas;104392;0
+25;01;01;08;99;;Otros;34149;0
+25;01;01;09;;;APORTE FISCAL;28996707;0
+25;01;01;09;01;;Libre;28996707;0
+25;01;01;15;;;SALDO INICIAL DE CAJA;1000;0
+25;01;01;21;;;GASTOS EN PERSONAL;13893029;0
+25;01;01;22;;;BIENES Y SERVICIOS DE CONSUMO;8055471;0
+25;01;01;24;;;TRANSFERENCIAS CORRIENTES;6042130;0
+25;01;01;24;01;;Al Sector Privado;264679;0
+25;01;01;24;01;001;Instituciones Colaboradoras;264679;0
+25;01;01;24;03;;A Otras Entidades Públicas;5740534;0
+25;01;01;24;03;001;Fondo de Protección Ambiental;1183553;0
+25;01;01;24;03;004;Certificación Ambiental Municipal;133380;0
+25;01;01;24;03;009;Modelo de Pronóstico de Calidad del Aire;81150;0
+25;01;01;24;03;011;Calefacción Sustentable;4136451;0
+25;01;01;24;03;017;Fondo del Reciclaje;206000;0
+25;01;01;24;07;;A Organismos Internacionales;36917;0
+25;01;01;24;07;002;Plataforma Intergubernamental sobre Biodiversidad y Servicios de los Ecosistemas (IPBES);8553;0
+25;01;01;24;07;003;Programa de las Naciones Unidas para el Medio Ambiente (PNUMA);7534;0
+25;01;01;24;07;004;Organización para la Cooperación y el Desarrollo Económico (OCDE);9106;0
+25;01;01;24;07;006;Wetlands International;11724;0
+25;01;01;29;;;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS;1359888;0
+25;01;01;29;03;;Vehículos;19570;0
+25;01;01;29;04;;Mobiliario y Otros;43501;0
+25;01;01;29;05;;Máquinas y Equipos;555323;0
+25;01;01;29;06;;Equipos Informáticos;401576;0
+25;01;01;29;07;;Programas Informáticos;339918;0
+25;01;01;34;;;SERVICIO DE LA DEUDA;1000;0
+25;01;01;34;07;;Deuda Flotante;1000;0

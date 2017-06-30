@@ -29,8 +29,10 @@ public class BudgetLawFactoryTest {
   @Test
   public final void testExtractBudgetLaw() {
     String s = File.separator;
-    String source = "test" + s + "com" + s + "ingenium" + s + "goby" + s
-        + "extractors" + s + "budget" + s + "fixture" + s + "budgetLaw.csv";
+    String source = new StringBuffer("test").append(s).append("com").append(s)
+        .append("ingenium").append(s).append("goby").append(s)
+        .append("extractors").append(s).append("budget").append(s)
+        .append("fixture").append(s).append("budgetLaw.csv").toString();
 
     BudgetLawFactory factory = BudgetLawFactory.getInstance();
     factory.setSource(source);
@@ -42,13 +44,16 @@ public class BudgetLawFactoryTest {
     law.setSubelements(catalog.getBatches());
 
     String jsonCatalog = BudgetElementToJsonMapper.map(law, 0);
-    String destination = "tmp" + s + "budgetLaw.json";
+    String destination = new StringBuffer("tmp").append(s)
+        .append("budgetLaw.json").toString();
     FileSystemInjector fsi = new FileSystemInjector(destination, jsonCatalog);
     try {
       fsi.inject();
       File file1 = new File(destination);
-      String objective = "test" + s + "com" + s + "ingenium" + s + "goby" + s
-          + "extractors" + s + "budget" + s + "fixture" + s + "budgetLaw.json";
+      String objective = new StringBuffer("test").append(s).append("com")
+          .append(s).append("ingenium").append(s).append("goby").append(s)
+          .append("extractors").append(s).append("budget").append(s)
+          .append("fixture").append(s).append("budgetLaw.json").toString();
       File file2 = new File(objective);
       Assert.assertTrue(FileUtils.contentEquals(file1, file2));
     } catch (Exception e) {

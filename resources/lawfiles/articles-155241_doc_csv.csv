@@ -1,0 +1,39 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Denominación;Monto Pesos;Monto Dólar
+18;21;01;06;;;RENTAS DE LA PROPIEDAD;8240;0
+18;21;01;06;01;;Arriendo de Activos No Financieros;8240;0
+18;21;01;07;;;INGRESOS DE OPERACIÓN;21115;0
+18;21;01;07;01;;Venta de Bienes;515;0
+18;21;01;07;02;;Venta de Servicios;20600;0
+18;21;01;08;;;OTROS INGRESOS CORRIENTES;47514;0
+18;21;01;08;01;;Recuperaciones y Reembolsos por Licencias Médicas;32074;0
+18;21;01;08;02;;Multas y Sanciones Pecuniarias;525;0
+18;21;01;08;99;;Otros;14915;0
+18;21;01;09;;;APORTE FISCAL;82249837;0
+18;21;01;09;01;;Libre;82249837;0
+18;21;01;13;;;TRANSFERENCIAS PARA GASTOS DE CAPITAL;170027;0
+18;21;01;13;03;;De Otras Entidades Públicas;170027;0
+18;21;01;13;03;001;De Municipalidades para Pavimentos Participativos;163260;0
+18;21;01;13;03;003;De Municipalidades para Programa Rehabilitación de Espacios Públicos;6767;0
+18;21;01;15;;;SALDO INICIAL DE CAJA;23000;0
+18;21;01;21;;;GASTOS EN PERSONAL;1804576;0
+18;21;01;22;;;BIENES Y SERVICIOS DE CONSUMO;254411;0
+18;21;01;26;;;OTROS GASTOS CORRIENTES;10;0
+18;21;01;26;02;;Compensaciones por Daños a Terceros y/o a la Propiedad;10;0
+18;21;01;29;;;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS;15965;0
+18;21;01;29;04;;Mobiliario y Otros;9785;0
+18;21;01;29;05;;Máquinas y Equipos;6180;0
+18;21;01;31;;;INICIATIVAS DE INVERSIÓN;19705469;0
+18;21;01;31;02;;Proyectos;19705469;0
+18;21;01;32;;;PRÉSTAMOS;9777710;0
+18;21;01;32;02;;Hipotecarios;9777710;0
+18;21;01;32;02;003;Préstamos Subsidio Habitacional;9777710;0
+18;21;01;33;;;TRANSFERENCIAS DE CAPITAL;50960967;0
+18;21;01;33;01;;Al Sector Privado;50960967;0
+18;21;01;33;01;028;Subsidio de Protección del Patrimonio Familiar;13831694;0
+18;21;01;33;01;127;Subsidios Leasing;4911;0
+18;21;01;33;01;132;Sistema Integrado de Subsidio;3962143;0
+18;21;01;33;01;133;Fondo Solidario de Elección de Vivienda;30002089;0
+18;21;01;33;01;136;Programa Habitabilidad Rural;550211;0
+18;21;01;33;01;137;Subsidio Extraordinario de Reactivación;2609919;0
+18;21;01;34;;;SERVICIO DE LA DEUDA;625;0
+18;21;01;34;07;;Deuda Flotante;625;0

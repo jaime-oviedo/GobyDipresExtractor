@@ -1,0 +1,35 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Denominación;Monto Pesos;Monto Dólar
+03;03;01;06;;;RENTAS DE LA PROPIEDAD;118986;0
+03;03;01;06;01;;Arriendo de Activos No Financieros;118986;0
+03;03;01;07;;;INGRESOS DE OPERACIÓN;124173;0
+03;03;01;07;02;;Venta de Servicios;124173;0
+03;03;01;08;;;OTROS INGRESOS CORRIENTES;4525732;0
+03;03;01;08;99;;Otros;4525732;0
+03;03;01;09;;;APORTE FISCAL;175517744;0
+03;03;01;09;01;;Libre;174530123;0
+03;03;01;09;03;;Servicio de la Deuda Externa;987621;0
+03;03;01;12;;;RECUPERACIÓN DE PRÉSTAMOS;241366;0
+03;03;01;12;07;;Por Anticipos por Cambio de Residencia;241366;0
+03;03;01;21;;;GASTOS EN PERSONAL;13486169;0
+03;03;01;22;;;BIENES Y SERVICIOS DE CONSUMO;67955865;0
+03;03;01;24;;;TRANSFERENCIAS CORRIENTES;5912992;0
+03;03;01;24;01;;Al Sector Privado;139010;0
+03;03;01;24;01;002;Becas Postgrado;139010;0
+03;03;01;24;02;;Al Gobierno Central;5773746;0
+03;03;01;24;02;001;Programa de Concesiones Ministerio de Justicia;5773746;0
+03;03;01;24;07;;A Organismos Internacionales;236;0
+03;03;01;24;07;001;Organismo Internacional I.A.S.A.J.;236;0
+03;03;01;29;;;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS;4400872;0
+03;03;01;29;03;;Vehículos;17201;0
+03;03;01;29;04;;Mobiliario y Otros;1176270;0
+03;03;01;29;05;;Máquinas y Equipos;1630893;0
+03;03;01;29;06;;Equipos Informáticos;579447;0
+03;03;01;29;07;;Programas Informáticos;997061;0
+03;03;01;31;;;INICIATIVAS DE INVERSIÓN;87273828;0
+03;03;01;31;02;;Proyectos;87273828;0
+03;03;01;32;;;PRÉSTAMOS;510654;0
+03;03;01;32;06;;Por Anticipos a Contratistas;269288;0
+03;03;01;32;07;;Por Anticipos por Cambio de Residencia;241366;0
+03;03;01;34;;;SERVICIO DE LA DEUDA;987621;0
+03;03;01;34;02;;Amortización Deuda Externa;930909;0
+03;03;01;34;04;;Intereses Deuda Externa;56712;0

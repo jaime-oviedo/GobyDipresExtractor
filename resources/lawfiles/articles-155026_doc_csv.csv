@@ -1,0 +1,81 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Denominación;Monto Pesos;Monto Dólar
+05;66;02;06;;;RENTAS DE LA PROPIEDAD;24939;0
+05;66;02;08;;;OTROS INGRESOS CORRIENTES;306855;0
+05;66;02;08;99;;Otros;306855;0
+05;66;02;09;;;APORTE FISCAL;31022850;0
+05;66;02;09;01;;Libre;31022850;0
+05;66;02;13;;;TRANSFERENCIAS PARA GASTOS DE CAPITAL;26374673;0
+05;66;02;13;02;;Del Gobierno Central;26374673;0
+05;66;02;13;02;003;Subsecretaría de Bienes Nacionales;86300;0
+05;66;02;13;02;004;Subsecretaría de Desarrollo Regional y Administrativo;412000;0
+05;66;02;13;02;006;Tesoro Público Ley N° 19.143, Patentes Mineras;543952;0
+05;66;02;13;02;008;Tesoro Público Ley N°19.995, Casinos de Juegos;7545766;0
+05;66;02;13;02;013;Tesoro Público Artículo 129 bis 19 Ley N° 20.017, Código de Aguas;509563;0
+05;66;02;13;02;019;Fondo de Inversión y Reconversión Regional;2438878;0
+05;66;02;13;02;030;Tesoro Público Ley N°20.378 - Fondo de Apoyo Regional (FAR);14838214;0
+05;66;02;15;;;SALDO INICIAL DE CAJA;1000;0
+05;66;02;24;;;TRANSFERENCIAS CORRIENTES;2696475;0
+05;66;02;24;01;;Al Sector Privado;1348236;0
+05;66;02;24;01;001;Actividades Culturales;449412;0
+05;66;02;24;01;003;Actividades Deportivas;449412;0
+05;66;02;24;01;005;Actividades de Seguridad Ciudadana;449412;0
+05;66;02;24;03;;A Otras Entidades Públicas;1348239;0
+05;66;02;24;03;001;Municipalidades - Actividades Culturales;449413;0
+05;66;02;24;03;003;Municipalidades - Actividades Deportivas;449413;0
+05;66;02;24;03;005;Municipalidades - Actividades de Seguridad Ciudadana;449413;0
+05;66;02;29;;;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS;1854000;0
+05;66;02;29;03;;Vehículos;1648000;0
+05;66;02;29;05;;Máquinas y Equipos;206000;0
+05;66;02;31;;;INICIATIVAS DE INVERSIÓN;31604657;0
+05;66;02;31;01;;Estudios Básicos;89618;0
+05;66;02;31;02;;Proyectos;31463539;0
+05;66;02;31;03;;Programas de Inversión;51500;0
+05;66;02;32;;;PRÉSTAMOS;0,001;0
+05;66;02;32;06;;Por Anticipos a Contratistas;0,001;0
+05;66;02;32;06;001;Anticipos a Contratistas;800000;0
+05;66;02;32;06;002;Recuperación de Anticipos a Contratistas;-800000;0
+05;66;02;33;;;TRANSFERENCIAS DE CAPITAL;21574185;0
+05;66;02;33;01;;Al Sector Privado;3461474;0
+05;66;02;33;01;001;Junta Nacional de Cuerpos de Bomberos de Chile;515000;0
+05;66;02;33;01;010;Aplicación Letra a) Artículo Cuarto Transitorio Ley N°20.378;1030000;0
+05;66;02;33;01;341;Pontificia Universidad Católica de Chile - Automatización en Apoyo a las Labores del Cosechero;46535;0
+05;66;02;33;01;344;Instituto de Investigaciones Agropecuarias - Desarrollo Tecnologías Alternativas Quema Maíz;80444;0
+05;66;02;33;01;347;Universidad Mayor - Manejo Sanitario Apícola Integral;83488;0
+05;66;02;33;01;348;Pontificia Universidad Católica de Chile - Innovación Potenciar Leguminosas Hortícolas;67958;0
+05;66;02;33;01;357;Fundación para la Innovación Agraria (FIA) - Técnicas Alternativas de Vinificación (30384525-0);84985;0
+05;66;02;33;01;358;Fundación para la Innovación Agraria (FIA) - Monitoreo en Tiempo Real de Machos Lobesia Botrana (30384522-0);43260;0
+05;66;02;33;01;359;Fundación para la Innovación Agraria (FIA) - Programa de Innovación en Hortalizas de Exportación (30384427-0);121669;0
+05;66;02;33;01;360;Fundación para la Innovación Agraria (FIA) - Programa de Formación para Extensionistas (30384524-0);57915;0
+05;66;02;33;01;371;Universidad Mayor - Alforfón-Miel Un Cultivo Doble Propósito para la Agricultura Familiar Campesina (30419309-0);67838;0
+05;66;02;33;01;372;Instituto de Investigaciones Agropecuarias (INIA) - Manejo del Cultivo Cucurbitáceas Potencial Exportable (30419575-0);68387;0
+05;66;02;33;01;373;Pontificia Universidad Católica de Chile - Fomento Emprendimiento e Innovación Liceos Técnico-Profesionales (30418972-0);72403;0
+05;66;02;33;01;374;Instituto de Investigaciones Agropecuarias (INIA) - Ovinos para Controlar Malezas en Frutales (30419306-0);33281;0
+05;66;02;33;01;375;Instituto de Investigaciones Agropecuarias (INIA) - Quínoa de Calidad: Tecnologías para su Producción (30419306-0);49335;0
+05;66;02;33;01;376;Agrícola Centro de Evaluación Rosario Ltda. - Técnicas de Riego Deficitario Controlado en Kiwi (30419375-0);53604;0
+05;66;02;33;01;377;Fundación para el Desarrollo Frutícola - Desarrollo Systems Approach Exportación Arándanos a EEUU (30418873-0);35847;0
+05;66;02;33;01;379;Universidad Central - Emprendimiento Turístico Asociado al Vino (30418925-0);76706;0
+05;66;02;33;01;386;Fundación CSIRO-Chile Research- Transferencia Plan de Gestión Integrada Cuenca Rapel (30427997-0);60819;0
+05;66;02;33;01;387;Universidad de Concepción-Transferencia Gestión de Información de Recursos Hídricos (30431873-0);73465;0
+05;66;02;33;01;389;Universidad Santo Tomás-Transferencia Innóvate O'Higgins: Red de Difusión (30428001-0);16215;0
+05;66;02;33;01;390;Universidad Santo Tomás-Transferencia Capital Humano para la Ruta Textil (30428230-0);53840;0
+05;66;02;33;01;391;Centro de Información de Recursos Naturales (CIREN)-Transferencia Ampliación SIT R para Estructurar Red de Difusión (30429824-0);54392;0
+05;66;02;33;01;392;Centro de Información de Recursos Naturales (CIREN)-Transferencia Sistema Monitoreo Territorial Hortícola Regional (30428231-0);138176;0
+05;66;02;33;01;393;Instituto de Investigaciones Agropecuarias (INIA)-Transferencia Red de Gestión Tecnológica para el Agro (30428234-0);61065;0
+05;66;02;33;01;394;Pontificia Universidad Católica de Chile-Transferencia Integración de la Biodiversidad a la Fruticultura (30428004-0);61866;0
+05;66;02;33;01;395;Universidad Central de Chile-Transferencia Los Lingues, Patrimonio Turístico Competitivo (30429578-0);75512;0
+05;66;02;33;01;396;Universidad Central de Chile-Transferencia Geoturismo en la Cordillera del Libertador (30429774-0);75350;0
+05;66;02;33;01;397;Universidad Central de Chile-Transferencia Comercialización Productos Gourmet en EEUU (30429779-0);64707;0
+05;66;02;33;01;398;Universidad Academia Humanismo Cristiano-Transferencia Atractivos Turísticos Aledaños ZOIT Lago Rapel (30429777-0);98953;0
+05;66;02;33;01;399;Agrícola Centro de Evaluación Rosario Limitada-Transferencia Evaluación de Variedades de Hortalizas Exportables (30429727-0);38459;0
+05;66;02;33;03;;A Otras Entidades Públicas;18112711;0
+05;66;02;33;03;100;Municipalidades (Programa Mejoramiento de Barrios);5141934;0
+05;66;02;33;03;125;Municipalidades (Fondo Regional de Iniciativa Local);6695000;0
+05;66;02;33;03;150;Municipalidades;882710;0
+05;66;02;33;03;211;Comisión Nacional de Riego - Fomento al Riego Regional (30132861-0);559290;0
+05;66;02;33;03;212;Comisión Nacional de Riego - Concurso Regional Ley 18.450 Obras Acumulación Secano (30133089-0);392453;0
+05;66;02;33;03;226;Subsecretaría de Minería-Fomento a la pequeña minería (30379449-0);195891;0
+05;66;02;33;03;266;Subsecretaría de Medio Ambiente - Transferencia Recambio Calefactores a Leña 17 Comunas VI Región.;17607;0
+05;66;02;33;03;355;Universidad de Chile - Innovación para el Control de Heladas;44730;0
+05;66;02;33;03;999;Provisión FIC (Sin Distribuir);4183096;0
+05;66;02;34;;;SERVICIO DE LA DEUDA;1000;0
+05;66;02;34;07;;Deuda Flotante;1000;0

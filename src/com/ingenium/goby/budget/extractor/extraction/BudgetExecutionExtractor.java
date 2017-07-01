@@ -2,23 +2,23 @@
  * Copyright (c) 2017 Ingenium Software Ltda.
  */
 
-package com.ingenium.goby.budget.extraction;
+package com.ingenium.goby.budget.extractor.extraction;
 
-import com.ingenium.goby.budget.BudgetExecution;
-import com.ingenium.goby.budget.ClassifiersCatalog;
-import com.ingenium.goby.budget.ClassifiersCatalogFactory;
-import com.ingenium.goby.budget.InstitutionsCatalog;
-import com.ingenium.goby.budget.InstitutionsCatalogFactory;
-import com.ingenium.goby.budget.elements.Assignment;
-import com.ingenium.goby.budget.elements.Batch;
-import com.ingenium.goby.budget.elements.BudgetCurrency;
-import com.ingenium.goby.budget.elements.BudgetElementType;
-import com.ingenium.goby.budget.elements.BudgetHierarchyLevel;
-import com.ingenium.goby.budget.elements.Chapter;
-import com.ingenium.goby.budget.elements.CompositeBudgetElement;
-import com.ingenium.goby.budget.elements.Item;
-import com.ingenium.goby.budget.elements.Program;
-import com.ingenium.goby.budget.elements.Subtitle;
+import com.ingenium.goby.budget.extractor.BudgetExecution;
+import com.ingenium.goby.budget.extractor.ClassifiersCatalog;
+import com.ingenium.goby.budget.extractor.ClassifiersCatalogFactory;
+import com.ingenium.goby.budget.extractor.InstitutionsCatalog;
+import com.ingenium.goby.budget.extractor.InstitutionsCatalogFactory;
+import com.ingenium.goby.budget.extractor.elements.Assignment;
+import com.ingenium.goby.budget.extractor.elements.Batch;
+import com.ingenium.goby.budget.extractor.elements.BudgetCurrency;
+import com.ingenium.goby.budget.extractor.elements.BudgetElementType;
+import com.ingenium.goby.budget.extractor.elements.BudgetHierarchyLevel;
+import com.ingenium.goby.budget.extractor.elements.Chapter;
+import com.ingenium.goby.budget.extractor.elements.CompositeBudgetElement;
+import com.ingenium.goby.budget.extractor.elements.Item;
+import com.ingenium.goby.budget.extractor.elements.Program;
+import com.ingenium.goby.budget.extractor.elements.Subtitle;
 import com.opencsv.CSVReader;
 
 import java.io.FileInputStream;

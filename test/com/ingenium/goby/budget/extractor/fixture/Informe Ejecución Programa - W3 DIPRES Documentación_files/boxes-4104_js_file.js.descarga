@@ -1,0 +1,89 @@
+/*
+ * NTG CollapsableList
+ * written by Hrodrigu
+ * http://www.newtenberg.com
+ * 2012-08-09
+ * GPL (GPL-LICENSE.txt) licenses.
+ *
+ * Built for jQuery library
+ * Depends jqueryui when you use effects
+ * http://jquery.com
+ */
+
+
+(function($){
+	$.fn.ntg_collapsableList = function(options){
+		// default configuration properties
+		var defaults = {
+				expandClass : "expandir",	/* estilo de boton expandir */
+				collapseClass :"contraer",	/* estilo de boton colapsar */
+				expandText : "+",			/* texto de boton expandir */
+				collapseText : "-",			/* texto de boton colapsar */
+				buttonsTag : "span",		/* tag de los botones generados */
+				animationEffect:{			/* opciones de la animación */
+					effect:"slide",
+					options:{
+						direction: "up"
+					}
+				},
+				duration : "fast",			/*duración de la animación */
+				currentClass : "current",	/* estilo del "actual" */
+				disableBranchLink : true,	/* deshabilitar los links de las ramas */
+				active: 'none'
+			};
+		var options = $.extend(defaults, options);
+		this.each(function(){
+			var obj = this;
+			this.toogle = function(node,forcedState){
+						if($.data(node,"NTG_COLLAPSABLELIST_EXPANDED_STATE") && (forcedState != undefined ? forcedState : true)){
+							$(node).children(options.buttonsTag + "." + options.expandClass).show();
+							$(node).children(options.buttonsTag + "." + options.collapseClass).hide();
+							if(options.animationEffect && forcedState == undefined){
+								$(node).children("a + ul").hide(options.animationEffect.effect,options.animationEffect.options,options.animationEffect.duration);
+							}else {
+								$(node).children("a + ul").hide( (forcedState == undefined ? options.duration: undefined));
+							}
+							$.data(node,"NTG_COLLAPSABLELIST_EXPANDED_STATE",false);
+						}else{
+							$(node).children(options.buttonsTag + "." + options.collapseClass).show();
+							$(node).children(options.buttonsTag + "." + options.expandClass).hide();
+							if(options.animationEffect && forcedState == undefined){
+								$(node).children("a + ul").show(options.animationEffect.effect,options.animationEffect.options,options.animationEffect.duration);
+							} else {
+								$(node).children("a + ul").show( (forcedState == undefined ? options.duration: undefined));
+							}
+							$.data(node,"NTG_COLLAPSABLELIST_EXPANDED_STATE",true);
+						}   
+			};
+			$("li:has(ul)",obj).each(function(){
+				var expandButton, collapseButton, originalAnchor;
+				expandButton  = '< '+ options.buttonsTag +' class="' + options.expandClass +'">';
+				expandButton += '<' +'a href="javascript:void(0);">' + options.expandText +'<' +'/a>';
+				expandButton += '</' + options.buttonsTag +'>';
+				collapseButton = '<' + options.buttonsTag +' class="' + options.collapseClass +'">';
+				collapseButton += '<' +'a href="javascript:void(0);">' + options.collapseText + '<' +'/a>';
+				collapseButton += '<' +'/' + options.buttonsTag +'>';
+				$(this).prepend('<' + options.buttonsTag +' class="' + options.expandClass +'"><' +'a href="javascript:void(0);">' + options.expandText +'<' +'/a><' +'/' + options.buttonsTag +'><' + options.buttonsTag +' class="' + options.collapseClass +'"><' +'a href="javascript:void(0);">' + options.collapseText + '<' +'/a><' +'/' + options.buttonsTag +'>');
+				originalAnchor = $(this).children("a");
+				if(options.disableBranchLink){
+					originalAnchor.attr("href","javascript:void(0);");
+				}
+				originalAnchor.click(function(){ obj.toogle(this.parentNode); });
+				$("ul",this).hide();
+				$.data(this,"NTG_COLLAPSABLELIST_EXPANDED_STATE",false);
+			});
+			$(options.buttonsTag + "." + options.expandClass,this).click(function(){ obj.toogle(this.parentNode); });
+			$(options.buttonsTag + "." + options.collapseClass,this).click(function(){ obj.toogle(this.parentNode); }).hide();
+			if(options.currentClass){
+				 $("li." + options.currentClass +" > ul",this).each(function() {
+						obj.toogle(this.parentNode, true);
+				 });
+			}
+			if(options.active != 'none'){
+				$("li:eq("+options.active+")",this).each(function(){
+						obj.toogle(this, true);
+				});
+			}
+		});
+	};
+})(jQuery);

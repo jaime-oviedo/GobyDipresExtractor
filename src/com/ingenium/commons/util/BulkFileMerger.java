@@ -19,7 +19,7 @@ import org.apache.commons.io.IOUtils;
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
- * @author JaimeRodrigo
+ * @author joviedo
  * @uml.annotations
  *     derived_abstraction="platform:/resource/goby-design/budget-extractor.emx#_gsMO4FdJEee4ttLK_7FK1A"
  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_gsMO4FdJEee4ttLK_7FK1A"
@@ -65,5 +65,5 @@ public class BulkFileMerger {
     }
     // end-user-code
   }
-  
+
 }

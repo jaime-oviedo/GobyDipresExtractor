@@ -21,7 +21,7 @@ import java.util.List;
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
- * @author JaimeRodrigo
+ * @author joviedo
  * @uml.annotations
  *     derived_abstraction="platform:/resource/goby-design/budget-extractor.emx#_CARQ8FwnEee6qYx77erG2w"
  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_CARQ8FwnEee6qYx77erG2w"
@@ -40,10 +40,10 @@ public class BulkCsvFilesMerger {
     // begin-user-code
     BulkCsvFilesMerger.merge(souceDirectory, destinationDirectory,
         destinationFileName, 0);
-    
+
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -64,9 +64,9 @@ public class BulkCsvFilesMerger {
       return;
     }
     List<String[]> csvEntries = new ArrayList<>(100);
-    
+
     for (File source : sources) {
-      
+
       FileInputStream is = null;
       InputStreamReader isr = null;
       CSVReader reader = null;
@@ -120,9 +120,9 @@ public class BulkCsvFilesMerger {
           }
         }
       }
-      
+
     }
-    
+
     File destinationFile = new File(destination);
     destinationFile.delete();
     CSVWriter writer = null;
@@ -140,9 +140,9 @@ public class BulkCsvFilesMerger {
           e.printStackTrace();
         }
       }
-      
+
     }
-    
+
     // end-user-code
   }
 }

@@ -1,0 +1,118 @@
+/*
+ *  NTG CollapsableFrames
+ *  written by Hrodrigu
+ *  http://www.newtenberg.com
+ *  2013-01-25
+ *  GPL (GPL-LICENSE.txt) licenses.
+ *  
+ *  Built for jQuery library
+ *  Depends jqueryui when you use effects
+ *  http://jquery.com
+ */
+
+
+(function($){
+	$.fn.ntg_collapsableFrames = function(options){
+		/* default configuration properties */
+		var defaults = {
+			collapsedLevel: 0,			/* nivel de expandido */
+			expandedMax: 10,			/* máximo de hijos expandidos */
+			expandClass : "expandir",   /* estilo de boton expandir */
+			collapseClass :"contraer",  /* estilo de boton colapsar */
+			expandText : "+",           /* texto de boton expandir */
+			collapseText : "-",         /* texto de boton colapsar */
+			buttonsTag : "span",        /* tag de los botones generados */
+			animationEffect:{           /* opciones de la animación */
+				effect:"slide",
+				options:{
+					direction: "up"
+				}
+			},
+			duration : "fast",          /* duración de la animación */
+			disableBranchLink : true   /* deshabilitar los links de las ramas */
+		};
+		var options = $.extend(defaults, options);
+		this.each(function(){
+			var obj = this;
+			this.toogle = function(node,forcedState){
+				if($(node).data("NTG_COLLAPSABLELIST_EXPANDED_STATE") && (forcedState != undefined ? forcedState : true)){
+					$(node).prev().children(options.buttonsTag + "." + options.expandClass).show();
+					$(node).prev().children(options.buttonsTag + "." + options.collapseClass).hide();
+					if(options.animationEffect && forcedState == undefined){
+						$(node).hide(options.animationEffect.effect,options.animationEffect.options,options.animationEffect.duration);
+					}else {
+						$(node).hide((forcedState == undefined ? options.duration: undefined));
+					}
+					$(node).data("NTG_COLLAPSABLELIST_EXPANDED_STATE",false);
+				}else{
+					$(node).prev().children(options.buttonsTag + "." + options.collapseClass).show();
+					$(node).prev().children(options.buttonsTag + "." + options.expandClass).hide();
+					if(options.animationEffect && forcedState == undefined){
+						$(node).show(options.animationEffect.effect,
+								options.animationEffect.options,
+								options.animationEffect.duration);
+					} else {
+						$(node).show((forcedState == undefined ? options.duration: undefined));
+					}
+					$(node).data("NTG_COLLAPSABLELIST_EXPANDED_STATE",true);
+				}
+			};
+			var collapsables = $("div.grupo",obj);
+			collapsables.each(function(i){				
+				var leaf = ($(this).children('div.recuadro').length > 0 ? true : false);
+				var stillCollapsable = true;
+				if(!leaf){
+				    var tit = $(this).prev();
+					var tit_class = $(tit).attr('class');
+					var prev_tit = $(tit).prevAll('.' + tit_class.split(' ').join('.')).filter(':last');
+					if(prev_tit.length == 1){
+						var prev_div = $(prev_tit).next('div');
+						$(tit).detach();
+						//.appendTo(prev_div);
+						$(this).detach().appendTo(prev_div);
+						stillCollapsable = false;
+					}
+				}
+				if(leaf || stillCollapsable){
+					var level =  $(this).parentsUntil($(obj).parent()).length;
+					var pos =  $(this).prevAll('div').length + 1;
+					var expandButton, collapseButton, originalAnchor;
+					expandButton  = '<'+ options.buttonsTag +' class="' + options.expandClass +'">';
+					expandButton += '<' +'a href="javascript:void(0);">' + options.expandText +'<' +'/a>';
+					expandButton += '</' + options.buttonsTag +'>';
+					expandButton =$(expandButton).click(function(){ obj.toogle($(this).parent().next()); });
+					collapseButton = '<' + options.buttonsTag +' class="' + options.collapseClass +'">';
+					collapseButton += '<' +'a href="javascript:void(0);">' + options.collapseText + '<' +'/a>';
+					collapseButton += '<' +'/' + options.buttonsTag +'>';
+					collapseButton = $(collapseButton).click(function(){ obj.toogle($(this).parent().next()); });
+					$(this)
+						.addClass( leaf == false ? 'subgrupo':'documentos')
+						.addClass("level" +level)
+						.addClass("item"+pos)
+						.prev()
+						.prepend(expandButton)
+						.prepend(collapseButton)
+						.addClass( leaf == true ? 'grouptitle':'subgrouptittle')
+						.addClass("level" +level)
+						.addClass("item"+pos);
+					originalAnchor = $(this).prev().children("a");
+					if(options.disableBranchLink){
+						originalAnchor.attr("href","javascript:void(0);");
+					}
+					originalAnchor.click(function(){
+						obj.toogle($(this).parent().next());
+					});
+					
+					if (level >= options.collapsedLevel || $(this).children().length > options.expandedMax ) {
+						$(this).hide();
+						$(this).data("NTG_COLLAPSABLELIST_EXPANDED_STATE",false);
+						$(collapseButton).hide();
+					}else{
+						$(this).data("NTG_COLLAPSABLELIST_EXPANDED_STATE",true);
+						$(expandButton).hide();
+					}		
+				}				
+			});
+		});
+	};
+})(jQuery);

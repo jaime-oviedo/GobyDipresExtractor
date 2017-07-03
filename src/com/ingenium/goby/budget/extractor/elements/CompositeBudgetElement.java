@@ -14,17 +14,17 @@ import java.util.logging.Logger;
  * <!-- begin-UML-doc -->
  * <p>Base class for budgetary elements that are composed hierarchically</p><p>@author JaimeOviedo</p>
  * <!-- end-UML-doc -->
- * @author JaimeRodrigo
+ * @author joviedo
  * @uml.annotations
  *     derived_abstraction="platform:/resource/goby-design/budget-extractor.emx#_UaAU4EquEeeJsdrfgQXeQw"
  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_UaAU4EquEeeJsdrfgQXeQw"
  */
 public class CompositeBudgetElement extends BudgetElement {
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
-  * @author JaimeRodrigo
+  * @author joviedo
   * @uml.annotations
   *     derived_abstraction="platform:/resource/goby-design/budget-extractor.emx#_ohbmwFD8EeeDDreW7cLBoA"
   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_ohbmwFD8EeeDDreW7cLBoA?DATATYPE"
@@ -67,14 +67,14 @@ public class CompositeBudgetElement extends BudgetElement {
     */
     CUMULATIVE_DOLLAR_EXECUTION
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_UgPfwEquEeeJsdrfgQXeQw"
   */
   private Map<Integer, BudgetElement> subElements;
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -82,12 +82,11 @@ public class CompositeBudgetElement extends BudgetElement {
   */
   private static final Logger log = Logger
       .getLogger("com.ingenium.goby.extractors.CompositeBudgetElement");
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * Crea&nbsp;una&nbsp;nueva&nbsp;instancia&nbsp;de&nbsp;la&nbsp;clase&nbsp;ClasificadorCompuesto.<br><br>@param&nbsp;numero<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;el&nbsp;valor&nbsp;del&nbsp;campo&nbsp;numero<br>@param&nbsp;nombre<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;el&nbsp;valor&nbsp;del&nbsp;campo&nbsp;nombre<br>@param&nbsp;descripcion<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;el&nbsp;valor&nbsp;del&nbsp;campo&nbsp;descripcion
   * <!-- end-UML-doc -->
-  * Crea una nueva instancia de la clase CompositeBudgetElement.
   * @param number
   * @param name
   * @param description
@@ -95,7 +94,7 @@ public class CompositeBudgetElement extends BudgetElement {
   * @param level
   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_UgRU8EquEeeJsdrfgQXeQw"
   */
-  
+
   public CompositeBudgetElement(int number, String name, String description,
       BudgetElementType type, BudgetHierarchyLevel level) {
     // begin-user-code
@@ -103,11 +102,10 @@ public class CompositeBudgetElement extends BudgetElement {
     subElements = new HashMap<>();
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
-  * Crea una nueva instancia de la clase CompositeBudgetElement.
   * @param element
   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_iRcs8FxhEee8GZGMCONk9w"
   */
@@ -116,11 +114,10 @@ public class CompositeBudgetElement extends BudgetElement {
     this(element, true);
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
-  * Crea una nueva instancia de la clase CompositeBudgetElement.
   * @param element
   * @param deepClone
   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_mG6ioFxhEee8GZGMCONk9w"
@@ -140,7 +137,7 @@ public class CompositeBudgetElement extends BudgetElement {
     setSubelements(element.getSubelements().values(), deepClone);
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * Establece&nbsp;el&nbsp;valor&nbsp;del&nbsp;campo&nbsp;subElementos.<br><br>@param&nbsp;clasificadores<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;el&nbsp;valor&nbsp;del&nbsp;campo&nbsp;subElementos
@@ -164,10 +161,10 @@ public class CompositeBudgetElement extends BudgetElement {
       }
     }
     recalculate();
-    
+
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -180,7 +177,7 @@ public class CompositeBudgetElement extends BudgetElement {
     recalculate();
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -193,7 +190,7 @@ public class CompositeBudgetElement extends BudgetElement {
     return subElements.get(number);
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * Devuelve&nbsp;el&nbsp;valor&nbsp;del&nbsp;campo&nbsp;subElementos.<br><br>@return&nbsp;el&nbsp;valor&nbsp;del&nbsp;campo&nbsp;subElementos
@@ -206,7 +203,7 @@ public class CompositeBudgetElement extends BudgetElement {
     return subElements;
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * Establece&nbsp;el&nbsp;valor&nbsp;del&nbsp;campo&nbsp;subElementos.<br><br>@param&nbsp;clasificadores<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;el&nbsp;valor&nbsp;del&nbsp;campo&nbsp;subElementos
@@ -220,7 +217,7 @@ public class CompositeBudgetElement extends BudgetElement {
     setSubelements(budgetElements, true);
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -236,7 +233,7 @@ public class CompositeBudgetElement extends BudgetElement {
     recalculate(ChangeType.CUMULATIVE_DOLLAR_EXECUTION);
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -246,29 +243,29 @@ public class CompositeBudgetElement extends BudgetElement {
   */
   private BigInteger recalculate(ChangeType changeType) {
     // begin-user-code
-    
+
     BigInteger actualValue = BigInteger.ZERO;
     switch (changeType) {
-      case ACTUAL_BUDGET:
-        actualValue = getActualBudget();
-        break;
-      case ACTUAL_DOLLAR_BUDGET:
-        actualValue = getActualDollarBudget();
-        break;
-      case INITIAL_BUDGET:
-        actualValue = getInitialBudget();
-        break;
-      case INITIAL_DOLLAR_BUDGET:
-        actualValue = getInitialDollarBudget();
-        break;
-      case CUMULATIVE_EXECUTION:
-        actualValue = getCumulativeExecution();
-        break;
-      case CUMULATIVE_DOLLAR_EXECUTION:
-        actualValue = getCumulativeDollarExecution();
-        break;
+    case ACTUAL_BUDGET:
+      actualValue = getActualBudget();
+      break;
+    case ACTUAL_DOLLAR_BUDGET:
+      actualValue = getActualDollarBudget();
+      break;
+    case INITIAL_BUDGET:
+      actualValue = getInitialBudget();
+      break;
+    case INITIAL_DOLLAR_BUDGET:
+      actualValue = getInitialDollarBudget();
+      break;
+    case CUMULATIVE_EXECUTION:
+      actualValue = getCumulativeExecution();
+      break;
+    case CUMULATIVE_DOLLAR_EXECUTION:
+      actualValue = getCumulativeDollarExecution();
+      break;
     }
-    
+
     BigInteger recalculatedValue = actualValue;
     Collection<? extends BudgetElement> se = getSubelements().values();
     BigInteger subelementValue = BigInteger.ZERO;
@@ -279,88 +276,88 @@ public class CompositeBudgetElement extends BudgetElement {
           subelementValue = subelementValue.add(cbe.recalculate(changeType));
         }
       }
-      
+
       BigInteger tempBudget = BigInteger.ZERO;
       switch (changeType) {
-        case ACTUAL_BUDGET:
-          tempBudget = be.getActualBudget();
-          if (!BigInteger.ZERO.equals(subelementValue)
-              && !subelementValue.equals(tempBudget)) {
-            CompositeBudgetElement.log.finest(
-                new StringBuffer("Replaced directly set actual budget of ")
-                    .append(tempBudget.toString())
-                    .append(" with calculated budget of ")
-                    .append(subelementValue.toString()).toString());
-          }
-          subelementValue = tempBudget;
-          break;
-        case ACTUAL_DOLLAR_BUDGET:
-          tempBudget = be.getActualDollarBudget();
-          if (!BigInteger.ZERO.equals(subelementValue)
-              && !subelementValue.equals(tempBudget)) {
-            CompositeBudgetElement.log.finest(new StringBuffer(
-                "Replaced directly set actual dollar budget of ")
-                    .append(tempBudget.toString())
-                    .append(" with calculated dollar budget of ")
-                    .append(subelementValue.toString()).toString());
-          }
-          subelementValue = tempBudget;
-          break;
-        case INITIAL_BUDGET:
-          tempBudget = be.getInitialBudget();
-          if (!BigInteger.ZERO.equals(subelementValue)
-              && !subelementValue.equals(tempBudget)) {
-            CompositeBudgetElement.log.finest(
-                new StringBuffer("Replaced directly set initial budget of ")
-                    .append(tempBudget.toString())
-                    .append(" with calculated budget of ")
-                    .append(subelementValue.toString()).toString());
-          }
-          subelementValue = tempBudget;
-          break;
-        case INITIAL_DOLLAR_BUDGET:
-          tempBudget = be.getInitialDollarBudget();
-          if (!BigInteger.ZERO.equals(subelementValue)
-              && !subelementValue.equals(tempBudget)) {
-            CompositeBudgetElement.log.finest(new StringBuffer(
-                "Replaced directly set intitial dollar budget of ")
-                    .append(tempBudget.toString())
-                    .append(" with calculated budget of ")
-                    .append(subelementValue.toString()).toString());
-          }
-          subelementValue = tempBudget;
-          break;
-        case CUMULATIVE_EXECUTION:
-          tempBudget = be.getCumulativeExecution();
-          if (!BigInteger.ZERO.equals(subelementValue)
-              && !subelementValue.equals(tempBudget)) {
-            CompositeBudgetElement.log.finest(new StringBuffer(
-                "Replaced directly set cumulative execution of ")
-                    .append(tempBudget.toString())
-                    .append(" with calculated budget of ")
-                    .append(subelementValue.toString()).toString());
-          }
-          subelementValue = tempBudget;
-          break;
-        case CUMULATIVE_DOLLAR_EXECUTION:
-          tempBudget = be.getCumulativeDollarExecution();
-          if (!BigInteger.ZERO.equals(subelementValue)
-              && !tempBudget.equals(subelementValue)) {
-            CompositeBudgetElement.log.finest(new StringBuffer(
-                "Replaced directly set cumulative dollar execution of ")
-                    .append(tempBudget.toString())
-                    .append(" with calculated budget of ")
-                    .append(subelementValue.toString()).toString());
-          }
-          subelementValue = tempBudget;
-          break;
+      case ACTUAL_BUDGET:
+        tempBudget = be.getActualBudget();
+        if (!BigInteger.ZERO.equals(subelementValue)
+            && !subelementValue.equals(tempBudget)) {
+          CompositeBudgetElement.log.finest(
+              new StringBuffer("Replaced directly set actual budget of ")
+                  .append(tempBudget.toString())
+                  .append(" with calculated budget of ")
+                  .append(subelementValue.toString()).toString());
+        }
+        subelementValue = tempBudget;
+        break;
+      case ACTUAL_DOLLAR_BUDGET:
+        tempBudget = be.getActualDollarBudget();
+        if (!BigInteger.ZERO.equals(subelementValue)
+            && !subelementValue.equals(tempBudget)) {
+          CompositeBudgetElement.log.finest(
+              new StringBuffer("Replaced directly set actual dollar budget of ")
+                  .append(tempBudget.toString())
+                  .append(" with calculated dollar budget of ")
+                  .append(subelementValue.toString()).toString());
+        }
+        subelementValue = tempBudget;
+        break;
+      case INITIAL_BUDGET:
+        tempBudget = be.getInitialBudget();
+        if (!BigInteger.ZERO.equals(subelementValue)
+            && !subelementValue.equals(tempBudget)) {
+          CompositeBudgetElement.log.finest(
+              new StringBuffer("Replaced directly set initial budget of ")
+                  .append(tempBudget.toString())
+                  .append(" with calculated budget of ")
+                  .append(subelementValue.toString()).toString());
+        }
+        subelementValue = tempBudget;
+        break;
+      case INITIAL_DOLLAR_BUDGET:
+        tempBudget = be.getInitialDollarBudget();
+        if (!BigInteger.ZERO.equals(subelementValue)
+            && !subelementValue.equals(tempBudget)) {
+          CompositeBudgetElement.log.finest(new StringBuffer(
+              "Replaced directly set intitial dollar budget of ")
+                  .append(tempBudget.toString())
+                  .append(" with calculated budget of ")
+                  .append(subelementValue.toString()).toString());
+        }
+        subelementValue = tempBudget;
+        break;
+      case CUMULATIVE_EXECUTION:
+        tempBudget = be.getCumulativeExecution();
+        if (!BigInteger.ZERO.equals(subelementValue)
+            && !subelementValue.equals(tempBudget)) {
+          CompositeBudgetElement.log.finest(
+              new StringBuffer("Replaced directly set cumulative execution of ")
+                  .append(tempBudget.toString())
+                  .append(" with calculated budget of ")
+                  .append(subelementValue.toString()).toString());
+        }
+        subelementValue = tempBudget;
+        break;
+      case CUMULATIVE_DOLLAR_EXECUTION:
+        tempBudget = be.getCumulativeDollarExecution();
+        if (!BigInteger.ZERO.equals(subelementValue)
+            && !tempBudget.equals(subelementValue)) {
+          CompositeBudgetElement.log.finest(new StringBuffer(
+              "Replaced directly set cumulative dollar execution of ")
+                  .append(tempBudget.toString())
+                  .append(" with calculated budget of ")
+                  .append(subelementValue.toString()).toString());
+        }
+        subelementValue = tempBudget;
+        break;
       }
       recalculatedValue = recalculatedValue.add(subelementValue);
     }
     return recalculatedValue;
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -380,7 +377,7 @@ public class CompositeBudgetElement extends BudgetElement {
     recalculate(ChangeType.CUMULATIVE_DOLLAR_EXECUTION);
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <p>Sets the element's budget as was established in the budgetary law.</p>
@@ -401,7 +398,7 @@ public class CompositeBudgetElement extends BudgetElement {
     recalculate(ChangeType.INITIAL_BUDGET);
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <p>Sets the current budget for the element.</p>
@@ -422,7 +419,7 @@ public class CompositeBudgetElement extends BudgetElement {
     recalculate(ChangeType.ACTUAL_BUDGET);
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <p>Sets the amount of the element's budget that has been spent.</p>
@@ -443,7 +440,7 @@ public class CompositeBudgetElement extends BudgetElement {
     recalculate(ChangeType.CUMULATIVE_EXECUTION);
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <p>Sets the current dollar budget for the element.</p>
@@ -464,7 +461,7 @@ public class CompositeBudgetElement extends BudgetElement {
     recalculate(ChangeType.ACTUAL_DOLLAR_BUDGET);
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <p>Sets the element's dollar budget as was established in the budgetary law.</p>
@@ -485,5 +482,5 @@ public class CompositeBudgetElement extends BudgetElement {
     recalculate(ChangeType.INITIAL_DOLLAR_BUDGET);
     // end-user-code
   }
-  
+
 }

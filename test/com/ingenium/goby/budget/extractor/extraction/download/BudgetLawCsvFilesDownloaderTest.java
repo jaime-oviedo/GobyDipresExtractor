@@ -2,7 +2,7 @@
  *
  */
 
-package com.ingenium.goby.budget.extractor.extraction;
+package com.ingenium.goby.budget.extractor.extraction.download;
 
 import com.ingenium.commons.util.DownloadException;
 import com.ingenium.goby.budget.extractor.extraction.download.BudgetLawCsvFilesDownloader;

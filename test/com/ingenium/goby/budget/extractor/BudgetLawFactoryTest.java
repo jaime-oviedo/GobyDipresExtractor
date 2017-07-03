@@ -30,9 +30,9 @@ public class BudgetLawFactoryTest {
   public final void testExtractBudgetLaw() {
     String s = File.separator;
     String source = new StringBuffer("test").append(s).append("com").append(s)
-        .append("ingenium").append(s).append("goby").append(s)
-        .append("extractors").append(s).append("budget").append(s)
-        .append("fixture").append(s).append("budgetLaw.csv").toString();
+        .append("ingenium").append(s).append("goby").append(s).append("budget")
+        .append(s).append("extractor").append(s).append("fixture").append(s)
+        .append("budgetLaw.csv").toString();
 
     BudgetLawFactory factory = BudgetLawFactory.getInstance();
     factory.setSource(source);
@@ -52,7 +52,7 @@ public class BudgetLawFactoryTest {
       File file1 = new File(destination);
       String objective = new StringBuffer("test").append(s).append("com")
           .append(s).append("ingenium").append(s).append("goby").append(s)
-          .append("extractors").append(s).append("budget").append(s)
+          .append("budget").append(s).append("extractor").append(s)
           .append("fixture").append(s).append("budgetLaw.json").toString();
       File file2 = new File(objective);
       Assert.assertTrue(FileUtils.contentEquals(file1, file2));

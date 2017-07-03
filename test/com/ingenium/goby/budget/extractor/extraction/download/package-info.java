@@ -6,4 +6,4 @@
  * @author JaimeRodrigo
  *
  */
-package com.ingenium.goby.extractors.budget.fixture.executionfiles;
+package com.ingenium.goby.budget.extractor.extraction.download;

@@ -2,7 +2,7 @@
  * Copyright (c) 2017 Ingenium Software Ltda.
  */
 
-package com.ingenium.goby.budget;
+package com.ingenium.goby.budget.extractor;
 
 import com.ingenium.goby.budget.extractor.BudgetExecution;
 import com.ingenium.goby.budget.extractor.elements.BudgetElementType;

@@ -18,8 +18,10 @@ public class InstitutionsCatalogFactoryTest {
   public void testGetInstitutionsCatalog() {
 
     String s = File.separator;
-    String source = "test" + s + "com" + s + "ingenium" + s + "goby" + s
-        + "extractors" + s + "budget" + s + "fixture" + s + "institutions.csv";
+    String source = new StringBuffer("test").append(s).append("com").append(s)
+        .append("ingenium").append(s).append("goby").append(s).append("budget")
+        .append(s).append("extractor").append(s).append("fixture").append(s)
+        .append("institutions.csv").toString();
     InstitutionsCatalogFactory factory = InstitutionsCatalogFactory
         .getInstance();
     factory.setSource(source);
@@ -37,9 +39,10 @@ public class InstitutionsCatalogFactoryTest {
     try {
       fsi.inject();
       File file1 = new File(destination);
-      String objective = "test" + s + "com" + s + "ingenium" + s + "goby" + s
-          + "extractors" + s + "budget" + s + "fixture" + s
-          + "institutions.json";
+      String objective = new StringBuffer("test").append(s).append("com")
+          .append(s).append("ingenium").append(s).append("goby").append(s)
+          .append("budget").append(s).append("extractor").append(s)
+          .append("fixture").append(s).append("institutions.json").toString();
       File file2 = new File(objective);
       Assert.assertTrue(FileUtils.contentEquals(file1, file2));
     } catch (Exception e) {

@@ -29,8 +29,10 @@ public class ClassifiersCatalogFactoryTest {
   @Test
   public final void testExtractClasificadores() {
     String s = File.separator;
-    String source = "test" + s + "com" + s + "ingenium" + s + "goby" + s
-        + "extractors" + s + "budget" + s + "fixture" + s + "classifiers.csv";
+    String source = new StringBuffer("test").append(s).append("com").append(s)
+        .append("ingenium").append(s).append("goby").append(s).append("budget")
+        .append(s).append("extractor").append(s).append("fixture").append(s)
+        .append("classifiers.csv").toString();
 
     ClassifiersCatalogFactory factory = ClassifiersCatalogFactory.getInstance();
     factory.setSource(source);
@@ -48,9 +50,10 @@ public class ClassifiersCatalogFactoryTest {
     try {
       fsi.inject();
       File file1 = new File(destination);
-      String objective = "test" + s + "com" + s + "ingenium" + s + "goby" + s
-          + "extractors" + s + "budget" + s + "fixture" + s
-          + "classifiers.json";
+      String objective = new StringBuffer("test").append(s).append("com")
+          .append(s).append("ingenium").append(s).append("goby").append(s)
+          .append("budget").append(s).append("extractor").append(s)
+          .append("fixture").append(s).append("classifiers.json").toString();
       File file2 = new File(objective);
       Assert.assertTrue(FileUtils.contentEquals(file1, file2));
     } catch (Exception e) {

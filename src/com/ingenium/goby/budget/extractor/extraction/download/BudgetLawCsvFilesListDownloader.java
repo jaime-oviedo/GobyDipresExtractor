@@ -2,7 +2,7 @@
  *
  */
 
-package com.ingenium.goby.budget.extractor.extraction;
+package com.ingenium.goby.budget.extractor.extraction.download;
 
 import com.ingenium.commons.util.AbstractDownloader;
 import com.ingenium.commons.util.DownloadException;
@@ -21,34 +21,32 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
-/**
+/** 
  * <!-- begin-UML-doc -->
- * Clase&nbsp;que&nbsp;descarga&nbsp;la&nbsp;lista&nbsp;de&nbsp;archivos&nbsp;que&nbsp;contienen&nbsp;información&nbsp;de&nbsp;la&nbsp;Ley<br>
- * de&nbsp;Presupuestos.<br>
- * <br>
- * @author&nbsp;JaimeRodrigo <!-- end-UML-doc -->
- * 
- * @author joviedo
- * @uml.annotations derived_abstraction="platform:/resource/goby-design/budget-extractor.emx#_UXFjwEquEeeJsdrfgQXeQw"
+ * Clase&nbsp;que&nbsp;descarga&nbsp;la&nbsp;lista&nbsp;de&nbsp;archivos&nbsp;que&nbsp;contienen&nbsp;información&nbsp;de&nbsp;la&nbsp;Ley<br>de&nbsp;Presupuestos.<br><br>@author&nbsp;JaimeRodrigo
+ * <!-- end-UML-doc -->
+ * @author JaimeRodrigo
+ * @uml.annotations
+ *     derived_abstraction="platform:/resource/goby-design/budget-extractor.emx#_UXFjwEquEeeJsdrfgQXeQw"
  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_UXFjwEquEeeJsdrfgQXeQw"
  */
-public class BudgetLawCsvFilesListExtractor extends AbstractDownloader {
-
-  /**
-   * <!-- begin-UML-doc --> <!-- end-UML-doc -->
-   * 
-   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_UdIhYEquEeeJsdrfgQXeQw"
-   */
+public class BudgetLawCsvFilesListDownloader extends AbstractDownloader {
+  
+  /** 
+  * <!-- begin-UML-doc -->
+  * <!-- end-UML-doc -->
+  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_UdIhYEquEeeJsdrfgQXeQw"
+  */
   private Collection<String> budgetFileList;
-
-  /**
-   * <!-- begin-UML-doc -->
-   * Crea&nbsp;una&nbsp;nueva&nbsp;instancia&nbsp;de&nbsp;BudgetFileListExtractor. <!-- end-UML-doc
-   * -->
-   * 
-   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_UdK9oEquEeeJsdrfgQXeQw"
-   */
-  public BudgetLawCsvFilesListExtractor() {
+  
+  /** 
+  * <!-- begin-UML-doc -->
+  * Crea&nbsp;una&nbsp;nueva&nbsp;instancia&nbsp;de&nbsp;BudgetFileListExtractor.
+  * <!-- end-UML-doc -->
+  * Crea una nueva instancia de la clase BudgetLawCsvFilesListDownloader.
+  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_UdK9oEquEeeJsdrfgQXeQw"
+  */
+  public BudgetLawCsvFilesListDownloader() {
     // begin-user-code
     super();
     setSource(Messages.getString("BudgetLawCsvFilesListExtractor.sourceUrl")); //$NON-NLS-1$
@@ -57,18 +55,18 @@ public class BudgetLawCsvFilesListExtractor extends AbstractDownloader {
     budgetFileList = new ArrayList<>(400);
     // end-user-code
   }
-
+  
   /*
    * (non-Javadoc)
    *
    * @see com.ingenium.goby.extractors.Extractor#extract()
    */
-  /**
-   * <!-- begin-UML-doc --> <!-- end-UML-doc -->
-   * 
-   * @throws DownloadException
-   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_UdMy0EquEeeJsdrfgQXeQw"
-   */
+  /** 
+  * <!-- begin-UML-doc -->
+  * <!-- end-UML-doc -->
+  * @throws DownloadException
+  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_UdMy0EquEeeJsdrfgQXeQw"
+  */
   @Override
   public void download() throws DownloadException {
     // begin-user-code
@@ -94,22 +92,22 @@ public class BudgetLawCsvFilesListExtractor extends AbstractDownloader {
         outputStream.close();
       }
     }
-
+    
     // end-user-code
   }
-
-  /**
-   * <!-- begin-UML-doc --> <!-- end-UML-doc -->
-   * 
-   * @return
-   * @throws DownloadException
-   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_UdQdMEquEeeJsdrfgQXeQw"
-   */
+  
+  /** 
+  * <!-- begin-UML-doc -->
+  * <!-- end-UML-doc -->
+  * @return
+  * @throws DownloadException
+  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_UdQdMEquEeeJsdrfgQXeQw"
+  */
   public Collection<String> getBudgetFileList() throws DownloadException {
     // begin-user-code
     download();
     return budgetFileList;
     // end-user-code
   }
-
+  
 }

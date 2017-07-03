@@ -2,22 +2,22 @@
  *
  */
 
-package com.ingenium.goby.budget.extraction;
+package com.ingenium.goby.budget.extractor.extraction;
 
-import com.ingenium.goby.budget.BudgetLaw;
-import com.ingenium.goby.budget.ClassifiersCatalog;
-import com.ingenium.goby.budget.ClassifiersCatalogFactory;
-import com.ingenium.goby.budget.InstitutionsCatalog;
-import com.ingenium.goby.budget.InstitutionsCatalogFactory;
-import com.ingenium.goby.budget.elements.Assignment;
-import com.ingenium.goby.budget.elements.Batch;
-import com.ingenium.goby.budget.elements.BudgetElementType;
-import com.ingenium.goby.budget.elements.BudgetHierarchyLevel;
-import com.ingenium.goby.budget.elements.Chapter;
-import com.ingenium.goby.budget.elements.CompositeBudgetElement;
-import com.ingenium.goby.budget.elements.Item;
-import com.ingenium.goby.budget.elements.Program;
-import com.ingenium.goby.budget.elements.Subtitle;
+import com.ingenium.goby.budget.extractor.BudgetLaw;
+import com.ingenium.goby.budget.extractor.ClassifiersCatalog;
+import com.ingenium.goby.budget.extractor.ClassifiersCatalogFactory;
+import com.ingenium.goby.budget.extractor.InstitutionsCatalog;
+import com.ingenium.goby.budget.extractor.InstitutionsCatalogFactory;
+import com.ingenium.goby.budget.extractor.elements.Assignment;
+import com.ingenium.goby.budget.extractor.elements.Batch;
+import com.ingenium.goby.budget.extractor.elements.BudgetElementType;
+import com.ingenium.goby.budget.extractor.elements.BudgetHierarchyLevel;
+import com.ingenium.goby.budget.extractor.elements.Chapter;
+import com.ingenium.goby.budget.extractor.elements.CompositeBudgetElement;
+import com.ingenium.goby.budget.extractor.elements.Item;
+import com.ingenium.goby.budget.extractor.elements.Program;
+import com.ingenium.goby.budget.extractor.elements.Subtitle;
 import com.opencsv.CSVReader;
 
 import java.io.FileInputStream;
@@ -31,62 +31,61 @@ import java.util.Collection;
 import java.util.Locale;
 import java.util.logging.Logger;
 
-/**
+/** 
  * <!-- begin-UML-doc -->
- * Esta&nbsp;clase&nbsp;extrae&nbsp;toda&nbsp;la&nbsp;Ley&nbsp;de&nbsp;Presupuestos&nbsp;desde&nbsp;el&nbsp;sitio&nbsp;de&nbsp;la&nbsp;DIPRES.<br>
- * <br>
- *
- * @author&nbsp;JaimeRodrigo <!-- end-UML-doc -->
- *
+ * Esta&nbsp;clase&nbsp;extrae&nbsp;toda&nbsp;la&nbsp;Ley&nbsp;de&nbsp;Presupuestos&nbsp;desde&nbsp;el&nbsp;sitio&nbsp;de&nbsp;la&nbsp;DIPRES.<br><br>@author&nbsp;JaimeRodrigo
+ * <!-- end-UML-doc -->
  * @author JaimeRodrigo
- * @uml.annotations derived_abstraction="platform:/resource/goby-design/goby-classifier-extractor.emx#_UautoEquEeeJsdrfgQXeQw"
- * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UautoEquEeeJsdrfgQXeQw"
+ * @uml.annotations
+ *     derived_abstraction="platform:/resource/goby-design/budget-extractor.emx#_UautoEquEeeJsdrfgQXeQw"
+ * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_UautoEquEeeJsdrfgQXeQw"
  */
 public class BudgetLawExtractor {
-
-  /**
-   * <!-- begin-UML-doc --> <!-- end-UML-doc -->
-   *
-   * @author JaimeRodrigo
-   * @uml.annotations derived_abstraction="platform:/resource/goby-design/goby-classifier-extractor.emx#_lSO08FhREeeLhanfOp3nJA"
-   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_lSO08FhREeeLhanfOp3nJA"
-   */
+  
+  /** 
+  * <!-- begin-UML-doc -->
+  * <!-- end-UML-doc -->
+  * @author JaimeRodrigo
+  * @uml.annotations
+  *     derived_abstraction="platform:/resource/goby-design/budget-extractor.emx#_lSO08FhREeeLhanfOp3nJA"
+  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_lSO08FhREeeLhanfOp3nJA"
+  */
   public class BudgetLawImpl extends CompositeBudgetElement
       implements BudgetLaw {
-
-    /**
-     * <!-- begin-UML-doc --> <!-- end-UML-doc -->
-     *
-     * @param batchNumber
-     * @return
-     * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_CXBu8FhUEeeLhanfOp3nJA"
-     */
+    
+    /** 
+    * <!-- begin-UML-doc -->
+    * <!-- end-UML-doc -->
+    * @param batchNumber
+    * @return
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_CXBu8FhUEeeLhanfOp3nJA"
+    */
     @Override
     public Batch getBatch(int batchNumber) {
       // begin-user-code
       return (Batch) getSubelement(batchNumber);
       // end-user-code
     }
-
-    /**
-     * <!-- begin-UML-doc --> <!-- end-UML-doc --> Crea una nueva instancia de la clase
-     * BudgetLawImpl.
-     *
-     * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_KnOqkFhUEeeLhanfOp3nJA"
-     */
+    
+    /** 
+    * <!-- begin-UML-doc -->
+    * <!-- end-UML-doc -->
+    * Crea una nueva instancia de la clase BudgetLawImpl.
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_KnOqkFhUEeeLhanfOp3nJA"
+    */
     public BudgetLawImpl() {
       // begin-user-code
       super(0, "Ley de Presupuesto", "", BudgetElementType.NONE,
           BudgetHierarchyLevel.ROOT);
       // end-user-code
     }
-
-    /**
-     * <!-- begin-UML-doc --> <!-- end-UML-doc -->
-     *
-     * @return
-     * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_CXBH4FhUEeeLhanfOp3nJA"
-     */
+    
+    /** 
+    * <!-- begin-UML-doc -->
+    * <!-- end-UML-doc -->
+    * @return
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_CXBH4FhUEeeLhanfOp3nJA"
+    */
     @SuppressWarnings("unchecked")
     @Override
     public Collection<Batch> getBatches() {
@@ -95,47 +94,47 @@ public class BudgetLawExtractor {
       // end-user-code
     }
   }
-
-  /**
-   * <!-- begin-UML-doc --> <!-- end-UML-doc -->
-   *
-   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_wErB4FejEeeJT_eFoT-0rA"
-   */
+  
+  /** 
+  * <!-- begin-UML-doc -->
+  * <!-- end-UML-doc -->
+  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_wErB4FejEeeJT_eFoT-0rA"
+  */
   private static final Logger log = Logger
       .getLogger("com.ingenium.goby.extractors.BudgetLawExtractor");
-  /**
-   * <!-- begin-UML-doc --> <!-- end-UML-doc -->
-   *
-   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_Mqu6wFhREeeLhanfOp3nJA"
-   */
+  /** 
+  * <!-- begin-UML-doc -->
+  * <!-- end-UML-doc -->
+  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_Mqu6wFhREeeLhanfOp3nJA"
+  */
   private final String source;
-
-  /**
-   * <!-- begin-UML-doc -->
-   * Crea&nbsp;una&nbsp;nueva&nbsp;instancia&nbsp;de&nbsp;la&nbsp;clase&nbsp;BudgetLawExtractor.
-   * <!-- end-UML-doc --> Crea una nueva instancia de la clase BudgetLawExtractor.
-   *
-   * @param source
-   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UjFYYEquEeeJsdrfgQXeQw"
-   */
+  
+  /** 
+  * <!-- begin-UML-doc -->
+  * Crea&nbsp;una&nbsp;nueva&nbsp;instancia&nbsp;de&nbsp;la&nbsp;clase&nbsp;BudgetLawExtractor.
+  * <!-- end-UML-doc -->
+  * Crea una nueva instancia de la clase BudgetLawExtractor.
+  * @param source
+  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_UjFYYEquEeeJsdrfgQXeQw"
+  */
   public BudgetLawExtractor(String source) {
     // begin-user-code
     this.source = source;
     // end-user-code
   }
-
+  
   /*
    * (non-Javadoc)
    *
    * @see com.ingenium.goby.extractors.Extractor#extract()
    */
-  /**
-   * <!-- begin-UML-doc --> <!-- end-UML-doc -->
-   *
-   * @return
-   * @throws ExtractionException
-   * @generated "sourceid:platform:/resource/goby-design/goby-classifier-extractor.emx#_UjH0oEquEeeJsdrfgQXeQw"
-   */
+  /** 
+  * <!-- begin-UML-doc -->
+  * <!-- end-UML-doc -->
+  * @return
+  * @throws ExtractionException
+  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_UjH0oEquEeeJsdrfgQXeQw"
+  */
   public BudgetLaw extract() throws ExtractionException {
     // begin-user-code
     FileInputStream fi = null;
@@ -146,15 +145,15 @@ public class BudgetLawExtractor {
       throw new ExtractionException("Source file not found");
     }
     CSVReader reader = null;
-
+    
     BudgetLawImpl law = new BudgetLawImpl();
     try {
       String line[] = null;
       reader = new CSVReader(new InputStreamReader(fi, "UTF-8"), ';', '"', 1);
       while ((line = reader.readNext()) != null) {
-
+        
         int batchNumber = 0;
-
+        
         String s = line[0];
         try {
           if (s != null) {
@@ -163,7 +162,7 @@ public class BudgetLawExtractor {
         } catch (Exception e) {
           throw new ExtractionException("Unable to extract batch number.");
         }
-
+        
         int chapterNumber = 0;
         s = line[1];
         if (s != null) {
@@ -175,7 +174,7 @@ public class BudgetLawExtractor {
         } else {
           chapterNumber = 0;
         }
-
+        
         int programNumber = 0;
         s = line[2];
         if (s != null) {
@@ -185,7 +184,7 @@ public class BudgetLawExtractor {
             BudgetLawExtractor.log.finest("Unable to extact program number.");
           }
         }
-
+        
         int subtitleNumber = 0;
         s = line[3];
         if (s != null) {
@@ -195,7 +194,7 @@ public class BudgetLawExtractor {
             BudgetLawExtractor.log.finest("Unable to extact program number.");
           }
         }
-
+        
         int itemNumber = 0;
         s = line[4];
         if ((s != null) && !"".equals(s)) {
@@ -205,7 +204,7 @@ public class BudgetLawExtractor {
             BudgetLawExtractor.log.finest("Unable to extact program number.");
           }
         }
-
+        
         int assignmentNumber = 0;
         s = line[5];
         if ((s != null) && !"".equals(s)) {
@@ -215,7 +214,7 @@ public class BudgetLawExtractor {
             BudgetLawExtractor.log.finest("Unable to extact program number.");
           }
         }
-
+        
         String name = "";
         s = line[6];
         if (s != null) {
@@ -226,7 +225,7 @@ public class BudgetLawExtractor {
                   .append(batchNumber).append(",").append(chapterNumber)
                   .append(",").append(programNumber).toString());
         }
-
+        
         // The french use comma for separating decimals, we'll use that locale.
         BigInteger budgetNumber = BigInteger.ZERO;
         s = line[7];
@@ -234,19 +233,19 @@ public class BudgetLawExtractor {
           budgetNumber = BigInteger.valueOf(NumberFormat
               .getNumberInstance(Locale.FRANCE).parse(s).longValue());
         }
-
+        
         BigInteger dollarBudgetNumber = BigInteger.ZERO;
         s = line[8];
         if (s != null) {
           dollarBudgetNumber = BigInteger.valueOf(NumberFormat
               .getNumberInstance(Locale.FRANCE).parse(s).longValue());
         }
-
+        
         ClassifiersCatalog cc = ClassifiersCatalogFactory.getInstance()
             .getClassifiersCatalog();
         InstitutionsCatalog ic = InstitutionsCatalogFactory.getInstance()
             .getInstitutionsCatalog();
-
+        
         Batch catBatch = ic.getBatch(batchNumber);
         Chapter catChapter = null;
         if (catBatch != null) {
@@ -257,12 +256,12 @@ public class BudgetLawExtractor {
           catProgram = catChapter.getProgram(programNumber);
         }
         Subtitle catSubtitle = cc.getSubtitle(subtitleNumber);
-
+        
         if (catSubtitle == null) {
           // not interested.
           continue;
         }
-
+        
         if ((catBatch == null) || (catChapter == null)
             || (catProgram == null)) {
           throw new ExtractionException(new StringBuffer(
@@ -271,7 +270,7 @@ public class BudgetLawExtractor {
                   .append(",").append(programNumber).append(",")
                   .append(subtitleNumber).append(")").toString());
         }
-
+        
         if ((itemNumber == 0) && (assignmentNumber != 0)) {
           throw new ExtractionException(
               new StringBuffer("Malformed input file. Received assignment ")
@@ -281,30 +280,30 @@ public class BudgetLawExtractor {
                   .append(",").append(programNumber).append(",")
                   .append(subtitleNumber).append(")").toString());
         }
-
+        
         // No malformed entry, let's create the tree structure as needed
-
+        
         Batch lawBatch = law.getBatch(batchNumber);
         if (lawBatch == null) {
           lawBatch = new Batch(catBatch.getNumber(), catBatch.getName(),
               catBatch.getDescription(), BudgetElementType.BUDGET);
           law.addSubelement(lawBatch);
         }
-
+        
         Chapter lawChapter = lawBatch.getChapter(chapterNumber);
         if (lawChapter == null) {
           lawChapter = new Chapter(catChapter.getNumber(), catChapter.getName(),
               catChapter.getDescription(), BudgetElementType.BUDGET);
           lawBatch.addChapter(lawChapter);
         }
-
+        
         Program lawProgram = lawChapter.getProgram(programNumber);
         if (lawProgram == null) {
           lawProgram = new Program(catProgram.getNumber(), catProgram.getName(),
               catProgram.getDescription(), BudgetElementType.BUDGET);
           lawChapter.addProgram(lawProgram);
         }
-
+        
         Subtitle lawSubtitle = lawProgram.getSubtitle(subtitleNumber);
         if (lawSubtitle == null) {
           lawSubtitle = new Subtitle(catSubtitle.getNumber(),
@@ -312,7 +311,7 @@ public class BudgetLawExtractor {
               BudgetElementType.BUDGET);
           lawProgram.addSubtitle(lawSubtitle);
         }
-
+        
         if (itemNumber == 0) {
           lawSubtitle.setInitialBudget(budgetNumber);
           lawSubtitle.setActualBudget(budgetNumber);
@@ -320,7 +319,7 @@ public class BudgetLawExtractor {
           lawSubtitle.setActualDollarBudget(dollarBudgetNumber);
           continue;
         }
-
+        
         Item lawItem = lawSubtitle.getItem(subtitleNumber);
         Item catItem = catSubtitle.getItem(itemNumber);
         if (lawItem == null) {
@@ -336,7 +335,7 @@ public class BudgetLawExtractor {
           }
           lawSubtitle.addItem(lawItem);
         }
-
+        
         if (assignmentNumber == 0) {
           lawItem.setInitialBudget(budgetNumber);
           lawItem.setActualBudget(budgetNumber);
@@ -344,7 +343,7 @@ public class BudgetLawExtractor {
           lawItem.setActualDollarBudget(dollarBudgetNumber);
           continue;
         }
-
+        
         Assignment catAssignment = catItem.getAssignment(assignmentNumber);
         if (catAssignment == null) {
           BudgetLawExtractor.log.warning(
@@ -359,12 +358,12 @@ public class BudgetLawExtractor {
               BudgetElementType.BUDGETARY_CLASSIFICATION);
           catItem.addAssignment(catAssignment);
         }
-
+        
         Assignment lawAssignment = new Assignment(catAssignment.getNumber(),
             name, catAssignment.getDescription(), BudgetElementType.BUDGET);
         String catAssignmentName = catAssignment.getName();
         if (!name.equals(catAssignmentName)) {
-
+          
           BudgetLawExtractor.log
               .fine(new StringBuffer("Name read from budget file:").append(name)
                   .append(" differs from name found in classifiers catalog:")
@@ -376,7 +375,7 @@ public class BudgetLawExtractor {
         lawAssignment.setInitialDollarBudget(dollarBudgetNumber);
         lawAssignment.setActualDollarBudget(dollarBudgetNumber);
         lawItem.addAssignment(lawAssignment);
-
+        
       }
       reader.close();
     } catch (IOException e) {
@@ -399,7 +398,7 @@ public class BudgetLawExtractor {
         e.printStackTrace();
       }
     }
-
+    
     return law;
     // end-user-code
   }

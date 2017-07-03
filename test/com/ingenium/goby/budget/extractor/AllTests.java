@@ -1,15 +1,13 @@
-package com.ingenium.goby.budget;
+package com.ingenium.goby.budget.extractor;
 
-import com.ingenium.goby.budget.extractor.extraction.BudgetLawCsvFilesDownloaderTest;
-import com.ingenium.goby.budget.extractor.extraction.BudgetLawCsvFilesListExtractorTest;
+import com.ingenium.goby.budget.extractor.extraction.download.BudgetLawCsvFilesDownloaderTest;
 
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
 import org.junit.runners.Suite.SuiteClasses;
 
 @RunWith(Suite.class)
-@SuiteClasses({ ClassifiersCatalogFactoryTest.class,
-    BudgetLawCsvFilesListDownloaderTest.class,
+@SuiteClasses({ ClassifiersCatalogFactoryTest.class, BudgetLawFactoryTest.class,
     BudgetLawCsvFilesDownloaderTest.class })
 public class AllTests {
 

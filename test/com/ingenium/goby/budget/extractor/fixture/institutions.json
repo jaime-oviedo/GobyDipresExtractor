@@ -428,6 +428,21 @@
           "programs":[ 
             {
               "number":1,
+              "name":"Subsecretaría del Interior",
+              "description":""
+            },
+            {
+              "number":2,
+              "name":"Red de Conectividad del Estado",
+              "description":""
+            },
+            {
+              "number":3,
+              "name":"Fondo Social",
+              "description":""
+            },
+            {
+              "number":4,
               "name":"Bomberos de Chile",
               "description":""
             }
@@ -1642,7 +1657,7 @@
           "programs":[ 
             {
               "number":1,
-              "name":"Comisión Nacional de Riego",
+              "name":"Subsecretaría de Agricultura",
               "description":""
             },
             {
@@ -1753,7 +1768,14 @@
         {
           "number":6,
           "name":"Comisión Nacional de Riego",
-          "description":""
+          "description":"",
+          "programs":[ 
+            {
+              "number":1,
+              "name":"Comisión Nacional de Riego",
+              "description":""
+            }
+          ]
         }
       ]
     },
@@ -2447,7 +2469,7 @@
           "programs":[ 
             {
               "number":1,
-              "name":"Comisión Chilena del Cobre",
+              "name":"Secretaría y Administración General",
               "description":""
             },
             {
@@ -2460,7 +2482,14 @@
         {
           "number":2,
           "name":"Comisión Chilena del Cobre",
-          "description":""
+          "description":"",
+          "programs":[ 
+            {
+              "number":1,
+              "name":"Comisión Chilena del Cobre",
+              "description":""
+            }
+          ]
         },
         {
           "number":3,

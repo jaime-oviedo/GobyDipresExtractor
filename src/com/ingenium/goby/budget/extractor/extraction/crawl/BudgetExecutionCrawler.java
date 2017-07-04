@@ -150,9 +150,8 @@ public class BudgetExecutionCrawler {
    * @return
    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_pCoWAF5HEeeguv5GRmiMJw"
    */
-  public List<String> findExecutionFiles(int year) {
+  public List<String> findExecutionFiles(int year, int executionPeriod) {
     // begin-user-code
-    int executionPeriod = Calendar.getInstance().get(Calendar.MONTH);
     final WebClient webClient = new WebClient();
     HtmlPage mainPage = null;
     try {
@@ -208,17 +207,10 @@ public class BudgetExecutionCrawler {
       e.printStackTrace();
     }
 
-    if (programLevelBudgetExecutionYearPage != null)
+    if (programLevelBudgetExecutionYearPage != null) {
       extractExecutionCsvFilesUrls(programLevelBudgetExecutionYearPage,
           executionPeriod);
-
-    // for (HtmlAnchor a : anchors) {
-    // String anchorRef = a.getHrefAttribute();
-    // if (anchorRef.endsWith(".csv")) {
-    // BudgetExecutionCrawler.log.info(anchorRef);
-    // csvAnchors.add(a);
-    // }
-    // }
+    }
 
     webClient.close();
     return null;
@@ -230,7 +222,6 @@ public class BudgetExecutionCrawler {
    */
   List<String> extractExecutionCsvFilesUrls(
       HtmlPage programLevelBudgetExecutionYearPage, int executionPeriod) {
-    List<String> executionFiles = new ArrayList<>(400);
 
     // Get all divs
     DomNodeList<DomElement> divTags = programLevelBudgetExecutionYearPage
@@ -244,91 +235,105 @@ public class BudgetExecutionCrawler {
       }
     }
 
-    // Each recuadro has exactly one div tag where the execution period can be identified.
-    // We'll look at the first one to determine the execution period
-    // Just in case we'll iterate through all its div children and make sure there is only one
+    // Each recuadro should have exactly one div tag where the execution period can be identified.
 
-    int numberOfExecutionPeriodDivTags = 0;
     Iterator<DomElement> i = recuadroDivTags.iterator();
-    DomElement firstDiv = i.next();
-    DomNodeList<HtmlElement> innerDivs = firstDiv.getElementsByTagName("div");
-    if (innerDivs.size() > 1) {
-      log.warning(
+    DomElement sampleRecuadroDiv = i.next();
+    DomNodeList<HtmlElement> sampleRecuadroInnerDivs = sampleRecuadroDiv
+        .getElementsByTagName("div");
+    if (sampleRecuadroInnerDivs.size() > 1) {
+      BudgetExecutionCrawler.log.warning(
           "The structure of a budget execution html div section is not as expected, the maximum execution period may be extracted incorrectly");
     }
-    HtmlElement firstInnerDiv = innerDivs.iterator().next();
-    int maxExecutionPeriodAvailable = determineExecutionPeriod(firstInnerDiv);
 
-    if (maxExecutionPeriodAvailable <= executionPeriod) {
-      log.warning("Requested execution period not available");
-    }
+    // Go through every recuadro div, extracting only the ones matching the period requested
 
-    if (maxExecutionPeriodAvailable > executionPeriod) {
-      log.fine("Requested execution period lower than the maximum available");
-    }
-
-    List<String> csvFilesUrls = new ArrayList<>(300);
+    List<DomElement> matchingDivs = new ArrayList<>(300);
     for (DomElement recuadroDivTag : recuadroDivTags) {
-      String csvFileUrl = getCsvFileUrl(recuadroDivTag);
-    }
-
-    // Filter out all the divs not containing budget execution related content
-    List<DomElement> executionDivTags = new ArrayList<>(400);
-    String executionDivPrefix = "Informe Ejecución Programa ";
-    for (DomElement div : recuadroDivTags) {
-      if (div.getTextContent().contains(executionDivPrefix)) {
-        executionDivTags.add(div);
-        BudgetExecutionCrawler.log.info(div.getTextContent());
+      Iterator<HtmlElement> recuadroIterator = recuadroDivTag
+          .getElementsByTagName("div").iterator();
+      HtmlElement innerDiv = recuadroIterator.next();
+      if (innerDiv == null) {
+        BudgetExecutionCrawler.log.warning(
+            "The structure of a budget execution html div section is not as expected, the maximum execution period may be extracted incorrectly");
+        continue;
+      }
+      int recuadroPeriod = determineMaxExecutionPeriodAvailable(innerDiv);
+      if (recuadroPeriod == executionPeriod) {
+        matchingDivs.add(recuadroDivTag);
       }
     }
 
-    // Use the first element of the array to determine the maximum execution period available
-
+    List<String> executionFiles = new ArrayList<>(300);
+    for (DomElement matchingDiv : matchingDivs) {
+      String csvFileUrl = getCsvFileUrl(matchingDiv);
+      if (csvFileUrl != null) {
+        executionFiles.add(csvFileUrl);
+      }
+    }
 
     return executionFiles;
   }
 
   /**
-   * @param div
+   * @param element
    * @return
    */
-  int determineExecutionPeriod(HtmlElement div) {
-    String divText = div.asText();
+  int determineMaxExecutionPeriodAvailable(HtmlElement element) {
+    String divText = element.getTextContent();
     int maxExecutionPeriodAvailable = 0;
-    if (divText.contains("Enero"))
+    if (divText.contains("Enero")) {
       maxExecutionPeriodAvailable = Calendar.JANUARY;
-    if (divText.contains("Febrero"))
+    }
+    if (divText.contains("Febrero")) {
       maxExecutionPeriodAvailable = Calendar.FEBRUARY;
-    if (divText.contains("Primer Trimestre"))
+    }
+    if (divText.contains("Primer Trimestre")) {
       maxExecutionPeriodAvailable = Calendar.MARCH;
-    if (divText.contains("Abril"))
+    }
+    if (divText.contains("Abril")) {
       maxExecutionPeriodAvailable = Calendar.APRIL;
-    if (divText.contains("Mayo"))
+    }
+    if (divText.contains("Mayo")) {
       maxExecutionPeriodAvailable = Calendar.MAY;
-    if (divText.contains("Segundo Trimestre"))
+    }
+    if (divText.contains("Segundo Trimestre")) {
       maxExecutionPeriodAvailable = Calendar.JUNE;
-    if (divText.contains("Julio"))
+    }
+    if (divText.contains("Julio")) {
       maxExecutionPeriodAvailable = Calendar.JULY;
-    if (divText.contains("Agosto"))
+    }
+    if (divText.contains("Agosto")) {
       maxExecutionPeriodAvailable = Calendar.AUGUST;
-    if (divText.contains("Tercer Trimestre"))
+    }
+    if (divText.contains("Tercer Trimestre")) {
       maxExecutionPeriodAvailable = Calendar.SEPTEMBER;
-    if (divText.contains("Octubre"))
+    }
+    if (divText.contains("Octubre")) {
       maxExecutionPeriodAvailable = Calendar.OCTOBER;
-    if (divText.contains("Noviembre"))
+    }
+    if (divText.contains("Noviembre")) {
       maxExecutionPeriodAvailable = Calendar.NOVEMBER;
-    if (divText.contains("Cuarto Trimestre"))
+    }
+    if (divText.contains("Cuarto Trimestre")) {
       maxExecutionPeriodAvailable = Calendar.DECEMBER;
+    }
     return maxExecutionPeriodAvailable;
   }
 
   private String getCsvFileUrl(DomElement recuadroDivTag) {
-    if (recuadroDivTag == null)
+    if (recuadroDivTag == null) {
       return "";
+    }
+    String url = null;
+    String tmpUrl = null;
     DomNodeList<HtmlElement> anchors = recuadroDivTag.getElementsByTagName("a");
     for (HtmlElement anchor : anchors) {
-
+      tmpUrl = anchor.getAttribute("href");
+      if (tmpUrl.contains(".csv")) {
+        url = tmpUrl;
+      }
     }
-    return null;
+    return url;
   }
 }

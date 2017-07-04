@@ -45,7 +45,7 @@ public class BudgetExecutionCrawlerTest {
     Handler finestHandler = new ConsoleHandler();
     finestHandler.setLevel(Level.FINEST);
     BudgetExecutionCrawler.log.addHandler(finestHandler);
-    crawler.findExecutionFiles(2017);
+    crawler.findExecutionFiles(2017, Calendar.FEBRUARY);
     Assert.fail("Not yet implemented"); // TODO
   }
 
@@ -75,8 +75,7 @@ public class BudgetExecutionCrawlerTest {
 
     BudgetExecutionCrawler crawler = new BudgetExecutionCrawler();
     List<String> executionFiles = crawler.extractExecutionCsvFilesUrls(
-        programLevelBudgetExecutionYearPage,
-        Calendar.getInstance().get(Calendar.MONTH));
+        programLevelBudgetExecutionYearPage, Calendar.FEBRUARY);
     for (String fileName : executionFiles) {
       System.out.println(fileName);
     }

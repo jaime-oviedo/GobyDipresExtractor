@@ -18,63 +18,65 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.logging.Logger;
 
-/** 
- * <!-- begin-UML-doc -->
- * <!-- end-UML-doc -->
+/**
+ * <!-- begin-UML-doc --> <!-- end-UML-doc -->
+ *
  * @author joviedo
- * @uml.annotations
- *     derived_abstraction="platform:/resource/goby-design/budget-extractor.emx#_bPdhEF5HEeeguv5GRmiMJw"
+ * @uml.annotations derived_abstraction="platform:/resource/goby-design/budget-extractor.emx#_bPdhEF5HEeeguv5GRmiMJw"
  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_bPdhEF5HEeeguv5GRmiMJw"
  */
 public class BudgetExecutionCrawler {
-  /** 
-  * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_3sGrYF5IEeeguv5GRmiMJw"
-  */
+  /**
+   * <!-- begin-UML-doc --> <!-- end-UML-doc -->
+   *
+   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_3sGrYF5IEeeguv5GRmiMJw"
+   */
   static final Logger log = Logger.getLogger(
       "com.ingenium.goby.budget.extractor.crawl.BudgetExecutionCrawler");
 
-  /** 
-  * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_GOL0wF5JEeeguv5GRmiMJw"
-  */
+  /**
+   * <!-- begin-UML-doc --> <!-- end-UML-doc -->
+   *
+   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_GOL0wF5JEeeguv5GRmiMJw"
+   */
   private String budgetDirectorateWebsiteUrl = "http://www.dipres.gob.cl";
 
-  /** 
-  * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_3aiXoGEkEeeMhLKRNTgRlA"
-  */
+  /**
+   * <!-- begin-UML-doc --> <!-- end-UML-doc -->
+   *
+   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_3aiXoGEkEeeMhLKRNTgRlA"
+   */
   private List<String> budgetExecutionFilesList;
 
-  /** 
-  * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_5nW0gGEkEeeMhLKRNTgRlA"
-  */
-  private Object budgetExecutionFilesBaseUrl;
+  /**
+   * <!-- begin-UML-doc --> <!-- end-UML-doc -->
+   *
+   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_5nW0gGEkEeeMhLKRNTgRlA"
+   */
+  private String budgetExecutionFilesBaseUrl;
 
-  /** 
-  * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_iI3o4F5HEeeguv5GRmiMJw"
-  */
+  /**
+   * <!-- begin-UML-doc --> <!-- end-UML-doc -->
+   *
+   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_iI3o4F5HEeeguv5GRmiMJw"
+   */
   public BudgetExecutionCrawler() {
     // begin-user-code
     super();
+    budgetExecutionFilesList = new ArrayList<>();
+    budgetExecutionFilesBaseUrl = null;
     // end-user-code
   }
 
-  /** 
-  * <!-- begin-UML-doc -->
-  * @param&nbsp;element<br>@return
-  * <!-- end-UML-doc -->
-  * @param element
-  * @return
-  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_XC2XsmCtEeeyf97XDVaBvw"
-  */
+  /**
+   * <!-- begin-UML-doc -->
+   * @param&nbsp;element<br>@return <!--
+   *                                  end-UML-doc -->
+   *
+   * @param element
+   * @return
+   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_XC2XsmCtEeeyf97XDVaBvw"
+   */
   ExecutionPeriod determineExecutionPeriod(HtmlElement element) {
     // begin-user-code
     final String divText = element.getTextContent();
@@ -120,15 +122,16 @@ public class BudgetExecutionCrawler {
     // end-user-code
   }
 
-  /** 
-  * <!-- begin-UML-doc -->
-  * @param&nbsp;programLevelBudgetExecutionYearPage
-  * <!-- end-UML-doc -->
-  * @param programLevelBudgetExecutionYearPage
-  * @param executionPeriod
-  * @return
-  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_mVqTUWAREeefXZqJOyM9_Q"
-  */
+  /**
+   * <!-- begin-UML-doc -->
+   *
+   * @param&nbsp;programLevelBudgetExecutionYearPage <!--
+   *                                                   end-UML-doc -->
+   * @param programLevelBudgetExecutionYearPage
+   * @param executionPeriod
+   * @return
+   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_mVqTUWAREeefXZqJOyM9_Q"
+   */
   List<String> extractExecutionCsvFilesUrls(
       HtmlPage programLevelBudgetExecutionYearPage,
       ExecutionPeriod executionPeriod) {
@@ -187,14 +190,14 @@ public class BudgetExecutionCrawler {
     // end-user-code
   }
 
-  /** 
-  * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * @param year
-  * @param executionPeriod
-  * @return
-  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_pCoWAF5HEeeguv5GRmiMJw"
-  */
+  /**
+   * <!-- begin-UML-doc --> <!-- end-UML-doc -->
+   *
+   * @param year
+   * @param executionPeriod
+   * @return
+   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_pCoWAF5HEeeguv5GRmiMJw"
+   */
   public List<String> findExecutionFiles(int year,
       ExecutionPeriod executionPeriod) {
     // begin-user-code
@@ -247,8 +250,7 @@ public class BudgetExecutionCrawler {
       programLevelBudgetExecutionPage = anchor.click();
 
       // We should be at the page of the current year, let's click on the specific year number just
-      // to
-      // be sure.
+      // to be sure.
 
       anchor = programLevelBudgetExecutionPage
           .getAnchorByText(String.valueOf(year));
@@ -256,6 +258,8 @@ public class BudgetExecutionCrawler {
       programLevelBudgetExecutionYearPage = anchor.click();
 
       if (programLevelBudgetExecutionYearPage != null) {
+        budgetExecutionFilesBaseUrl = programLevelBudgetExecutionPage.getUrl()
+            .toExternalForm();
         executionFiles = extractExecutionCsvFilesUrls(
             programLevelBudgetExecutionYearPage, executionPeriod);
       }
@@ -271,26 +275,25 @@ public class BudgetExecutionCrawler {
     // end-user-code
   }
 
-  /** 
-  * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * @return
-  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_SzRDUGElEeeMhLKRNTgRlA"
-  */
+  /**
+   * <!-- begin-UML-doc --> <!-- end-UML-doc -->
+   *
+   * @return
+   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_SzRDUGElEeeMhLKRNTgRlA"
+   */
   public String getBudgetExecutionFilesBaseUrl() {
     // begin-user-code
-    // TODO Auto-generated method stub
-    return null;
+    return budgetExecutionFilesBaseUrl;
     // end-user-code
   }
 
-  /** 
-  * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * @param recuadroDivTag
-  * @return
-  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_XC3l0WCtEeeyf97XDVaBvw"
-  */
+  /**
+   * <!-- begin-UML-doc --> <!-- end-UML-doc -->
+   *
+   * @param recuadroDivTag
+   * @return
+   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_XC3l0WCtEeeyf97XDVaBvw"
+   */
   private String getCsvFileUrl(DomElement recuadroDivTag) {
     // begin-user-code
     if (recuadroDivTag == null) {
@@ -301,6 +304,11 @@ public class BudgetExecutionCrawler {
     final DomNodeList<HtmlElement> anchors = recuadroDivTag
         .getElementsByTagName("a");
     for (final HtmlElement anchor : anchors) {
+      if (anchor instanceof HtmlAnchor) {
+        final HtmlAnchor htmlAnchor = (HtmlAnchor) anchor;
+        htmlAnchor.getHrefAttribute();
+        log.finest("Got href:" + htmlAnchor.getHrefAttribute());
+      }
       tmpUrl = anchor.getAttribute("href");
       if (tmpUrl.contains(".csv")) {
         url = tmpUrl;
@@ -310,41 +318,39 @@ public class BudgetExecutionCrawler {
     // end-user-code
   }
 
-  /** 
-  * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * @return
-  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_atThsGElEeeMhLKRNTgRlA"
-  */
+  /**
+   * <!-- begin-UML-doc --> <!-- end-UML-doc -->
+   *
+   * @return
+   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_atThsGElEeeMhLKRNTgRlA"
+   */
   public List<String> getExecutionFilesList() {
     // begin-user-code
-    // TODO Auto-generated method stub
-    return null;
+    return budgetExecutionFilesList;
     // end-user-code
   }
 
-  /** 
-  * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * @param Stringurl
-  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_OAjiQGElEeeMhLKRNTgRlA"
-  */
-  public void setBudgetExecutionFilesBaseUrl(Object Stringurl) {
+  /**
+   * <!-- begin-UML-doc --> <!-- end-UML-doc -->
+   *
+   * @param url
+   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_OAjiQGElEeeMhLKRNTgRlA"
+   */
+  public void setBudgetExecutionFilesBaseUrl(String url) {
     // begin-user-code
-    // TODO Auto-generated method stub
-
+    budgetExecutionFilesBaseUrl = url;
     // end-user-code
   }
 
-  /** 
-  * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * @param list
-  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_VbBvwGElEeeMhLKRNTgRlA"
-  */
-  public void setExcutionFilesList(List<String> list) {
+  /**
+   * <!-- begin-UML-doc --> <!-- end-UML-doc -->
+   *
+   * @param list
+   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_VbBvwGElEeeMhLKRNTgRlA"
+   */
+  public void setBudgetExecutionFilesList(List<String> list) {
     // begin-user-code
-    // TODO Auto-generated method stub
+    budgetExecutionFilesList = list;
 
     // end-user-code
   }

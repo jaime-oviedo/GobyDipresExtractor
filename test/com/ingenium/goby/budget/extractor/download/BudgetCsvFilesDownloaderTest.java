@@ -5,7 +5,6 @@
 package com.ingenium.goby.budget.extractor.download;
 
 import com.ingenium.commons.util.DownloadException;
-import com.ingenium.goby.budget.extractor.download.BudgetLawCsvFilesDownloader;
 
 import org.junit.Assert;
 import org.junit.Test;
@@ -15,7 +14,7 @@ import org.junit.Test;
  *
  * @author JaimeRodrigo
  */
-public class BudgetLawCsvFilesDownloaderTest {
+public class BudgetCsvFilesDownloaderTest {
 
   /**
    * Test method for
@@ -23,7 +22,7 @@ public class BudgetLawCsvFilesDownloaderTest {
    */
   @Test
   public final void testExtract() {
-    final BudgetLawCsvFilesDownloader bfe = new BudgetLawCsvFilesDownloader();
+    final BudgetCsvFilesDownloader bfe = new BudgetCsvFilesDownloader();
     try {
       bfe.download();
     } catch (final DownloadException e) {

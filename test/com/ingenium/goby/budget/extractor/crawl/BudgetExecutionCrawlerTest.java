@@ -7,13 +7,13 @@ package com.ingenium.goby.budget.extractor.crawl;
 import com.gargoylesoftware.htmlunit.FailingHttpStatusCodeException;
 import com.gargoylesoftware.htmlunit.WebClient;
 import com.gargoylesoftware.htmlunit.html.HtmlPage;
+import com.ingenium.goby.budget.extractor.ExecutionPeriod;
 
 import java.io.File;
 import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.nio.file.Paths;
-import java.util.Calendar;
 import java.util.List;
 import java.util.logging.ConsoleHandler;
 import java.util.logging.Handler;
@@ -36,7 +36,7 @@ public class BudgetExecutionCrawlerTest {
   }
 
   // @Test
-  public final void testExtractExecutionCsvilesUrls() {
+  public final void testExtractExecutionCsvFilesUrls() {
     final String s = File.separator;
     final String source = new StringBuffer("test").append(s).append("com")
         .append(s).append("ingenium").append(s).append("goby").append(s)
@@ -63,7 +63,7 @@ public class BudgetExecutionCrawlerTest {
     final BudgetExecutionCrawler crawler = new BudgetExecutionCrawler();
 
     final List<String> executionFiles = crawler.extractExecutionCsvFilesUrls(
-        programLevelBudgetExecutionYearPage, Calendar.APRIL);
+        programLevelBudgetExecutionYearPage, ExecutionPeriod.APRIL);
     for (final String fileName : executionFiles) {
       System.out.println(fileName);
     }
@@ -76,13 +76,13 @@ public class BudgetExecutionCrawlerTest {
    * {@link com.ingenium.goby.budget.extractor.crawl.BudgetExecutionCrawler#findExecutionFIles()}.
    */
   @Test
-  public final void testFindExecutionFIles() {
+  public final void testFindExecutionFiles() {
     final BudgetExecutionCrawler crawler = new BudgetExecutionCrawler();
     final Handler finestHandler = new ConsoleHandler();
     finestHandler.setLevel(Level.FINEST);
     BudgetExecutionCrawler.log.addHandler(finestHandler);
     final List<String> executionFiles = crawler.findExecutionFiles(2017,
-        Calendar.APRIL);
+        ExecutionPeriod.APRIL);
     for (final String fileName : executionFiles) {
       System.out.println(fileName);
     }

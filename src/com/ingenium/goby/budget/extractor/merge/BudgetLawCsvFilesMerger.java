@@ -2,7 +2,7 @@
  *
  */
 
-package com.ingenium.goby.budget.extractor.extraction.merge;
+package com.ingenium.goby.budget.extractor.merge;
 
 import com.ingenium.commons.util.DownloadException;
 import com.ingenium.goby.budget.extractor.elements.BudgetElementType;
@@ -45,9 +45,10 @@ public class BudgetLawCsvFilesMerger {
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
   * @throws DownloadException
+  * @throws DownloadException
   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_BRcu4EyLEeekuqvl4T6tsg"
   */
-  public void merge() throws DownloadException {
+  public void merge() throws DownloadException, DownloadException {
     // begin-user-code
 
     // end-user-code

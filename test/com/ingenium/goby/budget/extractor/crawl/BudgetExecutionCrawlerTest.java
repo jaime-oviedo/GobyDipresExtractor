@@ -2,7 +2,7 @@
  * Copyright (c) 2017 Ingenium Software Ltda.
  */
 
-package com.ingenium.goby.budget.extractor.extraction.crawl;
+package com.ingenium.goby.budget.extractor.crawl;
 
 import com.gargoylesoftware.htmlunit.FailingHttpStatusCodeException;
 import com.gargoylesoftware.htmlunit.WebClient;
@@ -35,32 +35,19 @@ public class BudgetExecutionCrawlerTest {
         ClassLoader.getSystemResource("logging.properties").getPath());
   }
 
-  /**
-   * Test method for
-   * {@link com.ingenium.goby.budget.extractor.extraction.crawl.BudgetExecutionCrawler#findExecutionFIles()}.
-   */
   // @Test
-  public final void testFindExecutionFIles() {
-    BudgetExecutionCrawler crawler = new BudgetExecutionCrawler();
-    Handler finestHandler = new ConsoleHandler();
-    finestHandler.setLevel(Level.FINEST);
-    BudgetExecutionCrawler.log.addHandler(finestHandler);
-    crawler.findExecutionFiles(2017, Calendar.FEBRUARY);
-    Assert.fail("Not yet implemented"); // TODO
-  }
-
-  @Test
   public final void testExtractExecutionCsvilesUrls() {
-    String s = File.separator;
-    String source = new StringBuffer("test").append(s).append("com").append(s)
-        .append("ingenium").append(s).append("goby").append(s).append("budget")
-        .append(s).append("extractor").append(s).append("fixture").append(s)
+    final String s = File.separator;
+    final String source = new StringBuffer("test").append(s).append("com")
+        .append(s).append("ingenium").append(s).append("goby").append(s)
+        .append("budget").append(s).append("extractor").append(s)
+        .append("fixture").append(s)
         .append("Informe Ejecución Programa - W3 DIPRES Documentación.html")
         .toString();
     URL url = null;
     try {
       url = Paths.get(source).toUri().toURL();
-    } catch (MalformedURLException e1) {
+    } catch (final MalformedURLException e1) {
       Assert.fail("Can't create test URL");
       e1.printStackTrace();
     }
@@ -73,14 +60,33 @@ public class BudgetExecutionCrawlerTest {
       e.printStackTrace();
     }
 
-    BudgetExecutionCrawler crawler = new BudgetExecutionCrawler();
-    List<String> executionFiles = crawler.extractExecutionCsvFilesUrls(
-        programLevelBudgetExecutionYearPage, Calendar.FEBRUARY);
-    for (String fileName : executionFiles) {
+    final BudgetExecutionCrawler crawler = new BudgetExecutionCrawler();
+
+    final List<String> executionFiles = crawler.extractExecutionCsvFilesUrls(
+        programLevelBudgetExecutionYearPage, Calendar.APRIL);
+    for (final String fileName : executionFiles) {
       System.out.println(fileName);
     }
     Assert.assertTrue(true);
     webClient.close();
+  }
+
+  /**
+   * Test method for
+   * {@link com.ingenium.goby.budget.extractor.crawl.BudgetExecutionCrawler#findExecutionFIles()}.
+   */
+  @Test
+  public final void testFindExecutionFIles() {
+    final BudgetExecutionCrawler crawler = new BudgetExecutionCrawler();
+    final Handler finestHandler = new ConsoleHandler();
+    finestHandler.setLevel(Level.FINEST);
+    BudgetExecutionCrawler.log.addHandler(finestHandler);
+    final List<String> executionFiles = crawler.findExecutionFiles(2017,
+        Calendar.APRIL);
+    for (final String fileName : executionFiles) {
+      System.out.println(fileName);
+    }
+    Assert.assertTrue(true);
   }
 
 }

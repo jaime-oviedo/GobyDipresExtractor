@@ -2,7 +2,7 @@
  *
  */
 
-package com.ingenium.goby.budget.extractor.extraction.download;
+package com.ingenium.goby.budget.extractor.download;
 
 import com.ingenium.commons.util.AbstractDownloader;
 import com.ingenium.commons.util.DownloadException;
@@ -39,12 +39,13 @@ public class BudgetLawWebPageDownloader extends AbstractDownloader {
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
   * @throws DownloadException
+  * @throws DownloadException
   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_UbN10EquEeeJsdrfgQXeQw"
   */
   @Override
-  public void download() throws DownloadException {
+  public void download() throws DownloadException, DownloadException {
     // begin-user-code
-    FormattedWebPageDownloader downloader = new FormattedWebPageDownloader(
+    final FormattedWebPageDownloader downloader = new FormattedWebPageDownloader(
         getSource(), getDestination());
     downloader.download();
 

@@ -2,7 +2,7 @@
  *
  */
 
-package com.ingenium.goby.budget.extractor.extraction.download;
+package com.ingenium.goby.budget.extractor.download;
 
 import com.ingenium.commons.util.AbstractDownloader;
 import com.ingenium.commons.util.DownloadException;
@@ -64,10 +64,11 @@ public class BudgetLawCsvFilesListDownloader extends AbstractDownloader {
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
   * @throws DownloadException
+  * @throws DownloadException
   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_UdMy0EquEeeJsdrfgQXeQw"
   */
   @Override
-  public void download() throws DownloadException {
+  public void download() throws DownloadException, DownloadException {
     // begin-user-code
     final File input = new File(getSource());
     PrintWriter outputStream = null;
@@ -77,8 +78,8 @@ public class BudgetLawCsvFilesListDownloader extends AbstractDownloader {
           new BufferedWriter(new FileWriter(getDestination())));
       doc = Jsoup.parse(input, "UTF-8");
       final Elements links = doc.select("a[href$=csv]");
-      for (Element link : links) {
-        String fileName = new StringBuffer(link.attr("href"))
+      for (final Element link : links) {
+        final String fileName = new StringBuffer(link.attr("href"))
             .append(System.lineSeparator()).toString();
         budgetFileList.add(fileName);
         outputStream.write(fileName);
@@ -100,9 +101,11 @@ public class BudgetLawCsvFilesListDownloader extends AbstractDownloader {
   * <!-- end-UML-doc -->
   * @return
   * @throws DownloadException
+  * @throws DownloadException
   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_UdQdMEquEeeJsdrfgQXeQw"
   */
-  public Collection<String> getBudgetFileList() throws DownloadException {
+  public Collection<String> getBudgetFileList()
+      throws DownloadException, DownloadException {
     // begin-user-code
     download();
     return budgetFileList;

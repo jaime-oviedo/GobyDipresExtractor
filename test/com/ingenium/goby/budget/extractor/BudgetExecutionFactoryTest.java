@@ -4,12 +4,11 @@
 
 package com.ingenium.goby.budget.extractor;
 
-import com.ingenium.goby.budget.extractor.BudgetExecution;
 import com.ingenium.goby.budget.extractor.elements.BudgetElementType;
 import com.ingenium.goby.budget.extractor.elements.BudgetHierarchyLevel;
 import com.ingenium.goby.budget.extractor.elements.CompositeBudgetElement;
-import com.ingenium.goby.budget.extractor.extraction.map.BudgetElementToJsonMapper;
 import com.ingenium.goby.budget.extractor.injection.FileSystemInjector;
+import com.ingenium.goby.budget.extractor.map.BudgetElementToJsonMapper;
 
 import java.io.File;
 
@@ -29,36 +28,38 @@ public class BudgetExecutionFactoryTest {
    */
   @Test
   public final void testExtractBudgetExecution() {
-    String s = File.separator;
-    String source = new StringBuffer("test").append(s).append("com").append(s)
-        .append("ingenium").append(s).append("goby").append(s)
+    final String s = File.separator;
+    final String source = new StringBuffer("test").append(s).append("com")
+        .append(s).append("ingenium").append(s).append("goby").append(s)
         .append("extractors").append(s).append("budget").append(s)
         .append("fixture").append(s).append("budgetExecution.csv").toString();
 
-    BudgetExecutionFactory factory = BudgetExecutionFactory.getInstance();
+    final BudgetExecutionFactory factory = BudgetExecutionFactory.getInstance();
     factory.setSource(source);
-    BudgetExecution execution = factory.getBudgetExecution(true);
+    final BudgetExecution execution = factory.getBudgetExecution(true);
 
-    CompositeBudgetElement executionElement = new CompositeBudgetElement(0,
-        "Ejecución Presupuestaria", "", BudgetElementType.EXECUTION,
+    final CompositeBudgetElement executionElement = new CompositeBudgetElement(
+        0, "Ejecución Presupuestaria", "", BudgetElementType.EXECUTION,
         BudgetHierarchyLevel.ROOT);
     executionElement.setSubelements(execution.getBatches());
 
-    String jsonCatalog = BudgetElementToJsonMapper.map(executionElement, 0);
-    String destination = new StringBuffer("tmp").append(s)
+    final String jsonCatalog = BudgetElementToJsonMapper.map(executionElement,
+        0);
+    final String destination = new StringBuffer("tmp").append(s)
         .append("budgetExecution.json").toString();
-    FileSystemInjector fsi = new FileSystemInjector(destination, jsonCatalog);
+    final FileSystemInjector fsi = new FileSystemInjector(destination,
+        jsonCatalog);
     try {
       fsi.inject();
-      File file1 = new File(destination);
-      String objective = new StringBuffer("test").append(s).append("com")
+      final File file1 = new File(destination);
+      final String objective = new StringBuffer("test").append(s).append("com")
           .append(s).append("ingenium").append(s).append("goby").append(s)
           .append("extractors").append(s).append("budget").append(s)
           .append("fixture").append(s).append("budgetExecution.json")
           .toString();
-      File file2 = new File(objective);
+      final File file2 = new File(objective);
       Assert.assertTrue(FileUtils.contentEquals(file1, file2));
-    } catch (Exception e) {
+    } catch (final Exception e) {
       Assert.fail("Injection failed or unexpected extracted file contents.");
       e.printStackTrace();
     }

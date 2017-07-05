@@ -7,8 +7,8 @@ package com.ingenium.goby.budget.extractor;
 import com.ingenium.goby.budget.extractor.elements.BudgetElementType;
 import com.ingenium.goby.budget.extractor.elements.BudgetHierarchyLevel;
 import com.ingenium.goby.budget.extractor.elements.CompositeBudgetElement;
-import com.ingenium.goby.budget.extractor.extraction.map.BudgetElementToJsonMapper;
 import com.ingenium.goby.budget.extractor.injection.FileSystemInjector;
+import com.ingenium.goby.budget.extractor.map.BudgetElementToJsonMapper;
 
 import java.io.File;
 
@@ -28,35 +28,36 @@ public class BudgetLawFactoryTest {
    */
   @Test
   public final void testExtractBudgetLaw() {
-    String s = File.separator;
-    String source = new StringBuffer("test").append(s).append("com").append(s)
-        .append("ingenium").append(s).append("goby").append(s).append("budget")
-        .append(s).append("extractor").append(s).append("fixture").append(s)
-        .append("budgetLaw.csv").toString();
+    final String s = File.separator;
+    final String source = new StringBuffer("test").append(s).append("com")
+        .append(s).append("ingenium").append(s).append("goby").append(s)
+        .append("budget").append(s).append("extractor").append(s)
+        .append("fixture").append(s).append("budgetLaw.csv").toString();
 
-    BudgetLawFactory factory = BudgetLawFactory.getInstance();
+    final BudgetLawFactory factory = BudgetLawFactory.getInstance();
     factory.setSource(source);
-    BudgetLaw catalog = factory.getBudgetLaw(true);
+    final BudgetLaw catalog = factory.getBudgetLaw(true);
 
-    CompositeBudgetElement law = new CompositeBudgetElement(0,
+    final CompositeBudgetElement law = new CompositeBudgetElement(0,
         "Ley de Presupuestos", "", BudgetElementType.BUDGET,
         BudgetHierarchyLevel.ROOT);
     law.setSubelements(catalog.getBatches());
 
-    String jsonCatalog = BudgetElementToJsonMapper.map(law, 0);
-    String destination = new StringBuffer("tmp").append(s)
+    final String jsonCatalog = BudgetElementToJsonMapper.map(law, 0);
+    final String destination = new StringBuffer("tmp").append(s)
         .append("budgetLaw.json").toString();
-    FileSystemInjector fsi = new FileSystemInjector(destination, jsonCatalog);
+    final FileSystemInjector fsi = new FileSystemInjector(destination,
+        jsonCatalog);
     try {
       fsi.inject();
-      File file1 = new File(destination);
-      String objective = new StringBuffer("test").append(s).append("com")
+      final File file1 = new File(destination);
+      final String objective = new StringBuffer("test").append(s).append("com")
           .append(s).append("ingenium").append(s).append("goby").append(s)
           .append("budget").append(s).append("extractor").append(s)
           .append("fixture").append(s).append("budgetLaw.json").toString();
-      File file2 = new File(objective);
+      final File file2 = new File(objective);
       Assert.assertTrue(FileUtils.contentEquals(file1, file2));
-    } catch (Exception e) {
+    } catch (final Exception e) {
       Assert.fail("Injection failed or unexpected extracted file contents.");
       e.printStackTrace();
     }

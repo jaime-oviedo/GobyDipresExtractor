@@ -4,7 +4,7 @@
 
 package com.ingenium.goby.budget.extractor.extraction;
 
-import com.ingenium.goby.budget.extractor.extraction.download.BudgetLawCsvFilesListDownloader;
+import com.ingenium.goby.budget.extractor.download.BudgetLawCsvFilesListDownloader;
 
 import java.io.File;
 

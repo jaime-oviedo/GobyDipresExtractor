@@ -2,7 +2,7 @@
  * Copyright (c) 2017 Ingenium Software Ltda.
  */
 
-package com.ingenium.goby.budget.extractor.extraction.merge;
+package com.ingenium.goby.budget.extractor.merge;
 
 /** 
  * <!-- begin-UML-doc -->

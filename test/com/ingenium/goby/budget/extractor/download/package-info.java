@@ -6,4 +6,4 @@
  * @author JaimeRodrigo
  *
  */
-package com.ingenium.goby.budget.extractor.extraction.download;
+package com.ingenium.goby.budget.extractor.download;

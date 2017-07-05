@@ -1,5 +1,5 @@
 
-package com.ingenium.goby.budget.extractor.extraction.map;
+package com.ingenium.goby.budget.extractor.map;
 
 import com.ingenium.goby.budget.extractor.elements.BudgetElement;
 import com.ingenium.goby.budget.extractor.elements.BudgetElementType;
@@ -89,7 +89,7 @@ public class BudgetElementToJsonMapper {
           label = "chapters";
           break;
         case ROOT:
-          switch (element.getType()) {
+          switch (type) {
           case BUDGETARY_CLASSIFICATION:
             label = "subtitles";
             break;

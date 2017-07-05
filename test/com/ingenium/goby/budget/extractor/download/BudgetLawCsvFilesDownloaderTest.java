@@ -2,10 +2,10 @@
  *
  */
 
-package com.ingenium.goby.budget.extractor.extraction.download;
+package com.ingenium.goby.budget.extractor.download;
 
 import com.ingenium.commons.util.DownloadException;
-import com.ingenium.goby.budget.extractor.extraction.download.BudgetLawCsvFilesDownloader;
+import com.ingenium.goby.budget.extractor.download.BudgetLawCsvFilesDownloader;
 
 import org.junit.Assert;
 import org.junit.Test;
@@ -18,14 +18,15 @@ import org.junit.Test;
 public class BudgetLawCsvFilesDownloaderTest {
 
   /**
-   * Test method for {@link com.ingenium.goby.budget.extractor.extraction.BudgetFileExtractor#extract()}.
+   * Test method for
+   * {@link com.ingenium.goby.budget.extractor.extraction.BudgetFileExtractor#extract()}.
    */
   @Test
   public final void testExtract() {
-    BudgetLawCsvFilesDownloader bfe = new BudgetLawCsvFilesDownloader();
+    final BudgetLawCsvFilesDownloader bfe = new BudgetLawCsvFilesDownloader();
     try {
       bfe.download();
-    } catch (DownloadException e) {
+    } catch (final DownloadException e) {
       Assert.fail();
       e.printStackTrace();
     }

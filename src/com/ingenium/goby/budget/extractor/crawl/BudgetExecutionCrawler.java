@@ -18,6 +18,8 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.logging.Logger;
 
+import org.apache.commons.io.FilenameUtils;
+
 /**
  * <!-- begin-UML-doc --> <!-- end-UML-doc -->
  *
@@ -308,11 +310,14 @@ public class BudgetExecutionCrawler {
         final HtmlAnchor htmlAnchor = (HtmlAnchor) anchor;
         htmlAnchor.getHrefAttribute();
         log.finest("Got href:" + htmlAnchor.getHrefAttribute());
+        tmpUrl = new StringBuffer(
+            FilenameUtils.getPath(htmlAnchor.getBaseURI()))
+                .append(htmlAnchor.getHrefAttribute()).toString();
+        if (tmpUrl.contains(".csv")) {
+          url = tmpUrl;
+        }
       }
-      tmpUrl = anchor.getAttribute("href");
-      if (tmpUrl.contains(".csv")) {
-        url = tmpUrl;
-      }
+
     }
     return url;
     // end-user-code

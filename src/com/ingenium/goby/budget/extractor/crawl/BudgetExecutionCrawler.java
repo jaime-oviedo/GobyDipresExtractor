@@ -19,6 +19,7 @@ import java.util.List;
 import java.util.logging.Logger;
 
 import org.apache.commons.io.FilenameUtils;
+import org.apache.commons.lang3.StringUtils;
 
 /**
  * <!-- begin-UML-doc --> <!-- end-UML-doc -->
@@ -181,11 +182,16 @@ public class BudgetExecutionCrawler {
     }
 
     final List<String> executionFiles = new ArrayList<>(300);
+    int count = 0;
     for (final DomElement matchingDiv : matchingDivs) {
+      if (count > matchingDivs.size() - 3) {
+        System.out.println("Delete me");
+      }
       final String csvFileUrl = getCsvFileUrl(matchingDiv);
       if (csvFileUrl != null) {
         executionFiles.add(csvFileUrl);
       }
+      count++;
     }
 
     return executionFiles;
@@ -260,8 +266,10 @@ public class BudgetExecutionCrawler {
       programLevelBudgetExecutionYearPage = anchor.click();
 
       if (programLevelBudgetExecutionYearPage != null) {
-        budgetExecutionFilesBaseUrl = programLevelBudgetExecutionPage.getUrl()
-            .toExternalForm();
+        String baseUri = programLevelBudgetExecutionYearPage.getBaseURI();
+        String fileName = FilenameUtils.getName(baseUri);
+        budgetExecutionFilesBaseUrl = StringUtils
+            .chop(baseUri.replace(fileName, ""));
         executionFiles = extractExecutionCsvFilesUrls(
             programLevelBudgetExecutionYearPage, executionPeriod);
       }
@@ -310,9 +318,7 @@ public class BudgetExecutionCrawler {
         final HtmlAnchor htmlAnchor = (HtmlAnchor) anchor;
         htmlAnchor.getHrefAttribute();
         log.finest("Got href:" + htmlAnchor.getHrefAttribute());
-        tmpUrl = new StringBuffer(
-            FilenameUtils.getPath(htmlAnchor.getBaseURI()))
-                .append(htmlAnchor.getHrefAttribute()).toString();
+        tmpUrl = htmlAnchor.getHrefAttribute().toString();
         if (tmpUrl.contains(".csv")) {
           url = tmpUrl;
         }

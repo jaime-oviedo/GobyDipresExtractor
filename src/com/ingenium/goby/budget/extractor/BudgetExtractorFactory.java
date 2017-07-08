@@ -129,6 +129,7 @@ public class BudgetExtractorFactory {
       filesDownloader.setDestination(csvFilesDir);
       filesDownloader
           .setDocumentsSource(crawler.getBudgetExecutionFilesBaseUrl());
+      filesDownloader.setUseTimestamp(true);
       try {
         filesDownloader.download(executionFilesList);
       } catch (final DownloadException e) {
@@ -137,11 +138,12 @@ public class BudgetExtractorFactory {
       }
 
       // Merge the files into one
-      final String mergeDestinationDir = csvFilesDir + File.separator + "out";
+      final String mergeDestinationDir = filesDownloader
+          .getTimestampedDestination() + File.separator + "out";
       final String mergeDestinationFile = "budget-execution" + period + year
           + ".csv";
-      BulkCsvFilesMerger.merge(csvFilesDir, mergeDestinationDir,
-          mergeDestinationFile, 1);
+      BulkCsvFilesMerger.merge(filesDownloader.getTimestampedDestination(),
+          mergeDestinationDir, mergeDestinationFile, 1);
 
       // Extract the budget from the merged file
       final BudgetExecutionFactory executionFactory = BudgetExecutionFactory

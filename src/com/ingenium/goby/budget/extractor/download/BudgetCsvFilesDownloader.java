@@ -6,11 +6,9 @@ package com.ingenium.goby.budget.extractor.download;
 
 import com.ingenium.commons.util.AbstractDownloader;
 import com.ingenium.commons.util.DownloadException;
-import com.ingenium.commons.util.SimpleFileDownloader;
 import com.ingenium.goby.budget.extractor.Messages;
 
 import java.io.BufferedReader;
-import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
@@ -18,7 +16,6 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Date;
-import java.util.Iterator;
 import java.util.List;
 import java.util.logging.Logger;
 
@@ -124,6 +121,7 @@ public class BudgetCsvFilesDownloader extends AbstractDownloader {
     budgetFileList = new ArrayList<>(400);
     downloadedFiles = new ArrayList<>(400);
     failedFiles = new ArrayList<>(10);
+    tstamp = new SimpleDateFormat("yyyy-MM-dd").format(new Date());
     // end-user-code
   }
 
@@ -162,43 +160,50 @@ public class BudgetCsvFilesDownloader extends AbstractDownloader {
   */
   public void download(List<String> budgetFileList) throws DownloadException {
     // begin-user-code
+    String extractionDestination = null;
     if (useTimestamp) {
-      final String baseDestination = getDestination();
-      tstamp = new SimpleDateFormat("yyyy-MM-dd_HH-mm").format(new Date());
-      setDestination(baseDestination + '-' + tstamp);
+      extractionDestination = new StringBuffer(getDestination()).append("-")
+          .append(tstamp).toString();
+    } else {
+      extractionDestination = getDestination();
     }
-    final String extractionDestination = getDestination();
-    final File destinationDirectory = new File(extractionDestination);
-    BudgetCsvFilesDownloader.log
-        .finest("Generando directorio:" + extractionDestination);
-    destinationDirectory.mkdirs();
-
-    // Ahora se descargan los documentos uno a uno
-    final SimpleFileDownloader downloader = new SimpleFileDownloader();
-    final Iterator<String> i = budgetFileList.iterator();
-
-    downloadedFiles = new ArrayList<>(400);
-    failedFiles = new ArrayList<>(10);
-    while (i.hasNext()) {
-      final String fileName = i.next();
-      final String sourceFile = documentsSource + '/' + fileName;
-      BudgetCsvFilesDownloader.log
-          .finest("Se descargará el siguiente archivo:" + sourceFile);
-      try {
-        downloader.download(sourceFile, extractionDestination);
-        downloadedFiles.add(fileName);
-      } catch (final IOException e) {
-        failedFiles.add(fileName);
-      }
-      if (failedFiles.size() > 0) {
-        final StringBuffer msg = new StringBuffer(
-            "Fallo la descarga de los siguientes archivos:\n");
-        for (final String string : failedFiles) {
-          msg.append(string + "\n");
-        }
-        throw new DownloadException(msg.toString());
-      }
-    }
+    // final File destinationDirectory = new File(extractionDestination);
+    // BudgetCsvFilesDownloader.log
+    // .finest("Generando directorio:" + extractionDestination);
+    // try {
+    // FileUtils.deleteDirectory(destinationDirectory);
+    // } catch (IOException e1) {
+    // BudgetCsvFilesDownloader.log.finest(
+    // "Unable to delete directory:" + destinationDirectory.toString());
+    // }
+    // destinationDirectory.mkdirs();
+    //
+    // // Ahora se descargan los documentos uno a uno
+    // final SimpleFileDownloader downloader = new SimpleFileDownloader();
+    // final Iterator<String> i = budgetFileList.iterator();
+    //
+    // downloadedFiles = new ArrayList<>(400);
+    // failedFiles = new ArrayList<>(10);
+    // while (i.hasNext()) {
+    // final String fileName = i.next();
+    // final String sourceFile = documentsSource + '/' + fileName;
+    // BudgetCsvFilesDownloader.log
+    // .finest("Se descargará el siguiente archivo:" + sourceFile);
+    // try {
+    // downloader.download(sourceFile, extractionDestination);
+    // downloadedFiles.add(fileName);
+    // } catch (final IOException e) {
+    // failedFiles.add(fileName);
+    // }
+    // if (failedFiles.size() > 0) {
+    // final StringBuffer msg = new StringBuffer(
+    // "Fallo la descarga de los siguientes archivos:\n");
+    // for (final String string : failedFiles) {
+    // msg.append(string + "\n");
+    // }
+    // throw new DownloadException(msg.toString());
+    // }
+    // }
     // end-user-code
   }
 
@@ -253,6 +258,19 @@ public class BudgetCsvFilesDownloader extends AbstractDownloader {
     // begin-user-code
     return tstamp;
 
+    // end-user-code
+  }
+
+  /** 
+  * <!-- begin-UML-doc -->
+  * <!-- end-UML-doc -->
+  * @return
+  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_t7jPIGNdEeebmPnwD8r8OA"
+  */
+  public String getTimestampedDestination() {
+    // begin-user-code
+    return new StringBuffer(getDestination()).append("-").append(tstamp)
+        .toString();
     // end-user-code
   }
 

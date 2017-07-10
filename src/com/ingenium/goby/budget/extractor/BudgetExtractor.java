@@ -1,12 +1,13 @@
 /**
  * 
  */
+
 package com.ingenium.goby.budget.extractor;
 
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
- * @author joviedo
+ * @author JaimeRodrigo
  * @uml.annotations
  *     derived_abstraction="platform:/resource/goby-design/budget-extractor.emx#_bCSCEGD3EeemUqxRur9fjQ"
  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_bCSCEGD3EeemUqxRur9fjQ"
@@ -19,7 +20,7 @@ public interface BudgetExtractor {
   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_3_0vcGD3EeemUqxRur9fjQ"
   */
   public BudgetLaw extractBudgetLaw();
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -28,7 +29,7 @@ public interface BudgetExtractor {
   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_zPJZQGD4EeemUqxRur9fjQ"
   */
   public BudgetLaw extractBudgetLaw(boolean force);
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -36,7 +37,7 @@ public interface BudgetExtractor {
   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_BqdBsGD4EeemUqxRur9fjQ"
   */
   public BudgetExecution extractBudgetExecution();
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -45,7 +46,7 @@ public interface BudgetExtractor {
   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_q6TOMGD4EeemUqxRur9fjQ"
   */
   public BudgetExecution extractBudgetExecution(boolean force);
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -54,7 +55,7 @@ public interface BudgetExtractor {
   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_7GZpYGD4EeemUqxRur9fjQ"
   */
   public BudgetExecution extractBudgetExecution(ExecutionPeriod period);
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->

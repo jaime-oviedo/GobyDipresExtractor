@@ -10,7 +10,7 @@ import com.ingenium.goby.budget.extractor.extraction.ExtractionException;
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
- * @author joviedo
+ * @author JaimeRodrigo
  * @uml.annotations
  *     derived_abstraction="platform:/resource/goby-design/budget-extractor.emx#_asLE8F0iEeez8bHvvwz5bA"
  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_asLE8F0iEeez8bHvvwz5bA"
@@ -40,10 +40,11 @@ public class BudgetExecutionFactory {
   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_asLE9V0iEeez8bHvvwz5bA"
   */
   private String source;
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
+  * Crea una nueva instancia de la clase BudgetExecutionFactory.
   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_asLE9l0iEeez8bHvvwz5bA"
   */
   private BudgetExecutionFactory() {
@@ -54,7 +55,7 @@ public class BudgetExecutionFactory {
     extract = true;
     // end-user-code
   }
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -71,7 +72,7 @@ public class BudgetExecutionFactory {
     return BudgetExecutionFactory.instance;
     // end-user-code
   }
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -83,7 +84,7 @@ public class BudgetExecutionFactory {
     return source;
     // end-user-code
   }
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -95,7 +96,7 @@ public class BudgetExecutionFactory {
     source = newSource;
     // end-user-code
   }
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -109,7 +110,7 @@ public class BudgetExecutionFactory {
     return getBudgetExecution();
     // end-user-code
   }
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->

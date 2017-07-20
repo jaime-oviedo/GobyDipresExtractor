@@ -5,9 +5,8 @@ import com.ingenium.goby.budget.extractor.elements.BudgetHierarchyLevel;
 import com.ingenium.goby.budget.extractor.elements.CompositeBudgetElement;
 import com.ingenium.goby.budget.extractor.map.BudgetElementToJsonMapper;
 
+import org.junit.Assert;
 import org.junit.Test;
-
-import junit.framework.Assert;
 
 public class BudgetExtractorFactoryTest {
 

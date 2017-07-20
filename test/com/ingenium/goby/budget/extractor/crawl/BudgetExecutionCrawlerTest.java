@@ -15,9 +15,7 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.nio.file.Paths;
 import java.util.List;
-import java.util.logging.ConsoleHandler;
-import java.util.logging.Handler;
-import java.util.logging.Level;
+import java.util.logging.Logger;
 
 import org.junit.Assert;
 import org.junit.BeforeClass;
@@ -29,14 +27,19 @@ import org.junit.Test;
  */
 public class BudgetExecutionCrawlerTest {
 
+  private static final Logger log = Logger.getLogger(
+      "com.ingenium.goby.budget.extractor.crawl.BudgetExecutionCrawlerTest");
+
   @BeforeClass
   public static void beforeClass() {
     System.setProperty("java.util.logging.config.file",
         ClassLoader.getSystemResource("logging.properties").getPath());
   }
 
-  // @Test
-  public final void testExtractExecutionCsvFilesUrls() {
+  @Test
+  public final void testExtractExecutionFilesList() {
+    BudgetExecutionCrawlerTest.log
+        .info("Testing extractExecutionFilesList method");
     final String s = File.separator;
     final String source = new StringBuffer("test").append(s).append("com")
         .append(s).append("ingenium").append(s).append("goby").append(s)
@@ -51,6 +54,7 @@ public class BudgetExecutionCrawlerTest {
       Assert.fail("Can't create test URL");
       e1.printStackTrace();
     }
+    BudgetExecutionCrawlerTest.log.info("Starting web client");
     final WebClient webClient = new WebClient();
     HtmlPage programLevelBudgetExecutionYearPage = null;
     try {
@@ -62,12 +66,14 @@ public class BudgetExecutionCrawlerTest {
 
     final BudgetExecutionCrawler crawler = new BudgetExecutionCrawler();
 
-    final List<String> executionFiles = crawler.extractExecutionCsvFilesUrls(
+    final List<String> executionFiles = crawler.extractExecutionFilesList(
         programLevelBudgetExecutionYearPage, ExecutionPeriod.APRIL);
     for (final String fileName : executionFiles) {
-      System.out.println(fileName);
+      BudgetExecutionCrawlerTest.log
+          .info(new StringBuffer("Found extractable file:").append(fileName)
+              .toString());
     }
-    Assert.assertTrue(true);
+    Assert.assertTrue(executionFiles.size() > 0);
     webClient.close();
   }
 
@@ -76,15 +82,17 @@ public class BudgetExecutionCrawlerTest {
    * {@link com.ingenium.goby.budget.extractor.crawl.BudgetExecutionCrawler#findExecutionFIles()}.
    */
   @Test
-  public final void testFindExecutionFiles() {
+  public final void testCrawlAndFetchExecutionFilesList() {
+    BudgetExecutionCrawlerTest.log
+        .info("Testing crawlAndFetchExecutionFilesList method");
+
     final BudgetExecutionCrawler crawler = new BudgetExecutionCrawler();
-    final Handler finestHandler = new ConsoleHandler();
-    finestHandler.setLevel(Level.FINEST);
-    BudgetExecutionCrawler.log.addHandler(finestHandler);
-    final List<String> executionFiles = crawler.findExecutionFiles(2017,
-        ExecutionPeriod.APRIL);
+    final List<String> executionFiles = crawler
+        .crawlAndFetchExecutionFilesList(2017, ExecutionPeriod.APRIL);
     for (final String fileName : executionFiles) {
-      System.out.println(fileName);
+      BudgetExecutionCrawlerTest.log
+          .info(new StringBuffer("Found extractable file:").append(fileName)
+              .toString());
     }
     Assert.assertTrue(true);
   }

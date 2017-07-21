@@ -1,0 +1,69 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+15;14;01;04;;;P;IMPOSICIONES PREVISIONALES                                                      ;145982386;145982386;44721764
+15;14;01;04;01;;P;Aportes del Empleador                                                           ;496652;496652;52691
+15;14;01;04;02;;P;Aportes del Trabajador                                                          ;145485734;145485734;44669073
+15;14;01;05;;;P;TRANSFERENCIAS CORRIENTES                                                       ;13982519;13982519;4167782
+15;14;01;05;02;;P;Del Gobierno Central                                                            ;340638;340638;108245
+15;14;01;05;02;004;P;Fondo Único de Prestaciones Familiares y Subsidios de Cesantía                                                                                                                                                                                            ;340638;340638;108245
+15;14;01;05;03;;P;De Otras Entidades Públicas                                                     ;13641881;13641881;4059537
+15;14;01;05;03;001;P;Fondo de Auxilio Social                                                                                                                                                                                                                                   ;13246911;13246911;3993342
+15;14;01;05;03;012;P;Comisión Revalorizadora de Pensiones                                                                                                                                                                                                                      ;394970;394970;66195
+15;14;01;06;;;P;RENTAS DE LA PROPIEDAD                                                          ;443108;443108;199603
+15;14;01;07;;;P;INGRESOS DE OPERACIÓN                                                           ;218071;218071;45235
+15;14;01;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;3624445;3624445;466335
+15;14;01;08;02;;P;Multas y Sanciones Pecuniarias                                                  ;2907;2907;1544
+15;14;01;08;99;;P;Otros                                                                           ;3621538;3621538;464791
+15;14;01;09;;;P;APORTE FISCAL                                                                   ;580364534;577996534;203100237
+15;14;01;09;01;;P;Libre                                                                           ;580364534;577996534;203100237
+15;14;01;10;;;P;VENTA DE ACTIVOS NO FINANCIEROS                                                 ;16;16;0
+15;14;01;10;04;;P;Mobiliario y Otros                                                              ;16;16;0
+15;14;01;11;;;P;VENTA DE ACTIVOS FINANCIEROS                                                    ;2524373;2524373;2524373
+15;14;01;11;01;;P;Venta o Rescate de Títulos y Valores                                            ;2524373;2524373;2524373
+15;14;01;12;;;P;RECUPERACIÓN DE PRÉSTAMOS                                                       ;24095645;24095645;17082865
+15;14;01;12;01;;P;De Asistencia Social                                                            ;6310;6310;0
+15;14;01;12;05;;P;Médicos                                                                         ;24089335;24089335;17082865
+15;14;01;15;;;P;SALDO INICIAL DE CAJA                                                           ;100840;237704;0
+15;14;01;21;;;P;GASTOS EN PERSONAL                                                              ;4405599;4405599;1392036
+15;14;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;3373425;3352425;540925
+15;14;01;23;;;P;PRESTACIONES DE SEGURIDAD SOCIAL                                                ;669777589;667474679;218661998
+15;14;01;23;01;;P;Prestaciones Previsionales                                                      ;629111628;626743628;207583400
+15;14;01;23;01;001;P;Jubilaciones, Pensiones y Montepíos                                                                                                                                                                                                                       ;621339422;618971422;205133853
+15;14;01;23;01;002;P;Bonificaciones                                                                                                                                                                                                                                            ;279467;279467;279468
+15;14;01;23;01;003;P;Bono de Reconocimiento                                                                                                                                                                                                                                    ;5459462;5459462;1755402
+15;14;01;23;01;004;P;Desahucios e Indemnizaciones                                                                                                                                                                                                                              ;477623;477623;51054
+15;14;01;23;01;006;P;Asignación por Muerte                                                                                                                                                                                                                                     ;1390349;1390349;308349
+15;14;01;23;01;008;P;Devolución de Imposiciones                                                                                                                                                                                                                                ;165305;165305;55274
+15;14;01;23;02;;P;Prestaciones de Asistencia Social                                               ;340638;340638;110386
+15;14;01;23;02;001;P;Asignación Familiar                                                                                                                                                                                                                                       ;340638;340638;110386
+15;14;01;23;03;;P;Prestaciones Sociales del Empleador                                             ;40325323;40390413;10968212
+15;14;01;23;03;001;P;Indemnización de Cargo Fiscal                                                                                                                                                                                                                             ;0;65090;64955
+15;14;01;23;03;002;P;Beneficios Médicos                                                                                                                                                                                                                                        ;40325323;40325323;10903257
+15;14;01;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;66130045;66009833;19785546
+15;14;01;24;03;;P;A Otras Entidades Públicas                                                      ;66130045;66009833;19785546
+15;14;01;24;03;281;P;Fondo de Auxilio Social                                                                                                                                                                                                                                   ;13246911;13246911;3976502
+15;14;01;24;03;282;P;Fondo Desahucio Mutualidad de Carabineros                                                                                                                                                                                                                 ;300;300;0
+15;14;01;24;03;283;P;Aporte Medicina Preventiva                                                                                                                                                                                                                                ;5977997;5977997;1682788
+15;14;01;24;03;284;P;Aporte Fondo de Desahucio Carabineros                                                                                                                                                                                                                     ;390808;390808;192896
+15;14;01;24;03;285;P;Aporte Hospital Dirección de Previsión de Carabineros                                                                                                                                                                                                     ;441746;441746;0
+15;14;01;24;03;286;P;Fondo Medicina Preventiva                                                                                                                                                                                                                                 ;8050619;7930407;438913
+15;14;01;24;03;287;P;Hospital de Carabineros                                                                                                                                                                                                                                   ;6487336;6487336;3341412
+15;14;01;24;03;288;P;Fondo Hospital Dirección de Previsión de Carabineros                                                                                                                                                                                                      ;19576576;19576576;5432969
+15;14;01;24;03;289;P;Comisión Revalorizadora de Pensiones                                                                                                                                                                                                                      ;10404369;10404369;4349867
+15;14;01;24;03;290;P;Aporte Fondo Desahucio Policía de Investigaciones                                                                                                                                                                                                         ;367821;367821;131445
+15;14;01;24;03;291;P;Fondos Servicio Odontológico                                                                                                                                                                                                                              ;1185562;1185562;238754
+15;14;01;26;;;P;OTROS GASTOS CORRIENTES                                                         ;0;191986;191951
+15;14;01;26;02;;P;Compensaciones por Daños a Terceros y/o a la Propiedad                          ;0;191986;191951
+15;14;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;522253;543253;102899
+15;14;01;29;04;;P;Mobiliario y Otros                                                              ;0;15000;0
+15;14;01;29;05;;P;Máquinas y Equipos                                                              ;88690;94690;39504
+15;14;01;29;06;;P;Equipos Informáticos                                                            ;99529;99529;20498
+15;14;01;29;07;;P;Programas Informáticos                                                          ;334034;334034;42897
+15;14;01;30;;;P;ADQUISICIÓN DE ACTIVOS FINANCIEROS                                              ;2891381;2891381;0
+15;14;01;30;01;;P;Compra de Títulos y Valores                                                     ;2891381;2891381;0
+15;14;01;32;;;P;PRÉSTAMOS                                                                       ;24095645;24095645;14151558
+15;14;01;32;01;;P;De Asistencia Social                                                            ;6310;6310;0
+15;14;01;32;05;;P;Médicos                                                                         ;24089335;24089335;14151558
+15;14;01;34;;;P;SERVICIO DE LA DEUDA                                                            ;90000;90000;0
+15;14;01;34;07;;P;Deuda Flotante                                                                  ;90000;90000;0
+15;14;01;35;;;P;SALDO FINAL DE CAJA                                                             ;50000;50000;0
+;;;;;;;RESULTADO;;;17481281

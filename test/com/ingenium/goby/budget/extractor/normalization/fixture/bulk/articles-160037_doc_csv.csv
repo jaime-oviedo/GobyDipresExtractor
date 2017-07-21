@@ -1,0 +1,36 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+06;02;01;05;;;P;TRANSFERENCIAS CORRIENTES                                                       ;103000;117178;0
+06;02;01;05;01;;P;Del Sector Privado                                                              ;0;14178;0
+06;02;01;05;01;003;P;Administración del Fondo para Bonificación por Retiro                                                                                                                                                                                                     ;0;14178;0
+06;02;01;05;02;;P;Del Gobierno Central                                                            ;103000;103000;0
+06;02;01;05;02;006;P;CORFO                                                                                                                                                                                                                                                     ;103000;103000;0
+06;02;01;07;;;P;INGRESOS DE OPERACIÓN                                                           ;910458;910458;323706
+06;02;01;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;123983;123983;270083
+06;02;01;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;123983;123983;266089
+06;02;01;08;02;;P;Multas y Sanciones Pecuniarias                                                  ;0;0;1398
+06;02;01;08;99;;P;Otros                                                                           ;0;0;2596
+06;02;01;09;;;P;APORTE FISCAL                                                                   ;13466888;13495614;4419180
+06;02;01;09;01;;P;Libre                                                                           ;13225795;13254521;4305100
+06;02;01;09;03;;P;Servicio de la Deuda Externa                                                    ;241093;241093;114080
+06;02;01;11;;;P;VENTA DE ACTIVOS FINANCIEROS                                                    ;-291900;-310900;-96026
+06;02;01;11;03;;P;Operaciones de Cambio                                                           ;-291900;-310900;-96026
+06;02;01;21;;;P;GASTOS EN PERSONAL                                                              ;10059092;10047276;3360761
+06;02;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;1521135;1502135;271135
+06;02;01;23;;;P;PRESTACIONES DE SEGURIDAD SOCIAL                                                ;0;54720;0
+06;02;01;23;03;;P;Prestaciones Sociales del Empleador                                             ;0;54720;0
+06;02;01;23;03;003;P;Fondo Retiro Funcionarios Públicos  Ley N° 19.882                                                                                                                                                                                                         ;0;54720;0
+06;02;01;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;2533879;2533879;572832
+06;02;01;24;03;;P;A Otras Entidades Públicas                                                      ;2533879;2533879;572832
+06;02;01;24;03;552;P;Certificación de Origen                                                                                                                                                                                                                                   ;900472;900472;150381
+06;02;01;24;03;554;P;Negociaciones y Administración de Acuerdos                                                                                                                                                                                                                ;1437655;1437655;395267
+06;02;01;24;03;557;P;Defensa Comercial                                                                                                                                                                                                                                         ;132374;132374;18980
+06;02;01;24;03;560;P;Profundización Inserción Económica Asia                                                                                                                                                                                                                   ;63368;63368;8204
+06;02;01;24;03;561;P;Programa de Defensa en Arbitrajes de Inversión Extranjera                                                                                                                                                                                                 ;10;10;0
+06;02;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;165130;165130;14036
+06;02;01;29;04;;P;Mobiliario y Otros                                                              ;14626;14626;6640
+06;02;01;29;05;;P;Máquinas y Equipos                                                              ;19787;19787;5294
+06;02;01;29;06;;P;Equipos Informáticos                                                            ;105564;105564;677
+06;02;01;29;07;;P;Programas Informáticos                                                          ;25153;25153;1425
+06;02;01;34;;;P;SERVICIO DE LA DEUDA                                                            ;33193;33193;18054
+06;02;01;34;04;;P;Intereses Deuda Externa                                                         ;33193;33193;18054
+;;;;;;;RESULTADO;;;680125

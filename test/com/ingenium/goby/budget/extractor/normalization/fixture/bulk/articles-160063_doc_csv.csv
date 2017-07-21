@@ -1,0 +1,16 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+08;01;07;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;10;10;1879
+08;01;07;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;10;10;1879
+08;01;07;09;;;P;APORTE FISCAL                                                                   ;4149597;4149597;1678512
+08;01;07;09;01;;P;Libre                                                                           ;2310586;2310586;817377
+08;01;07;09;03;;P;Servicio de la Deuda Externa                                                    ;1839011;1839011;861135
+08;01;07;21;;;P;GASTOS EN PERSONAL                                                              ;390477;390477;70323
+08;01;07;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;1636869;1636869;294499
+08;01;07;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;283250;283250;0
+08;01;07;24;02;;P;Al Gobierno Central                                                             ;283250;283250;0
+08;01;07;24;02;001;P;Servicio Nacional de Pesca y Acuicultura                                                                                                                                                                                                                  ;149350;149350;0
+08;01;07;24;02;003;P;Comisión Chilena del Cobre                                                                                                                                                                                                                                ;133900;133900;0
+08;01;07;34;;;P;SERVICIO DE LA DEUDA                                                            ;1839011;1839011;861135
+08;01;07;34;02;;P;Amortización Deuda Externa                                                      ;1764607;1764607;809273
+08;01;07;34;04;;P;Intereses Deuda Externa                                                         ;74404;74404;51862
+;;;;;;;RESULTADO;;;454434

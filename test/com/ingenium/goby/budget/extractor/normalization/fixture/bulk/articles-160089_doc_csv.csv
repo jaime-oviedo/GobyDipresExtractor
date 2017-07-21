@@ -1,0 +1,24 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+09;03;01;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;1273;1273;125771
+09;03;01;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;516;516;17417
+09;03;01;08;02;;P;Multas y Sanciones Pecuniarias                                                  ;241;241;78842
+09;03;01;08;99;;P;Otros                                                                           ;516;516;29512
+09;03;01;09;;;P;APORTE FISCAL                                                                   ;33934080;39290486;12440468
+09;03;01;09;01;;P;Libre                                                                           ;33934080;39290486;12440468
+09;03;01;12;;;P;RECUPERACIÓN DE PRÉSTAMOS                                                       ;1030;1030;0
+09;03;01;15;;;P;SALDO INICIAL DE CAJA                                                           ;1000;2296746;0
+09;03;01;21;;;P;GASTOS EN PERSONAL                                                              ;6890106;6890106;2054939
+09;03;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;2184783;2674783;540837
+09;03;01;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;24262582;24262582;3652327
+09;03;01;24;03;;P;A Otras Entidades Públicas                                                      ;24262582;24262582;3652327
+09;03;01;24;03;001;P;Evaluación de Logros de Aprendizaje                                                                                                                                                                                                                       ;17918611;17918611;2024748
+09;03;01;24;03;002;P;Evaluación de Desempeño, Párrafo 2° del Título II de la Ley N°20.529                                                                                                                                                                                      ;6343971;6343971;1627579
+09;03;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;597912;597912;150463
+09;03;01;29;04;;P;Mobiliario y Otros                                                              ;59328;59328;791
+09;03;01;29;05;;P;Máquinas y Equipos                                                              ;15265;15265;0
+09;03;01;29;06;;P;Equipos Informáticos                                                            ;90345;90345;20248
+09;03;01;29;07;;P;Programas Informáticos                                                          ;432974;432974;129424
+09;03;01;34;;;P;SERVICIO DE LA DEUDA                                                            ;1000;7163152;7163151
+09;03;01;34;07;;P;Deuda Flotante                                                                  ;1000;7163152;7163151
+09;03;01;35;;;P;SALDO FINAL DE CAJA                                                             ;1000;1000;0
+;;;;;;;RESULTADO;;;-995478

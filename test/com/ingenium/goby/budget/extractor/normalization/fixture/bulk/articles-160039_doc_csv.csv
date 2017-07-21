@@ -1,0 +1,18 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+06;03;01;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;18929;18929;4279
+06;03;01;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;18929;18929;4279
+06;03;01;09;;;P;APORTE FISCAL                                                                   ;11209918;11209918;2756950
+06;03;01;09;01;;P;Libre                                                                           ;11209918;11209918;2756950
+06;03;01;21;;;P;GASTOS EN PERSONAL                                                              ;2246646;2246646;709001
+06;03;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;441671;441671;89330
+06;03;01;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;8470616;8470616;1293840
+06;03;01;24;03;;P;A Otras Entidades Públicas                                                      ;8470616;8470616;1293840
+06;03;01;24;03;045;P;Programas Especiales de Fronteras y Límites                                                                                                                                                                                                               ;8470616;8470616;1293840
+06;03;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;69914;69914;15956
+06;03;01;29;04;;P;Mobiliario y Otros                                                              ;4629;4629;667
+06;03;01;29;05;;P;Máquinas y Equipos                                                              ;7958;7958;1802
+06;03;01;29;06;;P;Equipos Informáticos                                                            ;21699;21699;2338
+06;03;01;29;07;;P;Programas Informáticos                                                          ;35628;35628;11149
+06;03;01;34;;;P;SERVICIO DE LA DEUDA                                                            ;0;0;49078
+06;03;01;34;07;;P;Deuda Flotante                                                                  ;0;0;49078
+;;;;;;;RESULTADO;;;604024

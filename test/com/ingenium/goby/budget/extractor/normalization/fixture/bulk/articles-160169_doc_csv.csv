@@ -1,0 +1,49 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+15;05;01;05;;;P;TRANSFERENCIAS CORRIENTES                                                       ;77349238;77380612;76965827
+15;05;01;05;01;;P;Del Sector Privado                                                              ;0;31374;0
+15;05;01;05;01;003;P;Administradora del Fondo para Bonificación por Retiro                                                                                                                                                                                                     ;0;31374;0
+15;05;01;05;02;;P;Del Gobierno Central                                                            ;76965827;76965827;76965827
+15;05;01;05;02;008;P;Ingreso Ético Familiar y Sistema Chile Solidario                                                                                                                                                                                                          ;76965827;76965827;76965827
+15;05;01;05;03;;P;De Otras Entidades Públicas                                                     ;383411;383411;0
+15;05;01;05;03;007;P;Administradora del Fondo de Cesantía Solidario                                                                                                                                                                                                            ;383411;383411;0
+15;05;01;07;;;P;INGRESOS DE OPERACIÓN                                                           ;311996;311996;135911
+15;05;01;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;484927;484927;1857415
+15;05;01;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;215838;215838;182463
+15;05;01;08;02;;P;Multas y Sanciones Pecuniarias                                                  ;98952;98952;156162
+15;05;01;08;99;;P;Otros                                                                           ;170137;170137;1518790
+15;05;01;09;;;P;APORTE FISCAL                                                                   ;185720795;187971540;24311978
+15;05;01;09;01;;P;Libre                                                                           ;185622321;187873066;24311978
+15;05;01;09;03;;P;Servicio de la Deuda Externa                                                    ;98474;98474;0
+15;05;01;14;;;P;ENDEUDAMIENTO                                                                   ;1446594;1446594;0
+15;05;01;14;02;;P;Endeudamiento Externo                                                           ;1446594;1446594;0
+15;05;01;15;;;P;SALDO INICIAL DE CAJA                                                           ;263928;1034085;0
+15;05;01;21;;;P;GASTOS EN PERSONAL                                                              ;14725657;14725657;5162590
+15;05;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;8604692;8604692;1903923
+15;05;01;23;;;P;PRESTACIONES DE SEGURIDAD SOCIAL                                                ;0;197786;0
+15;05;01;23;03;;P;Prestaciones Sociales del Empleador                                             ;0;197786;0
+15;05;01;23;03;001;P;Indemnización de Cargo Fiscal                                                                                                                                                                                                                             ;0;133562;0
+15;05;01;23;03;003;P;Fondo Retiro Funcionarios Públicos  Ley N° 19.882                                                                                                                                                                                                         ;0;64224;0
+15;05;01;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;240656002;243510492;46544677
+15;05;01;24;01;;P;Al Sector Privado                                                               ;237408913;240263403;46050451
+15;05;01;24;01;003;P;Becas                                                                                                                                                                                                                                                     ;989975;1476465;401543
+15;05;01;24;01;004;P;Bono de Capacitación para Micro y Pequeños Empresarios                                                                                                                                                                                                    ;1376518;1376518;388786
+15;05;01;24;01;007;P;Programa Más Capaz                                                                                                                                                                                                                                        ;56904513;56904513;26219938
+15;05;01;24;01;011;P;Programa de Capacitación en Oficios                                                                                                                                                                                                                       ;16660641;16660641;2787889
+15;05;01;24;01;090;P;Programa de Formación en el Puesto de Trabajo                                                                                                                                                                                                             ;1101214;4269214;561554
+15;05;01;24;01;266;P;Programa de Intermediación Laboral                                                                                                                                                                                                                        ;5469253;5469253;2460198
+15;05;01;24;01;270;P;Certificación de Competencias Laborales                                                                                                                                                                                                                   ;1737104;1737104;56627
+15;05;01;24;01;442;P;Seguros                                                                                                                                                                                                                                                   ;184381;184381;96380
+15;05;01;24;01;453;P;Subsidio al Empleo, Ley N° 20.338                                                                                                                                                                                                                         ;76019487;75619487;5883176
+15;05;01;24;01;454;P;Subsidio Empleo a la Mujer, Ley N° 20.595                                                                                                                                                                                                                 ;76965827;76565827;7194360
+15;05;01;24;03;;P;A Otras Entidades Públicas                                                      ;3221142;3221142;490976
+15;05;01;24;03;257;P;Programa de Becas                                                                                                                                                                                                                                         ;3221142;3221142;490976
+15;05;01;24;07;;P;A Organismos Internacionales                                                    ;25947;25947;3250
+15;05;01;24;07;001;P;Organismos Internacionales                                                                                                                                                                                                                                ;25947;25947;3250
+15;05;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;1480653;1480653;197018
+15;05;01;29;06;;P;Equipos Informáticos                                                            ;530204;530204;11677
+15;05;01;29;07;;P;Programas Informáticos                                                          ;950449;950449;185341
+15;05;01;34;;;P;SERVICIO DE LA DEUDA                                                            ;100474;100474;2290452
+15;05;01;34;04;;P;Intereses Deuda Externa                                                         ;98474;98474;42406
+15;05;01;34;07;;P;Deuda Flotante                                                                  ;2000;2000;2248046
+15;05;01;35;;;P;SALDO FINAL DE CAJA                                                             ;10000;10000;0
+;;;;;;;RESULTADO;;;47172471

@@ -1,0 +1,35 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+12;02;02;05;;;P;TRANSFERENCIAS CORRIENTES                                                       ;0;64723;0
+12;02;02;05;02;;P;Del Gobierno Central                                                            ;0;64723;0
+12;02;02;05;02;004;P;De la Subsecretaría de Desarrollo Regional y Administrativo                                                                                                                                                                                               ;0;64723;0
+12;02;02;06;;;P;RENTAS DE LA PROPIEDAD                                                          ;24308;24308;8178
+12;02;02;07;;;P;INGRESOS DE OPERACIÓN                                                           ;2577;2577;517
+12;02;02;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;77250;77250;62826
+12;02;02;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;77250;77250;53266
+12;02;02;08;02;;P;Multas y Sanciones Pecuniarias                                                  ;0;0;8223
+12;02;02;08;99;;P;Otros                                                                           ;0;0;1337
+12;02;02;09;;;P;APORTE FISCAL                                                                   ;38435983;38435983;8806752
+12;02;02;09;01;;P;Libre                                                                           ;38435983;38435983;8806752
+12;02;02;10;;;P;VENTA DE ACTIVOS NO FINANCIEROS                                                 ;3207;3207;0
+12;02;02;10;03;;P;Vehículos                                                                       ;3207;3207;0
+12;02;02;12;;;P;RECUPERACIÓN DE PRÉSTAMOS                                                       ;0;0;128328
+12;02;02;12;10;;P;Ingresos por Percibir                                                           ;0;0;128328
+12;02;02;15;;;P;SALDO INICIAL DE CAJA                                                           ;10000;10000;0
+12;02;02;21;;;P;GASTOS EN PERSONAL                                                              ;9506458;9560040;3153647
+12;02;02;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;628421;631547;153986
+12;02;02;23;;;P;PRESTACIONES DE SEGURIDAD SOCIAL                                                ;0;0;221327
+12;02;02;23;03;;P;Prestaciones Sociales del Empleador                                             ;0;0;221327
+12;02;02;26;;;P;OTROS GASTOS CORRIENTES                                                         ;0;0;1057
+12;02;02;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;123692;131707;4088
+12;02;02;29;03;;P;Vehículos                                                                       ;14420;14420;0
+12;02;02;29;04;;P;Mobiliario y Otros                                                              ;4882;4882;2671
+12;02;02;29;05;;P;Máquinas y Equipos                                                              ;37080;37080;829
+12;02;02;29;06;;P;Equipos Informáticos                                                            ;23838;26898;0
+12;02;02;29;07;;P;Programas Informáticos                                                          ;43472;48427;588
+12;02;02;31;;;P;INICIATIVAS DE INVERSIÓN                                                        ;28283754;28283754;4280290
+12;02;02;31;01;;P;Estudios Básicos                                                                ;0;27425;27425
+12;02;02;31;02;;P;Proyectos                                                                       ;28283754;28256329;4252865
+12;02;02;34;;;P;SERVICIO DE LA DEUDA                                                            ;1000;1000;778784
+12;02;02;34;07;;P;Deuda Flotante                                                                  ;1000;1000;778784
+12;02;02;35;;;P;SALDO FINAL DE CAJA                                                             ;10000;10000;0
+;;;;;;;RESULTADO;;;413422

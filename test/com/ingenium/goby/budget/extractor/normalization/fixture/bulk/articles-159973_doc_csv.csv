@@ -1,0 +1,13 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+50;01;05;27;;;D;APORTE FISCAL LIBRE                                                             ;479454;479454;200590
+50;01;05;27;05;;D;MINISTERIO DEL INTERIOR Y SEGURIDAD PÚBLICA                                     ;58873;58873;25596
+50;01;05;27;05;031;D;Carabineros de Chile                                                                                                                                                                                                                                      ;58873;58873;25596
+50;01;05;27;06;;D;MINISTERIO DE RELACIONES EXTERIORES                                             ;207132;207132;91656
+50;01;05;27;06;001;D;Secretaría y Administración General y Servicio Exterior                                                                                                                                                                                                   ;182983;182983;82139
+50;01;05;27;06;002;D;Dirección General de Relaciones Económicas Internacionales                                                                                                                                                                                                ;24149;24149;9517
+50;01;05;27;11;;D;MINISTERIO DE DEFENSA NACIONAL                                                  ;213449;213449;83338
+50;01;05;27;11;001;D;Ejército de Chile                                                                                                                                                                                                                                         ;35647;35647;4348
+50;01;05;27;11;005;D;Armada de Chile                                                                                                                                                                                                                                           ;66095;66095;41877
+50;01;05;27;11;009;D;Fuerza Aérea de Chile                                                                                                                                                                                                                                     ;77984;77984;8260
+50;01;05;27;11;025;D;Estado Mayor Conjunto                                                                                                                                                                                                                                     ;33723;33723;28853
+;;;;;;;RESULTADO;;;-200590

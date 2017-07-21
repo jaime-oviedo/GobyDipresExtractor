@@ -1,0 +1,14 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+50;01;08;06;;;P;RENTAS DE LA PROPIEDAD                                                          ;10;10;132532
+50;01;08;06;03;;P;Intereses                                                                       ;10;10;132532
+50;01;08;06;03;061;P;Intereses                                                                                                                                                                                                                                                 ;10;10;132532
+50;01;08;11;;;P;VENTA DE ACTIVOS FINANCIEROS                                                    ;20;20;165733219
+50;01;08;11;01;;P;Venta o Rescate de Títulos y Valores                                            ;10;10;4787519
+50;01;08;11;03;;P;Operaciones de Cambio                                                           ;10;10;160945700
+50;01;08;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;10;10;148500000
+50;01;08;24;02;;P;Al Gobierno Central                                                             ;10;10;148500000
+50;01;08;24;02;071;P;A Ingresos Generales de la Nación                                                                                                                                                                                                                         ;10;10;148500000
+50;01;08;30;;;P;ADQUISICIÓN DE ACTIVOS FINANCIEROS                                              ;20;20;17365751
+50;01;08;30;01;;P;Compra de Títulos y Valores                                                     ;10;10;17316390
+50;01;08;30;99;;P;Otros Activos Financieros                                                       ;10;10;49361
+;;;;;;;RESULTADO;;;0

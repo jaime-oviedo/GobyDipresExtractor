@@ -1,0 +1,37 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+08;03;01;06;;;P;RENTAS DE LA PROPIEDAD                                                          ;0;0;76
+08;03;01;07;;;P;INGRESOS DE OPERACIÓN                                                           ;841684;841684;223839
+08;03;01;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;3247549;3247549;1285529
+08;03;01;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;2896255;2896255;1099998
+08;03;01;08;02;;P;Multas y Sanciones Pecuniarias                                                  ;190039;190039;109952
+08;03;01;08;99;;P;Otros                                                                           ;161255;161255;75579
+08;03;01;09;;;P;APORTE FISCAL                                                                   ;181209425;181209425;63380127
+08;03;01;09;01;;P;Libre                                                                           ;181209425;181209425;63380127
+08;03;01;10;;;P;VENTA DE ACTIVOS NO FINANCIEROS                                                 ;40364;40364;33268
+08;03;01;10;03;;P;Vehículos                                                                       ;35994;35994;33268
+08;03;01;10;04;;P;Mobiliario y Otros                                                              ;4370;4370;0
+08;03;01;12;;;P;RECUPERACIÓN DE PRÉSTAMOS                                                       ;0;0;8320
+08;03;01;12;10;;P;Ingresos por Percibir                                                           ;0;0;8320
+08;03;01;21;;;P;GASTOS EN PERSONAL                                                              ;159267998;159267998;59167153
+08;03;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;18613904;18489904;5226913
+08;03;01;23;;;P;PRESTACIONES DE SEGURIDAD SOCIAL                                                ;0;0;1199263
+08;03;01;23;03;;P;Prestaciones Sociales del Empleador                                             ;0;0;1199263
+08;03;01;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;0;124000;0
+08;03;01;24;07;;P;A Organismos Internacionales                                                    ;0;124000;0
+08;03;01;24;07;003;P;A la Organización para la Cooperación y el Desarrollo Económicos                                                                                                                                                                                          ;0;124000;0
+08;03;01;25;;;P;INTEGROS AL FISCO                                                               ;10;10;0
+08;03;01;25;01;;P;Impuestos                                                                       ;10;10;0
+08;03;01;26;;;P;OTROS GASTOS CORRIENTES                                                         ;0;0;32414
+08;03;01;26;01;;P;Devoluciones                                                                    ;0;0;1365
+08;03;01;26;02;;P;Compensaciones por Daños a Terceros y/o a la Propiedad                          ;0;0;31049
+08;03;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;5427030;7118030;383211
+08;03;01;29;02;;P;Edificios                                                                       ;0;1691000;0
+08;03;01;29;04;;P;Mobiliario y Otros                                                              ;0;200000;0
+08;03;01;29;05;;P;Máquinas y Equipos                                                              ;0;300000;22036
+08;03;01;29;06;;P;Equipos Informáticos                                                            ;1097835;1097835;100764
+08;03;01;29;07;;P;Programas Informáticos                                                          ;4329195;3829195;260411
+08;03;01;31;;;P;INICIATIVAS DE INVERSIÓN                                                        ;2030080;339080;0
+08;03;01;31;02;;P;Proyectos                                                                       ;2030080;339080;0
+08;03;01;34;;;P;SERVICIO DE LA DEUDA                                                            ;0;0;6269343
+08;03;01;34;07;;P;Deuda Flotante                                                                  ;0;0;6269343
+;;;;;;;RESULTADO;;;-7347138

@@ -1,0 +1,30 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+12;01;01;06;;;P;RENTAS DE LA PROPIEDAD                                                          ;16480;16480;8195
+12;01;01;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;455448;455448;305570
+12;01;01;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;192610;192610;66726
+12;01;01;08;99;;P;Otros                                                                           ;262838;262838;238844
+12;01;01;09;;;P;APORTE FISCAL                                                                   ;20182408;20182408;5612423
+12;01;01;09;01;;P;Libre                                                                           ;19547922;19547922;5297760
+12;01;01;09;03;;P;Servicio de la Deuda Externa                                                    ;634486;634486;314663
+12;01;01;10;;;P;VENTA DE ACTIVOS NO FINANCIEROS                                                 ;4120;4120;0
+12;01;01;10;03;;P;Vehículos                                                                       ;3708;3708;0
+12;01;01;10;04;;P;Mobiliario y Otros                                                              ;412;412;0
+12;01;01;12;;;P;RECUPERACIÓN DE PRÉSTAMOS                                                       ;0;0;179303
+12;01;01;12;10;;P;Ingresos por Percibir                                                           ;0;0;179303
+12;01;01;15;;;P;SALDO INICIAL DE CAJA                                                           ;10000;110000;0
+12;01;01;21;;;P;GASTOS EN PERSONAL                                                              ;15151788;15251788;4956561
+12;01;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;3821633;3821633;1091351
+12;01;01;23;;;P;PRESTACIONES DE SEGURIDAD SOCIAL                                                ;0;0;715908
+12;01;01;23;03;;P;Prestaciones Sociales del Empleador                                             ;0;0;715908
+12;01;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;1049549;1049549;252238
+12;01;01;29;03;;P;Vehículos                                                                       ;21115;21115;0
+12;01;01;29;04;;P;Mobiliario y Otros                                                              ;6438;6438;0
+12;01;01;29;05;;P;Máquinas y Equipos                                                              ;21490;21490;20175
+12;01;01;29;06;;P;Equipos Informáticos                                                            ;65488;65488;56769
+12;01;01;29;07;;P;Programas Informáticos                                                          ;935018;935018;175294
+12;01;01;34;;;P;SERVICIO DE LA DEUDA                                                            ;635486;635486;936571
+12;01;01;34;02;;P;Amortización Deuda Externa                                                      ;617686;617686;293291
+12;01;01;34;04;;P;Intereses Deuda Externa                                                         ;16800;16800;21372
+12;01;01;34;07;;P;Deuda Flotante                                                                  ;1000;1000;621908
+12;01;01;35;;;P;SALDO FINAL DE CAJA                                                             ;10000;10000;0
+;;;;;;;RESULTADO;;;-1847138

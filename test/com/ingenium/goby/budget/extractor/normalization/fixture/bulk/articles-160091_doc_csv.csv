@@ -1,0 +1,38 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+09;05;01;05;;;P;TRANSFERENCIAS CORRIENTES                                                       ;181150;181150;0
+09;05;01;05;01;;P;Del Sector Privado                                                              ;181150;181150;0
+09;05;01;05;01;003;P;Administradora del Fondo para Bonificación por Retiro                                                                                                                                                                                                     ;181150;181150;0
+09;05;01;07;;;P;INGRESOS DE OPERACIÓN                                                           ;314253;314253;76990
+09;05;01;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;512834;592973;285572
+09;05;01;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;389856;389856;31705
+09;05;01;08;99;;P;Otros                                                                           ;122978;203117;253867
+09;05;01;09;;;P;APORTE FISCAL                                                                   ;46201846;46201846;14285218
+09;05;01;09;01;;P;Libre                                                                           ;46201846;46201846;14285218
+09;05;01;15;;;P;SALDO INICIAL DE CAJA                                                           ;1000;1508398;0
+09;05;01;21;;;P;GASTOS EN PERSONAL                                                              ;20693205;20693205;6927428
+09;05;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;6579630;6659769;1374656
+09;05;01;23;;;P;PRESTACIONES DE SEGURIDAD SOCIAL                                                ;422536;422536;318453
+09;05;01;23;03;;P;Prestaciones Sociales del Empleador                                             ;422536;422536;318453
+09;05;01;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;8823090;8823090;1850221
+09;05;01;24;01;;P;Al Sector Privado                                                               ;3121701;3121701;1227776
+09;05;01;24;01;210;P;Instituciones Colaboradoras                                                                                                                                                                                                                               ;1367131;1367131;632228
+09;05;01;24;01;212;P;Museo San Francisco                                                                                                                                                                                                                                       ;64148;64148;32074
+09;05;01;24;01;222;P;Fundación Museo de la Memoria                                                                                                                                                                                                                             ;1690422;1690422;563474
+09;05;01;24;03;;P;A Otras Entidades Públicas                                                      ;5701389;5701389;622445
+09;05;01;24;03;192;P;Acciones culturales complementarias                                                                                                                                                                                                                       ;5701389;5701389;622445
+09;05;01;25;;;P;INTEGROS AL FISCO                                                               ;17039;17039;2973
+09;05;01;25;01;;P;Impuestos                                                                       ;17039;17039;2973
+09;05;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;2313723;2313723;200136
+09;05;01;29;04;;P;Mobiliario y Otros                                                              ;2102964;2102964;172699
+09;05;01;29;05;;P;Máquinas y Equipos                                                              ;79468;79468;5038
+09;05;01;29;06;;P;Equipos Informáticos                                                            ;75913;75913;10133
+09;05;01;29;07;;P;Programas Informáticos                                                          ;55378;55378;12266
+09;05;01;31;;;P;INICIATIVAS DE INVERSIÓN                                                        ;7760976;7760976;1783132
+09;05;01;31;02;;P;Proyectos                                                                       ;7760976;7760976;1783132
+09;05;01;33;;;P;TRANSFERENCIAS DE CAPITAL                                                       ;598884;598884;0
+09;05;01;33;03;;P;A Otras Entidades Públicas                                                      ;598884;598884;0
+09;05;01;33;03;005;P;Programa de Mejoramiento Integral de Bibliotecas Públicas                                                                                                                                                                                                 ;598884;598884;0
+09;05;01;34;;;P;SERVICIO DE LA DEUDA                                                            ;1000;1508398;1508397
+09;05;01;34;07;;P;Deuda Flotante                                                                  ;1000;1508398;1508397
+09;05;01;35;;;P;SALDO FINAL DE CAJA                                                             ;1000;1000;0
+;;;;;;;RESULTADO;;;682384

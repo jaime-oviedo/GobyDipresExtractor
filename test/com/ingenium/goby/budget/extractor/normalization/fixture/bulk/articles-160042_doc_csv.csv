@@ -1,0 +1,60 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+07;01;01;05;;;P;TRANSFERENCIAS CORRIENTES                                                       ;16507152;15674852;6469396
+07;01;01;05;02;;P;Del Gobierno Central                                                            ;16507152;15674852;6469396
+07;01;01;05;02;001;P;Subsecretaría de Pesca y Acuicultura                                                                                                                                                                                                                      ;16507152;15674852;6469396
+07;01;01;07;;;P;INGRESOS DE OPERACIÓN                                                           ;605912;605912;341856
+07;01;01;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;117056;117056;47995
+07;01;01;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;99306;99306;44750
+07;01;01;08;02;;P;Multas y Sanciones Pecuniarias                                                  ;4295;4295;3245
+07;01;01;08;99;;P;Otros                                                                           ;13455;13455;0
+07;01;01;09;;;P;APORTE FISCAL                                                                   ;47631643;47631643;11244484
+07;01;01;09;01;;P;Libre                                                                           ;41477812;41477812;8198904
+07;01;01;09;02;;P;Servicio de la Deuda Interna                                                    ;704657;704657;704657
+07;01;01;09;03;;P;Servicio de la Deuda Externa                                                    ;5449174;5449174;2340923
+07;01;01;15;;;P;SALDO INICIAL DE CAJA                                                           ;0;262026;0
+07;01;01;21;;;P;GASTOS EN PERSONAL                                                              ;8029883;8029883;2617265
+07;01;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;2537417;2552417;414783
+07;01;01;23;;;P;PRESTACIONES DE SEGURIDAD SOCIAL                                                ;10;10;0
+07;01;01;23;01;;P;Prestaciones Previsionales                                                      ;10;10;0
+07;01;01;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;45886066;44688766;6539241
+07;01;01;24;01;;P;Al Sector Privado                                                               ;16847431;16015131;1997675
+07;01;01;24;01;008;P;Instituto Nacional de Normalización                                                                                                                                                                                                                       ;340279;340279;130279
+07;01;01;24;01;009;P;Instituto de Fomento Pesquero                                                                                                                                                                                                                             ;16507152;15674852;1867396
+07;01;01;24;02;;P;Al Gobierno Central                                                             ;21669636;21669636;3927404
+07;01;01;24;02;004;P;Instituto Nacional de Estadísticas                                                                                                                                                                                                                        ;431113;431113;129334
+07;01;01;24;02;006;P;FIE-Proyecto Bienes Públicos Estratégicos (Comité Innova)                                                                                                                                                                                                 ;489250;489250;0
+07;01;01;24;02;007;P;FIE-Iniciativas de Fomento Integradas (CORFO)                                                                                                                                                                                                             ;3919871;3919871;1577000
+07;01;01;24;02;008;P;FIE-Programa Estratégico de Especialización Inteligente (CORFO)                                                                                                                                                                                           ;6240677;6240677;150976
+07;01;01;24;02;009;P;FIE-Sistema Integrado de Gestión Sanitaria Acuicultura SERNAPESCA                                                                                                                                                                                         ;1305710;1305710;1000000
+07;01;01;24;02;012;P;FIE-Innovación e I&D empresarial (Comité Innova)                                                                                                                                                                                                          ;1369900;1369900;0
+07;01;01;24;02;013;P;FIE-Minería (CORFO)                                                                                                                                                                                                                                       ;1446207;1446207;53931
+07;01;01;24;02;014;P;FIE-Minería (Subsecretaría del Medio Ambiente)                                                                                                                                                                                                            ;215270;215270;0
+07;01;01;24;02;015;P;FIE-Minería (Subsecretaría de Minería)                                                                                                                                                                                                                    ;1144845;1144845;140000
+07;01;01;24;02;016;P;FIE-Alimentos Saludables (Servicio Agrícola y Ganadero)                                                                                                                                                                                                   ;489250;489250;289600
+07;01;01;24;02;017;P;FIE-Alimentos Saludables (Subsecretaría de Agricultura)                                                                                                                                                                                                   ;978500;978500;0
+07;01;01;24;02;018;P;FIE-Industria Solar (Subsecretaría de Energía)                                                                                                                                                                                                            ;507842;507842;507842
+07;01;01;24;02;019;P;FIE-Acuícola (SERNAPESCA)                                                                                                                                                                                                                                 ;2852328;2852328;78721
+07;01;01;24;02;072;P;FIE-Alimentos Sustentables (Subsecretaría de Agricultura)                                                                                                                                                                                                 ;278873;278873;0
+07;01;01;24;03;;P;A Otras Entidades Públicas                                                      ;7368999;7003999;614162
+07;01;01;24;03;472;P;Tribunal Arbitral de Propiedad Industrial                                                                                                                                                                                                                 ;533447;533447;148288
+07;01;01;24;03;477;P;Comisión Nacional de la Productividad                                                                                                                                                                                                                     ;1110024;1110024;193435
+07;01;01;24;03;478;P;Secretaría del Fondo de Inversión Estratégica                                                                                                                                                                                                             ;543493;543493;127214
+07;01;01;24;03;479;P;Agenda Digital                                                                                                                                                                                                                                            ;229148;229148;56589
+07;01;01;24;03;480;P;Escritorio Empresas y Personas                                                                                                                                                                                                                            ;4732644;4367644;49420
+07;01;01;24;03;482;P;Mercado Tecnológico para MIPYME                                                                                                                                                                                                                           ;220243;220243;39216
+07;01;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;395406;745406;61035
+07;01;01;29;04;;P;Mobiliario y Otros                                                              ;5346;5346;687
+07;01;01;29;05;;P;Máquinas y Equipos                                                              ;22895;22895;1463
+07;01;01;29;06;;P;Equipos Informáticos                                                            ;61800;61800;0
+07;01;01;29;07;;P;Programas Informáticos                                                          ;305365;655365;58885
+07;01;01;33;;;P;TRANSFERENCIAS DE CAPITAL                                                       ;1859150;1859150;122017
+07;01;01;33;02;;P;Al Gobierno Central                                                             ;1859150;1859150;122017
+07;01;01;33;02;001;P;FIE-Construcción Sustentable (Subsecretaría de Vivienda y Urbanismo)                                                                                                                                                                                      ;391400;391400;100000
+07;01;01;33;02;003;P;FIE-Capital Minería (CORFO)                                                                                                                                                                                                                               ;1467750;1467750;22017
+07;01;01;34;;;P;SERVICIO DE LA DEUDA                                                            ;6153831;6415857;3195199
+07;01;01;34;01;;P;Amortización Deuda Interna                                                      ;349454;454688;349454
+07;01;01;34;02;;P;Amortización Deuda Externa                                                      ;4595421;4595421;1925648
+07;01;01;34;03;;P;Intereses Deuda Interna                                                         ;355203;249969;246016
+07;01;01;34;04;;P;Intereses Deuda Externa                                                         ;853753;853753;415275
+07;01;01;34;07;;P;Deuda Flotante                                                                  ;0;262026;258806
+;;;;;;;RESULTADO;;;5154191

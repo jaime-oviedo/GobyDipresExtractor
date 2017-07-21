@@ -1,0 +1,28 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+08;30;01;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;371197;371197;164103
+08;30;01;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;216697;216697;146236
+08;30;01;08;99;;P;Otros                                                                           ;154500;154500;17867
+08;30;01;09;;;P;APORTE FISCAL                                                                   ;20854981;20854981;7494341
+08;30;01;09;01;;P;Libre                                                                           ;19790250;19790250;7494341
+08;30;01;09;03;;P;Servicio de la Deuda Externa                                                    ;1064731;1064731;0
+08;30;01;10;;;P;VENTA DE ACTIVOS NO FINANCIEROS                                                 ;9064;9064;3264
+08;30;01;10;03;;P;Vehículos                                                                       ;9064;9064;3264
+08;30;01;14;;;P;ENDEUDAMIENTO                                                                   ;115533;115533;116444
+08;30;01;14;02;;P;Endeudamiento Externo                                                           ;115533;115533;116444
+08;30;01;15;;;P;SALDO INICIAL DE CAJA                                                           ;0;69369;0
+08;30;01;21;;;P;GASTOS EN PERSONAL                                                              ;17257933;17257933;6432105
+08;30;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;2240745;2272550;528074
+08;30;01;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;118999;0;0
+08;30;01;24;03;;P;A Otras Entidades Públicas                                                      ;118999;0;0
+08;30;01;24;03;099;P;Fortalecimiento CDE - BID                                                                                                                                                                                                                                 ;118999;0;0
+08;30;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;378585;465779;242855
+08;30;01;29;03;;P;Vehículos                                                                       ;38183;38183;38183
+08;30;01;29;06;;P;Equipos Informáticos                                                            ;19974;19974;0
+08;30;01;29;07;;P;Programas Informáticos                                                          ;320428;407622;204672
+08;30;01;31;;;P;INICIATIVAS DE INVERSIÓN                                                        ;289782;289782;145022
+08;30;01;31;02;;P;Proyectos                                                                       ;289782;289782;145022
+08;30;01;34;;;P;SERVICIO DE LA DEUDA                                                            ;1064731;1134100;69340
+08;30;01;34;02;;P;Amortización Deuda Externa                                                      ;1050000;1050000;0
+08;30;01;34;04;;P;Intereses Deuda Externa                                                         ;14731;14731;0
+08;30;01;34;07;;P;Deuda Flotante                                                                  ;0;69369;69340
+;;;;;;;RESULTADO;;;360756

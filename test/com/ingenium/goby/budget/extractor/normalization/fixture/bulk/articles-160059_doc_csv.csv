@@ -1,0 +1,23 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+07;24;01;09;;;P;APORTE FISCAL                                                                   ;9298411;10130711;3343074
+07;24;01;09;01;;P;Libre                                                                           ;9298411;10130711;3343074
+07;24;01;15;;;P;SALDO INICIAL DE CAJA                                                           ;0;103170;0
+07;24;01;21;;;P;GASTOS EN PERSONAL                                                              ;1109008;1109008;343382
+07;24;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;908868;908868;83528
+07;24;01;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;5039069;5039069;1863425
+07;24;01;24;02;;P;Al Gobierno Central                                                             ;3244809;3244809;1343425
+07;24;01;24;02;001;P;Servicio Nacional de Turismo                                                                                                                                                                                                                              ;3047049;3047049;1336425
+07;24;01;24;02;009;P;Corporación de Fomento de la Producción                                                                                                                                                                                                                   ;190550;190550;0
+07;24;01;24;02;013;P;Instituto Nacional de Estadísticas                                                                                                                                                                                                                        ;7210;7210;7000
+07;24;01;24;03;;P;A Otras Entidades Públicas                                                      ;1794260;1794260;520000
+07;24;01;24;03;002;P;Desarrollo Turístico Sustentable                                                                                                                                                                                                                          ;1794260;1794260;520000
+07;24;01;33;;;P;TRANSFERENCIAS DE CAPITAL                                                       ;2241466;3073766;0
+07;24;01;33;01;;P;Al Sector Privado                                                               ;982728;982728;0
+07;24;01;33;01;001;P;Programa de Naciones Unidas para el Desarrollo                                                                                                                                                                                                            ;622228;622228;0
+07;24;01;33;01;002;P;Fundación Altiplano                                                                                                                                                                                                                                       ;206000;206000;0
+07;24;01;33;01;003;P;Corporación Regional de Desarrollo Productivo de la Araucanía                                                                                                                                                                                             ;154500;154500;0
+07;24;01;33;02;;P;Al Gobierno Central                                                             ;1258738;2091038;0
+07;24;01;33;02;001;P;Corporación Nacional Forestal                                                                                                                                                                                                                             ;1258738;2091038;0
+07;24;01;34;;;P;SERVICIO DE LA DEUDA                                                            ;0;103170;103170
+07;24;01;34;07;;P;Deuda Flotante                                                                  ;0;103170;103170
+;;;;;;;RESULTADO;;;949569

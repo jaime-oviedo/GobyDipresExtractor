@@ -1,0 +1,22 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+24;01;03;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;20;20;22663
+24;01;03;08;02;;P;Multas y Sanciones Pecuniarias                                                  ;10;10;0
+24;01;03;08;99;;P;Otros                                                                           ;10;10;22663
+24;01;03;09;;;P;APORTE FISCAL                                                                   ;6805590;6672590;4155768
+24;01;03;09;01;;P;Libre                                                                           ;6805590;6672590;4155768
+24;01;03;21;;;P;GASTOS EN PERSONAL                                                              ;614652;614652;182891
+24;01;03;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;172380;172380;21741
+24;01;03;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;2613806;2613806;2245467
+24;01;03;24;02;;P;Al Gobierno Central                                                             ;1690916;1690916;1641666
+24;01;03;24;02;005;P;Corporación de Fomento de la Producción                                                                                                                                                                                                                   ;1690916;1690916;1641666
+24;01;03;24;03;;P;A Otras Entidades Públicas                                                      ;922890;922890;603801
+24;01;03;24;03;003;P;Apoyo al Desarrollo de Energías Renovables no Convencionales                                                                                                                                                                                              ;922890;922890;603801
+24;01;03;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;2335632;2202632;718612
+24;01;03;29;05;;P;Máquinas y Equipos                                                              ;2335632;2197632;718612
+24;01;03;29;06;;P;Equipos Informáticos                                                            ;0;5000;0
+24;01;03;33;;;P;TRANSFERENCIAS DE CAPITAL                                                       ;1069140;1069140;1069140
+24;01;03;33;02;;P;Al Gobierno Central                                                             ;1069140;1069140;1069140
+24;01;03;33;02;001;P;Subsecretaría de Vivienda y Urbanismo                                                                                                                                                                                                                     ;1069140;1069140;1069140
+24;01;03;34;;;P;SERVICIO DE LA DEUDA                                                            ;0;0;654714
+24;01;03;34;07;;P;Deuda Flotante                                                                  ;0;0;654714
+;;;;;;;RESULTADO;;;-714134

@@ -1,0 +1,28 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+06;04;01;05;;;P;TRANSFERENCIAS CORRIENTES                                                       ;0;11522;11522
+06;04;01;05;01;;P;Del Sector Privado                                                              ;0;11522;11522
+06;04;01;05;01;003;P;Administracióndel Fondo para Bonificación por Retiro                                                                                                                                                                                                      ;0;11522;0
+06;04;01;05;01;999;P;Otros                                                                                                                                                                                                                                                     ;0;0;11522
+06;04;01;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;17671;17671;35802
+06;04;01;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;14003;14003;7184
+06;04;01;08;99;;P;Otros                                                                           ;3668;3668;28618
+06;04;01;09;;;P;APORTE FISCAL                                                                   ;4243874;4282201;1050300
+06;04;01;09;01;;P;Libre                                                                           ;4243874;4282201;1050300
+06;04;01;21;;;P;GASTOS EN PERSONAL                                                              ;1433014;1433014;522081
+06;04;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;291496;291496;105625
+06;04;01;23;;;P;PRESTACIONES DE SEGURIDAD SOCIAL                                                ;0;49849;49849
+06;04;01;23;03;;P;Prestaciones Sociales del Empleador                                             ;0;49849;49849
+06;04;01;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;2485878;2485878;470293
+06;04;01;24;03;;P;A Otras Entidades Públicas                                                      ;2485878;2485878;470293
+06;04;01;24;03;044;P;Feria Antártica Escolar                                                                                                                                                                                                                                   ;104529;104529;927
+06;04;01;24;03;045;P;Desarrollo de la Ciencia Antártica Concursable                                                                                                                                                                                                            ;390881;390881;0
+06;04;01;24;03;046;P;Plataforma Logística para Apoyo de Actividades Antárticas                                                                                                                                                                                                 ;1738934;1738934;469366
+06;04;01;24;03;047;P;Tésis Antárticas                                                                                                                                                                                                                                          ;40788;40788;0
+06;04;01;24;03;049;P;Aligamiento Científico Internacional                                                                                                                                                                                                                      ;17106;17106;0
+06;04;01;24;03;050;P;Centro Antártico Internacional                                                                                                                                                                                                                            ;193640;193640;0
+06;04;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;51157;51157;13238
+06;04;01;29;05;;P;Máquinas y Equipos                                                              ;4326;4326;1990
+06;04;01;29;07;;P;Programas Informáticos                                                          ;46831;46831;11248
+06;04;01;34;;;P;SERVICIO DE LA DEUDA                                                            ;0;0;514221
+06;04;01;34;07;;P;Deuda Flotante                                                                  ;0;0;514221
+;;;;;;;RESULTADO;;;-577683

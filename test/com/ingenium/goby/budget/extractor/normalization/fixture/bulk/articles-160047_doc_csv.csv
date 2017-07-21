@@ -1,0 +1,25 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+07;03;01;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;10533788;10533788;3531774
+07;03;01;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;35238;35238;6139
+07;03;01;08;99;;P;Otros                                                                           ;10498550;10498550;3525635
+07;03;01;09;;;P;APORTE FISCAL                                                                   ;26367000;25534700;6741712
+07;03;01;09;01;;P;Libre                                                                           ;26367000;25534700;6741712
+07;03;01;15;;;P;SALDO INICIAL DE CAJA                                                           ;10;10;0
+07;03;01;21;;;P;GASTOS EN PERSONAL                                                              ;5549350;5549350;1789077
+07;03;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;2931135;2931135;734685
+07;03;01;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;28016783;27184483;7432694
+07;03;01;24;01;;P;Al Sector Privado                                                               ;1262952;1262952;436415
+07;03;01;24;01;079;P;Apoyo a  Actividades Pesca Artesanal                                                                                                                                                                                                                      ;17216;17216;407
+07;03;01;24;01;085;P;Apoyo Operacional Plataforma Científica                                                                                                                                                                                                                   ;1245736;1245736;436008
+07;03;01;24;02;;P;Al Gobierno Central                                                             ;21486199;20653899;6469396
+07;03;01;24;02;011;P;Fondo de Administración Pesquero                                                                                                                                                                                                                          ;4979047;4979047;0
+07;03;01;24;02;012;P;Subsecretaría de Economia y Empresas de Menor Tamaño                                                                                                                                                                                                      ;16507152;15674852;6469396
+07;03;01;24;03;;P;A Otras Entidades Públicas                                                      ;5267632;5267632;526883
+07;03;01;24;03;054;P;Fondo de Investigación Pesquera                                                                                                                                                                                                                           ;5172115;5172115;510535
+07;03;01;24;03;501;P;Comités Científicos Técnicos                                                                                                                                                                                                                              ;95517;95517;16348
+07;03;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;403530;403530;112029
+07;03;01;29;03;;P;Vehículos                                                                       ;50097;50097;0
+07;03;01;29;04;;P;Mobiliario y Otros                                                              ;21315;21315;1239
+07;03;01;29;06;;P;Equipos Informáticos                                                            ;120780;120780;44235
+07;03;01;29;07;;P;Programas Informáticos                                                          ;211338;211338;66555
+;;;;;;;RESULTADO;;;205001

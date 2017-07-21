@@ -1,0 +1,32 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+24;01;01;05;;;P;TRANSFERENCIAS CORRIENTES                                                       ;507842;507842;507842
+24;01;01;05;02;;P;Del Gobierno Central                                                            ;507842;507842;507842
+24;01;01;05;02;023;P;Subsecretaría de Economía FIE - Desarrollo mercado inversión energética local                                                                                                                                                                             ;507842;507842;507842
+24;01;01;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;50213;50213;96996
+24;01;01;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;50193;50193;62338
+24;01;01;08;02;;P;Multas y Sanciones Pecuniarias                                                  ;10;10;2776
+24;01;01;08;99;;P;Otros                                                                           ;10;10;31882
+24;01;01;09;;;P;APORTE FISCAL                                                                   ;82410562;82410562;16572437
+24;01;01;09;01;;P;Libre                                                                           ;82002206;82002206;16572437
+24;01;01;09;02;;P;Servicio de la Deuda Interna                                                    ;408356;408356;0
+24;01;01;21;;;P;GASTOS EN PERSONAL                                                              ;10227675;10227675;3303354
+24;01;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;4659037;4637037;859409
+24;01;01;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;67348837;67370837;11999157
+24;01;01;24;02;;P;Al Gobierno Central                                                             ;159650;159650;159650
+24;01;01;24;02;001;P;Comisión Nacional de Investigación Científica y Tecnológica                                                                                                                                                                                               ;159650;159650;159650
+24;01;01;24;03;;P;A Otras Entidades Públicas                                                      ;67153137;67175137;11839507
+24;01;01;24;03;009;P;Empresa Nacional del Petróleo                                                                                                                                                                                                                             ;66701945;66701945;11478315
+24;01;01;24;03;010;P;Prospectiva y Política Energética y Desarrollo Sustentable                                                                                                                                                                                                ;451192;473192;361192
+24;01;01;24;07;;P;A Organismos Internacionales                                                    ;36050;36050;0
+24;01;01;24;07;002;P;Agencia Internacional de Energía                                                                                                                                                                                                                          ;36050;36050;0
+24;01;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;324712;324712;56295
+24;01;01;29;03;;P;Vehículos                                                                       ;18540;18540;0
+24;01;01;29;04;;P;Mobiliario y Otros                                                              ;16459;16459;3960
+24;01;01;29;05;;P;Máquinas y Equipos                                                              ;5356;5356;0
+24;01;01;29;06;;P;Equipos Informáticos                                                            ;102272;102272;17460
+24;01;01;29;07;;P;Programas Informáticos                                                          ;182085;182085;34875
+24;01;01;34;;;P;SERVICIO DE LA DEUDA                                                            ;408356;408356;1389718
+24;01;01;34;01;;P;Amortización Deuda Interna                                                      ;332657;332657;283608
+24;01;01;34;03;;P;Intereses Deuda Interna                                                         ;75699;75699;75699
+24;01;01;34;07;;P;Deuda Flotante                                                                  ;0;0;1030411
+;;;;;;;RESULTADO;;;-430658

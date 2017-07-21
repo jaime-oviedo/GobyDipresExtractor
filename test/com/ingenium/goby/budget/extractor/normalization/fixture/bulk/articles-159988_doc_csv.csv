@@ -1,0 +1,23 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+05;04;01;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;22319;22319;31166
+05;04;01;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;12315;12315;31166
+05;04;01;08;99;;P;Otros                                                                           ;10004;10004;0
+05;04;01;09;;;P;APORTE FISCAL                                                                   ;13921316;13921316;5234431
+05;04;01;09;01;;P;Libre                                                                           ;13921316;13921316;5234431
+05;04;01;21;;;P;GASTOS EN PERSONAL                                                              ;6060546;5910546;2064332
+05;04;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;3879222;3879222;947163
+05;04;01;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;3570939;3720939;1635867
+05;04;01;24;01;;P;Al Sector Privado                                                               ;185720;185720;85994
+05;04;01;24;01;041;P;Al Sector Privado                                                                                                                                                                                                                                         ;185720;185720;85994
+05;04;01;24;02;;P;Al Gobierno Central                                                             ;194099;194099;0
+05;04;01;24;02;001;P;Red de Respaldo de Telecomunicaciones - Ejército de Chile                                                                                                                                                                                                 ;194099;194099;0
+05;04;01;24;03;;P;A Otras Entidades Públicas                                                      ;3191120;3341120;1549873
+05;04;01;24;03;017;P;Capacitación en Protección Civil                                                                                                                                                                                                                          ;458340;458340;49873
+05;04;01;24;03;018;P;Universidad de Chile - Red Sismológica                                                                                                                                                                                                                    ;2732780;2882780;1500000
+05;04;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;432928;432928;91775
+05;04;01;29;03;;P;Vehículos                                                                       ;66215;66215;16600
+05;04;01;29;04;;P;Mobiliario y Otros                                                              ;0;1600;0
+05;04;01;29;05;;P;Máquinas y Equipos                                                              ;251320;254320;6319
+05;04;01;29;06;;P;Equipos Informáticos                                                            ;115393;24193;0
+05;04;01;29;07;;P;Programas Informáticos                                                          ;0;86600;68856
+;;;;;;;RESULTADO;;;526460

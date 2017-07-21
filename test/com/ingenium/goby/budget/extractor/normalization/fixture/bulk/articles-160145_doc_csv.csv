@@ -1,0 +1,28 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+13;02;01;05;;;P;TRANSFERENCIAS CORRIENTES                                                       ;10;10;4545
+13;02;01;05;01;;P;Del Sector Privado                                                              ;10;10;4545
+13;02;01;05;01;003;P;Administradora de Fondos para Bonificación por Retiro                                                                                                                                                                                                     ;10;10;4545
+13;02;01;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;30931;30931;66921
+13;02;01;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;30921;30921;66661
+13;02;01;08;99;;P;Otros                                                                           ;10;10;260
+13;02;01;09;;;P;APORTE FISCAL                                                                   ;6260011;6260011;1794103
+13;02;01;09;01;;P;Libre                                                                           ;6260011;6260011;1794103
+13;02;01;10;;;P;VENTA DE ACTIVOS NO FINANCIEROS                                                 ;3374;3374;0
+13;02;01;10;03;;P;Vehículos                                                                       ;3374;3374;0
+13;02;01;21;;;P;GASTOS EN PERSONAL                                                              ;3909547;3909547;1260983
+13;02;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;910883;910883;153244
+13;02;01;23;;;P;PRESTACIONES DE SEGURIDAD SOCIAL                                                ;10;10;78002
+13;02;01;23;03;;P;Prestaciones Sociales del Empleador                                             ;10;10;78002
+13;02;01;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;1264456;1264456;0
+13;02;01;24;01;;P;Al Sector Privado                                                               ;540296;540296;0
+13;02;01;24;01;011;P;Centro de Información de Recursos Naturales                                                                                                                                                                                                               ;540296;540296;0
+13;02;01;24;02;;P;Al Gobierno Central                                                             ;724160;724160;0
+13;02;01;24;02;003;P;INE - Estadísticas Continuas Intercensales                                                                                                                                                                                                                ;525349;525349;0
+13;02;01;24;02;004;P;INE - VIII Censo Agropecuario                                                                                                                                                                                                                             ;198811;198811;0
+13;02;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;209430;209430;119926
+13;02;01;29;03;;P;Vehículos                                                                       ;16870;16870;0
+13;02;01;29;04;;P;Mobiliario y Otros                                                              ;20600;20600;1850
+13;02;01;29;05;;P;Máquinas y Equipos                                                              ;12154;12154;222
+13;02;01;29;06;;P;Equipos Informáticos                                                            ;82400;82400;75963
+13;02;01;29;07;;P;Programas Informáticos                                                          ;77406;77406;41891
+;;;;;;;RESULTADO;;;253414

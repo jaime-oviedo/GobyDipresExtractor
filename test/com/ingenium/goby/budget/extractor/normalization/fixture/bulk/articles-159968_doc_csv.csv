@@ -1,0 +1,24 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+11;09;01;05;;;D;TRANSFERENCIAS CORRIENTES                                                       ;5360;7512;7512
+11;09;01;05;02;;D;Del Gobierno Central                                                            ;5360;7512;7512
+11;09;01;05;02;012;D;Fondo para Misiones de Paz-Estado Mayor Conjunto                                                                                                                                                                                                          ;5360;7512;7512
+11;09;01;08;;;D;OTROS INGRESOS CORRIENTES                                                       ;0;0;52
+11;09;01;08;99;;D;Otros                                                                           ;0;0;52
+11;09;01;09;;;D;APORTE FISCAL                                                                   ;77984;77984;8260
+11;09;01;09;01;;D;Libre                                                                           ;77984;77984;8260
+11;09;01;12;;;D;RECUPERACIÓN DE PRÉSTAMOS                                                       ;750;750;209
+11;09;01;12;07;;D;Por Anticipos por Cambio de Residencia                                          ;750;750;209
+11;09;01;21;;;D;GASTOS EN PERSONAL                                                              ;14552;15064;4524
+11;09;01;22;;;D;BIENES Y SERVICIOS DE CONSUMO                                                   ;67793;69433;3038
+11;09;01;23;;;D;PRESTACIONES DE SEGURIDAD SOCIAL                                                ;7;7;1
+11;09;01;23;01;;D;Prestaciones Previsionales                                                      ;7;7;1
+11;09;01;29;;;D;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;992;992;0
+11;09;01;29;03;;D;Vehículos                                                                       ;508;508;0
+11;09;01;29;04;;D;Mobiliario y Otros                                                              ;10;10;0
+11;09;01;29;05;;D;Máquinas y Equipos                                                              ;427;427;0
+11;09;01;29;06;;D;Equipos Informáticos                                                            ;47;47;0
+11;09;01;32;;;D;PRÉSTAMOS                                                                       ;750;750;226
+11;09;01;32;07;;D;Por Anticipos por Cambio de Residencia                                          ;750;750;226
+11;09;01;34;;;D;SERVICIO DE LA DEUDA                                                            ;0;0;4172
+11;09;01;34;07;;D;Deuda Flotante                                                                  ;0;0;4172
+;;;;;;;RESULTADO;;;4072

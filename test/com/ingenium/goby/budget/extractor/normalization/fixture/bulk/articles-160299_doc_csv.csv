@@ -1,0 +1,20 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+50;01;10;05;;;P;TRANSFERENCIAS CORRIENTES                                                       ;40;40;0
+50;01;10;05;01;;P;Del Sector Privado                                                              ;10;10;0
+50;01;10;05;03;;P;De Otras Entidades Públicas                                                     ;10;10;0
+50;01;10;05;06;;P;De Gobiernos Extranjeros                                                        ;10;10;0
+50;01;10;05;07;;P;De Organismos Internacionales                                                   ;10;10;0
+50;01;10;06;;;P;RENTAS DE LA PROPIEDAD                                                          ;3678612;3678612;1078531
+50;01;10;06;03;;P;Intereses                                                                       ;3678612;3678612;1078531
+50;01;10;06;03;010;P;Intereses                                                                                                                                                                                                                                                 ;3678612;3678612;1078531
+50;01;10;11;;;P;VENTA DE ACTIVOS FINANCIEROS                                                    ;10;10;46636267
+50;01;10;11;01;;P;Venta o Rescate de Títulos y Valores                                            ;10;10;46636267
+50;01;10;13;;;P;TRANSFERENCIAS PARA GASTOS DE CAPITAL                                           ;100000000;100000000;100000000
+50;01;10;13;02;;P;Del Gobierno Central                                                            ;100000000;100000000;100000000
+50;01;10;13;02;100;P;De Operaciones Complementarias                                                                                                                                                                                                                            ;100000000;100000000;100000000
+50;01;10;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;80000000;80000000;13235701
+50;01;10;24;02;;P;Al Gobierno Central                                                             ;80000000;80000000;13235701
+50;01;10;24;02;090;P;Al Fondo Nacional de Salud, aplicación del Fondo para Diagnóstico y Tratamientos de Alto Costo Ley N°20.850                                                                                                                                               ;80000000;80000000;13235701
+50;01;10;30;;;P;ADQUISICIÓN DE ACTIVOS FINANCIEROS                                              ;23678662;23678662;134479097
+50;01;10;30;01;;P;Compra de Títulos y Valores                                                     ;23678662;23678662;134479097
+;;;;;;;RESULTADO;;;0

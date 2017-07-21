@@ -1,0 +1,30 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+24;01;05;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;30;30;85927
+24;01;05;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;10;10;0
+24;01;05;08;02;;P;Multas y Sanciones Pecuniarias                                                  ;10;10;50723
+24;01;05;08;99;;P;Otros                                                                           ;10;10;35204
+24;01;05;09;;;P;APORTE FISCAL                                                                   ;19248298;19381298;7278861
+24;01;05;09;01;;P;Libre                                                                           ;19248298;19381298;7278861
+24;01;05;13;;;P;TRANSFERENCIAS PARA GASTOS DE CAPITAL                                           ;2618898;8465050;7050595
+24;01;05;13;02;;P;Del Gobierno Central                                                            ;2618898;8465050;7050595
+24;01;05;13;02;012;P;Gobierno Regional de Magallanes y Antártica Chilena                                                                                                                                                                                                       ;246314;1657483;243028
+24;01;05;13;02;015;P;Gobierno Regional de Arica y Parinacota                                                                                                                                                                                                                   ;2372584;6807567;6807567
+24;01;05;15;;;P;SALDO INICIAL DE CAJA                                                           ;0;28000;0
+24;01;05;21;;;P;GASTOS EN PERSONAL                                                              ;1766501;1766501;584624
+24;01;05;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;1995494;1845494;260829
+24;01;05;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;15439221;16850390;6850090
+24;01;05;24;01;;P;Al Sector Privado                                                               ;2058719;3469888;1158719
+24;01;05;24;01;006;P;Agencia Chilena de Eficiencia Energética                                                                                                                                                                                                                  ;2058719;3469888;1158719
+24;01;05;24;03;;P;A Otras Entidades Públicas                                                      ;13380502;13380502;5691371
+24;01;05;24;03;006;P;Aplicación Plan de Acción de Eficiencia Energética                                                                                                                                                                                                        ;13380502;13380502;5691371
+24;01;05;25;;;P;INTEGROS AL FISCO                                                               ;0;28000;28000
+24;01;05;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;41200;41200;0
+24;01;05;29;05;;P;Máquinas y Equipos                                                              ;41200;41200;0
+24;01;05;33;;;P;TRANSFERENCIAS DE CAPITAL                                                       ;2624810;7342793;6407618
+24;01;05;33;01;;P;Al Sector Privado                                                               ;1972635;6407618;6407618
+24;01;05;33;01;001;P;Agencia Chilena de Eficiencia Energética                                                                                                                                                                                                                  ;1972635;6407618;6407618
+24;01;05;33;03;;P;A Otras Entidades Públicas                                                      ;652175;935175;0
+24;01;05;33;03;001;P;Aplicación Plan de Acción de Eficiencia Energética                                                                                                                                                                                                        ;652175;935175;0
+24;01;05;34;;;P;SERVICIO DE LA DEUDA                                                            ;0;0;1198865
+24;01;05;34;07;;P;Deuda Flotante                                                                  ;0;0;1198865
+;;;;;;;RESULTADO;;;-914643

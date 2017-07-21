@@ -1,0 +1,29 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+11;22;01;05;;;P;TRANSFERENCIAS CORRIENTES                                                       ;340275;340275;340275
+11;22;01;05;02;;P;Del Gobierno Central                                                            ;340275;340275;340275
+11;22;01;05;02;002;P;Fuerza Aérea de Chile                                                                                                                                                                                                                                     ;340275;340275;340275
+11;22;01;07;;;P;INGRESOS DE OPERACIÓN                                                           ;726801;726801;63351
+11;22;01;07;01;;P;Venta de Bienes                                                                 ;726801;726801;63351
+11;22;01;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;3634;3634;5196
+11;22;01;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;3303;3303;5196
+11;22;01;08;99;;P;Otros                                                                           ;331;331;0
+11;22;01;09;;;P;APORTE FISCAL                                                                   ;1918457;1918457;125433
+11;22;01;09;01;;P;Libre                                                                           ;1918457;1918457;125433
+11;22;01;12;;;P;RECUPERACIÓN DE PRÉSTAMOS                                                       ;86146;86146;287766
+11;22;01;12;10;;P;Ingresos por Percibir                                                           ;86146;86146;287766
+11;22;01;15;;;P;SALDO INICIAL DE CAJA                                                           ;50557;50557;0
+11;22;01;21;;;P;GASTOS EN PERSONAL                                                              ;920953;920953;262476
+11;22;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;1367142;1367142;103508
+11;22;01;23;;;P;PRESTACIONES DE SEGURIDAD SOCIAL                                                ;12075;12075;0
+11;22;01;23;01;;P;Prestaciones Previsionales                                                      ;12075;12075;0
+11;22;01;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;8649;8649;2682
+11;22;01;24;01;;P;Al Sector Privado                                                               ;8649;8649;2682
+11;22;01;24;01;007;P;Bienestar Social                                                                                                                                                                                                                                          ;8649;8649;2682
+11;22;01;25;;;P;INTEGROS AL FISCO                                                               ;1069;1069;0
+11;22;01;25;01;;P;Impuestos                                                                       ;1069;1069;0
+11;22;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;815982;815982;1363
+11;22;01;29;04;;P;Mobiliario y Otros                                                              ;3751;3751;1363
+11;22;01;29;05;;P;Máquinas y Equipos                                                              ;474080;474080;0
+11;22;01;29;06;;P;Equipos Informáticos                                                            ;110675;110675;0
+11;22;01;29;07;;P;Programas Informáticos                                                          ;227476;227476;0
+;;;;;;;RESULTADO;;;451992

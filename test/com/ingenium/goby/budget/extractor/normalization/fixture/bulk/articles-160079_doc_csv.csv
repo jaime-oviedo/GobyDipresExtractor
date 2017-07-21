@@ -1,0 +1,33 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+09;01;04;05;;;P;TRANSFERENCIAS CORRIENTES                                                       ;0;9464;0
+09;01;04;05;01;;P;Del Sector Privado                                                              ;0;9464;0
+09;01;04;05;01;003;P;Administradora del Fondo para Bonificación por Retiro                                                                                                                                                                                                     ;0;9464;0
+09;01;04;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;2382;2382;28752
+09;01;04;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;1191;1191;2275
+09;01;04;08;99;;P;Otros                                                                           ;1191;1191;26477
+09;01;04;09;;;P;APORTE FISCAL                                                                   ;30627731;27852035;3957252
+09;01;04;09;01;;P;Libre                                                                           ;30627731;27852035;3957252
+09;01;04;15;;;P;SALDO INICIAL DE CAJA                                                           ;1000;5733399;0
+09;01;04;21;;;P;GASTOS EN PERSONAL                                                              ;5093183;5093183;1601373
+09;01;04;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;3319307;5279307;534490
+09;01;04;23;;;P;PRESTACIONES DE SEGURIDAD SOCIAL                                                ;0;48489;0
+09;01;04;23;03;;P;Prestaciones Sociales del Empleador                                             ;0;48489;0
+09;01;04;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;22216595;20829948;1594204
+09;01;04;24;03;;P;A Otras Entidades Públicas                                                      ;22216595;20829948;1594204
+09;01;04;24;03;089;P;Desarrollo  Curricular                                                                                                                                                                                                                                    ;1854000;1854000;112196
+09;01;04;24;03;099;P;Estándares de Aprendizaje Indicativos y de Gestión                                                                                                                                                                                                        ;178911;178911;31006
+09;01;04;24;03;133;P;Perfeccionamiento de los Profesionales de la Educación                                                                                                                                                                                                    ;2590268;2590268;21138
+09;01;04;24;03;514;P;Suma Adicional, Red de Maestros de Maestros, Art.17, Ley 19.715                                                                                                                                                                                           ;663807;663807;0
+09;01;04;24;03;515;P;Evaluación de Desempeño Docente                                                                                                                                                                                                                           ;6451947;6451947;2358
+09;01;04;24;03;517;P;Fortalecimiento del Aprendizaje del Inglés                                                                                                                                                                                                                ;2884000;2884000;1068174
+09;01;04;24;03;519;P;Bonificación, por Aplicación letra g) Art. 72, DFL(Ed.) N° 1, de 1997                                                                                                                                                                                     ;69494;69494;0
+09;01;04;24;03;604;P;Fomento a la Calidad de la Formación Inicial de Docentes                                                                                                                                                                                                  ;3315681;3315681;259303
+09;01;04;24;03;611;P;Plan de Formación de Directores y Liderazgo Educativo                                                                                                                                                                                                     ;1985840;1585840;100029
+09;01;04;24;03;612;P;Centro de Liderazgo Educativo                                                                                                                                                                                                                             ;1236000;1236000;0
+09;01;04;24;03;614;P;Aportes Art. 18N y 18T del Título II, Ley N° 20.903                                                                                                                                                                                                       ;986647;0;0
+09;01;04;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;0;365000;0
+09;01;04;29;07;;P;Programas Informáticos                                                          ;0;365000;0
+09;01;04;34;;;P;SERVICIO DE LA DEUDA                                                            ;1028;1980353;1980353
+09;01;04;34;07;;P;Deuda Flotante                                                                  ;1028;1980353;1980353
+09;01;04;35;;;P;SALDO FINAL DE CAJA                                                             ;1000;1000;0
+;;;;;;;RESULTADO;;;-1724416

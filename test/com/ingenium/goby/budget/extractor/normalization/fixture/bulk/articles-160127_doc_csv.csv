@@ -1,0 +1,31 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+11;23;01;05;;;P;TRANSFERENCIAS CORRIENTES                                                       ;58143;58143;40083
+11;23;01;05;02;;P;Del Gobierno Central                                                            ;58143;58143;40083
+11;23;01;05;02;005;P;Ejército de Chile                                                                                                                                                                                                                                         ;19185;19185;1125
+11;23;01;05;02;010;P;Fuerza Aérea de Chile                                                                                                                                                                                                                                     ;38958;38958;38958
+11;23;01;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;8818;8818;94375
+11;23;01;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;8728;8728;62575
+11;23;01;08;99;;P;Otros                                                                           ;90;90;31800
+11;23;01;09;;;P;APORTE FISCAL                                                                   ;14569315;14569315;5505891
+11;23;01;09;01;;P;Libre                                                                           ;14569315;14569315;5505891
+11;23;01;21;;;P;GASTOS EN PERSONAL                                                              ;8750227;8750227;2943393
+11;23;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;2397432;2397432;488406
+11;23;01;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;3030280;3030280;2137411
+11;23;01;24;01;;P;Al Sector Privado                                                               ;296298;296298;32868
+11;23;01;24;01;004;P;Premios y Otros                                                                                                                                                                                                                                           ;2865;2865;0
+11;23;01;24;01;005;P;Bienestar Social                                                                                                                                                                                                                                          ;293433;293433;32868
+11;23;01;24;02;;P;Al Gobierno Central                                                             ;2437429;2437429;1988430
+11;23;01;24;02;003;P;Ejército de Chile                                                                                                                                                                                                                                         ;448999;448999;0
+11;23;01;24;02;048;P;Programa Antártico - Ejército de Chile                                                                                                                                                                                                                    ;662810;662810;662810
+11;23;01;24;02;049;P;Programa Antártico - Armada de Chile                                                                                                                                                                                                                      ;662810;662810;662810
+11;23;01;24;02;050;P;Programa Antártico - Fuerza Aérea de Chile                                                                                                                                                                                                                ;662810;662810;662810
+11;23;01;24;03;;P;A Otras Entidades Públicas                                                      ;296553;296553;116113
+11;23;01;24;03;037;P;Defensa Civil                                                                                                                                                                                                                                             ;296552;296552;116113
+11;23;01;24;03;038;P;Corte Marcial                                                                                                                                                                                                                                             ;1;1;0
+11;23;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;449901;449901;65541
+11;23;01;29;04;;P;Mobiliario y Otros                                                              ;60443;60443;15003
+11;23;01;29;05;;P;Máquinas y Equipos                                                              ;22454;22454;10328
+11;23;01;29;06;;P;Equipos Informáticos                                                            ;79889;79889;1252
+11;23;01;29;07;;P;Programas Informáticos                                                          ;287115;287115;38958
+11;23;01;35;;;P;SALDO FINAL DE CAJA                                                             ;8436;8436;0
+;;;;;;;RESULTADO;;;5598

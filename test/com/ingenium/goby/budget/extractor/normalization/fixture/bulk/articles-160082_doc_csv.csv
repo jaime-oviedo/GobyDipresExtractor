@@ -1,0 +1,29 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+09;01;12;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;1030;1030;56529
+09;01;12;08;99;;P;Otros                                                                           ;1030;1030;56529
+09;01;12;09;;;P;APORTE FISCAL                                                                   ;354354297;351632195;15991658
+09;01;12;09;01;;P;Libre                                                                           ;354354297;351632195;15991658
+09;01;12;15;;;P;SALDO INICIAL DE CAJA                                                           ;1000;3713307;0
+09;01;12;21;;;P;GASTOS EN PERSONAL                                                              ;4419658;4419658;1287354
+09;01;12;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;2408900;2408900;76839
+09;01;12;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;291921279;290492926;2741780
+09;01;12;24;02;;P;Al Gobierno Central                                                             ;600000;600000;600000
+09;01;12;24;02;003;P;Corporación de Fomento de la Producción                                                                                                                                                                                                                   ;600000;600000;600000
+09;01;12;24;03;;P;A Otras Entidades Públicas                                                      ;291321279;289892926;2141780
+09;01;12;24;03;051;P;Fondo de Apoyo a la Educación Pública                                                                                                                                                                                                                     ;257500000;257500000;1498597
+09;01;12;24;03;052;P;Programa de Acceso a la Educación Superior                                                                                                                                                                                                                ;13314863;13314863;0
+09;01;12;24;03;053;P;Asesoría y Apoyo a la Educación Escolar                                                                                                                                                                                                                   ;9967756;9967756;292611
+09;01;12;24;03;054;P;Perfeccionamiento para Profesionales de la Educación                                                                                                                                                                                                      ;3885402;2457049;21686
+09;01;12;24;03;055;P;Educación Técnico Profesional                                                                                                                                                                                                                             ;2202428;2202428;201704
+09;01;12;24;03;056;P;Apoyo al Deporte y la Recreación                                                                                                                                                                                                                          ;2312550;2312550;127182
+09;01;12;24;03;057;P;Transporte Escolar Rural                                                                                                                                                                                                                                  ;2138280;2138280;0
+09;01;12;33;;;P;TRANSFERENCIAS DE CAPITAL                                                       ;55605490;55605490;6873460
+09;01;12;33;03;;P;A Otras Entidades Públicas                                                      ;55605490;55605490;6873460
+09;01;12;33;03;001;P;Asistencia Técnica                                                                                                                                                                                                                                        ;1342261;1342261;34058
+09;01;12;33;03;050;P;Infraestructura  Liceos  Tradicionales  Municipales                                                                                                                                                                                                       ;5002319;5002319;191720
+09;01;12;33;03;104;P;Mejoramiento de Infraestructura Escolar Pública                                                                                                                                                                                                           ;44119865;44119865;6224268
+09;01;12;33;03;105;P;Equipamiento de Establecimientos de Educación Técnico Profesional                                                                                                                                                                                         ;5141045;5141045;423414
+09;01;12;34;;;P;SERVICIO DE LA DEUDA                                                            ;0;2418558;2396357
+09;01;12;34;07;;P;Deuda Flotante                                                                  ;0;2418558;2396357
+09;01;12;35;;;P;SALDO FINAL DE CAJA                                                             ;1000;1000;0
+;;;;;;;RESULTADO;;;2672397

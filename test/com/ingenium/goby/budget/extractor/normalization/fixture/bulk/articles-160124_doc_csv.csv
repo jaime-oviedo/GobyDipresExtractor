@@ -1,0 +1,29 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+11;20;01;05;;;P;TRANSFERENCIAS CORRIENTES                                                       ;727000;727000;727000
+11;20;01;05;02;;P;Del Gobierno Central                                                            ;727000;727000;727000
+11;20;01;05;02;002;P;Dirección General del Territorio Marítimo                                                                                                                                                                                                                 ;727000;727000;727000
+11;20;01;07;;;P;INGRESOS DE OPERACIÓN                                                           ;430120;430120;269720
+11;20;01;07;01;;P;Venta de Bienes                                                                 ;314680;314680;238302
+11;20;01;07;02;;P;Venta de Servicios                                                              ;115440;115440;31418
+11;20;01;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;72821;72821;44938
+11;20;01;08;99;;P;Otros                                                                           ;72821;72821;44938
+11;20;01;09;;;P;APORTE FISCAL                                                                   ;5041503;5041503;1894633
+11;20;01;09;01;;P;Libre                                                                           ;5041503;5041503;1894633
+11;20;01;10;;;P;VENTA DE ACTIVOS NO FINANCIEROS                                                 ;0;0;125
+11;20;01;10;05;;P;Máquinas y Equipos                                                              ;0;0;125
+11;20;01;12;;;P;RECUPERACIÓN DE PRÉSTAMOS                                                       ;12704;12704;21004
+11;20;01;12;10;;P;Ingresos por Percibir                                                           ;12704;12704;21004
+11;20;01;21;;;P;GASTOS EN PERSONAL                                                              ;2659286;2659286;881680
+11;20;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;2197777;2197777;733686
+11;20;01;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;2374;2374;2374
+11;20;01;24;01;;P;Al Sector Privado                                                               ;2374;2374;2374
+11;20;01;24;01;007;P;Bienestar Social                                                                                                                                                                                                                                          ;2374;2374;2374
+11;20;01;25;;;P;INTEGROS AL FISCO                                                               ;10289;10289;5018
+11;20;01;25;01;;P;Impuestos                                                                       ;10289;10289;5018
+11;20;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;1414422;1414422;1016718
+11;20;01;29;03;;P;Vehículos                                                                       ;26729;26729;24944
+11;20;01;29;04;;P;Mobiliario y Otros                                                              ;15610;15610;4663
+11;20;01;29;05;;P;Máquinas y Equipos                                                              ;715182;715182;598086
+11;20;01;29;06;;P;Equipos Informáticos                                                            ;122297;122297;110908
+11;20;01;29;07;;P;Programas Informáticos                                                          ;534604;534604;278117
+;;;;;;;RESULTADO;;;317944

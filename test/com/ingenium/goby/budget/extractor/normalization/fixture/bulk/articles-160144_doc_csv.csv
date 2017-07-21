@@ -1,0 +1,17 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+13;01;02;05;;;P;TRANSFERENCIAS CORRIENTES                                                       ;3660775;3660775;0
+13;01;02;05;02;;P;Del Gobierno Central                                                            ;3660775;3660775;0
+13;01;02;05;02;002;P;Programa Fondo de Innovación para la Competitividad                                                                                                                                                                                                       ;2682275;2682275;0
+13;01;02;05;02;023;P;De Subsecretaría de Economía FIE a  FIA                                                                                                                                                                                                                   ;978500;978500;0
+13;01;02;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;0;0;103793
+13;01;02;08;99;;P;Otros                                                                           ;0;0;103793
+13;01;02;09;;;P;APORTE FISCAL                                                                   ;31206472;31206472;10469928
+13;01;02;09;01;;P;Libre                                                                           ;31206472;31206472;10469928
+13;01;02;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;34867247;34867247;10216162
+13;01;02;24;01;;P;Al Sector Privado                                                               ;34867247;34867247;10216162
+13;01;02;24;01;371;P;Instituto de Investigaciones Agropecuarias                                                                                                                                                                                                                ;16875557;16875557;6003075
+13;01;02;24;01;372;P;Fundación para la Innovación Agraria                                                                                                                                                                                                                      ;10697405;10697405;1708592
+13;01;02;24;01;373;P;Instituto Forestal                                                                                                                                                                                                                                        ;3862750;3862750;1177890
+13;01;02;24;01;374;P;Centro de Información de Recursos Naturales                                                                                                                                                                                                               ;3261397;3261397;1326605
+13;01;02;24;01;376;P;Programa de Apoyo a la Investigación para la Competitividad Agroalimentaria y Forestal                                                                                                                                                                    ;170138;170138;0
+;;;;;;;RESULTADO;;;357559

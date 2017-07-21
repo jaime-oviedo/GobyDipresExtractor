@@ -1,0 +1,24 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+09;01;11;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;2382;2382;13496
+09;01;11;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;1191;1191;0
+09;01;11;08;99;;P;Otros                                                                           ;1191;1191;13496
+09;01;11;09;;;P;APORTE FISCAL                                                                   ;51440652;49440652;31326345
+09;01;11;09;01;;P;Libre                                                                           ;51440652;49440652;31326345
+09;01;11;15;;;P;SALDO INICIAL DE CAJA                                                           ;1000;4887036;0
+09;01;11;21;;;P;GASTOS EN PERSONAL                                                              ;1238600;1238600;364726
+09;01;11;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;1039949;1039949;41979
+09;01;11;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;43013355;43013355;26198361
+09;01;11;24;03;;P;A Otras Entidades Públicas                                                      ;43013355;43013355;26198361
+09;01;11;24;03;091;P;Centro de Recursos de Aprendizaje (Bibliotecas CRA)                                                                                                                                                                                                       ;5665000;5665000;201256
+09;01;11;24;03;383;P;Textos Escolares de Educación Básica y Media                                                                                                                                                                                                              ;34420000;34420000;25990083
+09;01;11;24;03;386;P;Informática Educativa en Escuelas y Liceos                                                                                                                                                                                                                ;2060000;2060000;5799
+09;01;11;24;03;610;P;Apoyo al Deporte y la Recreación                                                                                                                                                                                                                          ;868355;868355;1223
+09;01;11;33;;;P;TRANSFERENCIAS DE CAPITAL                                                       ;6150130;6800719;85606
+09;01;11;33;02;;P;Al Gobierno Central                                                             ;3781130;4431719;0
+09;01;11;33;02;002;P;Subsecretaría de Telecomunicaciones                                                                                                                                                                                                                       ;3781130;4431719;0
+09;01;11;33;03;;P;A Otras Entidades Públicas                                                      ;2369000;2369000;85606
+09;01;11;33;03;026;P;Informática Educativa en Escuelas y Liceos                                                                                                                                                                                                                ;2369000;2369000;85606
+09;01;11;34;;;P;SERVICIO DE LA DEUDA                                                            ;1000;2236447;2236447
+09;01;11;34;07;;P;Deuda Flotante                                                                  ;1000;2236447;2236447
+09;01;11;35;;;P;SALDO FINAL DE CAJA                                                             ;1000;1000;0
+;;;;;;;RESULTADO;;;2412722

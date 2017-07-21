@@ -1,0 +1,55 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+07;07;01;05;;;P;TRANSFERENCIAS CORRIENTES                                                       ;4535295;4256826;284334
+07;07;01;05;02;;P;Del Gobierno Central                                                            ;4535295;4256826;284334
+07;07;01;05;02;001;P;Subsecretaría de Prevención del Delito                                                                                                                                                                                                                    ;789224;789224;0
+07;07;01;05;02;003;P;Oficina de Estudios y Políticas Agrarias                                                                                                                                                                                                                  ;525349;525349;0
+07;07;01;05;02;004;P;Programa de Modernización del Estado-BID                                                                                                                                                                                                                  ;1884967;1884967;148000
+07;07;01;05;02;008;P;Fondo de Innovación para la Competitividad                                                                                                                                                                                                                ;424875;424875;0
+07;07;01;05;02;009;P;Subsecretaría de Economía                                                                                                                                                                                                                                 ;431113;431113;129334
+07;07;01;05;02;016;P;Subsecretaría de Evaluación Social                                                                                                                                                                                                                        ;278469;0;0
+07;07;01;05;02;017;P;Secretaría y Administración General y Servicio Exterior                                                                                                                                                                                                   ;194088;194088;0
+07;07;01;05;02;129;P;Subsecretaria de Turismo                                                                                                                                                                                                                                  ;7210;7210;7000
+07;07;01;06;;;P;RENTAS DE LA PROPIEDAD                                                          ;5999;5999;2218
+07;07;01;07;;;P;INGRESOS DE OPERACIÓN                                                           ;198218;198218;21
+07;07;01;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;488489;488489;167265
+07;07;01;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;488489;488489;167265
+07;07;01;09;;;P;APORTE FISCAL                                                                   ;34009640;34009640;12699991
+07;07;01;09;01;;P;Libre                                                                           ;34009640;34009640;12699991
+07;07;01;10;;;P;VENTA DE ACTIVOS NO FINANCIEROS                                                 ;1250;1250;4422
+07;07;01;10;04;;P;Mobiliario y Otros                                                              ;1250;1250;4422
+07;07;01;12;;;P;RECUPERACIÓN DE PRÉSTAMOS                                                       ;99110;99110;36998
+07;07;01;12;10;;P;Ingresos por Percibir                                                           ;99110;99110;36998
+07;07;01;15;;;P;SALDO INICIAL DE CAJA                                                           ;10;10;0
+07;07;01;21;;;P;GASTOS EN PERSONAL                                                              ;19982294;19982294;6515688
+07;07;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;1436520;1436520;423329
+07;07;01;23;;;P;PRESTACIONES DE SEGURIDAD SOCIAL                                                ;10;10;567836
+07;07;01;23;03;;P;Prestaciones Sociales del Empleador                                             ;10;10;567836
+07;07;01;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;16174661;15896192;4768537
+07;07;01;24;03;;P;A Otras Entidades Públicas                                                      ;16174661;15896192;4768537
+07;07;01;24;03;475;P;Programa de Estadísticas Contínuas Intercensales Agrícolas                                                                                                                                                                                                ;525349;525349;48828
+07;07;01;24;03;477;P;Índice de Costo al Transporte Terrestre                                                                                                                                                                                                                   ;357249;357249;130967
+07;07;01;24;03;492;P;Programa de Estadísticas Económicas                                                                                                                                                                                                                       ;6676034;6676034;2577923
+07;07;01;24;03;493;P;Programa de Infraestructura Estadística                                                                                                                                                                                                                   ;1811599;1811599;613424
+07;07;01;24;03;494;P;Programa de Estadísticas de Hogares                                                                                                                                                                                                                       ;1958023;1958023;726410
+07;07;01;24;03;496;P;Programa de Producción con Convenios                                                                                                                                                                                                                      ;198218;198218;63288
+07;07;01;24;03;497;P;Proyecto de Modernización Institucional                                                                                                                                                                                                                   ;638243;638243;215451
+07;07;01;24;03;498;P;Encuesta Nacional de Innovación                                                                                                                                                                                                                           ;424875;424875;145089
+07;07;01;24;03;499;P;Encuesta de Microemprendimiento                                                                                                                                                                                                                           ;431113;431113;46882
+07;07;01;24;03;501;P;Encuesta CASEN                                                                                                                                                                                                                                            ;278469;0;0
+07;07;01;24;03;502;P;Encuesta Nacional Urbana de Seguridad Ciudadana                                                                                                                                                                                                           ;789224;789224;0
+07;07;01;24;03;600;P;Programa de Modernización del Estado-BID                                                                                                                                                                                                                  ;1884967;1884967;122987
+07;07;01;24;03;606;P;Directorio de Actividades Características del Turismo                                                                                                                                                                                                     ;7210;7210;7177
+07;07;01;24;03;607;P;Registro de Chilenos en el Exterior                                                                                                                                                                                                                       ;194088;194088;70111
+07;07;01;25;;;P;INTEGROS AL FISCO                                                               ;10;10;3
+07;07;01;25;01;;P;Impuestos                                                                       ;10;10;3
+07;07;01;26;;;P;OTROS GASTOS CORRIENTES                                                         ;0;0;13421
+07;07;01;26;02;;P;Compensaciones por Daños a Terceros y/o a la Propiedad                          ;0;0;13421
+07;07;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;1744516;1744516;70265
+07;07;01;29;03;;P;Vehículos                                                                       ;104566;104566;0
+07;07;01;29;04;;P;Mobiliario y Otros                                                              ;60399;60399;1983
+07;07;01;29;05;;P;Máquinas y Equipos                                                              ;68669;68669;0
+07;07;01;29;06;;P;Equipos Informáticos                                                            ;693805;693805;15504
+07;07;01;29;07;;P;Programas Informáticos                                                          ;817077;817077;52778
+07;07;01;34;;;P;SERVICIO DE LA DEUDA                                                            ;0;0;762804
+07;07;01;34;07;;P;Deuda Flotante                                                                  ;0;0;762804
+;;;;;;;RESULTADO;;;73366

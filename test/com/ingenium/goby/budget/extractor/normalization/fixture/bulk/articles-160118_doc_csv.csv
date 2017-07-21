@@ -1,0 +1,29 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+11;07;01;07;;;P;INGRESOS DE OPERACIÓN                                                           ;84057533;84057533;37821039
+11;07;01;07;02;;P;Venta de Servicios                                                              ;84057533;84057533;37821039
+11;07;01;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;180359;180359;423
+11;07;01;08;99;;P;Otros                                                                           ;180359;180359;423
+11;07;01;12;;;P;RECUPERACIÓN DE PRÉSTAMOS                                                       ;1099004;1099004;2692324
+11;07;01;12;10;;P;Ingresos por Percibir                                                           ;1099004;1099004;2692324
+11;07;01;15;;;P;SALDO INICIAL DE CAJA                                                           ;3653894;3653894;0
+11;07;01;21;;;P;GASTOS EN PERSONAL                                                              ;18526600;18526600;6178374
+11;07;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;37750037;37750037;10027706
+11;07;01;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;727000;727000;727000
+11;07;01;24;02;;P;Al Gobierno Central                                                             ;727000;727000;727000
+11;07;01;24;02;001;P;Servicio Hidrográfico y Oceanográfico de la Armada                                                                                                                                                                                                        ;727000;727000;727000
+11;07;01;25;;;P;INTEGROS AL FISCO                                                               ;26729;26729;5436
+11;07;01;25;01;;P;Impuestos                                                                       ;26729;26729;5436
+11;07;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;1124720;1124720;174091
+11;07;01;29;03;;P;Vehículos                                                                       ;179490;179490;24370
+11;07;01;29;04;;P;Mobiliario y Otros                                                              ;47049;47049;88
+11;07;01;29;05;;P;Máquinas y Equipos                                                              ;580948;580948;20297
+11;07;01;29;06;;P;Equipos Informáticos                                                            ;38004;38004;0
+11;07;01;29;07;;P;Programas Informáticos                                                          ;279229;279229;129336
+11;07;01;30;;;P;ADQUISICIÓN DE ACTIVOS FINANCIEROS                                              ;14123400;14123400;0
+11;07;01;30;01;;P;Compra de Títulos y Valores                                                     ;14123400;14123400;0
+11;07;01;31;;;P;INICIATIVAS DE INVERSIÓN                                                        ;5361425;5361425;2462734
+11;07;01;31;02;;P;Proyectos                                                                       ;5361425;5361425;2462734
+11;07;01;34;;;P;SERVICIO DE LA DEUDA                                                            ;0;0;608235
+11;07;01;34;07;;P;Deuda Flotante                                                                  ;0;0;608235
+11;07;01;35;;;P;SALDO FINAL DE CAJA                                                             ;11350879;11350879;0
+;;;;;;;RESULTADO;;;20330210

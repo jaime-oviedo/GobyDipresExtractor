@@ -1,0 +1,32 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+15;01;01;05;;;P;TRANSFERENCIAS CORRIENTES                                                       ;0;12602;0
+15;01;01;05;01;;P;Del Sector Privado                                                              ;0;12602;0
+15;01;01;05;01;003;P;Administradora del Fondo para Bonificación por Retiro                                                                                                                                                                                                     ;0;12602;0
+15;01;01;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;55711;55711;23061
+15;01;01;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;55061;55061;22209
+15;01;01;08;99;;P;Otros                                                                           ;650;650;852
+15;01;01;09;;;P;APORTE FISCAL                                                                   ;11036262;11068262;4455756
+15;01;01;09;01;;P;Libre                                                                           ;11036262;11068262;4455756
+15;01;01;15;;;P;SALDO INICIAL DE CAJA                                                           ;50000;50000;0
+15;01;01;21;;;P;GASTOS EN PERSONAL                                                              ;5525632;5502528;1941910
+15;01;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;2187903;2187903;532163
+15;01;01;23;;;P;PRESTACIONES DE SEGURIDAD SOCIAL                                                ;0;67706;0
+15;01;01;23;03;;P;Prestaciones Sociales del Empleador                                             ;0;67706;0
+15;01;01;23;03;001;P;Indemnización de Cargo Fiscal                                                                                                                                                                                                                             ;0;44602;0
+15;01;01;23;03;003;P;Fondo Retiro Funcionarios Públicos  Ley N° 19.882                                                                                                                                                                                                         ;0;23104;0
+15;01;01;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;3136508;3136508;1706800
+15;01;01;24;01;;P;Al Sector Privado                                                               ;1429708;1429708;0
+15;01;01;24;01;432;P;Programa Diálogo Social                                                                                                                                                                                                                                   ;407150;407150;0
+15;01;01;24;01;435;P;Fondo de Formación Sindical y Relaciones Laborales Colaborativas                                                                                                                                                                                          ;1022558;1022558;0
+15;01;01;24;03;;P;A Otras Entidades Públicas                                                      ;1706800;1706800;1706800
+15;01;01;24;03;261;P;Comisión del Sistema Nacional de Certificación de Competencias Laborales                                                                                                                                                                                  ;1706800;1706800;1706800
+15;01;01;25;;;P;INTEGROS AL FISCO                                                               ;153;153;0
+15;01;01;25;01;;P;Impuestos                                                                       ;153;153;0
+15;01;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;287777;287777;158172
+15;01;01;29;05;;P;Máquinas y Equipos                                                              ;6953;6953;3506
+15;01;01;29;06;;P;Equipos Informáticos                                                            ;98086;98086;63375
+15;01;01;29;07;;P;Programas Informáticos                                                          ;182738;182738;91291
+15;01;01;34;;;P;SERVICIO DE LA DEUDA                                                            ;2000;2000;99996
+15;01;01;34;07;;P;Deuda Flotante                                                                  ;2000;2000;99996
+15;01;01;35;;;P;SALDO FINAL DE CAJA                                                             ;2000;2000;0
+;;;;;;;RESULTADO;;;39776

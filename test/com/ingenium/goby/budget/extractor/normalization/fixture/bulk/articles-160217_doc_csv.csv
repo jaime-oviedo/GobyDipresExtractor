@@ -1,0 +1,23 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+16;51;01;05;;;P;TRANSFERENCIAS CORRIENTES                                                       ;5069436;5069436;1894551
+16;51;01;05;02;;P;Del Gobierno Central                                                            ;5069436;5069436;1894551
+16;51;01;05;02;008;P;Fondo Nacional de Salud - Prestaciones Valoradas                                                                                                                                                                                                          ;1154665;1154665;568826
+16;51;01;05;02;009;P;Fondo Nacional de Salud - Prestaciones Institucionales                                                                                                                                                                                                    ;3914340;3914340;1325725
+16;51;01;05;02;010;P;Subsecretaría de Salud Pública                                                                                                                                                                                                                            ;431;431;0
+16;51;01;06;;;P;RENTAS DE LA PROPIEDAD                                                          ;811;811;0
+16;51;01;07;;;P;INGRESOS DE OPERACIÓN                                                           ;215883;215883;30002
+16;51;01;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;116214;116214;34183
+16;51;01;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;113609;113609;33237
+16;51;01;08;02;;P;Multas y Sanciones Pecuniarias                                                  ;166;166;0
+16;51;01;08;99;;P;Otros                                                                           ;2439;2439;946
+16;51;01;12;;;P;RECUPERACIÓN DE PRÉSTAMOS                                                       ;77337;77337;363233
+16;51;01;12;10;;P;Ingresos por Percibir                                                           ;77337;77337;363233
+16;51;01;15;;;P;SALDO INICIAL DE CAJA                                                           ;489;489;0
+16;51;01;21;;;P;GASTOS EN PERSONAL                                                              ;3278488;3278488;1536443
+16;51;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;2184068;2184068;786413
+16;51;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;17114;17114;3360
+16;51;01;29;04;;P;Mobiliario y Otros                                                              ;17114;17114;683
+16;51;01;29;05;;P;Máquinas y Equipos                                                              ;0;0;2478
+16;51;01;29;07;;P;Programas Informáticos                                                          ;0;0;199
+16;51;01;35;;;P;SALDO FINAL DE CAJA                                                             ;500;500;0
+;;;;;;;RESULTADO;;;-4247

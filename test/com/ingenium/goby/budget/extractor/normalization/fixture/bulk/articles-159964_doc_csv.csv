@@ -1,0 +1,22 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+06;02;01;08;;;D;OTROS INGRESOS CORRIENTES                                                       ;106;106;6
+06;02;01;08;99;;D;Otros                                                                           ;106;106;6
+06;02;01;09;;;D;APORTE FISCAL                                                                   ;10823;10823;3819
+06;02;01;09;01;;D;Libre                                                                           ;10823;10823;3819
+06;02;01;11;;;D;VENTA DE ACTIVOS FINANCIEROS                                                    ;417;444;149
+06;02;01;11;03;;D;Operaciones de Cambio                                                           ;417;444;149
+06;02;01;21;;;D;GASTOS EN PERSONAL                                                              ;6167;6096;2045
+06;02;01;22;;;D;BIENES Y SERVICIOS DE CONSUMO                                                   ;713;664;81
+06;02;01;24;;;D;TRANSFERENCIAS CORRIENTES                                                       ;3577;3724;380
+06;02;01;24;03;;D;A Otras Entidades Públicas                                                      ;3577;3724;380
+06;02;01;24;03;554;D;Negociaciones y Administración de Acuerdos                                                                                                                                                                                                                ;3161;3308;374
+06;02;01;24;03;557;D;Defensa Comercial                                                                                                                                                                                                                                         ;271;271;4
+06;02;01;24;03;560;D;Profundización Inserción Económica Asia                                                                                                                                                                                                                   ;145;145;2
+06;02;01;29;;;D;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;292;292;4
+06;02;01;29;07;;D;Programas Informáticos                                                          ;292;292;4
+06;02;01;33;;;D;TRANSFERENCIAS DE CAPITAL                                                       ;300;300;300
+06;02;01;33;01;;D;Al Sector Privado                                                               ;300;300;300
+06;02;01;33;01;065;D;Fundación Chilena del Pacífico                                                                                                                                                                                                                            ;300;300;300
+06;02;01;34;;;D;SERVICIO DE LA DEUDA                                                            ;297;297;149
+06;02;01;34;02;;D;Amortización Deuda Externa                                                      ;297;297;149
+;;;;;;;RESULTADO;;;1015

@@ -1,0 +1,35 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+05;05;03;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;0;0;370530
+05;05;03;08;99;;P;Otros                                                                           ;0;0;370530
+05;05;03;09;;;P;APORTE FISCAL                                                                   ;188522165;188956361;69500000
+05;05;03;09;01;;P;Libre                                                                           ;188522165;188956361;69500000
+05;05;03;13;;;P;TRANSFERENCIAS PARA GASTOS DE CAPITAL                                           ;2200015;2537320;0
+05;05;03;13;02;;P;Del Gobierno Central                                                            ;0;337305;0
+05;05;03;13;02;106;P;Subsecretaría de Desarrollo Regional y Administrativo - Programa 06                                                                                                                                                                                       ;0;301699;0
+05;05;03;13;02;113;P;Subsecretaría de Desarrollo Regional y Administrativo - Programa 05                                                                                                                                                                                       ;0;35606;0
+05;05;03;13;06;;P;De Gobiernos Extranjeros                                                        ;2200015;2200015;0
+05;05;03;13;06;001;P;Del Gobierno Español - Instituto de Crédito Oficial de España                                                                                                                                                                                             ;2200015;2200015;0
+05;05;03;14;;;P;ENDEUDAMIENTO                                                                   ;4315700;4315700;0
+05;05;03;14;02;;P;Endeudamiento Externo                                                           ;4315700;4315700;0
+05;05;03;15;;;P;SALDO INICIAL DE CAJA                                                           ;1000;6560382;0
+05;05;03;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;71054161;71183608;47889099
+05;05;03;24;02;;P;Al Gobierno Central                                                             ;0;129447;0
+05;05;03;24;02;004;P;A la Dirección de Arquitectura - MOP                                                                                                                                                                                                                      ;0;64723;0
+05;05;03;24;02;006;P;Al Consejo de Monumentos Nacionales                                                                                                                                                                                                                       ;0;64724;0
+05;05;03;24;03;;P;A Otras Entidades Públicas                                                      ;71054161;71054161;47889099
+05;05;03;24;03;402;P;Municipalidades (Compensación Gastos Censo)                                                                                                                                                                                                               ;2701782;2701782;2701782
+05;05;03;24;03;403;P;Municipalidades (Compensación por Predios Exentos)                                                                                                                                                                                                        ;61154655;61154655;44963589
+05;05;03;24;03;406;P;Municipalidades (Programa Esterilización y Atención Sanitaria de Animales de Compañia)                                                                                                                                                                    ;7197724;7197724;223728
+05;05;03;32;;;P;PRÉSTAMOS                                                                       ;11461490;11461490;1123793
+05;05;03;32;04;;P;De Fomento                                                                      ;11461490;11461490;1123793
+05;05;03;32;04;002;P;Municipalidades                                                                                                                                                                                                                                           ;11461490;11461490;1123793
+05;05;03;33;;;P;TRANSFERENCIAS DE CAPITAL                                                       ;112522229;113164283;17561414
+05;05;03;33;03;;P;A Otras Entidades Públicas                                                      ;112522229;113164283;17561414
+05;05;03;33;03;005;P;Municipalidades (Programa de Mejoramiento Urbano y Equipamiento Comunal)                                                                                                                                                                                  ;51454819;51454819;11721637
+05;05;03;33;03;006;P;Municipalidades (Programa Mejoramiento de Barrios)                                                                                                                                                                                                        ;24906467;25677968;4322359
+05;05;03;33;03;100;P;Municipalidades (Fondo Recuperación de Ciudades)                                                                                                                                                                                                          ;11002445;11002445;1482178
+05;05;03;33;03;110;P;Municipalidades (Fondo de Incentivo al Mejoramiento de la Gestión Municipal)                                                                                                                                                                              ;16527098;16527098;0
+05;05;03;33;03;111;P;Municipalidades (Programa Revitalización de Barrios e Infraestructura Patrimonial Emblemática)                                                                                                                                                            ;8631400;8501953;35240
+05;05;03;34;;;P;SERVICIO DE LA DEUDA                                                            ;1000;6560382;6560382
+05;05;03;34;07;;P;Deuda Flotante                                                                  ;1000;6560382;6560382
+;;;;;;;RESULTADO;;;-3264158

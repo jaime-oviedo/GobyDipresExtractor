@@ -1,0 +1,28 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+11;08;01;06;;;P;RENTAS DE LA PROPIEDAD                                                          ;5617;5617;192
+11;08;01;06;03;;P;Intereses                                                                       ;5617;5617;192
+11;08;01;07;;;P;INGRESOS DE OPERACIÓN                                                           ;64421535;64421535;20621815
+11;08;01;07;01;;P;Venta de Bienes                                                                 ;5331168;5331168;1784717
+11;08;01;07;02;;P;Venta de Servicios                                                              ;59090367;59090367;18837098
+11;08;01;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;370138;370138;222996
+11;08;01;08;99;;P;Otros                                                                           ;370138;370138;222996
+11;08;01;12;;;P;RECUPERACIÓN DE PRÉSTAMOS                                                       ;7099922;7099922;10183320
+11;08;01;12;10;;P;Ingresos por Percibir                                                           ;7099922;7099922;10183320
+11;08;01;15;;;P;SALDO INICIAL DE CAJA                                                           ;863085;863085;0
+11;08;01;21;;;P;GASTOS EN PERSONAL                                                              ;27367352;27367352;8986074
+11;08;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;38218890;38218890;11677877
+11;08;01;23;;;P;PRESTACIONES DE SEGURIDAD SOCIAL                                                ;297978;297978;101567
+11;08;01;23;01;;P;Prestaciones Previsionales                                                      ;297978;297978;101567
+11;08;01;25;;;P;INTEGROS AL FISCO                                                               ;597400;597400;195050
+11;08;01;25;01;;P;Impuestos                                                                       ;597400;597400;195050
+11;08;01;26;;;P;OTROS GASTOS CORRIENTES                                                         ;5150;5150;1720
+11;08;01;26;01;;P;Devoluciones                                                                    ;5150;5150;1720
+11;08;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;3736027;3736027;78599
+11;08;01;29;03;;P;Vehículos                                                                       ;56650;56650;0
+11;08;01;29;04;;P;Mobiliario y Otros                                                              ;123627;123627;10422
+11;08;01;29;05;;P;Máquinas y Equipos                                                              ;3351670;3351670;48093
+11;08;01;29;06;;P;Equipos Informáticos                                                            ;146641;146641;19216
+11;08;01;29;07;;P;Programas Informáticos                                                          ;57439;57439;868
+11;08;01;34;;;P;SERVICIO DE LA DEUDA                                                            ;2537500;2537500;7887656
+11;08;01;34;07;;P;Deuda Flotante                                                                  ;2537500;2537500;7887656
+;;;;;;;RESULTADO;;;2099780

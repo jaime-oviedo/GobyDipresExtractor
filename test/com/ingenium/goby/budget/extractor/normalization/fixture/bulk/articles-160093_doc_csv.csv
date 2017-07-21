@@ -1,0 +1,16 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+09;05;03;05;;;P;TRANSFERENCIAS CORRIENTES                                                       ;0;64724;0
+09;05;03;05;02;;P;Del Gobierno Central                                                            ;0;64724;0
+09;05;03;09;;;P;APORTE FISCAL                                                                   ;2734844;2734844;846948
+09;05;03;09;01;;P;Libre                                                                           ;2734844;2734844;846948
+09;05;03;15;;;P;SALDO INICIAL DE CAJA                                                           ;1000;1000;0
+09;05;03;21;;;P;GASTOS EN PERSONAL                                                              ;1117693;1178514;486374
+09;05;03;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;1538901;1541820;494266
+09;05;03;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;77250;78234;9349
+09;05;03;29;04;;P;Mobiliario y Otros                                                              ;15450;15450;1313
+09;05;03;29;06;;P;Equipos Informáticos                                                            ;41200;42184;1955
+09;05;03;29;07;;P;Programas Informáticos                                                          ;20600;20600;6081
+09;05;03;34;;;P;SERVICIO DE LA DEUDA                                                            ;1000;1000;0
+09;05;03;34;07;;P;Deuda Flotante                                                                  ;1000;1000;0
+09;05;03;35;;;P;SALDO FINAL DE CAJA                                                             ;1000;1000;0
+;;;;;;;RESULTADO;;;-143041

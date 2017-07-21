@@ -1,0 +1,15 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+09;01;21;05;;;P;TRANSFERENCIAS CORRIENTES                                                       ;0;47787;0
+09;01;21;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;2331;2331;3307
+09;01;21;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;1166;1166;2022
+09;01;21;08;99;;P;Otros                                                                           ;1165;1165;1285
+09;01;21;09;;;P;APORTE FISCAL                                                                   ;4160884;4295474;1298843
+09;01;21;09;01;;P;Libre                                                                           ;4160884;4295474;1298843
+09;01;21;15;;;P;SALDO INICIAL DE CAJA                                                           ;1000;1000;0
+09;01;21;21;;;P;GASTOS EN PERSONAL                                                              ;3899074;3899074;1201543
+09;01;21;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;263141;263141;47391
+09;01;21;23;;;P;PRESTACIONES DE SEGURIDAD SOCIAL                                                ;0;182377;0
+09;01;21;34;;;P;SERVICIO DE LA DEUDA                                                            ;1000;1000;35
+09;01;21;34;07;;P;Deuda Flotante                                                                  ;1000;1000;35
+09;01;21;35;;;P;SALDO FINAL DE CAJA                                                             ;1000;1000;0
+;;;;;;;RESULTADO;;;53181

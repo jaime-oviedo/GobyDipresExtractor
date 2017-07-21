@@ -1,0 +1,21 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+09;09;02;05;;;P;TRANSFERENCIAS CORRIENTES                                                       ;1348006;1348006;0
+09;09;02;05;02;;P;Del Gobierno Central                                                            ;1348006;1348006;0
+09;09;02;05;02;001;P;Ley N° 20.595 y Sistema Chile Solidario Habilidades para  la vida y escuelas saludables                                                                                                                                                                   ;972294;972294;0
+09;09;02;05;02;002;P;Ley N° 20.595 y Sistema Chile Solidario Salud Oral                                                                                                                                                                                                        ;375712;375712;0
+09;09;02;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;135836;135836;190922
+09;09;02;08;99;;P;Otros                                                                           ;135836;135836;190922
+09;09;02;09;;;P;APORTE FISCAL                                                                   ;27081266;27081266;4150000
+09;09;02;09;01;;P;Libre                                                                           ;27081266;27081266;4150000
+09;09;02;15;;;P;SALDO INICIAL DE CAJA                                                           ;1000;1912865;0
+09;09;02;21;;;P;GASTOS EN PERSONAL                                                              ;1804689;1804689;567750
+09;09;02;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;350760;350760;10338
+09;09;02;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;26408659;26408659;3161043
+09;09;02;24;03;;P;A Otras Entidades Públicas                                                      ;26408659;26408659;3161043
+09;09;02;24;03;167;P;Salud oral                                                                                                                                                                                                                                                ;8240855;8240855;158693
+09;09;02;24;03;168;P;Asistencia médica prebásica,básica,media                                                                                                                                                                                                                  ;7270931;7270931;57258
+09;09;02;24;03;169;P;Habilidades para la vida y escuelas saludables                                                                                                                                                                                                            ;10896873;10896873;2945092
+09;09;02;34;;;P;SERVICIO DE LA DEUDA                                                            ;1000;1912865;1912865
+09;09;02;34;07;;P;Deuda Flotante                                                                  ;1000;1912865;1912865
+09;09;02;35;;;P;SALDO FINAL DE CAJA                                                             ;1000;1000;0
+;;;;;;;RESULTADO;;;-1311074

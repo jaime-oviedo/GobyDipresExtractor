@@ -1,0 +1,25 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+15;01;03;05;;;P;TRANSFERENCIAS CORRIENTES                                                       ;4396076;4396076;0
+15;01;03;05;02;;P;Del Gobierno Central                                                            ;4396076;4396076;0
+15;01;03;05;02;001;P;Ley N° 20.595 y Sistema Chile Solidario                                                                                                                                                                                                                   ;4396076;4396076;0
+15;01;03;09;;;P;APORTE FISCAL                                                                   ;10832667;37935938;23476346
+15;01;03;09;01;;P;Libre                                                                           ;10832667;37935938;23476346
+15;01;03;13;;;P;TRANSFERENCIAS PARA GASTOS DE CAPITAL                                           ;0;1372254;1372254
+15;01;03;13;02;;P;Del Gobierno Central                                                            ;0;1372254;1372254
+15;01;03;13;02;006;P;Gobierno Regional de Arica y Parinacota                                                                                                                                                                                                                   ;0;1372254;1372254
+15;01;03;15;;;P;SALDO INICIAL DE CAJA                                                           ;10;32010;0
+15;01;03;21;;;P;GASTOS EN PERSONAL                                                              ;348374;348374;121159
+15;01;03;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;115512;115512;27799
+15;01;03;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;14759707;43267232;22452284
+15;01;03;24;01;;P;Al Sector Privado                                                               ;4510569;4510569;683111
+15;01;03;24;01;265;P;Programa Servicios Sociales                                                                                                                                                                                                                               ;4330031;4330031;683111
+15;01;03;24;01;267;P;Mejora a la empleabilidad para artesanos y artesanas tradicionales de zonas rurales                                                                                                                                                                       ;180538;180538;0
+15;01;03;24;03;;P;A Otras Entidades Públicas                                                      ;10249138;38756663;21769173
+15;01;03;24;03;260;P;Programa Bonificación a la Contratación de Mano de Obra                                                                                                                                                                                                   ;10;10;0
+15;01;03;24;03;263;P;Programa de Apoyo al Empleo Ley N° 20.595 y Sistema Chile Solidario                                                                                                                                                                                       ;1782122;1782122;0
+15;01;03;24;03;264;P;Programa Inversión en la Comunidad                                                                                                                                                                                                                        ;8142146;36649671;21706093
+15;01;03;24;03;266;P;Programa Desarrollo Competencias Laborales Mujeres Ley N° 20.595 y Sistema Chile Solidario                                                                                                                                                                ;324860;324860;63080
+15;01;03;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;5150;5150;0
+15;01;03;29;07;;P;Programas Informáticos                                                          ;5150;5150;0
+15;01;03;35;;;P;SALDO FINAL DE CAJA                                                             ;10;10;0
+;;;;;;;RESULTADO;;;2247358

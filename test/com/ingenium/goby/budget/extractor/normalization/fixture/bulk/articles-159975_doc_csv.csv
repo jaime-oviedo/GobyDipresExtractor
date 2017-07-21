@@ -1,0 +1,22 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+50;01;07;06;;;D;RENTAS DE LA PROPIEDAD                                                          ;188521;188521;47445
+50;01;07;06;03;;D;Intereses                                                                       ;188521;188521;47445
+50;01;07;06;03;061;D;Intereses                                                                                                                                                                                                                                                 ;188511;188511;47445
+50;01;07;06;03;062;D;Ganancias de Capital                                                                                                                                                                                                                                      ;10;10;0
+50;01;07;11;;;D;VENTA DE ACTIVOS FINANCIEROS                                                    ;2730;2730;839
+50;01;07;11;01;;D;Venta o Rescate de Títulos y Valores                                            ;2720;2720;839
+50;01;07;11;99;;D;Otros Activos Financieros                                                       ;10;10;0
+50;01;07;13;;;D;TRANSFERENCIAS PARA GASTOS DE CAPITAL                                           ;10;10;0
+50;01;07;13;02;;D;Del Gobierno Central                                                            ;10;10;0
+50;01;07;13;02;050;D;De Operaciones Complementarias                                                                                                                                                                                                                            ;10;10;0
+50;01;07;22;;;D;BIENES Y SERVICIOS DE CONSUMO                                                   ;2720;2720;839
+50;01;07;24;;;D;TRANSFERENCIAS CORRIENTES                                                       ;10;10;0
+50;01;07;24;02;;D;Al Gobierno Central                                                             ;10;10;0
+50;01;07;24;02;060;D;A Ingresos Generales de la Nación                                                                                                                                                                                                                         ;10;10;0
+50;01;07;30;;;D;ADQUISICIÓN DE ACTIVOS FINANCIEROS                                              ;188521;188521;47445
+50;01;07;30;01;;D;Compra de Títulos y Valores                                                     ;188511;188511;47445
+50;01;07;30;99;;D;Otros Activos Financieros                                                       ;10;10;0
+50;01;07;33;;;D;TRANSFERENCIAS DE CAPITAL                                                       ;10;10;0
+50;01;07;33;02;;D;Al Gobierno Central                                                             ;10;10;0
+50;01;07;33;02;059;D;Al Fondo de Reserva de Pensiones                                                                                                                                                                                                                          ;10;10;0
+;;;;;;;RESULTADO;;;0

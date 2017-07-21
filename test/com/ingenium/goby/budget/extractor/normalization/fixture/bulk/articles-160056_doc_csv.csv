@@ -1,0 +1,22 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+07;19;01;05;;;P;TRANSFERENCIAS CORRIENTES                                                       ;39401481;39401481;9334332
+07;19;01;05;02;;P;Del Gobierno Central                                                            ;39401481;39401481;9334332
+07;19;01;05;02;003;P;CORFO                                                                                                                                                                                                                                                     ;2984482;2984482;2600000
+07;19;01;05;02;005;P;Fondo de Innovación para la Competitividad                                                                                                                                                                                                                ;34557849;34557849;6734332
+07;19;01;05;02;010;P;Subsecretaría de Economía y Empresas de Menor Tamaño-FIE                                                                                                                                                                                                  ;1859150;1859150;0
+07;19;01;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;4461983;4461983;1115363
+07;19;01;08;99;;P;Otros                                                                           ;4461983;4461983;1115363
+07;19;01;15;;;P;SALDO INICIAL DE CAJA                                                           ;10;10;0
+07;19;01;21;;;P;GASTOS EN PERSONAL                                                              ;2197240;2197240;658182
+07;19;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;973255;973255;164946
+07;19;01;23;;;P;PRESTACIONES DE SEGURIDAD SOCIAL                                                ;10;10;12172
+07;19;01;23;01;;P;Prestaciones Previsionales                                                      ;10;10;12172
+07;19;01;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;40684039;40684039;7376043
+07;19;01;24;01;;P;Al Sector Privado                                                               ;40684039;40684039;7376043
+07;19;01;24;01;004;P;Innovación Empresarial                                                                                                                                                                                                                                    ;40684039;40684039;7376043
+07;19;01;26;;;P;OTROS GASTOS CORRIENTES                                                         ;10;10;0
+07;19;01;26;01;;P;Devoluciones                                                                    ;10;10;0
+07;19;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;2060;2060;0
+07;19;01;29;04;;P;Mobiliario y Otros                                                              ;2060;2060;0
+07;19;01;35;;;P;SALDO FINAL DE CAJA                                                             ;6860;6860;0
+;;;;;;;RESULTADO;;;2238352

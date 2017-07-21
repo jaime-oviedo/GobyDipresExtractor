@@ -1,0 +1,28 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+07;02;01;05;;;P;TRANSFERENCIAS CORRIENTES                                                       ;818379;818379;193805
+07;02;01;05;02;;P;Del Gobierno Central                                                            ;818379;818379;193805
+07;02;01;05;02;001;P;Junta de Aeronaútica Civil                                                                                                                                                                                                                                ;21383;21383;10692
+07;02;01;05;02;004;P;Programa de Modernización del Estado-BID                                                                                                                                                                                                                  ;587765;587765;78497
+07;02;01;05;02;005;P;Subsecretaria de Telecomunicaciones                                                                                                                                                                                                                       ;209231;209231;104616
+07;02;01;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;128051;128051;38176
+07;02;01;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;88390;88390;31893
+07;02;01;08;99;;P;Otros                                                                           ;39661;39661;6283
+07;02;01;09;;;P;APORTE FISCAL                                                                   ;10183919;10183919;3229137
+07;02;01;09;01;;P;Libre                                                                           ;10183919;10183919;3229137
+07;02;01;21;;;P;GASTOS EN PERSONAL                                                              ;6486358;6486358;2412405
+07;02;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;2832311;2832311;613930
+07;02;01;23;;;P;PRESTACIONES DE SEGURIDAD SOCIAL                                                ;10;10;0
+07;02;01;23;03;;P;Prestaciones Sociales del Empleador                                             ;10;10;0
+07;02;01;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;1598840;1598840;173799
+07;02;01;24;01;;P;Al Sector Privado                                                               ;406040;406040;29320
+07;02;01;24;01;002;P;Fondo Concursable Aplicación Ley N°19.955                                                                                                                                                                                                                 ;406040;406040;29320
+07;02;01;24;03;;P;A Otras Entidades Públicas                                                      ;1192800;1192800;144479
+07;02;01;24;03;002;P;Programa Educación Financiera                                                                                                                                                                                                                             ;605035;605035;91171
+07;02;01;24;03;600;P;Programa de Modernización del Estado-BID                                                                                                                                                                                                                  ;587765;587765;53308
+07;02;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;212830;212830;71247
+07;02;01;29;03;;P;Vehículos                                                                       ;37080;37080;37000
+07;02;01;29;06;;P;Equipos Informáticos                                                            ;12360;12360;1844
+07;02;01;29;07;;P;Programas Informáticos                                                          ;163390;163390;32403
+07;02;01;34;;;P;SERVICIO DE LA DEUDA                                                            ;0;0;292454
+07;02;01;34;07;;P;Deuda Flotante                                                                  ;0;0;292454
+;;;;;;;RESULTADO;;;-102717

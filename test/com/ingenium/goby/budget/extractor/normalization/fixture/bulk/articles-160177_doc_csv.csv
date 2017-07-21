@@ -1,0 +1,56 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+16;02;01;04;;;P;IMPOSICIONES PREVISIONALES                                                      ;1992563661;1992563661;697164791
+16;02;01;04;02;;P;Aportes del Trabajador                                                          ;1992563661;1992563661;697164791
+16;02;01;05;;;P;TRANSFERENCIAS CORRIENTES                                                       ;103318478;103318478;22941047
+16;02;01;05;02;;P;Del Gobierno Central                                                            ;103318478;103318478;22941047
+16;02;01;05;02;006;P;Caja de Previsión de la Defensa Nacional                                                                                                                                                                                                                  ;865361;865361;498292
+16;02;01;05;02;009;P;Ley N° 20.595 y Sistema Chile Solidario                                                                                                                                                                                                                   ;4039010;4039010;0
+16;02;01;05;02;011;P;Fondo para Diagnóstico y Tratamientos de Alto Costo Ley N°20.850                                                                                                                                                                                          ;80000000;80000000;13235701
+16;02;01;05;02;015;P;Sistema de Protección Integral a la Infancia                                                                                                                                                                                                              ;18414107;18414107;9207054
+16;02;01;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;168167481;168167481;68941337
+16;02;01;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;335951;335951;371078
+16;02;01;08;02;;P;Multas y Sanciones Pecuniarias                                                  ;0;0;2713
+16;02;01;08;04;;P;Fondos de Terceros                                                              ;162076885;162076885;67070802
+16;02;01;08;04;001;P;Curativa Cargo Usuario                                                                                                                                                                                                                                    ;162076885;162076885;67070802
+16;02;01;08;99;;P;Otros                                                                           ;5754645;5754645;1496744
+16;02;01;09;;;P;APORTE FISCAL                                                                   ;3998720706;3998651285;1397387719
+16;02;01;09;01;;P;Libre                                                                           ;3998720706;3998651285;1397387719
+16;02;01;12;;;P;RECUPERACIÓN DE PRÉSTAMOS                                                       ;6656488;6656488;20931754
+16;02;01;12;05;;P;Médicos                                                                         ;6656488;6656488;1281691
+16;02;01;12;10;;P;Ingresos por Percibir                                                           ;0;0;19650063
+16;02;01;15;;;P;SALDO INICIAL DE CAJA                                                           ;1000;5917867;0
+16;02;01;21;;;P;GASTOS EN PERSONAL                                                              ;19354013;19354013;9926303
+16;02;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;26603754;26758254;4872677
+16;02;01;23;;;P;PRESTACIONES DE SEGURIDAD SOCIAL                                                ;918376944;918376944;308457053
+16;02;01;23;01;;P;Prestaciones Previsionales                                                      ;918376944;918376944;307735993
+16;02;01;23;01;009;P;Bonificaciones de Salud                                                                                                                                                                                                                                   ;555587383;555587383;178489143
+16;02;01;23;01;014;P;Subsidio Cajas de Compensación de Asignación Familiar                                                                                                                                                                                                     ;362789561;362789561;129246850
+16;02;01;23;03;;P;Prestaciones Sociales del Empleador                                             ;0;0;721060
+16;02;01;23;03;001;P;Indemnización de Cargo Fiscal                                                                                                                                                                                                                             ;0;0;413137
+16;02;01;23;03;003;P;Fondo Retiro Funcionarios Públicos  Ley N° 19.882                                                                                                                                                                                                         ;0;0;307923
+16;02;01;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;5292235555;5293978869;1861883101
+16;02;01;24;02;;P;Al Gobierno Central                                                             ;5212235555;5213978869;1849489218
+16;02;01;24;02;034;P;Instituto de Salud Pública de Chile                                                                                                                                                                                                                       ;631267;631267;0
+16;02;01;24;02;035;P;Programa de Atención Primaria                                                                                                                                                                                                                             ;1524667712;1524667712;519132605
+16;02;01;24;02;036;P;Programa de Prestaciones Valoradas                                                                                                                                                                                                                        ;1609229339;1609229339;569441280
+16;02;01;24;02;037;P;Programa de Prestaciones Institucionales                                                                                                                                                                                                                  ;1965382495;1967125809;712234637
+16;02;01;24;02;043;P;Subsecretaría de Salud Pública                                                                                                                                                                                                                            ;112170242;112170242;48680696
+16;02;01;24;02;045;P;Comité Industrias Inteligentes                                                                                                                                                                                                                            ;154500;154500;0
+16;02;01;24;03;;P;A Otras Entidades Públicas                                                      ;80000000;80000000;12393883
+16;02;01;24;03;410;P;Aplicación Ley N°20.850                                                                                                                                                                                                                                   ;80000000;80000000;12393883
+16;02;01;25;;;P;INTEGROS AL FISCO                                                               ;0;0;1069
+16;02;01;25;99;;P;Otros Integros al Fisco                                                         ;0;0;1069
+16;02;01;26;;;P;OTROS GASTOS CORRIENTES                                                         ;0;0;4286124
+16;02;01;26;01;;P;Devoluciones                                                                    ;0;0;3413713
+16;02;01;26;02;;P;Compensaciones por Daños a Terceros y/o a la Propiedad                          ;0;0;872411
+16;02;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;1625759;1625759;1565736
+16;02;01;29;04;;P;Mobiliario y Otros                                                              ;72593;72593;13316
+16;02;01;29;05;;P;Máquinas y Equipos                                                              ;1321;1321;576
+16;02;01;29;06;;P;Equipos Informáticos                                                            ;1386010;1386010;1386010
+16;02;01;29;07;;P;Programas Informáticos                                                          ;165835;165835;165834
+16;02;01;32;;;P;PRÉSTAMOS                                                                       ;11229789;11229789;4386327
+16;02;01;32;05;;P;Médicos                                                                         ;11229789;11229789;4386327
+16;02;01;34;;;P;SERVICIO DE LA DEUDA                                                            ;1000;3950632;3908877
+16;02;01;34;07;;P;Deuda Flotante                                                                  ;1000;3950632;3908877
+16;02;01;35;;;P;SALDO FINAL DE CAJA                                                             ;1000;1000;0
+;;;;;;;RESULTADO;;;8079381

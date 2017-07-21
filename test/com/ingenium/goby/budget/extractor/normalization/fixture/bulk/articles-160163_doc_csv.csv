@@ -1,0 +1,18 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+14;01;05;05;;;P;TRANSFERENCIAS CORRIENTES                                                       ;0;19203;0
+14;01;05;05;01;;P;Del Sector Privado                                                              ;0;19203;0
+14;01;05;05;01;003;P;Administradora del Fondo para Bonificación por Retiro                                                                                                                                                                                                     ;0;19203;0
+14;01;05;06;;;P;RENTAS DE LA PROPIEDAD                                                          ;2394121;2394121;1049000
+14;01;05;09;;;P;APORTE FISCAL                                                                   ;715217;715217;348000
+14;01;05;09;01;;P;Libre                                                                           ;715217;715217;348000
+14;01;05;15;;;P;SALDO INICIAL DE CAJA                                                           ;0;105536;0
+14;01;05;21;;;P;GASTOS EN PERSONAL                                                              ;2436109;2416906;770072
+14;01;05;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;654689;654689;123862
+14;01;05;23;;;P;PRESTACIONES DE SEGURIDAD SOCIAL                                                ;0;95915;76712
+14;01;05;23;03;;P;Prestaciones Sociales del Empleador                                             ;0;95915;76712
+14;01;05;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;18540;18540;0
+14;01;05;29;06;;P;Equipos Informáticos                                                            ;15450;15450;0
+14;01;05;29;07;;P;Programas Informáticos                                                          ;3090;3090;0
+14;01;05;34;;;P;SERVICIO DE LA DEUDA                                                            ;0;48027;48026
+14;01;05;34;07;;P;Deuda Flotante                                                                  ;0;48027;48026
+;;;;;;;RESULTADO;;;378328

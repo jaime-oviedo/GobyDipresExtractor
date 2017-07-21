@@ -1,0 +1,47 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+18;35;01;06;;;P;RENTAS DE LA PROPIEDAD                                                          ;10527;10527;8935
+18;35;01;06;01;;P;Arriendo de Activos No Financieros                                              ;10527;10527;8935
+18;35;01;07;;;P;INGRESOS DE OPERACIÓN                                                           ;13730;13730;3832
+18;35;01;07;02;;P;Venta de Servicios                                                              ;13730;13730;3832
+18;35;01;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;96268;96268;34707
+18;35;01;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;37420;37420;10772
+18;35;01;08;02;;P;Multas y Sanciones Pecuniarias                                                  ;8240;8240;1481
+18;35;01;08;99;;P;Otros                                                                           ;50608;50608;22454
+18;35;01;09;;;P;APORTE FISCAL                                                                   ;26113342;29736367;12899715
+18;35;01;09;01;;P;Libre                                                                           ;26113342;29736367;12899715
+18;35;01;10;;;P;VENTA DE ACTIVOS NO FINANCIEROS                                                 ;1878826;1878826;180196
+18;35;01;10;01;;P;Terrenos                                                                        ;1869204;1869204;180196
+18;35;01;10;03;;P;Vehículos                                                                       ;9622;9622;0
+18;35;01;12;;;P;RECUPERACIÓN DE PRÉSTAMOS                                                       ;739617;739617;375413
+18;35;01;12;02;;P;Hipotecarios                                                                    ;738617;738617;364487
+18;35;01;12;10;;P;Ingresos por Percibir                                                           ;1000;1000;10926
+18;35;01;13;;;P;TRANSFERENCIAS PARA GASTOS DE CAPITAL                                           ;3293677;3293677;0
+18;35;01;13;02;;P;Del Gobierno Central                                                            ;3204983;3204983;0
+18;35;01;13;02;014;P;Gobierno Regional de Arica y Parinacota                                                                                                                                                                                                                   ;3204983;3204983;0
+18;35;01;13;03;;P;De Otras Entidades Públicas                                                     ;88694;88694;0
+18;35;01;13;03;001;P;De Municipalidades para Pavimentos Participativos                                                                                                                                                                                                         ;88684;88684;0
+18;35;01;13;03;003;P;De Municipalidades para Programa Rehabilitación de Espacios Públicos                                                                                                                                                                                      ;10;10;0
+18;35;01;15;;;P;SALDO INICIAL DE CAJA                                                           ;23000;23000;0
+18;35;01;21;;;P;GASTOS EN PERSONAL                                                              ;1622658;1622658;528191
+18;35;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;212406;279514;74430
+18;35;01;26;;;P;OTROS GASTOS CORRIENTES                                                         ;10;2499161;2479561
+18;35;01;26;02;;P;Compensaciones por Daños a Terceros y/o a la Propiedad                          ;10;2499161;2479561
+18;35;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;13390;13390;1200
+18;35;01;29;04;;P;Mobiliario y Otros                                                              ;9270;9270;1200
+18;35;01;29;05;;P;Máquinas y Equipos                                                              ;4120;4120;0
+18;35;01;31;;;P;INICIATIVAS DE INVERSIÓN                                                        ;6360483;7408519;3083123
+18;35;01;31;02;;P;Proyectos                                                                       ;6360483;7408519;3083123
+18;35;01;32;;;P;PRÉSTAMOS                                                                       ;11014415;11014415;0
+18;35;01;32;02;;P;Hipotecarios                                                                    ;11014415;11014415;0
+18;35;01;32;02;003;P;Préstamos Subsidio Habitacional                                                                                                                                                                                                                           ;11014415;11014415;0
+18;35;01;33;;;P;TRANSFERENCIAS DE CAPITAL                                                       ;12944625;12944625;7228091
+18;35;01;33;01;;P;Al Sector Privado                                                               ;12944625;12944625;7228091
+18;35;01;33;01;023;P;Subsidios Fondo Solidario de Vivienda                                                                                                                                                                                                                     ;787843;787843;876341
+18;35;01;33;01;028;P;Subsidio de Protección del Patrimonio Familiar                                                                                                                                                                                                            ;2211006;2211006;602105
+18;35;01;33;01;132;P;Sistema Integrado de Subsidio                                                                                                                                                                                                                             ;1069319;1069319;217592
+18;35;01;33;01;133;P;Fondo Solidario de Elección de Vivienda                                                                                                                                                                                                                   ;7902476;7902476;4947562
+18;35;01;33;01;136;P;Programa Habitabilidad Rural                                                                                                                                                                                                                              ;63355;63355;0
+18;35;01;33;01;137;P;Subsidio Extraordinario de Reactivación                                                                                                                                                                                                                   ;910626;910626;584491
+18;35;01;34;;;P;SERVICIO DE LA DEUDA                                                            ;1000;9730;9730
+18;35;01;34;07;;P;Deuda Flotante                                                                  ;1000;9730;9730
+;;;;;;;RESULTADO;;;98472

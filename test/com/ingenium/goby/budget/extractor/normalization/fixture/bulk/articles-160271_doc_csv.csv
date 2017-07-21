@@ -1,0 +1,33 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+23;01;01;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;2161812;2161812;599494
+23;01;01;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;2161812;2161812;572833
+23;01;01;08;02;;P;Multas y Sanciones Pecuniarias                                                  ;0;0;9610
+23;01;01;08;99;;P;Otros                                                                           ;0;0;17051
+23;01;01;09;;;P;APORTE FISCAL                                                                   ;177934009;177934009;62302883
+23;01;01;09;01;;P;Libre                                                                           ;177934009;177934009;62302883
+23;01;01;10;;;P;VENTA DE ACTIVOS NO FINANCIEROS                                                 ;1133;1133;3850
+23;01;01;10;03;;P;Vehículos                                                                       ;1133;1133;3850
+23;01;01;15;;;P;SALDO INICIAL DE CAJA                                                           ;0;763964;0
+23;01;01;21;;;P;GASTOS EN PERSONAL                                                              ;127898923;127841326;53447885
+23;01;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;35470491;35470491;7364767
+23;01;01;23;;;P;PRESTACIONES DE SEGURIDAD SOCIAL                                                ;415953;473550;422264
+23;01;01;23;01;;P;Prestaciones Previsionales                                                      ;415953;415953;364870
+23;01;01;23;03;;P;Prestaciones Sociales del Empleador                                             ;0;57597;57394
+23;01;01;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;828898;828898;0
+23;01;01;24;01;;P;Al Sector Privado                                                               ;45370;45370;0
+23;01;01;24;01;001;P;Becas Postgrado                                                                                                                                                                                                                                           ;45370;45370;0
+23;01;01;24;02;;P;Al Gobierno Central                                                             ;783528;783528;0
+23;01;01;24;02;001;P;Programa de Concesiones Ministerio de Justicia                                                                                                                                                                                                            ;783528;783528;0
+23;01;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;1469614;1469614;113655
+23;01;01;29;03;;P;Vehículos                                                                       ;22660;22660;22350
+23;01;01;29;04;;P;Mobiliario y Otros                                                              ;278183;278183;26277
+23;01;01;29;05;;P;Máquinas y Equipos                                                              ;211129;211129;8250
+23;01;01;29;06;;P;Equipos Informáticos                                                            ;199951;199951;1104
+23;01;01;29;07;;P;Programas Informáticos                                                          ;757691;757691;55674
+23;01;01;31;;;P;INICIATIVAS DE INVERSIÓN                                                        ;14013075;14013075;5765721
+23;01;01;31;02;;P;Proyectos                                                                       ;14013075;14013075;5765721
+23;01;01;32;;;P;PRÉSTAMOS                                                                       ;0;0;-202583
+23;01;01;32;06;;P;Por Anticipos a Contratistas                                                    ;0;0;-202583
+23;01;01;34;;;P;SERVICIO DE LA DEUDA                                                            ;0;763964;763964
+23;01;01;34;07;;P;Deuda Flotante                                                                  ;0;763964;763964
+;;;;;;;RESULTADO;;;-4769446

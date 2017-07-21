@@ -1,0 +1,42 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+21;01;01;07;;;P;INGRESOS DE OPERACIÓN                                                           ;1547;1547;0
+21;01;01;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;259546;259546;355880
+21;01;01;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;247922;247922;141539
+21;01;01;08;99;;P;Otros                                                                           ;11624;11624;214341
+21;01;01;09;;;P;APORTE FISCAL                                                                   ;53104527;53219527;28741522
+21;01;01;09;01;;P;Libre                                                                           ;51816788;51931788;28193197
+21;01;01;09;02;;P;Servicio de la Deuda Interna                                                    ;1287739;1287739;548325
+21;01;01;10;;;P;VENTA DE ACTIVOS NO FINANCIEROS                                                 ;3241;3241;899
+21;01;01;10;04;;P;Mobiliario y Otros                                                              ;3241;3241;899
+21;01;01;12;;;P;RECUPERACIÓN DE PRÉSTAMOS                                                       ;0;0;156266
+21;01;01;12;10;;P;Ingresos por Percibir                                                           ;0;0;156266
+21;01;01;15;;;P;SALDO INICIAL DE CAJA                                                           ;64500;2482006;0
+21;01;01;21;;;P;GASTOS EN PERSONAL                                                              ;18487274;18547274;6246189
+21;01;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;2878325;2933325;596312
+21;01;01;23;;;P;PRESTACIONES DE SEGURIDAD SOCIAL                                                ;11;143061;114082
+21;01;01;23;03;;P;Prestaciones Sociales del Empleador                                             ;11;143061;114082
+21;01;01;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;30474864;30474864;15223065
+21;01;01;24;01;;P;Al Sector Privado                                                               ;1667094;1667094;333419
+21;01;01;24;01;321;P;Fundación de la Familia - Programa Red Telecentros                                                                                                                                                                                                        ;1667094;1667094;333419
+21;01;01;24;03;;P;A Otras Entidades Públicas                                                      ;28807770;28807770;14889646
+21;01;01;24;03;315;P;Elige Vivir Sano                                                                                                                                                                                                                                          ;551403;551403;45464
+21;01;01;24;03;341;P;Sistema de apoyo a la selección de Beneficios Sociales                                                                                                                                                                                                    ;6301156;6301156;4099573
+21;01;01;24;03;342;P;Apoyo, Monitoreo y Supervisión a la Gestión Territorial                                                                                                                                                                                                   ;1140241;1140241;1140241
+21;01;01;24;03;349;P;Subsidio al Pago Electrónico de Prestaciones Monetarias                                                                                                                                                                                                   ;3036591;3036591;997074
+21;01;01;24;03;351;P;Sistema Nacional de Cuidado                                                                                                                                                                                                                               ;1523888;1523888;500000
+21;01;01;24;03;352;P;Programa Pago Cuidadores de Personas con Discapacidad                                                                                                                                                                                                     ;7744158;7744158;7744158
+21;01;01;24;03;353;P;Ayudas Técnicas Chile Crece Contigo                                                                                                                                                                                                                       ;427656;427656;0
+21;01;01;24;03;358;P;Programa Apoyo a la Atención de Salud Mental                                                                                                                                                                                                              ;316381;316381;20725
+21;01;01;24;03;409;P;Programa Asuntos Indígenas                                                                                                                                                                                                                                ;1095174;1095174;186541
+21;01;01;24;03;998;P;Programa Noche Digna                                                                                                                                                                                                                                      ;6671122;6671122;155870
+21;01;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;302648;302648;6478
+21;01;01;29;03;;P;Vehículos                                                                       ;59740;59740;0
+21;01;01;29;04;;P;Mobiliario y Otros                                                              ;13534;13534;4007
+21;01;01;29;05;;P;Máquinas y Equipos                                                              ;13033;13033;265
+21;01;01;29;06;;P;Equipos Informáticos                                                            ;216341;211996;2206
+21;01;01;29;07;;P;Programas Informáticos                                                          ;0;4345;0
+21;01;01;34;;;P;SERVICIO DE LA DEUDA                                                            ;1290239;3564695;2698418
+21;01;01;34;01;;P;Amortización Deuda Interna                                                      ;481040;481040;162329
+21;01;01;34;03;;P;Intereses Deuda Interna                                                         ;806699;806699;262387
+21;01;01;34;07;;P;Deuda Flotante                                                                  ;2500;2276956;2273702
+;;;;;;;RESULTADO;;;4370023

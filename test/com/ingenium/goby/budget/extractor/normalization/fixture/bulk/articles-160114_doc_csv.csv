@@ -1,0 +1,68 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+11;01;01;05;;;P;TRANSFERENCIAS CORRIENTES                                                       ;2072315;2194113;833371
+11;01;01;05;02;;P;Del Gobierno Central                                                            ;2072315;2194113;833371
+11;01;01;05;02;002;P;Armada de Chile                                                                                                                                                                                                                                           ;5768;5768;0
+11;01;01;05;02;006;P;Dirección General de Movilización Nacional                                                                                                                                                                                                                ;46661;46661;15553
+11;01;01;05;02;008;P;Fuerza Aérea de Chile                                                                                                                                                                                                                                     ;17958;17958;0
+11;01;01;05;02;013;P;Programa Antártico - Subsecretaría para las Fuerzas Armadas                                                                                                                                                                                               ;662810;662810;0
+11;01;01;05;02;014;P;Subsecretaría para las Fuerzas Armadas                                                                                                                                                                                                                    ;448999;448999;0
+11;01;01;05;02;015;P;Fondo para Misiones de Paz-Estado Mayor Conjunto                                                                                                                                                                                                          ;696020;817818;817818
+11;01;01;05;02;017;P;Red de Respaldo de Telecomunicaciones - ONEMI                                                                                                                                                                                                             ;194099;194099;0
+11;01;01;06;;;P;RENTAS DE LA PROPIEDAD                                                          ;0;0;4638
+11;01;01;06;03;;P;Intereses                                                                       ;0;0;4638
+11;01;01;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;3162778;3162778;1827979
+11;01;01;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;0;0;305008
+11;01;01;08;99;;P;Otros                                                                           ;3162778;3162778;1522971
+11;01;01;09;;;P;APORTE FISCAL                                                                   ;513458111;513458111;174501741
+11;01;01;09;01;;P;Libre                                                                           ;513458111;513458111;174501741
+11;01;01;10;;;P;VENTA DE ACTIVOS NO FINANCIEROS                                                 ;5552740;5552740;0
+11;01;01;10;01;;P;Terrenos                                                                        ;5552740;5552740;0
+11;01;01;11;;;P;VENTA DE ACTIVOS FINANCIEROS                                                    ;5929700;5929700;0
+11;01;01;11;03;;P;Operaciones de Cambio                                                           ;5929700;5929700;0
+11;01;01;12;;;P;RECUPERACIÓN DE PRÉSTAMOS                                                       ;1427086;1427086;1593241
+11;01;01;12;07;;P;Por Anticipos por Cambio de Residencia                                          ;1427086;1427086;631207
+11;01;01;12;10;;P;Ingresos por Percibir                                                           ;0;0;962034
+11;01;01;13;;;P;TRANSFERENCIAS PARA GASTOS DE CAPITAL                                           ;18241;18241;0
+11;01;01;13;02;;P;Del Gobierno Central                                                            ;18241;18241;0
+11;01;01;13;02;002;P;Dirección General de Movilización Nacional                                                                                                                                                                                                                ;18241;18241;0
+11;01;01;21;;;P;GASTOS EN PERSONAL                                                              ;448883222;448883222;150349681
+11;01;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;73579974;73701772;13723219
+11;01;01;23;;;P;PRESTACIONES DE SEGURIDAD SOCIAL                                                ;515000;515000;204480
+11;01;01;23;01;;P;Prestaciones Previsionales                                                      ;515000;515000;204480
+11;01;01;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;4742333;4742333;3565333
+11;01;01;24;01;;P;Al Sector Privado                                                               ;1006991;1006991;39547
+11;01;01;24;01;003;P;Becas                                                                                                                                                                                                                                                     ;79133;79133;0
+11;01;01;24;01;004;P;Premios y Otros                                                                                                                                                                                                                                           ;126724;126724;17969
+11;01;01;24;01;008;P;Bienestar Social                                                                                                                                                                                                                                          ;801134;801134;21578
+11;01;01;24;02;;P;Al Gobierno Central                                                             ;1574621;1574621;1542213
+11;01;01;24;02;002;P;Organismos de Salud del Ejército                                                                                                                                                                                                                          ;1329337;1329337;1329337
+11;01;01;24;02;003;P;Dirección General de Movilización Nacional                                                                                                                                                                                                                ;46078;46078;46078
+11;01;01;24;02;005;P;Armada de Chile                                                                                                                                                                                                                                           ;14348;14348;0
+11;01;01;24;02;007;P;Subsecretaría para las Fuerzas Armadas                                                                                                                                                                                                                    ;19185;19185;1125
+11;01;01;24;02;008;P;Estado Mayor Conjunto                                                                                                                                                                                                                                     ;101992;101992;101992
+11;01;01;24;02;009;P;Subsecretaría de Defensa                                                                                                                                                                                                                                  ;8734;8734;8734
+11;01;01;24;02;011;P;Organismos de Industria Militar                                                                                                                                                                                                                           ;28874;28874;28874
+11;01;01;24;02;012;P;Instituto Geográfico Militar                                                                                                                                                                                                                              ;26073;26073;26073
+11;01;01;24;03;;P;A Otras Entidades Públicas                                                      ;180212;180212;3064
+11;01;01;24;03;230;P;Fomento Equino y Deporte Ecuestre                                                                                                                                                                                                                         ;47650;47650;3064
+11;01;01;24;03;243;P;Bienestar Social                                                                                                                                                                                                                                          ;132562;132562;0
+11;01;01;24;04;;P;A Empresas Públicas no Financieras                                              ;1980509;1980509;1980509
+11;01;01;24;04;229;P;Fábricas y Maestranzas del Ejército                                                                                                                                                                                                                       ;1980509;1980509;1980509
+11;01;01;25;;;P;INTEGROS AL FISCO                                                               ;2472;2472;0
+11;01;01;25;01;;P;Impuestos                                                                       ;2472;2472;0
+11;01;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;1415283;1415283;198683
+11;01;01;29;04;;P;Mobiliario y Otros                                                              ;801394;801394;182617
+11;01;01;29;05;;P;Máquinas y Equipos                                                              ;138599;138599;9999
+11;01;01;29;06;;P;Equipos Informáticos                                                            ;324619;324619;4229
+11;01;01;29;07;;P;Programas Informáticos                                                          ;143152;143152;0
+11;01;01;29;99;;P;Otros Activos no Financieros                                                    ;7519;7519;1838
+11;01;01;31;;;P;INICIATIVAS DE INVERSIÓN                                                        ;1050966;1050966;0
+11;01;01;31;02;;P;Proyectos                                                                       ;1050966;1050966;0
+11;01;01;32;;;P;PRÉSTAMOS                                                                       ;1427086;1427086;631207
+11;01;01;32;07;;P;Por Anticipos por Cambio de Residencia                                          ;1427086;1427086;631207
+11;01;01;33;;;P;TRANSFERENCIAS DE CAPITAL                                                       ;4635;4635;652
+11;01;01;33;03;;P;A Otras Entidades Públicas                                                      ;4635;4635;652
+11;01;01;33;03;001;P;Fomento Equino y Deporte Ecuestre                                                                                                                                                                                                                         ;4635;4635;652
+11;01;01;34;;;P;SERVICIO DE LA DEUDA                                                            ;0;0;4837334
+11;01;01;34;07;;P;Deuda Flotante                                                                  ;0;0;4837334
+;;;;;;;RESULTADO;;;5250381

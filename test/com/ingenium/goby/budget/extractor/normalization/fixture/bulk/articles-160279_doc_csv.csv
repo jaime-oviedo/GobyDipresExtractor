@@ -1,0 +1,35 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+25;01;01;05;;;P;TRANSFERENCIAS CORRIENTES                                                       ;215270;215270;0
+25;01;01;05;02;;P;Del Gobierno Central                                                            ;215270;215270;0
+25;01;01;05;02;023;P;Subsecretaría de Economía                                                                                                                                                                                                                                 ;215270;215270;0
+25;01;01;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;138541;138541;194046
+25;01;01;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;104392;104392;128405
+25;01;01;08;99;;P;Otros                                                                           ;34149;34149;65641
+25;01;01;09;;;P;APORTE FISCAL                                                                   ;28996707;28996707;6261866
+25;01;01;09;01;;P;Libre                                                                           ;28996707;28996707;6261866
+25;01;01;15;;;P;SALDO INICIAL DE CAJA                                                           ;1000;316266;0
+25;01;01;21;;;P;GASTOS EN PERSONAL                                                              ;13893029;13893029;4501005
+25;01;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;8055471;8055471;1064477
+25;01;01;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;6042130;6042130;532850
+25;01;01;24;01;;P;Al Sector Privado                                                               ;264679;264679;0
+25;01;01;24;01;001;P;Instituciones Colaboradoras                                                                                                                                                                                                                               ;264679;264679;0
+25;01;01;24;03;;P;A Otras Entidades Públicas                                                      ;5740534;5740534;532850
+25;01;01;24;03;001;P;Fondo de Protección Ambiental                                                                                                                                                                                                                             ;1183553;1183553;388356
+25;01;01;24;03;004;P;Certificación Ambiental Municipal                                                                                                                                                                                                                         ;133380;133380;4647
+25;01;01;24;03;009;P;Modelo de Pronóstico de Calidad del Aire                                                                                                                                                                                                                  ;81150;81150;0
+25;01;01;24;03;011;P;Calefacción Sustentable                                                                                                                                                                                                                                   ;4136451;4136451;139847
+25;01;01;24;03;017;P;Fondo del Reciclaje                                                                                                                                                                                                                                       ;206000;206000;0
+25;01;01;24;07;;P;A Organismos Internacionales                                                    ;36917;36917;0
+25;01;01;24;07;002;P;Plataforma Intergubernamental sobre Biodiversidad y Servicios de los Ecosistemas (IPBES)                                                                                                                                                                  ;8553;8553;0
+25;01;01;24;07;003;P;Programa de las Naciones Unidas para el Medio Ambiente (PNUMA)                                                                                                                                                                                            ;7534;7534;0
+25;01;01;24;07;004;P;Organización para la Cooperación y el Desarrollo Económico (OCDE)                                                                                                                                                                                         ;9106;9106;0
+25;01;01;24;07;006;P;Wetlands International                                                                                                                                                                                                                                    ;11724;11724;0
+25;01;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;1359888;1359888;141962
+25;01;01;29;03;;P;Vehículos                                                                       ;19570;19570;0
+25;01;01;29;04;;P;Mobiliario y Otros                                                              ;43501;43501;25818
+25;01;01;29;05;;P;Máquinas y Equipos                                                              ;555323;555323;9804
+25;01;01;29;06;;P;Equipos Informáticos                                                            ;401576;401576;63961
+25;01;01;29;07;;P;Programas Informáticos                                                          ;339918;339918;42379
+25;01;01;34;;;P;SERVICIO DE LA DEUDA                                                            ;1000;316266;310188
+25;01;01;34;07;;P;Deuda Flotante                                                                  ;1000;316266;310188
+;;;;;;;RESULTADO;;;-94570

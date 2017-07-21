@@ -1,0 +1,21 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+09;01;31;05;;;P;TRANSFERENCIAS CORRIENTES                                                       ;0;11713;0
+09;01;31;05;01;;P;Del Sector Privado                                                              ;0;11713;0
+09;01;31;05;01;003;P;Administradora del Fondo para Bonificación por Retiro                                                                                                                                                                                                     ;0;11713;0
+09;01;31;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;2336;2336;60816
+09;01;31;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;1169;1169;3542
+09;01;31;08;99;;P;Otros                                                                           ;1167;1167;57274
+09;01;31;09;;;P;APORTE FISCAL                                                                   ;5839800;5851513;3455000
+09;01;31;09;01;;P;Libre                                                                           ;5839800;5851513;3455000
+09;01;31;15;;;P;SALDO INICIAL DE CAJA                                                           ;2000;64073;0
+09;01;31;21;;;P;GASTOS EN PERSONAL                                                              ;3472215;3472215;1114118
+09;01;31;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;371560;371560;61215
+09;01;31;23;;;P;PRESTACIONES DE SEGURIDAD SOCIAL                                                ;0;23426;0
+09;01;31;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;1998361;1998361;1998361
+09;01;31;24;03;;P;A Otras Entidades Públicas                                                      ;1998361;1998361;1998361
+09;01;31;24;03;003;P;Aplicación Ley N° 20.129                                                                                                                                                                                                                                  ;1741248;1741248;1741248
+09;01;31;24;03;005;P;Comisión Ley N° 20.027                                                                                                                                                                                                                                    ;257113;257113;257113
+09;01;31;34;;;P;SERVICIO DE LA DEUDA                                                            ;1000;63073;63072
+09;01;31;34;07;;P;Deuda Flotante                                                                  ;1000;63073;63072
+09;01;31;35;;;P;SALDO FINAL DE CAJA                                                             ;1000;1000;0
+;;;;;;;RESULTADO;;;279050

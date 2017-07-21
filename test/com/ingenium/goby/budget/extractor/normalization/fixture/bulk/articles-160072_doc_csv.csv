@@ -1,0 +1,19 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+08;15;01;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;57691;57691;31221
+08;15;01;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;57176;57176;29858
+08;15;01;08;99;;P;Otros                                                                           ;515;515;1363
+08;15;01;09;;;P;APORTE FISCAL                                                                   ;10421601;10734458;3732969
+08;15;01;09;01;;P;Libre                                                                           ;10287175;10600032;3667628
+08;15;01;09;03;;P;Servicio de la Deuda Externa                                                    ;134426;134426;65341
+08;15;01;12;;;P;RECUPERACIÓN DE PRÉSTAMOS                                                       ;8240;8240;44070
+08;15;01;12;10;;P;Ingresos por Percibir                                                           ;8240;8240;44070
+08;15;01;21;;;P;GASTOS EN PERSONAL                                                              ;4549107;4861964;1750481
+08;15;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;5526409;5473879;1833027
+08;15;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;277590;330120;0
+08;15;01;29;04;;P;Mobiliario y Otros                                                              ;10300;62830;0
+08;15;01;29;06;;P;Equipos Informáticos                                                            ;40170;40170;0
+08;15;01;29;07;;P;Programas Informáticos                                                          ;227120;227120;0
+08;15;01;34;;;P;SERVICIO DE LA DEUDA                                                            ;134426;134426;65341
+08;15;01;34;02;;P;Amortización Deuda Externa                                                      ;117369;117369;55675
+08;15;01;34;04;;P;Intereses Deuda Externa                                                         ;17057;17057;9666
+;;;;;;;RESULTADO;;;159411

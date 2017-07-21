@@ -1,0 +1,20 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+10;07;01;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;318022;318022;159088
+10;07;01;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;318022;318022;16567
+10;07;01;08;99;;P;Otros                                                                           ;0;0;142521
+10;07;01;09;;;P;APORTE FISCAL                                                                   ;180658194;180658194;68787083
+10;07;01;09;01;;P;Libre                                                                           ;180658194;180658194;68787083
+10;07;01;21;;;P;GASTOS EN PERSONAL                                                              ;8660998;8660998;2572602
+10;07;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;2174354;2174354;327103
+10;07;01;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;170096897;170096897;57839970
+10;07;01;24;01;;P;Al Sector Privado                                                               ;169951543;169951543;57839970
+10;07;01;24;01;001;P;Subvención Proyectos Área Protección a Menores                                                                                                                                                                                                            ;146541672;146541672;51673913
+10;07;01;24;01;002;P;Subvención Proyectos Área Justicia Juvenil                                                                                                                                                                                                                ;23409871;23409871;6166057
+10;07;01;24;02;;P;Al Gobierno Central                                                             ;145354;145354;0
+10;07;01;24;02;001;P;Servicio Nacional de la Discapacidad                                                                                                                                                                                                                      ;145354;145354;0
+10;07;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;43967;43967;2930
+10;07;01;29;04;;P;Mobiliario y Otros                                                              ;7849;7849;149
+10;07;01;29;05;;P;Máquinas y Equipos                                                              ;464;464;0
+10;07;01;29;06;;P;Equipos Informáticos                                                            ;33527;33527;2781
+10;07;01;29;07;;P;Programas Informáticos                                                          ;2127;2127;0
+;;;;;;;RESULTADO;;;8203566

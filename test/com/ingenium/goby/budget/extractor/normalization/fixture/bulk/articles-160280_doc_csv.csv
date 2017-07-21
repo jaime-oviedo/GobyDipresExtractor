@@ -1,0 +1,27 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+25;02;01;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;83380;83380;97259
+25;02;01;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;80900;80900;95991
+25;02;01;08;99;;P;Otros                                                                           ;2480;2480;1268
+25;02;01;09;;;P;APORTE FISCAL                                                                   ;13453970;13453970;4373240
+25;02;01;09;01;;P;Libre                                                                           ;13453970;13453970;4373240
+25;02;01;10;;;P;VENTA DE ACTIVOS NO FINANCIEROS                                                 ;0;0;8444
+25;02;01;10;03;;P;Vehículos                                                                       ;0;0;7999
+25;02;01;10;04;;P;Mobiliario y Otros                                                              ;0;0;445
+25;02;01;15;;;P;SALDO INICIAL DE CAJA                                                           ;1000;356472;0
+25;02;01;21;;;P;GASTOS EN PERSONAL                                                              ;9063607;9063607;2970950
+25;02;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;2118429;2118429;443509
+25;02;01;23;;;P;PRESTACIONES DE SEGURIDAD SOCIAL                                                ;0;14794;0
+25;02;01;23;03;;P;Prestaciones Sociales del Empleador                                             ;0;14794;0
+25;02;01;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;2054886;2054886;414400
+25;02;01;24;03;;P;A Otras Entidades Públicas                                                      ;2054886;2054886;414400
+25;02;01;24;03;200;P;Administración de Procesos de Evaluación de Impacto Ambiental                                                                                                                                                                                             ;1269614;1269614;320252
+25;02;01;24;03;300;P;Administración Sistema SEIA Electrónico                                                                                                                                                                                                                   ;785272;785272;94148
+25;02;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;300428;300428;12947
+25;02;01;29;03;;P;Vehículos                                                                       ;16955;16955;0
+25;02;01;29;04;;P;Mobiliario y Otros                                                              ;11923;11923;5845
+25;02;01;29;05;;P;Máquinas y Equipos                                                              ;10175;10175;363
+25;02;01;29;06;;P;Equipos Informáticos                                                            ;121089;121089;952
+25;02;01;29;07;;P;Programas Informáticos                                                          ;140286;140286;5787
+25;02;01;34;;;P;SERVICIO DE LA DEUDA                                                            ;1000;341678;340904
+25;02;01;34;07;;P;Deuda Flotante                                                                  ;1000;341678;340904
+;;;;;;;RESULTADO;;;296233

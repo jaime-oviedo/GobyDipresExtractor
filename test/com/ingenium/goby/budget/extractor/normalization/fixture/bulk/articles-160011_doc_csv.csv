@@ -1,0 +1,28 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+05;64;01;05;;;P;TRANSFERENCIAS CORRIENTES                                                       ;0;53380;0
+05;64;01;05;02;;P;Del Gobierno Central                                                            ;0;53380;0
+05;64;01;05;02;111;P;Subsecretaría de Desarrollo Regional y Administrativo                                                                                                                                                                                                     ;0;53380;0
+05;64;01;06;;;P;RENTAS DE LA PROPIEDAD                                                          ;23865;23865;9192
+05;64;01;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;20020;20020;20690
+05;64;01;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;20000;20000;19978
+05;64;01;08;02;;P;Multas y Sanciones Pecuniarias                                                  ;10;10;0
+05;64;01;08;99;;P;Otros                                                                           ;10;10;712
+05;64;01;09;;;P;APORTE FISCAL                                                                   ;4192018;4192018;1411628
+05;64;01;09;01;;P;Libre                                                                           ;4192018;4192018;1411628
+05;64;01;15;;;P;SALDO INICIAL DE CAJA                                                           ;1000;74420;0
+05;64;01;21;;;P;GASTOS EN PERSONAL                                                              ;2878447;2878447;1027624
+05;64;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;738033;864833;207838
+05;64;01;23;;;P;PRESTACIONES DE SEGURIDAD SOCIAL                                                ;10;10;0
+05;64;01;23;03;;P;Prestaciones Sociales del Empleador                                             ;10;10;0
+05;64;01;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;458650;458650;132335
+05;64;01;24;01;;P;Al Sector Privado                                                               ;458650;458650;132335
+05;64;01;24;01;050;P;Pagos Art. 39 Ley N°19.175                                                                                                                                                                                                                                ;458650;458650;132335
+05;64;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;160763;160763;28805
+05;64;01;29;03;;P;Vehículos                                                                       ;34114;34114;21720
+05;64;01;29;04;;P;Mobiliario y Otros                                                              ;9270;9270;1201
+05;64;01;29;05;;P;Máquinas y Equipos                                                              ;12360;12360;362
+05;64;01;29;06;;P;Equipos Informáticos                                                            ;46350;46350;781
+05;64;01;29;07;;P;Programas Informáticos                                                          ;58669;58669;4741
+05;64;01;34;;;P;SERVICIO DE LA DEUDA                                                            ;1000;1000;222
+05;64;01;34;07;;P;Deuda Flotante                                                                  ;1000;1000;222
+;;;;;;;RESULTADO;;;44686

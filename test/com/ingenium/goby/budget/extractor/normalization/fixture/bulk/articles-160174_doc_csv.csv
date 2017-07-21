@@ -1,0 +1,55 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+15;13;01;04;;;P;IMPOSICIONES PREVISIONALES                                                      ;157799989;157799989;50942426
+15;13;01;04;01;;P;Aportes del Empleador                                                           ;10244;10244;2580
+15;13;01;04;02;;P;Aportes del Trabajador                                                          ;157789745;157789745;50939846
+15;13;01;05;;;P;TRANSFERENCIAS CORRIENTES                                                       ;274249;274249;83708
+15;13;01;05;02;;P;Del Gobierno Central                                                            ;274249;274249;83708
+15;13;01;05;02;004;P;Fondo Único de Prestaciones Familiares y Subsidios de Cesantía                                                                                                                                                                                            ;274249;274249;83708
+15;13;01;06;;;P;RENTAS DE LA PROPIEDAD                                                          ;48531;48531;18678
+15;13;01;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;53766190;53766190;17812884
+15;13;01;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;58358;58358;76065
+15;13;01;08;04;;P;Fondos de Terceros                                                              ;44262551;44262551;13729334
+15;13;01;08;99;;P;Otros                                                                           ;9445281;9445281;4007485
+15;13;01;09;;;P;APORTE FISCAL                                                                   ;991565128;991565128;328008940
+15;13;01;09;01;;P;Libre                                                                           ;991565128;991565128;328008940
+15;13;01;12;;;P;RECUPERACIÓN DE PRÉSTAMOS                                                       ;760071;760071;173484
+15;13;01;12;01;;P;De Asistencia Social                                                            ;760071;760071;173484
+15;13;01;15;;;P;SALDO INICIAL DE CAJA                                                           ;100000;100000;0
+15;13;01;21;;;P;GASTOS EN PERSONAL                                                              ;8656140;8656140;3262487
+15;13;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;3169675;3169675;868204
+15;13;01;23;;;P;PRESTACIONES DE SEGURIDAD SOCIAL                                                ;1028681188;1028681188;333443234
+15;13;01;23;01;;P;Prestaciones Previsionales                                                      ;1028406939;1028406939;333339920
+15;13;01;23;01;001;P;Jubilaciones, Pensiones y Montepíos                                                                                                                                                                                                                       ;1011020709;1011020709;329044474
+15;13;01;23;01;002;P;Bonificaciones                                                                                                                                                                                                                                            ;80772;80772;16337
+15;13;01;23;01;003;P;Bono de Reconocimiento                                                                                                                                                                                                                                    ;16153158;16153158;3895138
+15;13;01;23;01;006;P;Asignación por Muerte                                                                                                                                                                                                                                     ;1152300;1152300;383971
+15;13;01;23;02;;P;Prestaciones de Asistencia Social                                               ;274249;274249;103314
+15;13;01;23;02;001;P;Asignación Familiar                                                                                                                                                                                                                                       ;274249;274249;103314
+15;13;01;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;162717823;162717823;52525894
+15;13;01;24;01;;P;Al Sector Privado                                                               ;4122807;4122807;1453161
+15;13;01;24;01;453;P;Ubicación Menores, Ancianos e Incapacitados                                                                                                                                                                                                               ;718328;718328;222133
+15;13;01;24;01;456;P;Cotización Isapres                                                                                                                                                                                                                                        ;1983136;1983136;982028
+15;13;01;24;01;461;P;Centros de Salud Capredena                                                                                                                                                                                                                                ;1421343;1421343;249000
+15;13;01;24;02;;P;Al Gobierno Central                                                             ;19239364;19239364;6816091
+15;13;01;24;02;002;P;Fondo de Medicina Curativa                                                                                                                                                                                                                                ;18374003;18374003;6307581
+15;13;01;24;02;003;P;Fondo Nacional de Salud                                                                                                                                                                                                                                   ;865361;865361;508510
+15;13;01;24;03;;P;A Otras Entidades Públicas                                                      ;139352422;139352422;44256642
+15;13;01;24;03;268;P;Aporte Caja Fondo Desahucio                                                                                                                                                                                                                               ;2953051;2953051;931072
+15;13;01;24;03;269;P;Aporte Caja Fondo Revalorizador de Pensiones                                                                                                                                                                                                              ;383547;383547;96801
+15;13;01;24;03;270;P;Aporte Fiscal Fondo Desahucio                                                                                                                                                                                                                             ;2496835;2496835;639533
+15;13;01;24;03;271;P;Aporte Fiscal Fondo Revalorizador de Pensiones                                                                                                                                                                                                            ;5136017;5136017;1636707
+15;13;01;24;03;273;P;Fondo de Auxilio Social                                                                                                                                                                                                                                   ;34966556;34966556;10312515
+15;13;01;24;03;274;P;Fondo Desahucio                                                                                                                                                                                                                                           ;30032339;30032339;10797950
+15;13;01;24;03;275;P;Fondo Revalorizador de Pensiones                                                                                                                                                                                                                          ;6242090;6242090;1539923
+15;13;01;24;03;277;P;Fondos de Salud de las Fuerzas Armadas                                                                                                                                                                                                                    ;57141987;57141987;18302141
+15;13;01;24;07;;P;A Organismos Internacionales                                                    ;3230;3230;0
+15;13;01;24;07;001;P;Organismos Internacionales                                                                                                                                                                                                                                ;3230;3230;0
+15;13;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;186253;186253;4720
+15;13;01;29;03;;P;Vehículos                                                                       ;16921;16921;0
+15;13;01;29;07;;P;Programas Informáticos                                                          ;169332;169332;4720
+15;13;01;32;;;P;PRÉSTAMOS                                                                       ;800529;800529;416829
+15;13;01;32;01;;P;De Asistencia Social                                                            ;800529;800529;416829
+15;13;01;34;;;P;SERVICIO DE LA DEUDA                                                            ;2550;2550;7482063
+15;13;01;34;07;;P;Deuda Flotante                                                                  ;2550;2550;7482063
+15;13;01;35;;;P;SALDO FINAL DE CAJA                                                             ;100000;100000;0
+;;;;;;;RESULTADO;;;-963311

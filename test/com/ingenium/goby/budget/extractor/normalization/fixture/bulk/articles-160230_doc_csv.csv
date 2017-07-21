@@ -1,0 +1,30 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+18;02;01;06;;;P;RENTAS DE LA PROPIEDAD                                                          ;429620;429620;70971
+18;02;01;07;;;P;INGRESOS DE OPERACIÓN                                                           ;2506681;2506681;981147
+18;02;01;07;02;;P;Venta de Servicios                                                              ;2506681;2506681;981147
+18;02;01;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;249643;249643;53425
+18;02;01;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;165717;165717;34177
+18;02;01;08;02;;P;Multas y Sanciones Pecuniarias                                                  ;17327;17327;16065
+18;02;01;08;99;;P;Otros                                                                           ;66599;66599;3183
+18;02;01;09;;;P;APORTE FISCAL                                                                   ;23821163;23821163;4435094
+18;02;01;09;01;;P;Libre                                                                           ;23821163;23821163;4435094
+18;02;01;10;;;P;VENTA DE ACTIVOS NO FINANCIEROS                                                 ;17576;17576;6123
+18;02;01;10;99;;P;Otros Activos no Financieros                                                    ;17576;17576;6123
+18;02;01;13;;;P;TRANSFERENCIAS PARA GASTOS DE CAPITAL                                           ;80340;80340;0
+18;02;01;13;03;;P;De Otras Entidades Públicas                                                     ;80340;80340;0
+18;02;01;13;03;004;P;De Municipalidades para Conservación y Mantención de Parques                                                                                                                                                                                              ;80340;80340;0
+18;02;01;15;;;P;SALDO INICIAL DE CAJA                                                           ;10000;10000;0
+18;02;01;21;;;P;GASTOS EN PERSONAL                                                              ;5784715;5784715;1984111
+18;02;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;2134540;2134540;354085
+18;02;01;25;;;P;INTEGROS AL FISCO                                                               ;5637;5637;19
+18;02;01;25;01;;P;Impuestos                                                                       ;5637;5637;19
+18;02;01;26;;;P;OTROS GASTOS CORRIENTES                                                         ;10;10;13075
+18;02;01;26;02;;P;Compensaciones por Daños a Terceros y/o a la Propiedad                          ;10;10;13075
+18;02;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;64890;64890;267
+18;02;01;29;04;;P;Mobiliario y Otros                                                              ;28840;28840;267
+18;02;01;29;05;;P;Máquinas y Equipos                                                              ;36050;36050;0
+18;02;01;31;;;P;INICIATIVAS DE INVERSIÓN                                                        ;19125128;19125128;3237441
+18;02;01;31;02;;P;Proyectos                                                                       ;19125128;19125128;3237441
+18;02;01;34;;;P;SERVICIO DE LA DEUDA                                                            ;103;103;0
+18;02;01;34;07;;P;Deuda Flotante                                                                  ;103;103;0
+;;;;;;;RESULTADO;;;-42238

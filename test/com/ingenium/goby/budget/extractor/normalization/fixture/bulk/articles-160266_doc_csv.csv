@@ -1,0 +1,32 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+21;09;01;05;;;P;TRANSFERENCIAS CORRIENTES                                                       ;11;43758;43698
+21;09;01;05;01;;P;Del Sector Privado                                                              ;11;43758;43698
+21;09;01;05;01;001;P;Aplicación Ley N° 19.885                                                                                                                                                                                                                                  ;11;11;0
+21;09;01;05;01;003;P;Administradora del Fondo para Bonificación por Retiro                                                                                                                                                                                                     ;0;43747;43698
+21;09;01;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;162167;162167;85100
+21;09;01;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;162167;162167;54517
+21;09;01;08;99;;P;Otros                                                                           ;0;0;30583
+21;09;01;09;;;P;APORTE FISCAL                                                                   ;20174803;20059803;3558764
+21;09;01;09;01;;P;Libre                                                                           ;20174803;20059803;3558764
+21;09;01;12;;;P;RECUPERACIÓN DE PRÉSTAMOS                                                       ;0;94626;89269
+21;09;01;12;10;;P;Ingresos por Percibir                                                           ;0;94626;89269
+21;09;01;15;;;P;SALDO INICIAL DE CAJA                                                           ;1000;3593797;0
+21;09;01;21;;;P;GASTOS EN PERSONAL                                                              ;8086068;8175979;2628445
+21;09;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;4259753;5714405;411516
+21;09;01;23;;;P;PRESTACIONES DE SEGURIDAD SOCIAL                                                ;0;208378;208288
+21;09;01;23;03;;P;Prestaciones Sociales del Empleador                                             ;0;208378;208288
+21;09;01;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;6547518;4851499;942464
+21;09;01;24;01;;P;Al Sector Privado                                                               ;4810299;4810299;910103
+21;09;01;24;01;029;P;Fondo de Iniciativas para la Superación de la Pobreza                                                                                                                                                                                                     ;4810288;4810288;910103
+21;09;01;24;01;030;P;Aplicación Ley N° 19.885                                                                                                                                                                                                                                  ;11;11;0
+21;09;01;24;02;;P;Al Gobierno Central                                                             ;278469;0;0
+21;09;01;24;02;001;P;Colaboración INE Encuesta                                                                                                                                                                                                                                 ;278469;0;0
+21;09;01;24;03;;P;A Otras Entidades Públicas                                                      ;1458750;41200;32361
+21;09;01;24;03;330;P;Encuesta Casen                                                                                                                                                                                                                                            ;1458750;41200;32361
+21;09;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;1443642;1443642;59681
+21;09;01;29;04;;P;Mobiliario y Otros                                                              ;18920;18920;0
+21;09;01;29;06;;P;Equipos Informáticos                                                            ;430540;430540;15781
+21;09;01;29;07;;P;Programas Informáticos                                                          ;994182;994182;43900
+21;09;01;34;;;P;SERVICIO DE LA DEUDA                                                            ;1000;3560248;3558752
+21;09;01;34;07;;P;Deuda Flotante                                                                  ;1000;3560248;3558752
+;;;;;;;RESULTADO;;;-4032315

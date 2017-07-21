@@ -1,0 +1,39 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+12;02;11;06;;;P;RENTAS DE LA PROPIEDAD                                                          ;3049;3049;672
+12;02;11;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;30424;30424;25185
+12;02;11;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;21034;21034;24963
+12;02;11;08;02;;P;Multas y Sanciones Pecuniarias                                                  ;1295;1295;0
+12;02;11;08;99;;P;Otros                                                                           ;8095;8095;222
+12;02;11;09;;;P;APORTE FISCAL                                                                   ;184523147;184523147;124066153
+12;02;11;09;01;;P;Libre                                                                           ;184523147;184523147;124066153
+12;02;11;10;;;P;VENTA DE ACTIVOS NO FINANCIEROS                                                 ;2189;2189;0
+12;02;11;10;03;;P;Vehículos                                                                       ;2060;2060;0
+12;02;11;10;04;;P;Mobiliario y Otros                                                              ;14;14;0
+12;02;11;10;06;;P;Equipos Informáticos                                                            ;115;115;0
+12;02;11;12;;;P;RECUPERACIÓN DE PRÉSTAMOS                                                       ;0;0;38942
+12;02;11;12;10;;P;Ingresos por Percibir                                                           ;0;0;38942
+12;02;11;13;;;P;TRANSFERENCIAS PARA GASTOS DE CAPITAL                                           ;10417053;10417053;0
+12;02;11;13;02;;P;Del Gobierno Central                                                            ;6471464;6471464;0
+12;02;11;13;02;004;P;Gobierno Regional Metropolitano                                                                                                                                                                                                                           ;6471464;6471464;0
+12;02;11;13;03;;P;De Otras Entidades Públicas                                                     ;3945589;3945589;0
+12;02;11;13;03;001;P;Municipalidad de Las Condes                                                                                                                                                                                                                               ;3945589;3945589;0
+12;02;11;15;;;P;SALDO INICIAL DE CAJA                                                           ;10000;10000;0
+12;02;11;21;;;P;GASTOS EN PERSONAL                                                              ;4109804;4109804;1331538
+12;02;11;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;359518;359518;130094
+12;02;11;23;;;P;PRESTACIONES DE SEGURIDAD SOCIAL                                                ;0;0;118348
+12;02;11;23;03;;P;Prestaciones Sociales del Empleador                                             ;0;0;118348
+12;02;11;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;82010;82010;2704
+12;02;11;29;03;;P;Vehículos                                                                       ;21115;21115;0
+12;02;11;29;04;;P;Mobiliario y Otros                                                              ;1195;1195;0
+12;02;11;29;05;;P;Máquinas y Equipos                                                              ;2936;2936;347
+12;02;11;29;06;;P;Equipos Informáticos                                                            ;11068;11068;0
+12;02;11;29;07;;P;Programas Informáticos                                                          ;45696;45696;2357
+12;02;11;31;;;P;INICIATIVAS DE INVERSIÓN                                                        ;61800;61800;0
+12;02;11;31;01;;P;Estudios Básicos                                                                ;61800;61800;0
+12;02;11;33;;;P;TRANSFERENCIAS DE CAPITAL                                                       ;190361730;190361730;120000000
+12;02;11;33;01;;P;Al Sector Privado                                                               ;190361730;190361730;120000000
+12;02;11;33;01;026;P;Empresa Metro S.A.                                                                                                                                                                                                                                        ;190361730;190361730;120000000
+12;02;11;34;;;P;SERVICIO DE LA DEUDA                                                            ;1000;1000;86833
+12;02;11;34;07;;P;Deuda Flotante                                                                  ;1000;1000;86833
+12;02;11;35;;;P;SALDO FINAL DE CAJA                                                             ;10000;10000;0
+;;;;;;;RESULTADO;;;2461435

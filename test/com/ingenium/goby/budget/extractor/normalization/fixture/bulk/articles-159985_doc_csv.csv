@@ -1,0 +1,21 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+03;04;01;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;814;814;906
+03;04;01;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;814;814;694
+03;04;01;08;99;;P;Otros                                                                           ;0;0;212
+03;04;01;09;;;P;APORTE FISCAL                                                                   ;3572837;3572837;616815
+03;04;01;09;01;;P;Libre                                                                           ;3572837;3572837;616815
+03;04;01;15;;;P;SALDO INICIAL DE CAJA                                                           ;0;127434;0
+03;04;01;21;;;P;GASTOS EN PERSONAL                                                              ;834675;846749;269606
+03;04;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;477166;477166;131584
+03;04;01;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;2251956;2251956;393862
+03;04;01;24;01;;P;Al Sector Privado                                                               ;2251956;2251956;393862
+03;04;01;24;01;017;P;Programa de Formación                                                                                                                                                                                                                                     ;748406;748406;110590
+03;04;01;24;01;018;P;Programa de Perfeccionamiento                                                                                                                                                                                                                             ;1183635;1183635;257978
+03;04;01;24;01;019;P;Programa de Habilitación                                                                                                                                                                                                                                  ;115942;115942;18868
+03;04;01;24;01;020;P;Programa  de Perfeccionamiento Extraordinario                                                                                                                                                                                                             ;203973;203973;6426
+03;04;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;9854;9854;1916
+03;04;01;29;04;;P;Mobiliario y Otros                                                              ;2329;2329;0
+03;04;01;29;06;;P;Equipos Informáticos                                                            ;7525;7525;1916
+03;04;01;34;;;P;SERVICIO DE LA DEUDA                                                            ;0;115360;115360
+03;04;01;34;07;;P;Deuda Flotante                                                                  ;0;115360;115360
+;;;;;;;RESULTADO;;;-294607

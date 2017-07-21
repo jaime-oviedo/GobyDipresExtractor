@@ -1,0 +1,18 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+24;01;04;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;30;30;41400
+24;01;04;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;10;10;0
+24;01;04;08;02;;P;Multas y Sanciones Pecuniarias                                                  ;10;10;0
+24;01;04;08;99;;P;Otros                                                                           ;10;10;41400
+24;01;04;09;;;P;APORTE FISCAL                                                                   ;7421467;7421467;6015371
+24;01;04;09;01;;P;Libre                                                                           ;7421467;7421467;6015371
+24;01;04;21;;;P;GASTOS EN PERSONAL                                                              ;194545;194545;54989
+24;01;04;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;56537;56537;17163
+24;01;04;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;1215613;1215613;55000
+24;01;04;24;03;;P;A Otras Entidades Públicas                                                      ;1215613;1215613;55000
+24;01;04;24;03;004;P;Aplicación Programa Energización Rural y Social                                                                                                                                                                                                           ;1215613;1215613;55000
+24;01;04;33;;;P;TRANSFERENCIAS DE CAPITAL                                                       ;5954802;5954802;5954802
+24;01;04;33;02;;P;Al Gobierno Central                                                             ;5954802;5954802;5954802
+24;01;04;33;02;002;P;Subsecretaría de Desarrollo Regional y Administrativo - Programa 05                                                                                                                                                                                       ;5954802;5954802;5954802
+24;01;04;34;;;P;SERVICIO DE LA DEUDA                                                            ;0;0;323096
+24;01;04;34;07;;P;Deuda Flotante                                                                  ;0;0;323096
+;;;;;;;RESULTADO;;;-348279

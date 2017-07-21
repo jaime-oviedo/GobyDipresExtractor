@@ -1,0 +1,25 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+19;01;05;07;;;P;INGRESOS DE OPERACIÓN                                                           ;767905;767905;237656
+19;01;05;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;9074;9074;8602
+19;01;05;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;9074;9074;7316
+19;01;05;08;99;;P;Otros                                                                           ;0;0;1286
+19;01;05;09;;;P;APORTE FISCAL                                                                   ;10199395;10199395;3313060
+19;01;05;09;01;;P;Libre                                                                           ;10199395;10199395;3313060
+19;01;05;12;;;P;RECUPERACIÓN DE PRÉSTAMOS                                                       ;0;0;14891
+19;01;05;12;10;;P;Ingresos por Percibir                                                           ;0;0;14891
+19;01;05;15;;;P;SALDO INICIAL DE CAJA                                                           ;1000;73472;0
+19;01;05;21;;;P;GASTOS EN PERSONAL                                                              ;7390345;7390345;2432193
+19;01;05;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;3067788;3067788;587582
+19;01;05;25;;;P;INTEGROS AL FISCO                                                               ;122951;122951;30658
+19;01;05;25;01;;P;Impuestos                                                                       ;122951;122951;30658
+19;01;05;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;318236;318236;0
+19;01;05;29;04;;P;Mobiliario y Otros                                                              ;5346;5346;0
+19;01;05;29;05;;P;Máquinas y Equipos                                                              ;42766;42766;0
+19;01;05;29;06;;P;Equipos Informáticos                                                            ;102637;102637;0
+19;01;05;29;07;;P;Programas Informáticos                                                          ;167487;167487;0
+19;01;05;31;;;P;INICIATIVAS DE INVERSIÓN                                                        ;76054;76054;0
+19;01;05;31;02;;P;Proyectos                                                                       ;76054;76054;0
+19;01;05;34;;;P;SERVICIO DE LA DEUDA                                                            ;1000;73472;74471
+19;01;05;34;07;;P;Deuda Flotante                                                                  ;1000;73472;74471
+19;01;05;35;;;P;SALDO FINAL DE CAJA                                                             ;1000;1000;0
+;;;;;;;RESULTADO;;;449305

@@ -1,0 +1,14 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+05;08;02;09;;;P;APORTE FISCAL                                                                   ;5420257;5420257;1803328
+05;08;02;09;01;;P;Libre                                                                           ;5420257;5420257;1803328
+05;08;02;15;;;P;SALDO INICIAL DE CAJA                                                           ;0;103665;0
+05;08;02;21;;;P;GASTOS EN PERSONAL                                                              ;4081618;4081618;1231791
+05;08;02;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;1240562;1240562;314701
+05;08;02;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;98077;98077;10340
+05;08;02;29;04;;P;Mobiliario y Otros                                                              ;28418;28418;0
+05;08;02;29;05;;P;Máquinas y Equipos                                                              ;10300;10300;7806
+05;08;02;29;06;;P;Equipos Informáticos                                                            ;50234;50234;2534
+05;08;02;29;07;;P;Programas Informáticos                                                          ;9125;9125;0
+05;08;02;34;;;P;SERVICIO DE LA DEUDA                                                            ;0;103665;103665
+05;08;02;34;07;;P;Deuda Flotante                                                                  ;0;103665;103665
+;;;;;;;RESULTADO;;;142831

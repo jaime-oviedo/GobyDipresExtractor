@@ -1,0 +1,26 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+21;01;06;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;0;0;13360462
+21;01;06;08;99;;P;Otros                                                                           ;0;0;13360462
+21;01;06;09;;;P;APORTE FISCAL                                                                   ;48586294;48586294;9655101
+21;01;06;09;01;;P;Libre                                                                           ;48586294;48586294;9655101
+21;01;06;12;;;P;RECUPERACIÓN DE PRÉSTAMOS                                                       ;0;0;10905
+21;01;06;12;10;;P;Ingresos por Percibir                                                           ;0;0;10905
+21;01;06;15;;;P;SALDO INICIAL DE CAJA                                                           ;500;2501989;0
+21;01;06;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;48586294;48586294;10274054
+21;01;06;24;01;;P;Al Sector Privado                                                               ;96690;96690;48345
+21;01;06;24;01;001;P;Fono Infancia                                                                                                                                                                                                                                             ;96690;96690;48345
+21;01;06;24;02;;P;Al Gobierno Central                                                             ;37539714;37539714;9207054
+21;01;06;24;02;001;P;Programa de Apoyo al Desarrollo Biopsicosocial - Ministerio de Salud                                                                                                                                                                                      ;18414107;18414107;9207054
+21;01;06;24;02;002;P;Programa de Apoyo al Recién Nacido - Ministerio de Salud                                                                                                                                                                                                  ;14333586;14333586;0
+21;01;06;24;02;003;P;Educación Prebásica - JUNJI                                                                                                                                                                                                                               ;4792021;4792021;0
+21;01;06;24;03;;P;A Otras Entidades Públicas                                                      ;10949890;10949890;1018655
+21;01;06;24;03;001;P;Fondo de Intervenciones de Apoyo al Desarrollo Infantil                                                                                                                                                                                                   ;2640193;2640193;0
+21;01;06;24;03;002;P;Fondo Concursable de Iniciativas para la Infancia                                                                                                                                                                                                         ;438115;438115;0
+21;01;06;24;03;003;P;Programa de Fortalecimiento Municipal                                                                                                                                                                                                                     ;2673040;2673040;0
+21;01;06;24;03;005;P;Programa Diagnóstico de Vulnerabilidad en Pre-escolares                                                                                                                                                                                                   ;92793;92793;0
+21;01;06;24;03;006;P;Programa Educativo                                                                                                                                                                                                                                        ;2572635;2572635;102037
+21;01;06;24;03;007;P;Programa de Apoyo a la Salud Mental Infantil                                                                                                                                                                                                              ;868142;868142;868142
+21;01;06;24;03;008;P;Programa de Apoyo al Aprendizaje Integral                                                                                                                                                                                                                 ;1664972;1664972;48476
+21;01;06;34;;;P;SERVICIO DE LA DEUDA                                                            ;500;2501989;2501988
+21;01;06;34;07;;P;Deuda Flotante                                                                  ;500;2501989;2501988
+;;;;;;;RESULTADO;;;10250426

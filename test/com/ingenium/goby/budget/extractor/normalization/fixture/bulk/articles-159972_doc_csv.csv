@@ -1,0 +1,9 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+50;01;04;34;;;D;SERVICIO DE LA DEUDA                                                            ;271773;271773;134353
+50;01;04;34;01;;D;Amortización Deuda Interna                                                      ;10;10;0
+50;01;04;34;02;;D;Amortización Deuda Externa                                                      ;39381;39381;3988
+50;01;04;34;03;;D;Intereses Deuda Interna                                                         ;10;10;0
+50;01;04;34;04;;D;Intereses Deuda Externa                                                         ;232162;232162;130027
+50;01;04;34;05;;D;Otros Gastos Financieros Deuda Interna                                          ;10;10;17
+50;01;04;34;06;;D;Otros Gastos Financieros Deuda Externa                                          ;200;200;321
+;;;;;;;RESULTADO;;;-134353

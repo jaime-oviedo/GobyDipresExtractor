@@ -1,0 +1,28 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+10;02;01;06;;;P;RENTAS DE LA PROPIEDAD                                                          ;18024;18024;5210
+10;02;01;06;01;;P;Arriendo de Activos No Financieros                                              ;18024;18024;5210
+10;02;01;07;;;P;INGRESOS DE OPERACIÓN                                                           ;136142171;131839221;46764014
+10;02;01;07;02;;P;Venta de Servicios                                                              ;136142171;131839221;46764014
+10;02;01;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;1572782;1572782;1737775
+10;02;01;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;1505192;1505192;897528
+10;02;01;08;99;;P;Otros                                                                           ;67590;67590;840247
+10;02;01;09;;;P;APORTE FISCAL                                                                   ;5615320;5615320;2000000
+10;02;01;09;01;;P;Libre                                                                           ;5615320;5615320;2000000
+10;02;01;12;;;P;RECUPERACIÓN DE PRÉSTAMOS                                                       ;0;4302950;4307549
+10;02;01;12;10;;P;Ingresos por Percibir                                                           ;0;4302950;4307549
+10;02;01;15;;;P;SALDO INICIAL DE CAJA                                                           ;0;657533;0
+10;02;01;21;;;P;GASTOS EN PERSONAL                                                              ;48378682;48378682;18802535
+10;02;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;78193927;78193927;22522162
+10;02;01;25;;;P;INTEGROS AL FISCO                                                               ;13664083;13664083;4752637
+10;02;01;25;01;;P;Impuestos                                                                       ;13664083;13664083;4752637
+10;02;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;778702;778702;33128
+10;02;01;29;03;;P;Vehículos                                                                       ;92332;92332;0
+10;02;01;29;04;;P;Mobiliario y Otros                                                              ;246678;246678;12310
+10;02;01;29;05;;P;Máquinas y Equipos                                                              ;293792;293792;4144
+10;02;01;29;06;;P;Equipos Informáticos                                                            ;68680;68680;1931
+10;02;01;29;07;;P;Programas Informáticos                                                          ;77220;77220;14743
+10;02;01;31;;;P;INICIATIVAS DE INVERSIÓN                                                        ;2332903;2332903;338978
+10;02;01;31;02;;P;Proyectos                                                                       ;2332903;2332903;338978
+10;02;01;34;;;P;SERVICIO DE LA DEUDA                                                            ;0;657533;660153
+10;02;01;34;07;;P;Deuda Flotante                                                                  ;0;657533;660153
+;;;;;;;RESULTADO;;;7704955

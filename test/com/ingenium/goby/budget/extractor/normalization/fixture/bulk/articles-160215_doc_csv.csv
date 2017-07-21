@@ -1,0 +1,28 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+16;49;01;05;;;P;TRANSFERENCIAS CORRIENTES                                                       ;466760954;364495068;0
+16;49;01;05;02;;P;Del Gobierno Central                                                            ;466760954;364495068;0
+16;49;01;05;02;007;P;Fondo Nacional de Salud - Atención Primaria                                                                                                                                                                                                               ;129517737;129517737;0
+16;49;01;05;02;008;P;Fondo Nacional de Salud - Prestaciones Valoradas                                                                                                                                                                                                          ;31885211;31885211;0
+16;49;01;05;02;009;P;Fondo Nacional de Salud - Prestaciones Institucionales                                                                                                                                                                                                    ;305358006;203092120;0
+16;49;01;21;;;P;GASTOS EN PERSONAL                                                              ;110602919;112389303;0
+16;49;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;85919605;85919605;0
+16;49;01;23;;;P;PRESTACIONES DE SEGURIDAD SOCIAL                                                ;44054181;42001911;0
+16;49;01;23;02;;P;Prestaciones de Asistencia Social                                               ;24772;24772;0
+16;49;01;23;02;004;P;Ayudas Económicas y Otros Pagos Preventivos                                                                                                                                                                                                               ;24772;24772;0
+16;49;01;23;03;;P;Prestaciones Sociales del Empleador                                             ;44029409;41977139;0
+16;49;01;23;03;001;P;Indemnización de Cargo Fiscal                                                                                                                                                                                                                             ;44029409;41977139;0
+16;49;01;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;119107043;119107043;0
+16;49;01;24;01;;P;Al Sector Privado                                                               ;351500;351500;0
+16;49;01;24;01;395;P;Prog. Especial de Salud de los Pueblos Indígenas                                                                                                                                                                                                          ;351500;351500;0
+16;49;01;24;03;;P;A Otras Entidades Públicas                                                      ;118755543;118755543;0
+16;49;01;24;03;298;P;Atención Primaria, Ley N° 19.378                                                                                                                                                                                                                          ;118755543;118755543;0
+16;49;01;26;;;P;OTROS GASTOS CORRIENTES                                                         ;357410;357410;0
+16;49;01;26;02;;P;Compensaciones por Daños a Terceros y/o a la Propiedad                          ;357410;357410;0
+16;49;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;4719796;4719796;0
+16;49;01;29;03;;P;Vehículos                                                                       ;1736127;1736127;0
+16;49;01;29;04;;P;Mobiliario y Otros                                                              ;1554072;1554072;0
+16;49;01;29;05;;P;Máquinas y Equipos                                                              ;1320766;1320766;0
+16;49;01;29;06;;P;Equipos Informáticos                                                            ;108831;108831;0
+16;49;01;34;;;P;SERVICIO DE LA DEUDA                                                            ;102000000;0;0
+16;49;01;34;07;;P;Deuda Flotante                                                                  ;102000000;0;0
+;;;;;;;RESULTADO;;;0

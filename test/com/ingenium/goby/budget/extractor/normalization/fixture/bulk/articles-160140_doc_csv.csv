@@ -1,0 +1,36 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+12;04;01;05;;;P;TRANSFERENCIAS CORRIENTES                                                       ;0;0;4942
+12;04;01;05;01;;P;Del Sector Privado                                                              ;0;0;4942
+12;04;01;05;01;999;P;Otros                                                                                                                                                                                                                                                     ;0;0;4942
+12;04;01;06;;;P;RENTAS DE LA PROPIEDAD                                                          ;5356;5356;1824
+12;04;01;07;;;P;INGRESOS DE OPERACIÓN                                                           ;5459000;5459000;1592
+12;04;01;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;97850;97850;233521
+12;04;01;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;82400;82400;35993
+12;04;01;08;02;;P;Multas y Sanciones Pecuniarias                                                  ;0;0;7820
+12;04;01;08;99;;P;Otros                                                                           ;15450;15450;189708
+12;04;01;09;;;P;APORTE FISCAL                                                                   ;13338078;13338078;3609126
+12;04;01;09;01;;P;Libre                                                                           ;13338078;13338078;3609126
+12;04;01;10;;;P;VENTA DE ACTIVOS NO FINANCIEROS                                                 ;62;62;0
+12;04;01;10;04;;P;Mobiliario y Otros                                                              ;62;62;0
+12;04;01;12;;;P;RECUPERACIÓN DE PRÉSTAMOS                                                       ;10300;10300;161968
+12;04;01;12;10;;P;Ingresos por Percibir                                                           ;10300;10300;161968
+12;04;01;15;;;P;SALDO INICIAL DE CAJA                                                           ;10000;10000;0
+12;04;01;21;;;P;GASTOS EN PERSONAL                                                              ;11831776;11831776;3904494
+12;04;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;1174074;1174074;244322
+12;04;01;23;;;P;PRESTACIONES DE SEGURIDAD SOCIAL                                                ;0;0;256434
+12;04;01;23;03;;P;Prestaciones Sociales del Empleador                                             ;0;0;256434
+12;04;01;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;116420;116420;116420
+12;04;01;24;01;;P;Al Sector Privado                                                               ;116420;116420;116420
+12;04;01;24;01;001;P;Centro de Aguas para Zonas Aridas y Semiáridas de América Latina y el Caribe                                                                                                                                                                              ;116420;116420;116420
+12;04;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;201233;201233;33855
+12;04;01;29;04;;P;Mobiliario y Otros                                                              ;4099;4099;2207
+12;04;01;29;05;;P;Máquinas y Equipos                                                              ;84038;84038;5460
+12;04;01;29;06;;P;Equipos Informáticos                                                            ;12374;12374;11026
+12;04;01;29;07;;P;Programas Informáticos                                                          ;100722;100722;15162
+12;04;01;31;;;P;INICIATIVAS DE INVERSIÓN                                                        ;5586143;5586143;732801
+12;04;01;31;01;;P;Estudios Básicos                                                                ;1684205;1684205;117400
+12;04;01;31;02;;P;Proyectos                                                                       ;3901938;3901938;615401
+12;04;01;34;;;P;SERVICIO DE LA DEUDA                                                            ;1000;1000;329902
+12;04;01;34;07;;P;Deuda Flotante                                                                  ;1000;1000;329902
+12;04;01;35;;;P;SALDO FINAL DE CAJA                                                             ;10000;10000;0
+;;;;;;;RESULTADO;;;-1605255

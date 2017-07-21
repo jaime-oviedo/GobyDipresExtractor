@@ -1,0 +1,27 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+08;01;08;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;20;20;791
+08;01;08;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;10;10;0
+08;01;08;08;99;;P;Otros                                                                           ;10;10;791
+08;01;08;09;;;P;APORTE FISCAL                                                                   ;2878998;2878998;1941977
+08;01;08;09;01;;P;Libre                                                                           ;2623776;2623776;1847819
+08;01;08;09;03;;P;Servicio de la Deuda Externa                                                    ;255222;255222;94158
+08;01;08;14;;;P;ENDEUDAMIENTO                                                                   ;5561955;5561955;0
+08;01;08;14;02;;P;Endeudamiento Externo                                                           ;5561955;5561955;0
+08;01;08;21;;;P;GASTOS EN PERSONAL                                                              ;361648;361648;103114
+08;01;08;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;465446;465446;16633
+08;01;08;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;7353301;7353301;1697320
+08;01;08;24;02;;P;Al Gobierno Central                                                             ;7255657;7255657;1697320
+08;01;08;24;02;011;P;Instituto Nacional de Estadísticas                                                                                                                                                                                                                        ;1884967;1884967;148000
+08;01;08;24;02;012;P;Servicio Nacional del Consumidor                                                                                                                                                                                                                          ;587765;587765;75050
+08;01;08;24;02;013;P;Dirección de Compras y Contratación Pública                                                                                                                                                                                                               ;1220506;1220506;246000
+08;01;08;24;02;014;P;Superintendencia de Seguridad Social                                                                                                                                                                                                                      ;797817;797817;421000
+08;01;08;24;02;016;P;Dirección del Trabajo                                                                                                                                                                                                                                     ;1437159;1437159;460270
+08;01;08;24;02;017;P;Chile Atiende-Secretaría General de la Presidencia de la República                                                                                                                                                                                        ;1327443;1327443;347000
+08;01;08;24;07;;P;A Organismos Internacionales                                                    ;97644;97644;0
+08;01;08;24;07;006;P;Cooperación Técnica OCDE                                                                                                                                                                                                                                  ;97644;97644;0
+08;01;08;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;5356;5356;0
+08;01;08;29;07;;P;Programas Informáticos                                                          ;5356;5356;0
+08;01;08;34;;;P;SERVICIO DE LA DEUDA                                                            ;255222;255222;80595
+08;01;08;34;04;;P;Intereses Deuda Externa                                                         ;196624;196624;21997
+08;01;08;34;06;;P;Otros Gastos Financieros Deuda Externa                                          ;58598;58598;58598
+;;;;;;;RESULTADO;;;45106

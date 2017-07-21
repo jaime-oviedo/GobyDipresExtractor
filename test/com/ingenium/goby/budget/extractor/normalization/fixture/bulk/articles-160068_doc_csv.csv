@@ -1,0 +1,25 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+08;05;01;05;;;P;TRANSFERENCIAS CORRIENTES                                                       ;0;0;29814
+08;05;01;05;01;;P;Del Sector Privado                                                              ;0;0;29814
+08;05;01;06;;;P;RENTAS DE LA PROPIEDAD                                                          ;0;0;605
+08;05;01;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;1269491;1269491;340907
+08;05;01;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;999504;999504;325356
+08;05;01;08;02;;P;Multas y Sanciones Pecuniarias                                                  ;269987;269987;0
+08;05;01;08;99;;P;Otros                                                                           ;0;0;15551
+08;05;01;09;;;P;APORTE FISCAL                                                                   ;53682843;52882885;21926700
+08;05;01;09;01;;P;Libre                                                                           ;53682843;52882885;21926700
+08;05;01;12;;;P;RECUPERACIÓN DE PRÉSTAMOS                                                       ;0;0;795056
+08;05;01;12;10;;P;Ingresos por Percibir                                                           ;0;0;795056
+08;05;01;21;;;P;GASTOS EN PERSONAL                                                              ;36168992;36168992;16861367
+08;05;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;11576645;11576645;3007360
+08;05;01;23;;;P;PRESTACIONES DE SEGURIDAD SOCIAL                                                ;0;0;513556
+08;05;01;23;03;;P;Prestaciones Sociales del Empleador                                             ;0;0;513556
+08;05;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;7206697;6406739;645182
+08;05;01;29;03;;P;Vehículos                                                                       ;118092;118092;0
+08;05;01;29;04;;P;Mobiliario y Otros                                                              ;72430;72430;2682
+08;05;01;29;05;;P;Máquinas y Equipos                                                              ;56436;56436;3895
+08;05;01;29;06;;P;Equipos Informáticos                                                            ;2383354;1583396;795
+08;05;01;29;07;;P;Programas Informáticos                                                          ;4576385;4576385;637810
+08;05;01;34;;;P;SERVICIO DE LA DEUDA                                                            ;0;0;71970
+08;05;01;34;07;;P;Deuda Flotante                                                                  ;0;0;71970
+;;;;;;;RESULTADO;;;1993647

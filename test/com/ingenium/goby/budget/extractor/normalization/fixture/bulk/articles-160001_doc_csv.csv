@@ -1,0 +1,20 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+05;10;04;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;10;10;14452
+05;10;04;08;99;;P;Otros                                                                           ;10;10;14452
+05;10;04;09;;;P;APORTE FISCAL                                                                   ;36527699;40527699;23281333
+05;10;04;09;01;;P;Libre                                                                           ;36527699;40527699;23281333
+05;10;04;15;;;P;SALDO INICIAL DE CAJA                                                           ;0;7127674;0
+05;10;04;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;20272596;20272596;8991205
+05;10;04;24;01;;P;Al Sector Privado                                                               ;20272596;20272596;8991205
+05;10;04;24;01;024;P;Gastos de Operación de Cuerpo de Bomberos                                                                                                                                                                                                                 ;16012204;16165698;7206732
+05;10;04;24;01;025;P;Ayuda Extraordinaria, Reparaciones y Mantenciones de Cuerpos de Bomberos                                                                                                                                                                                  ;1729022;1526057;152823
+05;10;04;24;01;026;P;Funcionamiento de la Junta Nacional y Organismos Dependientes                                                                                                                                                                                             ;2531370;2580841;1631650
+05;10;04;33;;;P;TRANSFERENCIAS DE CAPITAL                                                       ;16255113;20255113;13080677
+05;10;04;33;01;;P;Al Sector Privado                                                               ;16255113;20255113;13080677
+05;10;04;33;01;001;P;Inversiones de Cuerpos de Bomberos                                                                                                                                                                                                                        ;4544708;4544708;3887826
+05;10;04;33;01;002;P;Importaciones y Compromisos en Moneda Extranjera para Cuerpos de Bomberos                                                                                                                                                                                 ;7204262;7204262;7204262
+05;10;04;33;01;003;P;Adquisiciones y Compromisos en Moneda Nacional para Cuerpos de Bomberos                                                                                                                                                                                   ;4506143;4506143;1988589
+05;10;04;33;01;004;P;Reconstrucción de Cuarteles                                                                                                                                                                                                                               ;0;4000000;0
+05;10;04;34;;;P;SERVICIO DE LA DEUDA                                                            ;0;7127674;7127674
+05;10;04;34;07;;P;Deuda Flotante                                                                  ;0;7127674;7127674
+;;;;;;;RESULTADO;;;-5903771

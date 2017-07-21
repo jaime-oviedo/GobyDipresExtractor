@@ -1,0 +1,29 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+15;06;01;05;;;P;TRANSFERENCIAS CORRIENTES                                                       ;797817;910115;46000
+15;06;01;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;82232;82232;38913
+15;06;01;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;82232;82232;38913
+15;06;01;09;;;P;APORTE FISCAL                                                                   ;12926003;13043258;4467711
+15;06;01;09;01;;P;Libre                                                                           ;12926003;13043258;4467711
+15;06;01;12;;;P;RECUPERACIÓN DE PRÉSTAMOS                                                       ;0;0;71245
+15;06;01;15;;;P;SALDO INICIAL DE CAJA                                                           ;1000;1000;0
+15;06;01;21;;;P;GASTOS EN PERSONAL                                                              ;10460159;10347861;3399873
+15;06;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;2190735;2190735;520732
+15;06;01;23;;;P;PRESTACIONES DE SEGURIDAD SOCIAL                                                ;0;341851;229553
+15;06;01;23;03;;P;Prestaciones Sociales del Empleador                                             ;0;341851;229553
+15;06;01;23;03;001;P;Indemnización de Cargo Fiscal                                                                                                                                                                                                                             ;0;229553;229553
+15;06;01;23;03;003;P;Fondo Retiro Funcionarios Públicos  Ley N° 19.882                                                                                                                                                                                                         ;0;112298;0
+15;06;01;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;808872;808872;29259
+15;06;01;24;03;;P;A Otras Entidades Públicas                                                      ;797817;797817;29259
+15;06;01;24;03;001;P;Programa de Modernización del Estado-BID                                                                                                                                                                                                                  ;797817;797817;29259
+15;06;01;24;07;;P;A Organismos Internacionales                                                    ;11055;11055;0
+15;06;01;24;07;001;P;A Organismos Internacionales                                                                                                                                                                                                                              ;11055;11055;0
+15;06;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;346286;346286;16692
+15;06;01;29;03;;P;Vehículos                                                                       ;13390;13390;13390
+15;06;01;29;04;;P;Mobiliario y Otros                                                              ;5768;5768;0
+15;06;01;29;05;;P;Máquinas y Equipos                                                              ;2060;2060;0
+15;06;01;29;06;;P;Equipos Informáticos                                                            ;165624;165624;3302
+15;06;01;29;07;;P;Programas Informáticos                                                          ;159444;159444;0
+15;06;01;34;;;P;SERVICIO DE LA DEUDA                                                            ;500;500;65925
+15;06;01;34;07;;P;Deuda Flotante                                                                  ;500;500;65925
+15;06;01;35;;;P;SALDO FINAL DE CAJA                                                             ;500;500;0
+;;;;;;;RESULTADO;;;361835

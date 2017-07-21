@@ -1,0 +1,53 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+05;10;01;05;;;P;TRANSFERENCIAS CORRIENTES                                                       ;10;15484518;0
+05;10;01;05;01;;P;Del Sector Privado                                                              ;10;10;0
+05;10;01;05;01;001;P;Donaciones                                                                                                                                                                                                                                                ;10;10;0
+05;10;01;05;02;;P;Del Gobierno Central                                                            ;0;15484508;0
+05;10;01;05;02;015;P;Subsecretaría de Desarrollo Regional y Administrativo - Programa 05                                                                                                                                                                                       ;0;15484508;0
+05;10;01;07;;;P;INGRESOS DE OPERACIÓN                                                           ;1580416;1580416;1273657
+05;10;01;07;02;;P;Venta de Servicios                                                              ;1580416;1580416;1273657
+05;10;01;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;75266;75266;1212848
+05;10;01;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;75256;75256;69267
+05;10;01;08;99;;P;Otros                                                                           ;10;10;1143581
+05;10;01;09;;;P;APORTE FISCAL                                                                   ;28596299;55649451;43451543
+05;10;01;09;01;;P;Libre                                                                           ;28596299;55649451;43451543
+05;10;01;10;;;P;VENTA DE ACTIVOS NO FINANCIEROS                                                 ;11273;11273;0
+05;10;01;10;03;;P;Vehículos                                                                       ;11273;11273;0
+05;10;01;12;;;P;RECUPERACIÓN DE PRÉSTAMOS                                                       ;0;0;29059
+05;10;01;12;10;;P;Ingresos por Percibir                                                           ;0;0;29059
+05;10;01;15;;;P;SALDO INICIAL DE CAJA                                                           ;0;5439771;0
+05;10;01;21;;;P;GASTOS EN PERSONAL                                                              ;13927595;13927595;4537552
+05;10;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;3079580;3079580;815834
+05;10;01;23;;;P;PRESTACIONES DE SEGURIDAD SOCIAL                                                ;0;0;527
+05;10;01;23;03;;P;Prestaciones Sociales del Empleador                                             ;0;0;527
+05;10;01;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;9968623;57211192;38733510
+05;10;01;24;01;;P;Al Sector Privado                                                               ;3213682;3213682;739831
+05;10;01;24;01;002;P;Asistencia Social (ORASMI)                                                                                                                                                                                                                                ;2552470;2552470;736515
+05;10;01;24;01;003;P;Becas                                                                                                                                                                                                                                                     ;661202;661202;3316
+05;10;01;24;01;023;P;Atención de Daños y Damnificados                                                                                                                                                                                                                          ;10;10;0
+05;10;01;24;02;;P;Al Gobierno Central                                                             ;1030470;1030470;0
+05;10;01;24;02;116;P;Plan Microtráfico Cero - Policía de Investigaciones de Chile                                                                                                                                                                                              ;1030470;1030470;0
+05;10;01;24;03;;P;A Otras Entidades Públicas                                                      ;5724471;52967040;37993679
+05;10;01;24;03;002;P;Para Atender Situaciones de Emergencia                                                                                                                                                                                                                    ;10;47388440;36638192
+05;10;01;24;03;018;P;Programa Estadio Seguro                                                                                                                                                                                                                                   ;1348891;1203030;185500
+05;10;01;24;03;041;P;Programa Diario Oficial                                                                                                                                                                                                                                   ;1216106;1216106;259202
+05;10;01;24;03;044;P;Migraciones y Extranjería                                                                                                                                                                                                                                 ;2784798;2784798;902009
+05;10;01;24;03;052;P;Observatorio de Riesgos Socionaturales                                                                                                                                                                                                                    ;100000;100000;0
+05;10;01;24;03;053;P;Programa de Seguimiento de Causas Judiciales                                                                                                                                                                                                              ;274666;274666;8776
+05;10;01;25;;;P;INTEGROS AL FISCO                                                               ;305587;305587;235727
+05;10;01;25;01;;P;Impuestos                                                                       ;305587;305587;235727
+05;10;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;243626;243626;63268
+05;10;01;29;03;;P;Vehículos                                                                       ;57062;57062;50950
+05;10;01;29;04;;P;Mobiliario y Otros                                                              ;59873;59873;857
+05;10;01;29;05;;P;Máquinas y Equipos                                                              ;10319;10319;6017
+05;10;01;29;06;;P;Equipos Informáticos                                                            ;65214;65214;1956
+05;10;01;29;07;;P;Programas Informáticos                                                          ;51158;51158;3488
+05;10;01;33;;;P;TRANSFERENCIAS DE CAPITAL                                                       ;2738253;3197020;1585701
+05;10;01;33;02;;P;Al Gobierno Central                                                             ;2738243;2738243;0
+05;10;01;33;02;031;P;Plan Nacional Contra el Narcotráfico - Carabineros de Chile                                                                                                                                                                                               ;1321993;1321993;0
+05;10;01;33;02;033;P;Plan Nacional Contra el Narcotráfico - Policía de Investigaciones de Chile                                                                                                                                                                                ;1416250;1416250;0
+05;10;01;33;03;;P;A Otras Entidades Públicas                                                      ;10;458777;1585701
+05;10;01;33;03;001;P;Para Atender Situaciones de Emergencia                                                                                                                                                                                                                    ;10;458777;1585701
+05;10;01;34;;;P;SERVICIO DE LA DEUDA                                                            ;0;276095;276095
+05;10;01;34;07;;P;Deuda Flotante                                                                  ;0;276095;276095
+;;;;;;;RESULTADO;;;-281107

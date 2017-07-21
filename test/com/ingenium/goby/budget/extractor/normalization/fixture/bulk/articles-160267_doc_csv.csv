@@ -1,0 +1,19 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+22;01;01;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;33036;33036;0
+22;01;01;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;33036;33036;0
+22;01;01;09;;;P;APORTE FISCAL                                                                   ;8730492;9378774;2728109
+22;01;01;09;01;;P;Libre                                                                           ;8730492;9378774;2728109
+22;01;01;15;;;P;SALDO INICIAL DE CAJA                                                           ;1000;1000;0
+22;01;01;21;;;P;GASTOS EN PERSONAL                                                              ;7264853;7513135;2343979
+22;01;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;1424294;1424294;233104
+22;01;01;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;0;400000;400000
+22;01;01;24;07;;P;A Organismos Internacionales                                                    ;0;400000;400000
+22;01;01;24;07;001;P;Programa Naciones Unidas para el Desarrollo (PNUD)                                                                                                                                                                                                        ;0;400000;400000
+22;01;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;74381;74381;1360
+22;01;01;29;04;;P;Mobiliario y Otros                                                              ;8624;8624;178
+22;01;01;29;05;;P;Máquinas y Equipos                                                              ;3364;3364;1182
+22;01;01;29;06;;P;Equipos Informáticos                                                            ;30319;30319;0
+22;01;01;29;07;;P;Programas Informáticos                                                          ;32074;32074;0
+22;01;01;34;;;P;SERVICIO DE LA DEUDA                                                            ;1000;1000;0
+22;01;01;34;07;;P;Deuda Flotante                                                                  ;1000;1000;0
+;;;;;;;RESULTADO;;;-250334

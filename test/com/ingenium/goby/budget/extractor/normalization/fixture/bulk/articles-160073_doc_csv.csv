@@ -1,0 +1,14 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+08;16;01;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;0;0;6041
+08;16;01;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;0;0;5835
+08;16;01;08;99;;P;Otros                                                                           ;0;0;206
+08;16;01;09;;;P;APORTE FISCAL                                                                   ;3172066;3172066;1130061
+08;16;01;09;01;;P;Libre                                                                           ;3172066;3172066;1130061
+08;16;01;21;;;P;GASTOS EN PERSONAL                                                              ;2418405;2418405;751926
+08;16;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;739148;739148;333919
+08;16;01;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;3619;3619;0
+08;16;01;24;07;;P;A Organismos Internacionales                                                    ;3619;3619;0
+08;16;01;24;07;001;P;Secretaría del Grupo Egmont                                                                                                                                                                                                                               ;3619;3619;0
+08;16;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;10894;10894;0
+08;16;01;29;06;;P;Equipos Informáticos                                                            ;10894;10894;0
+;;;;;;;RESULTADO;;;50257

@@ -1,0 +1,47 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+09;09;01;05;;;P;TRANSFERENCIAS CORRIENTES                                                       ;7637121;7637121;0
+09;09;01;05;02;;P;Del Gobierno Central                                                            ;7637121;7637121;0
+09;09;01;05;02;005;P;Ley N° 20.595 y Sistema Chile Solidario                                                                                                                                                                                                                   ;7637121;7637121;0
+09;09;01;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;5208735;5208735;499028
+09;09;01;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;197600;197600;97125
+09;09;01;08;02;;P;Multas y Sanciones Pecuniarias                                                  ;2111552;2111552;131500
+09;09;01;08;99;;P;Otros                                                                           ;2899583;2899583;270403
+09;09;01;09;;;P;APORTE FISCAL                                                                   ;609571614;609571614;127410000
+09;09;01;09;01;;P;Libre                                                                           ;609571614;609571614;127410000
+09;09;01;10;;;P;VENTA DE ACTIVOS NO FINANCIEROS                                                 ;10940;10940;0
+09;09;01;10;03;;P;Vehículos                                                                       ;10940;10940;0
+09;09;01;12;;;P;RECUPERACIÓN DE PRÉSTAMOS                                                       ;64195;64195;1106447
+09;09;01;12;10;;P;Ingresos por Percibir                                                           ;64195;64195;1106447
+09;09;01;15;;;P;SALDO INICIAL DE CAJA                                                           ;1000;111511287;0
+09;09;01;21;;;P;GASTOS EN PERSONAL                                                              ;14402448;14402448;4363054
+09;09;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;5313020;5313020;866067
+09;09;01;23;;;P;PRESTACIONES DE SEGURIDAD SOCIAL                                                ;400547;400547;3615
+09;09;01;23;03;;P;Prestaciones Sociales del Empleador                                             ;400547;400547;3615
+09;09;01;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;600948520;600948520;111900830
+09;09;01;24;01;;P;Al Sector Privado                                                               ;600948520;600948520;111900830
+09;09;01;24;01;190;P;Programa de Alimentación JUNJI                                                                                                                                                                                                                            ;90931601;90931601;16421868
+09;09;01;24;01;230;P;Aporte a Instituciones Colaboradoras                                                                                                                                                                                                                      ;427097;427097;0
+09;09;01;24;01;231;P;Programa de Alimentación para Educación Básica                                                                                                                                                                                                            ;311934415;311934415;58505138
+09;09;01;24;01;234;P;Capacitación a Terceros                                                                                                                                                                                                                                   ;272259;272259;14530
+09;09;01;24;01;239;P;Control Programas de la JUNAEB                                                                                                                                                                                                                            ;3897584;3897584;202480
+09;09;01;24;01;240;P;Programa de Alimentación de Vacaciones                                                                                                                                                                                                                    ;3120645;3120645;2146200
+09;09;01;24;01;242;P;Programa de Alimentación para Kinder                                                                                                                                                                                                                      ;30316951;30316951;5657003
+09;09;01;24;01;243;P;Programa de Alimentación Enseñanza Media                                                                                                                                                                                                                  ;123532542;123532542;24109165
+09;09;01;24;01;244;P;Programa de Alimentación para Refuerzo Educativo                                                                                                                                                                                                          ;301135;301135;0
+09;09;01;24;01;246;P;Programa de Alimentación para Prekinder                                                                                                                                                                                                                   ;26579444;26579444;4509354
+09;09;01;24;01;248;P;Programa de Alimentacion Especial para Estudiantes Adultos                                                                                                                                                                                                ;8209473;8209473;335092
+09;09;01;24;01;249;P;Programa Alimentación para Actividades Extraescolares en liceos                                                                                                                                                                                           ;172414;172414;0
+09;09;01;24;01;258;P;Programa de Alimentación Reescolarización plan 12 años escolaridad                                                                                                                                                                                        ;200351;200351;0
+09;09;01;24;01;290;P;Bono manipuladoras de alimentos                                                                                                                                                                                                                           ;1052609;1052609;0
+09;09;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;1412086;1412086;36115
+09;09;01;29;03;;P;Vehículos                                                                       ;153882;153882;16838
+09;09;01;29;04;;P;Mobiliario y Otros                                                              ;100049;100049;3179
+09;09;01;29;05;;P;Máquinas y Equipos                                                              ;10300;10300;0
+09;09;01;29;06;;P;Equipos Informáticos                                                            ;363101;363101;0
+09;09;01;29;07;;P;Programas Informáticos                                                          ;784754;784754;16098
+09;09;01;31;;;P;INICIATIVAS DE INVERSIÓN                                                        ;14984;14984;0
+09;09;01;31;02;;P;Proyectos                                                                       ;14984;14984;0
+09;09;01;34;;;P;SERVICIO DE LA DEUDA                                                            ;1000;111511287;111511287
+09;09;01;34;07;;P;Deuda Flotante                                                                  ;1000;111511287;111511287
+09;09;01;35;;;P;SALDO FINAL DE CAJA                                                             ;1000;1000;0
+;;;;;;;RESULTADO;;;-99665493

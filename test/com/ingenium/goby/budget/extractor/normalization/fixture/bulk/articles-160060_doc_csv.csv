@@ -1,0 +1,25 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+07;25;01;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;32102;32102;23619
+07;25;01;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;29395;29395;22370
+07;25;01;08;99;;P;Otros                                                                           ;2707;2707;1249
+07;25;01;09;;;P;APORTE FISCAL                                                                   ;5296161;5296161;1731645
+07;25;01;09;01;;P;Libre                                                                           ;5296161;5296161;1731645
+07;25;01;12;;;P;RECUPERACIÓN DE PRÉSTAMOS                                                       ;309;309;67827
+07;25;01;12;10;;P;Ingresos por Percibir                                                           ;309;309;67827
+07;25;01;15;;;P;SALDO INICIAL DE CAJA                                                           ;10;10;0
+07;25;01;21;;;P;GASTOS EN PERSONAL                                                              ;4031900;4031900;1366437
+07;25;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;828100;828100;218868
+07;25;01;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;346057;346057;103550
+07;25;01;24;01;;P;Al Sector Privado                                                               ;344710;344710;102637
+07;25;01;24;01;283;P;Para Cumplimiento Artículo 37 del Libro IV del Código de Comercio                                                                                                                                                                                         ;9826;9826;1191
+07;25;01;24;01;284;P;Plan de Cierre de Quiebras en Regiones                                                                                                                                                                                                                    ;36823;36823;10390
+07;25;01;24;01;285;P;Para Cumplimiento Artículo 40, Ley N° 20.720                                                                                                                                                                                                              ;298061;298061;91056
+07;25;01;24;07;;P;A Organismos Internacionales                                                    ;1347;1347;913
+07;25;01;24;07;006;P;Asociación Internacional de Reguladores por Insolvencia                                                                                                                                                                                                   ;1347;1347;913
+07;25;01;25;;;P;INTEGROS AL FISCO                                                               ;10;10;0
+07;25;01;25;01;;P;Impuestos                                                                       ;10;10;0
+07;25;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;122515;122515;17101
+07;25;01;29;05;;P;Máquinas y Equipos                                                              ;13081;13081;631
+07;25;01;29;06;;P;Equipos Informáticos                                                            ;50310;50310;6012
+07;25;01;29;07;;P;Programas Informáticos                                                          ;59124;59124;10458
+;;;;;;;RESULTADO;;;117135

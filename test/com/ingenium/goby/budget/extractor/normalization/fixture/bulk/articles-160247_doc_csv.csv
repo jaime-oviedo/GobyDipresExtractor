@@ -1,0 +1,24 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+19;01;02;09;;;P;APORTE FISCAL                                                                   ;134217717;134217717;33093192
+19;01;02;09;01;;P;Libre                                                                           ;72471056;72471056;11910546
+19;01;02;09;02;;P;Servicio de la Deuda Interna                                                    ;51956549;51956549;16096917
+19;01;02;09;03;;P;Servicio de la Deuda Externa                                                    ;9790112;9790112;5085729
+19;01;02;12;;;P;RECUPERACIÓN DE PRÉSTAMOS                                                       ;0;0;75377
+19;01;02;12;10;;P;Ingresos por Percibir                                                           ;0;0;75377
+19;01;02;15;;;P;SALDO INICIAL DE CAJA                                                           ;1000;1000;0
+19;01;02;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;264515;264515;135655
+19;01;02;24;03;;P;A Otras Entidades Públicas                                                      ;264515;264515;135655
+19;01;02;24;03;311;P;Fondos para Indemnizaciones                                                                                                                                                                                                                               ;264515;264515;135655
+19;01;02;33;;;P;TRANSFERENCIAS DE CAPITAL                                                       ;72206541;72206541;11774891
+19;01;02;33;03;;P;A Otras Entidades Públicas                                                      ;72206541;72206541;11774891
+19;01;02;33;03;059;P;Ferrocarril Arica La Paz                                                                                                                                                                                                                                  ;2200000;2200000;0
+19;01;02;33;03;064;P;Inversiones  Plan Trienal 2017-2019                                                                                                                                                                                                                       ;36050000;36050000;0
+19;01;02;33;03;067;P;Aporte Mantención Infraestructura                                                                                                                                                                                                                         ;21339041;21339041;7569057
+19;01;02;33;03;068;P;Inversiones Planes Trienales Anteriores                                                                                                                                                                                                                   ;12617500;12617500;4205834
+19;01;02;34;;;P;SERVICIO DE LA DEUDA                                                            ;61746661;61746661;21182646
+19;01;02;34;01;;P;Amortización Deuda Interna                                                      ;3880272;3880272;1006570
+19;01;02;34;02;;P;Amortización Deuda Externa                                                      ;9389818;9389818;5037537
+19;01;02;34;03;;P;Intereses Deuda Interna                                                         ;48076277;48076277;15090347
+19;01;02;34;04;;P;Intereses Deuda Externa                                                         ;400294;400294;48192
+19;01;02;35;;;P;SALDO FINAL DE CAJA                                                             ;1000;1000;0
+;;;;;;;RESULTADO;;;75377

@@ -1,0 +1,43 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+09;01;01;05;;;P;TRANSFERENCIAS CORRIENTES                                                       ;0;187866;0
+09;01;01;05;01;;P;Del Sector Privado                                                              ;0;187866;0
+09;01;01;05;01;003;P;Administradora del Fondo para Bonificación por Retiro                                                                                                                                                                                                     ;0;187866;0
+09;01;01;06;;;P;RENTAS DE LA PROPIEDAD                                                          ;1194;1194;1622
+09;01;01;07;;;P;INGRESOS DE OPERACIÓN                                                           ;1325138;1325138;73703
+09;01;01;07;02;;P;Venta de Servicios                                                              ;1325138;1325138;73703
+09;01;01;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;585080;585080;753591
+09;01;01;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;583889;583889;126600
+09;01;01;08;99;;P;Otros                                                                           ;1191;1191;626991
+09;01;01;09;;;P;APORTE FISCAL                                                                   ;55281118;53828874;14874247
+09;01;01;09;01;;P;Libre                                                                           ;55281118;53828874;14874247
+09;01;01;12;;;P;RECUPERACIÓN DE PRÉSTAMOS                                                       ;6960;6960;0
+09;01;01;15;;;P;SALDO INICIAL DE CAJA                                                           ;1000;2982959;0
+09;01;01;21;;;P;GASTOS EN PERSONAL                                                              ;36325977;36325977;11834874
+09;01;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;7278235;7278235;1890177
+09;01;01;23;;;P;PRESTACIONES DE SEGURIDAD SOCIAL                                                ;0;735622;0
+09;01;01;23;03;;P;Prestaciones Sociales del Empleador                                             ;0;735622;0
+09;01;01;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;9744191;9744191;2632183
+09;01;01;24;01;;P;Al Sector Privado                                                               ;4620429;4620429;2169079
+09;01;01;24;01;002;P;Premio al Mérito Juan Vilches Jimenez, D.S.(Ed.) N°391/2003                                                                                                                                                                                               ;1442;1442;0
+09;01;01;24;01;181;P;Fundación Tiempos Nuevos                                                                                                                                                                                                                                  ;4047012;4047012;2023506
+09;01;01;24;01;184;P;Instituto de Chile                                                                                                                                                                                                                                        ;436720;436720;145573
+09;01;01;24;01;185;P;Premios Nacionales y Premio Luis Cruz Martínez                                                                                                                                                                                                            ;135255;135255;0
+09;01;01;24;03;;P;A Otras Entidades Públicas                                                      ;5123762;5123762;463104
+09;01;01;24;03;090;P;Consejo de Calificación Cinematográfica                                                                                                                                                                                                                   ;3774;3774;3774
+09;01;01;24;03;136;P;Desarrollo de Capacidades para el Estudio e Investigaciones Pedagógicas                                                                                                                                                                                   ;1442000;1442000;155070
+09;01;01;24;03;381;P;Intercambios Docentes, Cultural y de Asistencia                                                                                                                                                                                                           ;256470;256470;8936
+09;01;01;24;03;532;P;Sistema de Información y Gestión Escolar                                                                                                                                                                                                                  ;3421518;3421518;295324
+09;01;01;25;;;P;INTEGROS AL FISCO                                                               ;187433;187433;11605
+09;01;01;25;01;;P;Impuestos                                                                       ;187433;187433;11605
+09;01;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;2907022;2907022;443912
+09;01;01;29;03;;P;Vehículos                                                                       ;54075;54075;0
+09;01;01;29;04;;P;Mobiliario y Otros                                                              ;207177;207177;8384
+09;01;01;29;05;;P;Máquinas y Equipos                                                              ;120210;120210;48709
+09;01;01;29;06;;P;Equipos Informáticos                                                            ;721000;721000;17709
+09;01;01;29;07;;P;Programas Informáticos                                                          ;1804560;1804560;369110
+09;01;01;31;;;P;INICIATIVAS DE INVERSIÓN                                                        ;755545;755545;89811
+09;01;01;31;02;;P;Proyectos                                                                       ;755545;755545;89811
+09;01;01;34;;;P;SERVICIO DE LA DEUDA                                                            ;1028;982987;982721
+09;01;01;34;07;;P;Deuda Flotante                                                                  ;1028;982987;982721
+09;01;01;35;;;P;SALDO FINAL DE CAJA                                                             ;1059;1059;0
+;;;;;;;RESULTADO;;;-2182120

@@ -1,0 +1,17 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+06;05;01;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;31003;31003;29060
+06;05;01;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;17718;17718;7259
+06;05;01;08;99;;P;Otros                                                                           ;13285;13285;21801
+06;05;01;09;;;P;APORTE FISCAL                                                                   ;7890055;7890055;2789700
+06;05;01;09;01;;P;Libre                                                                           ;7890055;7890055;2789700
+06;05;01;21;;;P;GASTOS EN PERSONAL                                                              ;2649802;2649802;826057
+06;05;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;263083;263083;49244
+06;05;01;23;;;P;PRESTACIONES DE SEGURIDAD SOCIAL                                                ;0;0;28754
+06;05;01;23;01;;P;Prestaciones Previsionales                                                      ;0;0;28754
+06;05;01;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;4911868;4911868;1465315
+06;05;01;24;01;;P;Al Sector Privado                                                               ;4911868;4911868;1465315
+06;05;01;24;01;548;P;Cooperación Sur-Sur                                                                                                                                                                                                                                       ;4911868;4911868;1465315
+06;05;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;96305;96305;761
+06;05;01;29;06;;P;Equipos Informáticos                                                            ;57165;57165;761
+06;05;01;29;07;;P;Programas Informáticos                                                          ;39140;39140;0
+;;;;;;;RESULTADO;;;448629

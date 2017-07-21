@@ -1,0 +1,29 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+13;05;04;07;;;P;INGRESOS DE OPERACIÓN                                                           ;7598075;7598075;4498405
+13;05;04;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;0;0;7539
+13;05;04;08;02;;P;Multas y Sanciones Pecuniarias                                                  ;0;0;4098
+13;05;04;08;99;;P;Otros                                                                           ;0;0;3441
+13;05;04;09;;;P;APORTE FISCAL                                                                   ;8605621;8464236;942504
+13;05;04;09;01;;P;Libre                                                                           ;8605621;8464236;942504
+13;05;04;10;;;P;VENTA DE ACTIVOS NO FINANCIEROS                                                 ;37286;37286;0
+13;05;04;10;03;;P;Vehículos                                                                       ;37286;37286;0
+13;05;04;12;;;P;RECUPERACIÓN DE PRÉSTAMOS                                                       ;10;10;433286
+13;05;04;12;10;;P;Ingresos por Percibir                                                           ;10;10;433286
+13;05;04;13;;;P;TRANSFERENCIAS PARA GASTOS DE CAPITAL                                           ;1258738;2091038;0
+13;05;04;13;02;;P;Del Gobierno Central                                                            ;1258738;2091038;0
+13;05;04;13;02;129;P;Subsecretaria de Turismo                                                                                                                                                                                                                                  ;1258738;2091038;0
+13;05;04;21;;;P;GASTOS EN PERSONAL                                                              ;11254172;11112787;3914851
+13;05;04;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;3170922;3170922;865451
+13;05;04;23;;;P;PRESTACIONES DE SEGURIDAD SOCIAL                                                ;10;10;0
+13;05;04;23;03;;P;Prestaciones Sociales del Empleador                                             ;10;10;0
+13;05;04;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;1331586;1331586;402123
+13;05;04;24;01;;P;Al Sector Privado                                                               ;1331586;1331586;402123
+13;05;04;24;01;411;P;Jardín Botánico                                                                                                                                                                                                                                           ;185586;185586;85586
+13;05;04;24;01;533;P;Convenio Asociatividad Comunidad Ma'u Henua                                                                                                                                                                                                               ;1146000;1146000;316537
+13;05;04;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;186430;186430;0
+13;05;04;29;03;;P;Vehículos                                                                       ;186430;186430;0
+13;05;04;31;;;P;INICIATIVAS DE INVERSIÓN                                                        ;1556610;2388910;0
+13;05;04;31;02;;P;Proyectos                                                                       ;1556610;2388910;0
+13;05;04;34;;;P;SERVICIO DE LA DEUDA                                                            ;0;0;706892
+13;05;04;34;07;;P;Deuda Flotante                                                                  ;0;0;706892
+;;;;;;;RESULTADO;;;-7583

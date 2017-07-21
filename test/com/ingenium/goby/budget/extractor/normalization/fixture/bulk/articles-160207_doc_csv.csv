@@ -1,0 +1,37 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+16;40;01;05;;;P;TRANSFERENCIAS CORRIENTES                                                       ;61239412;64488326;25286322
+16;40;01;05;02;;P;Del Gobierno Central                                                            ;61239412;64488326;25286322
+16;40;01;05;02;007;P;Fondo Nacional de Salud - Atención Primaria                                                                                                                                                                                                               ;8413940;8413940;4424986
+16;40;01;05;02;008;P;Fondo Nacional de Salud - Prestaciones Valoradas                                                                                                                                                                                                          ;8079467;8079467;2380745
+16;40;01;05;02;009;P;Fondo Nacional de Salud - Prestaciones Institucionales                                                                                                                                                                                                    ;44641898;47890812;18444609
+16;40;01;05;02;010;P;Subsecretaría de Salud Pública                                                                                                                                                                                                                            ;104107;104107;35982
+16;40;01;06;;;P;RENTAS DE LA PROPIEDAD                                                          ;10269;10269;343
+16;40;01;07;;;P;INGRESOS DE OPERACIÓN                                                           ;1803048;1803048;760599
+16;40;01;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;763050;763050;405357
+16;40;01;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;695402;695402;381517
+16;40;01;08;02;;P;Multas y Sanciones Pecuniarias                                                  ;12779;12779;8447
+16;40;01;08;99;;P;Otros                                                                           ;54869;54869;15393
+16;40;01;12;;;P;RECUPERACIÓN DE PRÉSTAMOS                                                       ;320980;320980;1076893
+16;40;01;12;10;;P;Ingresos por Percibir                                                           ;320980;320980;1076893
+16;40;01;13;;;P;TRANSFERENCIAS PARA GASTOS DE CAPITAL                                           ;0;6931691;562020
+16;40;01;13;02;;P;Del Gobierno Central                                                            ;0;6931691;562020
+16;40;01;13;02;003;P;Inversión Sectorial de Salud                                                                                                                                                                                                                              ;0;6931691;562020
+16;40;01;15;;;P;SALDO INICIAL DE CAJA                                                           ;6632;6632;0
+16;40;01;21;;;P;GASTOS EN PERSONAL                                                              ;49138872;49138872;18673871
+16;40;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;14861141;14861141;5863718
+16;40;01;23;;;P;PRESTACIONES DE SEGURIDAD SOCIAL                                                ;600;600;0
+16;40;01;23;02;;P;Prestaciones de Asistencia Social                                               ;600;600;0
+16;40;01;23;02;004;P;Ayudas Económicas y Otros Pagos Preventivos                                                                                                                                                                                                               ;600;600;0
+16;40;01;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;9755;9755;0
+16;40;01;24;01;;P;Al Sector Privado                                                               ;6011;6011;0
+16;40;01;24;01;461;P;Centros de Prevención de Alcoholismo y Salud Mental                                                                                                                                                                                                       ;6011;6011;0
+16;40;01;24;03;;P;A Otras Entidades Públicas                                                      ;3744;3744;0
+16;40;01;24;03;298;P;Atención Primaria, Ley N° 19.378                                                                                                                                                                                                                          ;3744;3744;0
+16;40;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;126385;126385;5799
+16;40;01;29;04;;P;Mobiliario y Otros                                                              ;126385;126385;5799
+16;40;01;31;;;P;INICIATIVAS DE INVERSIÓN                                                        ;0;6931691;536903
+16;40;01;31;02;;P;Proyectos                                                                       ;0;6931691;536903
+16;40;01;34;;;P;SERVICIO DE LA DEUDA                                                            ;0;3248914;3180725
+16;40;01;34;07;;P;Deuda Flotante                                                                  ;0;3248914;3180725
+16;40;01;35;;;P;SALDO FINAL DE CAJA                                                             ;6638;6638;0
+;;;;;;;RESULTADO;;;-169482

@@ -1,0 +1,23 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+10;04;02;07;;;P;INGRESOS DE OPERACIÓN                                                           ;3478951;3478951;1065802
+10;04;02;07;02;;P;Venta de Servicios                                                              ;3478951;3478951;1065802
+10;04;02;09;;;P;APORTE FISCAL                                                                   ;38238879;38238879;9767078
+10;04;02;09;01;;P;Libre                                                                           ;38238879;38238879;9767078
+10;04;02;21;;;P;GASTOS EN PERSONAL                                                              ;20039828;20039828;6351802
+10;04;02;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;10592638;10592638;2880831
+10;04;02;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;10924394;10924394;1648894
+10;04;02;24;03;;P;A Otras Entidades Públicas                                                      ;10924394;10924394;1648894
+10;04;02;24;03;001;P;Programas de Reinserción Social para Personas Privadas de Libertad                                                                                                                                                                                        ;717190;717190;30019
+10;04;02;24;03;002;P;Programa Centros de Educación y Trabajo Semiabiertos                                                                                                                                                                                                      ;2838826;2838826;452777
+10;04;02;24;03;003;P;Programa de Intermediación Laboral para Penados en el Sistema Abierto                                                                                                                                                                                     ;233197;233197;472
+10;04;02;24;03;004;P;Programas de Apoyo Postpenitenciario                                                                                                                                                                                                                      ;498402;498402;25411
+10;04;02;24;03;005;P;Programa de Reinserción Social en Convenio con Ministerio del Interior                                                                                                                                                                                    ;1700827;1700827;231554
+10;04;02;24;03;006;P;Programa de Reinserción Laboral en Convenio con Ministerio del Interior                                                                                                                                                                                   ;620602;620602;55392
+10;04;02;24;03;007;P;Programa de Reinserción Social en Secciones Juveniles                                                                                                                                                                                                     ;1265798;1265798;94152
+10;04;02;24;03;008;P;Programa Centros de Educación y Trabajo Cerrados                                                                                                                                                                                                          ;1912784;1912784;546732
+10;04;02;24;03;009;P;Programa de Atención para Mujeres Embarazadas con Hijos Lactantes                                                                                                                                                                                         ;1136768;1136768;212385
+10;04;02;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;160970;160970;0
+10;04;02;29;04;;P;Mobiliario y Otros                                                              ;29746;29746;0
+10;04;02;29;05;;P;Máquinas y Equipos                                                              ;3113;3113;0
+10;04;02;29;06;;P;Equipos Informáticos                                                            ;128111;128111;0
+;;;;;;;RESULTADO;;;-48647

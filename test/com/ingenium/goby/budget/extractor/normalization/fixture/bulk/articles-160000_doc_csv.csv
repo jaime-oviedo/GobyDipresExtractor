@@ -1,0 +1,12 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+05;10;03;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;10;10;22195
+05;10;03;08;99;;P;Otros                                                                           ;10;10;22195
+05;10;03;09;;;P;APORTE FISCAL                                                                   ;3923673;3923673;299990
+05;10;03;09;01;;P;Libre                                                                           ;3923673;3923673;299990
+05;10;03;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;751837;751837;169035
+05;10;03;24;01;;P;Al Sector Privado                                                               ;751837;751837;169035
+05;10;03;24;01;997;P;Fondo Social                                                                                                                                                                                                                                              ;751837;751837;169035
+05;10;03;33;;;P;TRANSFERENCIAS DE CAPITAL                                                       ;3171846;3171846;23685
+05;10;03;33;01;;P;Al Sector Privado                                                               ;3171846;3171846;23685
+05;10;03;33;01;995;P;Fondo Social                                                                                                                                                                                                                                              ;3171846;3171846;23685
+;;;;;;;RESULTADO;;;129465

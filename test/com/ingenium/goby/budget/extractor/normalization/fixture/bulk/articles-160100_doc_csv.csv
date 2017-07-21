@@ -1,0 +1,17 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+09;13;01;05;;;P;TRANSFERENCIAS CORRIENTES                                                       ;564286;564286;289869
+09;13;01;05;03;;P;De Otras Entidades Públicas                                                     ;564286;564286;289869
+09;13;01;05;03;001;P;Universidades                                                                                                                                                                                                                                             ;564286;564286;289869
+09;13;01;07;;;P;INGRESOS DE OPERACIÓN                                                           ;121882;121882;143833
+09;13;01;15;;;P;SALDO INICIAL DE CAJA                                                           ;1000;1000;0
+09;13;01;21;;;P;GASTOS EN PERSONAL                                                              ;454418;454418;121864
+09;13;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;202401;202401;40318
+09;13;01;25;;;P;INTEGROS AL FISCO                                                               ;25608;25608;22965
+09;13;01;25;01;;P;Impuestos                                                                       ;25608;25608;22965
+09;13;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;2315;2315;59
+09;13;01;29;06;;P;Equipos Informáticos                                                            ;1238;1238;59
+09;13;01;29;07;;P;Programas Informáticos                                                          ;1077;1077;0
+09;13;01;34;;;P;SERVICIO DE LA DEUDA                                                            ;500;500;0
+09;13;01;34;07;;P;Deuda Flotante                                                                  ;500;500;0
+09;13;01;35;;;P;SALDO FINAL DE CAJA                                                             ;1926;1926;0
+;;;;;;;RESULTADO;;;248496

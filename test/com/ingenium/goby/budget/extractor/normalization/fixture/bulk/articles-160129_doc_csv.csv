@@ -1,0 +1,27 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+11;25;01;05;;;P;TRANSFERENCIAS CORRIENTES                                                       ;451763;451763;451763
+11;25;01;05;02;;P;Del Gobierno Central                                                            ;451763;451763;451763
+11;25;01;05;02;002;P;Armada de Chile                                                                                                                                                                                                                                           ;206112;206112;206112
+11;25;01;05;02;003;P;Fuerza Aérea de Chile                                                                                                                                                                                                                                     ;143659;143659;143659
+11;25;01;05;02;005;P;Ejército de Chile                                                                                                                                                                                                                                         ;101992;101992;101992
+11;25;01;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;0;0;54953
+11;25;01;08;02;;P;Multas y Sanciones Pecuniarias                                                  ;0;0;52592
+11;25;01;08;99;;P;Otros                                                                           ;0;0;2361
+11;25;01;09;;;P;APORTE FISCAL                                                                   ;8572622;8572622;3839298
+11;25;01;09;01;;P;Libre                                                                           ;8572622;8572622;3839298
+11;25;01;21;;;P;GASTOS EN PERSONAL                                                              ;648181;648181;201252
+11;25;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;1167656;1167656;333721
+11;25;01;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;7175073;7175073;2712837
+11;25;01;24;02;;P;Al Gobierno Central                                                             ;1086731;1287427;1287427
+11;25;01;24;02;005;P;Fondo para Misiones de Paz-Ejército de Chile                                                                                                                                                                                                              ;696020;817818;817818
+11;25;01;24;02;006;P;Fondo para Misiones de Paz-Armada de Chile                                                                                                                                                                                                                ;236089;257089;257089
+11;25;01;24;02;007;P;Fondo para Misiones de Paz-Fuerza Aérea de Chile                                                                                                                                                                                                          ;154622;212520;212520
+11;25;01;24;03;;P;A Otras Entidades Públicas                                                      ;6088342;5887646;1425410
+11;25;01;24;03;037;P;Comando Conjunto Austral                                                                                                                                                                                                                                  ;258241;258241;50191
+11;25;01;24;03;041;P;Fondo para Misiones de Paz                                                                                                                                                                                                                                ;1452546;1251850;242710
+11;25;01;24;03;044;P;Centro Nacional de Desminado                                                                                                                                                                                                                              ;4090761;4090761;1039163
+11;25;01;24;03;045;P;Comando Conjunto Norte                                                                                                                                                                                                                                    ;277896;277896;93346
+11;25;01;24;03;046;P;Programa de Cooperación Internacional en Centroamérica                                                                                                                                                                                                    ;8898;8898;0
+11;25;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;33475;33475;204
+11;25;01;29;07;;P;Programas Informáticos                                                          ;33475;33475;204
+;;;;;;;RESULTADO;;;1098000

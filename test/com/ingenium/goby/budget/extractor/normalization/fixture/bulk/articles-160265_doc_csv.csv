@@ -1,0 +1,39 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+21;08;01;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;53030;53030;49946
+21;08;01;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;40733;40733;24875
+21;08;01;08;99;;P;Otros                                                                           ;12297;12297;25071
+21;08;01;09;;;P;APORTE FISCAL                                                                   ;31338850;31338850;3833880
+21;08;01;09;01;;P;Libre                                                                           ;30924667;30924667;3833880
+21;08;01;09;03;;P;Servicio de la Deuda Externa                                                    ;414183;414183;0
+21;08;01;15;;;P;SALDO INICIAL DE CAJA                                                           ;82834;2163195;0
+21;08;01;21;;;P;GASTOS EN PERSONAL                                                              ;4120813;4120813;1540008
+21;08;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;1096057;1096057;289067
+21;08;01;23;;;P;PRESTACIONES DE SEGURIDAD SOCIAL                                                ;0;14794;14764
+21;08;01;23;03;;P;Prestaciones Sociales del Empleador                                             ;0;14794;14764
+21;08;01;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;21797278;21797278;4048188
+21;08;01;24;01;;P;Al Sector Privado                                                               ;1514933;1514933;252488
+21;08;01;24;01;597;P;Consejo Nacional de Protección a la Ancianidad                                                                                                                                                                                                            ;1514933;1514933;252488
+21;08;01;24;03;;P;A Otras Entidades Públicas                                                      ;20269733;20269733;3795700
+21;08;01;24;03;700;P;Fondo Nacional del Adulto Mayor                                                                                                                                                                                                                           ;4670198;4670198;163082
+21;08;01;24;03;709;P;Programa de Escuelas de Formación para Dirigentes Mayores                                                                                                                                                                                                 ;156505;156505;10652
+21;08;01;24;03;711;P;Escuela para Funcionarios Públicos                                                                                                                                                                                                                        ;56968;56968;0
+21;08;01;24;03;713;P;Programa Turismo Social para el Adulto Mayor                                                                                                                                                                                                              ;329887;329887;39522
+21;08;01;24;03;716;P;Fondo Servicios de Atención al Adulto Mayor                                                                                                                                                                                                               ;5794137;5794137;1781113
+21;08;01;24;03;717;P;Programa Buen Trato al Adulto Mayor                                                                                                                                                                                                                       ;180056;180056;47535
+21;08;01;24;03;720;P;Programa Envejecimiento Activo                                                                                                                                                                                                                            ;395293;395293;23403
+21;08;01;24;03;721;P;Programa Fondo Subsidio ELEAM                                                                                                                                                                                                                             ;6967599;6967599;1652192
+21;08;01;24;03;722;P;Programa de Cuidados Domiciliarios                                                                                                                                                                                                                        ;718221;718221;41520
+21;08;01;24;03;723;P;Programa Centros Diurnos del Adulto Mayor                                                                                                                                                                                                                 ;833811;833811;9590
+21;08;01;24;03;724;P;Programa Voluntariado País de Mayores                                                                                                                                                                                                                     ;167058;167058;27091
+21;08;01;24;07;;P;A Organismos Internacionales                                                    ;12612;12612;0
+21;08;01;24;07;002;P;Organización Iberoamericana de Seguridad Social                                                                                                                                                                                                           ;12612;12612;0
+21;08;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;144458;144458;55399
+21;08;01;29;03;;P;Vehículos                                                                       ;82400;82400;46170
+21;08;01;29;07;;P;Programas Informáticos                                                          ;62058;62058;9229
+21;08;01;31;;;P;INICIATIVAS DE INVERSIÓN                                                        ;3901925;3901925;96677
+21;08;01;31;02;;P;Proyectos                                                                       ;3901925;3901925;96677
+21;08;01;34;;;P;SERVICIO DE LA DEUDA                                                            ;414183;2479750;2065565
+21;08;01;34;02;;P;Amortización Deuda Externa                                                      ;397416;397416;0
+21;08;01;34;04;;P;Intereses Deuda Externa                                                         ;16767;16767;0
+21;08;01;34;07;;P;Deuda Flotante                                                                  ;0;2065567;2065565
+;;;;;;;RESULTADO;;;-4225842

@@ -1,0 +1,22 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+16;11;01;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;68445;68445;51989
+16;11;01;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;62392;62392;51917
+16;11;01;08;99;;P;Otros                                                                           ;6053;6053;72
+16;11;01;09;;;P;APORTE FISCAL                                                                   ;13337494;13337494;4482721
+16;11;01;09;01;;P;Libre                                                                           ;12879495;12879495;4024722
+16;11;01;09;02;;P;Servicio de la Deuda Interna                                                    ;457999;457999;457999
+16;11;01;12;;;P;RECUPERACIÓN DE PRÉSTAMOS                                                       ;0;0;13577
+16;11;01;12;10;;P;Ingresos por Percibir                                                           ;0;0;13577
+16;11;01;15;;;P;SALDO INICIAL DE CAJA                                                           ;1000;623511;0
+16;11;01;21;;;P;GASTOS EN PERSONAL                                                              ;10188921;10188921;3473591
+16;11;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;2748464;2748464;810325
+16;11;01;25;;;P;INTEGROS AL FISCO                                                               ;134;134;0
+16;11;01;25;01;;P;Impuestos                                                                       ;134;134;0
+16;11;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;9421;9421;8385
+16;11;01;29;04;;P;Mobiliario y Otros                                                              ;9421;9421;8385
+16;11;01;34;;;P;SERVICIO DE LA DEUDA                                                            ;458999;1081510;1070972
+16;11;01;34;01;;P;Amortización Deuda Interna                                                      ;182083;182083;177893
+16;11;01;34;03;;P;Intereses Deuda Interna                                                         ;275916;275916;269568
+16;11;01;34;07;;P;Deuda Flotante                                                                  ;1000;623511;623511
+16;11;01;35;;;P;SALDO FINAL DE CAJA                                                             ;1000;1000;0
+;;;;;;;RESULTADO;;;-814986

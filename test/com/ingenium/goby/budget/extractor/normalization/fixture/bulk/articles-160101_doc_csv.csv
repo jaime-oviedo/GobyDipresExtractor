@@ -1,0 +1,29 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+09;15;01;07;;;P;INGRESOS DE OPERACIÓN                                                           ;160694;160694;3348
+09;15;01;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;5252;5252;11054
+09;15;01;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;4878;4878;11054
+09;15;01;08;99;;P;Otros                                                                           ;374;374;0
+09;15;01;09;;;P;APORTE FISCAL                                                                   ;2019956;2019956;560000
+09;15;01;09;01;;P;Libre                                                                           ;2019956;2019956;560000
+09;15;01;12;;;P;RECUPERACIÓN DE PRÉSTAMOS                                                       ;15103;15103;9662
+09;15;01;12;10;;P;Ingresos por Percibir                                                           ;15103;15103;9662
+09;15;01;15;;;P;SALDO INICIAL DE CAJA                                                           ;2000;2000;0
+09;15;01;21;;;P;GASTOS EN PERSONAL                                                              ;1730779;1730779;478431
+09;15;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;260406;260406;69394
+09;15;01;23;;;P;PRESTACIONES DE SEGURIDAD SOCIAL                                                ;107;107;0
+09;15;01;23;01;;P;Prestaciones Previsionales                                                      ;107;107;0
+09;15;01;23;01;004;P;Desahucios e Indemnizaciones                                                                                                                                                                                                                              ;107;107;0
+09;15;01;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;181722;181722;16304
+09;15;01;24;03;;P;A Otras Entidades Públicas                                                      ;181722;181722;16304
+09;15;01;24;03;001;P;Aplicación Art.87, letra g), DFL N°2,  de 2010                                                                                                                                                                                                            ;181722;181722;16304
+09;15;01;25;;;P;INTEGROS AL FISCO                                                               ;43;43;0
+09;15;01;25;01;;P;Impuestos                                                                       ;43;43;0
+09;15;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;27948;27948;2453
+09;15;01;29;04;;P;Mobiliario y Otros                                                              ;3660;3660;711
+09;15;01;29;05;;P;Máquinas y Equipos                                                              ;1488;1488;155
+09;15;01;29;06;;P;Equipos Informáticos                                                            ;8859;8859;1038
+09;15;01;29;07;;P;Programas Informáticos                                                          ;13941;13941;549
+09;15;01;34;;;P;SERVICIO DE LA DEUDA                                                            ;1000;1000;43846
+09;15;01;34;07;;P;Deuda Flotante                                                                  ;1000;1000;43846
+09;15;01;35;;;P;SALDO FINAL DE CAJA                                                             ;1000;1000;0
+;;;;;;;RESULTADO;;;-26364

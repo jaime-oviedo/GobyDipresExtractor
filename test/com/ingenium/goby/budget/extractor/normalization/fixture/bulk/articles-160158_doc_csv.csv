@@ -1,0 +1,8 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+13;05;06;09;;;P;APORTE FISCAL                                                                   ;1932944;1624656;394557
+13;05;06;09;01;;P;Libre                                                                           ;1932944;1624656;394557
+13;05;06;21;;;P;GASTOS EN PERSONAL                                                              ;1046867;846867;302863
+13;05;06;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;886077;777789;110077
+13;05;06;34;;;P;SERVICIO DE LA DEUDA                                                            ;0;0;86149
+13;05;06;34;07;;P;Deuda Flotante                                                                  ;0;0;86149
+;;;;;;;RESULTADO;;;-104532

@@ -1,0 +1,24 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+50;01;03;22;;;D;BIENES Y SERVICIOS DE CONSUMO                                                   ;800;800;0
+50;01;03;24;;;D;TRANSFERENCIAS CORRIENTES                                                       ;5379;5379;4044
+50;01;03;24;01;;D;Al Sector Privado                                                               ;0;0;4
+50;01;03;24;01;009;D;Otras Devoluciones                                                                                                                                                                                                                                        ;0;0;4
+50;01;03;24;03;;D;A Otras Entidades Públicas                                                      ;10;10;0
+50;01;03;24;03;103;D;Anticipos Ley N° 13.196                                                                                                                                                                                                                                   ;10;10;0
+50;01;03;24;07;;D;A Organismos Internacionales                                                    ;5369;5369;4040
+50;01;03;24;07;001;D;Organismos Financieros Internacionales                                                                                                                                                                                                                    ;5369;5369;4040
+50;01;03;26;;;D;OTROS GASTOS CORRIENTES                                                         ;10;10;0
+50;01;03;26;02;;D;Compensaciones por Daños a Terceros y/o a la Propiedad                          ;10;10;0
+50;01;03;26;02;001;D;Cumplimiento de Sentencias Ejecutoriadas                                                                                                                                                                                                                  ;10;10;0
+50;01;03;30;;;D;ADQUISICIÓN DE ACTIVOS FINANCIEROS                                              ;308837;308837;1977803
+50;01;03;30;01;;D;Compra de Títulos y Valores                                                     ;300010;300010;1502803
+50;01;03;30;01;999;D;Otros                                                                                                                                                                                                                                                     ;300010;300010;0
+50;01;03;30;02;;D;Compra de Acciones y Participaciones de Capital                                 ;8817;8817;475000
+50;01;03;30;02;002;D;Aporte de Capital de Carácter no Reintegrable                                                                                                                                                                                                             ;8817;8817;0
+50;01;03;30;99;;D;Otros Activos Financieros                                                       ;10;10;0
+50;01;03;30;99;999;D;Otros                                                                                                                                                                                                                                                     ;10;10;0
+50;01;03;33;;;D;TRANSFERENCIAS DE CAPITAL                                                       ;485404;485404;0
+50;01;03;33;02;;D;Al Gobierno Central                                                             ;485404;485404;0
+50;01;03;33;02;060;D;Al Fondo de Estabilización Económica y Social                                                                                                                                                                                                             ;10;10;0
+50;01;03;35;;;D;SALDO FINAL DE CAJA                                                             ;2000;2000;0
+;;;;;;;RESULTADO;;;-1981847

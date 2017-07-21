@@ -1,0 +1,21 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+19;01;07;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;0;0;898
+19;01;07;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;0;0;791
+19;01;07;08;99;;P;Otros                                                                           ;0;0;107
+19;01;07;09;;;P;APORTE FISCAL                                                                   ;1716238;1716238;317485
+19;01;07;09;01;;P;Libre                                                                           ;1716238;1716238;317485
+19;01;07;15;;;P;SALDO INICIAL DE CAJA                                                           ;1000;1000;0
+19;01;07;21;;;P;GASTOS EN PERSONAL                                                              ;840562;840562;271337
+19;01;07;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;92735;92735;9037
+19;01;07;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;765904;765904;0
+19;01;07;24;03;;P;A Otras Entidades Públicas                                                      ;721000;721000;0
+19;01;07;24;03;001;P;Fondo de Modernización Portuaria                                                                                                                                                                                                                          ;721000;721000;0
+19;01;07;24;07;;P;A Organismos Internacionales                                                    ;44904;44904;0
+19;01;07;24;07;003;P;Comisión Interamericana de Puertos                                                                                                                                                                                                                        ;44904;44904;0
+19;01;07;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;16037;16037;2848
+19;01;07;29;06;;P;Equipos Informáticos                                                            ;5346;5346;2848
+19;01;07;29;07;;P;Programas Informáticos                                                          ;10691;10691;0
+19;01;07;34;;;P;SERVICIO DE LA DEUDA                                                            ;1000;1000;0
+19;01;07;34;07;;P;Deuda Flotante                                                                  ;1000;1000;0
+19;01;07;35;;;P;SALDO FINAL DE CAJA                                                             ;1000;1000;0
+;;;;;;;RESULTADO;;;35161

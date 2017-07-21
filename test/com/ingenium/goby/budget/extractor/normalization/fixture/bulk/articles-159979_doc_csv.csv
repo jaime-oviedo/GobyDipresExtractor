@@ -1,0 +1,29 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+02;02;01;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;172902;172902;119660
+02;02;01;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;115268;115268;119660
+02;02;01;08;99;;P;Otros                                                                           ;57634;57634;0
+02;02;01;09;;;P;APORTE FISCAL                                                                   ;64737169;64737169;21200605
+02;02;01;09;01;;P;Libre                                                                           ;64737169;64737169;21200605
+02;02;01;21;;;P;GASTOS EN PERSONAL                                                              ;34543313;34543313;10975092
+02;02;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;5902266;5902266;1978832
+02;02;01;23;;;P;PRESTACIONES DE SEGURIDAD SOCIAL                                                ;432820;432820;129715
+02;02;01;23;01;;P;Prestaciones Previsionales                                                      ;432820;432820;129715
+02;02;01;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;23662715;23662715;6912022
+02;02;01;24;03;;P;A Otras Entidades Públicas                                                      ;23619030;23619030;6908782
+02;02;01;24;03;001;P;Personal Apoyo Labor Parlamentaria                                                                                                                                                                                                                        ;8999577;8999577;3008522
+02;02;01;24;03;002;P;Asesoría Externa Labor Parlamentaria                                                                                                                                                                                                                      ;3455493;3455493;895850
+02;02;01;24;03;003;P;Gastos Operacionales Labor Parlamentaria                                                                                                                                                                                                                  ;8745258;8745258;2249431
+02;02;01;24;03;004;P;Personal Apoyo Comités                                                                                                                                                                                                                                    ;1420985;1420985;474576
+02;02;01;24;03;005;P;Asesoría Externa Comités                                                                                                                                                                                                                                  ;431937;431937;79885
+02;02;01;24;03;006;P;Gastos Operacionales Comités                                                                                                                                                                                                                              ;34554;34554;13978
+02;02;01;24;03;007;P;Otras Transferencias                                                                                                                                                                                                                                      ;531226;531226;186540
+02;02;01;24;07;;P;A Organismos Internacionales                                                    ;43685;43685;3240
+02;02;01;24;07;002;P;Organismos Internacionales                                                                                                                                                                                                                                ;43685;43685;3240
+02;02;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;368957;368957;206865
+02;02;01;29;04;;P;Mobiliario y Otros                                                              ;15450;15450;1316
+02;02;01;29;05;;P;Máquinas y Equipos                                                              ;44805;44805;69996
+02;02;01;29;06;;P;Equipos Informáticos                                                            ;217691;217691;106549
+02;02;01;29;07;;P;Programas Informáticos                                                          ;91011;91011;29004
+02;02;01;34;;;P;SERVICIO DE LA DEUDA                                                            ;0;0;187731
+02;02;01;34;07;;P;Deuda Flotante                                                                  ;0;0;187731
+;;;;;;;RESULTADO;;;930008

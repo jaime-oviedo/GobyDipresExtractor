@@ -1,0 +1,17 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+11;25;01;09;;;D;APORTE FISCAL                                                                   ;33723;33723;28853
+11;25;01;09;01;;D;Libre                                                                           ;33723;33723;28853
+11;25;01;21;;;D;GASTOS EN PERSONAL                                                              ;450;450;75
+11;25;01;22;;;D;BIENES Y SERVICIOS DE CONSUMO                                                   ;515;515;54
+11;25;01;24;;;D;TRANSFERENCIAS CORRIENTES                                                       ;32758;32758;26206
+11;25;01;24;02;;D;Al Gobierno Central                                                             ;21243;25596;25596
+11;25;01;24;02;005;D;Fondo para Misiones de Paz-Ejército de Chile                                                                                                                                                                                                              ;10579;10731;10731
+11;25;01;24;02;006;D;Fondo para Misiones de Paz-Armada de Chile                                                                                                                                                                                                                ;5304;7353;7353
+11;25;01;24;02;007;D;Fondo para Misiones de Paz-Fuerza Aérea de Chile                                                                                                                                                                                                          ;5360;7512;7512
+11;25;01;24;03;;D;A Otras Entidades Públicas                                                      ;11512;7159;608
+11;25;01;24;03;041;D;Fondo para Misiones de Paz                                                                                                                                                                                                                                ;10684;6331;513
+11;25;01;24;03;044;D;Centro Nacional de Desminado                                                                                                                                                                                                                              ;235;235;75
+11;25;01;24;03;046;D;Programa de Cooperación Internacional en Centroamérica                                                                                                                                                                                                    ;593;593;20
+11;25;01;24;07;;D;A Organismos Internacionales                                                    ;3;3;2
+11;25;01;24;07;001;D;OTAN                                                                                                                                                                                                                                                      ;3;3;2
+;;;;;;;RESULTADO;;;2518

@@ -1,0 +1,32 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+02;01;01;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;187151;187151;108605
+02;01;01;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;147452;147452;44855
+02;01;01;08;02;;P;Multas y Sanciones Pecuniarias                                                  ;0;0;242
+02;01;01;08;99;;P;Otros                                                                           ;39699;39699;63508
+02;01;01;09;;;P;APORTE FISCAL                                                                   ;40205415;40205415;13896928
+02;01;01;09;01;;P;Libre                                                                           ;40205415;40205415;13896928
+02;01;01;21;;;P;GASTOS EN PERSONAL                                                              ;20990803;20990803;6745707
+02;01;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;6244907;6244907;1673329
+02;01;01;23;;;P;PRESTACIONES DE SEGURIDAD SOCIAL                                                ;99859;99859;15072
+02;01;01;23;01;;P;Prestaciones Previsionales                                                      ;99859;99859;15072
+02;01;01;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;12480011;12480011;3773415
+02;01;01;24;01;;P;Al Sector Privado                                                               ;693577;693577;217983
+02;01;01;24;01;009;P;Aplicación Ley N° 19.672                                                                                                                                                                                                                                  ;693577;693577;217983
+02;01;01;24;03;;P;A Otras Entidades Públicas                                                      ;11742749;11742749;3497727
+02;01;01;24;03;001;P;Personal Apoyo Senadores                                                                                                                                                                                                                                  ;3209848;3209848;1415597
+02;01;01;24;03;002;P;Asesoría Externa Senadores                                                                                                                                                                                                                                ;1477222;1477222;340199
+02;01;01;24;03;003;P;Gastos Operacionales Senadores                                                                                                                                                                                                                            ;4105070;4105070;776913
+02;01;01;24;03;004;P;Personal Apoyo Comités                                                                                                                                                                                                                                    ;449978;449978;129392
+02;01;01;24;03;005;P;Asesoría Externa Comités                                                                                                                                                                                                                                  ;1309904;1309904;381632
+02;01;01;24;03;006;P;Gastos Operacionales Comités                                                                                                                                                                                                                              ;10942;10942;12385
+02;01;01;24;03;007;P;Otras Transferencias                                                                                                                                                                                                                                      ;1179785;1179785;441609
+02;01;01;24;07;;P;A Organismos Internacionales                                                    ;43685;43685;57705
+02;01;01;24;07;001;P;Asociación de Congresos                                                                                                                                                                                                                                   ;43685;43685;57705
+02;01;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;576986;576986;16160
+02;01;01;29;04;;P;Mobiliario y Otros                                                              ;26602;26602;180
+02;01;01;29;05;;P;Máquinas y Equipos                                                              ;77143;77143;2172
+02;01;01;29;06;;P;Equipos Informáticos                                                            ;314131;314131;2744
+02;01;01;29;07;;P;Programas Informáticos                                                          ;159110;159110;11064
+02;01;01;34;;;P;SERVICIO DE LA DEUDA                                                            ;0;0;308183
+02;01;01;34;07;;P;Deuda Flotante                                                                  ;0;0;308183
+;;;;;;;RESULTADO;;;1473667

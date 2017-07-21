@@ -1,0 +1,23 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+05;62;01;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;20020;20020;10468
+05;62;01;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;20000;20000;5555
+05;62;01;08;02;;P;Multas y Sanciones Pecuniarias                                                  ;10;10;0
+05;62;01;08;99;;P;Otros                                                                           ;10;10;4913
+05;62;01;09;;;P;APORTE FISCAL                                                                   ;3951485;3951485;1379149
+05;62;01;09;01;;P;Libre                                                                           ;3951485;3951485;1379149
+05;62;01;15;;;P;SALDO INICIAL DE CAJA                                                           ;1000;41450;0
+05;62;01;21;;;P;GASTOS EN PERSONAL                                                              ;2856281;2856281;931183
+05;62;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;514800;514800;104866
+05;62;01;23;;;P;PRESTACIONES DE SEGURIDAD SOCIAL                                                ;10;10;0
+05;62;01;23;03;;P;Prestaciones Sociales del Empleador                                             ;10;10;0
+05;62;01;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;468450;468450;118197
+05;62;01;24;01;;P;Al Sector Privado                                                               ;468450;468450;118197
+05;62;01;24;01;050;P;Pagos Art. 39 Ley N°19.175                                                                                                                                                                                                                                ;468450;468450;118197
+05;62;01;26;;;P;OTROS GASTOS CORRIENTES                                                         ;0;20992;0
+05;62;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;131964;131964;33228
+05;62;01;29;03;;P;Vehículos                                                                       ;50470;50470;0
+05;62;01;29;06;;P;Equipos Informáticos                                                            ;37193;37193;30439
+05;62;01;29;07;;P;Programas Informáticos                                                          ;44301;44301;2789
+05;62;01;34;;;P;SERVICIO DE LA DEUDA                                                            ;1000;20458;13514
+05;62;01;34;07;;P;Deuda Flotante                                                                  ;1000;20458;13514
+;;;;;;;RESULTADO;;;188629

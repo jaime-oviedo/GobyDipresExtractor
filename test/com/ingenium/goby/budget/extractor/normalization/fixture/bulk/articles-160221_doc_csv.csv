@@ -1,0 +1,17 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+17;01;02;09;;;P;APORTE FISCAL                                                                   ;31746583;31746583;7070794
+17;01;02;09;01;;P;Libre                                                                           ;31746583;31746583;7070794
+17;01;02;15;;;P;SALDO INICIAL DE CAJA                                                           ;0;136191;0
+17;01;02;21;;;P;GASTOS EN PERSONAL                                                              ;105749;105749;33917
+17;01;02;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;245470;245470;0
+17;01;02;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;31233812;31233812;7433812
+17;01;02;24;03;;P;A Otras Entidades Públicas                                                      ;1833812;1833812;1833812
+17;01;02;24;03;485;P;Programa  Capacitación y Transferencia Tecnológica Pequeña Minería Artesanal                                                                                                                                                                              ;1833812;1833812;1833812
+17;01;02;24;04;;P;A Empresas Públicas no Financieras                                              ;29400000;29400000;5600000
+17;01;02;24;04;001;P;Empresa Nacional de Minería                                                                                                                                                                                                                               ;29400000;29400000;5600000
+17;01;02;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;161552;161552;3461
+17;01;02;29;05;;P;Máquinas y Equipos                                                              ;136832;136832;3461
+17;01;02;29;07;;P;Programas Informáticos                                                          ;24720;24720;0
+17;01;02;34;;;P;SERVICIO DE LA DEUDA                                                            ;0;136191;136191
+17;01;02;34;07;;P;Deuda Flotante                                                                  ;0;136191;136191
+;;;;;;;RESULTADO;;;-536587

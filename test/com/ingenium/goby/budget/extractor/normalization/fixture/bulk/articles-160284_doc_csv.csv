@@ -1,0 +1,27 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+26;02;02;05;;;P;TRANSFERENCIAS CORRIENTES                                                       ;116714;116714;0
+26;02;02;05;01;;P;Del Sector Privado                                                              ;116714;116714;0
+26;02;02;05;01;001;P;Donaciones                                                                                                                                                                                                                                                ;116714;116714;0
+26;02;02;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;456930;456930;32502
+26;02;02;08;99;;P;Otros                                                                           ;456930;456930;32502
+26;02;02;09;;;P;APORTE FISCAL                                                                   ;4930461;4930461;232682
+26;02;02;09;01;;P;Libre                                                                           ;4930461;4930461;232682
+26;02;02;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;265176;265176;66945
+26;02;02;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;4809212;4809212;298439
+26;02;02;24;01;;P;Al Sector Privado                                                               ;3130716;3130716;170220
+26;02;02;24;01;337;P;Liderazgo Deportivo Nacional                                                                                                                                                                                                                              ;515334;515334;136667
+26;02;02;24;01;346;P;Formación para el Deporte                                                                                                                                                                                                                                 ;783491;783491;0
+26;02;02;24;01;347;P;Deporte Recreativo                                                                                                                                                                                                                                        ;738541;738541;0
+26;02;02;24;01;348;P;Deporte de Competición                                                                                                                                                                                                                                    ;1005253;1005253;33553
+26;02;02;24;01;349;P;Ciencias del Deporte                                                                                                                                                                                                                                      ;88097;88097;0
+26;02;02;24;03;;P;A Otras Entidades Públicas                                                      ;1678496;1678496;128219
+26;02;02;24;03;042;P;Ciencias del Deporte                                                                                                                                                                                                                                      ;64148;64148;0
+26;02;02;24;03;050;P;Formación para el Deporte                                                                                                                                                                                                                                 ;671721;671721;44006
+26;02;02;24;03;051;P;Deporte Recreativo                                                                                                                                                                                                                                        ;440909;440909;32078
+26;02;02;24;03;052;P;Deporte de Competición                                                                                                                                                                                                                                    ;501718;501718;52135
+26;02;02;33;;;P;TRANSFERENCIAS DE CAPITAL                                                       ;429717;429717;0
+26;02;02;33;01;;P;Al Sector Privado                                                               ;264535;264535;0
+26;02;02;33;01;001;P;Aportes al Sector Privado                                                                                                                                                                                                                                 ;264535;264535;0
+26;02;02;33;03;;P;A Otras Entidades Públicas                                                      ;165182;165182;0
+26;02;02;33;03;001;P;Aportes a Otras Entidades Públicas                                                                                                                                                                                                                        ;165182;165182;0
+;;;;;;;RESULTADO;;;-100200

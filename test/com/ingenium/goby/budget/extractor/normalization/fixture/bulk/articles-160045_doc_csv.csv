@@ -1,0 +1,15 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+07;01;11;05;;;P;TRANSFERENCIAS CORRIENTES                                                       ;5491103;5491103;0
+07;01;11;05;02;;P;Del Gobierno Central                                                            ;5491103;5491103;0
+07;01;11;05;02;002;P;Fondo de Innovación para la Competitividad                                                                                                                                                                                                                ;5491103;5491103;0
+07;01;11;09;;;P;APORTE FISCAL                                                                   ;5514098;5514098;161406
+07;01;11;09;01;;P;Libre                                                                           ;5514098;5514098;161406
+07;01;11;15;;;P;SALDO INICIAL DE CAJA                                                           ;0;14594;0
+07;01;11;21;;;P;GASTOS EN PERSONAL                                                              ;437180;437180;99499
+07;01;11;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;179352;179352;19325
+07;01;11;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;10388669;10388669;0
+07;01;11;24;01;;P;Al Sector Privado                                                               ;10388669;10388669;0
+07;01;11;24;01;322;P;Programa Iniciativa Científica Millenium                                                                                                                                                                                                                  ;10388669;10388669;0
+07;01;11;34;;;P;SERVICIO DE LA DEUDA                                                            ;0;14594;13285
+07;01;11;34;07;;P;Deuda Flotante                                                                  ;0;14594;13285
+;;;;;;;RESULTADO;;;29297

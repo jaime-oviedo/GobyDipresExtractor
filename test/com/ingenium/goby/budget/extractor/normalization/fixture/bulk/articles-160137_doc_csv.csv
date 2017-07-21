@@ -1,0 +1,37 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+12;02;08;07;;;P;INGRESOS DE OPERACIÓN                                                           ;19430034;19430034;15738591
+12;02;08;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;6200457;6200457;5363968
+12;02;08;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;4120;4120;2951
+12;02;08;08;02;;P;Multas y Sanciones Pecuniarias                                                  ;0;0;725782
+12;02;08;08;99;;P;Otros                                                                           ;6196337;6196337;4635235
+12;02;08;09;;;P;APORTE FISCAL                                                                   ;174593057;151359057;26133181
+12;02;08;09;01;;P;Libre                                                                           ;174593057;151359057;26133181
+12;02;08;12;;;P;RECUPERACIÓN DE PRÉSTAMOS                                                       ;0;0;15365
+12;02;08;12;10;;P;Ingresos por Percibir                                                           ;0;0;15365
+12;02;08;13;;;P;TRANSFERENCIAS PARA GASTOS DE CAPITAL                                           ;337042559;340194359;46655670
+12;02;08;13;01;;P;Del Sector Privado                                                              ;160777;160777;1666453
+12;02;08;13;01;001;P;Aportes Concesionarios para Expropiaciones                                                                                                                                                                                                                ;160777;160777;1666453
+12;02;08;13;02;;P;Del Gobierno Central                                                            ;336881782;340033582;44989217
+12;02;08;13;02;001;P;I.V.A. Concesiones Obras Públicas                                                                                                                                                                                                                         ;254134325;254134325;44989217
+12;02;08;13;02;002;P;Fondo de Infraestructura                                                                                                                                                                                                                                  ;64555570;64555570;0
+12;02;08;13;02;005;P;Reintegro IVA concesiones - DGAC                                                                                                                                                                                                                          ;18191887;18191887;0
+12;02;08;13;02;006;P;Gobierno Regional Región VIII Bío-Bío                                                                                                                                                                                                                     ;0;3151800;0
+12;02;08;15;;;P;SALDO INICIAL DE CAJA                                                           ;10000;10000;0
+12;02;08;21;;;P;GASTOS EN PERSONAL                                                              ;10335635;10335635;2582409
+12;02;08;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;941125;941125;274702
+12;02;08;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;112983;112983;38252
+12;02;08;29;03;;P;Vehículos                                                                       ;17201;17201;16600
+12;02;08;29;04;;P;Mobiliario y Otros                                                              ;6180;6180;6118
+12;02;08;29;05;;P;Máquinas y Equipos                                                              ;3041;3041;1284
+12;02;08;29;06;;P;Equipos Informáticos                                                            ;14254;14254;14250
+12;02;08;29;07;;P;Programas Informáticos                                                          ;72307;72307;0
+12;02;08;31;;;P;INICIATIVAS DE INVERSIÓN                                                        ;253549152;233466952;31466040
+12;02;08;31;01;;P;Estudios Básicos                                                                ;189018;189018;0
+12;02;08;31;02;;P;Proyectos                                                                       ;253360134;233277934;31466040
+12;02;08;33;;;P;TRANSFERENCIAS DE CAPITAL                                                       ;272326212;272326212;44546027
+12;02;08;33;01;;P;Al Sector Privado                                                               ;272326212;272326212;44546027
+12;02;08;33;01;027;P;Reintegro Crédito - I.V.A. Concesiones                                                                                                                                                                                                                    ;272326212;272326212;44546027
+12;02;08;34;;;P;SERVICIO DE LA DEUDA                                                            ;1000;1000;36822437
+12;02;08;34;07;;P;Deuda Flotante                                                                  ;1000;1000;36822437
+12;02;08;35;;;P;SALDO FINAL DE CAJA                                                             ;10000;10000;0
+;;;;;;;RESULTADO;;;-21823092

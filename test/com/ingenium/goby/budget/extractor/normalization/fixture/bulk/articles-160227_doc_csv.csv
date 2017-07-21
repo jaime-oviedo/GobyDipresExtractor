@@ -1,0 +1,70 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+18;01;01;05;;;P;TRANSFERENCIAS CORRIENTES                                                       ;0;166410;0
+18;01;01;05;01;;P;Del Sector Privado                                                              ;0;166410;0
+18;01;01;05;01;003;P;Administradora del Fondo para Bonificación por Retiro                                                                                                                                                                                                     ;0;166410;0
+18;01;01;07;;;P;INGRESOS DE OPERACIÓN                                                           ;10;10;0
+18;01;01;07;02;;P;Venta de Servicios                                                              ;10;10;0
+18;01;01;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;1028445;1028445;437410
+18;01;01;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;801855;801855;237879
+18;01;01;08;02;;P;Multas y Sanciones Pecuniarias                                                  ;20590;20590;79
+18;01;01;08;99;;P;Otros                                                                           ;206000;206000;199452
+18;01;01;09;;;P;APORTE FISCAL                                                                   ;201860279;198604861;65636991
+18;01;01;09;01;;P;Libre                                                                           ;201860279;198604861;65636991
+18;01;01;10;;;P;VENTA DE ACTIVOS NO FINANCIEROS                                                 ;49440;49440;0
+18;01;01;10;03;;P;Vehículos                                                                       ;23690;23690;0
+18;01;01;10;04;;P;Mobiliario y Otros                                                              ;1030;1030;0
+18;01;01;10;99;;P;Otros Activos no Financieros                                                    ;24720;24720;0
+18;01;01;12;;;P;RECUPERACIÓN DE PRÉSTAMOS                                                       ;320000;320000;411059
+18;01;01;12;10;;P;Ingresos por Percibir                                                           ;320000;320000;411059
+18;01;01;13;;;P;TRANSFERENCIAS PARA GASTOS DE CAPITAL                                           ;2704912;2704912;1470335
+18;01;01;13;02;;P;Del Gobierno Central                                                            ;2704912;2704912;1470335
+18;01;01;13;02;005;P;IVA Concesiones Transantiago                                                                                                                                                                                                                              ;1244372;1244372;301195
+18;01;01;13;02;008;P;De la Subsecretaría de Energía                                                                                                                                                                                                                            ;1069140;1069140;1069140
+18;01;01;13;02;015;P;Subsecretaría de Economía                                                                                                                                                                                                                                 ;391400;391400;100000
+18;01;01;15;;;P;SALDO INICIAL DE CAJA                                                           ;120000;1703209;0
+18;01;01;21;;;P;GASTOS EN PERSONAL                                                              ;73512027;73370556;22655612
+18;01;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;12282348;11422562;1374089
+18;01;01;23;;;P;PRESTACIONES DE SEGURIDAD SOCIAL                                                ;10;322685;0
+18;01;01;23;01;;P;Prestaciones Previsionales                                                      ;10;10;0
+18;01;01;23;03;;P;Prestaciones Sociales del Empleador                                             ;0;322675;0
+18;01;01;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;1022437;1022437;329028
+18;01;01;24;01;;P;Al Sector Privado                                                               ;1022437;1022437;329028
+18;01;01;24;01;005;P;Fundación Nacional para la Superación de la Pobreza                                                                                                                                                                                                       ;772500;772500;309000
+18;01;01;24;01;012;P;Convenio MINVU - Instituto Forestal                                                                                                                                                                                                                       ;28357;28357;0
+18;01;01;24;01;500;P;Instituto de la Construcción                                                                                                                                                                                                                              ;133643;133643;0
+18;01;01;24;01;502;P;Instituto Nacional de Normalización                                                                                                                                                                                                                       ;87937;87937;20028
+18;01;01;25;;;P;INTEGROS AL FISCO                                                               ;7380;7380;0
+18;01;01;25;01;;P;Impuestos                                                                       ;7380;7380;0
+18;01;01;26;;;P;OTROS GASTOS CORRIENTES                                                         ;4114371;1615220;0
+18;01;01;26;02;;P;Compensaciones por Daños a Terceros y/o a la Propiedad                          ;4114371;1615220;0
+18;01;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;4377344;4377344;776809
+18;01;01;29;03;;P;Vehículos                                                                       ;299164;299164;0
+18;01;01;29;04;;P;Mobiliario y Otros                                                              ;72615;72615;6981
+18;01;01;29;05;;P;Máquinas y Equipos                                                              ;108459;108459;3857
+18;01;01;29;06;;P;Equipos Informáticos                                                            ;561299;561299;6826
+18;01;01;29;07;;P;Programas Informáticos                                                          ;3335807;3335807;759145
+18;01;01;31;;;P;INICIATIVAS DE INVERSIÓN                                                        ;28590671;28590671;9472082
+18;01;01;31;02;;P;Proyectos                                                                       ;28590671;28590671;9472082
+18;01;01;33;;;P;TRANSFERENCIAS DE CAPITAL                                                       ;82135548;83807482;30790676
+18;01;01;33;01;;P;Al Sector Privado                                                               ;81667703;83296377;30697969
+18;01;01;33;01;027;P;IVA Concesiones Transantiago                                                                                                                                                                                                                              ;1244372;1244372;301194
+18;01;01;33;01;037;P;Cumplimiento Convenio MINVU-PNUD                                                                                                                                                                                                                          ;986842;986842;0
+18;01;01;33;01;041;P;Convenio Universidades                                                                                                                                                                                                                                    ;51486;51486;0
+18;01;01;33;01;046;P;Convenio MINVU - SERNAC                                                                                                                                                                                                                                   ;30900;30900;0
+18;01;01;33;01;047;P;Convenio MINVU - Fundacion Chile                                                                                                                                                                                                                          ;45370;45370;0
+18;01;01;33;01;050;P;Convenio MINVU - Centro de Innovación en Madera                                                                                                                                                                                                           ;76410;76410;0
+18;01;01;33;01;124;P;Subsidio Complementario                                                                                                                                                                                                                                   ;171733;171733;31853
+18;01;01;33;01;125;P;Subsidio a la Originación                                                                                                                                                                                                                                 ;930123;930123;27261
+18;01;01;33;01;126;P;Subsidio Implicito                                                                                                                                                                                                                                        ;1927;1927;0
+18;01;01;33;01;127;P;Subsidios Leasing                                                                                                                                                                                                                                         ;7252091;7252091;1845048
+18;01;01;33;01;129;P;Subsidios Cartera Hipotecaria                                                                                                                                                                                                                             ;58484831;60113505;26116730
+18;01;01;33;01;130;P;Subsidio de Aislamiento Térmico                                                                                                                                                                                                                           ;1069140;1069140;0
+18;01;01;33;01;134;P;Subsidio al Arriendo                                                                                                                                                                                                                                      ;11322478;11322478;2375883
+18;01;01;33;03;;P;A Otras Entidades Públicas                                                      ;414388;457648;92707
+18;01;01;33;03;001;P;Otras Transferencias a  SERVIU                                                                                                                                                                                                                            ;414388;414388;92707
+18;01;01;33;03;106;P;Municipalidades para Pequeñas Localidades                                                                                                                                                                                                                 ;0;43260;0
+18;01;01;33;07;;P;A Organismos Internacionales                                                    ;53457;53457;0
+18;01;01;33;07;001;P;Convenio Cities Alliance                                                                                                                                                                                                                                  ;53457;53457;0
+18;01;01;34;;;P;SERVICIO DE LA DEUDA                                                            ;40950;40950;25253
+18;01;01;34;07;;P;Deuda Flotante                                                                  ;40950;40950;25253
+;;;;;;;RESULTADO;;;2532246

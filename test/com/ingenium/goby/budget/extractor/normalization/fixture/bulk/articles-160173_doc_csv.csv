@@ -1,0 +1,44 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+15;10;01;04;;;P;IMPOSICIONES PREVISIONALES                                                      ;66743316;66743316;24498234
+15;10;01;04;01;;P;Aportes del Empleador                                                           ;66202224;66202224;24331985
+15;10;01;04;02;;P;Aportes del Trabajador                                                          ;541092;541092;166249
+15;10;01;05;;;P;TRANSFERENCIAS CORRIENTES                                                       ;268843;268843;113473
+15;10;01;05;02;;P;Del Gobierno Central                                                            ;268843;268843;113473
+15;10;01;05;02;004;P;Fondo Único de Prestaciones Familiares y Subsidios de Cesantía                                                                                                                                                                                            ;268843;268843;113473
+15;10;01;06;;;P;RENTAS DE LA PROPIEDAD                                                          ;83443;83443;1498
+15;10;01;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;6394408;6394408;1461416
+15;10;01;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;266962;266962;74942
+15;10;01;08;02;;P;Multas y Sanciones Pecuniarias                                                  ;4605646;4605646;1002149
+15;10;01;08;99;;P;Otros                                                                           ;1521800;1521800;384325
+15;10;01;11;;;P;VENTA DE ACTIVOS FINANCIEROS                                                    ;2894076;2894076;0
+15;10;01;11;01;;P;Venta o Rescate de Títulos y Valores                                            ;2894076;2894076;0
+15;10;01;15;;;P;SALDO INICIAL DE CAJA                                                           ;85775;85775;0
+15;10;01;21;;;P;GASTOS EN PERSONAL                                                              ;9804241;9804241;3257830
+15;10;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;4178567;4178567;724274
+15;10;01;23;;;P;PRESTACIONES DE SEGURIDAD SOCIAL                                                ;45728786;45728786;17596783
+15;10;01;23;01;;P;Prestaciones Previsionales                                                      ;45143855;45143855;17385030
+15;10;01;23;01;001;P;Jubilaciones, Pensiones y Montepíos                                                                                                                                                                                                                       ;24234215;24234215;7808036
+15;10;01;23;01;004;P;Desahucios e Indemnizaciones                                                                                                                                                                                                                              ;971362;971362;365276
+15;10;01;23;01;006;P;Asignación por Muerte                                                                                                                                                                                                                                     ;7716;7716;4562
+15;10;01;23;01;008;P;Devolución de Imposiciones                                                                                                                                                                                                                                ;1130085;1130085;129326
+15;10;01;23;01;009;P;Bonificaciones de Salud                                                                                                                                                                                                                                   ;15347828;15347828;7606208
+15;10;01;23;01;012;P;Subsidios por Accidentes del Trabajo                                                                                                                                                                                                                      ;3452649;3452649;1471622
+15;10;01;23;02;;P;Prestaciones de Asistencia Social                                               ;584931;584931;211753
+15;10;01;23;02;001;P;Asignación Familiar                                                                                                                                                                                                                                       ;268843;268843;102281
+15;10;01;23;02;002;P;Pensiones Asistenciales                                                                                                                                                                                                                                   ;316088;316088;109472
+15;10;01;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;12429394;12429394;4223918
+15;10;01;24;01;;P;Al Sector Privado                                                               ;610969;610969;101404
+15;10;01;24;01;001;P;Concurrencias                                                                                                                                                                                                                                             ;610969;610969;101404
+15;10;01;24;02;;P;Al Gobierno Central                                                             ;11816023;11816023;4122514
+15;10;01;24;02;001;P;Subsecretaría de Salud Pública                                                                                                                                                                                                                            ;11816023;11816023;4122514
+15;10;01;24;07;;P;A Organismos Internacionales                                                    ;2402;2402;0
+15;10;01;24;07;001;P;Organismos Internacionales                                                                                                                                                                                                                                ;2402;2402;0
+15;10;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;339524;339524;3788
+15;10;01;29;06;;P;Equipos Informáticos                                                            ;41200;41200;0
+15;10;01;29;07;;P;Programas Informáticos                                                          ;298324;298324;3788
+15;10;01;30;;;P;ADQUISICIÓN DE ACTIVOS FINANCIEROS                                              ;3824118;3824118;0
+15;10;01;30;01;;P;Compra de Títulos y Valores                                                     ;3824118;3824118;0
+15;10;01;34;;;P;SERVICIO DE LA DEUDA                                                            ;50000;50000;50000
+15;10;01;34;07;;P;Deuda Flotante                                                                  ;50000;50000;50000
+15;10;01;35;;;P;SALDO FINAL DE CAJA                                                             ;115231;115231;0
+;;;;;;;RESULTADO;;;218028

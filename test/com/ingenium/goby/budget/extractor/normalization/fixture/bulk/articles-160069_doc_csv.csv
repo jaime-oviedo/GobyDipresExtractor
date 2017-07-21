@@ -1,0 +1,25 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+08;07;01;05;;;P;TRANSFERENCIAS CORRIENTES                                                       ;1220506;1220506;246000
+08;07;01;05;02;;P;Del Gobierno Central                                                            ;1220506;1220506;246000
+08;07;01;05;02;004;P;Programa de Modernización del Estado-BID                                                                                                                                                                                                                  ;1220506;1220506;246000
+08;07;01;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;72207;72207;34215
+08;07;01;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;17922;17922;20571
+08;07;01;08;02;;P;Multas y Sanciones Pecuniarias                                                  ;18540;18540;3593
+08;07;01;08;99;;P;Otros                                                                           ;35745;35745;10051
+08;07;01;09;;;P;APORTE FISCAL                                                                   ;8397420;8397420;2412817
+08;07;01;09;01;;P;Libre                                                                           ;8397420;8397420;2412817
+08;07;01;15;;;P;SALDO INICIAL DE CAJA                                                           ;12000;419989;0
+08;07;01;21;;;P;GASTOS EN PERSONAL                                                              ;4368284;4368284;1440289
+08;07;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;3348884;3348884;887354
+08;07;01;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;1769790;1769790;320090
+08;07;01;24;03;;P;A Otras Entidades Públicas                                                      ;1769790;1769790;320090
+08;07;01;24;03;032;P;Tribunal de Compras Públicas                                                                                                                                                                                                                              ;537284;537284;147589
+08;07;01;24;03;034;P;Devolución Boletas de Garantía                                                                                                                                                                                                                            ;12000;12000;0
+08;07;01;24;03;251;P;Programa de Modernización del Estado-BID                                                                                                                                                                                                                  ;1220506;1220506;172501
+08;07;01;25;;;P;INTEGROS AL FISCO                                                               ;0;13737;0
+08;07;01;25;99;;P;Otros Integros al Fisco                                                         ;0;13737;0
+08;07;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;215175;215175;480
+08;07;01;29;07;;P;Programas Informáticos                                                          ;215175;215175;480
+08;07;01;34;;;P;SERVICIO DE LA DEUDA                                                            ;0;394252;0
+08;07;01;34;07;;P;Deuda Flotante                                                                  ;0;394252;0
+;;;;;;;RESULTADO;;;44819

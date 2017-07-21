@@ -1,0 +1,31 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+07;16;01;05;;;P;TRANSFERENCIAS CORRIENTES                                                       ;30642279;30642279;7020070
+07;16;01;05;02;;P;Del Gobierno Central                                                            ;30642279;30642279;7020070
+07;16;01;05;02;004;P;Corporación de Fomento de la Producción                                                                                                                                                                                                                   ;30642279;30642279;7020070
+07;16;01;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;94604;94604;342296
+07;16;01;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;82023;82023;113726
+07;16;01;08;99;;P;Otros                                                                           ;12581;12581;228570
+07;16;01;09;;;P;APORTE FISCAL                                                                   ;20722634;20722634;6020591
+07;16;01;09;01;;P;Libre                                                                           ;20722634;20722634;6020591
+07;16;01;10;;;P;VENTA DE ACTIVOS NO FINANCIEROS                                                 ;0;0;8570
+07;16;01;10;03;;P;Vehículos                                                                       ;0;0;8570
+07;16;01;15;;;P;SALDO INICIAL DE CAJA                                                           ;10;10;0
+07;16;01;21;;;P;GASTOS EN PERSONAL                                                              ;8448418;8448418;2895061
+07;16;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;2501518;2501518;462979
+07;16;01;23;;;P;PRESTACIONES DE SEGURIDAD SOCIAL                                                ;134407;134407;480256
+07;16;01;23;01;;P;Prestaciones Previsionales                                                      ;134407;134407;407235
+07;16;01;23;03;;P;Prestaciones Sociales del Empleador                                             ;0;0;73021
+07;16;01;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;39941372;39941372;7906150
+07;16;01;24;01;;P;Al Sector Privado                                                               ;39941372;39941372;7906150
+07;16;01;24;01;131;P;Programa Mejoramiento Competitividad de la MIPE                                                                                                                                                                                                           ;12602311;12102311;2961181
+07;16;01;24;01;132;P;Programa Emprendedores                                                                                                                                                                                                                                    ;5817187;5817187;1052754
+07;16;01;24;01;133;P;Programa Dirigido a Grupos de Empresas Asociatividad                                                                                                                                                                                                      ;9075188;9075188;1115371
+07;16;01;24;01;134;P;Programa Desarrollo Empresarial en los Territorios                                                                                                                                                                                                        ;12446676;12446676;2322775
+07;16;01;24;01;152;P;Programas Especiales                                                                                                                                                                                                                                      ;10;500010;454069
+07;16;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;433812;433812;95453
+07;16;01;29;03;;P;Vehículos                                                                       ;50763;50763;0
+07;16;01;29;06;;P;Equipos Informáticos                                                            ;43130;43130;26434
+07;16;01;29;07;;P;Programas Informáticos                                                          ;339919;339919;69019
+07;16;01;34;;;P;SERVICIO DE LA DEUDA                                                            ;0;0;323916
+07;16;01;34;07;;P;Deuda Flotante                                                                  ;0;0;323916
+;;;;;;;RESULTADO;;;1227712

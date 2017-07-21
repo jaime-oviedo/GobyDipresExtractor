@@ -1,0 +1,17 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+13;04;05;09;;;P;APORTE FISCAL                                                                   ;14178328;14178328;3744861
+13;04;05;09;01;;P;Libre                                                                           ;14178328;14178328;3744861
+13;04;05;12;;;P;RECUPERACIÓN DE PRÉSTAMOS                                                       ;10;10;0
+13;04;05;12;10;;P;Ingresos por Percibir                                                           ;10;10;0
+13;04;05;21;;;P;GASTOS EN PERSONAL                                                              ;9805427;9805427;2919157
+13;04;05;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;4127393;4127393;771046
+13;04;05;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;115079;115079;0
+13;04;05;24;01;;P;Al Sector Privado                                                               ;103175;103175;0
+13;04;05;24;01;001;P;Programa Tuberculosis Bovina                                                                                                                                                                                                                              ;103175;103175;0
+13;04;05;24;07;;P;A Organismos Internacionales                                                    ;11904;11904;0
+13;04;05;24;07;005;P;Comité Veterinario Permanente del Cono Sur                                                                                                                                                                                                                ;11904;11904;0
+13;04;05;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;130439;130439;0
+13;04;05;29;07;;P;Programas Informáticos                                                          ;130439;130439;0
+13;04;05;34;;;P;SERVICIO DE LA DEUDA                                                            ;0;0;613025
+13;04;05;34;07;;P;Deuda Flotante                                                                  ;0;0;613025
+;;;;;;;RESULTADO;;;-558367

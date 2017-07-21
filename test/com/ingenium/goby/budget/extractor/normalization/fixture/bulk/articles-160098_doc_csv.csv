@@ -1,0 +1,59 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+09;11;01;05;;;P;TRANSFERENCIAS CORRIENTES                                                       ;113653155;113653155;25000000
+09;11;01;05;01;;P;Del Sector Privado                                                              ;1066016;1066016;0
+09;11;01;05;01;003;P;Administradora del Fondo para Bonificación por Retiro                                                                                                                                                                                                     ;1066016;1066016;0
+09;11;01;05;02;;P;Del Gobierno Central                                                            ;112587139;112587139;25000000
+09;11;01;05;02;080;P;Fondo para la Educación, Ley N° 20.630                                                                                                                                                                                                                    ;112587139;112587139;25000000
+09;11;01;07;;;P;INGRESOS DE OPERACIÓN                                                           ;1148;1148;795
+09;11;01;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;12023379;12023379;6033571
+09;11;01;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;7552837;7552837;4163532
+09;11;01;08;02;;P;Multas y Sanciones Pecuniarias                                                  ;205137;205137;517785
+09;11;01;08;99;;P;Otros                                                                           ;4265405;4265405;1352254
+09;11;01;09;;;P;APORTE FISCAL                                                                   ;420767625;420767625;100000000
+09;11;01;09;01;;P;Libre                                                                           ;419953201;419953201;100000000
+09;11;01;09;03;;P;Servicio de la Deuda Externa                                                    ;814424;814424;0
+09;11;01;10;;;P;VENTA DE ACTIVOS NO FINANCIEROS                                                 ;0;0;5387
+09;11;01;10;03;;P;Vehículos                                                                       ;0;0;5387
+09;11;01;13;;;P;TRANSFERENCIAS PARA GASTOS DE CAPITAL                                           ;0;0;12808
+09;11;01;13;03;;P;De Otras Entidades Públicas                                                     ;0;0;12808
+09;11;01;13;03;999;P;Otros                                                                                                                                                                                                                                                     ;0;0;12808
+09;11;01;14;;;P;ENDEUDAMIENTO                                                                   ;21169642;21169642;0
+09;11;01;14;02;;P;Endeudamiento Externo                                                           ;21169642;21169642;0
+09;11;01;15;;;P;SALDO INICIAL DE CAJA                                                           ;1000;4278595;0
+09;11;01;21;;;P;GASTOS EN PERSONAL                                                              ;179013881;179013881;52545480
+09;11;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;34600742;34600742;5642507
+09;11;01;23;;;P;PRESTACIONES DE SEGURIDAD SOCIAL                                                ;2291027;2272140;0
+09;11;01;23;01;;P;Prestaciones Previsionales                                                      ;30531;30531;0
+09;11;01;23;03;;P;Prestaciones Sociales del Empleador                                             ;2260496;2241609;0
+09;11;01;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;185799231;185799231;56467577
+09;11;01;24;03;;P;A Otras Entidades Públicas                                                      ;185799231;185799231;56467577
+09;11;01;24;03;170;P;Convenios con Municipalidades y otras Instituciones                                                                                                                                                                                                       ;178925756;178925756;56237480
+09;11;01;24;03;171;P;Programa de Material de Enseñanza                                                                                                                                                                                                                         ;5092481;5092481;124528
+09;11;01;24;03;178;P;Plan de Fomento de Lectura Primera Infancia                                                                                                                                                                                                               ;831968;831968;80611
+09;11;01;24;03;180;P;Capacitación a Terceros                                                                                                                                                                                                                                   ;949026;949026;24958
+09;11;01;25;;;P;INTEGROS AL FISCO                                                               ;1685;1685;127
+09;11;01;25;01;;P;Impuestos                                                                       ;1685;1685;127
+09;11;01;26;;;P;OTROS GASTOS CORRIENTES                                                         ;0;18887;18886
+09;11;01;26;01;;P;Devoluciones                                                                    ;0;6432;6432
+09;11;01;26;02;;P;Compensaciones por Daños a Terceros y/o a la Propiedad                          ;0;12455;12454
+09;11;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;6541213;6541213;715526
+09;11;01;29;03;;P;Vehículos                                                                       ;119686;119686;94999
+09;11;01;29;04;;P;Mobiliario y Otros                                                              ;1682123;1682123;516774
+09;11;01;29;05;;P;Máquinas y Equipos                                                              ;70971;70971;25344
+09;11;01;29;06;;P;Equipos Informáticos                                                            ;1442000;1442000;5048
+09;11;01;29;07;;P;Programas Informáticos                                                          ;1895200;1895200;35335
+09;11;01;29;99;;P;Otros Activos no Financieros                                                    ;1331233;1331233;38026
+09;11;01;31;;;P;INICIATIVAS DE INVERSIÓN                                                        ;152884445;152884445;15353305
+09;11;01;31;02;;P;Proyectos                                                                       ;152884445;152884445;15353305
+09;11;01;32;;;P;PRÉSTAMOS                                                                       ;0;0;-57666
+09;11;01;32;06;;P;Por Anticipos a Contratistas                                                    ;0;0;-57666
+09;11;01;32;06;001;P;Anticipos a Contratistas                                                                                                                                                                                                                                  ;20889445;20889445;1464499
+09;11;01;32;06;002;P;Recuperacion  por Anticipos a Contratistas                                                                                                                                                                                                                ;-20889445;-20889445;-1522165
+09;11;01;33;;;P;TRANSFERENCIAS DE CAPITAL                                                       ;5667301;5667301;268867
+09;11;01;33;03;;P;A Otras Entidades Públicas                                                      ;5667301;5667301;268867
+09;11;01;33;03;005;P;Municipalidades                                                                                                                                                                                                                                           ;5667301;5667301;268867
+09;11;01;34;;;P;SERVICIO DE LA DEUDA                                                            ;815424;5093019;4280717
+09;11;01;34;04;;P;Intereses Deuda Externa                                                         ;814424;814424;0
+09;11;01;34;07;;P;Deuda Flotante                                                                  ;1000;4278595;4280717
+09;11;01;35;;;P;SALDO FINAL DE CAJA                                                             ;1000;1000;0
+;;;;;;;RESULTADO;;;-4182765

@@ -1,0 +1,17 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+13;04;06;09;;;P;APORTE FISCAL                                                                   ;29833031;29833031;7493328
+13;04;06;09;01;;P;Libre                                                                           ;29833031;29833031;7493328
+13;04;06;12;;;P;RECUPERACIÓN DE PRÉSTAMOS                                                       ;10;10;0
+13;04;06;12;10;;P;Ingresos por Percibir                                                           ;10;10;0
+13;04;06;21;;;P;GASTOS EN PERSONAL                                                              ;16578860;16578860;5046592
+13;04;06;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;12421831;12421831;1349984
+13;04;06;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;32134;32134;0
+13;04;06;24;07;;P;A Organismos Internacionales                                                    ;32134;32134;0
+13;04;06;24;07;603;P;Comité de Sanidad Vegetal del Cono Sur                                                                                                                                                                                                                    ;32134;32134;0
+13;04;06;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;800216;800216;277916
+13;04;06;29;03;;P;Vehículos                                                                       ;20085;20085;0
+13;04;06;29;04;;P;Mobiliario y Otros                                                              ;15182;15182;1701
+13;04;06;29;05;;P;Máquinas y Equipos                                                              ;764949;764949;276215
+13;04;06;34;;;P;SERVICIO DE LA DEUDA                                                            ;0;0;1085698
+13;04;06;34;07;;P;Deuda Flotante                                                                  ;0;0;1085698
+;;;;;;;RESULTADO;;;-266862

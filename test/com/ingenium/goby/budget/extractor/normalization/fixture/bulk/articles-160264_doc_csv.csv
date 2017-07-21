@@ -1,0 +1,35 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+21;07;01;05;;;P;TRANSFERENCIAS CORRIENTES                                                       ;1927980;1927980;534788
+21;07;01;05;02;;P;Del Gobierno Central                                                            ;1927980;1927980;534788
+21;07;01;05;02;001;P;Ley N° 20.595 y Sistema Chile Solidario                                                                                                                                                                                                                   ;1782626;1782626;534788
+21;07;01;05;02;002;P;Servicio Nacional de Menores                                                                                                                                                                                                                              ;145354;145354;0
+21;07;01;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;209042;209042;61964
+21;07;01;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;135090;135090;19363
+21;07;01;08;99;;P;Otros                                                                           ;73952;73952;42601
+21;07;01;09;;;P;APORTE FISCAL                                                                   ;16374220;16374220;4728374
+21;07;01;09;01;;P;Libre                                                                           ;16374220;16374220;4728374
+21;07;01;15;;;P;SALDO INICIAL DE CAJA                                                           ;1000;1000;0
+21;07;01;21;;;P;GASTOS EN PERSONAL                                                              ;4553691;4553691;1569327
+21;07;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;1123792;1123792;170834
+21;07;01;23;;;P;PRESTACIONES DE SEGURIDAD SOCIAL                                                ;16480;16480;6709
+21;07;01;23;01;;P;Prestaciones Previsionales                                                      ;16469;16469;6709
+21;07;01;23;03;;P;Prestaciones Sociales del Empleador                                             ;11;11;0
+21;07;01;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;12755398;12755398;2437030
+21;07;01;24;01;;P;Al Sector Privado                                                               ;12746711;12746711;2428343
+21;07;01;24;01;581;P;Aplicación Ley N° 20.422                                                                                                                                                                                                                                  ;8342802;8342802;1271863
+21;07;01;24;01;582;P;Corporación de Ayuda al Niño Limitado                                                                                                                                                                                                                     ;889526;889526;0
+21;07;01;24;01;583;P;Programa de Atención Temprana                                                                                                                                                                                                                             ;819804;819804;819804
+21;07;01;24;01;587;P;Acceso a la Justicia de las Personas con Discapacidad                                                                                                                                                                                                     ;329209;329209;289572
+21;07;01;24;01;588;P;Participación Inclusiva Territorial                                                                                                                                                                                                                       ;427822;427822;0
+21;07;01;24;01;590;P;Programa de Desarrollo de Organizaciones Inclusivas                                                                                                                                                                                                       ;217303;217303;22828
+21;07;01;24;01;591;P;Programa de Tránsito a la Vida Independiente                                                                                                                                                                                                              ;1587251;1587251;24276
+21;07;01;24;01;592;P;Adultos con Discapacidad en Residencias                                                                                                                                                                                                                   ;132994;132994;0
+21;07;01;24;07;;P;A Organismos Internacionales                                                    ;8687;8687;8687
+21;07;01;24;07;002;P;CEDDIS                                                                                                                                                                                                                                                    ;8687;8687;8687
+21;07;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;61881;61881;1933
+21;07;01;29;04;;P;Mobiliario y Otros                                                              ;3420;3420;1831
+21;07;01;29;06;;P;Equipos Informáticos                                                            ;3047;3047;0
+21;07;01;29;07;;P;Programas Informáticos                                                          ;55414;55414;102
+21;07;01;34;;;P;SERVICIO DE LA DEUDA                                                            ;1000;1000;277348
+21;07;01;34;07;;P;Deuda Flotante                                                                  ;1000;1000;277348
+;;;;;;;RESULTADO;;;861945

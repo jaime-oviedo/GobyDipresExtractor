@@ -1,0 +1,49 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+09;01;30;05;;;P;TRANSFERENCIAS CORRIENTES                                                       ;105594152;105594152;0
+09;01;30;05;02;;P;Del Gobierno Central                                                            ;105594152;105594152;0
+09;01;30;05;02;080;P;Fondo para la Educación, Ley N° 20.630                                                                                                                                                                                                                    ;105594152;105594152;0
+09;01;30;09;;;P;APORTE FISCAL                                                                   ;1796772795;1796930980;341806395
+09;01;30;09;01;;P;Libre                                                                           ;1664547784;1664705969;320107371
+09;01;30;09;02;;P;Servicio de la Deuda Interna                                                    ;123672541;123672541;21404600
+09;01;30;09;03;;P;Servicio de la Deuda Externa                                                    ;8552470;8552470;294424
+09;01;30;12;;;P;RECUPERACIÓN DE PRÉSTAMOS                                                       ;84984850;84984850;0
+09;01;30;12;10;;P;Ingresos por Percibir                                                           ;84984850;84984850;0
+09;01;30;12;10;001;P;Créditos de Educación Superior                                                                                                                                                                                                                            ;84984850;84984850;0
+09;01;30;14;;;P;ENDEUDAMIENTO                                                                   ;1093274;1093274;0
+09;01;30;14;02;;P;Endeudamiento Externo                                                           ;1093274;1093274;0
+09;01;30;15;;;P;SALDO INICIAL DE CAJA                                                           ;2000;200436;0
+09;01;30;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;1134133188;1134133188;320427224
+09;01;30;24;03;;P;A Otras Entidades Públicas                                                      ;1134133188;1134133188;320427224
+09;01;30;24;03;196;P;Aporte Artículo 2° DFL (Ed) N°4, de 1981                                                                                                                                                                                                                  ;93615208;93615208;46537065
+09;01;30;24;03;198;P;Financiamiento del acceso gratuito a las Universidades 2017                                                                                                                                                                                               ;518994279;518994279;132809137
+09;01;30;24;03;199;P;Financiamiento del acceso gratuito a Institutos Profesionales y Centros de Formación Técnica 2017                                                                                                                                                         ;228907846;228907846;56649197
+09;01;30;24;03;200;P;Becas Educación Superior                                                                                                                                                                                                                                  ;229475793;229475793;67951548
+09;01;30;24;03;202;P;Fondo Desarrollo Institucional art 1° DFL (Ed.) N° 4 de 1981                                                                                                                                                                                              ;3012658;3012658;335530
+09;01;30;24;03;204;P;Pasantías Técnicos Nivel Superior                                                                                                                                                                                                                         ;3632038;3632038;2473692
+09;01;30;24;03;212;P;Apoyo Innovación Educación Superior                                                                                                                                                                                                                       ;601932;601932;3026
+09;01;30;24;03;213;P;Educación Superior Regional                                                                                                                                                                                                                               ;931532;931532;0
+09;01;30;24;03;214;P;Fortalecimiento Universidades art. 1° DFL (Ed.) N° 4 de 1981                                                                                                                                                                                              ;1390500;1390500;0
+09;01;30;24;03;218;P;Basal por Desempeño Universidades Art. 1° DFL. (Ed.) N° 4 de 1981                                                                                                                                                                                         ;25723489;25723489;6859597
+09;01;30;24;03;300;P;Semestre en el Extranjero Beca Vocación de Profesor                                                                                                                                                                                                       ;481113;481113;62300
+09;01;30;24;03;606;P;Cursos de Idiomas para Becas Chile                                                                                                                                                                                                                        ;181754;181754;1485
+09;01;30;24;03;802;P;Fondo de Desarrollo Institucional                                                                                                                                                                                                                         ;2627818;2627818;86613
+09;01;30;24;03;805;P;Aplicación Ley N° 20.634                                                                                                                                                                                                                                  ;20643228;20643228;5614296
+09;01;30;24;03;853;P;Aporte para Fomento de Investigación                                                                                                                                                                                                                      ;3914000;3914000;1043738
+09;01;30;30;;;P;ADQUISICIÓN DE ACTIVOS FINANCIEROS                                              ;705783389;705783389;434765
+09;01;30;30;01;;P;Compra de Títulos y Valores                                                     ;705783389;705783389;434765
+09;01;30;33;;;P;TRANSFERENCIAS DE CAPITAL                                                       ;16303483;16303483;1787528
+09;01;30;33;03;;P;A Otras Entidades Públicas                                                      ;16303483;16303483;1787528
+09;01;30;33;03;035;P;Fondo Desarrollo Institucional-Infraestructura Art 1° DFL. (Ed.) N° 4 de 1981                                                                                                                                                                             ;981446;981446;0
+09;01;30;33;03;036;P;Aplicación Letra a) Art.71 bis de la Ley N° 18.591                                                                                                                                                                                                        ;7515296;7515296;0
+09;01;30;33;03;401;P;Fondo de Desarrollo Institucional  - Infraestructura                                                                                                                                                                                                      ;849008;849008;0
+09;01;30;33;03;404;P;Educación Superior Regional                                                                                                                                                                                                                               ;151512;151512;0
+09;01;30;33;03;407;P;Apoyo Innovación Educación Superior                                                                                                                                                                                                                       ;103000;103000;0
+09;01;30;33;03;409;P;Basal por Desempeño Universidades Art. 1° DFL. (Ed.) N° 4 de 1981                                                                                                                                                                                         ;6703221;6703221;1787528
+09;01;30;34;;;P;SERVICIO DE LA DEUDA                                                            ;132226011;132582632;22056643
+09;01;30;34;01;;P;Amortización Deuda Interna                                                      ;108540233;108540233;18889996
+09;01;30;34;02;;P;Amortización Deuda Externa                                                      ;8274951;8274951;116076
+09;01;30;34;03;;P;Intereses Deuda Interna                                                         ;15132308;15132308;2514603
+09;01;30;34;04;;P;Intereses Deuda Externa                                                         ;277519;277519;178348
+09;01;30;34;07;;P;Deuda Flotante                                                                  ;1000;357621;357620
+09;01;30;35;;;P;SALDO FINAL DE CAJA                                                             ;1000;1000;0
+;;;;;;;RESULTADO;;;-2899765

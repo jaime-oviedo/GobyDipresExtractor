@@ -8,6 +8,7 @@ import com.opencsv.CSVReader;
 import com.opencsv.CSVWriter;
 
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -42,7 +43,7 @@ public class BudgetExecutionCsvFileNormalizer {
   */
   private BudgetExecutionCsvFileNormalizer() {
     // begin-user-code
-    // TODO Auto-generated constructor stub
+    super();
     // end-user-code
   }
   
@@ -98,6 +99,20 @@ public class BudgetExecutionCsvFileNormalizer {
   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_TBCWMGNtEeebmPnwD8r8OA"
   */
   public static List<List<String>> normalize(String csvBudgetExecutionFile) {
+    // begin-user-code
+    return BudgetExecutionCsvFileNormalizer
+        .normalize(new File(csvBudgetExecutionFile));
+    // end-user-code
+  }
+  
+  /** 
+  * <!-- begin-UML-doc -->
+  * <!-- end-UML-doc -->
+  * @param csvBudgetExecutionFile
+  * @return
+  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_mz_ucG2hEeeXYbujNKTijw"
+  */
+  public static List<List<String>> normalize(File csvBudgetExecutionFile) {
     // begin-user-code
     FileInputStream fi = null;
     InputStreamReader isr = null;

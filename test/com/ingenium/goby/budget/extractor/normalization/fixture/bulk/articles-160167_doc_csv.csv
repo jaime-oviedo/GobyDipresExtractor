@@ -1,0 +1,26 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+15;03;01;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;32033;32033;8995
+15;03;01;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;32033;32033;7030
+15;03;01;08;99;;P;Otros                                                                           ;0;0;1965
+15;03;01;09;;;P;APORTE FISCAL                                                                   ;7859796;7859796;1932934
+15;03;01;09;01;;P;Libre                                                                           ;6016426;6016426;1095784
+15;03;01;09;03;;P;Servicio de la Deuda Externa                                                    ;1843370;1843370;837150
+15;03;01;12;;;P;RECUPERACIÓN DE PRÉSTAMOS                                                       ;0;0;17004
+15;03;01;15;;;P;SALDO INICIAL DE CAJA                                                           ;1500;1500;0
+15;03;01;21;;;P;GASTOS EN PERSONAL                                                              ;3174886;3174886;1019732
+15;03;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;981810;981810;129170
+15;03;01;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;1772461;1772461;20699
+15;03;01;24;01;;P;Al Sector Privado                                                               ;1528037;1528037;20699
+15;03;01;24;01;002;P;Fondo para la Educación Previsional                                                                                                                                                                                                                       ;1528037;1528037;20699
+15;03;01;24;03;;P;A Otras Entidades Públicas                                                      ;244424;244424;0
+15;03;01;24;03;001;P;Fondo para la Educación Previsional                                                                                                                                                                                                                       ;244424;244424;0
+15;03;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;119302;119302;36668
+15;03;01;29;04;;P;Mobiliario y Otros                                                              ;1246;1246;658
+15;03;01;29;05;;P;Máquinas y Equipos                                                              ;2009;2009;2009
+15;03;01;29;07;;P;Programas Informáticos                                                          ;116047;116047;34001
+15;03;01;34;;;P;SERVICIO DE LA DEUDA                                                            ;1843870;1843870;1178981
+15;03;01;34;02;;P;Amortización Deuda Externa                                                      ;1768659;1768659;819647
+15;03;01;34;04;;P;Intereses Deuda Externa                                                         ;74711;74711;17503
+15;03;01;34;07;;P;Deuda Flotante                                                                  ;500;500;341831
+15;03;01;35;;;P;SALDO FINAL DE CAJA                                                             ;1000;1000;0
+;;;;;;;RESULTADO;;;-426317

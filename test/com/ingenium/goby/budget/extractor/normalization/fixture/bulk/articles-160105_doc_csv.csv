@@ -1,0 +1,15 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+10;01;02;05;;;P;TRANSFERENCIAS CORRIENTES                                                       ;7208172;7208172;0
+10;01;02;05;02;;P;Del Gobierno Central                                                            ;7208172;7208172;0
+10;01;02;05;02;001;P;Del Ministerio Público                                                                                                                                                                                                                                    ;783528;783528;0
+10;01;02;05;02;002;P;De la Defensoría Penal Pública                                                                                                                                                                                                                            ;650898;650898;0
+10;01;02;05;02;003;P;De la Corporación Administrativa del Poder Judicial                                                                                                                                                                                                       ;5773746;5773746;0
+10;01;02;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;0;0;146
+10;01;02;08;02;;P;Multas y Sanciones Pecuniarias                                                  ;0;0;146
+10;01;02;09;;;P;APORTE FISCAL                                                                   ;61104557;61104557;30160349
+10;01;02;09;01;;P;Libre                                                                           ;61104557;61104557;30160349
+10;01;02;15;;;P;SALDO INICIAL DE CAJA                                                           ;0;3779729;0
+10;01;02;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;68312729;68312729;29028395
+10;01;02;34;;;P;SERVICIO DE LA DEUDA                                                            ;0;3779729;3779729
+10;01;02;34;07;;P;Deuda Flotante                                                                  ;0;3779729;3779729
+;;;;;;;RESULTADO;;;-2647629

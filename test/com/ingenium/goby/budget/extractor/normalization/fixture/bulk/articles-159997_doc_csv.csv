@@ -1,0 +1,27 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+05;09;01;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;2163353;2163353;838523
+05;09;01;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;16715;16715;4312
+05;09;01;08;99;;P;Otros                                                                           ;2146638;2146638;834211
+05;09;01;09;;;P;APORTE FISCAL                                                                   ;61971960;61971960;20886166
+05;09;01;09;01;;P;Libre                                                                           ;61971960;61971960;20886166
+05;09;01;15;;;P;SALDO INICIAL DE CAJA                                                           ;0;2309;0
+05;09;01;21;;;P;GASTOS EN PERSONAL                                                              ;7621838;7621838;2569321
+05;09;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;3633896;3605026;729235
+05;09;01;23;;;P;PRESTACIONES DE SEGURIDAD SOCIAL                                                ;0;2309;2309
+05;09;01;23;03;;P;Prestaciones Sociales del Empleador                                             ;0;2309;2309
+05;09;01;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;52843890;52843890;15108444
+05;09;01;24;03;;P;A Otras Entidades Públicas                                                      ;52843890;52843890;15108444
+05;09;01;24;03;001;P;Programa de Tratamiento y Rehabilitación                                                                                                                                                                                                                  ;42977380;42489380;9241475
+05;09;01;24;03;003;P;Otros Programas de Prevención                                                                                                                                                                                                                             ;3262798;3262798;2043233
+05;09;01;24;03;005;P;Programas de Capacitación                                                                                                                                                                                                                                 ;1229423;1017423;48055
+05;09;01;24;03;012;P;Municipalidades - Programa PREVIENE                                                                                                                                                                                                                       ;4286660;4986660;3376040
+05;09;01;24;03;013;P;Programa Control Cero Alcohol                                                                                                                                                                                                                             ;1087629;1087629;399641
+05;09;01;26;;;P;OTROS GASTOS CORRIENTES                                                         ;9522;38392;32635
+05;09;01;26;01;;P;Devoluciones                                                                    ;9522;9522;3766
+05;09;01;26;02;;P;Compensaciones por Daños a Terceros y/o a la Propiedad                          ;0;28870;28869
+05;09;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;26167;26167;2438
+05;09;01;29;04;;P;Mobiliario y Otros                                                              ;5212;5212;1937
+05;09;01;29;05;;P;Máquinas y Equipos                                                              ;1236;1236;241
+05;09;01;29;06;;P;Equipos Informáticos                                                            ;14832;14832;229
+05;09;01;29;07;;P;Programas Informáticos                                                          ;4887;4887;31
+;;;;;;;RESULTADO;;;3280307

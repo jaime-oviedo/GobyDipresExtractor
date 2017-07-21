@@ -1,0 +1,41 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+05;33;01;05;;;P;TRANSFERENCIAS CORRIENTES                                                       ;1338601;1338601;29391
+05;33;01;05;02;;P;Del Gobierno Central                                                            ;1111460;1111460;0
+05;33;01;05;02;001;P;Servicio Nacional de la Mujer - Programa 06                                                                                                                                                                                                               ;80990;80990;0
+05;33;01;05;02;010;P;Plan Microtráfico Cero - Subsecretaría del Interior                                                                                                                                                                                                       ;1030470;1030470;0
+05;33;01;05;03;;P;De Otras Entidades Públicas                                                     ;227141;227141;29391
+05;33;01;05;03;004;P;Municipalidades                                                                                                                                                                                                                                           ;227141;227141;29391
+05;33;01;06;;;P;RENTAS DE LA PROPIEDAD                                                          ;85133;85133;21752
+05;33;01;07;;;P;INGRESOS DE OPERACIÓN                                                           ;599525;599525;237475
+05;33;01;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;234019;234019;233628
+05;33;01;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;10300;10300;10300
+05;33;01;08;99;;P;Otros                                                                           ;223719;223719;223328
+05;33;01;09;;;P;APORTE FISCAL                                                                   ;303739300;303739300;103983167
+05;33;01;09;01;;P;Libre                                                                           ;303739300;303739300;103983167
+05;33;01;10;;;P;VENTA DE ACTIVOS NO FINANCIEROS                                                 ;803192;803192;0
+05;33;01;10;03;;P;Vehículos                                                                       ;794193;794193;0
+05;33;01;10;04;;P;Mobiliario y Otros                                                              ;8999;8999;0
+05;33;01;13;;;P;TRANSFERENCIAS PARA GASTOS DE CAPITAL                                           ;1416250;1416250;0
+05;33;01;13;02;;P;Del Gobierno Central                                                            ;1416250;1416250;0
+05;33;01;13;02;010;P;Plan Nacional contra el Narcotráfico - Subsecretaría del Interior                                                                                                                                                                                         ;1416250;1416250;0
+05;33;01;21;;;P;GASTOS EN PERSONAL                                                              ;254356489;254356489;85138387
+05;33;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;35077467;35077467;10331906
+05;33;01;23;;;P;PRESTACIONES DE SEGURIDAD SOCIAL                                                ;330364;330364;330357
+05;33;01;23;01;;P;Prestaciones Previsionales                                                      ;330364;330364;330357
+05;33;01;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;1788926;1788926;252820
+05;33;01;24;03;;P;A Otras Entidades Públicas                                                      ;1788926;1788926;252820
+05;33;01;24;03;049;P;Plan Microtráfico Cero                                                                                                                                                                                                                                    ;1030470;1030470;0
+05;33;01;24;03;243;P;Bienestar Social                                                                                                                                                                                                                                          ;758456;758456;252820
+05;33;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;7076349;7076349;3106612
+05;33;01;29;02;;P;Edificios                                                                       ;1690294;1690294;1660083
+05;33;01;29;03;;P;Vehículos                                                                       ;2160013;2160013;1180258
+05;33;01;29;04;;P;Mobiliario y Otros                                                              ;335180;335180;40753
+05;33;01;29;05;;P;Máquinas y Equipos                                                              ;543720;543720;67811
+05;33;01;29;06;;P;Equipos Informáticos                                                            ;1035641;1035641;101818
+05;33;01;29;07;;P;Programas Informáticos                                                          ;1311501;1311501;55889
+05;33;01;31;;;P;INICIATIVAS DE INVERSIÓN                                                        ;8170175;8170175;816413
+05;33;01;31;02;;P;Proyectos                                                                       ;8170175;8170175;816413
+05;33;01;33;;;P;TRANSFERENCIAS DE CAPITAL                                                       ;1416250;1416250;0
+05;33;01;33;03;;P;A Otras Entidades Públicas                                                      ;1416250;1416250;0
+05;33;01;33;03;003;P;Plan Nacional contra el Narcotráfico                                                                                                                                                                                                                      ;1416250;1416250;0
+;;;;;;;RESULTADO;;;4528918

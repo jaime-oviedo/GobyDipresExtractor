@@ -1,0 +1,20 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+05;05;02;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;0;0;6343
+05;05;02;08;02;;P;Multas y Sanciones Pecuniarias                                                  ;0;0;3620
+05;05;02;08;99;;P;Otros                                                                           ;0;0;2723
+05;05;02;09;;;P;APORTE FISCAL                                                                   ;8991237;8991237;295000
+05;05;02;09;01;;P;Libre                                                                           ;8991237;8991237;295000
+05;05;02;15;;;P;SALDO INICIAL DE CAJA                                                           ;1000;985884;0
+05;05;02;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;7956430;7956430;668279
+05;05;02;24;03;;P;A Otras Entidades Públicas                                                      ;7956430;7956430;668279
+05;05;02;24;03;026;P;Programa Academia Capacitación Municipal y Regional                                                                                                                                                                                                       ;2214500;2214500;76855
+05;05;02;24;03;031;P;Programa de Apoyo a la Acreditación de Calidad de Servicios Municipales                                                                                                                                                                                   ;185115;185115;5600
+05;05;02;24;03;033;P;Fondo Concursable  Becas - Ley N°20.742                                                                                                                                                                                                                   ;2623611;2623611;518244
+05;05;02;24;03;500;P;Municipalidades (Prevención y Mitigación de Riesgos)                                                                                                                                                                                                      ;550607;550607;41330
+05;05;02;24;03;602;P;Municipalidades (Programa de Modernización)                                                                                                                                                                                                               ;2382597;2382597;26250
+05;05;02;33;;;P;TRANSFERENCIAS DE CAPITAL                                                       ;1034807;1034807;64967
+05;05;02;33;03;;P;A Otras Entidades Públicas                                                      ;1034807;1034807;64967
+05;05;02;33;03;602;P;Municipalidades (Programa de Modernización)                                                                                                                                                                                                               ;1034807;1034807;64967
+05;05;02;34;;;P;SERVICIO DE LA DEUDA                                                            ;1000;985884;985884
+05;05;02;34;07;;P;Deuda Flotante                                                                  ;1000;985884;985884
+;;;;;;;RESULTADO;;;-1417787

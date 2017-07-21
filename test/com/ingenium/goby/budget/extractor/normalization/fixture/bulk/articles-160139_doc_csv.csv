@@ -1,0 +1,29 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+12;02;12;06;;;P;RENTAS DE LA PROPIEDAD                                                          ;0;0;388
+12;02;12;07;;;P;INGRESOS DE OPERACIÓN                                                           ;0;0;101
+12;02;12;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;97644;97644;61927
+12;02;12;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;12360;12360;3188
+12;02;12;08;02;;P;Multas y Sanciones Pecuniarias                                                  ;85284;85284;49818
+12;02;12;08;99;;P;Otros                                                                           ;0;0;8921
+12;02;12;09;;;P;APORTE FISCAL                                                                   ;91216652;91216652;24499622
+12;02;12;09;01;;P;Libre                                                                           ;91216652;91216652;24499622
+12;02;12;12;;;P;RECUPERACIÓN DE PRÉSTAMOS                                                       ;0;0;68186
+12;02;12;12;10;;P;Ingresos por Percibir                                                           ;0;0;68186
+12;02;12;13;;;P;TRANSFERENCIAS PARA GASTOS DE CAPITAL                                           ;824000;824000;0
+12;02;12;13;02;;P;Del Gobierno Central                                                            ;824000;824000;0
+12;02;12;13;02;013;P;Gobierno Regional Metropolitano                                                                                                                                                                                                                           ;824000;824000;0
+12;02;12;15;;;P;SALDO INICIAL DE CAJA                                                           ;10000;10000;0
+12;02;12;21;;;P;GASTOS EN PERSONAL                                                              ;1887401;1887401;608335
+12;02;12;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;209155;209155;40798
+12;02;12;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;49257;49257;4582
+12;02;12;29;03;;P;Vehículos                                                                       ;21115;21115;0
+12;02;12;29;04;;P;Mobiliario y Otros                                                              ;2884;2884;0
+12;02;12;29;05;;P;Máquinas y Equipos                                                              ;9270;9270;4582
+12;02;12;29;06;;P;Equipos Informáticos                                                            ;12947;12947;0
+12;02;12;29;07;;P;Programas Informáticos                                                          ;3041;3041;0
+12;02;12;31;;;P;INICIATIVAS DE INVERSIÓN                                                        ;89991483;89991483;22904045
+12;02;12;31;02;;P;Proyectos                                                                       ;89991483;89991483;22904045
+12;02;12;34;;;P;SERVICIO DE LA DEUDA                                                            ;1000;1000;11420092
+12;02;12;34;07;;P;Deuda Flotante                                                                  ;1000;1000;11420092
+12;02;12;35;;;P;SALDO FINAL DE CAJA                                                             ;10000;10000;0
+;;;;;;;RESULTADO;;;-10347628

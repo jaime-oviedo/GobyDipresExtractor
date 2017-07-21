@@ -1,0 +1,58 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+26;02;01;05;;;P;TRANSFERENCIAS CORRIENTES                                                       ;13414478;13414478;4284605
+26;02;01;05;03;;P;De Otras Entidades Públicas                                                     ;13414478;13414478;4284605
+26;02;01;05;03;008;P;Polla Chilena de Beneficencia                                                                                                                                                                                                                             ;13414478;13414478;4284605
+26;02;01;06;;;P;RENTAS DE LA PROPIEDAD                                                          ;5039;5039;215
+26;02;01;07;;;P;INGRESOS DE OPERACIÓN                                                           ;2425196;2425196;1023840
+26;02;01;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;375779;375779;392781
+26;02;01;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;326679;326679;118772
+26;02;01;08;99;;P;Otros                                                                           ;49100;49100;274009
+26;02;01;09;;;P;APORTE FISCAL                                                                   ;104082664;102582664;29252235
+26;02;01;09;01;;P;Libre                                                                           ;104082664;102582664;29252235
+26;02;01;10;;;P;VENTA DE ACTIVOS NO FINANCIEROS                                                 ;10691;10691;0
+26;02;01;10;03;;P;Vehículos                                                                       ;10691;10691;0
+26;02;01;12;;;P;RECUPERACIÓN DE PRÉSTAMOS                                                       ;1235877;1235877;65029
+26;02;01;12;10;;P;Ingresos por Percibir                                                           ;1235877;1235877;65029
+26;02;01;21;;;P;GASTOS EN PERSONAL                                                              ;18612030;18612030;5411582
+26;02;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;8030381;8030381;1724303
+26;02;01;23;;;P;PRESTACIONES DE SEGURIDAD SOCIAL                                                ;40080;40080;36202
+26;02;01;23;01;;P;Prestaciones Previsionales                                                      ;40080;40080;36202
+26;02;01;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;61400946;61400946;20419472
+26;02;01;24;01;;P;Al Sector Privado                                                               ;44699349;44699349;16958205
+26;02;01;24;01;337;P;Liderazgo Deportivo Nacional                                                                                                                                                                                                                              ;19446013;16346632;4421438
+26;02;01;24;01;338;P;Art.5° Letra e) D.L. 1.298 y Ley 19.135                                                                                                                                                                                                                   ;5972;5972;0
+26;02;01;24;01;340;P;Art.1° Ley 19.135 C.O.CH.                                                                                                                                                                                                                                 ;263151;263151;263152
+26;02;01;24;01;341;P;Art. 1° Ley 19.135 Fed. D. Nacional                                                                                                                                                                                                                       ;1710480;1710480;787662
+26;02;01;24;01;345;P;Art. Unico Ley N° 19.909                                                                                                                                                                                                                                  ;168096;168096;0
+26;02;01;24;01;354;P;ADO - Chile                                                                                                                                                                                                                                               ;505339;505339;89792
+26;02;01;24;01;358;P;Deporte Participación Privado                                                                                                                                                                                                                             ;59658;59658;0
+26;02;01;24;01;359;P;Sistema Nacional de Competencias Deportivas                                                                                                                                                                                                               ;11725662;11725662;948694
+26;02;01;24;01;361;P;Programa de Normalización de Infraestructura Deportiva                                                                                                                                                                                                    ;257054;257054;79670
+26;02;01;24;01;362;P;Escuelas Deportivas Integrales                                                                                                                                                                                                                            ;230133;230133;0
+26;02;01;24;01;363;P;Corporación Juegos Suramericanos Juveniles Santiago 2017                                                                                                                                                                                                  ;9696289;9696289;9696289
+26;02;01;24;01;365;P;Sistema Nacional de Capacitación y Acreditación Deportiva                                                                                                                                                                                                 ;412941;412941;13803
+26;02;01;24;01;367;P;Operación Centros Deportivos Integrales                                                                                                                                                                                                                   ;218561;218561;1727
+26;02;01;24;01;381;P;Becas PRODDAR                                                                                                                                                                                                                                             ;0;3099381;655978
+26;02;01;24;03;;P;A Otras Entidades Públicas                                                      ;16701597;16701597;3461267
+26;02;01;24;03;046;P;Centros de Alto Rendimiento                                                                                                                                                                                                                               ;1073062;1073062;342761
+26;02;01;24;03;057;P;Deporte Participación Público                                                                                                                                                                                                                             ;7556828;7556828;1140531
+26;02;01;24;03;058;P;Programa de Saneamiento de Títulos de Propiedad Deportiva                                                                                                                                                                                                 ;213828;213828;213828
+26;02;01;24;03;060;P;Recintos en Movimiento                                                                                                                                                                                                                                    ;500989;500989;108435
+26;02;01;24;03;061;P;Escuelas Deportivas Integrales                                                                                                                                                                                                                            ;7356890;7356890;1655712
+26;02;01;25;;;P;INTEGROS AL FISCO                                                               ;279737;279737;99729
+26;02;01;25;01;;P;Impuestos                                                                       ;279737;279737;99729
+26;02;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;913300;913300;256949
+26;02;01;29;03;;P;Vehículos                                                                       ;232051;232051;166667
+26;02;01;29;04;;P;Mobiliario y Otros                                                              ;112628;112628;11781
+26;02;01;29;05;;P;Máquinas y Equipos                                                              ;184370;184370;10199
+26;02;01;29;06;;P;Equipos Informáticos                                                            ;92700;92700;51245
+26;02;01;29;07;;P;Programas Informáticos                                                          ;279212;279212;17057
+26;02;01;29;99;;P;Otros Activos no Financieros                                                    ;12339;12339;0
+26;02;01;31;;;P;INICIATIVAS DE INVERSIÓN                                                        ;25334289;24334289;2459847
+26;02;01;31;02;;P;Proyectos                                                                       ;25334289;24334289;2459847
+26;02;01;33;;;P;TRANSFERENCIAS DE CAPITAL                                                       ;6937961;6437961;0
+26;02;01;33;03;;P;A Otras Entidades Públicas                                                      ;6937961;6437961;0
+26;02;01;33;03;002;P;Aportes para Inversiones en Infraestructura Deportiva                                                                                                                                                                                                     ;6937961;6437961;0
+26;02;01;34;;;P;SERVICIO DE LA DEUDA                                                            ;1000;1000;0
+26;02;01;34;07;;P;Deuda Flotante                                                                  ;1000;1000;0
+;;;;;;;RESULTADO;;;4610621

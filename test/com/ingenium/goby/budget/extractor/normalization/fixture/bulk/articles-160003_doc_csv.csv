@@ -1,0 +1,21 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+05;32;01;05;;;P;TRANSFERENCIAS CORRIENTES                                                       ;3459430;3459430;3459430
+05;32;01;05;03;;P;De Otras Entidades Públicas                                                     ;3459430;3459430;3459430
+05;32;01;05;03;007;P;Fondo para Hospitales                                                                                                                                                                                                                                     ;3459430;3459430;3459430
+05;32;01;07;;;P;INGRESOS DE OPERACIÓN                                                           ;23058956;23058956;5922275
+05;32;01;07;02;;P;Venta de Servicios                                                              ;23058956;23058956;5922275
+05;32;01;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;513433;513433;224265
+05;32;01;08;99;;P;Otros                                                                           ;513433;513433;224265
+05;32;01;12;;;P;RECUPERACIÓN DE PRÉSTAMOS                                                       ;1998704;3536710;1465546
+05;32;01;12;10;;P;Ingresos por Percibir                                                           ;1998704;3536710;1465546
+05;32;01;15;;;P;SALDO INICIAL DE CAJA                                                           ;155700;242208;0
+05;32;01;21;;;P;GASTOS EN PERSONAL                                                              ;19104963;19104963;5969456
+05;32;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;9794120;9794120;1890972
+05;32;01;23;;;P;PRESTACIONES DE SEGURIDAD SOCIAL                                                ;164800;164800;52126
+05;32;01;23;01;;P;Prestaciones Previsionales                                                      ;164800;164800;52126
+05;32;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;18540;18540;5346
+05;32;01;29;04;;P;Mobiliario y Otros                                                              ;12875;12875;1062
+05;32;01;29;06;;P;Equipos Informáticos                                                            ;5665;5665;4284
+05;32;01;34;;;P;SERVICIO DE LA DEUDA                                                            ;103800;1728314;1728313
+05;32;01;34;07;;P;Deuda Flotante                                                                  ;103800;1728314;1728313
+;;;;;;;RESULTADO;;;1425303

@@ -1,0 +1,26 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+06;02;02;05;;;P;TRANSFERENCIAS CORRIENTES                                                       ;11368831;11368831;2753260
+06;02;02;05;02;;P;Del Gobierno Central                                                            ;11368831;11368831;2753260
+06;02;02;05;02;001;P;Subsecretaría de Agricultura                                                                                                                                                                                                                              ;9910951;9910951;2753260
+06;02;02;05;02;005;P;Comité de Inversiones Extranjeras                                                                                                                                                                                                                         ;622035;622035;0
+06;02;02;05;02;016;P;Subsecretaría de Minería - FIE                                                                                                                                                                                                                            ;835845;835845;0
+06;02;02;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;171730;171730;112685
+06;02;02;08;02;;P;Multas y Sanciones Pecuniarias                                                  ;0;0;795
+06;02;02;08;99;;P;Otros                                                                           ;171730;171730;111890
+06;02;02;09;;;P;APORTE FISCAL                                                                   ;11882138;11882138;4799200
+06;02;02;09;01;;P;Libre                                                                           ;11882138;11882138;4799200
+06;02;02;11;;;P;VENTA DE ACTIVOS FINANCIEROS                                                    ;-5616800;-4908400;-821960
+06;02;02;11;03;;P;Operaciones de Cambio                                                           ;-5616800;-4908400;-821960
+06;02;02;21;;;P;GASTOS EN PERSONAL                                                              ;5384979;5385406;1720213
+06;02;02;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;2098365;2291229;201502
+06;02;02;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;10232388;10747497;4371722
+06;02;02;24;01;;P;Al Sector Privado                                                               ;10232388;10747497;4371722
+06;02;02;24;01;003;P;Fundación Imagen de Chile                                                                                                                                                                                                                                 ;3880040;3880040;1940020
+06;02;02;24;01;607;P;Proyectos y Actividades de Promoción                                                                                                                                                                                                                      ;6352348;6867457;2431702
+06;02;02;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;90167;90167;16709
+06;02;02;29;03;;P;Vehículos                                                                       ;51500;51500;0
+06;02;02;29;04;;P;Mobiliario y Otros                                                              ;20394;20394;15209
+06;02;02;29;05;;P;Máquinas y Equipos                                                              ;4028;4869;1500
+06;02;02;29;06;;P;Equipos Informáticos                                                            ;4584;3743;0
+06;02;02;29;07;;P;Programas Informáticos                                                          ;9661;9661;0
+;;;;;;;RESULTADO;;;533039

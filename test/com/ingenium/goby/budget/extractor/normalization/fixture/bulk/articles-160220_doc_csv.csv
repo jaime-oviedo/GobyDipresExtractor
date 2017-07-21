@@ -1,0 +1,29 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+17;01;01;05;;;P;TRANSFERENCIAS CORRIENTES                                                       ;1144845;1144845;140000
+17;01;01;05;02;;P;Del Gobierno Central                                                            ;1144845;1144845;140000
+17;01;01;05;02;023;P;Subsecretaría de Economía                                                                                                                                                                                                                                 ;1144845;1144845;140000
+17;01;01;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;16800;16800;32437
+17;01;01;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;16790;16790;29635
+17;01;01;08;99;;P;Otros                                                                           ;10;10;2802
+17;01;01;09;;;P;APORTE FISCAL                                                                   ;5976607;5976607;1355765
+17;01;01;09;01;;P;Libre                                                                           ;5976607;5976607;1355765
+17;01;01;10;;;P;VENTA DE ACTIVOS NO FINANCIEROS                                                 ;20;20;0
+17;01;01;12;;;P;RECUPERACIÓN DE PRÉSTAMOS                                                       ;0;0;34027
+17;01;01;12;10;;P;Ingresos por Percibir                                                           ;0;0;34027
+17;01;01;15;;;P;SALDO INICIAL DE CAJA                                                           ;0;158027;0
+17;01;01;21;;;P;GASTOS EN PERSONAL                                                              ;4204665;4204665;1351389
+17;01;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;1967262;1967262;363515
+17;01;01;23;;;P;PRESTACIONES DE SEGURIDAD SOCIAL                                                ;10;10;0
+17;01;01;23;03;;P;Prestaciones Sociales del Empleador                                             ;10;10;0
+17;01;01;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;874655;874655;35593
+17;01;01;24;02;;P;Al Gobierno Central                                                             ;835845;835845;0
+17;01;01;24;02;003;P;A PROCHILE - FIE Promoción Proveedores de bienes para la Minería                                                                                                                                                                                          ;835845;835845;0
+17;01;01;24;07;;P;A Organismos Internacionales                                                    ;38810;38810;35593
+17;01;01;24;07;001;P;Grupo Internacional de Estudios del Cobre                                                                                                                                                                                                                 ;38810;38810;35593
+17;01;01;25;;;P;INTEGROS AL FISCO                                                               ;10;10;0
+17;01;01;25;01;;P;Impuestos                                                                       ;10;10;0
+17;01;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;91670;91670;7089
+17;01;01;29;07;;P;Programas Informáticos                                                          ;91670;91670;7089
+17;01;01;34;;;P;SERVICIO DE LA DEUDA                                                            ;0;158027;158026
+17;01;01;34;07;;P;Deuda Flotante                                                                  ;0;158027;158026
+;;;;;;;RESULTADO;;;-353383

@@ -1,0 +1,41 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+10;01;01;05;;;P;TRANSFERENCIAS CORRIENTES                                                       ;0;52476;0
+10;01;01;05;01;;P;Del Sector Privado                                                              ;0;52476;0
+10;01;01;05;01;003;P;Aministradora del Fondo para Bonificación por Retiro                                                                                                                                                                                                      ;0;52476;0
+10;01;01;07;;;P;INGRESOS DE OPERACIÓN                                                           ;14725;14725;0
+10;01;01;07;02;;P;Venta de Servicios                                                              ;14725;14725;0
+10;01;01;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;122375;122375;108396
+10;01;01;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;113391;113391;104391
+10;01;01;08;02;;P;Multas y Sanciones Pecuniarias                                                  ;0;0;1633
+10;01;01;08;99;;P;Otros                                                                           ;8984;8984;2372
+10;01;01;09;;;P;APORTE FISCAL                                                                   ;107494129;107494129;30489068
+10;01;01;09;01;;P;Libre                                                                           ;107494129;107494129;30489068
+10;01;01;12;;;P;RECUPERACIÓN DE PRÉSTAMOS                                                       ;0;138436;130974
+10;01;01;12;10;;P;Ingresos por Percibir                                                           ;0;138436;130974
+10;01;01;15;;;P;SALDO INICIAL DE CAJA                                                           ;0;350870;0
+10;01;01;21;;;P;GASTOS EN PERSONAL                                                              ;9581295;9581295;3178048
+10;01;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;4203523;4203523;533646
+10;01;01;23;;;P;PRESTACIONES DE SEGURIDAD SOCIAL                                                ;0;228008;0
+10;01;01;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;53736684;53736684;17287219
+10;01;01;24;01;;P;Al Sector Privado                                                               ;9862768;9862768;2660932
+10;01;01;24;01;001;P;Programa de Licitaciones Sistema Nacional de Mediación                                                                                                                                                                                                    ;9575158;9575158;2637792
+10;01;01;24;01;002;P;Auditorías Externas Sistema Nacional de Mediación                                                                                                                                                                                                         ;117803;117803;23140
+10;01;01;24;01;269;P;Fundación de Asistencia Social y Legal a la Familia                                                                                                                                                                                                       ;169807;169807;0
+10;01;01;24;03;;P;A Otras Entidades Públicas                                                      ;43849182;43849182;14626287
+10;01;01;24;03;208;P;Corporaciones de Asistencia Judicial                                                                                                                                                                                                                      ;43760602;43760602;14559175
+10;01;01;24;03;211;P;Programa de Gestión de Conflictos Locales                                                                                                                                                                                                                 ;88580;88580;67112
+10;01;01;24;07;;P;A Organismos Internacionales                                                    ;24734;24734;0
+10;01;01;24;07;001;P;Conferencia de Ministros de Justicia Iberoamericanos                                                                                                                                                                                                      ;24734;24734;0
+10;01;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;109313;109313;172
+10;01;01;29;04;;P;Mobiliario y Otros                                                              ;8902;8902;172
+10;01;01;29;05;;P;Máquinas y Equipos                                                              ;18629;18629;0
+10;01;01;29;06;;P;Equipos Informáticos                                                            ;28840;28840;0
+10;01;01;29;07;;P;Programas Informáticos                                                          ;52942;52942;0
+10;01;01;31;;;P;INICIATIVAS DE INVERSIÓN                                                        ;40000414;40000414;7614235
+10;01;01;31;02;;P;Proyectos                                                                       ;40000414;40000414;7614235
+10;01;01;32;;;P;PRÉSTAMOS                                                                       ;0;0;-504361
+10;01;01;32;06;;P;Por Anticipos a Contratistas                                                    ;0;0;-504361
+10;01;01;32;06;002;P;Recuperacion  por Anticipos a Contratistas                                                                                                                                                                                                                ;0;0;-504361
+10;01;01;34;;;P;SERVICIO DE LA DEUDA                                                            ;0;313774;313774
+10;01;01;34;07;;P;Deuda Flotante                                                                  ;0;313774;313774
+;;;;;;;RESULTADO;;;2305705

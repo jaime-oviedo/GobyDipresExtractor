@@ -1,0 +1,21 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+26;01;01;05;;;P;TRANSFERENCIAS CORRIENTES                                                       ;0;5737;5737
+26;01;01;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;0;27500;4457
+26;01;01;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;0;25000;4426
+26;01;01;08;99;;P;Otros                                                                           ;0;2500;31
+26;01;01;09;;;P;APORTE FISCAL                                                                   ;6605449;6572212;1832586
+26;01;01;09;01;;P;Libre                                                                           ;6605449;6572212;1832586
+26;01;01;21;;;P;GASTOS EN PERSONAL                                                              ;4201757;4191239;1347717
+26;01;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;1340756;1340756;290280
+26;01;01;23;;;P;PRESTACIONES DE SEGURIDAD SOCIAL                                                ;0;10518;10517
+26;01;01;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;742383;742383;174934
+26;01;01;24;03;;P;A Otras Entidades Públicas                                                      ;742383;742383;174934
+26;01;01;24;03;002;P;Comisión Nacional de Dopaje                                                                                                                                                                                                                               ;538204;538204;150106
+26;01;01;24;03;003;P;Planes Deportivos Comunales                                                                                                                                                                                                                               ;118926;118926;20520
+26;01;01;24;03;004;P;Promoción de la Actividad Física y Deporte                                                                                                                                                                                                                ;85253;85253;4308
+26;01;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;320553;320553;11667
+26;01;01;29;04;;P;Mobiliario y Otros                                                              ;12749;12749;473
+26;01;01;29;05;;P;Máquinas y Equipos                                                              ;4828;4828;0
+26;01;01;29;06;;P;Equipos Informáticos                                                            ;36703;36703;10862
+26;01;01;29;07;;P;Programas Informáticos                                                          ;266273;266273;332
+;;;;;;;RESULTADO;;;7665

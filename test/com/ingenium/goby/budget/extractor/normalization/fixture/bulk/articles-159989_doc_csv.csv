@@ -1,0 +1,41 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+05;05;01;05;;;P;TRANSFERENCIAS CORRIENTES                                                       ;86564;950277;0
+05;05;01;05;02;;P;Del Gobierno Central                                                            ;0;863713;0
+05;05;01;05;02;112;P;Subsecretaría de Desarrollo Regional y Administrativo - Programa 05                                                                                                                                                                                       ;0;863713;0
+05;05;01;05;06;;P;De Gobiernos Extranjeros                                                        ;86564;86564;0
+05;05;01;05;06;001;P;Del Gobierno Español - Instituto de Crédito Oficial de España                                                                                                                                                                                             ;86564;86564;0
+05;05;01;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;51010;51010;125265
+05;05;01;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;51000;51000;121105
+05;05;01;08;02;;P;Multas y Sanciones Pecuniarias                                                  ;0;0;2994
+05;05;01;08;99;;P;Otros                                                                           ;10;10;1166
+05;05;01;09;;;P;APORTE FISCAL                                                                   ;60834394;60834394;21492616
+05;05;01;09;01;;P;Libre                                                                           ;18701608;18701608;4235760
+05;05;01;09;01;001;P;Remuneraciones                                                                                                                                                                                                                                            ;12587929;12587929;4235760
+05;05;01;09;01;002;P;Resto                                                                                                                                                                                                                                                     ;6113679;6113679;0
+05;05;01;09;03;;P;Servicio de la Deuda Externa                                                    ;42132786;42132786;17256856
+05;05;01;12;;;P;RECUPERACIÓN DE PRÉSTAMOS                                                       ;0;0;44242
+05;05;01;15;;;P;SALDO INICIAL DE CAJA                                                           ;1000;511522;0
+05;05;01;21;;;P;GASTOS EN PERSONAL                                                              ;12638929;12638929;4123983
+05;05;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;2901559;3348603;613738
+05;05;01;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;307345;724014;84357
+05;05;01;24;01;;P;Al Sector Privado                                                               ;0;122820;0
+05;05;01;24;01;100;P;Universidad Católica - Instituto de Estudios Urbanos y Territoriales, Observatorio de Ciudades                                                                                                                                                            ;0;122820;0
+05;05;01;24;03;;P;A Otras Entidades Públicas                                                      ;307345;307345;84357
+05;05;01;24;03;024;P;Capacitación en Desarrollo Regional y Comunal                                                                                                                                                                                                             ;10;10;0
+05;05;01;24;03;409;P;Oficina Revitalización de Barrios e Infraestructura Patrimonial                                                                                                                                                                                           ;220771;220771;56307
+05;05;01;24;03;415;P;Oficina Donación Española                                                                                                                                                                                                                                 ;86564;86564;28050
+05;05;01;24;07;;P;A Organismos Internacionales                                                    ;0;293849;0
+05;05;01;24;07;001;P;A Organización para la Cooperación y Desarrollo Económico                                                                                                                                                                                                 ;0;43849;0
+05;05;01;24;07;003;P;A Banco Interamericano de Desarrollo (BID)                                                                                                                                                                                                                ;0;250000;0
+05;05;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;188696;188696;11047
+05;05;01;29;06;;P;Equipos Informáticos                                                            ;0;6000;5752
+05;05;01;29;07;;P;Programas Informáticos                                                          ;188696;182696;5295
+05;05;01;33;;;P;TRANSFERENCIAS DE CAPITAL                                                       ;2802653;2802653;0
+05;05;01;33;02;;P;Al Gobierno Central                                                             ;2802653;2802653;0
+05;05;01;33;02;016;P;Al Consejo Nacional de la Cultura y las Artes                                                                                                                                                                                                             ;2802653;2802653;0
+05;05;01;34;;;P;SERVICIO DE LA DEUDA                                                            ;42133786;42644308;17768378
+05;05;01;34;02;;P;Amortización Deuda Externa                                                      ;35907430;35907430;14368174
+05;05;01;34;04;;P;Intereses Deuda Externa                                                         ;6113980;6113980;2888682
+05;05;01;34;06;;P;Otros Gastos Financieros Deuda Externa                                          ;111376;111376;0
+05;05;01;34;07;;P;Deuda Flotante                                                                  ;1000;511522;511522
+;;;;;;;RESULTADO;;;-939380

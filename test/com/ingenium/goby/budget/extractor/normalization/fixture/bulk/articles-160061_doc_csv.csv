@@ -1,0 +1,29 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+08;01;01;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;180975;180975;33495
+08;01;01;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;52405;52405;26415
+08;01;01;08;99;;P;Otros                                                                           ;128570;128570;7080
+08;01;01;09;;;P;APORTE FISCAL                                                                   ;10388699;10993629;3754724
+08;01;01;09;01;;P;Libre                                                                           ;9575699;10180629;3003059
+08;01;01;09;03;;P;Servicio de la Deuda Externa                                                    ;813000;813000;751665
+08;01;01;12;;;P;RECUPERACIÓN DE PRÉSTAMOS                                                       ;0;0;98842
+08;01;01;12;10;;P;Ingresos por Percibir                                                           ;0;0;98842
+08;01;01;21;;;P;GASTOS EN PERSONAL                                                              ;6013413;6013413;1873161
+08;01;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;2187530;2187530;664835
+08;01;01;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;780382;780382;108232
+08;01;01;24;01;;P;Al Sector Privado                                                               ;103000;103000;48664
+08;01;01;24;01;004;P;Consejo Superior de la Hípica Nacional                                                                                                                                                                                                                    ;103000;103000;48664
+08;01;01;24;02;;P;Al Gobierno Central                                                             ;609000;609000;0
+08;01;01;24;02;002;P;Secretaría y Administración General y Servicio Exterior - RREE                                                                                                                                                                                            ;609000;609000;0
+08;01;01;24;07;;P;A Organismos Internacionales                                                    ;68382;68382;59568
+08;01;01;24;07;001;P;Grupo de Acción Financiera de Sudamérica contra el Lavado de Activos                                                                                                                                                                                      ;30941;30941;30941
+08;01;01;24;07;002;P;Foro Internacional de Fondos Soberanos                                                                                                                                                                                                                    ;35000;35000;28627
+08;01;01;24;07;007;P;Red Internacional de Educación Financiera - OCDE                                                                                                                                                                                                          ;2441;2441;0
+08;01;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;192668;192668;3697
+08;01;01;29;05;;P;Máquinas y Equipos                                                              ;20600;20600;0
+08;01;01;29;06;;P;Equipos Informáticos                                                            ;78692;78692;3499
+08;01;01;29;07;;P;Programas Informáticos                                                          ;93376;93376;198
+08;01;01;31;;;P;INICIATIVAS DE INVERSIÓN                                                        ;582681;1187611;200737
+08;01;01;31;02;;P;Proyectos                                                                       ;582681;1187611;200737
+08;01;01;34;;;P;SERVICIO DE LA DEUDA                                                            ;813000;813000;751665
+08;01;01;34;02;;P;Amortización Deuda Externa                                                      ;813000;813000;751665
+;;;;;;;RESULTADO;;;284734

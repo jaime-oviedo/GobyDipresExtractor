@@ -1,0 +1,46 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+05;31;01;05;;;P;TRANSFERENCIAS CORRIENTES                                                       ;2101648;2101648;504152
+05;31;01;05;02;;P;Del Gobierno Central                                                            ;2101648;2101648;504152
+05;31;01;05;02;003;P;Dirección General de Movilización Nacional                                                                                                                                                                                                                ;2101648;2101648;504152
+05;31;01;07;;;P;INGRESOS DE OPERACIÓN                                                           ;1799600;1799600;1147678
+05;31;01;07;02;;P;Venta de Servicios                                                              ;1799600;1799600;1147678
+05;31;01;09;;;P;APORTE FISCAL                                                                   ;1031148122;1031148122;324535387
+05;31;01;09;01;;P;Libre                                                                           ;1031148122;1031148122;324535387
+05;31;01;12;;;P;RECUPERACIÓN DE PRÉSTAMOS                                                       ;1097787;1097787;334955
+05;31;01;12;07;;P;Por Anticipos por Cambio de Residencia                                          ;1097787;1097787;334955
+05;31;01;13;;;P;TRANSFERENCIAS PARA GASTOS DE CAPITAL                                           ;1321993;1321993;0
+05;31;01;13;02;;P;Del Gobierno Central                                                            ;1321993;1321993;0
+05;31;01;13;02;010;P;Plan Nacional contra el Narcotráfico - Subsecretaría del Interior                                                                                                                                                                                         ;1321993;1321993;0
+05;31;01;15;;;P;SALDO INICIAL DE CAJA                                                           ;51900;15109676;0
+05;31;01;21;;;P;GASTOS EN PERSONAL                                                              ;839274361;839274361;318376851
+05;31;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;151364731;151364731;22027708
+05;31;01;23;;;P;PRESTACIONES DE SEGURIDAD SOCIAL                                                ;886774;886774;435014
+05;31;01;23;01;;P;Prestaciones Previsionales                                                      ;886774;886774;435014
+05;31;01;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;3989201;3989201;2499430
+05;31;01;24;01;;P;Al Sector Privado                                                               ;257224;257224;12200
+05;31;01;24;01;003;P;Becas                                                                                                                                                                                                                                                     ;10;10;0
+05;31;01;24;01;004;P;Premios y Otros                                                                                                                                                                                                                                           ;257214;257214;12200
+05;31;01;24;02;;P;Al Gobierno Central                                                             ;8672;8672;0
+05;31;01;24;02;117;P;Dirección General de Movilización Nacional                                                                                                                                                                                                                ;8672;8672;0
+05;31;01;24;03;;P;A Otras Entidades Públicas                                                      ;3723305;3723305;2487230
+05;31;01;24;03;029;P;Museo Carabineros de Chile                                                                                                                                                                                                                                ;436777;436777;436777
+05;31;01;24;03;030;P;Dirección de Bienestar                                                                                                                                                                                                                                    ;1236075;1236075;0
+05;31;01;24;03;031;P;Plan Modelo de Integración Carabineros-Comunidad MICC                                                                                                                                                                                                     ;2050453;2050453;2050453
+05;31;01;25;;;P;INTEGROS AL FISCO                                                               ;6909225;6909225;0
+05;31;01;25;01;;P;Impuestos                                                                       ;6909225;6909225;0
+05;31;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;10781516;10781516;409752
+05;31;01;29;03;;P;Vehículos                                                                       ;6277440;6277440;0
+05;31;01;29;04;;P;Mobiliario y Otros                                                              ;230305;230305;107070
+05;31;01;29;05;;P;Máquinas y Equipos                                                              ;2610250;2610250;100824
+05;31;01;29;06;;P;Equipos Informáticos                                                            ;1022236;1022236;146382
+05;31;01;29;07;;P;Programas Informáticos                                                          ;641285;641285;55476
+05;31;01;31;;;P;INICIATIVAS DE INVERSIÓN                                                        ;20952920;20952920;6207761
+05;31;01;31;02;;P;Proyectos                                                                       ;20952920;20952920;6207761
+05;31;01;32;;;P;PRÉSTAMOS                                                                       ;1988429;1988429;646954
+05;31;01;32;07;;P;Por Anticipos por Cambio de Residencia                                          ;1988429;1988429;646954
+05;31;01;33;;;P;TRANSFERENCIAS DE CAPITAL                                                       ;1321993;1321993;0
+05;31;01;33;03;;P;A Otras Entidades Públicas                                                      ;1321993;1321993;0
+05;31;01;33;03;003;P;Plan Nacional contra el Narcotráfico                                                                                                                                                                                                                      ;1321993;1321993;0
+05;31;01;34;;;P;SERVICIO DE LA DEUDA                                                            ;51900;15109676;15109676
+05;31;01;34;07;;P;Deuda Flotante                                                                  ;51900;15109676;15109676
+;;;;;;;RESULTADO;;;-39190974

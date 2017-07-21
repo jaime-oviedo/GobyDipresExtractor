@@ -1,0 +1,33 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+10;09;01;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;164917;164917;196244
+10;09;01;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;155442;155442;179535
+10;09;01;08;02;;P;Multas y Sanciones Pecuniarias                                                  ;1474;1474;10101
+10;09;01;08;99;;P;Otros                                                                           ;8001;8001;6608
+10;09;01;09;;;P;APORTE FISCAL                                                                   ;54846707;54846707;16835000
+10;09;01;09;01;;P;Libre                                                                           ;54846707;54846707;16835000
+10;09;01;10;;;P;VENTA DE ACTIVOS NO FINANCIEROS                                                 ;2673;2673;0
+10;09;01;10;03;;P;Vehículos                                                                       ;2673;2673;0
+10;09;01;15;;;P;SALDO INICIAL DE CAJA                                                           ;0;293226;0
+10;09;01;21;;;P;GASTOS EN PERSONAL                                                              ;27601517;27601517;9226671
+10;09;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;5833549;5833549;1753208
+10;09;01;23;;;P;PRESTACIONES DE SEGURIDAD SOCIAL                                                ;0;0;107836
+10;09;01;23;03;;P;Prestaciones Sociales del Empleador                                             ;0;0;107836
+10;09;01;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;21503352;21503352;6148896
+10;09;01;24;01;;P;Al Sector Privado                                                               ;20852230;20852230;6148829
+10;09;01;24;01;271;P;Aplicación Artículo 20, letra h) Ley N° 19.718                                                                                                                                                                                                            ;1527532;1527532;315156
+10;09;01;24;01;273;P;Auditorías Externas                                                                                                                                                                                                                                       ;509696;509696;23318
+10;09;01;24;01;610;P;Programa de Licitaciones Defensa Penal Pública                                                                                                                                                                                                            ;18815002;18815002;5810355
+10;09;01;24;02;;P;Al Gobierno Central                                                             ;650898;650898;0
+10;09;01;24;02;001;P;Programa de Concesiones Ministerio de Justicia                                                                                                                                                                                                            ;650898;650898;0
+10;09;01;24;07;;P;A Organismos Internacionales                                                    ;224;224;67
+10;09;01;24;07;001;P;Asociación Interamericana de Defensorías Públicas                                                                                                                                                                                                         ;128;128;67
+10;09;01;24;07;002;P;Bloque de Defensores Públicos Oficiales del Mercosur                                                                                                                                                                                                      ;96;96;0
+10;09;01;26;;;P;OTROS GASTOS CORRIENTES                                                         ;0;0;265
+10;09;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;75879;75879;50116
+10;09;01;29;03;;P;Vehículos                                                                       ;16480;16480;16480
+10;09;01;29;04;;P;Mobiliario y Otros                                                              ;37026;37026;17798
+10;09;01;29;05;;P;Máquinas y Equipos                                                              ;6522;6522;5459
+10;09;01;29;06;;P;Equipos Informáticos                                                            ;15851;15851;10379
+10;09;01;34;;;P;SERVICIO DE LA DEUDA                                                            ;0;293226;293226
+10;09;01;34;07;;P;Deuda Flotante                                                                  ;0;293226;293226
+;;;;;;;RESULTADO;;;-548974

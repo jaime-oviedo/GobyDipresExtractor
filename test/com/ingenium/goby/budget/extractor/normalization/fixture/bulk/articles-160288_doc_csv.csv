@@ -1,0 +1,16 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+27;02;03;09;;;P;APORTE FISCAL                                                                   ;14074181;14074181;7224211
+27;02;03;09;01;;P;Libre                                                                           ;14074181;14074181;7224211
+27;02;03;15;;;P;SALDO INICIAL DE CAJA                                                           ;500;500;0
+27;02;03;21;;;P;GASTOS EN PERSONAL                                                              ;56377;56377;14981
+27;02;03;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;267730;267730;25452
+27;02;03;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;13750074;13750074;6642924
+27;02;03;24;01;;P;Al Sector Privado                                                               ;12783934;12783934;6347876
+27;02;03;24;01;007;P;Atención, Protección y Reparación Integral de Violencias contra las Mujeres                                                                                                                                                                               ;11522889;11522889;5813523
+27;02;03;24;01;008;P;Prevención Integral de Violencias contra las Mujeres                                                                                                                                                                                                      ;1261045;1261045;534353
+27;02;03;24;02;;P;Al Gobierno Central                                                             ;966140;966140;295048
+27;02;03;24;02;001;P;Servicio Nacional de la Mujer y la Equidad de Género - Programa 01                                                                                                                                                                                        ;885150;885150;295048
+27;02;03;24;02;002;P;Policia de Investigaciones de Chile                                                                                                                                                                                                                       ;80990;80990;0
+27;02;03;34;;;P;SERVICIO DE LA DEUDA                                                            ;500;500;0
+27;02;03;34;07;;P;Deuda Flotante                                                                  ;500;500;0
+;;;;;;;RESULTADO;;;540854

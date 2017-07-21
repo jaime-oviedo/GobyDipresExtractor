@@ -1,0 +1,28 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+09;04;01;05;;;P;TRANSFERENCIAS CORRIENTES                                                       ;30288203;30288203;10000000
+09;04;01;05;02;;P;Del Gobierno Central                                                            ;30288203;30288203;10000000
+09;04;01;05;02;007;P;Ley N°20595 y Sistema Chile Solidario                                                                                                                                                                                                                     ;2316245;2316245;0
+09;04;01;05;02;080;P;Fondo para la Educación, Ley N°20.630                                                                                                                                                                                                                     ;27971958;27971958;10000000
+09;04;01;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;2138;2138;7993
+09;04;01;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;1069;1069;7318
+09;04;01;08;99;;P;Otros                                                                           ;1069;1069;675
+09;04;01;09;;;P;APORTE FISCAL                                                                   ;240736180;240736180;87115000
+09;04;01;09;01;;P;Libre                                                                           ;240736180;240736180;87115000
+09;04;01;15;;;P;SALDO INICIAL DE CAJA                                                           ;1000;45928;0
+09;04;01;21;;;P;GASTOS EN PERSONAL                                                              ;2122521;2122521;625838
+09;04;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;558592;558592;184950
+09;04;01;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;262262755;262262755;91003057
+09;04;01;24;01;;P;Al Sector Privado                                                               ;262262755;262262755;91003057
+09;04;01;24;01;024;P;Convenio Integra                                                                                                                                                                                                                                          ;262262755;262262755;91003057
+09;04;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;63036;63036;0
+09;04;01;29;04;;P;Mobiliario y Otros                                                              ;26265;26265;0
+09;04;01;29;06;;P;Equipos Informáticos                                                            ;36771;36771;0
+09;04;01;33;;;P;TRANSFERENCIAS DE CAPITAL                                                       ;6018617;6018617;1413432
+09;04;01;33;01;;P;Al Sector Privado                                                               ;6018617;6018617;1413432
+09;04;01;33;01;024;P;Convenio INTEGRA                                                                                                                                                                                                                                          ;6018617;6018617;1413432
+09;04;01;34;;;P;SERVICIO DE LA DEUDA                                                            ;1000;45928;45898
+09;04;01;34;07;;P;Deuda Flotante                                                                  ;1000;45928;45898
+09;04;01;34;07;099;P;Deuda Flotante                                                                                                                                                                                                                                            ;1000;45928;0
+09;04;01;34;07;999;P;Otros                                                                                                                                                                                                                                                     ;0;0;45898
+09;04;01;35;;;P;SALDO FINAL DE CAJA                                                             ;1000;1000;0
+;;;;;;;RESULTADO;;;3849818

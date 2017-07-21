@@ -1,0 +1,38 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+16;10;01;05;;;P;TRANSFERENCIAS CORRIENTES                                                       ;14333586;14333586;0
+16;10;01;05;02;;P;Del Gobierno Central                                                            ;14333586;14333586;0
+16;10;01;05;02;002;P;Sistema de Protección Integral a la Infancia                                                                                                                                                                                                              ;14333586;14333586;0
+16;10;01;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;62412;62412;741883
+16;10;01;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;33597;33597;62506
+16;10;01;08;02;;P;Multas y Sanciones Pecuniarias                                                  ;0;0;406071
+16;10;01;08;99;;P;Otros                                                                           ;28815;28815;273306
+16;10;01;09;;;P;APORTE FISCAL                                                                   ;79499652;79499652;37152125
+16;10;01;09;01;;P;Libre                                                                           ;79499652;79499652;37152125
+16;10;01;12;;;P;RECUPERACIÓN DE PRÉSTAMOS                                                       ;0;0;188403
+16;10;01;13;;;P;TRANSFERENCIAS PARA GASTOS DE CAPITAL                                           ;27202406;27202406;5890081
+16;10;01;13;02;;P;Del Gobierno Central                                                            ;27202406;27202406;5890081
+16;10;01;13;02;001;P;IVA Concesiones Hospitalarias                                                                                                                                                                                                                             ;27202406;27202406;5890081
+16;10;01;15;;;P;SALDO INICIAL DE CAJA                                                           ;1000;1000;0
+16;10;01;21;;;P;GASTOS EN PERSONAL                                                              ;12234421;12234421;4432903
+16;10;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;17754437;17754437;2605342
+16;10;01;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;27064780;27064780;4677696
+16;10;01;24;01;;P;Al Sector Privado                                                               ;14333586;14333586;4677696
+16;10;01;24;01;011;P;Programa de Apoyo al Recién Nacido                                                                                                                                                                                                                        ;14333586;14333586;4677696
+16;10;01;24;03;;P;A Otras Entidades Públicas                                                      ;12731194;12731194;0
+16;10;01;24;03;396;P;Programa Campaña de Invierno                                                                                                                                                                                                                              ;2061902;2061902;0
+16;10;01;24;03;400;P;Atención Primaria, Ley N° 20.645 Trato Usuario                                                                                                                                                                                                            ;10669292;10669292;0
+16;10;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;1426689;1426689;3182
+16;10;01;29;04;;P;Mobiliario y Otros                                                              ;20648;20648;0
+16;10;01;29;05;;P;Máquinas y Equipos                                                              ;8265;8265;1597
+16;10;01;29;06;;P;Equipos Informáticos                                                            ;29982;29982;0
+16;10;01;29;07;;P;Programas Informáticos                                                          ;1367794;1367794;1585
+16;10;01;33;;;P;TRANSFERENCIAS DE CAPITAL                                                       ;62616729;62616729;35275920
+16;10;01;33;01;;P;Al Sector Privado                                                               ;57126829;57126829;35275920
+16;10;01;33;01;003;P;Reintegro Crédito IVA Concesiones                                                                                                                                                                                                                         ;27202406;27202406;5890081
+16;10;01;33;01;004;P;Subsidio Fijo a la Construcción                                                                                                                                                                                                                           ;29924423;29924423;29385839
+16;10;01;33;03;;P;A Otras Entidades Públicas                                                      ;5489900;5489900;0
+16;10;01;33;03;001;P;Hospital Clínico Universidad de Chile                                                                                                                                                                                                                     ;5489900;5489900;0
+16;10;01;34;;;P;SERVICIO DE LA DEUDA                                                            ;1000;1000;2782389
+16;10;01;34;07;;P;Deuda Flotante                                                                  ;1000;1000;2782389
+16;10;01;35;;;P;SALDO FINAL DE CAJA                                                             ;1000;1000;0
+;;;;;;;RESULTADO;;;-5804940

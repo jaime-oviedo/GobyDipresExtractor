@@ -1,0 +1,32 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+08;08;01;05;;;P;TRANSFERENCIAS CORRIENTES                                                       ;0;55418;0
+08;08;01;05;01;;P;Del Sector Privado                                                              ;0;55418;0
+08;08;01;05;01;001;P;Administradora del Fondo para Bonificación por Retiro                                                                                                                                                                                                     ;0;55418;0
+08;08;01;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;345259;345259;74691
+08;08;01;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;322599;322599;68343
+08;08;01;08;02;;P;Multas y Sanciones Pecuniarias                                                  ;10300;10300;1515
+08;08;01;08;99;;P;Otros                                                                           ;12360;12360;4833
+08;08;01;09;;;P;APORTE FISCAL                                                                   ;16227055;16227055;5458428
+08;08;01;09;01;;P;Libre                                                                           ;16058501;16058501;5289874
+08;08;01;09;02;;P;Servicio de la Deuda Interna                                                    ;168554;168554;168554
+08;08;01;12;;;P;RECUPERACIÓN DE PRÉSTAMOS                                                       ;0;0;60616
+08;08;01;15;;;P;SALDO INICIAL DE CAJA                                                           ;0;86178;0
+08;08;01;21;;;P;GASTOS EN PERSONAL                                                              ;13654440;13608258;4523208
+08;08;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;2566340;2562137;552455
+08;08;01;23;;;P;PRESTACIONES DE SEGURIDAD SOCIAL                                                ;0;187778;0
+08;08;01;23;03;;P;Prestaciones Sociales del Empleador                                             ;0;187778;0
+08;08;01;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;34454;38657;15976
+08;08;01;24;01;;P;Al Sector Privado                                                               ;1389;1298;1297
+08;08;01;24;01;006;P;Asociación de Supervisores de Seguros de América Latina                                                                                                                                                                                                   ;1389;1298;1297
+08;08;01;24;07;;P;A Organismos Internacionales                                                    ;33065;37359;14679
+08;08;01;24;07;001;P;Organización Internacional de Comisiones de Valores                                                                                                                                                                                                       ;16391;14679;14679
+08;08;01;24;07;002;P;Asociación Internacional de Supervisores de Seguros                                                                                                                                                                                                       ;16674;22680;0
+08;08;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;148526;148526;6013
+08;08;01;29;04;;P;Mobiliario y Otros                                                              ;14420;14420;5682
+08;08;01;29;05;;P;Máquinas y Equipos                                                              ;41200;41200;331
+08;08;01;29;06;;P;Equipos Informáticos                                                            ;20806;20806;0
+08;08;01;29;07;;P;Programas Informáticos                                                          ;72100;72100;0
+08;08;01;34;;;P;SERVICIO DE LA DEUDA                                                            ;168554;168554;166284
+08;08;01;34;01;;P;Amortización Deuda Interna                                                      ;97145;99987;99986
+08;08;01;34;03;;P;Intereses Deuda Interna                                                         ;71409;68567;66298
+;;;;;;;RESULTADO;;;329799

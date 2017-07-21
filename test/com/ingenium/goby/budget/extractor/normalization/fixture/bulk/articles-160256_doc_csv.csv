@@ -1,0 +1,33 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+20;01;01;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;214122;214122;120814
+20;01;01;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;169688;169688;94371
+20;01;01;08;99;;P;Otros                                                                           ;44434;44434;26443
+20;01;01;09;;;P;APORTE FISCAL                                                                   ;20400796;20400796;5374743
+20;01;01;09;01;;P;Libre                                                                           ;20052409;20052409;5204500
+20;01;01;09;03;;P;Servicio de la Deuda Externa                                                    ;348387;348387;170243
+20;01;01;10;;;P;VENTA DE ACTIVOS NO FINANCIEROS                                                 ;1545;1545;0
+20;01;01;10;03;;P;Vehículos                                                                       ;1030;1030;0
+20;01;01;10;04;;P;Mobiliario y Otros                                                              ;515;515;0
+20;01;01;15;;;P;SALDO INICIAL DE CAJA                                                           ;1000;1000;0
+20;01;01;21;;;P;GASTOS EN PERSONAL                                                              ;8947964;8947964;3030565
+20;01;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;4534015;4534015;713672
+20;01;01;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;6504543;6504543;1063363
+20;01;01;24;03;;P;A Otras Entidades Públicas                                                      ;6504543;6504543;1063363
+20;01;01;24;03;313;P;División de Organizaciones Sociales                                                                                                                                                                                                                       ;1252518;1252518;321055
+20;01;01;24;03;314;P;Secretaría de Comunicaciones                                                                                                                                                                                                                              ;1030000;1030000;361148
+20;01;01;24;03;315;P;Seguimiento de Políticas Públicas y Gestión Institucional                                                                                                                                                                                                 ;946590;946590;283369
+20;01;01;24;03;316;P;Fondo de Fomento de Medios de Comunicación Regionales, Provinciales y Comunales                                                                                                                                                                           ;1571870;1571870;28734
+20;01;01;24;03;318;P;Fondo de Fortalecimiento de Organizaciones y Asociaciones de Interés Público (Ley N° 20.500)                                                                                                                                                              ;1427060;1427060;17187
+20;01;01;24;03;319;P;Observatorio de Participación Ciudadana y No Discriminación                                                                                                                                                                                               ;276505;276505;51870
+20;01;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;278139;278139;82389
+20;01;01;29;03;;P;Vehículos                                                                       ;72100;72100;71000
+20;01;01;29;04;;P;Mobiliario y Otros                                                              ;18722;18722;1090
+20;01;01;29;05;;P;Máquinas y Equipos                                                              ;20806;20806;0
+20;01;01;29;06;;P;Equipos Informáticos                                                            ;109179;109179;1883
+20;01;01;29;07;;P;Programas Informáticos                                                          ;57332;57332;8416
+20;01;01;34;;;P;SERVICIO DE LA DEUDA                                                            ;349387;349387;170243
+20;01;01;34;02;;P;Amortización Deuda Externa                                                      ;235000;235000;116984
+20;01;01;34;04;;P;Intereses Deuda Externa                                                         ;113387;113387;53259
+20;01;01;34;07;;P;Deuda Flotante                                                                  ;1000;1000;0
+20;01;01;35;;;P;SALDO FINAL DE CAJA                                                             ;3415;3415;0
+;;;;;;;RESULTADO;;;435325

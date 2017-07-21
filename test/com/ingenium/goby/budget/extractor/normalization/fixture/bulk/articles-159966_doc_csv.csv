@@ -1,0 +1,32 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+11;01;01;05;;;D;TRANSFERENCIAS CORRIENTES                                                       ;10579;10731;10731
+11;01;01;05;02;;D;Del Gobierno Central                                                            ;10579;10731;10731
+11;01;01;05;02;015;D;Fondo para Misiones de Paz-Estado Mayor Conjunto                                                                                                                                                                                                          ;10579;10731;10731
+11;01;01;08;;;D;OTROS INGRESOS CORRIENTES                                                       ;0;0;49
+11;01;01;08;99;;D;Otros                                                                           ;0;0;49
+11;01;01;09;;;D;APORTE FISCAL                                                                   ;35647;35647;4348
+11;01;01;09;01;;D;Libre                                                                           ;35647;35647;4348
+11;01;01;11;;;D;VENTA DE ACTIVOS FINANCIEROS                                                    ;-8471;-8471;0
+11;01;01;11;03;;D;Operaciones de Cambio                                                           ;-8471;-8471;0
+11;01;01;12;;;D;RECUPERACIÓN DE PRÉSTAMOS                                                       ;946;946;785
+11;01;01;12;07;;D;Por Anticipos por Cambio de Residencia                                          ;946;946;365
+11;01;01;12;10;;D;Ingresos por Percibir                                                           ;0;0;420
+11;01;01;21;;;D;GASTOS EN PERSONAL                                                              ;26120;26185;9437
+11;01;01;22;;;D;BIENES Y SERVICIOS DE CONSUMO                                                   ;10683;10770;2053
+11;01;01;23;;;D;PRESTACIONES DE SEGURIDAD SOCIAL                                                ;148;148;151
+11;01;01;23;01;;D;Prestaciones Previsionales                                                      ;148;148;151
+11;01;01;24;;;D;TRANSFERENCIAS CORRIENTES                                                       ;671;671;561
+11;01;01;24;01;;D;Al Sector Privado                                                               ;365;365;255
+11;01;01;24;01;008;D;Bienestar Social                                                                                                                                                                                                                                          ;365;365;255
+11;01;01;24;04;;D;A Empresas Públicas no Financieras                                              ;306;306;306
+11;01;01;24;04;229;D;Fábricas y Maestranzas del Ejército                                                                                                                                                                                                                       ;306;306;306
+11;01;01;29;;;D;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;133;133;3
+11;01;01;29;04;;D;Mobiliario y Otros                                                              ;14;14;3
+11;01;01;29;05;;D;Máquinas y Equipos                                                              ;11;11;0
+11;01;01;29;06;;D;Equipos Informáticos                                                            ;106;106;0
+11;01;01;29;07;;D;Programas Informáticos                                                          ;2;2;0
+11;01;01;32;;;D;PRÉSTAMOS                                                                       ;946;946;208
+11;01;01;32;07;;D;Por Anticipos por Cambio de Residencia                                          ;946;946;208
+11;01;01;34;;;D;SERVICIO DE LA DEUDA                                                            ;0;0;197
+11;01;01;34;07;;D;Deuda Flotante                                                                  ;0;0;197
+;;;;;;;RESULTADO;;;3303

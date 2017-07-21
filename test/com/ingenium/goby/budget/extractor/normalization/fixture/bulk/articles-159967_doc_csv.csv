@@ -1,0 +1,23 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+11;05;01;05;;;D;TRANSFERENCIAS CORRIENTES                                                       ;5304;7353;5304
+11;05;01;05;02;;D;Del Gobierno Central                                                            ;5304;7353;5304
+11;05;01;05;02;015;D;Fondo para Misiones de Paz-Estado Mayor Conjunto                                                                                                                                                                                                          ;5304;7353;5304
+11;05;01;08;;;D;OTROS INGRESOS CORRIENTES                                                       ;8624;8624;3696
+11;05;01;08;99;;D;Otros                                                                           ;8624;8624;3696
+11;05;01;09;;;D;APORTE FISCAL                                                                   ;66095;66095;41877
+11;05;01;09;01;;D;Libre                                                                           ;66095;66095;41877
+11;05;01;12;;;D;RECUPERACIÓN DE PRÉSTAMOS                                                       ;1100;1100;203
+11;05;01;12;07;;D;Por Anticipos por Cambio de Residencia                                          ;1100;1100;203
+11;05;01;15;;;D;SALDO INICIAL DE CAJA                                                           ;0;459;0
+11;05;01;21;;;D;GASTOS EN PERSONAL                                                              ;23778;24065;8038
+11;05;01;22;;;D;BIENES Y SERVICIOS DE CONSUMO                                                   ;54692;56454;23554
+11;05;01;29;;;D;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;1553;1553;208
+11;05;01;29;04;;D;Mobiliario y Otros                                                              ;13;13;8
+11;05;01;29;05;;D;Máquinas y Equipos                                                              ;1495;1495;174
+11;05;01;29;06;;D;Equipos Informáticos                                                            ;17;17;17
+11;05;01;29;07;;D;Programas Informáticos                                                          ;28;28;9
+11;05;01;32;;;D;PRÉSTAMOS                                                                       ;1100;1100;148
+11;05;01;32;07;;D;Por Anticipos por Cambio de Residencia                                          ;1100;1100;148
+11;05;01;34;;;D;SERVICIO DE LA DEUDA                                                            ;0;459;459
+11;05;01;34;07;;D;Deuda Flotante                                                                  ;0;459;459
+;;;;;;;RESULTADO;;;18673

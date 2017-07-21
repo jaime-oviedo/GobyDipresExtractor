@@ -1,0 +1,24 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+09;01;03;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;11903;11903;61798
+09;01;03;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;5952;5952;37
+09;01;03;08;99;;P;Otros                                                                           ;5951;5951;61761
+09;01;03;09;;;P;APORTE FISCAL                                                                   ;30204097;31225371;7559211
+09;01;03;09;01;;P;Libre                                                                           ;30204097;31225371;7559211
+09;01;03;15;;;P;SALDO INICIAL DE CAJA                                                           ;2000;2000;0
+09;01;03;21;;;P;GASTOS EN PERSONAL                                                              ;5160169;5160169;1514220
+09;01;03;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;846661;846661;128480
+09;01;03;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;24208169;24208169;2577923
+09;01;03;24;03;;P;A Otras Entidades Públicas                                                      ;24208169;24208169;2577923
+09;01;03;24;03;385;P;Programa de Educación Intercultural Bilingüe                                                                                                                                                                                                              ;2478180;2478180;51858
+09;01;03;24;03;620;P;Alianzas para el Mejoramiento de la Calidad de la Educación y Fomento de la Participación                                                                                                                                                                 ;1236000;2758000;0
+09;01;03;24;03;621;P;Programa Educación Técnico Profesional                                                                                                                                                                                                                    ;3146361;1624361;140993
+09;01;03;24;03;901;P;Asesoría y Apoyo a la Educación Escolar                                                                                                                                                                                                                   ;3605000;3605000;84392
+09;01;03;24;03;902;P;Educación de Adultos y Reinserción Escolar                                                                                                                                                                                                                ;9727316;9727316;2233828
+09;01;03;24;03;903;P;Transversalidad Educativa, Convivencia Escolar y Prevención del Consumo de Drogas                                                                                                                                                                         ;2335286;2335286;66852
+09;01;03;24;03;904;P;Transporte Escolar Rural                                                                                                                                                                                                                                  ;1517004;1517004;0
+09;01;03;24;03;905;P;Programa de Acceso a la Educación superior                                                                                                                                                                                                                ;163022;163022;0
+09;01;03;26;;;P;OTROS GASTOS CORRIENTES                                                         ;1000;1000;0
+09;01;03;34;;;P;SERVICIO DE LA DEUDA                                                            ;1001;1022275;1022275
+09;01;03;34;07;;P;Deuda Flotante                                                                  ;1001;1022275;1022275
+09;01;03;35;;;P;SALDO FINAL DE CAJA                                                             ;1000;1000;0
+;;;;;;;RESULTADO;;;2378111

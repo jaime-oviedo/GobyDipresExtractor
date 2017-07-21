@@ -1,0 +1,45 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+12;02;04;06;;;P;RENTAS DE LA PROPIEDAD                                                          ;103000;103000;42436
+12;02;04;07;;;P;INGRESOS DE OPERACIÓN                                                           ;7139960;7139960;2036259
+12;02;04;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;3090000;3090000;2733535
+12;02;04;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;309000;309000;348886
+12;02;04;08;02;;P;Multas y Sanciones Pecuniarias                                                  ;2781000;2781000;1120972
+12;02;04;08;99;;P;Otros                                                                           ;0;0;1263677
+12;02;04;09;;;P;APORTE FISCAL                                                                   ;1074386796;1074386796;148713923
+12;02;04;09;01;;P;Libre                                                                           ;1074386796;1074386796;148713923
+12;02;04;10;;;P;VENTA DE ACTIVOS NO FINANCIEROS                                                 ;308485;308485;63885
+12;02;04;10;03;;P;Vehículos                                                                       ;129780;129780;30650
+12;02;04;10;04;;P;Mobiliario y Otros                                                              ;0;0;1185
+12;02;04;10;05;;P;Máquinas y Equipos                                                              ;178705;178705;32050
+12;02;04;12;;;P;RECUPERACIÓN DE PRÉSTAMOS                                                       ;0;0;1356278
+12;02;04;12;10;;P;Ingresos por Percibir                                                           ;0;0;1356278
+12;02;04;13;;;P;TRANSFERENCIAS PARA GASTOS DE CAPITAL                                           ;0;0;378707
+12;02;04;13;01;;P;Del Sector Privado                                                              ;0;0;378707
+12;02;04;13;01;004;P;Aportes acogidos al Artículo 4° de la Ley N° 19.896                                                                                                                                                                                                       ;0;0;378707
+12;02;04;15;;;P;SALDO INICIAL DE CAJA                                                           ;100000;100000;0
+12;02;04;21;;;P;GASTOS EN PERSONAL                                                              ;91193347;91193347;30695138
+12;02;04;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;7884239;7884239;2478904
+12;02;04;23;;;P;PRESTACIONES DE SEGURIDAD SOCIAL                                                ;723060;723060;2897715
+12;02;04;23;01;;P;Prestaciones Previsionales                                                      ;723060;723060;452259
+12;02;04;23;03;;P;Prestaciones Sociales del Empleador                                             ;0;0;2445456
+12;02;04;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;908769;908769;0
+12;02;04;24;01;;P;Al Sector Privado                                                               ;908769;908769;0
+12;02;04;24;01;001;P;Compensación Tránsito con Sobrepeso                                                                                                                                                                                                                       ;908769;908769;0
+12;02;04;26;;;P;OTROS GASTOS CORRIENTES                                                         ;0;0;897928
+12;02;04;26;02;;P;Compensaciones por Daños a Terceros y/o a la Propiedad                          ;0;0;897928
+12;02;04;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;1779405;2057405;123120
+12;02;04;29;03;;P;Vehículos                                                                       ;105575;105575;1382
+12;02;04;29;04;;P;Mobiliario y Otros                                                              ;10300;10300;263
+12;02;04;29;05;;P;Máquinas y Equipos                                                              ;1236000;1514000;117066
+12;02;04;29;06;;P;Equipos Informáticos                                                            ;92124;92124;4409
+12;02;04;29;07;;P;Programas Informáticos                                                          ;335406;335406;0
+12;02;04;31;;;P;INICIATIVAS DE INVERSIÓN                                                        ;982538421;982260421;252856020
+12;02;04;31;01;;P;Estudios Básicos                                                                ;2761192;2761192;685737
+12;02;04;31;02;;P;Proyectos                                                                       ;979777229;979499229;252170283
+12;02;04;32;;;P;PRÉSTAMOS                                                                       ;0;0;-463904
+12;02;04;32;06;;P;Por Anticipos a Contratistas                                                    ;0;0;-463904
+12;02;04;32;06;002;P;Recuperacion  por Anticipos a Contratistas                                                                                                                                                                                                                ;0;0;-463904
+12;02;04;34;;;P;SERVICIO DE LA DEUDA                                                            ;1000;1000;108481230
+12;02;04;34;07;;P;Deuda Flotante                                                                  ;1000;1000;108481230
+12;02;04;35;;;P;SALDO FINAL DE CAJA                                                             ;100000;100000;0
+;;;;;;;RESULTADO;;;-242641128

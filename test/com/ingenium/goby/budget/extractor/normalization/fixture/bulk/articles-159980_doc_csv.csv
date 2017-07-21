@@ -1,0 +1,29 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+02;03;01;07;;;P;INGRESOS DE OPERACIÓN                                                           ;5032;5032;136
+02;03;01;07;02;;P;Venta de Servicios                                                              ;5032;5032;136
+02;03;01;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;76098;76098;67955
+02;03;01;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;76098;76098;67590
+02;03;01;08;99;;P;Otros                                                                           ;0;0;365
+02;03;01;09;;;P;APORTE FISCAL                                                                   ;12101973;12101973;3353010
+02;03;01;09;01;;P;Libre                                                                           ;11911369;11911369;3260362
+02;03;01;09;03;;P;Servicio de la Deuda Externa                                                    ;190604;190604;92648
+02;03;01;12;;;P;RECUPERACIÓN DE PRÉSTAMOS                                                       ;113;113;0
+02;03;01;12;10;;P;Ingresos por Percibir                                                           ;113;113;0
+02;03;01;21;;;P;GASTOS EN PERSONAL                                                              ;9740826;9740826;3018696
+02;03;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;1769001;1769001;409271
+02;03;01;23;;;P;PRESTACIONES DE SEGURIDAD SOCIAL                                                ;86680;86680;0
+02;03;01;23;01;;P;Prestaciones Previsionales                                                      ;86680;86680;0
+02;03;01;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;128775;128775;10812
+02;03;01;24;03;;P;A Otras Entidades Públicas                                                      ;128775;128775;10812
+02;03;01;24;03;001;P;Programa Formación Cívica                                                                                                                                                                                                                                 ;128775;128775;10812
+02;03;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;267330;267330;25811
+02;03;01;29;02;;P;Edificios                                                                       ;37869;37869;12388
+02;03;01;29;04;;P;Mobiliario y Otros                                                              ;10407;10407;3411
+02;03;01;29;05;;P;Máquinas y Equipos                                                              ;63393;63393;1554
+02;03;01;29;06;;P;Equipos Informáticos                                                            ;85133;85133;566
+02;03;01;29;07;;P;Programas Informáticos                                                          ;70528;70528;7892
+02;03;01;34;;;P;SERVICIO DE LA DEUDA                                                            ;190604;190604;116101
+02;03;01;34;02;;P;Amortización Deuda Externa                                                      ;166419;166419;78942
+02;03;01;34;04;;P;Intereses Deuda Externa                                                         ;24185;24185;13706
+02;03;01;34;07;;P;Deuda Flotante                                                                  ;0;0;23453
+;;;;;;;RESULTADO;;;-159590

@@ -68,8 +68,8 @@ public class BudgetExecutionCrawler {
   public BudgetExecutionCrawler() {
     // begin-user-code
     super();
-    executionFilesList = new ArrayList<>();
-    budgetExecutionFilesBaseUrl = null;
+    this.executionFilesList = new ArrayList<>();
+    this.budgetExecutionFilesBaseUrl = null;
     // end-user-code
   }
   
@@ -81,7 +81,7 @@ public class BudgetExecutionCrawler {
   * @return
   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_XC2XsmCtEeeyf97XDVaBvw"
   */
-  ExecutionPeriod determineExecutionPeriod(HtmlElement element) {
+  ExecutionPeriod determineExecutionPeriod(final HtmlElement element) {
     // begin-user-code
     final String divText = element.getTextContent();
     ExecutionPeriod executionPeriod = ExecutionPeriod.JANUARY;
@@ -136,8 +136,8 @@ public class BudgetExecutionCrawler {
   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_mVqTUWAREeefXZqJOyM9_Q"
   */
   List<String> extractExecutionFilesList(
-      HtmlPage programLevelBudgetExecutionYearPage,
-      ExecutionPeriod executionPeriod) {
+      final HtmlPage programLevelBudgetExecutionYearPage,
+      final ExecutionPeriod executionPeriod) {
     // begin-user-code
     
     // Get all divs
@@ -175,23 +175,19 @@ public class BudgetExecutionCrawler {
             "The structure of a budget execution html div section is not as expected, the maximum execution period may be extracted incorrectly");
         continue;
       }
-      final ExecutionPeriod recuadroPeriod = determineExecutionPeriod(innerDiv);
+      final ExecutionPeriod recuadroPeriod = this
+          .determineExecutionPeriod(innerDiv);
       if (recuadroPeriod == executionPeriod) {
         matchingDivs.add(recuadroDivTag);
       }
     }
     
     final List<String> executionFiles = new ArrayList<>(300);
-    int count = 0;
     for (final DomElement matchingDiv : matchingDivs) {
-      if (count > (matchingDivs.size() - 3)) {
-        System.out.println("Delete me");
-      }
-      final String csvFileUrl = getCsvFileUrl(matchingDiv);
+      final String csvFileUrl = this.getCsvFileUrl(matchingDiv);
       if (csvFileUrl != null) {
         executionFiles.add(csvFileUrl);
       }
-      count++;
     }
     
     return executionFiles;
@@ -206,8 +202,8 @@ public class BudgetExecutionCrawler {
   * @return
   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_pCoWAF5HEeeguv5GRmiMJw"
   */
-  public List<String> crawlAndFetchExecutionFilesList(int year,
-      ExecutionPeriod executionPeriod) {
+  public List<String> crawlAndFetchExecutionFilesList(final int year,
+      final ExecutionPeriod executionPeriod) {
     // begin-user-code
     final WebClient webClient = new WebClient();
     List<String> executionFiles = new ArrayList<>(300);
@@ -216,7 +212,7 @@ public class BudgetExecutionCrawler {
     // Get the main page
     HtmlPage mainPage = null;
     try {
-      mainPage = webClient.getPage(budgetDirectorateWebsiteUrl);
+      mainPage = webClient.getPage(this.budgetDirectorateWebsiteUrl);
       
       // Travel to budget page
       final String budgetPageURL = new StringBuffer("Presupuesto ")
@@ -268,14 +264,14 @@ public class BudgetExecutionCrawler {
       programLevelBudgetExecutionYearPage = anchor.click();
       
       if (programLevelBudgetExecutionYearPage != null) {
-        String baseUri = programLevelBudgetExecutionYearPage.getBaseURI();
-        String fileName = FilenameUtils.getName(baseUri);
-        budgetExecutionFilesBaseUrl = StringUtils
+        final String baseUri = programLevelBudgetExecutionYearPage.getBaseURI();
+        final String fileName = FilenameUtils.getName(baseUri);
+        this.budgetExecutionFilesBaseUrl = StringUtils
             .chop(baseUri.replace(fileName, ""));
         
         // Everything went OK, so now we extract the file list
         
-        executionFiles = extractExecutionFilesList(
+        executionFiles = this.extractExecutionFilesList(
             programLevelBudgetExecutionYearPage, executionPeriod);
       }
       
@@ -299,7 +295,7 @@ public class BudgetExecutionCrawler {
   */
   public String getBudgetExecutionFilesBaseUrl() {
     // begin-user-code
-    return budgetExecutionFilesBaseUrl;
+    return this.budgetExecutionFilesBaseUrl;
     // end-user-code
   }
   
@@ -310,7 +306,7 @@ public class BudgetExecutionCrawler {
   * @return
   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_XC3l0WCtEeeyf97XDVaBvw"
   */
-  private String getCsvFileUrl(DomElement recuadroDivTag) {
+  private String getCsvFileUrl(final DomElement recuadroDivTag) {
     // begin-user-code
     if (recuadroDivTag == null) {
       return "";
@@ -344,7 +340,7 @@ public class BudgetExecutionCrawler {
   */
   public List<String> getExecutionFilesList() {
     // begin-user-code
-    return executionFilesList;
+    return this.executionFilesList;
     // end-user-code
   }
   
@@ -354,9 +350,9 @@ public class BudgetExecutionCrawler {
   * @param url
   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_OAjiQGElEeeMhLKRNTgRlA"
   */
-  public void setBudgetExecutionFilesBaseUrl(String url) {
+  public void setBudgetExecutionFilesBaseUrl(final String url) {
     // begin-user-code
-    budgetExecutionFilesBaseUrl = url;
+    this.budgetExecutionFilesBaseUrl = url;
     // end-user-code
   }
   
@@ -366,9 +362,9 @@ public class BudgetExecutionCrawler {
   * @param list
   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_VbBvwGElEeeMhLKRNTgRlA"
   */
-  public void setExecutionFilesList(List<String> list) {
+  public void setExecutionFilesList(final List<String> list) {
     // begin-user-code
-    executionFilesList = list;
+    this.executionFilesList = list;
     
     // end-user-code
   }

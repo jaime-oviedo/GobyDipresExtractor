@@ -1,0 +1,17 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+07;21;01;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;20;20;4826
+07;21;01;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;10;10;4783
+07;21;01;08;99;;P;Otros                                                                           ;10;10;43
+07;21;01;09;;;P;APORTE FISCAL                                                                   ;4853548;4853548;1129318
+07;21;01;09;01;;P;Libre                                                                           ;4853548;4853548;1129318
+07;21;01;15;;;P;SALDO INICIAL DE CAJA                                                           ;10;10;0
+07;21;01;21;;;P;GASTOS EN PERSONAL                                                              ;2890807;2890807;726200
+07;21;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;1323612;1323612;378184
+07;21;01;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;622035;622035;0
+07;21;01;24;02;;P;Al Gobierno Central                                                             ;622035;622035;0
+07;21;01;24;02;002;P;Programa Promoción de Exportaciones - DIRECON                                                                                                                                                                                                             ;622035;622035;0
+07;21;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;17124;17124;1115
+07;21;01;29;04;;P;Mobiliario y Otros                                                              ;620;620;0
+07;21;01;29;06;;P;Equipos Informáticos                                                            ;1957;1957;0
+07;21;01;29;07;;P;Programas Informáticos                                                          ;14547;14547;1115
+;;;;;;;RESULTADO;;;28645

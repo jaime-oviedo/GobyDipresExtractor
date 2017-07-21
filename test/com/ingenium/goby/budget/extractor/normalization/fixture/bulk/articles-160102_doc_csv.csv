@@ -1,0 +1,64 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+09;16;01;05;;;P;TRANSFERENCIAS CORRIENTES                                                       ;0;33935;0
+09;16;01;05;01;;P;Del Sector Privado                                                              ;0;33935;0
+09;16;01;05;01;003;P;Administradora del Fondo para Bonificación por Retiro                                                                                                                                                                                                     ;0;33935;0
+09;16;01;07;;;P;INGRESOS DE OPERACIÓN                                                           ;12431;12431;0
+09;16;01;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;398944;398944;348070
+09;16;01;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;171521;171521;213262
+09;16;01;08;99;;P;Otros                                                                           ;227423;227423;134808
+09;16;01;09;;;P;APORTE FISCAL                                                                   ;78887375;78887375;24708694
+09;16;01;09;01;;P;Libre                                                                           ;78887375;78887375;24708694
+09;16;01;12;;;P;RECUPERACIÓN DE PRÉSTAMOS                                                       ;83572;83572;841765
+09;16;01;12;10;;P;Ingresos por Percibir                                                           ;83572;83572;841765
+09;16;01;13;;;P;TRANSFERENCIAS PARA GASTOS DE CAPITAL                                           ;2802653;2802653;0
+09;16;01;13;02;;P;Del Gobierno Central                                                            ;2802653;2802653;0
+09;16;01;13;02;001;P;De Subsecretaría de Desarrollo Regional y Administrativo                                                                                                                                                                                                  ;2802653;2802653;0
+09;16;01;15;;;P;SALDO INICIAL DE CAJA                                                           ;1000;3253125;0
+09;16;01;21;;;P;GASTOS EN PERSONAL                                                              ;13913462;13898976;4515520
+09;16;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;4159165;4154524;719060
+09;16;01;23;;;P;PRESTACIONES DE SEGURIDAD SOCIAL                                                ;17157;166635;0
+09;16;01;23;03;;P;Prestaciones Sociales del Empleador                                             ;17157;166635;0
+09;16;01;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;51174575;51504575;14309827
+09;16;01;24;01;;P;Al Sector Privado                                                               ;19804514;19804514;7802559
+09;16;01;24;01;081;P;Fundación Artesanías de Chile                                                                                                                                                                                                                             ;803181;803181;401590
+09;16;01;24;01;188;P;Corporación Cultural Municipalidad de Santiago                                                                                                                                                                                                            ;2898085;2898085;1449042
+09;16;01;24;01;268;P;Orquestas Sinfónicas Juveniles e Infantiles de Chile                                                                                                                                                                                                      ;2936465;2936465;1468232
+09;16;01;24;01;269;P;Centro Cultural Palacio de la Moneda                                                                                                                                                                                                                      ;2075048;2075048;1037524
+09;16;01;24;01;279;P;Corporación Centro Cultural Gabriela Mistral                                                                                                                                                                                                              ;2965824;2965824;1109537
+09;16;01;24;01;290;P;Otras Instituciones Colaboradoras                                                                                                                                                                                                                         ;5502354;5502354;1516660
+09;16;01;24;01;291;P;Parque Cultural Valparaíso                                                                                                                                                                                                                                ;1148144;1148144;574072
+09;16;01;24;01;292;P;Programa de Orquestas Regionales Profesionales                                                                                                                                                                                                            ;1475413;1475413;245902
+09;16;01;24;02;;P;Al Gobierno Central                                                             ;1260700;1260700;0
+09;16;01;24;02;002;P;Ministerio de Relaciones Exteriores                                                                                                                                                                                                                       ;1260700;1260700;0
+09;16;01;24;03;;P;A Otras Entidades Públicas                                                      ;30109361;30439361;6507268
+09;16;01;24;03;087;P;Actividades de Fomento y Desarrollo Cultural                                                                                                                                                                                                              ;13590132;13920132;4211599
+09;16;01;24;03;098;P;Conjuntos Artísticos Estables                                                                                                                                                                                                                             ;3454696;3454696;913561
+09;16;01;24;03;122;P;Fomento del Arte en la Educación                                                                                                                                                                                                                          ;1407435;1407435;96927
+09;16;01;24;03;123;P;Fomento y Desarrollo del Patrimonio Nacional                                                                                                                                                                                                              ;507735;507735;59632
+09;16;01;24;03;129;P;Red Cultura                                                                                                                                                                                                                                               ;3079700;3079700;468887
+09;16;01;24;03;135;P;Centros de Creación y Desarrollo Artístico para Niños y Jóvenes                                                                                                                                                                                           ;2104883;2104883;385556
+09;16;01;24;03;136;P;Sistema Nacional de Patrimonio Material e Inmaterial                                                                                                                                                                                                      ;956732;956732;135948
+09;16;01;24;03;138;P;Programa de Intermediación Cultural                                                                                                                                                                                                                       ;2542247;2542247;25329
+09;16;01;24;03;139;P;Programa Nacional de Desarrollo Artístico en la Educación                                                                                                                                                                                                 ;1313866;1313866;81406
+09;16;01;24;03;143;P;Fomento y Difusión del Arte y las Culturas de Pueblos Indígenas                                                                                                                                                                                           ;1151935;1151935;128423
+09;16;01;25;;;P;INTEGROS AL FISCO                                                               ;690;690;0
+09;16;01;25;01;;P;Impuestos                                                                       ;690;690;0
+09;16;01;26;;;P;OTROS GASTOS CORRIENTES                                                         ;0;4641;0
+09;16;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;1532234;1532234;43120
+09;16;01;29;04;;P;Mobiliario y Otros                                                              ;178038;178038;14852
+09;16;01;29;05;;P;Máquinas y Equipos                                                              ;333970;333970;13176
+09;16;01;29;06;;P;Equipos Informáticos                                                            ;450749;450749;11816
+09;16;01;29;07;;P;Programas Informáticos                                                          ;569477;569477;3276
+09;16;01;31;;;P;INICIATIVAS DE INVERSIÓN                                                        ;1469767;1469767;0
+09;16;01;31;02;;P;Proyectos                                                                       ;1469767;1469767;0
+09;16;01;33;;;P;TRANSFERENCIAS DE CAPITAL                                                       ;9916925;9916925;0
+09;16;01;33;01;;P;Al Sector Privado                                                               ;2060000;2060000;0
+09;16;01;33;01;002;P;Fondo del Patrimonio                                                                                                                                                                                                                                      ;2060000;2060000;0
+09;16;01;33;03;;P;A Otras Entidades Públicas                                                      ;7856925;7856925;0
+09;16;01;33;03;001;P;Centros Culturales                                                                                                                                                                                                                                        ;1247661;1247661;0
+09;16;01;33;03;002;P;Programa de Financiamiento de Infraestructura Cultural Pública y/o Privada                                                                                                                                                                                ;2055612;2055612;0
+09;16;01;33;03;003;P;Teatros Regionales                                                                                                                                                                                                                                        ;4553652;4553652;0
+09;16;01;34;;;P;SERVICIO DE LA DEUDA                                                            ;1000;2822068;2822003
+09;16;01;34;07;;P;Deuda Flotante                                                                  ;1000;2822068;2822003
+09;16;01;35;;;P;SALDO FINAL DE CAJA                                                             ;1000;1000;0
+;;;;;;;RESULTADO;;;3488999

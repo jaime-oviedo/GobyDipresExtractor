@@ -1,0 +1,16 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+09;16;02;09;;;P;APORTE FISCAL                                                                   ;35968938;35968938;23771786
+09;16;02;09;01;;P;Libre                                                                           ;35968938;35968938;23771786
+09;16;02;15;;;P;SALDO INICIAL DE CAJA                                                           ;1000;140929;0
+09;16;02;21;;;P;GASTOS EN PERSONAL                                                              ;2314473;2314473;509566
+09;16;02;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;545413;545413;41805
+09;16;02;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;33108052;33108052;21257401
+09;16;02;24;03;;P;A Otras Entidades Públicas                                                      ;33108052;33108052;21257401
+09;16;02;24;03;094;P;Fondo Nacional de Fomento del Libro y la Lectura, Ley N° 19.227                                                                                                                                                                                           ;6815204;6815204;3563737
+09;16;02;24;03;097;P;Fondo Nacional de Desarrollo Cultural y las Artes, Ley N° 19.891                                                                                                                                                                                          ;13266671;13266671;10440764
+09;16;02;24;03;520;P;Fondo para el Fomento de la Música Nacional, Ley N° 19.928                                                                                                                                                                                                ;4870889;4870889;2298739
+09;16;02;24;03;521;P;Fondo de Fomento Audiovisual, Ley N° 19.981                                                                                                                                                                                                               ;8155288;8155288;4954161
+09;16;02;34;;;P;SERVICIO DE LA DEUDA                                                            ;1000;140929;140929
+09;16;02;34;07;;P;Deuda Flotante                                                                  ;1000;140929;140929
+09;16;02;35;;;P;SALDO FINAL DE CAJA                                                             ;1000;1000;0
+;;;;;;;RESULTADO;;;1822085

@@ -1,0 +1,20 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+07;23;01;05;;;P;TRANSFERENCIAS CORRIENTES                                                       ;0;5753;5753
+07;23;01;05;01;;P;Del Sector Privado                                                              ;0;5753;5753
+07;23;01;05;01;003;P;Administradora Fdo.de Retiro                                                                                                                                                                                                                              ;0;5753;5753
+07;23;01;07;;;P;INGRESOS DE OPERACIÓN                                                           ;25750;25750;42281
+07;23;01;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;112888;112888;20527
+07;23;01;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;100528;100528;18957
+07;23;01;08;99;;P;Otros                                                                           ;12360;12360;1570
+07;23;01;09;;;P;APORTE FISCAL                                                                   ;6660946;6660946;2133403
+07;23;01;09;01;;P;Libre                                                                           ;6660946;6660946;2133403
+07;23;01;15;;;P;SALDO INICIAL DE CAJA                                                           ;10;28736;0
+07;23;01;21;;;P;GASTOS EN PERSONAL                                                              ;5464606;5459811;1829657
+07;23;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;1133934;1133934;287362
+07;23;01;23;;;P;PRESTACIONES DE SEGURIDAD SOCIAL                                                ;0;39274;39274
+07;23;01;23;03;;P;Prestaciones Sociales del Empleador                                             ;0;39274;39274
+07;23;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;201054;201054;21141
+07;23;01;29;05;;P;Máquinas y Equipos                                                              ;1030;1030;0
+07;23;01;29;06;;P;Equipos Informáticos                                                            ;97436;97436;17124
+07;23;01;29;07;;P;Programas Informáticos                                                          ;102588;102588;4017
+;;;;;;;RESULTADO;;;24530

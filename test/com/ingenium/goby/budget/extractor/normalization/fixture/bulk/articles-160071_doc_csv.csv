@@ -1,0 +1,28 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+08;11;01;06;;;P;RENTAS DE LA PROPIEDAD                                                          ;385425;385425;95424
+08;11;01;07;;;P;INGRESOS DE OPERACIÓN                                                           ;103;103;0
+08;11;01;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;60624544;60624544;29070301
+08;11;01;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;75994;75994;21528
+08;11;01;08;99;;P;Otros                                                                           ;60548550;60548550;29048773
+08;11;01;10;;;P;VENTA DE ACTIVOS NO FINANCIEROS                                                 ;2314;2314;0
+08;11;01;10;04;;P;Mobiliario y Otros                                                              ;2314;2314;0
+08;11;01;21;;;P;GASTOS EN PERSONAL                                                              ;12891507;12891507;4124623
+08;11;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;5141846;5141846;946289
+08;11;01;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;37799;37799;26760
+08;11;01;24;01;;P;Al Sector Privado                                                               ;3524;3524;0
+08;11;01;24;01;175;P;Instituto de Estudios Bancarios                                                                                                                                                                                                                           ;3524;3524;0
+08;11;01;24;07;;P;A Organismos Internacionales                                                    ;34275;34275;26760
+08;11;01;24;07;001;P;Asociación de Supervisores Bancarios de las Américas                                                                                                                                                                                                      ;29600;29600;26760
+08;11;01;24;07;002;P;Red Internacional de Educación Financiera  - OCDE                                                                                                                                                                                                         ;4675;4675;0
+08;11;01;25;;;P;INTEGROS AL FISCO                                                               ;42731735;42731735;19000000
+08;11;01;25;01;;P;Impuestos                                                                       ;68;68;0
+08;11;01;25;03;;P;Excedentes de Caja                                                              ;42731667;42731667;19000000
+08;11;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;173253;173253;5853
+08;11;01;29;04;;P;Mobiliario y Otros                                                              ;82935;82935;0
+08;11;01;29;05;;P;Máquinas y Equipos                                                              ;28063;28063;3685
+08;11;01;29;06;;P;Equipos Informáticos                                                            ;9210;9210;118
+08;11;01;29;07;;P;Programas Informáticos                                                          ;53045;53045;2050
+08;11;01;34;;;P;SERVICIO DE LA DEUDA                                                            ;0;0;282650
+08;11;01;34;07;;P;Deuda Flotante                                                                  ;0;0;282650
+08;11;01;35;;;P;SALDO FINAL DE CAJA                                                             ;36246;36246;0
+;;;;;;;RESULTADO;;;4779550

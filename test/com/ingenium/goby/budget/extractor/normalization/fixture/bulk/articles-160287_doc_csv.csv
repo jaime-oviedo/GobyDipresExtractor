@@ -1,0 +1,15 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+27;02;02;09;;;P;APORTE FISCAL                                                                   ;7476582;7476582;7107054
+27;02;02;09;01;;P;Libre                                                                           ;7476582;7476582;7107054
+27;02;02;15;;;P;SALDO INICIAL DE CAJA                                                           ;500;500;0
+27;02;02;21;;;P;GASTOS EN PERSONAL                                                              ;276286;276286;77329
+27;02;02;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;305597;305597;4013
+27;02;02;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;6894699;6894699;6365480
+27;02;02;24;01;;P;Al Sector Privado                                                               ;3249309;3249309;2862305
+27;02;02;24;01;005;P;Programa "4 a 7"                                                                                                                                                                                                                                          ;2937559;2937559;2842155
+27;02;02;24;01;006;P;Mujer, Asociatividad y Emprendimiento                                                                                                                                                                                                                     ;311750;311750;20150
+27;02;02;24;03;;P;A Otras Entidades Públicas                                                      ;3645390;3645390;3503175
+27;02;02;24;03;001;P;Apoyo a Mujeres Jefas de Hogar                                                                                                                                                                                                                            ;3645390;3645390;3503175
+27;02;02;34;;;P;SERVICIO DE LA DEUDA                                                            ;500;500;0
+27;02;02;34;07;;P;Deuda Flotante                                                                  ;500;500;0
+;;;;;;;RESULTADO;;;660232

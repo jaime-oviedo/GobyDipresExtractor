@@ -1,0 +1,26 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+09;01;02;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;11904;11904;13188
+09;01;02;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;5952;5952;0
+09;01;02;08;99;;P;Otros                                                                           ;5952;5952;13188
+09;01;02;09;;;P;APORTE FISCAL                                                                   ;38607551;36107551;6670978
+09;01;02;09;01;;P;Libre                                                                           ;38607551;36107551;6670978
+09;01;02;15;;;P;SALDO INICIAL DE CAJA                                                           ;1000;4214325;0
+09;01;02;21;;;P;GASTOS EN PERSONAL                                                              ;2032189;2032189;622166
+09;01;02;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;544806;544806;41505
+09;01;02;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;961539;961539;233304
+09;01;02;24;03;;P;A Otras Entidades Públicas                                                      ;961539;961539;233304
+09;01;02;24;03;002;P;Aporte Establecimientos DFL (Ed.) N°2, de 1998                                                                                                                                                                                                            ;961539;961539;233304
+09;01;02;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;1944928;1944928;0
+09;01;02;29;05;;P;Máquinas y Equipos                                                              ;1944928;1944928;0
+09;01;02;31;;;P;INICIATIVAS DE INVERSIÓN                                                        ;4587609;4587609;590429
+09;01;02;31;02;;P;Proyectos                                                                       ;4587609;4587609;590429
+09;01;02;33;;;P;TRANSFERENCIAS DE CAPITAL                                                       ;28547384;28547384;410567
+09;01;02;33;02;;P;Al Gobierno Central                                                             ;27536508;27536508;0
+09;01;02;33;02;001;P;Subsecretaría de Desarrollo Regional y Administrativo - Programa 05                                                                                                                                                                                       ;27536508;27536508;0
+09;01;02;33;03;;P;A Otras Entidades Públicas                                                      ;1010876;1010876;410567
+09;01;02;33;03;002;P;Equipamiento de Establecimientos de Educación Técnico Profesional                                                                                                                                                                                         ;341747;341747;327262
+09;01;02;33;03;024;P;Aporte Suplementario por Costo de Capital Adicional                                                                                                                                                                                                       ;669129;669129;83305
+09;01;02;34;;;P;SERVICIO DE LA DEUDA                                                            ;1000;1714325;1714325
+09;01;02;34;07;;P;Deuda Flotante                                                                  ;1000;1714325;1714325
+09;01;02;35;;;P;SALDO FINAL DE CAJA                                                             ;1000;1000;0
+;;;;;;;RESULTADO;;;3071870

@@ -1,0 +1,37 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+06;01;01;08;;;D;OTROS INGRESOS CORRIENTES                                                       ;2874;2874;2127
+06;01;01;08;99;;D;Otros                                                                           ;2874;2874;2127
+06;01;01;09;;;D;APORTE FISCAL                                                                   ;182983;182983;82139
+06;01;01;09;01;;D;Libre                                                                           ;182983;182983;82139
+06;01;01;11;;;D;VENTA DE ACTIVOS FINANCIEROS                                                    ;2671;2315;0
+06;01;01;11;03;;D;Operaciones de Cambio                                                           ;2671;2315;0
+06;01;01;12;;;D;RECUPERACIÓN DE PRÉSTAMOS                                                       ;250;250;0
+06;01;01;12;07;;D;Por Anticipos por Cambio de Residencia                                          ;250;250;0
+06;01;01;21;;;D;GASTOS EN PERSONAL                                                              ;87551;87551;22391
+06;01;01;22;;;D;BIENES Y SERVICIOS DE CONSUMO                                                   ;42979;42623;4845
+06;01;01;24;;;D;TRANSFERENCIAS CORRIENTES                                                       ;53842;53842;8662
+06;01;01;24;01;;D;Al Sector Privado                                                               ;126;126;90
+06;01;01;24;01;003;D;Comunidades de Chilenos en el Exterior                                                                                                                                                                                                                    ;36;36;0
+06;01;01;24;01;004;D;Consejo Chile - California                                                                                                                                                                                                                                ;90;90;90
+06;01;01;24;03;;D;A Otras Entidades Públicas                                                      ;3394;3394;648
+06;01;01;24;03;037;D;Programa de Actividades Específicas en el Exterior                                                                                                                                                                                                        ;2544;2544;473
+06;01;01;24;03;614;D;Programa Posicionamiento de Chile en Asociaciones Estratégicas con Países Afines                                                                                                                                                                          ;234;234;41
+06;01;01;24;03;619;D;Modernización de la Gestión Consular                                                                                                                                                                                                                      ;270;270;83
+06;01;01;24;03;625;D;Acercamientos Políticos y Estratégicos                                                                                                                                                                                                                    ;166;166;3
+06;01;01;24;03;626;D;Registro de Chilenos en el Exterior                                                                                                                                                                                                                       ;8;8;3
+06;01;01;24;03;627;D;Programa de Fortalecimiento de la Política Consular y Migratoria                                                                                                                                                                                          ;172;172;45
+06;01;01;24;07;;D;A Organismos Internacionales                                                    ;50322;50322;7924
+06;01;01;24;07;001;D;Organismos Internacionales                                                                                                                                                                                                                                ;50322;50322;7924
+06;01;01;26;;;D;OTROS GASTOS CORRIENTES                                                         ;600;600;64
+06;01;01;26;02;;D;Compensaciones por Daños a Terceros y/o a la Propiedad                          ;600;600;64
+06;01;01;29;;;D;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;2371;2371;308
+06;01;01;29;03;;D;Vehículos                                                                       ;300;300;8
+06;01;01;29;04;;D;Mobiliario y Otros                                                              ;168;168;9
+06;01;01;29;06;;D;Equipos Informáticos                                                            ;894;894;20
+06;01;01;29;07;;D;Programas Informáticos                                                          ;709;709;271
+06;01;01;29;99;;D;Otros Activos no Financieros                                                    ;300;300;0
+06;01;01;31;;;D;INICIATIVAS DE INVERSIÓN                                                        ;1185;1185;0
+06;01;01;31;02;;D;Proyectos                                                                       ;1185;1185;0
+06;01;01;32;;;D;PRÉSTAMOS                                                                       ;250;250;0
+06;01;01;32;07;;D;Por Anticipos por Cambio de Residencia                                          ;250;250;0
+;;;;;;;RESULTADO;;;47996

@@ -1,0 +1,17 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+10;07;02;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;1231363;1231363;426152
+10;07;02;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;1215335;1215335;395755
+10;07;02;08;99;;P;Otros                                                                           ;16028;16028;30397
+10;07;02;09;;;P;APORTE FISCAL                                                                   ;97535743;97535743;31289811
+10;07;02;09;01;;P;Libre                                                                           ;97535743;97535743;31289811
+10;07;02;21;;;P;GASTOS EN PERSONAL                                                              ;71179475;71179475;23402439
+10;07;02;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;25426625;25426625;4156861
+10;07;02;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;1248720;1248720;23904
+10;07;02;29;03;;P;Vehículos                                                                       ;190035;190035;0
+10;07;02;29;04;;P;Mobiliario y Otros                                                              ;300000;300000;4661
+10;07;02;29;05;;P;Máquinas y Equipos                                                              ;283000;283000;17545
+10;07;02;29;06;;P;Equipos Informáticos                                                            ;17000;17000;1698
+10;07;02;29;07;;P;Programas Informáticos                                                          ;458685;458685;0
+10;07;02;31;;;P;INICIATIVAS DE INVERSIÓN                                                        ;912286;912286;29093
+10;07;02;31;02;;P;Proyectos                                                                       ;912286;912286;29093
+;;;;;;;RESULTADO;;;4103666

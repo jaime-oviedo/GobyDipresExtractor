@@ -1,0 +1,37 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+13;04;01;05;;;P;TRANSFERENCIAS CORRIENTES                                                       ;489250;489250;0
+13;04;01;05;02;;P;Del Gobierno Central                                                            ;489250;489250;0
+13;04;01;05;02;023;P;De Subsecretaría de Economía FIE - Certificación Electrónica                                                                                                                                                                                              ;489250;489250;0
+13;04;01;06;;;P;RENTAS DE LA PROPIEDAD                                                          ;89700;89700;0
+13;04;01;07;;;P;INGRESOS DE OPERACIÓN                                                           ;12440266;12440266;2603625
+13;04;01;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;1305657;1305657;340632
+13;04;01;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;1305637;1305637;300053
+13;04;01;08;02;;P;Multas y Sanciones Pecuniarias                                                  ;10;10;31091
+13;04;01;08;99;;P;Otros                                                                           ;10;10;9488
+13;04;01;09;;;P;APORTE FISCAL                                                                   ;11511248;11511248;6664428
+13;04;01;09;01;;P;Libre                                                                           ;11511248;11511248;6664428
+13;04;01;12;;;P;RECUPERACIÓN DE PRÉSTAMOS                                                       ;0;0;1634578
+13;04;01;12;10;;P;Ingresos por Percibir                                                           ;0;0;1634578
+13;04;01;21;;;P;GASTOS EN PERSONAL                                                              ;20383133;20383133;6745724
+13;04;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;2849108;2849108;517968
+13;04;01;23;;;P;PRESTACIONES DE SEGURIDAD SOCIAL                                                ;10;10;2054736
+13;04;01;23;03;;P;Prestaciones Sociales del Empleador                                             ;10;10;2054736
+13;04;01;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;184796;72174;605221
+13;04;01;24;01;;P;Al Sector Privado                                                               ;184796;72174;605221
+13;04;01;24;01;407;P;Fondo Mejoramiento Patrimonio Sanitario                                                                                                                                                                                                                   ;184786;72164;0
+13;04;01;24;01;601;P;Emergencias Sanitarias                                                                                                                                                                                                                                    ;10;10;605221
+13;04;01;25;;;P;INTEGROS AL FISCO                                                               ;135175;135175;20116
+13;04;01;25;01;;P;Impuestos                                                                       ;135175;135175;20116
+13;04;01;26;;;P;OTROS GASTOS CORRIENTES                                                         ;10;10;17190
+13;04;01;26;02;;P;Compensaciones por Daños a Terceros y/o a la Propiedad                          ;10;10;17190
+13;04;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;1746466;1746466;681534
+13;04;01;29;03;;P;Vehículos                                                                       ;649814;649814;649220
+13;04;01;29;04;;P;Mobiliario y Otros                                                              ;14582;14582;0
+13;04;01;29;05;;P;Máquinas y Equipos                                                              ;803;803;0
+13;04;01;29;06;;P;Equipos Informáticos                                                            ;278100;278100;14146
+13;04;01;29;07;;P;Programas Informáticos                                                          ;803167;803167;18168
+13;04;01;31;;;P;INICIATIVAS DE INVERSIÓN                                                        ;537423;650045;0
+13;04;01;31;02;;P;Proyectos                                                                       ;537423;650045;0
+13;04;01;34;;;P;SERVICIO DE LA DEUDA                                                            ;0;0;1439813
+13;04;01;34;07;;P;Deuda Flotante                                                                  ;0;0;1439813
+;;;;;;;RESULTADO;;;-839039

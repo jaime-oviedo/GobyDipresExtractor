@@ -1,0 +1,36 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+19;01;06;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;30792;30792;3943997
+19;01;06;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;30792;30792;3195
+19;01;06;08;99;;P;Otros                                                                           ;0;0;3940802
+19;01;06;09;;;P;APORTE FISCAL                                                                   ;723935889;723935889;145314970
+19;01;06;09;01;;P;Libre                                                                           ;723935889;723935889;145314970
+19;01;06;12;;;P;RECUPERACIÓN DE PRÉSTAMOS                                                       ;0;0;1
+19;01;06;12;10;;P;Ingresos por Percibir                                                           ;0;0;1
+19;01;06;15;;;P;SALDO INICIAL DE CAJA                                                           ;1000;3560370;0
+19;01;06;21;;;P;GASTOS EN PERSONAL                                                              ;2302965;2302965;736443
+19;01;06;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;381507;381507;20664
+19;01;06;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;650634397;650634397;155066900
+19;01;06;24;01;;P;Al Sector Privado                                                               ;650634397;650634397;155066900
+19;01;06;24;01;511;P;Subsidios al Transporte Regional                                                                                                                                                                                                                          ;15327678;15327678;2772575
+19;01;06;24;01;512;P;Subsidio Nacional al Transporte Público                                                                                                                                                                                                                   ;144996587;144996587;45224468
+19;01;06;24;01;520;P;Subsidio  Transitorio - Transantiiago                                                                                                                                                                                                                     ;204165113;204165113;0
+19;01;06;24;01;521;P;Subsidio Transporte Público - Transantiago                                                                                                                                                                                                                ;215507619;215507619;107069857
+19;01;06;24;01;522;P;Subsidio Especial Adicional - Transantiago                                                                                                                                                                                                                ;57659400;57659400;0
+19;01;06;24;01;523;P;Reembolso Artículo 3° Transitorio Ley N°20.378                                                                                                                                                                                                            ;12978000;12978000;0
+19;01;06;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;135781;135781;3779
+19;01;06;29;05;;P;Máquinas y Equipos                                                              ;5150;5150;0
+19;01;06;29;06;;P;Equipos Informáticos                                                            ;12830;12830;0
+19;01;06;29;07;;P;Programas Informáticos                                                          ;117801;117801;3779
+19;01;06;31;;;P;INICIATIVAS DE INVERSIÓN                                                        ;7708499;7708499;710843
+19;01;06;31;02;;P;Proyectos                                                                       ;7708499;7708499;710843
+19;01;06;33;;;P;TRANSFERENCIAS DE CAPITAL                                                       ;62802532;62802532;0
+19;01;06;33;01;;P;Al Sector Privado                                                               ;6533549;6533549;0
+19;01;06;33;01;001;P;Metro Regional de Valparaíso S.A                                                                                                                                                                                                                          ;1896898;1896898;0
+19;01;06;33;01;002;P;Trenes Metropolitanos S.A                                                                                                                                                                                                                                 ;1018404;1018404;0
+19;01;06;33;01;003;P;FESUB Concepción S.A                                                                                                                                                                                                                                      ;3618247;3618247;0
+19;01;06;33;02;;P;Al Gobierno Central                                                             ;56268983;56268983;0
+19;01;06;33;02;003;P;Fondo de Apoyo Regional                                                                                                                                                                                                                                   ;56268983;56268983;0
+19;01;06;34;;;P;SERVICIO DE LA DEUDA                                                            ;1000;3560370;3561370
+19;01;06;34;07;;P;Deuda Flotante                                                                  ;1000;3560370;3561370
+19;01;06;35;;;P;SALDO FINAL DE CAJA                                                             ;1000;1000;0
+;;;;;;;RESULTADO;;;-10841031

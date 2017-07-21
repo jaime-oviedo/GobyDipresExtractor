@@ -1,0 +1,40 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+16;47;01;05;;;P;TRANSFERENCIAS CORRIENTES                                                       ;305972201;316779741;114438709
+16;47;01;05;02;;P;Del Gobierno Central                                                            ;305972201;316779741;114438709
+16;47;01;05;02;007;P;Fondo Nacional de Salud - Atención Primaria                                                                                                                                                                                                               ;108576575;108576575;34077217
+16;47;01;05;02;008;P;Fondo Nacional de Salud - Prestaciones Valoradas                                                                                                                                                                                                          ;85336678;85336678;30052382
+16;47;01;05;02;009;P;Fondo Nacional de Salud - Prestaciones Institucionales                                                                                                                                                                                                    ;111759816;122567356;50309110
+16;47;01;05;02;010;P;Subsecretaría de Salud Pública                                                                                                                                                                                                                            ;299132;299132;0
+16;47;01;06;;;P;RENTAS DE LA PROPIEDAD                                                          ;173588;173588;43261
+16;47;01;07;;;P;INGRESOS DE OPERACIÓN                                                           ;2371069;2371069;1652769
+16;47;01;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;4682214;4682214;1921426
+16;47;01;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;2944207;2944207;1588577
+16;47;01;08;02;;P;Multas y Sanciones Pecuniarias                                                  ;15353;15353;147686
+16;47;01;08;99;;P;Otros                                                                           ;1722654;1722654;185163
+16;47;01;10;;;P;VENTA DE ACTIVOS NO FINANCIEROS                                                 ;0;0;284
+16;47;01;12;;;P;RECUPERACIÓN DE PRÉSTAMOS                                                       ;163204;163204;10540864
+16;47;01;12;10;;P;Ingresos por Percibir                                                           ;163204;163204;10540864
+16;47;01;15;;;P;SALDO INICIAL DE CAJA                                                           ;31645;31645;0
+16;47;01;21;;;P;GASTOS EN PERSONAL                                                              ;116097014;116097014;48498290
+16;47;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;100878327;100878327;37740002
+16;47;01;23;;;P;PRESTACIONES DE SEGURIDAD SOCIAL                                                ;0;74218;75628
+16;47;01;23;02;;P;Prestaciones de Asistencia Social                                               ;0;0;158
+16;47;01;23;02;004;P;Ayudas Económicas y Otros Pagos Preventivos                                                                                                                                                                                                               ;0;0;158
+16;47;01;23;03;;P;Prestaciones Sociales del Empleador                                             ;0;74218;75470
+16;47;01;23;03;001;P;Indemnización de Cargo Fiscal                                                                                                                                                                                                                             ;0;74218;75470
+16;47;01;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;96125039;96125039;30556629
+16;47;01;24;01;;P;Al Sector Privado                                                               ;107702;107702;0
+16;47;01;24;01;395;P;Programa Especial de Salud de los Pueblos Indígenas                                                                                                                                                                                                       ;94822;94822;0
+16;47;01;24;01;461;P;Centros de Prevención de Alcoholismo y Salud Mental                                                                                                                                                                                                       ;12880;12880;0
+16;47;01;24;03;;P;A Otras Entidades Públicas                                                      ;96017337;96017337;30556629
+16;47;01;24;03;298;P;Atención Primaria, Ley N° 19.378                                                                                                                                                                                                                          ;96017337;96017337;30556629
+16;47;01;26;;;P;OTROS GASTOS CORRIENTES                                                         ;0;0;16881
+16;47;01;26;02;;P;Compensaciones por Daños a Terceros y/o a la Propiedad                          ;0;0;16881
+16;47;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;262642;262642;186763
+16;47;01;29;04;;P;Mobiliario y Otros                                                              ;262642;262642;51775
+16;47;01;29;05;;P;Máquinas y Equipos                                                              ;0;0;109778
+16;47;01;29;06;;P;Equipos Informáticos                                                            ;0;0;25210
+16;47;01;34;;;P;SERVICIO DE LA DEUDA                                                            ;0;10733322;14124535
+16;47;01;34;07;;P;Deuda Flotante                                                                  ;0;10733322;14124535
+16;47;01;35;;;P;SALDO FINAL DE CAJA                                                             ;30899;30899;0
+;;;;;;;RESULTADO;;;-2601415

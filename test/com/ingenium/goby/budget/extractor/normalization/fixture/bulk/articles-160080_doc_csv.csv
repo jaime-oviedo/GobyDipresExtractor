@@ -1,0 +1,21 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+09;01;08;05;;;P;TRANSFERENCIAS CORRIENTES                                                       ;0;554879;0
+09;01;08;05;01;;P;Del Sector Privado                                                              ;0;554879;0
+09;01;08;05;01;003;P;Administradora del Fondo para Bonificación por Retiro                                                                                                                                                                                                     ;0;554879;0
+09;01;08;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;121950;121950;113013
+09;01;08;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;120759;120759;101210
+09;01;08;08;99;;P;Otros                                                                           ;1191;1191;11803
+09;01;08;09;;;P;APORTE FISCAL                                                                   ;33578321;35208502;10688220
+09;01;08;09;01;;P;Libre                                                                           ;33578321;35208502;10688220
+09;01;08;15;;;P;SALDO INICIAL DE CAJA                                                           ;1000;1000;0
+09;01;08;21;;;P;GASTOS EN PERSONAL                                                              ;31208291;31208291;9995333
+09;01;08;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;945922;945922;43151
+09;01;08;23;;;P;PRESTACIONES DE SEGURIDAD SOCIAL                                                ;0;2073356;0
+09;01;08;23;03;;P;Prestaciones Sociales del Empleador                                             ;0;2073356;0
+09;01;08;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;1545000;1545000;99079
+09;01;08;24;03;;P;A Otras Entidades Públicas                                                      ;1545000;1545000;99079
+09;01;08;24;03;531;P;Supervisión Técnico Pedagógica                                                                                                                                                                                                                            ;1545000;1545000;99079
+09;01;08;34;;;P;SERVICIO DE LA DEUDA                                                            ;1058;112762;112761
+09;01;08;34;07;;P;Deuda Flotante                                                                  ;1058;112762;112761
+09;01;08;35;;;P;SALDO FINAL DE CAJA                                                             ;1000;1000;0
+;;;;;;;RESULTADO;;;550909

@@ -1,0 +1,47 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+21;06;01;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;319928;319928;138814
+21;06;01;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;317362;317362;86960
+21;06;01;08;99;;P;Otros                                                                           ;2566;2566;51854
+21;06;01;09;;;P;APORTE FISCAL                                                                   ;128383187;128383187;24341272
+21;06;01;09;01;;P;Libre                                                                           ;123485610;123485610;21875258
+21;06;01;09;03;;P;Servicio de la Deuda Externa                                                    ;4897577;4897577;2466014
+21;06;01;10;;;P;VENTA DE ACTIVOS NO FINANCIEROS                                                 ;3090;3090;4705
+21;06;01;10;03;;P;Vehículos                                                                       ;3090;3090;4705
+21;06;01;15;;;P;SALDO INICIAL DE CAJA                                                           ;2000;3918040;0
+21;06;01;21;;;P;GASTOS EN PERSONAL                                                              ;9381545;9381545;3489809
+21;06;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;1568010;1568010;502298
+21;06;01;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;18754072;18754072;4628052
+21;06;01;24;01;;P;Al Sector Privado                                                               ;12119317;12119317;432805
+21;06;01;24;01;576;P;Fondo de Desarrollo Indígena                                                                                                                                                                                                                              ;8907425;8907425;251565
+21;06;01;24;01;579;P;Fondo de Cultura y Educación Indígena                                                                                                                                                                                                                     ;1968602;1968602;57900
+21;06;01;24;01;589;P;Protección del Medio Ambiente y Recursos Naturales                                                                                                                                                                                                        ;61649;61649;0
+21;06;01;24;01;599;P;Consulta a los Pueblos Indígenas                                                                                                                                                                                                                          ;1055946;1055946;123340
+21;06;01;24;01;600;P;Turismo y Pueblos Indígenas                                                                                                                                                                                                                               ;125695;125695;0
+21;06;01;24;02;;P;Al Gobierno Central                                                             ;4882673;4882673;3898526
+21;06;01;24;02;003;P;Instituto de Desarrollo Agropecuario                                                                                                                                                                                                                      ;3898526;3898526;3898526
+21;06;01;24;02;004;P;Subsecretaría de Bienes Nacionales                                                                                                                                                                                                                        ;572147;572147;0
+21;06;01;24;02;005;P;Corporación de Fomento de la Producción                                                                                                                                                                                                                   ;412000;412000;0
+21;06;01;24;03;;P;A Otras Entidades Públicas                                                      ;1752082;1752082;296721
+21;06;01;24;03;887;P;Programa de Apoyo al Turismo y Pueblos Indígenas                                                                                                                                                                                                          ;396437;396437;30000
+21;06;01;24;03;888;P;Programa de Apoyo a la Protección Ambiental Indígena                                                                                                                                                                                                      ;203725;203725;201725
+21;06;01;24;03;889;P;Instrumentos Cofinanciados de Apoyo al Fondo de Desarrollo Indígena                                                                                                                                                                                       ;541526;541526;0
+21;06;01;24;03;999;P;Programa de Apoyo al Fondo de Cultura y Educación  Indígena                                                                                                                                                                                               ;610394;610394;64996
+21;06;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;124389;124389;46506
+21;06;01;29;03;;P;Vehículos                                                                       ;16995;16995;16990
+21;06;01;29;04;;P;Mobiliario y Otros                                                              ;21836;21836;0
+21;06;01;29;06;;P;Equipos Informáticos                                                            ;24937;24937;19522
+21;06;01;29;07;;P;Programas Informáticos                                                          ;60621;60621;9994
+21;06;01;33;;;P;TRANSFERENCIAS DE CAPITAL                                                       ;93980612;93980612;8075997
+21;06;01;33;01;;P;Al Sector Privado                                                               ;89203478;89203478;4023541
+21;06;01;33;01;043;P;Fondo de Tierras y Aguas Indígenas                                                                                                                                                                                                                        ;80819749;80819749;2905640
+21;06;01;33;01;044;P;Gastos Asociados de Administración                                                                                                                                                                                                                        ;1060373;1060373;162810
+21;06;01;33;01;045;P;Programa Chile Indígena                                                                                                                                                                                                                                   ;7323356;7323356;955091
+21;06;01;33;02;;P;Al Gobierno Central                                                             ;3521331;3521331;3521331
+21;06;01;33;02;003;P;Instituto de Desarrollo Agropecuario                                                                                                                                                                                                                      ;3521331;3521331;3521331
+21;06;01;33;03;;P;A Otras Entidades Públicas                                                      ;1255803;1255803;531125
+21;06;01;33;03;999;P;Programa de Apoyo al Fondo de Tierras y Aguas Indígenas                                                                                                                                                                                                   ;1255803;1255803;531125
+21;06;01;34;;;P;SERVICIO DE LA DEUDA                                                            ;4899577;8815617;6384054
+21;06;01;34;02;;P;Amortización Deuda Externa                                                      ;3978047;3978047;1905911
+21;06;01;34;04;;P;Intereses Deuda Externa                                                         ;919530;919530;560103
+21;06;01;34;07;;P;Deuda Flotante                                                                  ;2000;3918040;3918040
+;;;;;;;RESULTADO;;;1358075

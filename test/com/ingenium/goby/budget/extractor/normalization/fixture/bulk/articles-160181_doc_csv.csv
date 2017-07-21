@@ -1,0 +1,36 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+16;04;01;05;;;P;TRANSFERENCIAS CORRIENTES                                                       ;631267;631267;0
+16;04;01;05;02;;P;Del Gobierno Central                                                            ;631267;631267;0
+16;04;01;05;02;004;P;Fondo Nacional de Salud                                                                                                                                                                                                                                   ;631267;631267;0
+16;04;01;07;;;P;INGRESOS DE OPERACIÓN                                                           ;15752894;15752894;5513374
+16;04;01;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;316904;316904;248140
+16;04;01;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;167975;167975;140914
+16;04;01;08;02;;P;Multas y Sanciones Pecuniarias                                                  ;1030;1030;101018
+16;04;01;08;99;;P;Otros                                                                           ;147899;147899;6208
+16;04;01;09;;;P;APORTE FISCAL                                                                   ;15772026;15818702;5232026
+16;04;01;09;01;;P;Libre                                                                           ;15772026;15818702;5232026
+16;04;01;12;;;P;RECUPERACIÓN DE PRÉSTAMOS                                                       ;246263;246263;1164843
+16;04;01;12;10;;P;Ingresos por Percibir                                                           ;246263;246263;1164843
+16;04;01;15;;;P;SALDO INICIAL DE CAJA                                                           ;26000;26000;0
+16;04;01;21;;;P;GASTOS EN PERSONAL                                                              ;18149328;18149328;7582963
+16;04;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;12165679;12165679;3077708
+16;04;01;23;;;P;PRESTACIONES DE SEGURIDAD SOCIAL                                                ;0;46676;0
+16;04;01;23;03;;P;Prestaciones Sociales del Empleador                                             ;0;46676;0
+16;04;01;23;03;001;P;Indemnización de Cargo Fiscal                                                                                                                                                                                                                             ;0;46676;0
+16;04;01;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;1;1;0
+16;04;01;24;02;;P;Al Gobierno Central                                                             ;1;1;0
+16;04;01;24;02;042;P;Subsecretaría de Salud Pública                                                                                                                                                                                                                            ;1;1;0
+16;04;01;26;;;P;OTROS GASTOS CORRIENTES                                                         ;0;0;5605
+16;04;01;26;01;;P;Devoluciones                                                                    ;0;0;5605
+16;04;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;2166982;2166982;379328
+16;04;01;29;04;;P;Mobiliario y Otros                                                              ;56636;56636;20641
+16;04;01;29;05;;P;Máquinas y Equipos                                                              ;1354895;1354895;171374
+16;04;01;29;06;;P;Equipos Informáticos                                                            ;249216;249216;20662
+16;04;01;29;07;;P;Programas Informáticos                                                          ;506234;506234;166651
+16;04;01;29;99;;P;Otros Activos no Financieros                                                    ;1;1;0
+16;04;01;31;;;P;INICIATIVAS DE INVERSIÓN                                                        ;237364;237364;29155
+16;04;01;31;02;;P;Proyectos                                                                       ;237364;237364;29155
+16;04;01;34;;;P;SERVICIO DE LA DEUDA                                                            ;25000;25000;243853
+16;04;01;34;07;;P;Deuda Flotante                                                                  ;25000;25000;243853
+16;04;01;35;;;P;SALDO FINAL DE CAJA                                                             ;1000;1000;0
+;;;;;;;RESULTADO;;;839771

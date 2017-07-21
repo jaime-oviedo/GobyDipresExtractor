@@ -1,0 +1,45 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+50;01;01;01;;;D;IMPUESTOS                                                                       ;4000;4000;7
+50;01;01;01;01;;D;Impuestos a la Renta                                                            ;1683027;1683027;1191276
+50;01;01;01;01;001;D;Primera Categoría                                                                                                                                                                                                                                         ;1365531;1365531;962582
+50;01;01;01;01;004;D;Adicional                                                                                                                                                                                                                                                 ;173357;173357;150195
+50;01;01;01;01;005;D;Tasa 40% DL N° 2.398 de 1978                                                                                                                                                                                                                              ;0;0;5995
+50;01;01;01;01;006;D;Artículo 21 Ley Impuesto a la Renta                                                                                                                                                                                                                       ;24109;24109;13280
+50;01;01;01;01;007;D;Término de Giro                                                                                                                                                                                                                                           ;10;10;19
+50;01;01;01;01;009;D;Impuesto Específico a la Actividad Minera                                                                                                                                                                                                                 ;120020;120020;59205
+50;01;01;01;05;;D;Impuestos al Comercio Exterior                                                  ;6346;6346;395
+50;01;01;01;05;003;D;Otros                                                                                                                                                                                                                                                     ;6346;6346;395
+50;01;01;01;07;;D;Otros Ingresos Tributarios                                                      ;11359;11359;1008
+50;01;01;01;07;002;D;Multas e Intereses por Impuestos                                                                                                                                                                                                                          ;11359;11359;1008
+50;01;01;01;09;;D;Sistemas de Pago de Impuestos                                                   ;-1696732;-1696732;-1192672
+50;01;01;01;09;001;D;Pagos Provisionales del Año                                                                                                                                                                                                                               ;1192801;1192801;612296
+50;01;01;01;09;002;D;Créditos para Declaración Anual de Renta                                                                                                                                                                                                                  ;-1823596;-1823596;-643846
+50;01;01;01;09;003;D;Devoluciones Determinadas Declaración Anual de Renta                                                                                                                                                                                                      ;719688;719688;271088
+50;01;01;01;09;004;D;Devoluciones de Renta                                                                                                                                                                                                                                     ;-590143;-590143;-327468
+50;01;01;01;09;005;D;Reintegro de Devoluciones de Renta                                                                                                                                                                                                                        ;9276;9276;5761
+50;01;01;01;09;201;D;Devoluciones de Aduanas                                                                                                                                                                                                                                   ;-327;-327;0
+50;01;01;01;09;202;D;Devoluciones de Otros Impuestos                                                                                                                                                                                                                           ;0;0;95
+50;01;01;01;09;301;D;Fluctuación Deudores del Período                                                                                                                                                                                                                          ;-222;-222;-603
+50;01;01;01;09;302;D;Fluctuación Deudores de Períodos Anteriores                                                                                                                                                                                                               ;3000;3000;407
+50;01;01;01;09;401;D;Diferencias de Pago                                                                                                                                                                                                                                       ;267;267;-652
+50;01;01;01;09;701;D;Conversión de Pagos en Moneda Extranjera                                                                                                                                                                                                                  ;-1207476;-1207476;-1109750
+50;01;01;05;;;D;TRANSFERENCIAS CORRIENTES                                                       ;1280010;1280010;0
+50;01;01;05;02;;D;Del Gobierno Central                                                            ;1280010;1280010;0
+50;01;01;05;02;071;D;Del Fondo para la Educación                                                                                                                                                                                                                               ;1000000;1000000;0
+50;01;01;06;;;D;RENTAS DE LA PROPIEDAD                                                          ;15535;15535;6396
+50;01;01;06;03;;D;Intereses                                                                       ;13407;13407;5896
+50;01;01;06;99;;D;Otras Rentas de la Propiedad                                                    ;2128;2128;500
+50;01;01;07;;;D;INGRESOS DE OPERACIÓN                                                           ;8657;8657;1631
+50;01;01;07;01;;D;Venta de Bienes                                                                 ;8657;8657;0
+50;01;01;07;02;;D;Venta de Servicios                                                              ;0;0;1631
+50;01;01;08;;;D;OTROS INGRESOS CORRIENTES                                                       ;9999;9999;478383
+50;01;01;08;99;;D;Otros                                                                           ;9999;9999;478383
+50;01;01;08;99;999;D;Otros                                                                                                                                                                                                                                                     ;9999;9999;478383
+50;01;01;11;;;D;VENTA DE ACTIVOS FINANCIEROS                                                    ;10158;10158;1976359
+50;01;01;11;01;;D;Venta o Rescate de Títulos y Valores                                            ;82672;82672;1280797
+50;01;01;11;03;;D;Operaciones de Cambio                                                           ;-72524;-72524;695562
+50;01;01;11;99;;D;Otros Activos Financieros                                                       ;10;10;0
+50;01;01;14;;;D;ENDEUDAMIENTO                                                                   ;223298;223298;-1576
+50;01;01;14;02;;D;Endeudamiento Externo                                                           ;223298;223298;-1576
+50;01;01;15;;;D;SALDO INICIAL DE CAJA                                                           ;2000;2000;0
+;;;;;;;RESULTADO;;;2461200

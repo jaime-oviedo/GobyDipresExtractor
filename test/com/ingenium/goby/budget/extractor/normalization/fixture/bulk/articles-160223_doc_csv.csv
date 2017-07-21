@@ -1,0 +1,36 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+17;03;01;06;;;P;RENTAS DE LA PROPIEDAD                                                          ;82020;82020;0
+17;03;01;07;;;P;INGRESOS DE OPERACIÓN                                                           ;746470;746470;66575
+17;03;01;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;263428;263428;224525
+17;03;01;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;257880;257880;0
+17;03;01;08;99;;P;Otros                                                                           ;5548;5548;224525
+17;03;01;09;;;P;APORTE FISCAL                                                                   ;14161562;14161562;3761830
+17;03;01;09;01;;P;Libre                                                                           ;14161562;14161562;3761830
+17;03;01;10;;;P;VENTA DE ACTIVOS NO FINANCIEROS                                                 ;24720;24720;9303
+17;03;01;10;03;;P;Vehículos                                                                       ;24720;24720;9303
+17;03;01;12;;;P;RECUPERACIÓN DE PRÉSTAMOS                                                       ;23690;23690;163322
+17;03;01;12;10;;P;Ingresos por Percibir                                                           ;23690;23690;163322
+17;03;01;15;;;P;SALDO INICIAL DE CAJA                                                           ;0;1053326;0
+17;03;01;21;;;P;GASTOS EN PERSONAL                                                              ;2853184;2853183;917929
+17;03;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;1390198;1390198;151116
+17;03;01;23;;;P;PRESTACIONES DE SEGURIDAD SOCIAL                                                ;0;1;0
+17;03;01;23;03;;P;Prestaciones Sociales del Empleador                                             ;0;1;0
+17;03;01;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;10700477;10700477;2812433
+17;03;01;24;03;;P;A Otras Entidades Públicas                                                      ;10700477;10700477;2812433
+17;03;01;24;03;001;P;Propiedad Minera                                                                                                                                                                                                                                          ;2836127;2836127;681789
+17;03;01;24;03;002;P;Cierre Faenas  y Gestión Ambiental                                                                                                                                                                                                                        ;1736356;1736356;488062
+17;03;01;24;03;003;P;Gestión de Minería                                                                                                                                                                                                                                        ;1821152;1821152;525671
+17;03;01;24;03;004;P;Gestión de Geología                                                                                                                                                                                                                                       ;784767;784767;268290
+17;03;01;24;03;005;P;Geología Aplicada                                                                                                                                                                                                                                         ;1609860;1609860;420369
+17;03;01;24;03;006;P;Laboratorio                                                                                                                                                                                                                                               ;1386425;1386425;294553
+17;03;01;24;03;007;P;Depósitos de Relaves                                                                                                                                                                                                                                      ;525790;525790;133699
+17;03;01;25;;;P;INTEGROS AL FISCO                                                               ;30900;30900;8447
+17;03;01;25;01;;P;Impuestos                                                                       ;30900;30900;8447
+17;03;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;327131;327131;3220
+17;03;01;29;03;;P;Vehículos                                                                       ;26780;26780;0
+17;03;01;29;05;;P;Máquinas y Equipos                                                              ;19570;19570;2821
+17;03;01;29;06;;P;Equipos Informáticos                                                            ;57271;57271;231
+17;03;01;29;07;;P;Programas Informáticos                                                          ;223510;223510;168
+17;03;01;34;;;P;SERVICIO DE LA DEUDA                                                            ;0;1053326;1053326
+17;03;01;34;07;;P;Deuda Flotante                                                                  ;0;1053326;1053326
+;;;;;;;RESULTADO;;;-720916

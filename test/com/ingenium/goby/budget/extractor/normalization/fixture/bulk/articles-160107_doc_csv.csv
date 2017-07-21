@@ -1,0 +1,29 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+10;03;01;07;;;P;INGRESOS DE OPERACIÓN                                                           ;15392;14392;4490
+10;03;01;07;02;;P;Venta de Servicios                                                              ;15392;14392;4490
+10;03;01;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;374890;374890;182193
+10;03;01;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;333045;333045;153899
+10;03;01;08;02;;P;Multas y Sanciones Pecuniarias                                                  ;0;0;10215
+10;03;01;08;99;;P;Otros                                                                           ;41845;41845;18079
+10;03;01;09;;;P;APORTE FISCAL                                                                   ;39767182;39767182;11212419
+10;03;01;09;01;;P;Libre                                                                           ;39767182;39767182;11212419
+10;03;01;10;;;P;VENTA DE ACTIVOS NO FINANCIEROS                                                 ;0;0;4842
+10;03;01;10;03;;P;Vehículos                                                                       ;0;0;4842
+10;03;01;12;;;P;RECUPERACIÓN DE PRÉSTAMOS                                                       ;0;1000;714647
+10;03;01;12;10;;P;Ingresos por Percibir                                                           ;0;1000;714647
+10;03;01;15;;;P;SALDO INICIAL DE CAJA                                                           ;0;1210034;0
+10;03;01;21;;;P;GASTOS EN PERSONAL                                                              ;27035008;27035008;8687828
+10;03;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;12900223;12900223;2276834
+10;03;01;23;;;P;PRESTACIONES DE SEGURIDAD SOCIAL                                                ;0;0;343353
+10;03;01;23;03;;P;Prestaciones Sociales del Empleador                                             ;0;0;343353
+10;03;01;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;32966;32966;0
+10;03;01;24;01;;P;Al Sector Privado                                                               ;32966;32966;0
+10;03;01;24;01;275;P;Pericias Médico-Legales D.L. N° 3.504/80                                                                                                                                                                                                                  ;32966;32966;0
+10;03;01;25;;;P;INTEGROS AL FISCO                                                               ;1685;1685;9
+10;03;01;25;01;;P;Impuestos                                                                       ;1685;1685;9
+10;03;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;187582;187582;151340
+10;03;01;29;03;;P;Vehículos                                                                       ;127720;127720;127520
+10;03;01;29;04;;P;Mobiliario y Otros                                                              ;59862;59862;23820
+10;03;01;34;;;P;SERVICIO DE LA DEUDA                                                            ;0;1210034;1210033
+10;03;01;34;07;;P;Deuda Flotante                                                                  ;0;1210034;1210033
+;;;;;;;RESULTADO;;;-550806

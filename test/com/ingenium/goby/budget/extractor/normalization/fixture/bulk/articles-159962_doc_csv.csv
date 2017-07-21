@@ -1,0 +1,12 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+05;31;01;09;;;D;APORTE FISCAL                                                                   ;58873;58873;26074
+05;31;01;09;01;;D;Libre                                                                           ;58873;58873;26074
+05;31;01;12;;;D;RECUPERACIÓN DE PRÉSTAMOS                                                       ;120;120;0
+05;31;01;12;07;;D;Por Anticipos por Cambio de Residencia                                          ;120;120;0
+05;31;01;21;;;D;GASTOS EN PERSONAL                                                              ;6158;6158;886
+05;31;01;22;;;D;BIENES Y SERVICIOS DE CONSUMO                                                   ;39711;39711;184
+05;31;01;29;;;D;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;13004;13004;0
+05;31;01;29;03;;D;Vehículos                                                                       ;13004;13004;0
+05;31;01;32;;;D;PRÉSTAMOS                                                                       ;120;120;0
+05;31;01;32;07;;D;Por Anticipos por Cambio de Residencia                                          ;120;120;0
+;;;;;;;RESULTADO;;;25004

@@ -1,0 +1,14 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+22;01;04;05;;;P;TRANSFERENCIAS CORRIENTES                                                       ;1327443;1327443;347000
+22;01;04;05;02;;P;Del Gobierno Central                                                            ;1327443;1327443;347000
+22;01;04;05;02;002;P;Programa de Modernización del Estado-BID                                                                                                                                                                                                                  ;1327443;1327443;347000
+22;01;04;09;;;P;APORTE FISCAL                                                                   ;1688933;1440651;412465
+22;01;04;09;01;;P;Libre                                                                           ;1688933;1440651;412465
+22;01;04;21;;;P;GASTOS EN PERSONAL                                                              ;910152;661870;187802
+22;01;04;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;679361;679361;120211
+22;01;04;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;1327443;1327443;71970
+22;01;04;24;03;;P;A Otras Entidades Públicas                                                      ;1327443;1327443;71970
+22;01;04;24;03;002;P;Programa de Modernización del Estado - BID                                                                                                                                                                                                                ;1327443;1327443;71970
+22;01;04;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;99420;99420;8169
+22;01;04;29;07;;P;Programas Informáticos                                                          ;99420;99420;8169
+;;;;;;;RESULTADO;;;371313

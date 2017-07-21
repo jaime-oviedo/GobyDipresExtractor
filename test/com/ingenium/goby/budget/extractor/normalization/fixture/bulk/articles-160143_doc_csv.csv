@@ -1,0 +1,42 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+13;01;01;05;;;P;TRANSFERENCIAS CORRIENTES                                                       ;278883;298601;19718
+13;01;01;05;01;;P;Del Sector Privado                                                              ;10;19728;19718
+13;01;01;05;01;003;P;Administradora de Fondos para Bonificación por Retiro                                                                                                                                                                                                     ;10;19728;19718
+13;01;01;05;02;;P;Del Gobierno Central                                                            ;278873;278873;0
+13;01;01;05;02;024;P;De Subsecretaría de Economía FIE  a  ACHIPIA                                                                                                                                                                                                              ;278873;278873;0
+13;01;01;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;76878;76878;11571
+13;01;01;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;68578;68578;11539
+13;01;01;08;99;;P;Otros                                                                           ;8300;8300;32
+13;01;01;09;;;P;APORTE FISCAL                                                                   ;29882454;35882454;6854630
+13;01;01;09;01;;P;Libre                                                                           ;29882454;35882454;6854630
+13;01;01;15;;;P;SALDO INICIAL DE CAJA                                                           ;0;47384;0
+13;01;01;21;;;P;GASTOS EN PERSONAL                                                              ;5791146;5774714;1964883
+13;01;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;1368826;1368826;261761
+13;01;01;23;;;P;PRESTACIONES DE SEGURIDAD SOCIAL                                                ;10;83544;83534
+13;01;01;23;03;;P;Prestaciones Sociales del Empleador                                             ;10;83544;83534
+13;01;01;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;22914997;28914997;4661640
+13;01;01;24;01;;P;Al Sector Privado                                                               ;1235271;7235271;242803
+13;01;01;24;01;368;P;Fundación de Comunicaciones del Agro                                                                                                                                                                                                                      ;619683;619683;210000
+13;01;01;24;01;369;P;Emergencias Agrícolas                                                                                                                                                                                                                                     ;10;6000010;0
+13;01;01;24;01;370;P;Programa de Apoyo a la Educación Agrícola y Rural                                                                                                                                                                                                         ;283563;283563;0
+13;01;01;24;01;377;P;Red Agroclimática Nacional                                                                                                                                                                                                                                ;282106;282106;0
+13;01;01;24;01;381;P;Consorcio Lechero S.A.                                                                                                                                                                                                                                    ;15697;15697;15697
+13;01;01;24;01;382;P;Corporación Cinco al Día                                                                                                                                                                                                                                  ;34212;34212;17106
+13;01;01;24;02;;P;Al Gobierno Central                                                             ;20099284;20099284;3853630
+13;01;01;24;02;001;P;Programa Promoción de Exportaciones - DIRECON                                                                                                                                                                                                             ;9910951;9910951;2753260
+13;01;01;24;02;002;P;Corporación de Fomento de la Producción                                                                                                                                                                                                                   ;4173755;4173755;739061
+13;01;01;24;02;006;P;Corporación de Fomento de la Producción - Seguro Agrícola                                                                                                                                                                                                 ;6014578;6014578;361309
+13;01;01;24;03;;P;A Otras Entidades Públicas                                                      ;1567873;1567873;565207
+13;01;01;24;03;359;P;Agencia Chilena para la Inocuidad Alimentaria                                                                                                                                                                                                             ;1072848;1072848;194027
+13;01;01;24;03;383;P;Apoyo a la Comercialización de Pequeños Productores de Trigo                                                                                                                                                                                              ;495025;495025;371180
+13;01;01;24;07;;P;A Organismos Internacionales                                                    ;12569;12569;0
+13;01;01;24;07;002;P;Fondo Latinoamericano de Arroces para Riego                                                                                                                                                                                                               ;12569;12569;0
+13;01;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;163236;163236;18003
+13;01;01;29;03;;P;Vehículos                                                                       ;17057;17057;17057
+13;01;01;29;04;;P;Mobiliario y Otros                                                              ;4367;4367;471
+13;01;01;29;05;;P;Máquinas y Equipos                                                              ;3667;3667;283
+13;01;01;29;06;;P;Equipos Informáticos                                                            ;82226;82226;192
+13;01;01;29;07;;P;Programas Informáticos                                                          ;55919;55919;0
+13;01;01;34;;;P;SERVICIO DE LA DEUDA                                                            ;0;0;958065
+13;01;01;34;07;;P;Deuda Flotante                                                                  ;0;0;958065
+;;;;;;;RESULTADO;;;-1061967

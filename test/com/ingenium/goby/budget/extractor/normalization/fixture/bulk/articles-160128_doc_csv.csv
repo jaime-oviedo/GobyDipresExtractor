@@ -1,0 +1,22 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+11;24;01;05;;;P;TRANSFERENCIAS CORRIENTES                                                       ;15633;15633;15633
+11;24;01;05;02;;P;Del Gobierno Central                                                            ;15633;15633;15633
+11;24;01;05;02;003;P;Ejército de Chile                                                                                                                                                                                                                                         ;8734;8734;8734
+11;24;01;05;02;004;P;Fuerza Aérea de Chile                                                                                                                                                                                                                                     ;6899;6899;6899
+11;24;01;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;4601;4601;16830
+11;24;01;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;4601;4601;16447
+11;24;01;08;99;;P;Otros                                                                           ;0;0;383
+11;24;01;09;;;P;APORTE FISCAL                                                                   ;4334175;4334175;1227705
+11;24;01;09;01;;P;Libre                                                                           ;4334175;4334175;1227705
+11;24;01;21;;;P;GASTOS EN PERSONAL                                                              ;2764080;2764080;844832
+11;24;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;623839;623839;134705
+11;24;01;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;904690;904690;218943
+11;24;01;24;01;;P;Al Sector Privado                                                               ;115226;115226;27566
+11;24;01;24;01;001;P;Becas                                                                                                                                                                                                                                                     ;115226;115226;27566
+11;24;01;24;03;;P;A Otras Entidades Públicas                                                      ;710433;710433;191377
+11;24;01;24;03;001;P;Academia Nacional de Estudios Políticos y Estratégicos                                                                                                                                                                                                    ;710433;710433;191377
+11;24;01;24;07;;P;A Organismos Internacionales                                                    ;79031;79031;0
+11;24;01;24;07;002;P;UNASUR                                                                                                                                                                                                                                                    ;79031;79031;0
+11;24;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;61800;61800;43669
+11;24;01;29;07;;P;Programas Informáticos                                                          ;61800;61800;43669
+;;;;;;;RESULTADO;;;18019

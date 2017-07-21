@@ -1,0 +1,45 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+14;01;04;05;;;P;TRANSFERENCIAS CORRIENTES                                                       ;572147;572147;0
+14;01;04;05;02;;P;Del Gobierno Central                                                            ;572147;572147;0
+14;01;04;05;02;001;P;Corporación Nacional de Desarrollo Indígena                                                                                                                                                                                                               ;572147;572147;0
+14;01;04;06;;;P;RENTAS DE LA PROPIEDAD                                                          ;1363732;1363732;3674540
+14;01;04;09;;;P;APORTE FISCAL                                                                   ;798502;798502;187339
+14;01;04;09;01;;P;Libre                                                                           ;798502;798502;187339
+14;01;04;10;;;P;VENTA DE ACTIVOS NO FINANCIEROS                                                 ;19802350;19802350;946401
+14;01;04;10;01;;P;Terrenos                                                                        ;19802350;19802350;946401
+14;01;04;12;;;P;RECUPERACIÓN DE PRÉSTAMOS                                                       ;69646;69646;108563
+14;01;04;12;09;;P;Por Ventas a Plazo                                                              ;69646;69646;108563
+14;01;04;15;;;P;SALDO INICIAL DE CAJA                                                           ;0;55690;0
+14;01;04;21;;;P;GASTOS EN PERSONAL                                                              ;2905775;2905775;926169
+14;01;04;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;190961;190961;33778
+14;01;04;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;1560619;1560619;323265
+14;01;04;24;01;;P;Al Sector Privado                                                               ;1560619;1560619;323265
+14;01;04;24;01;002;P;Gestión y Normalización de Inmuebles                                                                                                                                                                                                                      ;239738;239738;64516
+14;01;04;24;01;003;P;Normalización de la Cartera de Postulaciones a Propiedad Fiscal                                                                                                                                                                                           ;383620;383620;87605
+14;01;04;24;01;004;P;Gestión de Propiedad Fiscal en relación a los pueblos indígenas                                                                                                                                                                                           ;552371;552371;82326
+14;01;04;24;01;005;P;Puesta en Valor del Territorio Fiscal                                                                                                                                                                                                                     ;299359;299359;88818
+14;01;04;24;01;009;P;Recuperación y Fortalecimiento de Rutas Patrimoniales                                                                                                                                                                                                     ;85531;85531;0
+14;01;04;25;;;P;INTEGROS AL FISCO                                                               ;4968001;4968001;913183
+14;01;04;25;99;;P;Otros Integros al Fisco                                                         ;4968001;4968001;913183
+14;01;04;32;;;P;PRÉSTAMOS                                                                       ;64227;64227;2996
+14;01;04;32;09;;P;Por Ventas a Plazo                                                              ;64227;64227;2996
+14;01;04;33;;;P;TRANSFERENCIAS DE CAPITAL                                                       ;12916794;12916794;1995013
+14;01;04;33;02;;P;Al Gobierno Central                                                             ;12916794;12916794;1995013
+14;01;04;33;02;001;P;Gobierno Regional Región I                                                                                                                                                                                                                                ;2018765;2018765;0
+14;01;04;33;02;002;P;Gobierno Regional Región II                                                                                                                                                                                                                               ;5941109;5941109;1467727
+14;01;04;33;02;003;P;Gobierno Regional Región III                                                                                                                                                                                                                              ;539801;539801;161168
+14;01;04;33;02;004;P;Gobierno Regional Región IV                                                                                                                                                                                                                               ;230377;230377;4895
+14;01;04;33;02;005;P;Gobierno Regional Región V                                                                                                                                                                                                                                ;1198993;1198993;0
+14;01;04;33;02;006;P;Gobierno Regional Región VI                                                                                                                                                                                                                               ;86300;86300;0
+14;01;04;33;02;007;P;Gobierno Regional Región VII                                                                                                                                                                                                                              ;291792;291792;0
+14;01;04;33;02;008;P;Gobierno Regional Región VIII                                                                                                                                                                                                                             ;275480;275480;0
+14;01;04;33;02;009;P;Gobierno Regional Región IX                                                                                                                                                                                                                               ;161088;161088;0
+14;01;04;33;02;010;P;Gobierno Regional Región X                                                                                                                                                                                                                                ;739452;739452;0
+14;01;04;33;02;011;P;Gobierno Regional Región XI                                                                                                                                                                                                                               ;2443;2443;16818
+14;01;04;33;02;012;P;Gobierno Regional Región XII                                                                                                                                                                                                                              ;283196;283196;0
+14;01;04;33;02;013;P;Gobierno Regional Región Metropolitana de Santiago                                                                                                                                                                                                        ;451246;451246;344405
+14;01;04;33;02;014;P;Gobierno Regional Región XIV                                                                                                                                                                                                                              ;153037;153037;0
+14;01;04;33;02;015;P;Gobierno Regional Región XV                                                                                                                                                                                                                               ;543715;543715;0
+14;01;04;34;;;P;SERVICIO DE LA DEUDA                                                            ;0;55690;55689
+14;01;04;34;07;;P;Deuda Flotante                                                                  ;0;55690;55689
+;;;;;;;RESULTADO;;;666750

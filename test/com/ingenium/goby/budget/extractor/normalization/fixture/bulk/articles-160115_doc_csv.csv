@@ -1,0 +1,33 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+11;03;01;05;;;P;TRANSFERENCIAS CORRIENTES                                                       ;1335966;1335966;1329337
+11;03;01;05;01;;P;Del Sector Privado                                                              ;6629;6629;0
+11;03;01;05;01;001;P;Donaciones                                                                                                                                                                                                                                                ;6629;6629;0
+11;03;01;05;02;;P;Del Gobierno Central                                                            ;1329337;1329337;1329337
+11;03;01;05;02;002;P;Ejército de Chile                                                                                                                                                                                                                                         ;1329337;1329337;1329337
+11;03;01;06;;;P;RENTAS DE LA PROPIEDAD                                                          ;355033;355033;158821
+11;03;01;06;01;;P;Arriendo de Activos No Financieros                                              ;355033;355033;158821
+11;03;01;07;;;P;INGRESOS DE OPERACIÓN                                                           ;62510822;62510822;19096400
+11;03;01;07;01;;P;Venta de Bienes                                                                 ;442324;442324;46245
+11;03;01;07;02;;P;Venta de Servicios                                                              ;62068498;62068498;19050155
+11;03;01;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;1286329;1286329;453026
+11;03;01;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;10688;10688;5011
+11;03;01;08;99;;P;Otros                                                                           ;1275641;1275641;448015
+11;03;01;10;;;P;VENTA DE ACTIVOS NO FINANCIEROS                                                 ;2575;2575;0
+11;03;01;10;03;;P;Vehículos                                                                       ;2575;2575;0
+11;03;01;12;;;P;RECUPERACIÓN DE PRÉSTAMOS                                                       ;6977003;6977003;10321249
+11;03;01;12;10;;P;Ingresos por Percibir                                                           ;6977003;6977003;10321249
+11;03;01;21;;;P;GASTOS EN PERSONAL                                                              ;39117093;39117093;12793054
+11;03;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;26220397;26220397;6303458
+11;03;01;23;;;P;PRESTACIONES DE SEGURIDAD SOCIAL                                                ;252549;252549;60422
+11;03;01;23;01;;P;Prestaciones Previsionales                                                      ;252549;252549;60422
+11;03;01;26;;;P;OTROS GASTOS CORRIENTES                                                         ;0;0;2058
+11;03;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;1391895;1391895;104106
+11;03;01;29;03;;P;Vehículos                                                                       ;32715;32715;0
+11;03;01;29;04;;P;Mobiliario y Otros                                                              ;49443;49443;2281
+11;03;01;29;05;;P;Máquinas y Equipos                                                              ;656431;656431;94630
+11;03;01;29;06;;P;Equipos Informáticos                                                            ;319000;319000;5757
+11;03;01;29;07;;P;Programas Informáticos                                                          ;320205;320205;1438
+11;03;01;29;99;;P;Otros Activos no Financieros                                                    ;14101;14101;0
+11;03;01;34;;;P;SERVICIO DE LA DEUDA                                                            ;5485794;5485794;7348861
+11;03;01;34;07;;P;Deuda Flotante                                                                  ;5485794;5485794;7348861
+;;;;;;;RESULTADO;;;4746874

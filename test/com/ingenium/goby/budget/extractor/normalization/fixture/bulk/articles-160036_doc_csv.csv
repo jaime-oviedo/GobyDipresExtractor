@@ -1,0 +1,45 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+06;01;01;05;;;P;TRANSFERENCIAS CORRIENTES                                                       ;1869700;1949615;0
+06;01;01;05;01;;P;Del Sector Privado                                                              ;0;79915;0
+06;01;01;05;01;003;P;Administración del Fondo para Bonificación por Retiro                                                                                                                                                                                                     ;0;79915;0
+06;01;01;05;02;;P;Del Gobierno Central                                                            ;1869700;1869700;0
+06;01;01;05;02;001;P;Consejo Nacional de la Cultura y las Artes                                                                                                                                                                                                                ;1260700;1260700;0
+06;01;01;05;02;005;P;Secretaría y Administración General de Hacienda (Programa 01)                                                                                                                                                                                             ;609000;609000;0
+06;01;01;07;;;P;INGRESOS DE OPERACIÓN                                                           ;330050;330050;145789
+06;01;01;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;407203;407203;78545
+06;01;01;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;228303;228303;55652
+06;01;01;08;02;;P;Multas y Sanciones Pecuniarias                                                  ;0;30;119
+06;01;01;08;99;;P;Otros                                                                           ;178900;178870;22774
+06;01;01;09;;;P;APORTE FISCAL                                                                   ;29747364;29747364;10617100
+06;01;01;09;01;;P;Libre                                                                           ;29747364;29747364;10617100
+06;01;01;11;;;P;VENTA DE ACTIVOS FINANCIEROS                                                    ;-1869700;-1639700;0
+06;01;01;11;03;;P;Operaciones de Cambio                                                           ;-1869700;-1639700;0
+06;01;01;15;;;P;SALDO INICIAL DE CAJA                                                           ;0;1019518;0
+06;01;01;21;;;P;GASTOS EN PERSONAL                                                              ;21064945;20993760;7100614
+06;01;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;5373180;5433180;1260955
+06;01;01;23;;;P;PRESTACIONES DE SEGURIDAD SOCIAL                                                ;0;411295;2188
+06;01;01;23;01;;P;Prestaciones Previsionales                                                      ;0;2188;2188
+06;01;01;23;03;;P;Prestaciones Sociales del Empleador                                             ;0;409107;0
+06;01;01;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;1092300;1262300;175861
+06;01;01;24;01;;P;Al Sector Privado                                                               ;151401;151401;68054
+06;01;01;24;01;001;P;Instituto Chileno de Campos de Hielo                                                                                                                                                                                                                      ;83347;83347;0
+06;01;01;24;01;006;P;Consejo Chileno para las Relaciones Internacionales                                                                                                                                                                                                       ;68054;68054;68054
+06;01;01;24;02;;P;Al Gobierno Central                                                             ;194088;194088;0
+06;01;01;24;02;004;P;Instituto Nacional de Estadísticas                                                                                                                                                                                                                        ;194088;194088;0
+06;01;01;24;03;;P;A Otras Entidades Públicas                                                      ;746811;916811;107807
+06;01;01;24;03;038;P;Programa Académico en Relaciones Internacionales                                                                                                                                                                                                          ;219904;219904;26805
+06;01;01;24;03;039;P;Programa de Reuniones Internacionales                                                                                                                                                                                                                     ;285996;455996;65264
+06;01;01;24;03;597;P;Integración Vecinal con Zonas Fronterizas                                                                                                                                                                                                                 ;41264;41264;2201
+06;01;01;24;03;609;P;Inserción Internacional de las Regiones                                                                                                                                                                                                                   ;56650;56650;730
+06;01;01;24;03;617;P;Programa Oficina de Desarrollo Organizacional                                                                                                                                                                                                             ;103000;103000;5399
+06;01;01;24;03;622;P;Mejoramiento de la atención ciudadana en el Ministerio de RR.EE.                                                                                                                                                                                          ;14247;14247;4512
+06;01;01;24;03;626;P;Registro de Chilenos en el Exterior                                                                                                                                                                                                                       ;25750;25750;2896
+06;01;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;2580302;2580302;1259264
+06;01;01;29;02;;P;Edificios                                                                       ;2528111;2528111;1251315
+06;01;01;29;04;;P;Mobiliario y Otros                                                              ;22321;22321;7949
+06;01;01;29;05;;P;Máquinas y Equipos                                                              ;29870;29870;0
+06;01;01;31;;;P;INICIATIVAS DE INVERSIÓN                                                        ;373890;373890;0
+06;01;01;31;02;;P;Proyectos                                                                       ;373890;373890;0
+06;01;01;34;;;P;SERVICIO DE LA DEUDA                                                            ;0;759323;759322
+06;01;01;34;07;;P;Deuda Flotante                                                                  ;0;759323;759322
+;;;;;;;RESULTADO;;;283230

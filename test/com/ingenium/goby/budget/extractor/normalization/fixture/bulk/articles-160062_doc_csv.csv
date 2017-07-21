@@ -1,0 +1,14 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+08;01;06;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;48437;48437;27321
+08;01;06;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;42865;42865;25289
+08;01;06;08;99;;P;Otros                                                                           ;5572;5572;2032
+08;01;06;09;;;P;APORTE FISCAL                                                                   ;8698076;8698076;2599888
+08;01;06;09;01;;P;Libre                                                                           ;8698076;8698076;2599888
+08;01;06;12;;;P;RECUPERACIÓN DE PRÉSTAMOS                                                       ;10;10;33903
+08;01;06;12;10;;P;Ingresos por Percibir                                                           ;10;10;33903
+08;01;06;21;;;P;GASTOS EN PERSONAL                                                              ;1661608;1661608;510341
+08;01;06;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;179740;179740;28859
+08;01;06;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;6905175;6905175;2010771
+08;01;06;24;03;;P;A Otras Entidades Públicas                                                      ;6905175;6905175;2010771
+08;01;06;24;03;001;P;Tribunales Tributarios y Aduaneros                                                                                                                                                                                                                        ;6905175;6905175;2010771
+;;;;;;;RESULTADO;;;111141

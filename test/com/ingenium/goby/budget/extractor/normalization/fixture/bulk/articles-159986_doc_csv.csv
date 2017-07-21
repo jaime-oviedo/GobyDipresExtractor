@@ -1,0 +1,37 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+04;01;01;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;1399059;1399059;629387
+04;01;01;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;883816;883816;442649
+04;01;01;08;02;;P;Multas y Sanciones Pecuniarias                                                  ;31;31;34581
+04;01;01;08;99;;P;Otros                                                                           ;515212;515212;152157
+04;01;01;09;;;P;APORTE FISCAL                                                                   ;71637069;71637069;25859406
+04;01;01;09;01;;P;Libre                                                                           ;70405877;70405877;25443268
+04;01;01;09;03;;P;Servicio de la Deuda Externa                                                    ;1231192;1231192;416138
+04;01;01;10;;;P;VENTA DE ACTIVOS NO FINANCIEROS                                                 ;23920;23920;0
+04;01;01;10;03;;P;Vehículos                                                                       ;23874;23874;0
+04;01;01;10;04;;P;Mobiliario y Otros                                                              ;10;10;0
+04;01;01;10;05;;P;Máquinas y Equipos                                                              ;26;26;0
+04;01;01;10;99;;P;Otros Activos no Financieros                                                    ;10;10;0
+04;01;01;12;;;P;RECUPERACIÓN DE PRÉSTAMOS                                                       ;138664;950393;950393
+04;01;01;12;10;;P;Ingresos por Percibir                                                           ;138664;950393;950393
+04;01;01;15;;;P;SALDO INICIAL DE CAJA                                                           ;0;1142892;0
+04;01;01;21;;;P;GASTOS EN PERSONAL                                                              ;55560295;55560295;19963470
+04;01;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;10046530;10046530;2551835
+04;01;01;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;112633;112633;8995
+04;01;01;24;01;;P;Al Sector Privado                                                               ;13976;13976;1826
+04;01;01;24;01;006;P;Otras Transferencias                                                                                                                                                                                                                                      ;13976;13976;1826
+04;01;01;24;07;;P;A Organismos Internacionales                                                    ;98657;98657;7169
+04;01;01;24;07;002;P;A Organismos Internacionales                                                                                                                                                                                                                              ;98657;98657;7169
+04;01;01;25;;;P;INTEGROS AL FISCO                                                               ;5119;5119;374
+04;01;01;25;01;;P;Impuestos                                                                       ;5119;5119;374
+04;01;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;3362822;3362822;149075
+04;01;01;29;04;;P;Mobiliario y Otros                                                              ;25750;25750;10010
+04;01;01;29;05;;P;Máquinas y Equipos                                                              ;51500;51500;2971
+04;01;01;29;06;;P;Equipos Informáticos                                                            ;1883115;1883115;55825
+04;01;01;29;07;;P;Programas Informáticos                                                          ;1402457;1402457;80269
+04;01;01;31;;;P;INICIATIVAS DE INVERSIÓN                                                        ;2880121;2880121;0
+04;01;01;31;02;;P;Proyectos                                                                       ;2880121;2880121;0
+04;01;01;34;;;P;SERVICIO DE LA DEUDA                                                            ;1231192;3185813;2370759
+04;01;01;34;02;;P;Amortización Deuda Externa                                                      ;994295;994295;329335
+04;01;01;34;04;;P;Intereses Deuda Externa                                                         ;236897;236897;86803
+04;01;01;34;07;;P;Deuda Flotante                                                                  ;0;1954621;1954621
+;;;;;;;RESULTADO;;;2394678

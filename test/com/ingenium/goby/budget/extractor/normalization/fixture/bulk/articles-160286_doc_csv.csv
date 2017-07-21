@@ -1,0 +1,27 @@
+Partida;Capítulo;Programa;Subtítulo;Item;Asignación;Moneda;Denominación;Presupuesto Inicial;Presupuesto Vigente;Ejecución Acumulada al ABRIL
+27;02;01;05;;;P;TRANSFERENCIAS CORRIENTES                                                       ;885150;885150;295048
+27;02;01;05;02;;P;Del Gobierno Central                                                            ;885150;885150;295048
+27;02;01;05;02;002;P;Servicio Nacional de la Mujer y la Equidad de Género - Programa 03                                                                                                                                                                                        ;885150;885150;295048
+27;02;01;08;;;P;OTROS INGRESOS CORRIENTES                                                       ;307888;307888;318961
+27;02;01;08;01;;P;Recuperaciones y Reembolsos por Licencias Médicas                               ;298972;298972;116304
+27;02;01;08;99;;P;Otros                                                                           ;8916;8916;202657
+27;02;01;09;;;P;APORTE FISCAL                                                                   ;22912467;22912467;10352896
+27;02;01;09;01;;P;Libre                                                                           ;22912467;22912467;10352896
+27;02;01;10;;;P;VENTA DE ACTIVOS NO FINANCIEROS                                                 ;6592;6592;0
+27;02;01;10;03;;P;Vehículos                                                                       ;6592;6592;0
+27;02;01;15;;;P;SALDO INICIAL DE CAJA                                                           ;1000;1000;0
+27;02;01;21;;;P;GASTOS EN PERSONAL                                                              ;9592392;9592392;2950474
+27;02;01;22;;;P;BIENES Y SERVICIOS DE CONSUMO                                                   ;2387982;2387982;494203
+27;02;01;24;;;P;TRANSFERENCIAS CORRIENTES                                                       ;12053670;12053670;6483655
+27;02;01;24;01;;P;Al Sector Privado                                                               ;12053670;12053670;6483655
+27;02;01;24;01;001;P;PRODEMU                                                                                                                                                                                                                                                   ;8803073;8803073;4401537
+27;02;01;24;01;002;P;Fundación de la Familia                                                                                                                                                                                                                                   ;1780165;1780165;890082
+27;02;01;24;01;003;P;Programa Buen Vivir de la Sexualidad y la Reproducción                                                                                                                                                                                                    ;830982;830982;784731
+27;02;01;24;01;004;P;Programa Mujer, Ciudadanía y Participación                                                                                                                                                                                                                ;639450;639450;407305
+27;02;01;29;;;P;ADQUISICIÓN DE ACTIVOS NO FINANCIEROS                                           ;78053;78053;10646
+27;02;01;29;03;;P;Vehículos                                                                       ;15450;15450;0
+27;02;01;29;05;;P;Máquinas y Equipos                                                              ;1545;1545;0
+27;02;01;29;07;;P;Programas Informáticos                                                          ;61058;61058;10646
+27;02;01;34;;;P;SERVICIO DE LA DEUDA                                                            ;1000;1000;0
+27;02;01;34;07;;P;Deuda Flotante                                                                  ;1000;1000;0
+;;;;;;;RESULTADO;;;1027927

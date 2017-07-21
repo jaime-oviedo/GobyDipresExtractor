@@ -36,6 +36,26 @@ public class BudgetExecutionCrawlerTest {
         ClassLoader.getSystemResource("logging.properties").getPath());
   }
 
+  /**
+   * Test method for
+   * {@link com.ingenium.goby.budget.extractor.crawl.BudgetExecutionCrawler#findExecutionFIles()}.
+   */
+  @Test
+  public final void testCrawlAndFetchExecutionFilesList() {
+    BudgetExecutionCrawlerTest.log
+        .info("Testing crawlAndFetchExecutionFilesList method");
+
+    final BudgetExecutionCrawler crawler = new BudgetExecutionCrawler();
+    final List<String> executionFiles = crawler
+        .crawlAndFetchExecutionFilesList(2017, ExecutionPeriod.APRIL);
+    for (final String fileName : executionFiles) {
+      BudgetExecutionCrawlerTest.log
+          .info(new StringBuffer("Found extractable file:").append(fileName)
+              .toString());
+    }
+    Assert.assertTrue(true);
+  }
+
   @Test
   public final void testExtractExecutionFilesList() {
     BudgetExecutionCrawlerTest.log
@@ -66,35 +86,20 @@ public class BudgetExecutionCrawlerTest {
 
     final BudgetExecutionCrawler crawler = new BudgetExecutionCrawler();
 
-    final List<String> executionFiles = crawler.extractExecutionFilesList(
-        programLevelBudgetExecutionYearPage, ExecutionPeriod.APRIL);
-    for (final String fileName : executionFiles) {
-      BudgetExecutionCrawlerTest.log
-          .info(new StringBuffer("Found extractable file:").append(fileName)
-              .toString());
+    if (programLevelBudgetExecutionYearPage != null) {
+      final List<String> executionFiles = crawler.extractExecutionFilesList(
+          programLevelBudgetExecutionYearPage, ExecutionPeriod.APRIL);
+      for (final String fileName : executionFiles) {
+        BudgetExecutionCrawlerTest.log
+            .info(new StringBuffer("Found extractable file:").append(fileName)
+                .toString());
+      }
+      Assert.assertTrue(executionFiles.size() > 0);
+    } else {
+      Assert.fail(
+          "Unable to extract the program level buget execution page by year");
     }
-    Assert.assertTrue(executionFiles.size() > 0);
     webClient.close();
-  }
-
-  /**
-   * Test method for
-   * {@link com.ingenium.goby.budget.extractor.crawl.BudgetExecutionCrawler#findExecutionFIles()}.
-   */
-  @Test
-  public final void testCrawlAndFetchExecutionFilesList() {
-    BudgetExecutionCrawlerTest.log
-        .info("Testing crawlAndFetchExecutionFilesList method");
-
-    final BudgetExecutionCrawler crawler = new BudgetExecutionCrawler();
-    final List<String> executionFiles = crawler
-        .crawlAndFetchExecutionFilesList(2017, ExecutionPeriod.APRIL);
-    for (final String fileName : executionFiles) {
-      BudgetExecutionCrawlerTest.log
-          .info(new StringBuffer("Found extractable file:").append(fileName)
-              .toString());
-    }
-    Assert.assertTrue(true);
   }
 
 }

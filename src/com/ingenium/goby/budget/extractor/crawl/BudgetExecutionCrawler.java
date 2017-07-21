@@ -24,7 +24,7 @@ import org.apache.commons.lang3.StringUtils;
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
- * @author JaimeRodrigo
+ * @author joviedo
  * @uml.annotations
  *     derived_abstraction="platform:/resource/goby-design/budget-extractor.emx#_bPdhEF5HEeeguv5GRmiMJw"
  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_bPdhEF5HEeeguv5GRmiMJw"
@@ -37,32 +37,31 @@ public class BudgetExecutionCrawler {
   */
   static final Logger log = Logger.getLogger(
       "com.ingenium.goby.budget.extractor.crawl.BudgetExecutionCrawler");
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_GOL0wF5JEeeguv5GRmiMJw"
   */
   private String budgetDirectorateWebsiteUrl = "http://www.dipres.gob.cl";
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_3aiXoGEkEeeMhLKRNTgRlA"
   */
   private List<String> executionFilesList;
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_5nW0gGEkEeeMhLKRNTgRlA"
   */
   private String budgetExecutionFilesBaseUrl;
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
-  * Crea una nueva instancia de la clase BudgetExecutionCrawler.
   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_iI3o4F5HEeeguv5GRmiMJw"
   */
   public BudgetExecutionCrawler() {
@@ -72,7 +71,7 @@ public class BudgetExecutionCrawler {
     this.budgetExecutionFilesBaseUrl = null;
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * @param&nbsp;element<br>@return
@@ -125,7 +124,7 @@ public class BudgetExecutionCrawler {
     return executionPeriod;
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * @param&nbsp;programLevelBudgetExecutionYearPage
@@ -139,11 +138,11 @@ public class BudgetExecutionCrawler {
       final HtmlPage programLevelBudgetExecutionYearPage,
       final ExecutionPeriod executionPeriod) {
     // begin-user-code
-    
+
     // Get all divs
     final DomNodeList<DomElement> divTags = programLevelBudgetExecutionYearPage
         .getElementsByTagName("div");
-    
+
     // Keep only divs of class recuadro
     final List<DomElement> recuadroDivTags = new ArrayList<>(400);
     for (final DomElement divTag : divTags) {
@@ -151,9 +150,9 @@ public class BudgetExecutionCrawler {
         recuadroDivTags.add(divTag);
       }
     }
-    
+
     // Each recuadro should have exactly one div tag where the execution period can be identified.
-    
+
     final Iterator<DomElement> i = recuadroDivTags.iterator();
     final DomElement sampleRecuadroDiv = i.next();
     final DomNodeList<HtmlElement> sampleRecuadroInnerDivs = sampleRecuadroDiv
@@ -162,9 +161,9 @@ public class BudgetExecutionCrawler {
       BudgetExecutionCrawler.log.warning(
           "The structure of a budget execution html div section is not as expected, the maximum execution period may be extracted incorrectly");
     }
-    
+
     // Go through every recuadro div, extracting only the ones matching the period requested
-    
+
     final List<DomElement> matchingDivs = new ArrayList<>(300);
     for (final DomElement recuadroDivTag : recuadroDivTags) {
       final Iterator<HtmlElement> recuadroIterator = recuadroDivTag
@@ -181,7 +180,7 @@ public class BudgetExecutionCrawler {
         matchingDivs.add(recuadroDivTag);
       }
     }
-    
+
     final List<String> executionFiles = new ArrayList<>(300);
     for (final DomElement matchingDiv : matchingDivs) {
       final String csvFileUrl = this.getCsvFileUrl(matchingDiv);
@@ -189,11 +188,11 @@ public class BudgetExecutionCrawler {
         executionFiles.add(csvFileUrl);
       }
     }
-    
+
     return executionFiles;
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -208,85 +207,85 @@ public class BudgetExecutionCrawler {
     final WebClient webClient = new WebClient();
     List<String> executionFiles = new ArrayList<>(300);
     boolean trouble = false;
-    
+
     // Get the main page
     HtmlPage mainPage = null;
     try {
       mainPage = webClient.getPage(this.budgetDirectorateWebsiteUrl);
-      
+
       // Travel to budget page
       final String budgetPageURL = new StringBuffer("Presupuesto ")
           .append(String.valueOf(year)).append(" (en ejecución)").toString();
-      
+
       HtmlAnchor anchor = mainPage.getAnchorByText(budgetPageURL);
       HtmlPage budgetPage = null;
       budgetPage = anchor.click();
-      
+
       if ((budgetPage == null) || trouble) {
         BudgetExecutionCrawler.log
             .severe("Unable to fetch current budget page");
         webClient.close();
         return executionFiles;
       }
-      
+
       // Travel to Budget by Programs page
-      
+
       anchor = budgetPage.getAnchorByText("Resumen Presupuesto de Programas");
-      
+
       HtmlPage programLevelBudgetPage = null;
-      
+
       programLevelBudgetPage = anchor.click();
-      
+
       if ((programLevelBudgetPage == null) || trouble) {
         BudgetExecutionCrawler.log
             .severe("Unable to fetch current budget page");
         webClient.close();
         return executionFiles;
       }
-      
+
       // If the page is not null, we are at the budget law level, now we need to find the
       // execution-specific anchor
-      
+
       // Travel to Budget Execution by Programs page
-      
+
       anchor = programLevelBudgetPage
           .getAnchorByText("Informe Ejecución Programa");
       HtmlPage programLevelBudgetExecutionPage = null;
-      
+
       programLevelBudgetExecutionPage = anchor.click();
-      
+
       // We should be at the page of the current year, let's click on the specific year number just
       // to be sure.
-      
+
       anchor = programLevelBudgetExecutionPage
           .getAnchorByText(String.valueOf(year));
       HtmlPage programLevelBudgetExecutionYearPage = null;
       programLevelBudgetExecutionYearPage = anchor.click();
-      
+
       if (programLevelBudgetExecutionYearPage != null) {
         final String baseUri = programLevelBudgetExecutionYearPage.getBaseURI();
         final String fileName = FilenameUtils.getName(baseUri);
         this.budgetExecutionFilesBaseUrl = StringUtils
             .chop(baseUri.replace(fileName, ""));
-        
+
         // Everything went OK, so now we extract the file list
-        
+
         executionFiles = this.extractExecutionFilesList(
             programLevelBudgetExecutionYearPage, executionPeriod);
       }
-      
+
     } catch (final IOException e) {
       BudgetExecutionCrawler.log
           .severe("Unable to navigate to budget execution details");
       BudgetExecutionCrawler.log.finer(e.getMessage());
       trouble = true;
     }
-    
+
     webClient.close();
     return executionFiles;
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -298,7 +297,7 @@ public class BudgetExecutionCrawler {
     return this.budgetExecutionFilesBaseUrl;
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -326,12 +325,12 @@ public class BudgetExecutionCrawler {
           url = tmpUrl;
         }
       }
-      
+
     }
     return url;
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -343,7 +342,7 @@ public class BudgetExecutionCrawler {
     return this.executionFilesList;
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -355,7 +354,7 @@ public class BudgetExecutionCrawler {
     this.budgetExecutionFilesBaseUrl = url;
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -365,7 +364,7 @@ public class BudgetExecutionCrawler {
   public void setExecutionFilesList(final List<String> list) {
     // begin-user-code
     this.executionFilesList = list;
-    
+
     // end-user-code
   }
 }

@@ -10,7 +10,7 @@ import com.ingenium.goby.budget.extractor.extraction.ExtractionException;
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
- * @author JaimeRodrigo
+ * @author joviedo
  * @uml.annotations
  *     derived_abstraction="platform:/resource/goby-design/budget-extractor.emx#_KP91sFH0Eee-AoOzRlyylA"
  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_KP91sFH0Eee-AoOzRlyylA"
@@ -40,11 +40,10 @@ public class BudgetLawFactory {
   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_nndP4FehEeeJT_eFoT-0rA"
   */
   private String source;
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
-  * Crea una nueva instancia de la clase BudgetLawFactory.
   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_uR02IFehEeeJT_eFoT-0rA"
   */
   private BudgetLawFactory() {
@@ -55,7 +54,7 @@ public class BudgetLawFactory {
     extract = true;
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -72,7 +71,7 @@ public class BudgetLawFactory {
     return BudgetLawFactory.instance;
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -84,7 +83,7 @@ public class BudgetLawFactory {
     return source;
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -94,10 +93,10 @@ public class BudgetLawFactory {
   void setSource(String source) {
     // begin-user-code
     this.source = source;
-    
+
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -111,7 +110,7 @@ public class BudgetLawFactory {
     return getBudgetLaw();
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->

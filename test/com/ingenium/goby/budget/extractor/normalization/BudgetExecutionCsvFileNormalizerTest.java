@@ -6,7 +6,6 @@ package com.ingenium.goby.budget.extractor.normalization;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.List;
 
 import org.apache.commons.io.FileUtils;
 import org.junit.Assert;
@@ -42,8 +41,7 @@ public class BudgetExecutionCsvFileNormalizerTest {
     final String destination = new StringBuffer("stage").append(s)
         .append("test").append(s).append("execution-out.csv").toString();
 
-    List<List<String>> normalizedEntries = BudgetExecutionCsvFileNormalizer
-        .normalize(source, destination);
+    BudgetExecutionCsvFileNormalizer.normalize(source, destination);
     File destinationFile = new File(destination);
     File objectiveFile = new File(objective);
     Assert.assertTrue(FileUtils.contentEqualsIgnoreEOL(destinationFile,

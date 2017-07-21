@@ -10,7 +10,7 @@ import java.util.Collection;
  * <!-- begin-UML-doc -->
  * <p>Class that represents a budgetary chapter.<br>@author JaimeOviedo</p>
  * <!-- end-UML-doc -->
- * @author JaimeRodrigo
+ * @author joviedo
  * @uml.annotations
  *     derived_abstraction="platform:/resource/goby-design/budget-extractor.emx#_0D1s0FFmEeeK-J0N4T-kxQ"
  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_0D1s0FFmEeeK-J0N4T-kxQ"
@@ -19,7 +19,6 @@ public class Chapter extends CompositeBudgetElement {
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
-  * Crea una nueva instancia de la clase Chapter.
   * @param number
   * @param name
   * @param description
@@ -32,7 +31,7 @@ public class Chapter extends CompositeBudgetElement {
     super(number, name, description, type, BudgetHierarchyLevel.CHAPTER);
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <p>Adds a new assignment.</p>
@@ -48,10 +47,10 @@ public class Chapter extends CompositeBudgetElement {
     // begin-user-code
     Program program = this.getProgram(programNumber);
     program.addAssignment(subtitleNumber, itemNumber, assignment);
-    
+
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -69,7 +68,7 @@ public class Chapter extends CompositeBudgetElement {
     return program.getAssignment(subtitleNumber, itemNumber, assignmentNumber);
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -82,10 +81,10 @@ public class Chapter extends CompositeBudgetElement {
     // begin-user-code
     Program program = this.getProgram(programNumber);
     program.addItem(subtitleNumber, item);
-    
+
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -101,7 +100,7 @@ public class Chapter extends CompositeBudgetElement {
     return program.getItem(subtitleNumber, itemNumber);
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -113,10 +112,10 @@ public class Chapter extends CompositeBudgetElement {
     // begin-user-code
     Program program = this.getProgram(programNumber);
     program.addSubtitle(subtitle);
-    
+
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -131,7 +130,7 @@ public class Chapter extends CompositeBudgetElement {
     return program.getSubtitle(subtitleNumber);
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -141,10 +140,10 @@ public class Chapter extends CompositeBudgetElement {
   public void addProgram(Program program) {
     // begin-user-code
     super.addSubelement(program);
-    
+
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -155,10 +154,10 @@ public class Chapter extends CompositeBudgetElement {
   public Program getProgram(int programNumber) {
     // begin-user-code
     return (Program) super.getSubelement(programNumber);
-    
+
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -171,7 +170,7 @@ public class Chapter extends CompositeBudgetElement {
     return (Collection<Program>) super.getSubelements();
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->

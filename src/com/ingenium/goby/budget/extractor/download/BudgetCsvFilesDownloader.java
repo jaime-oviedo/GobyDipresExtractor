@@ -28,13 +28,13 @@ import org.apache.commons.io.FileUtils;
  * <!-- begin-UML-doc -->
  * <p>This class extracts budget-related files from the Chilean Budget Directorate's website.</p>
  * <!-- end-UML-doc -->
- * @author JaimeRodrigo
+ * @author joviedo
  * @uml.annotations
  *     derived_abstraction="platform:/resource/goby-design/budget-extractor.emx#_UaW6MEquEeeJsdrfgQXeQw"
  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_UaW6MEquEeeJsdrfgQXeQw"
  */
 public class BudgetCsvFilesDownloader extends AbstractDownloader {
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -42,7 +42,7 @@ public class BudgetCsvFilesDownloader extends AbstractDownloader {
   */
   private static final Logger log = Logger.getLogger(
       "com.ingenium.goby.budget.extractor.download.BudgetLawCsvFilesDownloader");
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <p>The URL where the files are stored.</p>
@@ -50,7 +50,7 @@ public class BudgetCsvFilesDownloader extends AbstractDownloader {
   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_UhrqMEquEeeJsdrfgQXeQw"
   */
   private String documentsSource;
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <p>A list of strings holding the name of the files to be downloaded.</p>
@@ -58,7 +58,7 @@ public class BudgetCsvFilesDownloader extends AbstractDownloader {
   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_Uhv7oEquEeeJsdrfgQXeQw"
   */
   private List<String> budgetFileList;
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <p>This flag indicates if a timestamp will be added to the base destination directory for each download batch.</p>
@@ -66,7 +66,7 @@ public class BudgetCsvFilesDownloader extends AbstractDownloader {
   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_ZoXkIExDEeeo2IEzB8X7BA"
   */
   private boolean useTimestamp;
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <p>A time stamp used to create the destination directory for the downloaded files.</p>
@@ -74,7 +74,7 @@ public class BudgetCsvFilesDownloader extends AbstractDownloader {
   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_yNL2YExGEeeo2IEzB8X7BA"
   */
   private String tstamp;
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <p>A list of files that were successfully downloaded by the extraction.</p>
@@ -82,7 +82,7 @@ public class BudgetCsvFilesDownloader extends AbstractDownloader {
   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_qxM7EExIEeeo2IEzB8X7BA"
   */
   private Collection<String> downloadedFiles;
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <p>A list of files that could not be downloaded.</p>
@@ -90,12 +90,11 @@ public class BudgetCsvFilesDownloader extends AbstractDownloader {
   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_CGN5sExJEeeo2IEzB8X7BA"
   */
   private Collection<String> failedFiles;
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <p>Creates a new file extractor that uses parameters obtained from a properties file.</p>
   * <!-- end-UML-doc -->
-  * Crea una nueva instancia de la clase BudgetCsvFilesDownloader.
   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_X82S8ExCEeeo2IEzB8X7BA"
   */
   public BudgetCsvFilesDownloader() {
@@ -106,12 +105,11 @@ public class BudgetCsvFilesDownloader extends AbstractDownloader {
         true);
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <p>Creates a new file extractor that uses the given parameters as a source and destination.</p>
   * <!-- end-UML-doc -->
-  * Crea una nueva instancia de la clase BudgetCsvFilesDownloader.
   * @param listSource <p>The location of the file that contains the list of CSVs to be downoladed.</p>
   * @param documentsSource <p>The URL of the files to be downloaded</p>
   * @param destinationFolder <p>the destination folder for the downloaded files</p>
@@ -132,7 +130,7 @@ public class BudgetCsvFilesDownloader extends AbstractDownloader {
     this.tstamp = new SimpleDateFormat("yyyy-MM-dd").format(new Date());
     // end-user-code
   }
-  
+
   /*
    * (non-Javadoc)
    *
@@ -149,15 +147,15 @@ public class BudgetCsvFilesDownloader extends AbstractDownloader {
   @Override
   public void download() throws DownloadException, DownloadException {
     // begin-user-code
-    
+
     this.budgetFileList = this.readFileList();
-    
+
     // Se genera un directorio asociado al timestamp de descarga
-    
+
     this.download(this.budgetFileList);
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * @throws&nbsp;DownloadException
@@ -188,11 +186,11 @@ public class BudgetCsvFilesDownloader extends AbstractDownloader {
               .append(destinationDirectory.toString()).toString());
     }
     destinationDirectory.mkdirs();
-    
+
     // Ahora se descargan los documentos uno a uno
     final SimpleFileDownloader downloader = new SimpleFileDownloader();
     final Iterator<String> i = budgetFileList.iterator();
-    
+
     this.downloadedFiles = new ArrayList<>(400);
     this.failedFiles = new ArrayList<>(10);
     while (i.hasNext()) {
@@ -217,7 +215,7 @@ public class BudgetCsvFilesDownloader extends AbstractDownloader {
     }
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <p>Returns the URL of the files to be downloaded.</p>
@@ -228,10 +226,10 @@ public class BudgetCsvFilesDownloader extends AbstractDownloader {
   public String getDocumentsSource() {
     // begin-user-code
     return this.documentsSource;
-    
+
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <p>Returns the list of files that were successfully downloaded by the extraction.</p>
@@ -244,7 +242,7 @@ public class BudgetCsvFilesDownloader extends AbstractDownloader {
     return this.downloadedFiles;
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <p>Returns the list of files that could not be downloaded.</p>
@@ -257,7 +255,7 @@ public class BudgetCsvFilesDownloader extends AbstractDownloader {
     return this.failedFiles;
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <p>Returns the time stamp used to create the destination directory for the downloaded files.</p>
@@ -268,10 +266,10 @@ public class BudgetCsvFilesDownloader extends AbstractDownloader {
   public String getTimestamp() {
     // begin-user-code
     return this.tstamp;
-    
+
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -284,7 +282,7 @@ public class BudgetCsvFilesDownloader extends AbstractDownloader {
         .append(this.tstamp).toString();
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <p>Returns the value of the timestamp usage flag.</p>
@@ -297,7 +295,7 @@ public class BudgetCsvFilesDownloader extends AbstractDownloader {
     return this.useTimestamp;
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * @return<br>@throws&nbsp;DownloadException
@@ -323,13 +321,13 @@ public class BudgetCsvFilesDownloader extends AbstractDownloader {
         }
       }
     }
-    
+
     // Se encontró el archivo de lista de descarga
-    
+
     final BufferedReader extractionListFileStream = new BufferedReader(
         extractionListReader);
     String l = "";
-    
+
     // Primero se extrae la lista de csvs a descargar
     final List<String> fileList = new ArrayList<>();
     try {
@@ -352,7 +350,7 @@ public class BudgetCsvFilesDownloader extends AbstractDownloader {
     return fileList;
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <p>Sets the URL where the files will be stored.</p>
@@ -363,10 +361,10 @@ public class BudgetCsvFilesDownloader extends AbstractDownloader {
   public void setDocumentsSource(final String documentsSource) {
     // begin-user-code
     this.documentsSource = documentsSource;
-    
+
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <p>Sets the value of the timestamp usage flag.</p>
@@ -379,5 +377,5 @@ public class BudgetCsvFilesDownloader extends AbstractDownloader {
     this.useTimestamp = flag;
     // end-user-code
   }
-  
+
 }

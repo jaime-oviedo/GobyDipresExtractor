@@ -7,17 +7,16 @@ import java.util.Collection;
  * <!-- begin-UML-doc -->
  * <p>Class that represents a budgetary subtitle.<br>@author JaimeOviedo</p>
  * <!-- end-UML-doc -->
- * @author JaimeRodrigo
+ * @author joviedo
  * @uml.annotations
  *     derived_abstraction="platform:/resource/goby-design/budget-extractor.emx#_Uawi0EquEeeJsdrfgQXeQw"
  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_Uawi0EquEeeJsdrfgQXeQw"
  */
 public class Subtitle extends CompositeBudgetElement {
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
-  * Crea una nueva instancia de la clase Subtitle.
   * @param number
   * @param name
   * @param description
@@ -30,7 +29,7 @@ public class Subtitle extends CompositeBudgetElement {
     super(number, name, description, type, BudgetHierarchyLevel.SUBTITLE);
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <p>Adds a new assignment.</p>
@@ -45,7 +44,7 @@ public class Subtitle extends CompositeBudgetElement {
     item.addAssignment(assignment);
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -60,7 +59,7 @@ public class Subtitle extends CompositeBudgetElement {
     return item.getAssignment(assignmentNumber);
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -72,7 +71,7 @@ public class Subtitle extends CompositeBudgetElement {
     super.addSubelement(item);
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -85,7 +84,7 @@ public class Subtitle extends CompositeBudgetElement {
     return (Item) super.getSubelements().get(itemNumber);
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * etorna&nbsp;los&nbsp;items&nbsp;asociados&nbsp;al&nbsp;subtitulo.<br><br><br><br><br>@return&nbsp;los&nbsp;items&nbsp;asociados&nbsp;al&nbsp;subtitul
@@ -99,7 +98,7 @@ public class Subtitle extends CompositeBudgetElement {
     return (Collection<Item>) super.getSubelements().values();
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * stablece&nbsp;los&nbsp;items&nbsp;para&nbsp;la&nbsp;asignacion.<br><br><br><br>@param&nbsp;items<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;el&nbsp;nuevo&nbsp;conjunto&nbsp;de&nbsp;asignaciones<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -112,5 +111,5 @@ public class Subtitle extends CompositeBudgetElement {
     super.setSubelements(items);
     // end-user-code
   }
-  
+
 }

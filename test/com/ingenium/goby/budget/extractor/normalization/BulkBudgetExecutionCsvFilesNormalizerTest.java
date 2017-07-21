@@ -42,16 +42,20 @@ public class BulkBudgetExecutionCsvFilesNormalizerTest {
     final String destination = new StringBuffer("stage").append(s)
         .append("test").append(s).append("bulk-execution-out.csv").toString();
 
-    final List<List<String>> normalizedEntries = BulkBudgetExecutionCsvFilesNormalizer
+    List<List<String>> normalizedEntries = BulkBudgetExecutionCsvFilesNormalizer
         .normalize(sourceDirectory, destination);
+    for (List<String> line : normalizedEntries) {
+      StringBuffer asString = new StringBuffer();
+      for (String value : line) {
+        asString.append(value).append(";");
+      }
+      System.out.println(asString.toString());
+    }
     final File destinationFile = new File(destination);
     final File objectiveFile = new File(objective);
     Assert.assertTrue(FileUtils.contentEqualsIgnoreEOL(destinationFile,
         objectiveFile, "CP1250"));
-
     destinationFile.delete();
-
-    Assert.fail("Not yet implemented"); // TODO
   }
 
 }

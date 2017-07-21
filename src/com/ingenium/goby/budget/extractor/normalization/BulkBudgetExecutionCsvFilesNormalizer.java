@@ -16,13 +16,13 @@ import java.util.logging.Logger;
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
- * @author JaimeRodrigo
+ * @author joviedo
  * @uml.annotations
  *     derived_abstraction="platform:/resource/goby-design/budget-extractor.emx#_NENBYG2fEeeXYbujNKTijw"
  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_NENBYG2fEeeXYbujNKTijw"
  */
 public class BulkBudgetExecutionCsvFilesNormalizer {
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -30,50 +30,7 @@ public class BulkBudgetExecutionCsvFilesNormalizer {
   */
   private static final Logger log = Logger.getLogger(
       "com.ingenium.goby.budget.extractor.normalization.BulkBudgetExecutionCsvFilesNormalizer");
-  
-  /** 
-  * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * @param sourceDirectory
-  * @param destinationFile
-  * @return
-  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_PnPl4m2fEeeXYbujNKTijw"
-  */
-  public static List<List<String>> normalize(final String sourceDirectory,
-      final String destinationFile) {
-    // begin-user-code
-    List<List<String>> normalizedEntries = BulkBudgetExecutionCsvFilesNormalizer
-        .normalize(sourceDirectory);
-    List<String[]> linesAsArray = new ArrayList<>();
-    for (List<String> line : normalizedEntries) {
-      String[] lineAsArray = (String[]) line.toArray();
-      linesAsArray.add(lineAsArray);
-    }
-    CSVWriter writer = null;
-    try {
-      writer = new CSVWriter(new FileWriter(destinationFile), ';',
-          CSVWriter.NO_QUOTE_CHARACTER);
-      writer.writeAll(linesAsArray);
-    } catch (IOException e) {
-      BulkBudgetExecutionCsvFilesNormalizer.log.severe(
-          new StringBuffer("Unable to write normalized file to destination ")
-              .append(destinationFile).toString());
-      
-    } finally {
-      if (writer != null) {
-        try {
-          writer.close();
-        } catch (IOException e1) {
-          BulkBudgetExecutionCsvFilesNormalizer.log
-              .warning("Unable to close csv file writer");
-        }
-      }
-    }
-    
-    return normalizedEntries;
-    // end-user-code
-  }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -99,11 +56,58 @@ public class BulkBudgetExecutionCsvFilesNormalizer {
     return normalizedEntries;
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
-  * Crea una nueva instancia de la clase BulkBudgetExecutionCsvFilesNormalizer.
+  * @param sourceDirectory
+  * @param destinationFile
+  * @return
+  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_PnPl4m2fEeeXYbujNKTijw"
+  */
+  public static List<List<String>> normalize(final String sourceDirectory,
+      final String destinationFile) {
+    // begin-user-code
+    List<List<String>> normalizedEntries = BulkBudgetExecutionCsvFilesNormalizer
+        .normalize(sourceDirectory);
+    List<String[]> linesAsArray = new ArrayList<>();
+    for (List<String> line : normalizedEntries) {
+      int index = 0;
+      String[] lineAsArray = new String[20];
+      for (String value : line) {
+        lineAsArray[index] = value;
+        index++;
+      }
+      linesAsArray.add(lineAsArray);
+    }
+    CSVWriter writer = null;
+    try {
+      writer = new CSVWriter(new FileWriter(destinationFile), ';',
+          CSVWriter.NO_QUOTE_CHARACTER);
+      writer.writeAll(linesAsArray);
+    } catch (IOException e) {
+      BulkBudgetExecutionCsvFilesNormalizer.log.severe(
+          new StringBuffer("Unable to write normalized file to destination ")
+              .append(destinationFile).toString());
+
+    } finally {
+      if (writer != null) {
+        try {
+          writer.close();
+        } catch (IOException e1) {
+          BulkBudgetExecutionCsvFilesNormalizer.log
+              .warning("Unable to close csv file writer");
+        }
+      }
+    }
+
+    return normalizedEntries;
+    // end-user-code
+  }
+
+  /** 
+  * <!-- begin-UML-doc -->
+  * <!-- end-UML-doc -->
   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_Hx6rkG2jEeeXYbujNKTijw"
   */
   private BulkBudgetExecutionCsvFilesNormalizer() {
@@ -111,5 +115,5 @@ public class BulkBudgetExecutionCsvFilesNormalizer {
     super();
     // end-user-code
   }
-  
+
 }

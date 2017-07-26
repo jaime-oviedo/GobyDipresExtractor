@@ -219,7 +219,7 @@ public class BudgetLawExtractor {
           name = s;
         } else {
           throw new ExtractionException(
-              new StringBuffer("Unable to obtain name for element:")
+              new StringBuilder("Unable to obtain name for element:")
                   .append(batchNumber).append(",").append(chapterNumber)
                   .append(",").append(programNumber).toString());
         }
@@ -262,7 +262,7 @@ public class BudgetLawExtractor {
 
         if ((catBatch == null) || (catChapter == null)
             || (catProgram == null)) {
-          throw new ExtractionException(new StringBuffer(
+          throw new ExtractionException(new StringBuilder(
               "Malformed input file. Can't find batch, chapter, program or subtitle in tuple (")
                   .append(batchNumber).append(",").append(chapterNumber)
                   .append(",").append(programNumber).append(",")
@@ -271,7 +271,7 @@ public class BudgetLawExtractor {
 
         if ((itemNumber == 0) && (assignmentNumber != 0)) {
           throw new ExtractionException(
-              new StringBuffer("Malformed input file. Received assignment ")
+              new StringBuilder("Malformed input file. Received assignment ")
                   .append(assignmentNumber)
                   .append(" with no item number. See budget row (")
                   .append(batchNumber).append(",").append(chapterNumber)
@@ -326,7 +326,7 @@ public class BudgetLawExtractor {
           final String catItemName = catItem.getName();
           if (!name.equals(catItemName)) {
             BudgetLawExtractor.log.fine(
-                new StringBuffer("Name read from budget file:").append(name)
+                new StringBuilder("Name read from budget file:").append(name)
                     .append(" differs from name found in classifiers catalog:")
                     .append(catItemName).append(". Using budget file name.")
                     .toString());
@@ -345,7 +345,7 @@ public class BudgetLawExtractor {
         Assignment catAssignment = catItem.getAssignment(assignmentNumber);
         if (catAssignment == null) {
           BudgetLawExtractor.log.warning(
-              new StringBuffer("Found assignment ").append(assignmentNumber)
+              new StringBuilder("Found assignment ").append(assignmentNumber)
                   .append(
                       " not contained in base classifiers catalog for the (subtitle,item):(")
                   .append(subtitleNumber).append(",").append(itemNumber)
@@ -364,7 +364,7 @@ public class BudgetLawExtractor {
         if (!name.equals(catAssignmentName)) {
 
           BudgetLawExtractor.log
-              .fine(new StringBuffer("Name read from budget file:").append(name)
+              .fine(new StringBuilder("Name read from budget file:").append(name)
                   .append(" differs from name found in classifiers catalog:")
                   .append(catAssignmentName).append(". Using budget file name.")
                   .toString());

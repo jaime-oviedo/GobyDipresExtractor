@@ -45,7 +45,7 @@ public class BulkBudgetExecutionCsvFilesNormalizer {
     File[] sources = dir.listFiles();
     if (sources == null) {
       BulkBudgetExecutionCsvFilesNormalizer.log
-          .warning(new StringBuffer("Unable to retrieve directory listing at ")
+          .warning(new StringBuilder("Unable to retrieve directory listing at ")
               .append(sourceDirectory).toString());
       return normalizedEntries;
     }
@@ -87,7 +87,7 @@ public class BulkBudgetExecutionCsvFilesNormalizer {
       writer.writeAll(linesAsArray);
     } catch (IOException e) {
       BulkBudgetExecutionCsvFilesNormalizer.log.severe(
-          new StringBuffer("Unable to write normalized file to destination ")
+          new StringBuilder("Unable to write normalized file to destination ")
               .append(destinationFile).toString());
 
     } finally {

@@ -79,7 +79,7 @@ public class BudgetLawCsvFilesListDownloader extends AbstractDownloader {
       doc = Jsoup.parse(input, "UTF-8");
       final Elements links = doc.select("a[href$=csv]");
       for (final Element link : links) {
-        final String fileName = new StringBuffer(link.attr("href"))
+        final String fileName = new StringBuilder(link.attr("href"))
             .append(System.lineSeparator()).toString();
         budgetFileList.add(fileName);
         outputStream.write(fileName);

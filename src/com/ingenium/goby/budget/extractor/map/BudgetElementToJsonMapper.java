@@ -9,24 +9,23 @@ import com.ingenium.goby.budget.extractor.elements.CompositeBudgetElement;
 import java.util.Collection;
 import java.util.Iterator;
 
-/** 
- * <!-- begin-UML-doc -->
- * <!-- end-UML-doc -->
+/**
+ * <!-- begin-UML-doc --> <!-- end-UML-doc -->
+ * 
  * @author joviedo
- * @uml.annotations
- *     derived_abstraction="platform:/resource/goby-design/budget-extractor.emx#_tOVToEt-EeeC6_ZX80x4yQ"
+ * @uml.annotations derived_abstraction="platform:/resource/goby-design/budget-extractor.emx#_tOVToEt-EeeC6_ZX80x4yQ"
  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_tOVToEt-EeeC6_ZX80x4yQ"
  */
 public class BudgetElementToJsonMapper {
 
-  /** 
-  * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * @param element
-  * @param nestingLevel
-  * @return
-  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_tRANIEt-EeeC6_ZX80x4yQ"
-  */
+  /**
+   * <!-- begin-UML-doc --> <!-- end-UML-doc -->
+   * 
+   * @param element
+   * @param nestingLevel
+   * @return
+   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_tRANIEt-EeeC6_ZX80x4yQ"
+   */
   public static String map(BudgetElement element, int nestingLevel) {
     // begin-user-code
     StringBuilder nesting = new StringBuilder();
@@ -124,17 +123,18 @@ public class BudgetElementToJsonMapper {
     } else {
       sb.append(lineSeparator);
     }
-    nesting.delete(nesting.length() - 2, nesting.length());
+    int nestingLength = nesting.length();
+    nesting.delete(nestingLength - 2, nestingLength);
     sb.append(nesting).append("}");
     return sb.toString();
     // end-user-code
   }
 
-  /** 
-  * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_tRD3gEt-EeeC6_ZX80x4yQ"
-  */
+  /**
+   * <!-- begin-UML-doc --> <!-- end-UML-doc -->
+   * 
+   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_tRD3gEt-EeeC6_ZX80x4yQ"
+   */
   private BudgetElementToJsonMapper() {
     // begin-user-code
     super();

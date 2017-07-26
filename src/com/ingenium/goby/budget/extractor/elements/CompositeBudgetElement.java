@@ -284,7 +284,7 @@ public class CompositeBudgetElement extends BudgetElement {
         if (!BigInteger.ZERO.equals(subelementValue)
             && !subelementValue.equals(tempBudget)) {
           CompositeBudgetElement.log.finest(
-              new StringBuffer("Replaced directly set actual budget of ")
+              new StringBuilder("Replaced directly set actual budget of ")
                   .append(tempBudget.toString())
                   .append(" with calculated budget of ")
                   .append(subelementValue.toString()).toString());
@@ -296,7 +296,7 @@ public class CompositeBudgetElement extends BudgetElement {
         if (!BigInteger.ZERO.equals(subelementValue)
             && !subelementValue.equals(tempBudget)) {
           CompositeBudgetElement.log.finest(
-              new StringBuffer("Replaced directly set actual dollar budget of ")
+              new StringBuilder("Replaced directly set actual dollar budget of ")
                   .append(tempBudget.toString())
                   .append(" with calculated dollar budget of ")
                   .append(subelementValue.toString()).toString());
@@ -308,7 +308,7 @@ public class CompositeBudgetElement extends BudgetElement {
         if (!BigInteger.ZERO.equals(subelementValue)
             && !subelementValue.equals(tempBudget)) {
           CompositeBudgetElement.log.finest(
-              new StringBuffer("Replaced directly set initial budget of ")
+              new StringBuilder("Replaced directly set initial budget of ")
                   .append(tempBudget.toString())
                   .append(" with calculated budget of ")
                   .append(subelementValue.toString()).toString());
@@ -319,7 +319,7 @@ public class CompositeBudgetElement extends BudgetElement {
         tempBudget = be.getInitialDollarBudget();
         if (!BigInteger.ZERO.equals(subelementValue)
             && !subelementValue.equals(tempBudget)) {
-          CompositeBudgetElement.log.finest(new StringBuffer(
+          CompositeBudgetElement.log.finest(new StringBuilder(
               "Replaced directly set intitial dollar budget of ")
                   .append(tempBudget.toString())
                   .append(" with calculated budget of ")
@@ -332,7 +332,7 @@ public class CompositeBudgetElement extends BudgetElement {
         if (!BigInteger.ZERO.equals(subelementValue)
             && !subelementValue.equals(tempBudget)) {
           CompositeBudgetElement.log.finest(
-              new StringBuffer("Replaced directly set cumulative execution of ")
+              new StringBuilder("Replaced directly set cumulative execution of ")
                   .append(tempBudget.toString())
                   .append(" with calculated budget of ")
                   .append(subelementValue.toString()).toString());
@@ -343,7 +343,7 @@ public class CompositeBudgetElement extends BudgetElement {
         tempBudget = be.getCumulativeDollarExecution();
         if (!BigInteger.ZERO.equals(subelementValue)
             && !tempBudget.equals(subelementValue)) {
-          CompositeBudgetElement.log.finest(new StringBuffer(
+          CompositeBudgetElement.log.finest(new StringBuilder(
               "Replaced directly set cumulative dollar execution of ")
                   .append(tempBudget.toString())
                   .append(" with calculated budget of ")

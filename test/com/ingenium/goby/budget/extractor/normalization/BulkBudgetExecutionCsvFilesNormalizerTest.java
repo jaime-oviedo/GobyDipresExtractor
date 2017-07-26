@@ -28,7 +28,7 @@ public class BulkBudgetExecutionCsvFilesNormalizerTest {
   public final void testNormalizeStringString() throws IOException {
     final String s = File.separator;
 
-    final String sourceDirectory = new StringBuffer("test").append(s)
+    final String sourceDirectory = new StringBuilder("test").append(s)
         .append("com").append(s).append("ingenium").append(s).append("goby")
         .append(s).append("budget").append(s).append("extractor").append(s)
         .append("normalization").append(s).append("fixture").append(s)

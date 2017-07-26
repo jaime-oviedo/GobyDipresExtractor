@@ -22,57 +22,60 @@ import com.ingenium.goby.budget.extractor.elements.Subtitle;
 import com.opencsv.CSVReader;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.math.BigInteger;
 import java.text.NumberFormat;
 import java.text.ParseException;
+import java.util.ArrayList;
 import java.util.Collection;
+import java.util.List;
 import java.util.Locale;
 import java.util.logging.Logger;
 
-/** 
+/**
  * <!-- begin-UML-doc -->
- * Esta&nbsp;clase&nbsp;extrae&nbsp;toda&nbsp;la&nbsp;Ley&nbsp;de&nbsp;Presupuestos&nbsp;desde&nbsp;el&nbsp;sitio&nbsp;de&nbsp;la&nbsp;DIPRES.<br><br><br><br><br>@author&nbsp;JaimeRodrig
- * <!-- end-UML-doc -->
+ * Esta&nbsp;clase&nbsp;extrae&nbsp;toda&nbsp;la&nbsp;Ley&nbsp;de&nbsp;Presupuestos&nbsp;desde&nbsp;el&nbsp;sitio&nbsp;de&nbsp;la&nbsp;DIPRES.<br>
+ * <br>
+ * <br>
+ * <br>
+ * <br>
+ *
+ * @author&nbsp;JaimeRodrig <!-- end-UML-doc -->
+ *
  * @author joviedo
- * @uml.annotations
- *     derived_abstraction="platform:/resource/goby-design/budget-extractor.emx#_Fe6LEF0kEeez8bHvvwz5bA"
+ * @uml.annotations derived_abstraction="platform:/resource/goby-design/budget-extractor.emx#_Fe6LEF0kEeez8bHvvwz5bA"
  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_Fe6LEF0kEeez8bHvvwz5bA"
  */
 public class BudgetExecutionExtractor {
-  /** 
-  * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * @author joviedo
-  * @uml.annotations
-  *     derived_abstraction="platform:/resource/goby-design/budget-extractor.emx#_Fe6LFV0kEeez8bHvvwz5bA"
-  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_Fe6LFV0kEeez8bHvvwz5bA"
-  */
+  /**
+   * <!-- begin-UML-doc --> <!-- end-UML-doc -->
+   *
+   * @author joviedo
+   * @uml.annotations derived_abstraction="platform:/resource/goby-design/budget-extractor.emx#_Fe6LFV0kEeez8bHvvwz5bA"
+   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_Fe6LFV0kEeez8bHvvwz5bA"
+   */
   public class BudgetExecutionImpl extends CompositeBudgetElement
       implements BudgetExecution {
-    /** 
-    * <!-- begin-UML-doc -->
-    * <!-- end-UML-doc -->
-    * @return
-    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_Fe6LGF0kEeez8bHvvwz5bA"
-    */
-    @SuppressWarnings("unchecked")
-    @Override
-    public Collection<Batch> getBatches() {
+    /**
+     * <!-- begin-UML-doc --> <!-- end-UML-doc -->
+     *
+     * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_Fe6LH10kEeez8bHvvwz5bA"
+     */
+    public BudgetExecutionImpl() {
       // begin-user-code
-      return (Collection<Batch>) getSubelements().values();
+      super(0, "Ejecución Presupuestaria", "", BudgetElementType.NONE,
+          BudgetHierarchyLevel.ROOT);
       // end-user-code
     }
 
-    /** 
-    * <!-- begin-UML-doc -->
-    * <!-- end-UML-doc -->
-    * @param batchNumber
-    * @return
-    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_Fe6LHF0kEeez8bHvvwz5bA"
-    */
+    /**
+     * <!-- begin-UML-doc --> <!-- end-UML-doc -->
+     *
+     * @param batchNumber
+     * @return
+     * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_Fe6LHF0kEeez8bHvvwz5bA"
+     */
     @Override
     public Batch getBatch(int batchNumber) {
       // begin-user-code
@@ -80,69 +83,90 @@ public class BudgetExecutionExtractor {
       // end-user-code
     }
 
-    /** 
-    * <!-- begin-UML-doc -->
-    * <!-- end-UML-doc -->
-    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_Fe6LH10kEeez8bHvvwz5bA"
-    */
-    public BudgetExecutionImpl() {
+    /**
+     * <!-- begin-UML-doc --> <!-- end-UML-doc -->
+     *
+     * @return
+     * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_Fe6LGF0kEeez8bHvvwz5bA"
+     */
+    @SuppressWarnings("unchecked")
+    @Override
+    public Collection<Batch> getBatches() {
       // begin-user-code
-      super(0, "Ejecución Presupuestaria", "", BudgetElementType.NONE,
-          BudgetHierarchyLevel.ROOT);
+      return (Collection<Batch>) getSubelements().values();
       // end-user-code
     }
   }
 
-  /** 
-  * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_Fe6LEl0kEeez8bHvvwz5bA"
-  */
+  /**
+   * <!-- begin-UML-doc --> <!-- end-UML-doc -->
+   *
+   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_Fe6LEl0kEeez8bHvvwz5bA"
+   */
   private static final Logger log = Logger
       .getLogger("com.ingenium.goby.extractors.BudgetExecutionExtractor");
-  /** 
-  * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_Fe6LFF0kEeez8bHvvwz5bA"
-  */
+  /**
+   * <!-- begin-UML-doc --> <!-- end-UML-doc -->
+   *
+   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_Fe6LFF0kEeez8bHvvwz5bA"
+   */
   private final String source;
 
-  /** 
-  * <!-- begin-UML-doc -->
-  * Crea&nbsp;una&nbsp;nueva&nbsp;instancia&nbsp;de&nbsp;la&nbsp;clase&nbsp;BudgetExecutionExtractor.
-  * <!-- end-UML-doc -->
-  * @param newSource
-  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_Fe6LIF0kEeez8bHvvwz5bA"
-  */
+  /**
+   * <!-- begin-UML-doc -->
+   * Crea&nbsp;una&nbsp;nueva&nbsp;instancia&nbsp;de&nbsp;la&nbsp;clase&nbsp;BudgetExecutionExtractor.
+   * <!-- end-UML-doc -->
+   *
+   * @param newSource
+   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_Fe6LIF0kEeez8bHvvwz5bA"
+   */
   public BudgetExecutionExtractor(String newSource) {
     // begin-user-code
     source = newSource;
     // end-user-code
   }
 
-  /** 
-  * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * @return
-  * @throws ExtractionException
-  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_Fe6LI10kEeez8bHvvwz5bA"
-  */
+  /**
+   * <!-- begin-UML-doc --> <!-- end-UML-doc -->
+   *
+   * @return
+   * @throws ExtractionException
+   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_Fe6LI10kEeez8bHvvwz5bA"
+   */
   public BudgetExecution extract() throws ExtractionException {
     // begin-user-code
     FileInputStream fi = null;
+    CSVReader reader = null;
+    List<String[]> lines = new ArrayList<>(300);
     try {
       fi = new FileInputStream(source);
-    } catch (FileNotFoundException e) {
-      e.printStackTrace();
-      throw new ExtractionException("Source file not found");
+      reader = new CSVReader(new InputStreamReader(fi, "UTF-8"), ';', '"', 1);
+      lines = reader.readAll();
+    } catch (IOException e) {
+      log.severe(new StringBuilder("Unable to read execution files:")
+          .append(e.getMessage()).toString());
+    } finally {
+      try {
+        if (reader != null) {
+          reader.close();
+        }
+      } catch (IOException e) {
+        log.warning(new StringBuilder("Unable to close CSVReader:")
+            .append(e.getMessage()).toString());
+      }
+      try {
+        if (fi != null) {
+          fi.close();
+        }
+      } catch (IOException e) {
+        log.warning(new StringBuilder("Unable to close FileInputStream:")
+            .append(e.getMessage()).toString());
+      }
     }
-    CSVReader reader = null;
-
     BudgetExecutionImpl execution = new BudgetExecutionImpl();
     try {
-      String line[] = null;
-      reader = new CSVReader(new InputStreamReader(fi, "UTF-8"), ';', '"', 1);
-      while ((line = reader.readNext()) != null) {
+
+      for (String[] line : lines) {
 
         int batchNumber = 0;
 
@@ -221,7 +245,7 @@ public class BudgetExecutionExtractor {
             currency = BudgetCurrency.DOLLAR;
           } else {
             BudgetExecutionExtractor.log.warning(
-                new StringBuffer("Unable to obtain currency for element:")
+                new StringBuilder("Unable to obtain currency for element:")
                     .append(batchNumber).append(",").append(chapterNumber)
                     .append(",").append(programNumber)
                     .append(", defaulting to Peso.").toString());
@@ -233,7 +257,7 @@ public class BudgetExecutionExtractor {
             name = s;
           } else {
             BudgetExecutionExtractor.log
-                .warning(new StringBuffer("Unable to obtain name for element:")
+                .warning(new StringBuilder("Unable to obtain name for element:")
                     .append(batchNumber).append(",").append(chapterNumber)
                     .append(",").append(programNumber)
                     .append(". I will try to get it from the catalog.")
@@ -285,7 +309,7 @@ public class BudgetExecutionExtractor {
 
           if ((catBatch == null) || (catChapter == null)
               || (catProgram == null)) {
-            BudgetExecutionExtractor.log.warning(new StringBuffer(
+            BudgetExecutionExtractor.log.warning(new StringBuilder(
                 "Malformed input file. Can't find batch, chapter, program or subtitle in tuple (")
                     .append(batchNumber).append(",").append(chapterNumber)
                     .append(",").append(programNumber).append(",")
@@ -294,7 +318,7 @@ public class BudgetExecutionExtractor {
 
           if ((itemNumber == 0) && (assignmentNumber != 0)) {
             BudgetExecutionExtractor.log.warning(
-                new StringBuffer("Malformed input file. Received assignment ")
+                new StringBuilder("Malformed input file. Received assignment ")
                     .append(assignmentNumber)
                     .append(" with no item number. See budget row (")
                     .append(batchNumber).append(",").append(chapterNumber)
@@ -359,7 +383,7 @@ public class BudgetExecutionExtractor {
             String catItemName = catItem.getName();
             if (!name.equals(catItemName)) {
               BudgetExecutionExtractor.log.fine(
-                  new StringBuffer("Name read from budget file:").append(name)
+                  new StringBuilder("Name read from budget file:").append(name)
                       .append(
                           " differs from name found in classifiers catalog:")
                       .append(catItemName).append(". Using budget file name.")
@@ -387,7 +411,7 @@ public class BudgetExecutionExtractor {
           Assignment catAssignment = catItem.getAssignment(assignmentNumber);
           if (catAssignment == null) {
             BudgetExecutionExtractor.log.warning(
-                new StringBuffer("Found assignment ").append(assignmentNumber)
+                new StringBuilder("Found assignment ").append(assignmentNumber)
                     .append(
                         " not contained in base classifiers catalog for the (subtitle,item):(")
                     .append(subtitleNumber).append(",").append(itemNumber)
@@ -407,7 +431,7 @@ public class BudgetExecutionExtractor {
           if (!name.equals(catAssignmentName)) {
 
             BudgetExecutionExtractor.log.fine(
-                new StringBuffer("Name read from budget file:").append(name)
+                new StringBuilder("Name read from budget file:").append(name)
                     .append(" differs from name found in classifiers catalog:")
                     .append(catAssignmentName)
                     .append(". Using budget file name.").toString());
@@ -427,28 +451,11 @@ public class BudgetExecutionExtractor {
           lawItem.addAssignment(lawAssignment);
 
         }
-        reader.close();
       }
 
-    } catch (IOException e) {
-      throw new ExtractionException(
-          "Unable to create input stream or csv reader");
     } catch (ParseException e) {
       // TODO Auto-generated catch block
       e.printStackTrace();
-    } finally {
-      try {
-        if (reader != null) {
-          reader.close();
-        }
-      } catch (IOException e) {
-        e.printStackTrace();
-      }
-      try {
-        fi.close();
-      } catch (IOException e) {
-        e.printStackTrace();
-      }
     }
 
     return execution;

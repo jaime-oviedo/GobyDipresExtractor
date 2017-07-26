@@ -188,7 +188,7 @@ public class ClassifiersCatalogExtractor {
           name = s;
         } else {
           throw new ExtractionException(
-              new StringBuffer("Unable to obtain name for element:")
+              new StringBuilder("Unable to obtain name for element:")
                   .append(subtitleNumber).append(itemNumber)
                   .append(assignmentNumber).toString());
         }

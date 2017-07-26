@@ -136,7 +136,7 @@ public class BudgetExtractorFactory {
 
       // Download all files from the fetched listing
       final BudgetCsvFilesDownloader filesDownloader = new BudgetCsvFilesDownloader();
-      final String csvFilesDir = new StringBuffer("tmp").append(s)
+      final String csvFilesDir = new StringBuilder("tmp").append(s)
           .append("execution-files").toString();
       filesDownloader.setDestination(csvFilesDir);
       filesDownloader
@@ -153,7 +153,7 @@ public class BudgetExtractorFactory {
       // is useless too
       final String timestampedDestination = filesDownloader
           .getTimestampedDestination();
-      final String destinationFile = new StringBuffer(timestampedDestination)
+      final String destinationFile = new StringBuilder(timestampedDestination)
           .append(s).append("out").append(s).append("budget-execution-")
           .append(period).append(year).append(".csv").toString();
       BulkBudgetExecutionCsvFilesNormalizer.normalize(timestampedDestination,

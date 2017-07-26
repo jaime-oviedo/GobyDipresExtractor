@@ -174,7 +174,7 @@ public class InstitutionsCatalogExtractor {
           name = s;
         } else {
           throw new ExtractionException(
-              new StringBuffer("Unable to obtain name for element:")
+              new StringBuilder("Unable to obtain name for element:")
                   .append(batchNumber).append(chapterNumber)
                   .append(programNumber).toString());
         }

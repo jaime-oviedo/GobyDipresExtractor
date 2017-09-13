@@ -30,6 +30,7 @@
 	<classpathentry kind="lib" path="lib/htmlunit/xalan-2.7.2.jar"/>
 	<classpathentry kind="lib" path="lib/htmlunit/xercesImpl-2.11.0.jar"/>
 	<classpathentry kind="lib" path="lib/htmlunit/xml-apis-1.4.01.jar"/>
+	<classpathentry kind="lib" path="lib/commons-cli-1.4/commons-cli-1.4/commons-cli-1.4.jar" sourcepath="lib/commons-cli-1.4/commons-cli-1.4/commons-cli-1.4-sources.jar"/>
 	<classpathentry kind="src" path=".apt_generated">
 		<attributes>
 			<attribute name="optional" value="true"/>

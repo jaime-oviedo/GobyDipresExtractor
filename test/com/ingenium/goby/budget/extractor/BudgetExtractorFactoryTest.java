@@ -12,15 +12,16 @@ public class BudgetExtractorFactoryTest {
 
   @Test
   public void testGetBudgetExtractor() {
-    BudgetExtractorFactory factory = BudgetExtractorFactory.getInstance();
-    BudgetExtractor extractor = factory.getBudgetExtractor();
-    BudgetExecution execution = extractor
-        .extractBudgetExecution(ExecutionPeriod.APRIL);
+    final BudgetExtractorFactory factory = BudgetExtractorFactory.getInstance();
+    final BudgetExtractor extractor = factory.getBudgetExtractor();
+    final BudgetExecution execution = extractor
+        .extractBudgetExecution(ExecutionPeriod.JULY);
     final CompositeBudgetElement executionElement = new CompositeBudgetElement(
         0, "Ejecución Presupuestaria", "", BudgetElementType.EXECUTION,
         BudgetHierarchyLevel.ROOT);
     executionElement.setSubelements(execution.getBatches());
-    String jsonExecution = BudgetElementToJsonMapper.map(executionElement, 0);
+    final String jsonExecution = BudgetElementToJsonMapper.map(executionElement,
+        0);
     System.out.println(jsonExecution);
     Assert.assertTrue(true);
   }

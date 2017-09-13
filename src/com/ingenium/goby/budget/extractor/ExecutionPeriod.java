@@ -1,13 +1,15 @@
 /**
- * 
+ *
  */
 
 package com.ingenium.goby.budget.extractor;
 
+import java.util.Calendar;
+
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
- * @author joviedo
+ * @author Jaime Oviedo
  * @uml.annotations
  *     derived_abstraction="platform:/resource/goby-design/budget-extractor.emx#_S4b_gF9qEeeRDb5hxZnsBw"
  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_S4b_gF9qEeeRDb5hxZnsBw?DATATYPE"
@@ -92,13 +94,51 @@ public enum ExecutionPeriod {
   * @return
   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_oGqIcGElEeeMhLKRNTgRlA"
   */
-  public static ExecutionPeriod matchExecutionPeriod(int period) {
+  public static ExecutionPeriod matchExecutionPeriod(final int period) {
     // begin-user-code
-    // TODO Auto-generated method stub
-    return null;
+    ExecutionPeriod p;
+    switch (period) {
+      case 1:
+        p = JANUARY;
+        break;
+      case 2:
+        p = FEBRUARY;
+        break;
+      case 3:
+        p = FIRST_TRIMESTER;
+        break;
+      case 4:
+        p = APRIL;
+        break;
+      case 5:
+        p = MAY;
+        break;
+      case 6:
+        p = SECOND_TRIMESTER;
+        break;
+      case 7:
+        p = JULY;
+        break;
+      case 8:
+        p = AUGUST;
+        break;
+      case 9:
+        p = THIRD_TRIMESTER;
+        break;
+      case 10:
+        p = OCTOBER;
+        break;
+      case 11:
+        p = NOVEMBER;
+        break;
+      default:
+        p = FOURTH_TRIMESTER;
+        break;
+    }
+    return p;
     // end-user-code
   }
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -107,8 +147,75 @@ public enum ExecutionPeriod {
   */
   public static ExecutionPeriod getCurrentPeriod() {
     // begin-user-code
-    // TODO Auto-generated method stub
-    return null;
+    final int currentPeriod = Calendar.getInstance().get(Calendar.MONTH) + 1; // Calendar is
+                                                                             // zero-indexed
+    return ExecutionPeriod.matchExecutionPeriod(currentPeriod);
     // end-user-code
   }
+  
+  /** 
+  * <!-- begin-UML-doc -->
+  * <!-- end-UML-doc -->
+  * @return
+  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_uHmuAJW5EeevpubR7V73Yw"
+  */
+  public static int getCurrentYear() {
+    // begin-user-code
+    return Calendar.getInstance().get(Calendar.YEAR);
+    // end-user-code
+  }
+  
+  /** 
+  * <!-- begin-UML-doc -->
+  * <!-- end-UML-doc -->
+  * @param period
+  * @return
+  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_uHnVEJW5EeevpubR7V73Yw"
+  */
+  public static int asInt(final ExecutionPeriod period) {
+    // begin-user-code
+    int p = -1;
+    switch (period) {
+      case JANUARY:
+        p = 1;
+        break;
+      case FEBRUARY:
+        p = 2;
+        break;
+      case FIRST_TRIMESTER:
+        p = 3;
+        break;
+      case APRIL:
+        p = 4;
+        break;
+      case MAY:
+        p = 5;
+        break;
+      case SECOND_TRIMESTER:
+        p = 6;
+        break;
+      case JULY:
+        p = 7;
+        break;
+      case AUGUST:
+        p = 8;
+        break;
+      case THIRD_TRIMESTER:
+        p = 9;
+        break;
+      case OCTOBER:
+        p = 10;
+        break;
+      case NOVEMBER:
+        p = 11;
+        break;
+      case FOURTH_TRIMESTER:
+        p = 12;
+        break;
+    }
+    
+    return p;
+    // end-user-code
+  }
+  
 }

@@ -31,7 +31,7 @@ public class BudgetExecutionFactoryTest {
     final String s = File.separator;
     final String source = new StringBuffer("test").append(s).append("com")
         .append(s).append("ingenium").append(s).append("goby").append(s)
-        .append("extractors").append(s).append("budget").append(s)
+        .append("budget").append(s).append("extractor").append(s)
         .append("fixture").append(s).append("budgetExecution.csv").toString();
 
     final BudgetExecutionFactory factory = BudgetExecutionFactory.getInstance();
@@ -54,7 +54,7 @@ public class BudgetExecutionFactoryTest {
       final File file1 = new File(destination);
       final String objective = new StringBuffer("test").append(s).append("com")
           .append(s).append("ingenium").append(s).append("goby").append(s)
-          .append("extractors").append(s).append("budget").append(s)
+          .append("budget").append(s).append("extractor").append(s)
           .append("fixture").append(s).append("budgetExecution.json")
           .toString();
       final File file2 = new File(objective);

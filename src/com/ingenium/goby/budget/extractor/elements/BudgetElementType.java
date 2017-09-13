@@ -8,7 +8,7 @@ package com.ingenium.goby.budget.extractor.elements;
  * <!-- begin-UML-doc -->
  * <p>Enumeration of all the valid budget types managed in the system</p>
  * <!-- end-UML-doc -->
- * @author joviedo
+ * @author Jaime Oviedo
  * @uml.annotations
  *     derived_abstraction="platform:/resource/goby-design/budget-extractor.emx#_qoIVMEq0EeeJsdrfgQXeQw"
  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_qoIVMEq0EeeJsdrfgQXeQw?DATATYPE"

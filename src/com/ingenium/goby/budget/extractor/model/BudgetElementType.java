@@ -2,13 +2,13 @@
  * 
  */
 
-package com.ingenium.goby.budget.extractor.elements;
+package com.ingenium.goby.budget.extractor.model;
 
 /** 
  * <!-- begin-UML-doc -->
  * <p>Enumeration of all the valid budget types managed in the system</p>
  * <!-- end-UML-doc -->
- * @author Jaime Oviedo
+ * @author joviedo
  * @uml.annotations
  *     derived_abstraction="platform:/resource/goby-design/budget-extractor.emx#_qoIVMEq0EeeJsdrfgQXeQw"
  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_qoIVMEq0EeeJsdrfgQXeQw?DATATYPE"

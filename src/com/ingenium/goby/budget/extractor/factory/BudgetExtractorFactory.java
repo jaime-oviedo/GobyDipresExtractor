@@ -2,10 +2,14 @@
  *
  */
 
-package com.ingenium.goby.budget.extractor;
+package com.ingenium.goby.budget.extractor.factory;
 
 import com.ingenium.goby.budget.extractor.crawl.BudgetExecutionCrawler;
 import com.ingenium.goby.budget.extractor.download.BudgetCsvFilesDownloader;
+import com.ingenium.goby.budget.extractor.model.BudgetExecution;
+import com.ingenium.goby.budget.extractor.model.BudgetExtractor;
+import com.ingenium.goby.budget.extractor.model.BudgetLaw;
+import com.ingenium.goby.budget.extractor.model.ExecutionPeriod;
 import com.ingenium.goby.budget.extractor.normalization.BulkBudgetExecutionCsvFilesNormalizer;
 
 import java.io.File;
@@ -16,7 +20,7 @@ import java.util.logging.Logger;
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
- * @author Jaime Oviedo
+ * @author joviedo
  * @uml.annotations
  *     derived_abstraction="platform:/resource/goby-design/budget-extractor.emx#_lgK9QGD3EeemUqxRur9fjQ"
  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_lgK9QGD3EeemUqxRur9fjQ"
@@ -25,7 +29,7 @@ public class BudgetExtractorFactory {
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
-  * @author Jaime Oviedo
+  * @author joviedo
   * @uml.annotations
   *     derived_abstraction="platform:/resource/goby-design/budget-extractor.emx#_Y1eMQGD3EeemUqxRur9fjQ"
   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_Y1eMQGD3EeemUqxRur9fjQ"
@@ -37,28 +41,27 @@ public class BudgetExtractorFactory {
     * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_Hd42kGEREeeMhLKRNTgRlA"
     */
     private BudgetLaw budgetLaw;
-    
+
     /** 
     * <!-- begin-UML-doc -->
     * <!-- end-UML-doc -->
     * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_XjRlwGEREeeMhLKRNTgRlA"
     */
     private BudgetExecution budgetExecution;
-    
+
     /** 
     * <!-- begin-UML-doc -->
     * <!-- end-UML-doc -->
-    * Creates a new instance of the class BudgetExtractorImpl.
     * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_NNW60GEREeeMhLKRNTgRlA"
     */
     public BudgetExtractorImpl() {
       // begin-user-code
       super();
-      this.budgetLaw = null;
-      this.budgetExecution = null;
+      budgetLaw = null;
+      budgetExecution = null;
       // end-user-code
     }
-    
+
     /** 
     * <!-- begin-UML-doc -->
     * <!-- end-UML-doc -->
@@ -68,12 +71,12 @@ public class BudgetExtractorFactory {
     @Override
     public BudgetExecution extractBudgetExecution() {
       // begin-user-code
-      this.budgetExecution = this
+      budgetExecution = this
           .extractBudgetExecution(ExecutionPeriod.getCurrentPeriod(), false);
-      return this.budgetExecution;
+      return budgetExecution;
       // end-user-code
     }
-    
+
     /** 
     * <!-- begin-UML-doc -->
     * <!-- end-UML-doc -->
@@ -84,12 +87,12 @@ public class BudgetExtractorFactory {
     @Override
     public BudgetExecution extractBudgetExecution(final boolean force) {
       // begin-user-code
-      this.budgetExecution = this
+      budgetExecution = this
           .extractBudgetExecution(ExecutionPeriod.getCurrentPeriod(), force);
-      return this.budgetExecution;
+      return budgetExecution;
       // end-user-code
     }
-    
+
     /** 
     * <!-- begin-UML-doc -->
     * <!-- end-UML-doc -->
@@ -101,11 +104,11 @@ public class BudgetExtractorFactory {
     public BudgetExecution extractBudgetExecution(
         final ExecutionPeriod period) {
       // begin-user-code
-      this.budgetExecution = this.extractBudgetExecution(period, false);
-      return this.budgetExecution;
+      budgetExecution = this.extractBudgetExecution(period, false);
+      return budgetExecution;
       // end-user-code
     }
-    
+
     /** 
     * <!-- begin-UML-doc -->
     * <!-- end-UML-doc -->
@@ -119,21 +122,21 @@ public class BudgetExtractorFactory {
         final boolean force) {
       // begin-user-code
       boolean doForce = force;
-      if (this.budgetExecution == null) {
+      if (budgetExecution == null) {
         doForce = true;
       }
-      
+
       if (!doForce) {
-        return this.budgetExecution;
+        return budgetExecution;
       }
-      
+
       final String s = File.separator;
       // Get the csv files listing
       final BudgetExecutionCrawler crawler = new BudgetExecutionCrawler();
       final List<String> executionFilesList = crawler
           .crawlAndFetchExecutionFilesList(
               Calendar.getInstance().get(Calendar.YEAR), period);
-      
+
       // Download all files from the fetched listing
       final BudgetCsvFilesDownloader filesDownloader = new BudgetCsvFilesDownloader();
       final String csvFilesDir = new StringBuilder("tmp").append(s)
@@ -148,27 +151,26 @@ public class BudgetExtractorFactory {
       // BudgetExtractorFactory.log.severe("Unable to download files");
       // BudgetExtractorFactory.log.severe(e.getMessage());
       // }
-      
+
       // Normalize the files. Budget Execution files has a header we don't need and a final row that
       // is useless too
       final String timestampedDestination = filesDownloader
           .getTimestampedDestination();
       final String destinationFile = new StringBuilder(timestampedDestination)
           .append(s).append("out").append(s).append("budget-execution-")
-          .append(period).append(BudgetExtractorFactory.this.year)
-          .append(".csv").toString();
+          .append(period).append(year).append(".csv").toString();
       BulkBudgetExecutionCsvFilesNormalizer.normalize(timestampedDestination,
           destinationFile);
-      
+
       // Extract the budget from the merged file
       final BudgetExecutionFactory executionFactory = BudgetExecutionFactory
           .getInstance();
       executionFactory.setSource(destinationFile);
-      this.budgetExecution = executionFactory.getBudgetExecution();
-      return this.budgetExecution;
+      budgetExecution = executionFactory.getBudgetExecution();
+      return budgetExecution;
       // end-user-code
     }
-    
+
     /** 
     * <!-- begin-UML-doc -->
     * <!-- end-UML-doc -->
@@ -178,15 +180,15 @@ public class BudgetExtractorFactory {
     @Override
     public BudgetLaw extractBudgetLaw() {
       // begin-user-code
-      if (this.budgetLaw == null) {
-        this.budgetLaw = this.extractBudgetLaw(true);
+      if (budgetLaw == null) {
+        budgetLaw = this.extractBudgetLaw(true);
         ;
       }
-      
-      return this.budgetLaw;
+
+      return budgetLaw;
       // end-user-code
     }
-    
+
     /** 
     * <!-- begin-UML-doc -->
     * <!-- end-UML-doc -->
@@ -198,20 +200,20 @@ public class BudgetExtractorFactory {
     public BudgetLaw extractBudgetLaw(final boolean force) {
       // begin-user-code
       final BudgetLawFactory blf = BudgetLawFactory.getInstance();
-      this.budgetLaw = blf.getBudgetLaw(force);
-      return this.budgetLaw;
-      
+      budgetLaw = blf.getBudgetLaw(force);
+      return budgetLaw;
+
       // end-user-code
     }
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_sd_D8GD3EeemUqxRur9fjQ"
   */
   private static BudgetExtractorFactory instance = null;
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -219,7 +221,7 @@ public class BudgetExtractorFactory {
   */
   private static final Logger log = Logger
       .getLogger("com.ingenium.goby.budget.extractor.BudgetExtractorFactory");
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -235,41 +237,40 @@ public class BudgetExtractorFactory {
     return BudgetExtractorFactory.instance;
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_Yq8ukGEIEeemUqxRur9fjQ"
   */
   private final BudgetExtractor budgetExtractor;
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_39S2gGEQEeeMhLKRNTgRlA"
   */
   private int year;
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_46WUoGEQEeeMhLKRNTgRlA"
   */
   private ExecutionPeriod period;
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
-  * Creates a new instance of the class BudgetExtractorFactory.
   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_PznhgGEIEeemUqxRur9fjQ"
   */
   private BudgetExtractorFactory() {
     // begin-user-code
     super();
-    this.budgetExtractor = new BudgetExtractorImpl();
+    budgetExtractor = new BudgetExtractorImpl();
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -278,10 +279,10 @@ public class BudgetExtractorFactory {
   */
   public BudgetExtractor getBudgetExtractor() {
     // begin-user-code
-    return this.budgetExtractor;
+    return budgetExtractor;
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -290,10 +291,10 @@ public class BudgetExtractorFactory {
   */
   public ExecutionPeriod getPeriod() {
     // begin-user-code
-    return this.period;
+    return period;
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -302,10 +303,10 @@ public class BudgetExtractorFactory {
   */
   public int getYear() {
     // begin-user-code
-    return this.year;
+    return year;
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -314,10 +315,10 @@ public class BudgetExtractorFactory {
   */
   public void setPeriod(final ExecutionPeriod newPeriod) {
     // begin-user-code
-    this.period = newPeriod;
+    period = newPeriod;
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -326,7 +327,7 @@ public class BudgetExtractorFactory {
   */
   public void setYear(final int newYear) {
     // begin-user-code
-    this.year = newYear;
+    year = newYear;
     // end-user-code
   }
 }

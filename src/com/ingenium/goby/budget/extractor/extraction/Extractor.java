@@ -4,14 +4,14 @@
 
 package com.ingenium.goby.budget.extractor.extraction;
 
-import com.ingenium.goby.budget.extractor.elements.BudgetElement;
+import com.ingenium.goby.budget.extractor.model.BudgetElement;
 
 import java.util.Collection;
 
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
- * @author Jaime Oviedo
+ * @author joviedo
  * @uml.annotations
  *     derived_abstraction="platform:/resource/goby-design/budget-extractor.emx#_MC9IQFYQEeeKVoBZn1AqUw"
  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_MC9IQFYQEeeKVoBZn1AqUw"

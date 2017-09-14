@@ -2,24 +2,23 @@
  * Copyright (c) 2017 Ingenium Software Ltda.
  */
 
-package com.ingenium.goby.budget.extractor.elements;
+package com.ingenium.goby.budget.extractor.model;
 
 /** 
  * <!-- begin-UML-doc -->
  * <p>Class that represents a basic, non-extensible budgetary item.<br>@author JaimeOviedo</p>
  * <!-- end-UML-doc -->
- * @author Jaime Oviedo
+ * @author joviedo
  * @uml.annotations
  *     derived_abstraction="platform:/resource/goby-design/budget-extractor.emx#_Ua33kEquEeeJsdrfgQXeQw"
  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_Ua33kEquEeeJsdrfgQXeQw"
  */
 public final class SimpleClassifier extends BudgetElement {
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * Crea&nbsp;una&nbsp;nueva&nbsp;instancia&nbsp;de&nbsp;la&nbsp;clase&nbsp;SimpleClassifier.<br><br>@param&nbsp;numero<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;el&nbsp;valor&nbsp;del&nbsp;campo&nbsp;numero<br>@param&nbsp;nombre<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;el&nbsp;valor&nbsp;del&nbsp;campo&nbsp;nombre<br>@param&nbsp;descripcion<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;el&nbsp;valor&nbsp;del&nbsp;campo&nbsp;descripcion
   * <!-- end-UML-doc -->
-  * Creates a new instance of the class SimpleClassifier.
   * @param number
   * @param name
   * @param description
@@ -31,5 +30,5 @@ public final class SimpleClassifier extends BudgetElement {
         BudgetHierarchyLevel.NONE);
     // end-user-code
   }
-  
+
 }

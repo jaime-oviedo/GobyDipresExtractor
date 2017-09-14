@@ -1,10 +1,12 @@
-package com.ingenium.goby.budget.extractor;
+package com.ingenium.goby.budget.extractor.factory;
 
-import com.ingenium.goby.budget.extractor.elements.BudgetElementType;
-import com.ingenium.goby.budget.extractor.elements.BudgetHierarchyLevel;
-import com.ingenium.goby.budget.extractor.elements.CompositeBudgetElement;
+import com.ingenium.goby.budget.extractor.factory.InstitutionsCatalogFactory;
 import com.ingenium.goby.budget.extractor.injection.FileSystemInjector;
 import com.ingenium.goby.budget.extractor.map.BudgetElementToJsonMapper;
+import com.ingenium.goby.budget.extractor.model.BudgetElementType;
+import com.ingenium.goby.budget.extractor.model.BudgetHierarchyLevel;
+import com.ingenium.goby.budget.extractor.model.CompositeBudgetElement;
+import com.ingenium.goby.budget.extractor.model.InstitutionsCatalog;
 
 import java.io.File;
 

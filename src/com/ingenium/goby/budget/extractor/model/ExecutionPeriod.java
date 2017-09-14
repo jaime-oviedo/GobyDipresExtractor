@@ -2,14 +2,14 @@
  *
  */
 
-package com.ingenium.goby.budget.extractor;
+package com.ingenium.goby.budget.extractor.model;
 
 import java.util.Calendar;
 
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
- * @author Jaime Oviedo
+ * @author joviedo
  * @uml.annotations
  *     derived_abstraction="platform:/resource/goby-design/budget-extractor.emx#_S4b_gF9qEeeRDb5hxZnsBw"
  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_S4b_gF9qEeeRDb5hxZnsBw?DATATYPE"
@@ -98,47 +98,47 @@ public enum ExecutionPeriod {
     // begin-user-code
     ExecutionPeriod p;
     switch (period) {
-      case 1:
-        p = JANUARY;
-        break;
-      case 2:
-        p = FEBRUARY;
-        break;
-      case 3:
-        p = FIRST_TRIMESTER;
-        break;
-      case 4:
-        p = APRIL;
-        break;
-      case 5:
-        p = MAY;
-        break;
-      case 6:
-        p = SECOND_TRIMESTER;
-        break;
-      case 7:
-        p = JULY;
-        break;
-      case 8:
-        p = AUGUST;
-        break;
-      case 9:
-        p = THIRD_TRIMESTER;
-        break;
-      case 10:
-        p = OCTOBER;
-        break;
-      case 11:
-        p = NOVEMBER;
-        break;
-      default:
-        p = FOURTH_TRIMESTER;
-        break;
+    case 1:
+      p = JANUARY;
+      break;
+    case 2:
+      p = FEBRUARY;
+      break;
+    case 3:
+      p = FIRST_TRIMESTER;
+      break;
+    case 4:
+      p = APRIL;
+      break;
+    case 5:
+      p = MAY;
+      break;
+    case 6:
+      p = SECOND_TRIMESTER;
+      break;
+    case 7:
+      p = JULY;
+      break;
+    case 8:
+      p = AUGUST;
+      break;
+    case 9:
+      p = THIRD_TRIMESTER;
+      break;
+    case 10:
+      p = OCTOBER;
+      break;
+    case 11:
+      p = NOVEMBER;
+      break;
+    default:
+      p = FOURTH_TRIMESTER;
+      break;
     }
     return p;
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -148,11 +148,11 @@ public enum ExecutionPeriod {
   public static ExecutionPeriod getCurrentPeriod() {
     // begin-user-code
     final int currentPeriod = Calendar.getInstance().get(Calendar.MONTH) + 1; // Calendar is
-                                                                             // zero-indexed
+                                                                              // zero-indexed
     return ExecutionPeriod.matchExecutionPeriod(currentPeriod);
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -164,7 +164,7 @@ public enum ExecutionPeriod {
     return Calendar.getInstance().get(Calendar.YEAR);
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -176,46 +176,46 @@ public enum ExecutionPeriod {
     // begin-user-code
     int p = -1;
     switch (period) {
-      case JANUARY:
-        p = 1;
-        break;
-      case FEBRUARY:
-        p = 2;
-        break;
-      case FIRST_TRIMESTER:
-        p = 3;
-        break;
-      case APRIL:
-        p = 4;
-        break;
-      case MAY:
-        p = 5;
-        break;
-      case SECOND_TRIMESTER:
-        p = 6;
-        break;
-      case JULY:
-        p = 7;
-        break;
-      case AUGUST:
-        p = 8;
-        break;
-      case THIRD_TRIMESTER:
-        p = 9;
-        break;
-      case OCTOBER:
-        p = 10;
-        break;
-      case NOVEMBER:
-        p = 11;
-        break;
-      case FOURTH_TRIMESTER:
-        p = 12;
-        break;
+    case JANUARY:
+      p = 1;
+      break;
+    case FEBRUARY:
+      p = 2;
+      break;
+    case FIRST_TRIMESTER:
+      p = 3;
+      break;
+    case APRIL:
+      p = 4;
+      break;
+    case MAY:
+      p = 5;
+      break;
+    case SECOND_TRIMESTER:
+      p = 6;
+      break;
+    case JULY:
+      p = 7;
+      break;
+    case AUGUST:
+      p = 8;
+      break;
+    case THIRD_TRIMESTER:
+      p = 9;
+      break;
+    case OCTOBER:
+      p = 10;
+      break;
+    case NOVEMBER:
+      p = 11;
+      break;
+    case FOURTH_TRIMESTER:
+      p = 12;
+      break;
     }
-    
+
     return p;
     // end-user-code
   }
-  
+
 }

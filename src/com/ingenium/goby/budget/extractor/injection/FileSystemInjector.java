@@ -14,7 +14,7 @@ import java.util.logging.Logger;
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
- * @author Jaime Oviedo
+ * @author joviedo
  * @uml.annotations
  *     derived_abstraction="platform:/resource/goby-design/budget-extractor.emx#_yNL6EFdBEee4ttLK_7FK1A"
  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_yNL6EFdBEee4ttLK_7FK1A"
@@ -27,25 +27,24 @@ public class FileSystemInjector implements Injector {
   */
   private static final Logger log = Logger
       .getLogger("com.ingenium.goby.extractor.FileSystemInjector");
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_20YusFdBEee4ttLK_7FK1A"
   */
   private final String destination;
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_DkOzgFdEEee4ttLK_7FK1A"
   */
   private final Object element;
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
-  * Creates a new instance of the class FileSystemInjector.
   * @param destination
   * @param element
   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_8Hj4gFdBEee4ttLK_7FK1A"
@@ -56,7 +55,7 @@ public class FileSystemInjector implements Injector {
     this.element = element;
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -69,7 +68,7 @@ public class FileSystemInjector implements Injector {
     return destination;
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -84,7 +83,7 @@ public class FileSystemInjector implements Injector {
     if (!dirCreated) {
       log.warning("Unable to create directories for injection.");
     }
-    
+
     PrintWriter outputStream = null;
     try {
       outputStream = new PrintWriter(new BufferedWriter(new FileWriter(file)));
@@ -97,7 +96,7 @@ public class FileSystemInjector implements Injector {
         outputStream.close();
       }
     }
-    
+
     // end-user-code
   }
 }

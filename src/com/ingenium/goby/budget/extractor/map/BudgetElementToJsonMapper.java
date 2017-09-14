@@ -1,10 +1,10 @@
 
 package com.ingenium.goby.budget.extractor.map;
 
-import com.ingenium.goby.budget.extractor.elements.BudgetElement;
-import com.ingenium.goby.budget.extractor.elements.BudgetElementType;
-import com.ingenium.goby.budget.extractor.elements.BudgetHierarchyLevel;
-import com.ingenium.goby.budget.extractor.elements.CompositeBudgetElement;
+import com.ingenium.goby.budget.extractor.model.BudgetElement;
+import com.ingenium.goby.budget.extractor.model.BudgetElementType;
+import com.ingenium.goby.budget.extractor.model.BudgetHierarchyLevel;
+import com.ingenium.goby.budget.extractor.model.CompositeBudgetElement;
 
 import java.util.Collection;
 import java.util.Iterator;
@@ -12,13 +12,13 @@ import java.util.Iterator;
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
- * @author Jaime Oviedo
+ * @author joviedo
  * @uml.annotations
  *     derived_abstraction="platform:/resource/goby-design/budget-extractor.emx#_tOVToEt-EeeC6_ZX80x4yQ"
  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_tOVToEt-EeeC6_ZX80x4yQ"
  */
 public class BudgetElementToJsonMapper {
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -33,7 +33,7 @@ public class BudgetElementToJsonMapper {
     for (int i = 0; i < nestingLevel; i++) {
       nesting.append("  ");
     }
-    
+
     StringBuilder sb = new StringBuilder(nesting);
     String lineSeparator = System.lineSeparator();
     sb.append("{").append(lineSeparator);
@@ -48,22 +48,22 @@ public class BudgetElementToJsonMapper {
         .append(q + "description" + q + ":" + q + elementDescription + q);
     BudgetElementType type = element.getType();
     switch (type) {
-      case BUDGET:
-        sb.append(",\n");
-        sb.append(nesting)
-            .append(q + "budget" + q + ":" + q + elementDescription + q);
-        break;
-      case EXECUTION:
-        sb.append(",\n");
-        sb.append(nesting).append(
-            q + "budget" + q + ":" + q + elementDescription + q + ",\n");
-        sb.append(nesting)
-            .append(q + "execution" + q + ":" + q + elementDescription + q);
-        break;
-      default:
-        break;
+    case BUDGET:
+      sb.append(",\n");
+      sb.append(nesting)
+          .append(q + "budget" + q + ":" + q + elementDescription + q);
+      break;
+    case EXECUTION:
+      sb.append(",\n");
+      sb.append(nesting)
+          .append(q + "budget" + q + ":" + q + elementDescription + q + ",\n");
+      sb.append(nesting)
+          .append(q + "execution" + q + ":" + q + elementDescription + q);
+      break;
+    default:
+      break;
     }
-    
+
     if (element instanceof CompositeBudgetElement) {
       CompositeBudgetElement compositeElement = (CompositeBudgetElement) element;
       Collection<? extends BudgetElement> ceSubelements = compositeElement
@@ -73,34 +73,34 @@ public class BudgetElementToJsonMapper {
         BudgetHierarchyLevel level = compositeElement.getLevel();
         String label = "";
         switch (level) {
-          case ITEM:
-            label = "assignments";
-            break;
-          case SUBTITLE:
-            label = "items";
-            break;
-          case PROGRAM:
+        case ITEM:
+          label = "assignments";
+          break;
+        case SUBTITLE:
+          label = "items";
+          break;
+        case PROGRAM:
+          label = "subtitles";
+          break;
+        case CHAPTER:
+          label = "programs";
+          break;
+        case BATCH:
+          label = "chapters";
+          break;
+        case ROOT:
+          switch (type) {
+          case BUDGETARY_CLASSIFICATION:
             label = "subtitles";
             break;
-          case CHAPTER:
-            label = "programs";
-            break;
-          case BATCH:
-            label = "chapters";
-            break;
-          case ROOT:
-            switch (type) {
-              case BUDGETARY_CLASSIFICATION:
-                label = "subtitles";
-                break;
-              default:
-                label = "batches";
-                break;
-            }
-            break;
           default:
-            label = "";
+            label = "batches";
             break;
+          }
+          break;
+        default:
+          label = "";
+          break;
         }
         if (!"".equals(label)) {
           sb.append(nesting).append(q + label + q + ":[ ")
@@ -130,11 +130,10 @@ public class BudgetElementToJsonMapper {
     return sb.toString();
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
-  * Creates a new instance of the class BudgetElementToJsonMapper.
   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_tRD3gEt-EeeC6_ZX80x4yQ"
   */
   private BudgetElementToJsonMapper() {
@@ -142,5 +141,5 @@ public class BudgetElementToJsonMapper {
     super();
     // end-user-code
   }
-  
+
 }

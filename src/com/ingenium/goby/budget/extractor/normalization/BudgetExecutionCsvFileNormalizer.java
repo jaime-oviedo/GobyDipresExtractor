@@ -21,7 +21,7 @@ import java.util.logging.Logger;
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
- * @author Jaime Oviedo
+ * @author joviedo
  * @uml.annotations
  *     derived_abstraction="platform:/resource/goby-design/budget-extractor.emx#_95O2AGNsEeebmPnwD8r8OA"
  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_95O2AGNsEeebmPnwD8r8OA"
@@ -34,7 +34,7 @@ public class BudgetExecutionCsvFileNormalizer {
   */
   private static final Logger log = Logger.getLogger(
       "com.ingenium.goby.budget.extractor.normalization.BudgetExecutionCsvFileNormalizer");
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -49,13 +49,13 @@ public class BudgetExecutionCsvFileNormalizer {
     BufferedReader buffReader = null;
     List<String[]> sourceLines = new ArrayList<>();
     CSVReader reader = null;
-    
+
     try {
       fi = new FileInputStream(csvBudgetExecutionFile);
       isr = new InputStreamReader(fi, "CP1250");
-      
+
       buffReader = new BufferedReader(isr);
-      
+
       reader = new CSVReader(buffReader, ';', '"', 1);
       sourceLines = reader.readAll();
     } catch (final IOException e) {
@@ -70,10 +70,10 @@ public class BudgetExecutionCsvFileNormalizer {
         } catch (final IOException e) {
           BudgetExecutionCsvFileNormalizer.log
               .warning("Unable to close reader");
-          
+
         }
       }
-      
+
     }
     final List<List<String>> selectedLines = new ArrayList<>();
     for (final String[] line : sourceLines) {
@@ -92,13 +92,13 @@ public class BudgetExecutionCsvFileNormalizer {
         final List<String> lineAsCollection = Arrays.asList(line);
         selectedLines.add(lineAsCollection);
       }
-      
+
     }
-    
+
     return selectedLines;
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -112,7 +112,7 @@ public class BudgetExecutionCsvFileNormalizer {
         .normalize(new File(csvBudgetExecutionFile));
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -124,7 +124,7 @@ public class BudgetExecutionCsvFileNormalizer {
   public static List<List<String>> normalize(String csvBudgetExecutionFile,
       String destination) {
     // begin-user-code
-    
+
     final List<List<String>> selectedLines = BudgetExecutionCsvFileNormalizer
         .normalize(csvBudgetExecutionFile);
     final List<String[]> linesAsArray = new ArrayList<>();
@@ -146,7 +146,7 @@ public class BudgetExecutionCsvFileNormalizer {
       BudgetExecutionCsvFileNormalizer.log.severe(
           new StringBuilder("Unable to write normalized file to destination ")
               .append(destination).toString());
-      
+
     } finally {
       if (writer != null) {
         try {
@@ -157,15 +157,14 @@ public class BudgetExecutionCsvFileNormalizer {
         }
       }
     }
-    
+
     return selectedLines;
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
-  * Creates a new instance of the class BudgetExecutionCsvFileNormalizer.
   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_CU6-MGNtEeebmPnwD8r8OA"
   */
   private BudgetExecutionCsvFileNormalizer() {

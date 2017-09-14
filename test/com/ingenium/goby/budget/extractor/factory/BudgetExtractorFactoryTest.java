@@ -1,9 +1,13 @@
-package com.ingenium.goby.budget.extractor;
+package com.ingenium.goby.budget.extractor.factory;
 
-import com.ingenium.goby.budget.extractor.elements.BudgetElementType;
-import com.ingenium.goby.budget.extractor.elements.BudgetHierarchyLevel;
-import com.ingenium.goby.budget.extractor.elements.CompositeBudgetElement;
+import com.ingenium.goby.budget.extractor.factory.BudgetExtractorFactory;
 import com.ingenium.goby.budget.extractor.map.BudgetElementToJsonMapper;
+import com.ingenium.goby.budget.extractor.model.BudgetElementType;
+import com.ingenium.goby.budget.extractor.model.BudgetExecution;
+import com.ingenium.goby.budget.extractor.model.BudgetExtractor;
+import com.ingenium.goby.budget.extractor.model.BudgetHierarchyLevel;
+import com.ingenium.goby.budget.extractor.model.CompositeBudgetElement;
+import com.ingenium.goby.budget.extractor.model.ExecutionPeriod;
 
 import org.junit.Assert;
 import org.junit.Test;

@@ -5,14 +5,14 @@
 package com.ingenium.goby.budget.extractor.merge;
 
 import com.ingenium.commons.util.DownloadException;
-import com.ingenium.goby.budget.extractor.elements.BudgetElementType;
+import com.ingenium.goby.budget.extractor.model.BudgetElementType;
 
 import java.util.logging.Logger;
 
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
- * @author Jaime Oviedo
+ * @author joviedo
  * @uml.annotations
  *     derived_abstraction="platform:/resource/goby-design/budget-extractor.emx#_xiP9AEyIEeekuqvl4T6tsg"
  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_xiP9AEyIEeekuqvl4T6tsg"
@@ -25,11 +25,10 @@ public class BudgetLawCsvFilesMerger {
   */
   private static final Logger log = Logger.getLogger(
       "com.ingenium.goby.budget.extractor.extraction.extraction.merge.BudgetLawCsvFilesMerger");
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
-  * Creates a new instance of the class BudgetLawCsvFilesMerger.
   * @param sourceDirectory
   * @param outputFile
   * @param mergedElementsType
@@ -41,7 +40,7 @@ public class BudgetLawCsvFilesMerger {
     log.severe("Not implemented");
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->

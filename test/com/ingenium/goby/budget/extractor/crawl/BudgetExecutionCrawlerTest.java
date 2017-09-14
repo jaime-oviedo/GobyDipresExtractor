@@ -7,7 +7,7 @@ package com.ingenium.goby.budget.extractor.crawl;
 import com.gargoylesoftware.htmlunit.FailingHttpStatusCodeException;
 import com.gargoylesoftware.htmlunit.WebClient;
 import com.gargoylesoftware.htmlunit.html.HtmlPage;
-import com.ingenium.goby.budget.extractor.ExecutionPeriod;
+import com.ingenium.goby.budget.extractor.model.ExecutionPeriod;
 
 import java.io.File;
 import java.io.IOException;

@@ -4,453 +4,744 @@
 
 package com.ingenium.goby.budget.extractor.map;
 
-import com.ingenium.goby.budget.extractor.BudgetExecution;
-import com.ingenium.goby.budget.extractor.elements.Assignment;
-import com.ingenium.goby.budget.extractor.elements.Batch;
-import com.ingenium.goby.budget.extractor.elements.BudgetElement;
-import com.ingenium.goby.budget.extractor.elements.BudgetHierarchyLevel;
-import com.ingenium.goby.budget.extractor.elements.CompositeBudgetElement;
-import com.ingenium.goby.budget.extractor.elements.Item;
+import com.ingenium.goby.budget.extractor.model.Assignment;
+import com.ingenium.goby.budget.extractor.model.Batch;
+import com.ingenium.goby.budget.extractor.model.BudgetElement;
+import com.ingenium.goby.budget.extractor.model.BudgetExecution;
+import com.ingenium.goby.budget.extractor.model.BudgetHierarchyLevel;
+import com.ingenium.goby.budget.extractor.model.CompositeBudgetElement;
+import com.ingenium.goby.budget.extractor.model.Item;
 
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 import java.util.logging.Logger;
 
-/**
- * @author Jaime Oviedo
- *
+/** 
+ * <!-- begin-UML-doc -->
+ * @author&nbsp;Jaime&nbsp;Oviedo<br>
+ * <!-- end-UML-doc -->
+ * @author joviedo
+ * @uml.annotations
+ *     derived_abstraction="platform:/resource/goby-design/budget-extractor.emx#_f3DKEZlJEeeN7K_s3Iv6cQ"
+ * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_f3DKEZlJEeeN7K_s3Iv6cQ"
  */
 public class BudgetElementToHumanCsvMapper {
 
+  /** 
+  * <!-- begin-UML-doc -->
+  * <!-- end-UML-doc -->
+  * @author joviedo
+  * @uml.annotations
+  *     derived_abstraction="platform:/resource/goby-design/budget-extractor.emx#_f3f2AZlJEeeN7K_s3Iv6cQ"
+  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_f3f2AZlJEeeN7K_s3Iv6cQ"
+  */
   private class MappedElement {
+    /** 
+    * <!-- begin-UML-doc -->
+    * <!-- end-UML-doc -->
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_f_9OcJlJEeeN7K_s3Iv6cQ"
+    */
     private String batchNumber;
+    /** 
+    * <!-- begin-UML-doc -->
+    * <!-- end-UML-doc -->
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_f_9OcZlJEeeN7K_s3Iv6cQ"
+    */
     private String batchName;
+    /** 
+    * <!-- begin-UML-doc -->
+    * <!-- end-UML-doc -->
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_f_91gJlJEeeN7K_s3Iv6cQ"
+    */
     private String chapterNumber;
+    /** 
+    * <!-- begin-UML-doc -->
+    * <!-- end-UML-doc -->
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_f_-ckJlJEeeN7K_s3Iv6cQ"
+    */
     private String chapterName;
+    /** 
+    * <!-- begin-UML-doc -->
+    * <!-- end-UML-doc -->
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_f__DoJlJEeeN7K_s3Iv6cQ"
+    */
     private String programNumber;
+    /** 
+    * <!-- begin-UML-doc -->
+    * <!-- end-UML-doc -->
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_f__DoZlJEeeN7K_s3Iv6cQ"
+    */
     private String programName;
+    /** 
+    * <!-- begin-UML-doc -->
+    * <!-- end-UML-doc -->
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_f__qsJlJEeeN7K_s3Iv6cQ"
+    */
     private String subtitleNumber;
+    /** 
+    * <!-- begin-UML-doc -->
+    * <!-- end-UML-doc -->
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_gAARwJlJEeeN7K_s3Iv6cQ"
+    */
     private String subtitleName;
+    /** 
+    * <!-- begin-UML-doc -->
+    * <!-- end-UML-doc -->
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_gAA40JlJEeeN7K_s3Iv6cQ"
+    */
     private String itemNumber;
+    /** 
+    * <!-- begin-UML-doc -->
+    * <!-- end-UML-doc -->
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_gAA40ZlJEeeN7K_s3Iv6cQ"
+    */
     private String itemName;
+    /** 
+    * <!-- begin-UML-doc -->
+    * <!-- end-UML-doc -->
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_gABf4JlJEeeN7K_s3Iv6cQ"
+    */
     private String assignmentNumber;
+    /** 
+    * <!-- begin-UML-doc -->
+    * <!-- end-UML-doc -->
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_gACG8JlJEeeN7K_s3Iv6cQ"
+    */
     private String assignmentName;
+    /** 
+    * <!-- begin-UML-doc -->
+    * <!-- end-UML-doc -->
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_gACuAJlJEeeN7K_s3Iv6cQ"
+    */
     private String initialBudget;
+    /** 
+    * <!-- begin-UML-doc -->
+    * <!-- end-UML-doc -->
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_gACuAZlJEeeN7K_s3Iv6cQ"
+    */
     private String actualBudget;
+    /** 
+    * <!-- begin-UML-doc -->
+    * <!-- end-UML-doc -->
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_gADVEJlJEeeN7K_s3Iv6cQ"
+    */
     private String currency;
+    /** 
+    * <!-- begin-UML-doc -->
+    * <!-- end-UML-doc -->
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_gAD8IJlJEeeN7K_s3Iv6cQ"
+    */
     private String cumulativeExecution;
+    /** 
+    * <!-- begin-UML-doc -->
+    * <!-- end-UML-doc -->
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_gAEjMJlJEeeN7K_s3Iv6cQ"
+    */
     private String actualDollarBudget;
+    /** 
+    * <!-- begin-UML-doc -->
+    * <!-- end-UML-doc -->
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_gAFKQJlJEeeN7K_s3Iv6cQ"
+    */
     private String cumulativeDollarExecution;
+    /** 
+    * <!-- begin-UML-doc -->
+    * <!-- end-UML-doc -->
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_gAFxUJlJEeeN7K_s3Iv6cQ"
+    */
     private String initialDollarBudget;
+    /** 
+    * <!-- begin-UML-doc -->
+    * <!-- end-UML-doc -->
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_gAGYYJlJEeeN7K_s3Iv6cQ"
+    */
     private String executionPercentage;
+    /** 
+    * <!-- begin-UML-doc -->
+    * <!-- end-UML-doc -->
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_gAG_cJlJEeeN7K_s3Iv6cQ"
+    */
     private String dollarExecutionPercentage;
 
-    /**
-     * Returns the value of the field actualBudget.
-     *
-     * @return the value of field actualBudget
-     */
+    /** 
+    * <!-- begin-UML-doc -->
+    * Returns&nbsp;the&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;actualBudget.<br><br>@return&nbsp;the&nbsp;value&nbsp;of&nbsp;field&nbsp;actualBudget
+    * <!-- end-UML-doc -->
+    * @return
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_gAHmgJlJEeeN7K_s3Iv6cQ"
+    */
     public String getActualBudget() {
+      // begin-user-code
       return actualBudget;
+      // end-user-code
     }
 
-    /**
-     * Returns the value of the field actualDollarBudget.
-     *
-     * @return the value of field actualDollarBudget
-     */
+    /** 
+    * <!-- begin-UML-doc -->
+    * Returns&nbsp;the&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;actualDollarBudget.<br><br>@return&nbsp;the&nbsp;value&nbsp;of&nbsp;field&nbsp;actualDollarBudget
+    * <!-- end-UML-doc -->
+    * @return
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_gAI0oJlJEeeN7K_s3Iv6cQ"
+    */
     public String getActualDollarBudget() {
+      // begin-user-code
       return actualDollarBudget;
+      // end-user-code
     }
 
-    /**
-     * Returns the value of the field assignmentName.
-     *
-     * @return the value of field assignmentName
-     */
+    /** 
+    * <!-- begin-UML-doc -->
+    * Returns&nbsp;the&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;assignmentName.<br><br>@return&nbsp;the&nbsp;value&nbsp;of&nbsp;field&nbsp;assignmentName
+    * <!-- end-UML-doc -->
+    * @return
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_gAKCwJlJEeeN7K_s3Iv6cQ"
+    */
     public String getAssignmentName() {
+      // begin-user-code
       return assignmentName;
+      // end-user-code
     }
 
-    /**
-     * Returns the value of the field assignmentNumber.
-     *
-     * @return the value of field assignmentNumber
-     */
+    /** 
+    * <!-- begin-UML-doc -->
+    * Returns&nbsp;the&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;assignmentNumber.<br><br>@return&nbsp;the&nbsp;value&nbsp;of&nbsp;field&nbsp;assignmentNumber
+    * <!-- end-UML-doc -->
+    * @return
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_gAKp0JlJEeeN7K_s3Iv6cQ"
+    */
     public String getAssignmentNumber() {
+      // begin-user-code
       return assignmentNumber;
+      // end-user-code
     }
 
-    /**
-     * Returns the value of the field batchName.
-     *
-     * @return the value of field batchName
-     */
+    /** 
+    * <!-- begin-UML-doc -->
+    * Returns&nbsp;the&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;batchName.<br><br>@return&nbsp;the&nbsp;value&nbsp;of&nbsp;field&nbsp;batchName
+    * <!-- end-UML-doc -->
+    * @return
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_gALQ4plJEeeN7K_s3Iv6cQ"
+    */
     public String getBatchName() {
+      // begin-user-code
       return batchName;
+      // end-user-code
     }
 
-    /**
-     * Returns the value of the field batchNumber.
-     *
-     * @return the value of field batchNumber
-     */
+    /** 
+    * <!-- begin-UML-doc -->
+    * Returns&nbsp;the&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;batchNumber.<br><br>@return&nbsp;the&nbsp;value&nbsp;of&nbsp;field&nbsp;batchNumber
+    * <!-- end-UML-doc -->
+    * @return
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_gAMfAJlJEeeN7K_s3Iv6cQ"
+    */
     public String getBatchNumber() {
+      // begin-user-code
       return batchNumber;
+      // end-user-code
     }
 
-    /**
-     * Returns the value of the field chapterName.
-     *
-     * @return the value of field chapterName
-     */
+    /** 
+    * <!-- begin-UML-doc -->
+    * Returns&nbsp;the&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;chapterName.<br><br>@return&nbsp;the&nbsp;value&nbsp;of&nbsp;field&nbsp;chapterName
+    * <!-- end-UML-doc -->
+    * @return
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_gANtIJlJEeeN7K_s3Iv6cQ"
+    */
     public String getChapterName() {
+      // begin-user-code
       return chapterName;
+      // end-user-code
     }
 
-    /**
-     * Returns the value of the field chapterNumber.
-     *
-     * @return the value of field chapterNumber
-     */
+    /** 
+    * <!-- begin-UML-doc -->
+    * Returns&nbsp;the&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;chapterNumber.<br><br>@return&nbsp;the&nbsp;value&nbsp;of&nbsp;field&nbsp;chapterNumber
+    * <!-- end-UML-doc -->
+    * @return
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_gAO7QJlJEeeN7K_s3Iv6cQ"
+    */
     public String getChapterNumber() {
+      // begin-user-code
       return chapterNumber;
+      // end-user-code
     }
 
-    /**
-     * Returns the value of the field cumulativeDollarExecution.
-     *
-     * @return the value of field cumulativeDollarExecution
-     */
+    /** 
+    * <!-- begin-UML-doc -->
+    * Returns&nbsp;the&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;cumulativeDollarExecution.<br><br>@return&nbsp;the&nbsp;value&nbsp;of&nbsp;field&nbsp;cumulativeDollarExecution
+    * <!-- end-UML-doc -->
+    * @return
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_gAPiUZlJEeeN7K_s3Iv6cQ"
+    */
     public String getCumulativeDollarExecution() {
+      // begin-user-code
       return cumulativeDollarExecution;
+      // end-user-code
     }
 
-    /**
-     * Returns the value of the field cumulativeExecution.
-     *
-     * @return the value of field cumulativeExecution
-     */
+    /** 
+    * <!-- begin-UML-doc -->
+    * Returns&nbsp;the&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;cumulativeExecution.<br><br>@return&nbsp;the&nbsp;value&nbsp;of&nbsp;field&nbsp;cumulativeExecution
+    * <!-- end-UML-doc -->
+    * @return
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_gAQwcJlJEeeN7K_s3Iv6cQ"
+    */
     public String getCumulativeExecution() {
+      // begin-user-code
       return cumulativeExecution;
+      // end-user-code
     }
 
-    /**
-     * Returns the value of the field currency.
-     *
-     * @return the value of field currency
-     */
+    /** 
+    * <!-- begin-UML-doc -->
+    * Returns&nbsp;the&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;currency.<br><br>@return&nbsp;the&nbsp;value&nbsp;of&nbsp;field&nbsp;currency
+    * <!-- end-UML-doc -->
+    * @return
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_gARXgplJEeeN7K_s3Iv6cQ"
+    */
     public String getCurrency() {
+      // begin-user-code
       return currency;
+      // end-user-code
     }
 
-    /**
-     * @return the dollarExecutionPercentage
-     */
+    /** 
+    * <!-- begin-UML-doc -->
+    * @return&nbsp;the&nbsp;dollarExecutionPercentage
+    * <!-- end-UML-doc -->
+    * @return
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_gASloJlJEeeN7K_s3Iv6cQ"
+    */
     public final String getDollarExecutionPercentage() {
+      // begin-user-code
       return dollarExecutionPercentage;
+      // end-user-code
     }
 
-    /**
-     * @return the executionPercentage
-     */
+    /** 
+    * <!-- begin-UML-doc -->
+    * @return&nbsp;the&nbsp;executionPercentage
+    * <!-- end-UML-doc -->
+    * @return
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_gATzwJlJEeeN7K_s3Iv6cQ"
+    */
     public final String getExecutionPercentage() {
+      // begin-user-code
       return executionPercentage;
+      // end-user-code
     }
 
-    /**
-     * Returns the value of the field initialBudget.
-     *
-     * @return the value of field initialBudget
-     */
+    /** 
+    * <!-- begin-UML-doc -->
+    * Returns&nbsp;the&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;initialBudget.<br><br>@return&nbsp;the&nbsp;value&nbsp;of&nbsp;field&nbsp;initialBudget
+    * <!-- end-UML-doc -->
+    * @return
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_gAUa0JlJEeeN7K_s3Iv6cQ"
+    */
     public String getInitialBudget() {
+      // begin-user-code
       return initialBudget;
+      // end-user-code
     }
 
-    /**
-     * Returns the value of the field initialDollarBudget.
-     *
-     * @return the value of field initialDollarBudget
-     */
+    /** 
+    * <!-- begin-UML-doc -->
+    * Returns&nbsp;the&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;initialDollarBudget.<br><br>@return&nbsp;the&nbsp;value&nbsp;of&nbsp;field&nbsp;initialDollarBudget
+    * <!-- end-UML-doc -->
+    * @return
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_gAVB4ZlJEeeN7K_s3Iv6cQ"
+    */
     public String getInitialDollarBudget() {
+      // begin-user-code
       return initialDollarBudget;
+      // end-user-code
     }
 
-    /**
-     * Returns the value of the field itemName.
-     *
-     * @return the value of field itemName
-     */
+    /** 
+    * <!-- begin-UML-doc -->
+    * Returns&nbsp;the&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;itemName.<br><br>@return&nbsp;the&nbsp;value&nbsp;of&nbsp;field&nbsp;itemName
+    * <!-- end-UML-doc -->
+    * @return
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_gAWQAJlJEeeN7K_s3Iv6cQ"
+    */
     public String getItemName() {
+      // begin-user-code
       return itemName;
+      // end-user-code
     }
 
-    /**
-     * Returns the value of the field itemNumber.
-     *
-     * @return the value of field itemNumber
-     */
+    /** 
+    * <!-- begin-UML-doc -->
+    * Returns&nbsp;the&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;itemNumber.<br><br>@return&nbsp;the&nbsp;value&nbsp;of&nbsp;field&nbsp;itemNumber
+    * <!-- end-UML-doc -->
+    * @return
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_gAW3EJlJEeeN7K_s3Iv6cQ"
+    */
     public String getItemNumber() {
+      // begin-user-code
       return itemNumber;
+      // end-user-code
     }
 
-    /**
-     * Returns the value of the field programName.
-     *
-     * @return the value of field programName
-     */
+    /** 
+    * <!-- begin-UML-doc -->
+    * Returns&nbsp;the&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;programName.<br><br>@return&nbsp;the&nbsp;value&nbsp;of&nbsp;field&nbsp;programName
+    * <!-- end-UML-doc -->
+    * @return
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_gAXeIZlJEeeN7K_s3Iv6cQ"
+    */
     public String getProgramName() {
+      // begin-user-code
       return programName;
+      // end-user-code
     }
 
-    /**
-     * Returns the value of the field programNumber.
-     *
-     * @return the value of field programNumber
-     */
+    /** 
+    * <!-- begin-UML-doc -->
+    * Returns&nbsp;the&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;programNumber.<br><br>@return&nbsp;the&nbsp;value&nbsp;of&nbsp;field&nbsp;programNumber
+    * <!-- end-UML-doc -->
+    * @return
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_gAYsQJlJEeeN7K_s3Iv6cQ"
+    */
     public String getProgramNumber() {
+      // begin-user-code
       return programNumber;
+      // end-user-code
     }
 
-    /**
-     * Returns the value of the field subtitleName.
-     *
-     * @return the value of field subtitleName
-     */
+    /** 
+    * <!-- begin-UML-doc -->
+    * Returns&nbsp;the&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;subtitleName.<br><br>@return&nbsp;the&nbsp;value&nbsp;of&nbsp;field&nbsp;subtitleName
+    * <!-- end-UML-doc -->
+    * @return
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_gAZTUJlJEeeN7K_s3Iv6cQ"
+    */
     public String getSubtitleName() {
+      // begin-user-code
       return subtitleName;
+      // end-user-code
     }
 
-    /**
-     * Returns the value of the field subtitleNumber.
-     *
-     * @return the value of field subtitleNumber
-     */
+    /** 
+    * <!-- begin-UML-doc -->
+    * Returns&nbsp;the&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;subtitleNumber.<br><br>@return&nbsp;the&nbsp;value&nbsp;of&nbsp;field&nbsp;subtitleNumber
+    * <!-- end-UML-doc -->
+    * @return
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_gAahcJlJEeeN7K_s3Iv6cQ"
+    */
     public String getSubtitleNumber() {
+      // begin-user-code
       return subtitleNumber;
+      // end-user-code
     }
 
-    /**
-     * Sets the value of the field actualBudget.
-     *
-     * @param actualBudget
-     *          the new value of the field actualBudget.
-     */
+    /** 
+    * <!-- begin-UML-doc -->
+    * Sets&nbsp;the&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;actualBudget.<br><br>@param&nbsp;actualBudget<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the&nbsp;new&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;actualBudget.
+    * <!-- end-UML-doc -->
+    * @param actualBudget
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_gAbvkJlJEeeN7K_s3Iv6cQ"
+    */
     public void setActualBudget(final String actualBudget) {
+      // begin-user-code
       this.actualBudget = actualBudget;
+      // end-user-code
     }
 
-    /**
-     * Sets the value of the field actualDollarBudget.
-     *
-     * @param actualDollarBudget
-     *          the new value of the field actualDollarBudget.
-     */
+    /** 
+    * <!-- begin-UML-doc -->
+    * Sets&nbsp;the&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;actualDollarBudget.<br><br>@param&nbsp;actualDollarBudget<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the&nbsp;new&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;actualDollarBudget.
+    * <!-- end-UML-doc -->
+    * @param actualDollarBudget
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_gAcWo5lJEeeN7K_s3Iv6cQ"
+    */
     public void setActualDollarBudget(final String actualDollarBudget) {
+      // begin-user-code
       this.actualDollarBudget = actualDollarBudget;
+      // end-user-code
     }
 
-    /**
-     * Sets the value of the field assignmentName.
-     *
-     * @param assignmentName
-     *          the new value of the field assignmentName.
-     */
+    /** 
+    * <!-- begin-UML-doc -->
+    * Sets&nbsp;the&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;assignmentName.<br><br>@param&nbsp;assignmentName<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the&nbsp;new&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;assignmentName.
+    * <!-- end-UML-doc -->
+    * @param assignmentName
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_gAdkw5lJEeeN7K_s3Iv6cQ"
+    */
     public void setAssignmentName(final String assignmentName) {
+      // begin-user-code
       this.assignmentName = assignmentName;
+      // end-user-code
     }
 
-    /**
-     * Sets the value of the field assignmentNumber.
-     *
-     * @param assignmentNumber
-     *          the new value of the field assignmentNumber.
-     */
+    /** 
+    * <!-- begin-UML-doc -->
+    * Sets&nbsp;the&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;assignmentNumber.<br><br>@param&nbsp;assignmentNumber<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the&nbsp;new&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;assignmentNumber.
+    * <!-- end-UML-doc -->
+    * @param assignmentNumber
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_gAey4plJEeeN7K_s3Iv6cQ"
+    */
     public void setAssignmentNumber(final String assignmentNumber) {
+      // begin-user-code
       this.assignmentNumber = assignmentNumber;
+      // end-user-code
     }
 
-    /**
-     * Sets the value of the field batchName.
-     *
-     * @param batchName
-     *          the new value of the field batchName.
-     */
+    /** 
+    * <!-- begin-UML-doc -->
+    * Sets&nbsp;the&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;batchName.<br><br>@param&nbsp;batchName<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the&nbsp;new&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;batchName.
+    * <!-- end-UML-doc -->
+    * @param batchName
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_gAgBAplJEeeN7K_s3Iv6cQ"
+    */
     public void setBatchName(final String batchName) {
+      // begin-user-code
       this.batchName = batchName;
+      // end-user-code
     }
 
-    /**
-     * Sets the value of the field batchNumber.
-     *
-     * @param batchNumber
-     *          the new value of the field batchNumber.
-     */
+    /** 
+    * <!-- begin-UML-doc -->
+    * Sets&nbsp;the&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;batchNumber.<br><br>@param&nbsp;batchNumber<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the&nbsp;new&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;batchNumber.
+    * <!-- end-UML-doc -->
+    * @param batchNumber
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_gAgoE5lJEeeN7K_s3Iv6cQ"
+    */
     public void setBatchNumber(final String batchNumber) {
+      // begin-user-code
       this.batchNumber = batchNumber;
+      // end-user-code
     }
 
-    /**
-     * Sets the value of the field chapterName.
-     *
-     * @param chapterName
-     *          the new value of the field chapterName.
-     */
+    /** 
+    * <!-- begin-UML-doc -->
+    * Sets&nbsp;the&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;chapterName.<br><br>@param&nbsp;chapterName<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the&nbsp;new&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;chapterName.
+    * <!-- end-UML-doc -->
+    * @param chapterName
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_gAh2MplJEeeN7K_s3Iv6cQ"
+    */
     public void setChapterName(final String chapterName) {
+      // begin-user-code
       this.chapterName = chapterName;
+      // end-user-code
     }
 
-    /**
-     * Sets the value of the field chapterNumber.
-     *
-     * @param chapterNumber
-     *          the new value of the field chapterNumber.
-     */
+    /** 
+    * <!-- begin-UML-doc -->
+    * Sets&nbsp;the&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;chapterNumber.<br><br>@param&nbsp;chapterNumber<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the&nbsp;new&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;chapterNumber.
+    * <!-- end-UML-doc -->
+    * @param chapterNumber
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_gAjEUZlJEeeN7K_s3Iv6cQ"
+    */
     public void setChapterNumber(final String chapterNumber) {
+      // begin-user-code
       this.chapterNumber = chapterNumber;
+      // end-user-code
     }
 
-    /**
-     * Sets the value of the field cumulativeDollarExecution.
-     *
-     * @param cumulativeDollarExecution
-     *          the new value of the field cumulativeDollarExecution.
-     */
+    /** 
+    * <!-- begin-UML-doc -->
+    * Sets&nbsp;the&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;cumulativeDollarExecution.<br><br>@param&nbsp;cumulativeDollarExecution<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the&nbsp;new&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;cumulativeDollarExecution.
+    * <!-- end-UML-doc -->
+    * @param cumulativeDollarExecution
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_gAjrY5lJEeeN7K_s3Iv6cQ"
+    */
     public void setCumulativeDollarExecution(
         final String cumulativeDollarExecution) {
+      // begin-user-code
       this.cumulativeDollarExecution = cumulativeDollarExecution;
+      // end-user-code
     }
 
-    /**
-     * Sets the value of the field cumulativeExecution.
-     *
-     * @param cumulativeExecution
-     *          the new value of the field cumulativeExecution.
-     */
+    /** 
+    * <!-- begin-UML-doc -->
+    * Sets&nbsp;the&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;cumulativeExecution.<br><br>@param&nbsp;cumulativeExecution<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the&nbsp;new&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;cumulativeExecution.
+    * <!-- end-UML-doc -->
+    * @param cumulativeExecution
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_gAk5gplJEeeN7K_s3Iv6cQ"
+    */
     public void setCumulativeExecution(final String cumulativeExecution) {
+      // begin-user-code
       this.cumulativeExecution = cumulativeExecution;
+      // end-user-code
     }
 
-    /**
-     * Sets the value of the field currency.
-     *
-     * @param currency
-     *          the new value of the field currency.
-     */
+    /** 
+    * <!-- begin-UML-doc -->
+    * Sets&nbsp;the&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;currency.<br><br>@param&nbsp;currency<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the&nbsp;new&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;currency.
+    * <!-- end-UML-doc -->
+    * @param currency
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_gAmHoJlJEeeN7K_s3Iv6cQ"
+    */
     public void setCurrency(final String currency) {
+      // begin-user-code
       this.currency = currency;
+      // end-user-code
     }
 
-    /**
-     * @param dollarExecutionPercentage
-     *          the dollarExecutionPercentage to set
-     */
+    /** 
+    * <!-- begin-UML-doc -->
+    * @param&nbsp;dollarExecutionPercentage<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the&nbsp;dollarExecutionPercentage&nbsp;to&nbsp;set
+    * <!-- end-UML-doc -->
+    * @param dollarExecutionPercentage
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_gAmus5lJEeeN7K_s3Iv6cQ"
+    */
     public final void setDollarExecutionPercentage(
         String dollarExecutionPercentage) {
+      // begin-user-code
       this.dollarExecutionPercentage = dollarExecutionPercentage;
+      // end-user-code
     }
 
-    /**
-     * @param executionPercentage
-     *          the executionPercentage to set
-     */
+    /** 
+    * <!-- begin-UML-doc -->
+    * @param&nbsp;executionPercentage<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the&nbsp;executionPercentage&nbsp;to&nbsp;set
+    * <!-- end-UML-doc -->
+    * @param executionPercentage
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_gAn80JlJEeeN7K_s3Iv6cQ"
+    */
     public final void setExecutionPercentage(String executionPercentage) {
+      // begin-user-code
       this.executionPercentage = executionPercentage;
+      // end-user-code
     }
 
-    /**
-     * Sets the value of the field initialBudget.
-     *
-     * @param initialBudget
-     *          the new value of the field initialBudget.
-     */
+    /** 
+    * <!-- begin-UML-doc -->
+    * Sets&nbsp;the&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;initialBudget.<br><br>@param&nbsp;initialBudget<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the&nbsp;new&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;initialBudget.
+    * <!-- end-UML-doc -->
+    * @param initialBudget
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_gAoj4ZlJEeeN7K_s3Iv6cQ"
+    */
     public void setInitialBudget(final String initialBudget) {
+      // begin-user-code
       this.initialBudget = initialBudget;
+      // end-user-code
     }
 
-    /**
-     * Sets the value of the field initialDollarBudget.
-     *
-     * @param initialDollarBudget
-     *          the new value of the field initialDollarBudget.
-     */
+    /** 
+    * <!-- begin-UML-doc -->
+    * Sets&nbsp;the&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;initialDollarBudget.<br><br>@param&nbsp;initialDollarBudget<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the&nbsp;new&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;initialDollarBudget.
+    * <!-- end-UML-doc -->
+    * @param initialDollarBudget
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_gApK85lJEeeN7K_s3Iv6cQ"
+    */
     public void setInitialDollarBudget(final String initialDollarBudget) {
+      // begin-user-code
       this.initialDollarBudget = initialDollarBudget;
+      // end-user-code
     }
 
-    /**
-     * Sets the value of the field itemName.
-     *
-     * @param itemName
-     *          the new value of the field itemName.
-     */
+    /** 
+    * <!-- begin-UML-doc -->
+    * Sets&nbsp;the&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;itemName.<br><br>@param&nbsp;itemName<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the&nbsp;new&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;itemName.
+    * <!-- end-UML-doc -->
+    * @param itemName
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_gAqZEplJEeeN7K_s3Iv6cQ"
+    */
     public void setItemName(final String itemName) {
+      // begin-user-code
       this.itemName = itemName;
+      // end-user-code
     }
 
-    /**
-     * Sets the value of the field itemNumber.
-     *
-     * @param itemNumber
-     *          the new value of the field itemNumber.
-     */
+    /** 
+    * <!-- begin-UML-doc -->
+    * Sets&nbsp;the&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;itemNumber.<br><br>@param&nbsp;itemNumber<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the&nbsp;new&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;itemNumber.
+    * <!-- end-UML-doc -->
+    * @param itemNumber
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_gArAI5lJEeeN7K_s3Iv6cQ"
+    */
     public void setItemNumber(final String itemNumber) {
+      // begin-user-code
       this.itemNumber = itemNumber;
+      // end-user-code
     }
 
-    /**
-     * Sets the value of the field programName.
-     *
-     * @param programName
-     *          the new value of the field programName.
-     */
+    /** 
+    * <!-- begin-UML-doc -->
+    * Sets&nbsp;the&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;programName.<br><br>@param&nbsp;programName<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the&nbsp;new&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;programName.
+    * <!-- end-UML-doc -->
+    * @param programName
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_gAsOQJlJEeeN7K_s3Iv6cQ"
+    */
     public void setProgramName(final String programName) {
+      // begin-user-code
       this.programName = programName;
+      // end-user-code
     }
 
-    /**
-     * Sets the value of the field programNumber.
-     *
-     * @param programNumber
-     *          the new value of the field programNumber.
-     */
+    /** 
+    * <!-- begin-UML-doc -->
+    * Sets&nbsp;the&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;programNumber.<br><br>@param&nbsp;programNumber<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the&nbsp;new&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;programNumber.
+    * <!-- end-UML-doc -->
+    * @param programNumber
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_gAs1U5lJEeeN7K_s3Iv6cQ"
+    */
     public void setProgramNumber(final String programNumber) {
+      // begin-user-code
       this.programNumber = programNumber;
+      // end-user-code
     }
 
-    /**
-     * Sets the value of the field subtitleName.
-     *
-     * @param subtitleName
-     *          the new value of the field subtitleName.
-     */
+    /** 
+    * <!-- begin-UML-doc -->
+    * Sets&nbsp;the&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;subtitleName.<br><br>@param&nbsp;subtitleName<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the&nbsp;new&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;subtitleName.
+    * <!-- end-UML-doc -->
+    * @param subtitleName
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_gAuDcplJEeeN7K_s3Iv6cQ"
+    */
     public void setSubtitleName(final String subtitleName) {
+      // begin-user-code
       this.subtitleName = subtitleName;
+      // end-user-code
     }
 
-    /**
-     * Sets the value of the field subtitleNumber.
-     *
-     * @param subtitleNumber
-     *          the new value of the field subtitleNumber.
-     */
+    /** 
+    * <!-- begin-UML-doc -->
+    * Sets&nbsp;the&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;subtitleNumber.<br><br>@param&nbsp;subtitleNumber<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the&nbsp;new&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;subtitleNumber.
+    * <!-- end-UML-doc -->
+    * @param subtitleNumber
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_gAvRkplJEeeN7K_s3Iv6cQ"
+    */
     public void setSubtitleNumber(final String subtitleNumber) {
+      // begin-user-code
       this.subtitleNumber = subtitleNumber;
+      // end-user-code
     }
   }
 
+  /** 
+  * <!-- begin-UML-doc -->
+  * <!-- end-UML-doc -->
+  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_f7-GUJlJEeeN7K_s3Iv6cQ"
+  */
   private static Logger log = Logger
       .getLogger(BudgetElementToHumanCsvMapper.class.getCanonicalName());
 
-  /**
-   * Creates a new instance of the class BudgetElementToHumanCsvMapper.
-   */
+  /** 
+  * <!-- begin-UML-doc -->
+  * Creates&nbsp;a&nbsp;new&nbsp;instance&nbsp;of&nbsp;the&nbsp;class&nbsp;BudgetElementToHumanCsvMapper.
+  * <!-- end-UML-doc -->
+  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_f7-tYZlJEeeN7K_s3Iv6cQ"
+  */
   public BudgetElementToHumanCsvMapper() {
+    // begin-user-code
     // TODO Auto-generated constructor stub
+    // end-user-code
   }
 
-  public Collection<MappedElement> map(final BudgetElement element) {
+  /** 
+  * <!-- begin-UML-doc -->
+  * <!-- end-UML-doc -->
+  * @param element
+  * @return
+  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_f7_7gJlJEeeN7K_s3Iv6cQ"
+  */
+  private Collection<MappedElement> map(final BudgetElement element) {
+    // begin-user-code
 
     final List<MappedElement> mappedElements = new ArrayList<>();
     boolean isAssignment = false;
@@ -520,10 +811,16 @@ public class BudgetElementToHumanCsvMapper {
             String.valueOf(dollarExecutionPercentage));
 
         /**************** TODO Quedé aquí con este método *************/
-
-        mappedElement.setAssignmentNumber(String.valueOf(number));
-        mappedElement.setAssignmentName(name);
-
+        if (isAssignment) {
+          mappedElement.setAssignmentNumber(String.valueOf(number));
+          mappedElement.setAssignmentName(name);
+        } else {
+          // isLeafItem
+          mappedElement.setAssignmentNumber("");
+          mappedElement.setAssignmentName("");
+          mappedElement.setItemNumber(String.valueOf(number));
+          mappedElement.setItemName(name);
+        }
         mappedElements.add(mappedElement);
       } else {
         // If we reach this point, we are not in a leaf of the hierarchy
@@ -566,9 +863,18 @@ public class BudgetElementToHumanCsvMapper {
 
     return mappedElements;
 
+    // end-user-code
   }
 
+  /** 
+  * <!-- begin-UML-doc -->
+  * <!-- end-UML-doc -->
+  * @param execution
+  * @return
+  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_f8BJo5lJEeeN7K_s3Iv6cQ"
+  */
   public String map(final BudgetExecution execution) {
+    // begin-user-code
     final Collection<Batch> batches = execution.getBatches();
     final List<MappedElement> mappedElements = new ArrayList<>();
     for (final Batch batch : batches) {
@@ -577,7 +883,7 @@ public class BudgetElementToHumanCsvMapper {
     final StringBuilder sb = new StringBuilder();
     final String s = ";";
     sb.append(
-        "# partida;Partida;# capítulo;Capítulo;#programa;Programa;#subtítulo;Subtítulo;#item;Item;#asigación;Asignación;Moneda;Presupuesto inicial; Presupuesto Vigente; Ejecución; % ejecucion;\n");
+        "# partida;Partida;# capítulo;Capítulo;# programa;Programa;# subtítulo;Subtítulo;# item;Item;# asigación;Asignación;Moneda;Presupuesto inicial; Presupuesto Vigente; Ejecución; % ejecucion;\n");
     for (final MappedElement mappedElement : mappedElements) {
       sb.append(mappedElement.getBatchNumber()).append(s)
           .append(mappedElement.getBatchName()).append(s);
@@ -593,24 +899,29 @@ public class BudgetElementToHumanCsvMapper {
           .append(mappedElement.getAssignmentName()).append(s);
       final String currency = mappedElement.getCurrency();
       sb.append(currency).append(s);
-      final String initialBudget;
-      final String actualBudget;
-      final String exec;
-      final String executionPercent;
+      String initialBudget;
+      String actualBudget;
+      String exec;
+      String executionPercent;
       switch (currency) {
-      case "Peso":
+      case "Dolar":
+        initialBudget = mappedElement.getInitialDollarBudget();
+        actualBudget = mappedElement.getActualDollarBudget();
+        exec = mappedElement.getCumulativeDollarExecution();
+        executionPercent = mappedElement.getDollarExecutionPercentage();
+        break;
+      default:
         initialBudget = mappedElement.getInitialBudget();
         actualBudget = mappedElement.getActualBudget();
         exec = mappedElement.getCumulativeExecution();
-        // executionPercent=mappedElement.get
-        /**************** TODO Quedé aquí con este método *************/
-      case "Dolar":
-
-      default:
-
+        executionPercent = mappedElement.getDollarExecutionPercentage();
       }
-
+      sb.append(initialBudget).append(s);
+      sb.append(actualBudget).append(s);
+      sb.append(exec).append(s);
+      sb.append(executionPercent).append("\n");
     }
     return sb.toString();
+    // end-user-code
   }
 }

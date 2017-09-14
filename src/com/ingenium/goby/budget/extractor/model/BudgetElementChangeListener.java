@@ -2,12 +2,12 @@
  * Copyright (c) 2017 Ingenium Software Ltda.
  */
 
-package com.ingenium.goby.budget.extractor.elements;
+package com.ingenium.goby.budget.extractor.model;
 
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
- * @author Jaime Oviedo
+ * @author joviedo
  * @uml.annotations
  *     derived_abstraction="platform:/resource/goby-design/budget-extractor.emx#_COlZUE37EeeKMIXalYEMgg"
  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_COlZUE37EeeKMIXalYEMgg"

@@ -2,7 +2,7 @@
  * 
  */
 
-package com.ingenium.goby.budget.extractor.elements;
+package com.ingenium.goby.budget.extractor.model;
 
 import java.util.Collection;
 
@@ -10,7 +10,7 @@ import java.util.Collection;
  * <!-- begin-UML-doc -->
  * <p>Class that represents a budgetary batch.<br>@author JaimeRodrigo</p>
  * <!-- end-UML-doc -->
- * @author Jaime Oviedo
+ * @author joviedo
  * @uml.annotations
  *     derived_abstraction="platform:/resource/goby-design/budget-extractor.emx#_0uoWQFFmEeeK-J0N4T-kxQ"
  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_0uoWQFFmEeeK-J0N4T-kxQ"
@@ -19,7 +19,6 @@ public class Batch extends CompositeBudgetElement {
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
-  * Creates a new instance of the class Batch.
   * @param number
   * @param name
   * @param description
@@ -32,7 +31,7 @@ public class Batch extends CompositeBudgetElement {
     super(number, name, description, type, BudgetHierarchyLevel.BATCH);
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <p>Adds a new assignment.</p>
@@ -50,10 +49,10 @@ public class Batch extends CompositeBudgetElement {
     Chapter chapter = this.getChapter(chapterNumber);
     chapter.addAssignment(programNumber, subtitleNumber, itemNumber,
         assignment);
-    
+
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -73,7 +72,7 @@ public class Batch extends CompositeBudgetElement {
         assignmentNumber);
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -88,10 +87,10 @@ public class Batch extends CompositeBudgetElement {
     // begin-user-code
     Chapter chapter = this.getChapter(chapterNumber);
     chapter.addItem(programNumber, subtitleNumber, item);
-    
+
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -109,7 +108,7 @@ public class Batch extends CompositeBudgetElement {
     return chapter.getItem(programNumber, subtitleNumber, itemNumber);
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -123,10 +122,10 @@ public class Batch extends CompositeBudgetElement {
     // begin-user-code
     Chapter chapter = this.getChapter(chapterNumber);
     chapter.addSubtitle(programNumber, subtitle);
-    
+
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -143,7 +142,7 @@ public class Batch extends CompositeBudgetElement {
     return chapter.getSubtitle(programNumber, subtitleNumber);
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -155,10 +154,10 @@ public class Batch extends CompositeBudgetElement {
     // begin-user-code
     Chapter chapter = this.getChapter(chapterNumber);
     chapter.addProgram(program);
-    
+
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -173,7 +172,7 @@ public class Batch extends CompositeBudgetElement {
     return chapter.getProgram(programNumber);
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -186,7 +185,7 @@ public class Batch extends CompositeBudgetElement {
     return (Collection<Chapter>) getSubelements().values();
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -199,7 +198,7 @@ public class Batch extends CompositeBudgetElement {
     super.setSubelements(chapters);
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -209,10 +208,10 @@ public class Batch extends CompositeBudgetElement {
   public void addChapter(Chapter chapter) {
     // begin-user-code
     super.addSubelement(chapter);
-    
+
     // end-user-code
   }
-  
+
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->

@@ -112,6 +112,7 @@
 30;2;;Acciones y Participaciones de Capital;Acciones u otros valores representativos de capital a empresas públicas o privadas nacionales u organismos e instituciones internacionales
 30;3;;Operaciones de Cambio;
 30;99;;Otros Activos Financieros;
+30;99;999;Otros;
 31;;;Iniciativas de inversión;
 31;1;;Estudios Básicos;
 31;1;1;Gastos Administrativos;

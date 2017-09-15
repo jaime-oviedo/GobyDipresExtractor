@@ -20,73 +20,73 @@ public enum ExecutionPeriod {
   * <!-- end-UML-doc -->
   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_oyxI0F9qEeeRDb5hxZnsBw"
   */
-  JANUARY("JANUARY", null),
+  JANUARY,
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_qb9UMF9qEeeRDb5hxZnsBw"
   */
-  FEBRUARY("FEBRUARY", null),
+  FEBRUARY,
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_jw5U8F9rEeeRDb5hxZnsBw"
   */
-  FIRST_TRIMESTER("FIRST_TRIMESTER", null),
+  FIRST_TRIMESTER,
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_lWKpoF9rEeeRDb5hxZnsBw"
   */
-  APRIL("APRIL", null),
+  APRIL,
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_mk5GkF9rEeeRDb5hxZnsBw"
   */
-  MAY("MAY", null),
+  MAY,
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_nU5nMF9rEeeRDb5hxZnsBw"
   */
-  SECOND_TRIMESTER("SECOND_TRIMESTER", null),
+  SECOND_TRIMESTER,
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_o0HXMF9rEeeRDb5hxZnsBw"
   */
-  JULY("JULY", null),
+  JULY,
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_p7BU4F9rEeeRDb5hxZnsBw"
   */
-  AUGUST("AUGUST", null),
+  AUGUST,
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_qpkc8F9rEeeRDb5hxZnsBw"
   */
-  THIRD_TRIMESTER("THIRD_TRIMESTER", null),
+  THIRD_TRIMESTER,
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_rnrD8F9rEeeRDb5hxZnsBw"
   */
-  OCTOBER("OCTOBER", null),
+  OCTOBER,
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_tCLTEF9rEeeRDb5hxZnsBw"
   */
-  NOVEMBER("NOVEMBER", null),
+  NOVEMBER,
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_uj6yoF9rEeeRDb5hxZnsBw"
   */
-  FOURTH_TRIMESTER("FOURTH_TRIMESTER", null);
+  FOURTH_TRIMESTER;
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -215,87 +215,6 @@ public enum ExecutionPeriod {
     }
     
     return p;
-    // end-user-code
-  }
-  
-  /** 
-  * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_qJmZgJmtEeeAWKInz3apng"
-  */
-  private String name;
-  /** 
-  * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_qJnAkJmtEeeAWKInz3apng"
-  */
-  private Object value;
-  
-  /** 
-  * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * Creates a new instance of the class ExecutionPeriod.
-  * @param enumName
-  * @param enumValue
-  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_qKACI5mtEeeAWKInz3apng"
-  */
-  ExecutionPeriod(String enumName, Object enumValue) {
-    // begin-user-code
-    // TODO Auto-generated constructor stub
-    // end-user-code
-  }
-  
-  /** 
-  * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * @return
-  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_qKBQQJmtEeeAWKInz3apng"
-  */
-  public String getName() {
-    // begin-user-code
-    // TODO Auto-generated method stub
-    return null;
-    // end-user-code
-  }
-  
-  /** 
-  * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * @return
-  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_qKB3UJmtEeeAWKInz3apng"
-  */
-  public Object getValue() {
-    // begin-user-code
-    // TODO Auto-generated method stub
-    return null;
-    // end-user-code
-  }
-  
-  /** 
-  * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * @param enumValue
-  * @return
-  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_qKCeYJmtEeeAWKInz3apng"
-  */
-  public static ExecutionPeriod getEnumByValue(Object enumValue) {
-    // begin-user-code
-    // TODO Auto-generated method stub
-    return null;
-    // end-user-code
-  }
-  
-  /** 
-  * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * @param enumName
-  * @return
-  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_qKDFcZmtEeeAWKInz3apng"
-  */
-  public static ExecutionPeriod getEnumByName(String enumName) {
-    // begin-user-code
-    // TODO Auto-generated method stub
-    return null;
     // end-user-code
   }
   

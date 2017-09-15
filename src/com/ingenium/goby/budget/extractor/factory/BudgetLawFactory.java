@@ -12,7 +12,7 @@ import com.ingenium.goby.budget.extractor.model.BudgetLaw;
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
- * @author joviedo
+ * @author Jaime Oviedo
  * @uml.annotations
  *     derived_abstraction="platform:/resource/goby-design/budget-extractor.emx#_KP91sFH0Eee-AoOzRlyylA"
  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_KP91sFH0Eee-AoOzRlyylA"
@@ -24,7 +24,7 @@ public class BudgetLawFactory {
   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_jfJa8FH0Eee-AoOzRlyylA"
   */
   private static BudgetLawFactory instance = null;
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -41,7 +41,7 @@ public class BudgetLawFactory {
     return BudgetLawFactory.instance;
     // end-user-code
   }
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -54,17 +54,18 @@ public class BudgetLawFactory {
   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_lUUvoFehEeeJT_eFoT-0rA"
   */
   private boolean extract;
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_nndP4FehEeeJT_eFoT-0rA"
   */
   private String source;
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
+  * Creates a new instance of the class BudgetLawFactory.
   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_uR02IFehEeeJT_eFoT-0rA"
   */
   private BudgetLawFactory() {
@@ -75,7 +76,7 @@ public class BudgetLawFactory {
     extract = true;
     // end-user-code
   }
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -97,7 +98,7 @@ public class BudgetLawFactory {
     return budgetLaw;
     // end-user-code
   }
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -111,7 +112,7 @@ public class BudgetLawFactory {
     return getBudgetLaw();
     // end-user-code
   }
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -123,7 +124,7 @@ public class BudgetLawFactory {
     return source;
     // end-user-code
   }
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -133,7 +134,7 @@ public class BudgetLawFactory {
   void setSource(String source) {
     // begin-user-code
     this.source = source;
-
+    
     // end-user-code
   }
 }

@@ -25,24 +25,25 @@ import org.jsoup.select.Elements;
  * <!-- begin-UML-doc -->
  * Clase&nbsp;que&nbsp;descarga&nbsp;la&nbsp;lista&nbsp;de&nbsp;archivos&nbsp;que&nbsp;contienen&nbsp;información&nbsp;de&nbsp;la&nbsp;Ley<br>de&nbsp;Presupuestos.<br><br>@author&nbsp;JaimeRodrigo
  * <!-- end-UML-doc -->
- * @author joviedo
+ * @author Jaime Oviedo
  * @uml.annotations
  *     derived_abstraction="platform:/resource/goby-design/budget-extractor.emx#_UXFjwEquEeeJsdrfgQXeQw"
  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_UXFjwEquEeeJsdrfgQXeQw"
  */
 public class BudgetLawCsvFilesListDownloader extends AbstractDownloader {
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_UdIhYEquEeeJsdrfgQXeQw"
   */
   private Collection<String> budgetFileList;
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * Crea&nbsp;una&nbsp;nueva&nbsp;instancia&nbsp;de&nbsp;BudgetFileListExtractor.
   * <!-- end-UML-doc -->
+  * Creates a new instance of the class BudgetLawCsvFilesListDownloader.
   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_UdK9oEquEeeJsdrfgQXeQw"
   */
   public BudgetLawCsvFilesListDownloader() {
@@ -54,7 +55,7 @@ public class BudgetLawCsvFilesListDownloader extends AbstractDownloader {
     budgetFileList = new ArrayList<>(400);
     // end-user-code
   }
-
+  
   /*
    * (non-Javadoc)
    *
@@ -64,11 +65,10 @@ public class BudgetLawCsvFilesListDownloader extends AbstractDownloader {
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
   * @throws DownloadException
-  * @throws DownloadException
   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_UdMy0EquEeeJsdrfgQXeQw"
   */
   @Override
-  public void download() throws DownloadException, DownloadException {
+  public void download() throws DownloadException {
     // begin-user-code
     final File input = new File(getSource());
     PrintWriter outputStream = null;
@@ -92,24 +92,22 @@ public class BudgetLawCsvFilesListDownloader extends AbstractDownloader {
         outputStream.close();
       }
     }
-
+    
     // end-user-code
   }
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
   * @return
   * @throws DownloadException
-  * @throws DownloadException
   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_UdQdMEquEeeJsdrfgQXeQw"
   */
-  public Collection<String> getBudgetFileList()
-      throws DownloadException, DownloadException {
+  public Collection<String> getBudgetFileList() throws DownloadException {
     // begin-user-code
     download();
     return budgetFileList;
     // end-user-code
   }
-
+  
 }

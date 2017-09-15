@@ -12,7 +12,7 @@ import com.ingenium.goby.budget.extractor.model.BudgetExecution;
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
- * @author joviedo
+ * @author Jaime Oviedo
  * @uml.annotations
  *     derived_abstraction="platform:/resource/goby-design/budget-extractor.emx#_asLE8F0iEeez8bHvvwz5bA"
  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_asLE8F0iEeez8bHvvwz5bA"
@@ -24,7 +24,7 @@ public class BudgetExecutionFactory {
   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_asLE8V0iEeez8bHvvwz5bA"
   */
   private static BudgetExecutionFactory instance = null;
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -41,7 +41,7 @@ public class BudgetExecutionFactory {
     return BudgetExecutionFactory.instance;
     // end-user-code
   }
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -54,17 +54,18 @@ public class BudgetExecutionFactory {
   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_asLE9F0iEeez8bHvvwz5bA"
   */
   private boolean extract;
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_asLE9V0iEeez8bHvvwz5bA"
   */
   private String source;
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
+  * Creates a new instance of the class BudgetExecutionFactory.
   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_asLE9l0iEeez8bHvvwz5bA"
   */
   private BudgetExecutionFactory() {
@@ -75,7 +76,7 @@ public class BudgetExecutionFactory {
     extract = true;
     // end-user-code
   }
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -97,7 +98,7 @@ public class BudgetExecutionFactory {
     return budgetExecution;
     // end-user-code
   }
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -111,7 +112,7 @@ public class BudgetExecutionFactory {
     return getBudgetExecution();
     // end-user-code
   }
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -123,7 +124,7 @@ public class BudgetExecutionFactory {
     return source;
     // end-user-code
   }
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->

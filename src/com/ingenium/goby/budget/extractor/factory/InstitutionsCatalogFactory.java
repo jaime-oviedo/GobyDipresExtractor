@@ -12,7 +12,7 @@ import com.ingenium.goby.budget.extractor.model.InstitutionsCatalog;
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
- * @author joviedo
+ * @author Jaime Oviedo
  * @uml.annotations
  *     derived_abstraction="platform:/resource/goby-design/budget-extractor.emx#_I5RIgFH0Eee-AoOzRlyylA"
  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_I5RIgFH0Eee-AoOzRlyylA"
@@ -24,7 +24,7 @@ public class InstitutionsCatalogFactory {
   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_6YiYMFLeEeeyIrnvp3X3kA"
   */
   private static InstitutionsCatalogFactory instance = null;
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -41,31 +41,32 @@ public class InstitutionsCatalogFactory {
     return InstitutionsCatalogFactory.instance;
     // end-user-code
   }
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_neproFLfEeeyIrnvp3X3kA"
   */
   private InstitutionsCatalog institutionsCatalog;
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_yYKl0FajEeen0bP8VRV_UQ"
   */
   private boolean extract;
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_KqcogFalEeen0bP8VRV_UQ"
   */
   private String source;
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
+  * Creates a new instance of the class InstitutionsCatalogFactory.
   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_0ctToFanEeen0bP8VRV_UQ"
   */
   private InstitutionsCatalogFactory() {
@@ -74,7 +75,7 @@ public class InstitutionsCatalogFactory {
     extract = true;
     // end-user-code
   }
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -97,7 +98,7 @@ public class InstitutionsCatalogFactory {
     return institutionsCatalog;
     // end-user-code
   }
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -111,7 +112,7 @@ public class InstitutionsCatalogFactory {
     return getInstitutionsCatalog();
     // end-user-code
   }
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -123,7 +124,7 @@ public class InstitutionsCatalogFactory {
     return source;
     // end-user-code
   }
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->

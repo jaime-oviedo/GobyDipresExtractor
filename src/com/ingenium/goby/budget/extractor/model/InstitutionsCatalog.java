@@ -9,13 +9,13 @@ import java.util.Collection;
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
- * @author joviedo
+ * @author Jaime Oviedo
  * @uml.annotations
  *     derived_abstraction="platform:/resource/goby-design/budget-extractor.emx#_XSi7MFH0Eee-AoOzRlyylA"
  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_XSi7MFH0Eee-AoOzRlyylA"
  */
 public interface InstitutionsCatalog {
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -24,7 +24,7 @@ public interface InstitutionsCatalog {
   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_qOnm4FYWEeeKVoBZn1AqUw"
   */
   public Batch getBatch(int batchNumber);
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->

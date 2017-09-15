@@ -10,17 +10,18 @@ import java.util.Collection;
  * <!-- begin-UML-doc -->
  * <p>Class that represents a budgetary item.<br>@author JaimeRodrigo<br></p>
  * <!-- end-UML-doc -->
- * @author joviedo
+ * @author Jaime Oviedo
  * @uml.annotations
  *     derived_abstraction="platform:/resource/goby-design/budget-extractor.emx#_UXEVoEquEeeJsdrfgQXeQw"
  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_UXEVoEquEeeJsdrfgQXeQw"
  */
 public final class Item extends CompositeBudgetElement {
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * rea&nbsp;una&nbsp;nueva&nbsp;instancia&nbsp;de&nbsp;la&nbsp;clase&nbsp;Item.<br><br><br><br><br>@param&nbsp;numero<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;el&nbsp;valor&nbsp;del&nbsp;campo&nbsp;numero<br><br>@param&nbsp;nombre<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;el&nbsp;valor&nbsp;del&nbsp;campo&nbsp;nombre<br><br>@param&nbsp;descripcion<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;el&nbsp;valor&nbsp;del&nbsp;campo&nbsp;descripcio
   * <!-- end-UML-doc -->
+  * Creates a new instance of the class Item.
   * @param number
   * @param name
   * @param description
@@ -33,7 +34,7 @@ public final class Item extends CompositeBudgetElement {
     super(number, name, description, type, BudgetHierarchyLevel.ITEM);
     // end-user-code
   }
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <p>Adds a new assignment.</p>
@@ -46,7 +47,7 @@ public final class Item extends CompositeBudgetElement {
     super.addSubelement(assignment);
     // end-user-code
   }
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -59,7 +60,7 @@ public final class Item extends CompositeBudgetElement {
     return (Assignment) super.getSubelements().get(assignmentNumber);
     // end-user-code
   }
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * btiene&nbsp;las&nbsp;asigaciones&nbsp;correspondientes&nbsp;a&nbsp;este&nbsp;item.<br><br><br><br><br>@return&nbsp;las&nbsp;asigaciones&nbsp;correspondientes&nbsp;a&nbsp;este&nbsp;ite
@@ -73,7 +74,7 @@ public final class Item extends CompositeBudgetElement {
     return (Collection<Assignment>) super.getSubelements().values();
     // end-user-code
   }
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * stablece&nbsp;las&nbsp;asignaciones&nbsp;para&nbsp;el&nbsp;item.<br><br><br><br><br>@param&nbsp;asignaciones<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;el&nbsp;nuevo&nbsp;conjunto&nbsp;de&nbsp;asignacione
@@ -86,5 +87,5 @@ public final class Item extends CompositeBudgetElement {
     super.setSubelements(assignments);
     // end-user-code
   }
-
+  
 }

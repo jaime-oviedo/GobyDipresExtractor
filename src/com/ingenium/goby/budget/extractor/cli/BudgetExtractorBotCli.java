@@ -21,7 +21,7 @@ import org.apache.commons.cli.ParseException;
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
- * @author joviedo
+ * @author Jaime Oviedo
  * @uml.annotations
  *     derived_abstraction="platform:/resource/goby-design/budget-extractor.emx#_H-EEYJVnEeevpubR7V73Yw"
  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_H-EEYJVnEeevpubR7V73Yw"
@@ -81,7 +81,7 @@ public class BudgetExtractorBotCli {
   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_oqfKkZWkEeevpubR7V73Yw"
   */
   private static final String PROCESS_LOCAL_OPTION = "local";
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -107,10 +107,11 @@ public class BudgetExtractorBotCli {
   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_oqiN4JWkEeevpubR7V73Yw"
   */
   private final Options options;
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
+  * Creates a new instance of the class BudgetExtractorBotCli.
   * @param args
   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_oqiN4ZWkEeevpubR7V73Yw"
   */
@@ -121,7 +122,7 @@ public class BudgetExtractorBotCli {
     this.budgetExtractorBot = new BudgetExtractorBot();
     // end-user-code
   }
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -132,15 +133,15 @@ public class BudgetExtractorBotCli {
     // begin-user-code
     final BudgetExtractorBotCli cli = new BudgetExtractorBotCli(args);
     final CommandLine cmd = cli.parse();
-
+    
     cli.printUsage();
-
+    
     final HelpFormatter formatter = new HelpFormatter();
     formatter.printHelp("extract", cli.options);
     cli.extract();
     // end-user-code
   }
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -150,7 +151,7 @@ public class BudgetExtractorBotCli {
     // begin-user-code
     // end-user-code
   }
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <br>"Definition"&nbsp;stage&nbsp;of&nbsp;command-line&nbsp;parsing&nbsp;with&nbsp;Apache&nbsp;Commons&nbsp;CLI.<br><br>@return&nbsp;Definition&nbsp;of&nbsp;command-line&nbsp;options.<br>
@@ -158,7 +159,7 @@ public class BudgetExtractorBotCli {
   * @return
   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_oqkqIZWkEeevpubR7V73Yw"
   */
-
+  
   private Options generateOptions() {
     // begin-user-code
     final Option typeOption = Option.builder("t").required()
@@ -193,11 +194,11 @@ public class BudgetExtractorBotCli {
     final Option preserveOption = Option.builder("p").required(false)
         .longOpt(BudgetExtractorBotCli.PRESERVE_DOWNLOADED_FILES)
         .desc("Do not deleted downloaded source files.").build();
-
+    
     final Option monthOption = Option.builder("m").required(false).hasArg()
         .argName("month").longOpt(BudgetExtractorBotCli.MONTH_OPTION)
         .desc("Do not deleted downloaded source files.").build();
-
+    
     final Option yearOption = Option.builder("y").required(false).hasArg()
         .argName("year").longOpt(BudgetExtractorBotCli.YEAR_OPTION)
         .desc("Do not deleted downloaded source files.").build();
@@ -217,11 +218,11 @@ public class BudgetExtractorBotCli {
     options.addOption(monthOption);
     options.addOption(yearOption);
     options.addOption(processLocalOption);
-
+    
     return options;
     // end-user-code
   }
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <br>"Parsing"&nbsp;stage&nbsp;of&nbsp;command-line&nbsp;processing&nbsp;demonstrated&nbsp;with&nbsp;Apache&nbsp;Commons&nbsp;CLI.<br><br>@param&nbsp;options<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Options&nbsp;from&nbsp;"definition"&nbsp;stage.<br>@param&nbsp;args<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Command-line&nbsp;arguments&nbsp;provided&nbsp;to&nbsp;application.<br>@return&nbsp;Instance&nbsp;of&nbsp;CommandLine&nbsp;as&nbsp;parsed&nbsp;from&nbsp;the&nbsp;provided&nbsp;Options&nbsp;and&nbsp;command&nbsp;line&nbsp;arguments;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;may&nbsp;be&nbsp;{@code&nbsp;null}&nbsp;if&nbsp;there&nbsp;is&nbsp;an&nbsp;exception&nbsp;encountered&nbsp;while&nbsp;attempting&nbsp;to&nbsp;parse&nbsp;the<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;command&nbsp;line&nbsp;options.
@@ -229,7 +230,7 @@ public class BudgetExtractorBotCli {
   * @return
   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_oql4QJWkEeevpubR7V73Yw"
   */
-
+  
   private CommandLine parse() {
     // begin-user-code
     final CommandLineParser cmdLineParser = new DefaultParser();
@@ -245,16 +246,16 @@ public class BudgetExtractorBotCli {
     return commandLine;
     // end-user-code
   }
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <br>Generate&nbsp;usage&nbsp;information&nbsp;with&nbsp;Apache&nbsp;Commons&nbsp;CLI.<br><br><br><br>@param&nbsp;options<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Instance&nbsp;of&nbsp;Options&nbsp;to&nbsp;be&nbsp;used&nbsp;to&nbsp;prepare<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;usage&nbsp;formatter.<br><br>@return&nbsp;HelpFormatter&nbsp;instance&nbsp;that&nbsp;can&nbsp;be&nbsp;used&nbsp;to&nbsp;print<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;usage&nbsp;information.<br>
   * <!-- end-UML-doc -->
   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_oqnGYJWkEeevpubR7V73Yw"
   */
-
+  
   private void printUsage()
-
+  
   {
     // begin-user-code
     final HelpFormatter formatter = new HelpFormatter();
@@ -267,7 +268,7 @@ public class BudgetExtractorBotCli {
     pw.flush();
     // end-user-code
   }
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <br>Generate&nbsp;help&nbsp;information&nbsp;with&nbsp;Apache&nbsp;Commons&nbsp;CLI.<br><br><br><br>@param&nbsp;options<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Instance&nbsp;of&nbsp;Options&nbsp;to&nbsp;be&nbsp;used&nbsp;to&nbsp;prepare<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;help&nbsp;formatter.<br><br>@return&nbsp;HelpFormatter&nbsp;instance&nbsp;that&nbsp;can&nbsp;be&nbsp;used&nbsp;to&nbsp;print<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;help&nbsp;information.<br>
@@ -275,7 +276,7 @@ public class BudgetExtractorBotCli {
   * @param options
   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_oqntcJWkEeevpubR7V73Yw"
   */
-
+  
   private static void printHelp(final Options options) {
     // begin-user-code
     final HelpFormatter formatter = new HelpFormatter();

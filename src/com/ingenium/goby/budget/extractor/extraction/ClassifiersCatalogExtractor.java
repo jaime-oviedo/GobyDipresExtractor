@@ -24,18 +24,18 @@ import java.util.logging.Logger;
  * <!-- begin-UML-doc -->
  * <p>This class reads a csv file with the budget classifiers' information and generates an equivalent Json file.</p><p>@author JaimeRodrigo</p>
  * <!-- end-UML-doc -->
- * @author joviedo
+ * @author Jaime Oviedo
  * @uml.annotations
  *     derived_abstraction="platform:/resource/goby-design/budget-extractor.emx#_UXHY8EquEeeJsdrfgQXeQw"
  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_UXHY8EquEeeJsdrfgQXeQw"
  */
 public class ClassifiersCatalogExtractor {
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <p>Represents a hierarchical catalog of budget elements.</p>
   * <!-- end-UML-doc -->
-  * @author joviedo
+  * @author Jaime Oviedo
   * @uml.annotations
   *     derived_abstraction="platform:/resource/goby-design/budget-extractor.emx#_UXJ1MEquEeeJsdrfgQXeQw"
   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_UXJ1MEquEeeJsdrfgQXeQw"
@@ -46,6 +46,7 @@ public class ClassifiersCatalogExtractor {
     * <!-- begin-UML-doc -->
     * <p>Creates a new BudgetElementsCatalog.</p>
     * <!-- end-UML-doc -->
+    * Creates a new instance of the class ClassifiersCatalogImpl.
     * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_Ud6kgEquEeeJsdrfgQXeQw"
     */
     public ClassifiersCatalogImpl() {
@@ -54,10 +55,10 @@ public class ClassifiersCatalogExtractor {
           "Estructura jerárquica de los clasificadores por objeto del gasto usados en el presupuesto",
           BudgetElementType.INSTITUTIONAL_CLASSIFICATION,
           BudgetHierarchyLevel.ROOT);
-
+      
       // end-user-code
     }
-
+    
     /** 
     * <!-- begin-UML-doc -->
     * <!-- end-UML-doc -->
@@ -71,7 +72,7 @@ public class ClassifiersCatalogExtractor {
       return (Subtitle) super.getSubelement(subtitleNumber);
       // end-user-code
     }
-
+    
     /** 
     * <!-- begin-UML-doc -->
     * <p>Gets all the subtitles in the catalog.</p>
@@ -87,7 +88,7 @@ public class ClassifiersCatalogExtractor {
       // end-user-code
     }
   }
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -95,18 +96,19 @@ public class ClassifiersCatalogExtractor {
   */
   private static final Logger log = Logger
       .getLogger("com.ingenium.goby.extractors.BudgetElementsExtractor");
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_LzWOoFk0EeeTxfHpmbMLyQ"
   */
   private final String source;
-
+  
   /** 
   * <!-- begin-UML-doc -->
   * <p>Creates a new instance of a BudgetElementExtractor.</p>
   * <!-- end-UML-doc -->
+  * Creates a new instance of the class ClassifiersCatalogExtractor.
   * @param source
   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_UdnpkEquEeeJsdrfgQXeQw"
   */
@@ -116,7 +118,7 @@ public class ClassifiersCatalogExtractor {
     this.source = source;
     // end-user-code
   }
-
+  
   /*
    * (non-Javadoc)
    *
@@ -129,7 +131,7 @@ public class ClassifiersCatalogExtractor {
   * @throws ExtractionException
   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_UdpewEquEeeJsdrfgQXeQw"
   */
-
+  
   public ClassifiersCatalog extract() throws ExtractionException {
     // begin-user-code
     FileInputStream fi = null;
@@ -140,15 +142,15 @@ public class ClassifiersCatalogExtractor {
       throw new ExtractionException("Source file not found");
     }
     CSVReader reader = null;
-
+    
     ClassifiersCatalogImpl catalog = new ClassifiersCatalogImpl();
     try {
       String line[] = null;
       reader = new CSVReader(new InputStreamReader(fi, "UTF-8"), ';', '"', 0);
       while ((line = reader.readNext()) != null) {
-
+        
         int subtitleNumber = 0;
-
+        
         String s = line[0];
         try {
           if (s != null) {
@@ -157,7 +159,7 @@ public class ClassifiersCatalogExtractor {
         } catch (Exception e) {
           throw new ExtractionException("Unable to extract subtitle number.");
         }
-
+        
         int itemNumber = 0;
         s = line[1];
         if ((s != null) && !"".equals(s)) {
@@ -170,7 +172,7 @@ public class ClassifiersCatalogExtractor {
         } else {
           itemNumber = 0;
         }
-
+        
         int assignmentNumber = 0;
         s = line[2];
         if ((s != null) && !"".equals(s)) {
@@ -181,7 +183,7 @@ public class ClassifiersCatalogExtractor {
                 .finest("Unable to extract assignment number.");
           }
         }
-
+        
         String name = "";
         s = line[3];
         if (s != null) {
@@ -199,7 +201,7 @@ public class ClassifiersCatalogExtractor {
         } else {
           description = "";
         }
-
+        
         Subtitle subtitle = catalog.getSubtitle(subtitleNumber);
         if (assignmentNumber != 0) {
           if (subtitle != null) {
@@ -209,7 +211,7 @@ public class ClassifiersCatalogExtractor {
             continue;
           }
         }
-
+        
         if (itemNumber != 0) {
           if (subtitle != null) {
             subtitle.addItem(new Item(itemNumber, name, description,
@@ -217,19 +219,19 @@ public class ClassifiersCatalogExtractor {
             continue;
           }
         }
-
+        
         if (subtitleNumber != 0) {
           subtitle = new Subtitle(subtitleNumber, name, description,
               BudgetElementType.INSTITUTIONAL_CLASSIFICATION);
           catalog.addSubelement(subtitle);
           continue;
         }
-
+        
         throw new ExtractionException(
             "Malformed csv file, found budgetary items (chapter or program) without previously created parent");
-
+        
       }
-
+      
       reader.close();
     } catch (IOException e) {
       throw new ExtractionException(
@@ -248,9 +250,9 @@ public class ClassifiersCatalogExtractor {
         e.printStackTrace();
       }
     }
-
+    
     return catalog;
     // end-user-code
   }
-
+  
 }

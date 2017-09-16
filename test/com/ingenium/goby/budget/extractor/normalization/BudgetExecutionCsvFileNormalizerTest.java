@@ -27,18 +27,18 @@ public class BudgetExecutionCsvFileNormalizerTest {
   public final void testNormalizeStringString() throws IOException {
     final String s = File.separator;
 
-    final String source = new StringBuffer("test").append(s).append("com")
+    final String source = new StringBuilder("test").append(s).append("com")
         .append(s).append("ingenium").append(s).append("goby").append(s)
         .append("budget").append(s).append("extractor").append(s)
         .append("normalization").append(s).append("fixture").append(s)
         .append("execution-raw.csv").toString();
-    final String objective = new StringBuffer("test").append(s).append("com")
+    final String objective = new StringBuilder("test").append(s).append("com")
         .append(s).append("ingenium").append(s).append("goby").append(s)
         .append("budget").append(s).append("extractor").append(s)
         .append("normalization").append(s).append("fixture").append(s)
         .append("execution-normalized.csv").toString();
 
-    final String destination = new StringBuffer("stage").append(s)
+    final String destination = new StringBuilder("stage").append(s)
         .append("test").append(s).append("execution-out.csv").toString();
 
     BudgetExecutionCsvFileNormalizer.normalize(source, destination);

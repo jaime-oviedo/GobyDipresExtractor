@@ -31,7 +31,7 @@ public class BudgetExecutionFactoryTest {
   @Test
   public final void testExtractBudgetExecution() {
     final String s = File.separator;
-    final String source = new StringBuffer("test").append(s).append("com")
+    final String source = new StringBuilder("test").append(s).append("com")
         .append(s).append("ingenium").append(s).append("goby").append(s)
         .append("budget").append(s).append("extractor").append(s)
         .append("fixture").append(s).append("budgetExecution.csv").toString();
@@ -47,14 +47,14 @@ public class BudgetExecutionFactoryTest {
 
     final String jsonCatalog = BudgetElementToJsonMapper.map(executionElement,
         0);
-    final String destination = new StringBuffer("tmp").append(s)
+    final String destination = new StringBuilder("tmp").append(s)
         .append("budgetExecution.json").toString();
-    final FileSystemInjector fsi = new FileSystemInjector(destination,
-        jsonCatalog);
+    
     try {
-      fsi.inject();
+      FileSystemInjector.inject(destination,
+          jsonCatalog);
       final File file1 = new File(destination);
-      final String objective = new StringBuffer("test").append(s).append("com")
+      final String objective = new StringBuilder("test").append(s).append("com")
           .append(s).append("ingenium").append(s).append("goby").append(s)
           .append("budget").append(s).append("extractor").append(s)
           .append("fixture").append(s).append("budgetExecution.json")

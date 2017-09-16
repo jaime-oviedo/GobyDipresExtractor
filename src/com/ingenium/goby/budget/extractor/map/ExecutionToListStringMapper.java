@@ -14,6 +14,7 @@ import com.ingenium.goby.budget.extractor.model.CompositeBudgetElement;
 import com.ingenium.goby.budget.extractor.model.Item;
 import com.ingenium.goby.budget.extractor.model.Subtitle;
 
+import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
@@ -22,6 +23,8 @@ import java.util.logging.Logger;
 /**
  * <!-- begin-UML-doc -->
  * @author&nbsp;Jaime&nbsp;Oviedo<br>
+ *                                    <br>
+ *                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
  *                                    <!-- end-UML-doc -->
  *
  * @author Jaime Oviedo
@@ -169,15 +172,18 @@ public class ExecutionToListStringMapper {
      * <!-- begin-UML-doc -->
      * Returns&nbsp;the&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;actualBudget.<br>
      * <br>
+     * <br>
+     * <br>
+     * <br>
      *
-     * @return&nbsp;the&nbsp;value&nbsp;of&nbsp;field&nbsp;actualBudget <!-- end-UML-doc -->
+     * @return&nbsp;the&nbsp;value&nbsp;of&nbsp;field&nbsp;actualBudge <!-- end-UML-doc -->
      *
      * @return
      * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_gAHmgJlJEeeN7K_s3Iv6cQ"
      */
     public String getActualBudget() {
       // begin-user-code
-      return actualBudget;
+      return this.actualBudget;
       // end-user-code
     }
 
@@ -185,15 +191,18 @@ public class ExecutionToListStringMapper {
      * <!-- begin-UML-doc -->
      * Returns&nbsp;the&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;actualDollarBudget.<br>
      * <br>
+     * <br>
+     * <br>
+     * <br>
      *
-     * @return&nbsp;the&nbsp;value&nbsp;of&nbsp;field&nbsp;actualDollarBudget <!-- end-UML-doc -->
+     * @return&nbsp;the&nbsp;value&nbsp;of&nbsp;field&nbsp;actualDollarBudge <!-- end-UML-doc -->
      *
      * @return
      * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_gAI0oJlJEeeN7K_s3Iv6cQ"
      */
     public String getActualDollarBudget() {
       // begin-user-code
-      return actualDollarBudget;
+      return this.actualDollarBudget;
       // end-user-code
     }
 
@@ -201,15 +210,18 @@ public class ExecutionToListStringMapper {
      * <!-- begin-UML-doc -->
      * Returns&nbsp;the&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;assignmentName.<br>
      * <br>
+     * <br>
+     * <br>
+     * <br>
      *
-     * @return&nbsp;the&nbsp;value&nbsp;of&nbsp;field&nbsp;assignmentName <!-- end-UML-doc -->
+     * @return&nbsp;the&nbsp;value&nbsp;of&nbsp;field&nbsp;assignmentNam <!-- end-UML-doc -->
      *
      * @return
      * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_gAKCwJlJEeeN7K_s3Iv6cQ"
      */
     public String getAssignmentName() {
       // begin-user-code
-      return assignmentName;
+      return this.assignmentName;
       // end-user-code
     }
 
@@ -217,15 +229,18 @@ public class ExecutionToListStringMapper {
      * <!-- begin-UML-doc -->
      * Returns&nbsp;the&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;assignmentNumber.<br>
      * <br>
+     * <br>
+     * <br>
+     * <br>
      *
-     * @return&nbsp;the&nbsp;value&nbsp;of&nbsp;field&nbsp;assignmentNumber <!-- end-UML-doc -->
+     * @return&nbsp;the&nbsp;value&nbsp;of&nbsp;field&nbsp;assignmentNumbe <!-- end-UML-doc -->
      *
      * @return
      * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_gAKp0JlJEeeN7K_s3Iv6cQ"
      */
     public String getAssignmentNumber() {
       // begin-user-code
-      return assignmentNumber;
+      return this.assignmentNumber;
       // end-user-code
     }
 
@@ -233,15 +248,18 @@ public class ExecutionToListStringMapper {
      * <!-- begin-UML-doc -->
      * Returns&nbsp;the&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;batchName.<br>
      * <br>
+     * <br>
+     * <br>
+     * <br>
      *
-     * @return&nbsp;the&nbsp;value&nbsp;of&nbsp;field&nbsp;batchName <!-- end-UML-doc -->
+     * @return&nbsp;the&nbsp;value&nbsp;of&nbsp;field&nbsp;batchNam <!-- end-UML-doc -->
      *
      * @return
      * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_gALQ4plJEeeN7K_s3Iv6cQ"
      */
     public String getBatchName() {
       // begin-user-code
-      return batchName;
+      return this.batchName;
       // end-user-code
     }
 
@@ -249,15 +267,18 @@ public class ExecutionToListStringMapper {
      * <!-- begin-UML-doc -->
      * Returns&nbsp;the&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;batchNumber.<br>
      * <br>
+     * <br>
+     * <br>
+     * <br>
      *
-     * @return&nbsp;the&nbsp;value&nbsp;of&nbsp;field&nbsp;batchNumber <!-- end-UML-doc -->
+     * @return&nbsp;the&nbsp;value&nbsp;of&nbsp;field&nbsp;batchNumbe <!-- end-UML-doc -->
      *
      * @return
      * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_gAMfAJlJEeeN7K_s3Iv6cQ"
      */
     public String getBatchNumber() {
       // begin-user-code
-      return batchNumber;
+      return this.batchNumber;
       // end-user-code
     }
 
@@ -265,15 +286,18 @@ public class ExecutionToListStringMapper {
      * <!-- begin-UML-doc -->
      * Returns&nbsp;the&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;chapterName.<br>
      * <br>
+     * <br>
+     * <br>
+     * <br>
      *
-     * @return&nbsp;the&nbsp;value&nbsp;of&nbsp;field&nbsp;chapterName <!-- end-UML-doc -->
+     * @return&nbsp;the&nbsp;value&nbsp;of&nbsp;field&nbsp;chapterNam <!-- end-UML-doc -->
      *
      * @return
      * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_gANtIJlJEeeN7K_s3Iv6cQ"
      */
     public String getChapterName() {
       // begin-user-code
-      return chapterName;
+      return this.chapterName;
       // end-user-code
     }
 
@@ -281,32 +305,30 @@ public class ExecutionToListStringMapper {
      * <!-- begin-UML-doc -->
      * Returns&nbsp;the&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;chapterNumber.<br>
      * <br>
+     * <br>
+     * <br>
+     * <br>
      *
-     * @return&nbsp;the&nbsp;value&nbsp;of&nbsp;field&nbsp;chapterNumber <!-- end-UML-doc -->
+     * @return&nbsp;the&nbsp;value&nbsp;of&nbsp;field&nbsp;chapterNumbe <!-- end-UML-doc -->
      *
      * @return
      * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_gAO7QJlJEeeN7K_s3Iv6cQ"
      */
     public String getChapterNumber() {
       // begin-user-code
-      return chapterNumber;
+      return this.chapterNumber;
       // end-user-code
     }
 
     /**
-     * <!-- begin-UML-doc -->
-     * Returns&nbsp;the&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;cumulativeDollarExecution.<br>
-     * <br>
-     *
-     * @return&nbsp;the&nbsp;value&nbsp;of&nbsp;field&nbsp;cumulativeDollarExecution <!--
-     *                                                                               end-UML-doc -->
+     * <!-- begin-UML-doc --> <!-- end-UML-doc -->
      *
      * @return
      * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_gAPiUZlJEeeN7K_s3Iv6cQ"
      */
     public String getCumulativeDollarExecution() {
       // begin-user-code
-      return cumulativeDollarExecution;
+      return this.cumulativeDollarExecution;
       // end-user-code
     }
 
@@ -314,15 +336,18 @@ public class ExecutionToListStringMapper {
      * <!-- begin-UML-doc -->
      * Returns&nbsp;the&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;cumulativeExecution.<br>
      * <br>
+     * <br>
+     * <br>
+     * <br>
      *
-     * @return&nbsp;the&nbsp;value&nbsp;of&nbsp;field&nbsp;cumulativeExecution <!-- end-UML-doc -->
+     * @return&nbsp;the&nbsp;value&nbsp;of&nbsp;field&nbsp;cumulativeExecutio <!-- end-UML-doc -->
      *
      * @return
      * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_gAQwcJlJEeeN7K_s3Iv6cQ"
      */
     public String getCumulativeExecution() {
       // begin-user-code
-      return cumulativeExecution;
+      return this.cumulativeExecution;
       // end-user-code
     }
 
@@ -330,41 +355,46 @@ public class ExecutionToListStringMapper {
      * <!-- begin-UML-doc -->
      * Returns&nbsp;the&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;currency.<br>
      * <br>
+     * <br>
+     * <br>
+     * <br>
      *
-     * @return&nbsp;the&nbsp;value&nbsp;of&nbsp;field&nbsp;currency <!-- end-UML-doc -->
+     * @return&nbsp;the&nbsp;value&nbsp;of&nbsp;field&nbsp;currenc <!-- end-UML-doc -->
      *
      * @return
      * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_gARXgplJEeeN7K_s3Iv6cQ"
      */
     public String getCurrency() {
       // begin-user-code
-      return currency;
+      return this.currency;
       // end-user-code
     }
 
     /**
-     * <!-- begin-UML-doc -->
+     * <!-- begin-UML-doc --> <br>
      *
-     * @return&nbsp;the&nbsp;dollarExecutionPercentage <!-- end-UML-doc -->
+     * @return&nbsp;the&nbsp;dollarExecutionPercentag <!-- end-UML-doc -->
+     *
      * @return
      * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_gASloJlJEeeN7K_s3Iv6cQ"
      */
     public final String getDollarExecutionPercentage() {
       // begin-user-code
-      return dollarExecutionPercentage;
+      return this.dollarExecutionPercentage;
       // end-user-code
     }
 
     /**
-     * <!-- begin-UML-doc -->
+     * <!-- begin-UML-doc --> <br>
      *
-     * @return&nbsp;the&nbsp;executionPercentage <!-- end-UML-doc -->
+     * @return&nbsp;the&nbsp;executionPercentag <!-- end-UML-doc -->
+     *
      * @return
      * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_gATzwJlJEeeN7K_s3Iv6cQ"
      */
     public final String getExecutionPercentage() {
       // begin-user-code
-      return executionPercentage;
+      return this.executionPercentage;
       // end-user-code
     }
 
@@ -372,15 +402,18 @@ public class ExecutionToListStringMapper {
      * <!-- begin-UML-doc -->
      * Returns&nbsp;the&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;initialBudget.<br>
      * <br>
+     * <br>
+     * <br>
+     * <br>
      *
-     * @return&nbsp;the&nbsp;value&nbsp;of&nbsp;field&nbsp;initialBudget <!-- end-UML-doc -->
+     * @return&nbsp;the&nbsp;value&nbsp;of&nbsp;field&nbsp;initialBudge <!-- end-UML-doc -->
      *
      * @return
      * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_gAUa0JlJEeeN7K_s3Iv6cQ"
      */
     public String getInitialBudget() {
       // begin-user-code
-      return initialBudget;
+      return this.initialBudget;
       // end-user-code
     }
 
@@ -388,15 +421,18 @@ public class ExecutionToListStringMapper {
      * <!-- begin-UML-doc -->
      * Returns&nbsp;the&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;initialDollarBudget.<br>
      * <br>
+     * <br>
+     * <br>
+     * <br>
      *
-     * @return&nbsp;the&nbsp;value&nbsp;of&nbsp;field&nbsp;initialDollarBudget <!-- end-UML-doc -->
+     * @return&nbsp;the&nbsp;value&nbsp;of&nbsp;field&nbsp;initialDollarBudge <!-- end-UML-doc -->
      *
      * @return
      * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_gAVB4ZlJEeeN7K_s3Iv6cQ"
      */
     public String getInitialDollarBudget() {
       // begin-user-code
-      return initialDollarBudget;
+      return this.initialDollarBudget;
       // end-user-code
     }
 
@@ -404,15 +440,18 @@ public class ExecutionToListStringMapper {
      * <!-- begin-UML-doc -->
      * Returns&nbsp;the&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;subtitleName.<br>
      * <br>
+     * <br>
+     * <br>
+     * <br>
      *
-     * @return&nbsp;the&nbsp;value&nbsp;of&nbsp;field&nbsp;subtitleName <!-- end-UML-doc -->
+     * @return&nbsp;the&nbsp;value&nbsp;of&nbsp;field&nbsp;subtitleNam <!-- end-UML-doc -->
      *
      * @return
      * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_gAZTUJlJEeeN7K_s3Iv6cQ"
      */
     public String getItemName() {
       // begin-user-code
-      return subtitleName;
+      return this.subtitleName;
       // end-user-code
     }
 
@@ -420,15 +459,18 @@ public class ExecutionToListStringMapper {
      * <!-- begin-UML-doc -->
      * Returns&nbsp;the&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;subtitleNumber.<br>
      * <br>
+     * <br>
+     * <br>
+     * <br>
      *
-     * @return&nbsp;the&nbsp;value&nbsp;of&nbsp;field&nbsp;subtitleNumber <!-- end-UML-doc -->
+     * @return&nbsp;the&nbsp;value&nbsp;of&nbsp;field&nbsp;subtitleNumbe <!-- end-UML-doc -->
      *
      * @return
      * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_gAahcJlJEeeN7K_s3Iv6cQ"
      */
     public String getItemNumber() {
       // begin-user-code
-      return subtitleNumber;
+      return this.subtitleNumber;
       // end-user-code
     }
 
@@ -436,15 +478,18 @@ public class ExecutionToListStringMapper {
      * <!-- begin-UML-doc -->
      * Returns&nbsp;the&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;programName.<br>
      * <br>
+     * <br>
+     * <br>
+     * <br>
      *
-     * @return&nbsp;the&nbsp;value&nbsp;of&nbsp;field&nbsp;programName <!-- end-UML-doc -->
+     * @return&nbsp;the&nbsp;value&nbsp;of&nbsp;field&nbsp;programNam <!-- end-UML-doc -->
      *
      * @return
      * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_gAXeIZlJEeeN7K_s3Iv6cQ"
      */
     public String getProgramName() {
       // begin-user-code
-      return programName;
+      return this.programName;
       // end-user-code
     }
 
@@ -452,15 +497,18 @@ public class ExecutionToListStringMapper {
      * <!-- begin-UML-doc -->
      * Returns&nbsp;the&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;programNumber.<br>
      * <br>
+     * <br>
+     * <br>
+     * <br>
      *
-     * @return&nbsp;the&nbsp;value&nbsp;of&nbsp;field&nbsp;programNumber <!-- end-UML-doc -->
+     * @return&nbsp;the&nbsp;value&nbsp;of&nbsp;field&nbsp;programNumbe <!-- end-UML-doc -->
      *
      * @return
      * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_gAYsQJlJEeeN7K_s3Iv6cQ"
      */
     public String getProgramNumber() {
       // begin-user-code
-      return programNumber;
+      return this.programNumber;
       // end-user-code
     }
 
@@ -468,15 +516,18 @@ public class ExecutionToListStringMapper {
      * <!-- begin-UML-doc -->
      * Returns&nbsp;the&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;itemName.<br>
      * <br>
+     * <br>
+     * <br>
+     * <br>
      *
-     * @return&nbsp;the&nbsp;value&nbsp;of&nbsp;field&nbsp;itemName <!-- end-UML-doc -->
+     * @return&nbsp;the&nbsp;value&nbsp;of&nbsp;field&nbsp;itemNam <!-- end-UML-doc -->
      *
      * @return
      * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_gAWQAJlJEeeN7K_s3Iv6cQ"
      */
     public String getSubtitleName() {
       // begin-user-code
-      return itemName;
+      return this.itemName;
       // end-user-code
     }
 
@@ -484,15 +535,18 @@ public class ExecutionToListStringMapper {
      * <!-- begin-UML-doc -->
      * Returns&nbsp;the&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;itemNumber.<br>
      * <br>
+     * <br>
+     * <br>
+     * <br>
      *
-     * @return&nbsp;the&nbsp;value&nbsp;of&nbsp;field&nbsp;itemNumber <!-- end-UML-doc -->
+     * @return&nbsp;the&nbsp;value&nbsp;of&nbsp;field&nbsp;itemNumbe <!-- end-UML-doc -->
      *
      * @return
      * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_gAW3EJlJEeeN7K_s3Iv6cQ"
      */
     public String getSubtitleNumber() {
       // begin-user-code
-      return itemNumber;
+      return this.itemNumber;
       // end-user-code
     }
 
@@ -500,7 +554,10 @@ public class ExecutionToListStringMapper {
      * <!-- begin-UML-doc -->
      * Sets&nbsp;the&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;actualBudget.<br>
      * <br>
-     * @param&nbsp;actualBudget<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the&nbsp;new&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;actualBudget.
+     * <br>
+     * <br>
+     * @param&nbsp;actualBudget<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the&nbsp;new&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;actualBudget.<br>
+     *                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
      *                                <!-- end-UML-doc -->
      *
      * @param actualBudget
@@ -516,7 +573,10 @@ public class ExecutionToListStringMapper {
      * <!-- begin-UML-doc -->
      * Sets&nbsp;the&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;actualDollarBudget.<br>
      * <br>
-     * @param&nbsp;actualDollarBudget<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the&nbsp;new&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;actualDollarBudget.
+     * <br>
+     * <br>
+     * @param&nbsp;actualDollarBudget<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the&nbsp;new&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;actualDollarBudget.<br>
+     *                                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
      *                                      <!-- end-UML-doc -->
      *
      * @param actualDollarBudget
@@ -532,7 +592,10 @@ public class ExecutionToListStringMapper {
      * <!-- begin-UML-doc -->
      * Sets&nbsp;the&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;assignmentName.<br>
      * <br>
-     * @param&nbsp;assignmentName<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the&nbsp;new&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;assignmentName.
+     * <br>
+     * <br>
+     * @param&nbsp;assignmentName<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the&nbsp;new&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;assignmentName.<br>
+     *                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
      *                                  <!-- end-UML-doc -->
      *
      * @param assignmentName
@@ -548,7 +611,10 @@ public class ExecutionToListStringMapper {
      * <!-- begin-UML-doc -->
      * Sets&nbsp;the&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;assignmentNumber.<br>
      * <br>
-     * @param&nbsp;assignmentNumber<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the&nbsp;new&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;assignmentNumber.
+     * <br>
+     * <br>
+     * @param&nbsp;assignmentNumber<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the&nbsp;new&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;assignmentNumber.<br>
+     *                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
      *                                    <!-- end-UML-doc -->
      *
      * @param assignmentNumber
@@ -564,7 +630,10 @@ public class ExecutionToListStringMapper {
      * <!-- begin-UML-doc -->
      * Sets&nbsp;the&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;batchName.<br>
      * <br>
-     * @param&nbsp;batchName<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the&nbsp;new&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;batchName.
+     * <br>
+     * <br>
+     * @param&nbsp;batchName<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the&nbsp;new&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;batchName.<br>
+     *                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
      *                             <!-- end-UML-doc -->
      *
      * @param batchName
@@ -580,7 +649,10 @@ public class ExecutionToListStringMapper {
      * <!-- begin-UML-doc -->
      * Sets&nbsp;the&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;batchNumber.<br>
      * <br>
-     * @param&nbsp;batchNumber<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the&nbsp;new&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;batchNumber.
+     * <br>
+     * <br>
+     * @param&nbsp;batchNumber<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the&nbsp;new&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;batchNumber.<br>
+     *                               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
      *                               <!-- end-UML-doc -->
      *
      * @param batchNumber
@@ -596,7 +668,10 @@ public class ExecutionToListStringMapper {
      * <!-- begin-UML-doc -->
      * Sets&nbsp;the&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;chapterName.<br>
      * <br>
-     * @param&nbsp;chapterName<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the&nbsp;new&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;chapterName.
+     * <br>
+     * <br>
+     * @param&nbsp;chapterName<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the&nbsp;new&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;chapterName.<br>
+     *                               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
      *                               <!-- end-UML-doc -->
      *
      * @param chapterName
@@ -612,7 +687,10 @@ public class ExecutionToListStringMapper {
      * <!-- begin-UML-doc -->
      * Sets&nbsp;the&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;chapterNumber.<br>
      * <br>
-     * @param&nbsp;chapterNumber<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the&nbsp;new&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;chapterNumber.
+     * <br>
+     * <br>
+     * @param&nbsp;chapterNumber<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the&nbsp;new&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;chapterNumber.<br>
+     *                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
      *                                 <!-- end-UML-doc -->
      *
      * @param chapterNumber
@@ -628,7 +706,10 @@ public class ExecutionToListStringMapper {
      * <!-- begin-UML-doc -->
      * Sets&nbsp;the&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;cumulativeDollarExecution.<br>
      * <br>
-     * @param&nbsp;cumulativeDollarExecution<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the&nbsp;new&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;cumulativeDollarExecution.
+     * <br>
+     * <br>
+     * @param&nbsp;cumulativeDollarExecution<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the&nbsp;new&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;cumulativeDollarExecution.<br>
+     *                                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
      *                                             <!-- end-UML-doc -->
      *
      * @param cumulativeDollarExecution
@@ -645,7 +726,10 @@ public class ExecutionToListStringMapper {
      * <!-- begin-UML-doc -->
      * Sets&nbsp;the&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;cumulativeExecution.<br>
      * <br>
-     * @param&nbsp;cumulativeExecution<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the&nbsp;new&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;cumulativeExecution.
+     * <br>
+     * <br>
+     * @param&nbsp;cumulativeExecution<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the&nbsp;new&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;cumulativeExecution.<br>
+     *                                       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
      *                                       <!-- end-UML-doc -->
      *
      * @param cumulativeExecution
@@ -661,7 +745,10 @@ public class ExecutionToListStringMapper {
      * <!-- begin-UML-doc -->
      * Sets&nbsp;the&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;currency.<br>
      * <br>
-     * @param&nbsp;currency<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the&nbsp;new&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;currency.
+     * <br>
+     * <br>
+     * @param&nbsp;currency<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the&nbsp;new&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;currency.<br>
+     *                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
      *                            <!-- end-UML-doc -->
      *
      * @param currency
@@ -674,10 +761,7 @@ public class ExecutionToListStringMapper {
     }
 
     /**
-     * <!-- begin-UML-doc -->
-     * @param&nbsp;dollarExecutionPercentage<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the&nbsp;dollarExecutionPercentage&nbsp;to&nbsp;set <!--
-     *                                                                                                                                                      end-UML-doc
-     *                                                                                                                                                      -->
+     * <!-- begin-UML-doc --> <!-- end-UML-doc -->
      *
      * @param dollarExecutionPercentage
      * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_gAmus5lJEeeN7K_s3Iv6cQ"
@@ -690,10 +774,7 @@ public class ExecutionToListStringMapper {
     }
 
     /**
-     * <!-- begin-UML-doc -->
-     * @param&nbsp;executionPercentage<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the&nbsp;executionPercentage&nbsp;to&nbsp;set <!--
-     *                                                                                                                                          end-UML-doc
-     *                                                                                                                                          -->
+     * <!-- begin-UML-doc --> <!-- end-UML-doc -->
      *
      * @param executionPercentage
      * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_gAn80JlJEeeN7K_s3Iv6cQ"
@@ -708,7 +789,10 @@ public class ExecutionToListStringMapper {
      * <!-- begin-UML-doc -->
      * Sets&nbsp;the&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;initialBudget.<br>
      * <br>
-     * @param&nbsp;initialBudget<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the&nbsp;new&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;initialBudget.
+     * <br>
+     * <br>
+     * @param&nbsp;initialBudget<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the&nbsp;new&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;initialBudget.<br>
+     *                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
      *                                 <!-- end-UML-doc -->
      *
      * @param initialBudget
@@ -724,7 +808,10 @@ public class ExecutionToListStringMapper {
      * <!-- begin-UML-doc -->
      * Sets&nbsp;the&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;initialDollarBudget.<br>
      * <br>
-     * @param&nbsp;initialDollarBudget<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the&nbsp;new&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;initialDollarBudget.
+     * <br>
+     * <br>
+     * @param&nbsp;initialDollarBudget<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the&nbsp;new&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;initialDollarBudget.<br>
+     *                                       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
      *                                       <!-- end-UML-doc -->
      *
      * @param initialDollarBudget
@@ -740,15 +827,18 @@ public class ExecutionToListStringMapper {
      * <!-- begin-UML-doc -->
      * Sets&nbsp;the&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;subtitleName.<br>
      * <br>
-     * @param&nbsp;subtitleName<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the&nbsp;new&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;subtitleName.
+     * <br>
+     * <br>
+     * @param&nbsp;subtitleName<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the&nbsp;new&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;subtitleName.<br>
+     *                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
      *                                <!-- end-UML-doc -->
      *
-     * @param subtitleName
+     * @param xxxName
      * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_gAuDcplJEeeN7K_s3Iv6cQ"
      */
     public void setItemName(final String xxxName) {
       // begin-user-code
-      subtitleName = xxxName;
+      this.subtitleName = xxxName;
       // end-user-code
     }
 
@@ -756,15 +846,18 @@ public class ExecutionToListStringMapper {
      * <!-- begin-UML-doc -->
      * Sets&nbsp;the&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;subtitleNumber.<br>
      * <br>
-     * @param&nbsp;subtitleNumber<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the&nbsp;new&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;subtitleNumber.
+     * <br>
+     * <br>
+     * @param&nbsp;subtitleNumber<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the&nbsp;new&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;subtitleNumber.<br>
+     *                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
      *                                  <!-- end-UML-doc -->
      *
-     * @param subtitleNumber
+     * @param xxxNumber
      * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_gAvRkplJEeeN7K_s3Iv6cQ"
      */
     public void setItemNumber(final String xxxNumber) {
       // begin-user-code
-      subtitleNumber = xxxNumber;
+      this.subtitleNumber = xxxNumber;
       // end-user-code
     }
 
@@ -772,7 +865,10 @@ public class ExecutionToListStringMapper {
      * <!-- begin-UML-doc -->
      * Sets&nbsp;the&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;programName.<br>
      * <br>
-     * @param&nbsp;programName<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the&nbsp;new&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;programName.
+     * <br>
+     * <br>
+     * @param&nbsp;programName<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the&nbsp;new&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;programName.<br>
+     *                               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
      *                               <!-- end-UML-doc -->
      *
      * @param programName
@@ -788,7 +884,10 @@ public class ExecutionToListStringMapper {
      * <!-- begin-UML-doc -->
      * Sets&nbsp;the&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;programNumber.<br>
      * <br>
-     * @param&nbsp;programNumber<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the&nbsp;new&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;programNumber.
+     * <br>
+     * <br>
+     * @param&nbsp;programNumber<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the&nbsp;new&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;programNumber.<br>
+     *                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
      *                                 <!-- end-UML-doc -->
      *
      * @param programNumber
@@ -804,15 +903,18 @@ public class ExecutionToListStringMapper {
      * <!-- begin-UML-doc -->
      * Sets&nbsp;the&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;itemName.<br>
      * <br>
-     * @param&nbsp;itemName<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the&nbsp;new&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;itemName.
+     * <br>
+     * <br>
+     * @param&nbsp;itemName<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the&nbsp;new&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;itemName.<br>
+     *                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
      *                            <!-- end-UML-doc -->
      *
-     * @param itemName
+     * @param subtitleName
      * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_gAqZEplJEeeN7K_s3Iv6cQ"
      */
     public void setSubtitleName(final String subtitleName) {
       // begin-user-code
-      itemName = subtitleName;
+      this.itemName = subtitleName;
       // end-user-code
     }
 
@@ -820,15 +922,18 @@ public class ExecutionToListStringMapper {
      * <!-- begin-UML-doc -->
      * Sets&nbsp;the&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;itemNumber.<br>
      * <br>
-     * @param&nbsp;itemNumber<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the&nbsp;new&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;itemNumber.
+     * <br>
+     * <br>
+     * @param&nbsp;itemNumber<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the&nbsp;new&nbsp;value&nbsp;of&nbsp;the&nbsp;field&nbsp;itemNumber.<br>
+     *                              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
      *                              <!-- end-UML-doc -->
      *
-     * @param itemNumber
+     * @param subtitleNumber
      * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_gArAI5lJEeeN7K_s3Iv6cQ"
      */
     public void setSubtitleNumber(final String subtitleNumber) {
       // begin-user-code
-      itemNumber = subtitleNumber;
+      this.itemNumber = subtitleNumber;
       // end-user-code
     }
   }
@@ -842,10 +947,16 @@ public class ExecutionToListStringMapper {
       .getLogger(ExecutionToListStringMapper.class.getCanonicalName());
 
   /**
+   * <!-- begin-UML-doc -->
+   * @param&nbsp;extended<br>@return <!--
+   *                                   end-UML-doc -->
+   *
    * @param extended
    * @return
+   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_PAbvYJpTEee9SelJ6GNJZw"
    */
   private static List<String> getHeaderLine(final boolean extended) {
+    // begin-user-code
     List<String> header;
     if (extended) {
       header = new ArrayList<>(17);
@@ -882,6 +993,7 @@ public class ExecutionToListStringMapper {
       header.add("% ejecución");
     }
     return header;
+    // end-user-code
   }
 
   /**
@@ -903,7 +1015,7 @@ public class ExecutionToListStringMapper {
       // we should have an assignment here or it is malformed
       if (!(element instanceof Assignment)) {
         ExecutionToListStringMapper.log.warning(
-            new StringBuffer("Malformed element, expected an Assignment, got:")
+            new StringBuilder("Malformed element, expected an Assignment, got:")
                 .append(element.getClass().getName()).toString());
       } else {
         isAssignment = true;
@@ -921,7 +1033,7 @@ public class ExecutionToListStringMapper {
           if (ce instanceof Item) {
             isLeafItem = true;
           } else {
-            ExecutionToListStringMapper.log.warning(new StringBuffer(
+            ExecutionToListStringMapper.log.warning(new StringBuilder(
                 "Malformed element, expected an Subtitle, got:")
                     .append(element.getClass().getName()).toString());
           }
@@ -932,7 +1044,7 @@ public class ExecutionToListStringMapper {
         // Since it is a leaf element, end the recursive mapping
         final String name = element.getName();
         final int number = element.getNumber();
-        BudgetCurrency elementCurrency = element.getCurrency();
+        final BudgetCurrency elementCurrency = element.getCurrency();
         String currency;
         switch (elementCurrency) {
         case DOLLAR:
@@ -957,14 +1069,14 @@ public class ExecutionToListStringMapper {
         double dollarExecutionPercentage = 0;
         if (actualBudget > 0) {
           executionPercentage = ((double) cumulativeExecution
-              / (double) actualBudget) * 100;
+              / (double) actualBudget);
         }
         if (actualDollarBudget > 0) {
           dollarExecutionPercentage = ((double) cumulativeDollarExecution
-              / (double) actualDollarBudget) * 100;
+              / (double) actualDollarBudget);
         }
 
-        MappedElement mappedElement = new ExecutionToListStringMapper().new MappedElement();
+        final MappedElement mappedElement = new ExecutionToListStringMapper().new MappedElement();
         mappedElement.setCurrency(currency);
         mappedElement.setInitialBudget(String.valueOf(initialBudget));
         mappedElement.setActualBudget(String.valueOf(actualBudget));
@@ -975,10 +1087,10 @@ public class ExecutionToListStringMapper {
             .setCumulativeExecution(String.valueOf(cumulativeExecution));
         mappedElement.setCumulativeDollarExecution(
             String.valueOf(cumulativeDollarExecution));
-        mappedElement.setExecutionPercentage(
-            String.valueOf(Math.round(executionPercentage)));
-        mappedElement.setDollarExecutionPercentage(
-            String.valueOf(Math.round(dollarExecutionPercentage)));
+        final DecimalFormat df = new DecimalFormat("###.###");
+        mappedElement.setExecutionPercentage(df.format(executionPercentage));
+        mappedElement
+            .setDollarExecutionPercentage(df.format(dollarExecutionPercentage));
 
         if (isAssignment) {
           mappedElement.setAssignmentNumber(String.valueOf(number));
@@ -1002,11 +1114,11 @@ public class ExecutionToListStringMapper {
         mappedElements.add(mappedElement);
       } else {
         // If we reach this point, we are not in a leaf of the hierarchy
-        for (BudgetElement subElement : subelements) {
+        for (final BudgetElement subElement : subelements) {
           mappedElements.addAll(ExecutionToListStringMapper.map(subElement));
         }
         final BudgetHierarchyLevel level = ce.getLevel();
-        for (MappedElement mappedElement : mappedElements) {
+        for (final MappedElement mappedElement : mappedElements) {
           switch (level) {
           case BATCH:
             mappedElement.setBatchNumber(String.valueOf(ce.getNumber()));
@@ -1021,15 +1133,15 @@ public class ExecutionToListStringMapper {
             mappedElement.setProgramName(ce.getName());
             break;
           case SUBTITLE:
-            mappedElement.setItemNumber(String.valueOf(ce.getNumber()));
-            mappedElement.setItemName(ce.getName());
-            break;
-          case ITEM:
             mappedElement.setSubtitleNumber(String.valueOf(ce.getNumber()));
             mappedElement.setSubtitleName(ce.getName());
             break;
+          case ITEM:
+            mappedElement.setItemNumber(String.valueOf(ce.getNumber()));
+            mappedElement.setItemName(ce.getName());
+            break;
           default:
-            ExecutionToListStringMapper.log.warning(new StringBuffer(
+            ExecutionToListStringMapper.log.warning(new StringBuilder(
                 "Malformed element, expected batch, chapter, program,")
                     .append(
                         " subtitle or an item with no assignments, but got:")
@@ -1048,6 +1160,7 @@ public class ExecutionToListStringMapper {
    * <!-- begin-UML-doc --> <!-- end-UML-doc -->
    *
    * @param execution
+   * @param useHeader
    * @param extended
    * @return
    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_f8BJo5lJEeeN7K_s3Iv6cQ"
@@ -1057,16 +1170,19 @@ public class ExecutionToListStringMapper {
     // begin-user-code
     final Collection<Batch> batches = execution.getBatches();
     final List<MappedElement> mappedElements = new ArrayList<>();
-    List<List<String>> lines = new ArrayList<>();
+    final List<List<String>> lines = new ArrayList<>();
     for (final Batch batch : batches) {
-      mappedElements.addAll(map(batch));
+      mappedElements.addAll(ExecutionToListStringMapper.map(batch));
     }
     if (useHeader) {
-      List<String> header = getHeaderLine(extended);
+      final List<String> header = ExecutionToListStringMapper
+          .getHeaderLine(extended);
       lines.add(header);
     }
     for (final MappedElement mappedElement : mappedElements) {
-      List<String> line = mapElementToLine(mappedElement, extended);
+      final List<String> line = ExecutionToListStringMapper
+          .mapElementToLine(mappedElement, extended);
+      line.add("\n");
       lines.add(line);
     }
     return lines;
@@ -1074,12 +1190,19 @@ public class ExecutionToListStringMapper {
   }
 
   /**
+   * <!-- begin-UML-doc -->
+   * @param&nbsp;mappedElement<br>@param&nbsp;extended<br>
+   *
+   * @return <!-- end-UML-doc -->
+   *
    * @param mappedElement
    * @param extended
    * @return
+   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_PAh2AppTEee9SelJ6GNJZw"
    */
   private static List<String> mapElementToLine(
       final MappedElement mappedElement, final boolean extended) {
+    // begin-user-code
     List<String> line;
     if (extended) {
       line = new ArrayList<>(17);
@@ -1141,5 +1264,6 @@ public class ExecutionToListStringMapper {
       line.add(executionPercent);
     }
     return line;
+    // end-user-code
   }
 }

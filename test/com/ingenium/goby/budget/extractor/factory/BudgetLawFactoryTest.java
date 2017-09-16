@@ -4,7 +4,6 @@
 
 package com.ingenium.goby.budget.extractor.factory;
 
-import com.ingenium.goby.budget.extractor.factory.BudgetLawFactory;
 import com.ingenium.goby.budget.extractor.injection.FileSystemInjector;
 import com.ingenium.goby.budget.extractor.map.BudgetElementToJsonMapper;
 import com.ingenium.goby.budget.extractor.model.BudgetElementType;
@@ -31,7 +30,7 @@ public class BudgetLawFactoryTest {
   @Test
   public final void testExtractBudgetLaw() {
     final String s = File.separator;
-    final String source = new StringBuffer("test").append(s).append("com")
+    final String source = new StringBuilder("test").append(s).append("com")
         .append(s).append("ingenium").append(s).append("goby").append(s)
         .append("budget").append(s).append("extractor").append(s)
         .append("fixture").append(s).append("budgetLaw.csv").toString();
@@ -46,14 +45,12 @@ public class BudgetLawFactoryTest {
     law.setSubelements(catalog.getBatches());
 
     final String jsonCatalog = BudgetElementToJsonMapper.map(law, 0);
-    final String destination = new StringBuffer("tmp").append(s)
+    final String destination = new StringBuilder("tmp").append(s)
         .append("budgetLaw.json").toString();
-    final FileSystemInjector fsi = new FileSystemInjector(destination,
-        jsonCatalog);
     try {
-      fsi.inject();
+      FileSystemInjector.inject(destination, jsonCatalog);
       final File file1 = new File(destination);
-      final String objective = new StringBuffer("test").append(s).append("com")
+      final String objective = new StringBuilder("test").append(s).append("com")
           .append(s).append("ingenium").append(s).append("goby").append(s)
           .append("budget").append(s).append("extractor").append(s)
           .append("fixture").append(s).append("budgetLaw.json").toString();

@@ -33,19 +33,19 @@ public class BulkBudgetExecutionCsvFilesNormalizerTest {
         .append(s).append("budget").append(s).append("extractor").append(s)
         .append("normalization").append(s).append("fixture").append(s)
         .append("bulk").toString();
-    final String objective = new StringBuffer("test").append(s).append("com")
+    final String objective = new StringBuilder("test").append(s).append("com")
         .append(s).append("ingenium").append(s).append("goby").append(s)
         .append("budget").append(s).append("extractor").append(s)
         .append("normalization").append(s).append("fixture").append(s)
         .append("bulk-execution-normalized.csv").toString();
 
-    final String destination = new StringBuffer("stage").append(s)
+    final String destination = new StringBuilder("stage").append(s)
         .append("test").append(s).append("bulk-execution-out.csv").toString();
 
     List<List<String>> normalizedEntries = BulkBudgetExecutionCsvFilesNormalizer
         .normalize(sourceDirectory, destination);
     for (List<String> line : normalizedEntries) {
-      StringBuffer asString = new StringBuffer();
+      StringBuilder asString = new StringBuilder();
       for (String value : line) {
         asString.append(value).append(";");
       }

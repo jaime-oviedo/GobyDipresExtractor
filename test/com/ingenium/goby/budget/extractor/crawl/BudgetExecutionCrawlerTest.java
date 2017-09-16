@@ -50,7 +50,7 @@ public class BudgetExecutionCrawlerTest {
         .crawlAndFetchExecutionFilesList(2017, ExecutionPeriod.APRIL);
     for (final String fileName : executionFiles) {
       BudgetExecutionCrawlerTest.log
-          .info(new StringBuffer("Found extractable file:").append(fileName)
+          .info(new StringBuilder("Found extractable file:").append(fileName)
               .toString());
     }
     Assert.assertTrue(true);
@@ -61,7 +61,7 @@ public class BudgetExecutionCrawlerTest {
     BudgetExecutionCrawlerTest.log
         .info("Testing extractExecutionFilesList method");
     final String s = File.separator;
-    final String source = new StringBuffer("test").append(s).append("com")
+    final String source = new StringBuilder("test").append(s).append("com")
         .append(s).append("ingenium").append(s).append("goby").append(s)
         .append("budget").append(s).append("extractor").append(s)
         .append("fixture").append(s)
@@ -91,7 +91,7 @@ public class BudgetExecutionCrawlerTest {
           programLevelBudgetExecutionYearPage, ExecutionPeriod.APRIL);
       for (final String fileName : executionFiles) {
         BudgetExecutionCrawlerTest.log
-            .info(new StringBuffer("Found extractable file:").append(fileName)
+            .info(new StringBuilder("Found extractable file:").append(fileName)
                 .toString());
       }
       Assert.assertTrue(executionFiles.size() > 0);

@@ -13,32 +13,32 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Logger;
 
-/** 
- * <!-- begin-UML-doc -->
- * <!-- end-UML-doc -->
+/**
+ * <!-- begin-UML-doc --> <!-- end-UML-doc -->
+ *
  * @author Jaime Oviedo
- * @uml.annotations
- *     derived_abstraction="platform:/resource/goby-design/budget-extractor.emx#_NENBYG2fEeeXYbujNKTijw"
+ * @uml.annotations derived_abstraction="platform:/resource/goby-design/budget-extractor.emx#_NENBYG2fEeeXYbujNKTijw"
  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_NENBYG2fEeeXYbujNKTijw"
  */
 public class BulkBudgetExecutionCsvFilesNormalizer {
-  
-  /** 
-  * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_PnPl4G2fEeeXYbujNKTijw"
-  */
+
+  /**
+   * <!-- begin-UML-doc --> <!-- end-UML-doc -->
+   *
+   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_PnPl4G2fEeeXYbujNKTijw"
+   */
   private static final Logger log = Logger.getLogger(
       "com.ingenium.goby.budget.extractor.normalization.BulkBudgetExecutionCsvFilesNormalizer");
-  
-  /** 
-  * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * @param sourceDirectory
-  * @return
-  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_PnQM8G2fEeeXYbujNKTijw"
-  */
-  public static List<List<String>> normalize(final String sourceDirectory) {
+
+  /**
+   * <!-- begin-UML-doc --> <!-- end-UML-doc -->
+   *
+   * @param sourceDirectory
+   * @return
+   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_PnQM8G2fEeeXYbujNKTijw"
+   */
+  public static List<List<String>> normalize(final String sourceDirectory,
+      final String encoding) {
     // begin-user-code
     final List<List<String>> normalizedEntries = new ArrayList<>();
     final File dir = new File(sourceDirectory);
@@ -51,28 +51,28 @@ public class BulkBudgetExecutionCsvFilesNormalizer {
     }
     for (final File source : sources) {
       normalizedEntries
-          .addAll(BudgetExecutionCsvFileNormalizer.normalize(source));
+          .addAll(BudgetExecutionCsvFileNormalizer.normalize(source, encoding));
     }
     return normalizedEntries;
     // end-user-code
   }
-  
-  /** 
-  * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * @param sourceDirectory
-  * @param destinationFile
-  * @return
-  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_PnPl4m2fEeeXYbujNKTijw"
-  */
+
+  /**
+   * <!-- begin-UML-doc --> <!-- end-UML-doc -->
+   *
+   * @param sourceDirectory
+   * @param destinationFile
+   * @return
+   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_PnPl4m2fEeeXYbujNKTijw"
+   */
   public static List<List<String>> normalize(final String sourceDirectory,
-      final String destinationFile) {
+      final String destinationFile, final String encoding) {
     // begin-user-code
-    
+
     // Go into the provided directory and normalize the files there
     final List<List<String>> normalizedEntries = BulkBudgetExecutionCsvFilesNormalizer
-        .normalize(sourceDirectory);
-    
+        .normalize(sourceDirectory, encoding);
+
     /*
      * Because CSVWriter takes an array of strings as input, we first convert the collection of
      * lines to a String array.
@@ -88,9 +88,9 @@ public class BulkBudgetExecutionCsvFilesNormalizer {
       }
       linesAsArray.add(lineAsArray);
     }
-    
+
     // Before trying to write the final file, we make sure we can write to it.
-    
+
     final File theFile = new File(destinationFile);
     theFile.getParentFile().mkdirs();
     CSVWriter writer = null;
@@ -102,7 +102,7 @@ public class BulkBudgetExecutionCsvFilesNormalizer {
       BulkBudgetExecutionCsvFilesNormalizer.log.severe(
           new StringBuilder("Unable to write normalized file to destination ")
               .append(destinationFile).toString());
-      
+
     } finally {
       if (writer != null) {
         try {
@@ -113,21 +113,21 @@ public class BulkBudgetExecutionCsvFilesNormalizer {
         }
       }
     }
-    
+
     return normalizedEntries;
     // end-user-code
   }
-  
-  /** 
-  * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * Creates a new instance of the class BulkBudgetExecutionCsvFilesNormalizer.
-  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_Hx6rkG2jEeeXYbujNKTijw"
-  */
+
+  /**
+   * <!-- begin-UML-doc --> <!-- end-UML-doc --> Creates a new instance of the class
+   * BulkBudgetExecutionCsvFilesNormalizer.
+   *
+   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_Hx6rkG2jEeeXYbujNKTijw"
+   */
   private BulkBudgetExecutionCsvFilesNormalizer() {
     // begin-user-code
     super();
     // end-user-code
   }
-  
+
 }

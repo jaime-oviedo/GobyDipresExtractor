@@ -10,36 +10,35 @@ import com.ingenium.goby.budget.extractor.model.ExecutionPeriod;
 
 import java.util.logging.Logger;
 
-/** 
- * <!-- begin-UML-doc -->
- * <!-- end-UML-doc -->
+/**
+ * <!-- begin-UML-doc --> <!-- end-UML-doc -->
+ *
  * @author Jaime Oviedo
- * @uml.annotations
- *     derived_abstraction="platform:/resource/goby-design/budget-extractor.emx#_lgK9QGD3EeemUqxRur9fjQ"
+ * @uml.annotations derived_abstraction="platform:/resource/goby-design/budget-extractor.emx#_lgK9QGD3EeemUqxRur9fjQ"
  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_lgK9QGD3EeemUqxRur9fjQ"
  */
 public class BudgetExtractorFactory {
-  /** 
-  * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_sd_D8GD3EeemUqxRur9fjQ"
-  */
+  /**
+   * <!-- begin-UML-doc --> <!-- end-UML-doc -->
+   *
+   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_sd_D8GD3EeemUqxRur9fjQ"
+   */
   private static BudgetExtractorFactory instance = null;
-  
-  /** 
-  * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_ST6wsGEsEeeMhLKRNTgRlA"
-  */
+
+  /**
+   * <!-- begin-UML-doc --> <!-- end-UML-doc -->
+   *
+   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_ST6wsGEsEeeMhLKRNTgRlA"
+   */
   private static final Logger log = Logger
       .getLogger("com.ingenium.goby.budget.extractor.BudgetExtractorFactory");
-  
-  /** 
-  * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * @return
-  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_eZPcMGEKEeeMhLKRNTgRlA"
-  */
+
+  /**
+   * <!-- begin-UML-doc --> <!-- end-UML-doc -->
+   *
+   * @return
+   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_eZPcMGEKEeeMhLKRNTgRlA"
+   */
   public static BudgetExtractorFactory getInstance() {
     // begin-user-code
     if (BudgetExtractorFactory.instance != null) {
@@ -49,34 +48,40 @@ public class BudgetExtractorFactory {
     return BudgetExtractorFactory.instance;
     // end-user-code
   }
-  
-  /** 
-  * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * Creates a new instance of the class BudgetExtractorFactory.
-  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_PznhgGEIEeemUqxRur9fjQ"
-  */
+
+  /**
+   * <!-- begin-UML-doc --> <!-- end-UML-doc --> Creates a new instance of the class
+   * BudgetExtractorFactory.
+   *
+   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_PznhgGEIEeemUqxRur9fjQ"
+   */
   private BudgetExtractorFactory() {
     // begin-user-code
     super();
     // end-user-code
   }
-  
-  /** 
-  * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * @param type
-  * @param month
-  * @param year
-  * @param stageDirectory
-  * @param localSourceDirectory
-  * @param inputEncoding
-  * @param forceLocalProcessing
-  * @param forceDownload
-  * @param preserveDownloadedFiles
-  * @return
-  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_V21BIGEIEeemUqxRur9fjQ"
-  */
+
+  public BudgetExtractor getDefaultBudgetExecutionExtractor() {
+    BudgetExtractor budgetExtractor = new BudgetLawExtractorImpl.Builder()
+        .build();
+    return budgetExtractor;
+  }
+
+  /**
+   * <!-- begin-UML-doc --> <!-- end-UML-doc -->
+   *
+   * @param type
+   * @param month
+   * @param year
+   * @param stageDirectory
+   * @param localSourceDirectory
+   * @param inputEncoding
+   * @param forceLocalProcessing
+   * @param forceDownload
+   * @param preserveDownloadedFiles
+   * @return
+   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_V21BIGEIEeemUqxRur9fjQ"
+   */
   public BudgetExtractor getExtractor(final ExtractionType type,
       final ExecutionPeriod month, final int year, final String stageDirectory,
       final String localSourceDirectory, final String inputEncoding,
@@ -85,12 +90,29 @@ public class BudgetExtractorFactory {
     // begin-user-code
     BudgetExtractor budgetExtractor = null;
     switch (type) {
-      case LAW:
-        budgetExtractor = new BudgetLawExtractorImpl(
-            new AbstractBudgetExtractor.Builder());
+    case LAW:
+      budgetExtractor = new BudgetLawExtractorImpl.Builder().month(month)
+          .year(year).localStageDirectory(stageDirectory)
+          .localSourceDirectory(localSourceDirectory)
+          .inputEncoding(inputEncoding)
+          .forceLocalProcessing(forceLocalProcessing)
+          .forceDownload(forceDownload)
+          .preserveDownloadedFiles(preserveDownloadedFiles).build();
+      break;
+
+    case EXECUTION:
+      budgetExtractor = new BudgetExecutionExtractorImpl.Builder().month(month)
+          .year(year).localStageDirectory(stageDirectory)
+          .localSourceDirectory(localSourceDirectory)
+          .inputEncoding(inputEncoding)
+          .forceLocalProcessing(forceLocalProcessing)
+          .forceDownload(forceDownload)
+          .preserveDownloadedFiles(preserveDownloadedFiles).build();
+      break;
+    default:
+      // Do nothing (returns null)
     }
     return budgetExtractor;
     // end-user-code
   }
-  
 }

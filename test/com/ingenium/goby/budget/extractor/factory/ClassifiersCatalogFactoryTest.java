@@ -47,11 +47,14 @@ public class ClassifiersCatalogFactoryTest {
     b.setSubelements(catalog.getSubtitles());
 
     final String jsonCatalog = BudgetElementToJsonMapper.map(b, 0);
-    final String destination = "tmp" + s + "classifiers.json";
+    final String destinationDir = "tmp";
+    final String destinationFilename = "classifiers.json";
 
     try {
-      FileSystemInjector.inject(destination, jsonCatalog);
-      final File file1 = new File(destination);
+      FileSystemInjector.inject(jsonCatalog, destinationFilename,
+          destinationDir, "CP1250");
+      final File file1 = new File(new StringBuilder(destinationDir).append(s)
+          .append(destinationFilename).toString());
       final String objective = new StringBuilder("test").append(s).append("com")
           .append(s).append("ingenium").append(s).append("goby").append(s)
           .append("budget").append(s).append("extractor").append(s)

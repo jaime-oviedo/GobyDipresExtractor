@@ -6,8 +6,6 @@ package com.ingenium.goby.budget.extractor.extraction;
 
 import com.ingenium.goby.budget.extractor.model.BudgetElement;
 
-import java.util.Collection;
-
 /** 
  * <!-- begin-UML-doc -->
  * <!-- end-UML-doc -->
@@ -16,7 +14,7 @@ import java.util.Collection;
  *     derived_abstraction="platform:/resource/goby-design/budget-extractor.emx#_MC9IQFYQEeeKVoBZn1AqUw"
  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_MC9IQFYQEeeKVoBZn1AqUw"
  */
-public interface Extractor {
+public interface BudgetExtractor {
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
@@ -24,6 +22,5 @@ public interface Extractor {
   * @throws ExtractionException
   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_NfLOoFYQEeeKVoBZn1AqUw"
   */
-  public Collection<? extends BudgetElement> extract()
-      throws ExtractionException;
+  public BudgetElement extract() throws ExtractionException;
 }

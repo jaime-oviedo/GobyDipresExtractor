@@ -17,7 +17,7 @@ import com.ingenium.goby.budget.extractor.model.BudgetExecution;
  *     derived_abstraction="platform:/resource/goby-design/budget-extractor.emx#_asLE8F0iEeez8bHvvwz5bA"
  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_asLE8F0iEeez8bHvvwz5bA"
  */
-public class BudgetExecutionFactory {
+class BudgetExecutionFactory {
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->

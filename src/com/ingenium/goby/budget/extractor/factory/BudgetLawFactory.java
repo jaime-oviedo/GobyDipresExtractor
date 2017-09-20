@@ -17,7 +17,7 @@ import com.ingenium.goby.budget.extractor.model.BudgetLaw;
  *     derived_abstraction="platform:/resource/goby-design/budget-extractor.emx#_KP91sFH0Eee-AoOzRlyylA"
  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_KP91sFH0Eee-AoOzRlyylA"
  */
-public class BudgetLawFactory {
+class BudgetLawFactory {
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->

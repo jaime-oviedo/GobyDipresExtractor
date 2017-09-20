@@ -4,11 +4,11 @@
 
 package com.ingenium.goby.budget.extractor.injection;
 
-import java.io.BufferedWriter;
 import java.io.File;
-import java.io.FileWriter;
+import java.io.FileOutputStream;
 import java.io.IOException;
-import java.io.PrintWriter;
+import java.io.OutputStreamWriter;
+import java.nio.charset.Charset;
 import java.util.logging.Logger;
 
 /** 
@@ -19,44 +19,79 @@ import java.util.logging.Logger;
  *     derived_abstraction="platform:/resource/goby-design/budget-extractor.emx#_yNL6EFdBEee4ttLK_7FK1A"
  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_yNL6EFdBEee4ttLK_7FK1A"
  */
-public class FileSystemInjector {
+public final class FileSystemInjector {
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_ve7uoGEGEeemUqxRur9fjQ"
   */
   private static final Logger log = Logger
-      .getLogger("com.ingenium.goby.extractor.FileSystemInjector");
+      .getLogger(FileSystemInjector.class.getCanonicalName());
   
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
   * @param element
-  * @param destination
+  * @param fileName
+  * @param directory
+  * @param encoding
   * @throws InjectionException
   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_PCgL8JpTEee9SelJ6GNJZw"
   */
-  public static void inject(Object element, String destination)
-      throws InjectionException {
+  public static void inject(Object element, String fileName, String directory,
+      String encoding) throws InjectionException {
     // begin-user-code
-    final File file = new File(destination);
-    final boolean dirCreated = file.getParentFile().mkdirs();
+    final File dir = new File(directory);
+    final boolean dirCreated = dir.mkdirs();
     if (!dirCreated) {
-      log.warning("Unable to create directories for injection.");
+      FileSystemInjector.log.warning(
+          "Unable to create directories for injection. They could already exist or there could be another problem.");
     }
     
-    PrintWriter outputStream = null;
+    FileOutputStream fos = null;
+    OutputStreamWriter osw = null;
     try {
-      outputStream = new PrintWriter(new BufferedWriter(new FileWriter(file)));
-      outputStream.write(element.toString());
+      fos = new FileOutputStream(new StringBuilder(directory)
+          .append(File.separator).append(fileName).toString());
+      osw = new OutputStreamWriter(fos, Charset.forName(encoding));
+      osw.write(element.toString());
     } catch (final IOException e) {
-      log.warning(e.getMessage());
-      throw new InjectionException("Unable to write on injection destination");
+      throw new InjectionException(
+          new StringBuilder("Unable to write on injection destination:")
+              .append(e.getMessage()).toString());
     } finally {
-      if (outputStream != null) {
-        outputStream.close();
+      if (osw != null) {
+        try {
+          osw.close();
+        } catch (final IOException e) {
+          FileSystemInjector.log
+              .fine(new StringBuilder("Unable to close streams:")
+                  .append(e.getMessage()).toString());
+        }
       }
+      if (fos != null) {
+        try {
+          fos.close();
+        } catch (final IOException e) {
+          FileSystemInjector.log
+              .fine(new StringBuilder("Unable to close streams:")
+                  .append(e.getMessage()).toString());
+        }
+      }
+      
     }
+    // end-user-code
+  }
+  
+  /** 
+  * <!-- begin-UML-doc -->
+  * <!-- end-UML-doc -->
+  * Creates a new instance of the class FileSystemInjector.
+  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_Di4Y4JzCEeeKKp-m4AD7KQ"
+  */
+  private FileSystemInjector() {
+    // begin-user-code
+    
     // end-user-code
   }
 }

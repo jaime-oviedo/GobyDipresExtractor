@@ -4,7 +4,7 @@
 
 package com.ingenium.goby.budget.extractor.map;
 
-import com.ingenium.goby.budget.extractor.injection.FileSystemCsvInjector;
+import com.ingenium.goby.budget.extractor.injection.CsvFileSystemInjector;
 import com.ingenium.goby.budget.extractor.model.BudgetExecution;
 import com.opencsv.CSVReader;
 
@@ -12,6 +12,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.nio.charset.Charset;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Logger;
@@ -98,12 +99,14 @@ public class ListStringToExecutionMapperTest {
       }
       System.out.print("\n");
     }
-    final String destination = new StringBuilder("test").append(s).append("com")
-        .append(s).append("ingenium").append(s).append("goby").append(s)
-        .append("budget").append(s).append("extractor").append(s).append("map")
-        .append(s).append("out").append(s).append("execution.csv").toString();
+    final String destinationDirectory = new StringBuilder("test").append(s)
+        .append("com").append(s).append("ingenium").append(s).append("goby")
+        .append(s).append("budget").append(s).append("extractor").append(s)
+        .append("map").append(s).append("out").toString();
+    final String destinationFile = "execution.csv";
 
-    FileSystemCsvInjector.inject(executionLines, destination);
+    CsvFileSystemInjector.inject(executionLines, destinationFile,
+        destinationDirectory, Charset.forName("CP1250"));
     Assert.assertTrue(true);
 
   }

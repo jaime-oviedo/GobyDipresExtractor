@@ -27,26 +27,27 @@ public class BudgetElementToJsonMapper {
   * @return
   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_tRANIEt-EeeC6_ZX80x4yQ"
   */
-  public static String map(BudgetElement element, int nestingLevel) {
+  public static String map(final BudgetElement element,
+      final int nestingLevel) {
     // begin-user-code
-    StringBuilder nesting = new StringBuilder();
+    final StringBuilder nesting = new StringBuilder();
     for (int i = 0; i < nestingLevel; i++) {
       nesting.append("  ");
     }
     
-    StringBuilder sb = new StringBuilder(nesting);
-    String lineSeparator = System.lineSeparator();
+    final StringBuilder sb = new StringBuilder(nesting);
+    final String lineSeparator = System.lineSeparator();
     sb.append("{").append(lineSeparator);
     nesting.append("  ");
-    String q = "\"";
+    final String q = "\"";
     sb.append(nesting).append(q).append("number").append(q).append(":")
         .append(element.getNumber()).append(",").append(lineSeparator);
     sb.append(nesting)
         .append(q + "name" + q + ":" + q + element.getName() + q + ",\n");
-    String elementDescription = element.getDescription();
+    final String elementDescription = element.getDescription();
     sb.append(nesting)
         .append(q + "description" + q + ":" + q + elementDescription + q);
-    BudgetElementType type = element.getType();
+    final BudgetElementType type = element.getType();
     switch (type) {
       case BUDGET:
         sb.append(",\n");
@@ -65,12 +66,12 @@ public class BudgetElementToJsonMapper {
     }
     
     if (element instanceof CompositeBudgetElement) {
-      CompositeBudgetElement compositeElement = (CompositeBudgetElement) element;
-      Collection<? extends BudgetElement> ceSubelements = compositeElement
+      final CompositeBudgetElement compositeElement = (CompositeBudgetElement) element;
+      final Collection<? extends BudgetElement> ceSubelements = compositeElement
           .getSubelements().values();
       if (ceSubelements.size() > 0) {
         sb.append(",").append(lineSeparator);
-        BudgetHierarchyLevel level = compositeElement.getLevel();
+        final BudgetHierarchyLevel level = compositeElement.getLevel();
         String label = "";
         switch (level) {
           case ITEM:
@@ -105,9 +106,9 @@ public class BudgetElementToJsonMapper {
         if (!"".equals(label)) {
           sb.append(nesting).append(q + label + q + ":[ ")
               .append(lineSeparator);
-          Iterator<? extends BudgetElement> i = ceSubelements.iterator();
+          final Iterator<? extends BudgetElement> i = ceSubelements.iterator();
           while (i.hasNext()) {
-            BudgetElement subElement = i.next();
+            final BudgetElement subElement = i.next();
             sb.append(
                 BudgetElementToJsonMapper.map(subElement, nestingLevel + 2));
             if (i.hasNext()) {
@@ -124,10 +125,23 @@ public class BudgetElementToJsonMapper {
     } else {
       sb.append(lineSeparator);
     }
-    int nestingLength = nesting.length();
+    final int nestingLength = nesting.length();
     nesting.delete(nestingLength - 2, nestingLength);
     sb.append(nesting).append("}");
     return sb.toString();
+    // end-user-code
+  }
+  
+  /** 
+  * <!-- begin-UML-doc -->
+  * <!-- end-UML-doc -->
+  * @param element
+  * @return
+  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_wppWIpzOEeeKKp-m4AD7KQ"
+  */
+  public static String map(final BudgetElement element) {
+    // begin-user-code
+    return BudgetElementToJsonMapper.map(element, 0);
     // end-user-code
   }
   

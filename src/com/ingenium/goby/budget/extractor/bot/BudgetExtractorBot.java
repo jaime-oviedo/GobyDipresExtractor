@@ -4,9 +4,14 @@
 
 package com.ingenium.goby.budget.extractor.bot;
 
+import com.ingenium.goby.budget.extractor.extraction.BudgetExtractor;
+import com.ingenium.goby.budget.extractor.extraction.ExtractionException;
+import com.ingenium.goby.budget.extractor.factory.BudgetExtractorFactory;
+import com.ingenium.goby.budget.extractor.injection.BudgetInjector;
+import com.ingenium.goby.budget.extractor.injection.InjectionException;
+import com.ingenium.goby.budget.extractor.model.BudgetElement;
 import com.ingenium.goby.budget.extractor.model.ExecutionPeriod;
 
-import java.util.Calendar;
 import java.util.logging.Logger;
 
 /** 
@@ -17,7 +22,343 @@ import java.util.logging.Logger;
  *     derived_abstraction="platform:/resource/goby-design/budget-extractor.emx#_NpjAgJVnEeevpubR7V73Yw"
  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_NpjAgJVnEeevpubR7V73Yw"
  */
-public class BudgetExtractorBot {
+public class BudgetExtractorBot implements BudgetExtractor {
+  
+  /** 
+  * <!-- begin-UML-doc -->
+  * <!-- end-UML-doc -->
+  * @author Jaime Oviedo
+  * @uml.annotations
+  *     derived_abstraction="platform:/resource/goby-design/budget-extractor.emx#_9ZIhkJv_EeeKKp-m4AD7KQ"
+  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_9ZIhkJv_EeeKKp-m4AD7KQ"
+  */
+  public static final class Builder {
+    /** 
+    * <!-- begin-UML-doc -->
+    * <!-- end-UML-doc -->
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_TsFXgJwGEeeKKp-m4AD7KQ"
+    */
+    private ExtractionType extractionType = ExtractionType.EXECUTION;
+    /** 
+    * <!-- begin-UML-doc -->
+    * <!-- end-UML-doc -->
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_TsFXgZwGEeeKKp-m4AD7KQ"
+    */
+    private boolean preserveDownloadedFiles;
+    /** 
+    * <!-- begin-UML-doc -->
+    * <!-- end-UML-doc -->
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_TsFXgpwGEeeKKp-m4AD7KQ"
+    */
+    private OuputFormat outputFormat = OuputFormat.HUMAN;
+    /** 
+    * <!-- begin-UML-doc -->
+    * <!-- end-UML-doc -->
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_TsF-kJwGEeeKKp-m4AD7KQ"
+    */
+    private String outputFileName;
+    /** 
+    * <!-- begin-UML-doc -->
+    * <!-- end-UML-doc -->
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_TsF-kZwGEeeKKp-m4AD7KQ"
+    */
+    private String outputDirectory;
+    /** 
+    * <!-- begin-UML-doc -->
+    * <!-- end-UML-doc -->
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_TsGloJwGEeeKKp-m4AD7KQ"
+    */
+    private boolean verbose = new Boolean(false);
+    /** 
+    * <!-- begin-UML-doc -->
+    * <!-- end-UML-doc -->
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_TsGloZwGEeeKKp-m4AD7KQ"
+    */
+    private ExecutionPeriod month = ExecutionPeriod.getCurrentPeriod();
+    /** 
+    * <!-- begin-UML-doc -->
+    * <!-- end-UML-doc -->
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_TsGlopwGEeeKKp-m4AD7KQ"
+    */
+    private int year = ExecutionPeriod.getCurrentYear();
+    /** 
+    * <!-- begin-UML-doc -->
+    * <!-- end-UML-doc -->
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_TsHMsJwGEeeKKp-m4AD7KQ"
+    */
+    private boolean forceLocalProcessing = new Boolean(false);
+    
+    /** 
+    * <!-- begin-UML-doc -->
+    * <!-- end-UML-doc -->
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_GuIzAJwJEeeKKp-m4AD7KQ"
+    */
+    private final BudgetExtractor budgetExtractor;
+    
+    /** 
+    * <!-- begin-UML-doc -->
+    * <!-- end-UML-doc -->
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_q16VoJwNEeeKKp-m4AD7KQ"
+    */
+    private String localStageDirectory;
+    /** 
+    * <!-- begin-UML-doc -->
+    * <!-- end-UML-doc -->
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_q168sJwNEeeKKp-m4AD7KQ"
+    */
+    private String localSourceDirectory;
+    /** 
+    * <!-- begin-UML-doc -->
+    * <!-- end-UML-doc -->
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_q168sZwNEeeKKp-m4AD7KQ"
+    */
+    private boolean forceDownload = new Boolean(false);
+    
+    /** 
+    * <!-- begin-UML-doc -->
+    * <!-- end-UML-doc -->
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_0N-nMJ2MEee9jdUag7Rsng"
+    */
+    private String inputEncoding = "UTF-8";
+    /** 
+    * <!-- begin-UML-doc -->
+    * <!-- end-UML-doc -->
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_VqIlUJwWEeeKKp-m4AD7KQ"
+    */
+    private String outputEncoding = "UTF-8";
+    
+    /** 
+    * <!-- begin-UML-doc -->
+    * <!-- end-UML-doc -->
+    * Creates a new instance of the class Builder.
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_eYZX8JwAEeeKKp-m4AD7KQ"
+    */
+    public Builder() {
+      // begin-user-code
+      final BudgetExtractorFactory bef = BudgetExtractorFactory.getInstance();
+      final String yms = new StringBuilder(this.month.toString()).append("-")
+          .append(String.valueOf(this.year)).append("-").toString();
+      this.outputFileName = new StringBuilder(this.outputFormat.toString())
+          .append("-").append(yms).append(this.outputFormat.getFileExtension())
+          .toString();
+      this.outputDirectory = new StringBuilder(yms).append("out").toString();
+      this.localStageDirectory = new StringBuilder(yms).append("stage")
+          .toString();
+      this.localSourceDirectory = new StringBuilder(yms).append("stage")
+          .toString(); // Source is the same as stage so by default, a local extraction points to
+                                                                                    // any previously existing stage of the same period
+      this.budgetExtractor = null; // TODO FIX this
+      // end-user-code
+    }
+    
+    /** 
+    * <!-- begin-UML-doc -->
+    * <!-- end-UML-doc -->
+    * @param val
+    * @return
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_kxV3AJwAEeeKKp-m4AD7KQ"
+    */
+    public Builder preserveDownloadedFiles(final boolean val) {
+      // begin-user-code
+      this.preserveDownloadedFiles = val;
+      return this;
+      // end-user-code
+    }
+    
+    /** 
+    * <!-- begin-UML-doc -->
+    * <!-- end-UML-doc -->
+    * @param val
+    * @return
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_skK6IJwAEeeKKp-m4AD7KQ"
+    */
+    public Builder outputformat(final OuputFormat val) {
+      // begin-user-code
+      this.outputFormat = val;
+      return this;
+      // end-user-code
+    }
+    
+    /** 
+    * <!-- begin-UML-doc -->
+    * <!-- end-UML-doc -->
+    * @param val
+    * @return
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_yGHfwJwAEeeKKp-m4AD7KQ"
+    */
+    public Builder outputFileName(final String val) {
+      // begin-user-code
+      this.outputFileName = val;
+      return this;
+      // end-user-code
+    }
+    
+    /** 
+    * <!-- begin-UML-doc -->
+    * <!-- end-UML-doc -->
+    * @param val
+    * @return
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_2R1SQJwAEeeKKp-m4AD7KQ"
+    */
+    public Builder outputDirectory(final String val) {
+      // begin-user-code
+      this.outputDirectory = val;
+      return this;
+      // end-user-code
+    }
+    
+    /** 
+    * <!-- begin-UML-doc -->
+    * <!-- end-UML-doc -->
+    * @param val
+    * @return
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_5OURgJwAEeeKKp-m4AD7KQ"
+    */
+    public Builder verbose(final boolean val) {
+      // begin-user-code
+      this.verbose = val;
+      return this;
+      // end-user-code
+    }
+    
+    /** 
+    * <!-- begin-UML-doc -->
+    * <!-- end-UML-doc -->
+    * @param val
+    * @return
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_8KknQJwAEeeKKp-m4AD7KQ"
+    */
+    public Builder month(final ExecutionPeriod val) {
+      // begin-user-code
+      this.month = val;
+      return this;
+      // end-user-code
+    }
+    
+    /** 
+    * <!-- begin-UML-doc -->
+    * <!-- end-UML-doc -->
+    * @param val
+    * @return
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#__RAzwJwAEeeKKp-m4AD7KQ"
+    */
+    public Builder year(final int val) {
+      // begin-user-code
+      this.year = val;
+      return this;
+      // end-user-code
+    }
+    
+    /** 
+    * <!-- begin-UML-doc -->
+    * <!-- end-UML-doc -->
+    * @param val
+    * @return
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_AzR3wJwBEeeKKp-m4AD7KQ"
+    */
+    public Builder forceLocalProcessing(final boolean val) {
+      // begin-user-code
+      this.forceLocalProcessing = val;
+      return this;
+      // end-user-code
+    }
+    
+    /** 
+    * <!-- begin-UML-doc -->
+    * <!-- end-UML-doc -->
+    * @return
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_Dc4XQJwBEeeKKp-m4AD7KQ"
+    */
+    public BudgetExtractorBot build() {
+      // begin-user-code
+      return new BudgetExtractorBot(this);
+      // end-user-code
+    }
+    
+    /** 
+    * <!-- begin-UML-doc -->
+    * <!-- end-UML-doc -->
+    * @param val
+    * @return
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_lB0pYJwIEeeKKp-m4AD7KQ"
+    */
+    public Builder extractionType(final ExtractionType val) {
+      // begin-user-code
+      this.extractionType = val;
+      return this;
+      // end-user-code
+    }
+    
+    /** 
+    * <!-- begin-UML-doc -->
+    * <!-- end-UML-doc -->
+    * @param val
+    * @return
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_uXatgJwNEeeKKp-m4AD7KQ"
+    */
+    public Builder localStageDirectory(final String val) {
+      // begin-user-code
+      this.localStageDirectory = val;
+      return this;
+      // end-user-code
+    }
+    
+    /** 
+    * <!-- begin-UML-doc -->
+    * <!-- end-UML-doc -->
+    * @param val
+    * @return
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_xGoFwJwNEeeKKp-m4AD7KQ"
+    */
+    public Builder localSourceDirectory(final String val) {
+      // begin-user-code
+      this.localSourceDirectory = val;
+      return this;
+      // end-user-code
+    }
+    
+    /** 
+    * <!-- begin-UML-doc -->
+    * <!-- end-UML-doc -->
+    * @param val
+    * @return
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_zOd8AJwNEeeKKp-m4AD7KQ"
+    */
+    public Builder forceDownload(final boolean val) {
+      // begin-user-code
+      this.forceDownload = val;
+      return this;
+      // end-user-code
+    }
+    
+    /** 
+    * <!-- begin-UML-doc -->
+    * <!-- end-UML-doc -->
+    * @param val
+    * @return
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_WvGCQJwWEeeKKp-m4AD7KQ"
+    */
+    public Builder outputEncoding(final String val) {
+      // begin-user-code
+      this.outputEncoding = val;
+      return this;
+      // end-user-code
+    }
+    
+    /** 
+    * <!-- begin-UML-doc -->
+    * <!-- end-UML-doc -->
+    * @param val
+    * @return
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_S6CE0J2NEee9jdUag7Rsng"
+    */
+    public Builder inputEncoding(final String val) {
+      // begin-user-code
+      this.inputEncoding = val;
+      return this;
+      // end-user-code
+    }
+  }
   
   /** 
   * <!-- begin-UML-doc -->
@@ -33,104 +374,51 @@ public class BudgetExtractorBot {
     * <!-- end-UML-doc -->
     * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_kzj-gJWzEeevpubR7V73Yw"
     */
-    BUDGETARY_CATALOG("BUDGETARY_CATALOG", null),
+    BUDGETARY_CATALOG,
     /** 
     * <!-- begin-UML-doc -->
     * <!-- end-UML-doc -->
     * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_kzj-gZWzEeevpubR7V73Yw"
     */
-    INSTITUTIONAL_CATALOG("INSTITUTIONAL_CATALOG", null),
+    INSTITUTIONAL_CATALOG,
     /** 
     * <!-- begin-UML-doc -->
     * <!-- end-UML-doc -->
     * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_kzklkJWzEeevpubR7V73Yw"
     */
-    LAW("LAW", null),
+    LAW,
     /** 
     * <!-- begin-UML-doc -->
     * <!-- end-UML-doc -->
     * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_kzklkZWzEeevpubR7V73Yw"
     */
-    EXECUTION("EXECUTION", null);
-    
-    /** 
-    * <!-- begin-UML-doc -->
-    * <!-- end-UML-doc -->
-    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_qNnW0JmtEeeAWKInz3apng"
-    */
-    private String name;
-    /** 
-    * <!-- begin-UML-doc -->
-    * <!-- end-UML-doc -->
-    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_qNn94JmtEeeAWKInz3apng"
-    */
-    private Object value;
-    
-    /** 
-    * <!-- begin-UML-doc -->
-    * <!-- end-UML-doc -->
-    * Creates a new instance of the class ExtractionType.
-    * @param enumName
-    * @param enumValue
-    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_qNuEgJmtEeeAWKInz3apng"
-    */
-    ExtractionType(String enumName, Object enumValue) {
-      // begin-user-code
-      // TODO Auto-generated constructor stub
-      // end-user-code
-    }
+    EXECUTION;
     
     /** 
     * <!-- begin-UML-doc -->
     * <!-- end-UML-doc -->
     * @return
-    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_qNvSoJmtEeeAWKInz3apng"
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_EhqToJ3mEee9jdUag7Rsng"
     */
-    public String getName() {
+    @Override
+    public String toString() {
       // begin-user-code
-      // TODO Auto-generated method stub
-      return null;
-      // end-user-code
-    }
-    
-    /** 
-    * <!-- begin-UML-doc -->
-    * <!-- end-UML-doc -->
-    * @return
-    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_qNv5sJmtEeeAWKInz3apng"
-    */
-    public Object getValue() {
-      // begin-user-code
-      // TODO Auto-generated method stub
-      return null;
-      // end-user-code
-    }
-    
-    /** 
-    * <!-- begin-UML-doc -->
-    * <!-- end-UML-doc -->
-    * @param enumValue
-    * @return
-    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_qNwgwJmtEeeAWKInz3apng"
-    */
-    public static ExtractionType getEnumByValue(Object enumValue) {
-      // begin-user-code
-      // TODO Auto-generated method stub
-      return null;
-      // end-user-code
-    }
-    
-    /** 
-    * <!-- begin-UML-doc -->
-    * <!-- end-UML-doc -->
-    * @param enumName
-    * @return
-    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_qNxH0ZmtEeeAWKInz3apng"
-    */
-    public static ExtractionType getEnumByName(String enumName) {
-      // begin-user-code
-      // TODO Auto-generated method stub
-      return null;
+      String stringRep = super.toString();
+      switch (this) {
+        case BUDGETARY_CATALOG:
+          stringRep = "catalogo_presupuestario";
+          break;
+        case INSTITUTIONAL_CATALOG:
+          stringRep = "catalogo_institucional";
+          break;
+        case LAW:
+          stringRep = "ley";
+          break;
+        case EXECUTION:
+          stringRep = "ejecución";
+          break;
+      }
+      return stringRep;
       // end-user-code
     }
   }
@@ -149,100 +437,37 @@ public class BudgetExtractorBot {
     * <!-- end-UML-doc -->
     * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_kvhMAZWzEeevpubR7V73Yw"
     */
-    HUMAN("HUMAN", null),
+    HUMAN,
     /** 
     * <!-- begin-UML-doc -->
     * <!-- end-UML-doc -->
     * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_kvhzEJWzEeevpubR7V73Yw"
     */
-    CSV("CSV", null),
+    CSV,
     /** 
     * <!-- begin-UML-doc -->
     * <!-- end-UML-doc -->
     * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_kvhzEZWzEeevpubR7V73Yw"
     */
-    JSON("JSON", null);
-    
-    /** 
-    * <!-- begin-UML-doc -->
-    * <!-- end-UML-doc -->
-    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_qIrMcJmtEeeAWKInz3apng"
-    */
-    private String name;
-    /** 
-    * <!-- begin-UML-doc -->
-    * <!-- end-UML-doc -->
-    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_qIrzgJmtEeeAWKInz3apng"
-    */
-    private Object value;
-    
-    /** 
-    * <!-- begin-UML-doc -->
-    * <!-- end-UML-doc -->
-    * Creates a new instance of the class OuputFormat.
-    * @param enumName
-    * @param enumValue
-    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_qIyhMJmtEeeAWKInz3apng"
-    */
-    OuputFormat(String enumName, Object enumValue) {
-      // begin-user-code
-      // TODO Auto-generated constructor stub
-      // end-user-code
-    }
+    JSON;
     
     /** 
     * <!-- begin-UML-doc -->
     * <!-- end-UML-doc -->
     * @return
-    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_qIzvUJmtEeeAWKInz3apng"
+    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_EddJEJ3mEee9jdUag7Rsng"
     */
-    public String getName() {
+    public String getFileExtension() {
       // begin-user-code
-      // TODO Auto-generated method stub
-      return null;
+      switch (this) {
+        case JSON:
+          return ".json";
+        default:
+          return ".csv";
+      }
       // end-user-code
     }
     
-    /** 
-    * <!-- begin-UML-doc -->
-    * <!-- end-UML-doc -->
-    * @return
-    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_qI0WYJmtEeeAWKInz3apng"
-    */
-    public Object getValue() {
-      // begin-user-code
-      // TODO Auto-generated method stub
-      return null;
-      // end-user-code
-    }
-    
-    /** 
-    * <!-- begin-UML-doc -->
-    * <!-- end-UML-doc -->
-    * @param enumValue
-    * @return
-    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_qI09cJmtEeeAWKInz3apng"
-    */
-    public static OuputFormat getEnumByValue(Object enumValue) {
-      // begin-user-code
-      // TODO Auto-generated method stub
-      return null;
-      // end-user-code
-    }
-    
-    /** 
-    * <!-- begin-UML-doc -->
-    * <!-- end-UML-doc -->
-    * @param enumName
-    * @return
-    * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_qI1kgZmtEeeAWKInz3apng"
-    */
-    public static OuputFormat getEnumByName(String enumName) {
-      // begin-user-code
-      // TODO Auto-generated method stub
-      return null;
-      // end-user-code
-    }
   }
   
   /** 
@@ -250,72 +475,33 @@ public class BudgetExtractorBot {
   * <!-- end-UML-doc -->
   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_xI3gkJWuEeevpubR7V73Yw"
   */
-  private static Logger log = Logger
-      .getLogger("com.ingenium.goby.budget.extractor.bot.BudgetExtractorBot");
+  private static final Logger log = Logger
+      .getLogger(BudgetExtractorBot.class.getCanonicalName());
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_fyB6IJW6EeevpubR7V73Yw"
   */
-  private static Logger out = Logger
-      .getLogger("com.ingenium.goby.budget.extractor.bot.BudgetExtractorBot");
+  private static final Logger out = Logger
+      .getLogger(BudgetExtractorBot.class.getCanonicalName());
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
-  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_LJY4oJWuEeevpubR7V73Yw"
+  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_Ig-iIJ2UEee9jdUag7Rsng"
   */
-  private ExtractionType extractionType;
+  private BudgetInjector budgetInjector;
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
-  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_NVSIcJWuEeevpubR7V73Yw"
+  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_I_axoJ2UEee9jdUag7Rsng"
   */
-  private boolean preserveDownloaded;
-  /** 
-  * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_Q29fcJWuEeevpubR7V73Yw"
-  */
-  private OuputFormat format;
-  /** 
-  * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_SSx9MJWuEeevpubR7V73Yw"
-  */
-  private String fileName;
-  /** 
-  * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_VwahsJWuEeevpubR7V73Yw"
-  */
-  private String directory;
+  private BudgetExtractor budgetExtractor;
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_X6d-cJWuEeevpubR7V73Yw"
   */
-  private boolean verbose;
-  
-  /** 
-  * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_aRuJsJWuEeevpubR7V73Yw"
-  */
-  private ExecutionPeriod month;
-  
-  /** 
-  * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_b_M_MJWuEeevpubR7V73Yw"
-  */
-  private int year;
-  
-  /** 
-  * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_iTGmMJWuEeevpubR7V73Yw"
-  */
-  private boolean processLocal;
+  private final boolean verbose;
   
   /** 
   * <!-- begin-UML-doc -->
@@ -323,308 +509,44 @@ public class BudgetExtractorBot {
   * Creates a new instance of the class BudgetExtractorBot.
   * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_k0UzgJWzEeevpubR7V73Yw"
   */
-  public BudgetExtractorBot() {
+  private BudgetExtractorBot() {
     // begin-user-code
-    extractionType = ExtractionType.EXECUTION;
-    preserveDownloaded = false;
-    format = OuputFormat.HUMAN;
-    verbose = false;
-    month = ExecutionPeriod.getCurrentPeriod();
-    year = ExecutionPeriod.getCurrentYear();
-    directory = "out";
-    fileName = new StringBuilder("extractionResults-")
-        .append(Calendar.getInstance().get(Calendar.DAY_OF_MONTH))
-        .append(ExecutionPeriod.asInt(month)).append("-").append(year)
-        .toString();
+    this(new Builder());
     // end-user-code
   }
   
   /** 
   * <!-- begin-UML-doc -->
   * <!-- end-UML-doc -->
-  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_uME-U5W5EeevpubR7V73Yw"
+  * Creates a new instance of the class BudgetExtractorBot.
+  * @param builder
+  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_lcTGQJwFEeeKKp-m4AD7KQ"
   */
-  public void extract() {
+  public BudgetExtractorBot(final Builder builder) {
     // begin-user-code
-    
+    this.verbose = builder.verbose;
     // end-user-code
   }
   
   /** 
   * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_uMFlYZW5EeevpubR7V73Yw"
-  */
-  private void extractBudgetaryCatalog() {
-    // begin-user-code
-    
-    // end-user-code
-  }
-  
-  /** 
-  * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_uME-VJW5EeevpubR7V73Yw"
-  */
-  private void extractExecution() {
-    // begin-user-code
-    
-    // end-user-code
-  }
-  
-  /** 
-  * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_uMGMcJW5EeevpubR7V73Yw"
-  */
-  private void extractInstitutionalCatalog() {
-    // begin-user-code
-    
-    // end-user-code
-  }
-  
-  /** 
-  * <!-- begin-UML-doc -->
-  * <!-- end-UML-doc -->
-  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_uMFlYJW5EeevpubR7V73Yw"
-  */
-  private void extractLaw() {
-    // begin-user-code
-    
-    // end-user-code
-  }
-  
-  /** 
-  * <!-- begin-UML-doc -->
-  * Devuelve&nbsp;el&nbsp;valor&nbsp;del&nbsp;campo&nbsp;directory.<br><br>@return&nbsp;el&nbsp;valor&nbsp;del&nbsp;campo&nbsp;directory
   * <!-- end-UML-doc -->
   * @return
-  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_k0cIQ5WzEeevpubR7V73Yw"
+  * @throws ExtractionException
+  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_WVYJUZ2YEee9jdUag7Rsng"
   */
-  public String getDirectory() {
+  @Override
+  public BudgetElement extract() throws ExtractionException {
     // begin-user-code
-    return directory;
+    final BudgetElement extractedElement = this.budgetExtractor.extract();
+    try {
+      this.budgetInjector.inject(extractedElement);
+    } catch (final InjectionException e) {
+      // TODO Auto-generated catch block
+      e.printStackTrace();
+    }
+    return extractedElement;
     // end-user-code
   }
   
-  /** 
-  * <!-- begin-UML-doc -->
-  * <p>Devuelve el valor del campo extractionType.</p>
-  * <!-- end-UML-doc -->
-  * @return
-  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_k0VakJWzEeevpubR7V73Yw"
-  */
-  public ExtractionType getExtractionType() {
-    // begin-user-code
-    return extractionType;
-    // end-user-code
-  }
-  
-  /** 
-  * <!-- begin-UML-doc -->
-  * Devuelve&nbsp;el&nbsp;valor&nbsp;del&nbsp;campo&nbsp;fileName.<br><br>@return&nbsp;el&nbsp;valor&nbsp;del&nbsp;campo&nbsp;fileName
-  * <!-- end-UML-doc -->
-  * @return
-  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_k0a6IJWzEeevpubR7V73Yw"
-  */
-  public String getFileName() {
-    // begin-user-code
-    return fileName;
-    // end-user-code
-  }
-  
-  /** 
-  * <!-- begin-UML-doc -->
-  * <p>Devuelve el valor del campo format.</p>
-  * <!-- end-UML-doc -->
-  * @return
-  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_k0ZE8pWzEeevpubR7V73Yw"
-  */
-  public OuputFormat getFormat() {
-    // begin-user-code
-    return format;
-    // end-user-code
-  }
-  
-  /** 
-  * <!-- begin-UML-doc -->
-  * Devuelve&nbsp;el&nbsp;valor&nbsp;del&nbsp;campo&nbsp;month.<br><br>@return&nbsp;el&nbsp;valor&nbsp;del&nbsp;campo&nbsp;month
-  * <!-- end-UML-doc -->
-  * @return
-  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_k0gZsJWzEeevpubR7V73Yw"
-  */
-  public ExecutionPeriod getMonth() {
-    // begin-user-code
-    return month;
-    // end-user-code
-  }
-  
-  /** 
-  * <!-- begin-UML-doc -->
-  * Devuelve&nbsp;el&nbsp;valor&nbsp;del&nbsp;campo&nbsp;year.<br><br>@return&nbsp;el&nbsp;valor&nbsp;del&nbsp;campo&nbsp;year
-  * <!-- end-UML-doc -->
-  * @return
-  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_k0hn05WzEeevpubR7V73Yw"
-  */
-  public int getYear() {
-    // begin-user-code
-    return year;
-    // end-user-code
-  }
-  
-  /** 
-  * <!-- begin-UML-doc -->
-  * <p>Devuelve el valor del campo preserveDownloaded.</p>
-  * <!-- end-UML-doc -->
-  * @return
-  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_k0XPwJWzEeevpubR7V73Yw"
-  */
-  public boolean isPreserveDownloaded() {
-    // begin-user-code
-    return preserveDownloaded;
-    // end-user-code
-  }
-  
-  /** 
-  * <!-- begin-UML-doc -->
-  * Devuelve&nbsp;el&nbsp;valor&nbsp;del&nbsp;campo&nbsp;processLocal.<br><br>@return&nbsp;el&nbsp;valor&nbsp;del&nbsp;campo&nbsp;processLocal
-  * <!-- end-UML-doc -->
-  * @return
-  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_k0jdA5WzEeevpubR7V73Yw"
-  */
-  public boolean isProcessLocal() {
-    // begin-user-code
-    return processLocal;
-    // end-user-code
-  }
-  
-  /** 
-  * <!-- begin-UML-doc -->
-  * Devuelve&nbsp;el&nbsp;valor&nbsp;del&nbsp;campo&nbsp;verbose.<br><br>@return&nbsp;el&nbsp;valor&nbsp;del&nbsp;campo&nbsp;verbose
-  * <!-- end-UML-doc -->
-  * @return
-  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_k0ekgpWzEeevpubR7V73Yw"
-  */
-  public boolean isVerbose() {
-    // begin-user-code
-    return verbose;
-    // end-user-code
-  }
-  
-  /** 
-  * <!-- begin-UML-doc -->
-  * Establece&nbsp;el&nbsp;valor&nbsp;del&nbsp;campo&nbsp;directory.<br><br>@param&nbsp;directory<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;el&nbsp;nuevo&nbsp;valor&nbsp;del&nbsp;campo&nbsp;directory.
-  * <!-- end-UML-doc -->
-  * @param directory
-  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_k0dWYZWzEeevpubR7V73Yw"
-  */
-  public void setDirectory(final String directory) {
-    // begin-user-code
-    this.directory = directory;
-    // end-user-code
-  }
-  
-  /** 
-  * <!-- begin-UML-doc -->
-  * <p>Establece el valor del campo extractionType.</p>
-  * <!-- end-UML-doc -->
-  * @param extractionType
-  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_09BoUJWmEeevpubR7V73Yw"
-  */
-  public void setExtractionType(final ExtractionType extractionType) {
-    // begin-user-code
-    this.extractionType = extractionType;
-    // end-user-code
-  }
-  
-  /** 
-  * <!-- begin-UML-doc -->
-  * Establece&nbsp;el&nbsp;valor&nbsp;del&nbsp;campo&nbsp;fileName.<br><br>@param&nbsp;fileName<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;el&nbsp;nuevo&nbsp;valor&nbsp;del&nbsp;campo&nbsp;fileName.
-  * <!-- end-UML-doc -->
-  * @param fileName
-  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_6YtN4JWmEeevpubR7V73Yw"
-  */
-  public void setFileName(final String fileName) {
-    // begin-user-code
-    this.fileName = fileName;
-    // end-user-code
-  }
-  
-  /** 
-  * <!-- begin-UML-doc -->
-  * Establece&nbsp;el&nbsp;valor&nbsp;del&nbsp;campo&nbsp;format.<br><br>@param&nbsp;format<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;el&nbsp;nuevo&nbsp;valor&nbsp;del&nbsp;campo&nbsp;format.
-  * <!-- end-UML-doc -->
-  * @param format
-  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_3t3_UJWmEeevpubR7V73Yw"
-  */
-  public void setFormat(final OuputFormat format) {
-    // begin-user-code
-    this.format = format;
-    // end-user-code
-  }
-  
-  /** 
-  * <!-- begin-UML-doc -->
-  * Establece&nbsp;el&nbsp;valor&nbsp;del&nbsp;campo&nbsp;month.<br><br>@param&nbsp;month<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;el&nbsp;nuevo&nbsp;valor&nbsp;del&nbsp;campo&nbsp;month.
-  * <!-- end-UML-doc -->
-  * @param month
-  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_DWDjYJWnEeevpubR7V73Yw"
-  */
-  public void setMonth(final ExecutionPeriod month) {
-    // begin-user-code
-    this.month = month;
-    // end-user-code
-  }
-  
-  /** 
-  * <!-- begin-UML-doc -->
-  * <p>Establece el valor del campo preserveDownloaded.</p>
-  * <!-- end-UML-doc -->
-  * @param preserveDownloaded
-  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_k0X20JWzEeevpubR7V73Yw"
-  */
-  public void setPreserveDownloaded(final boolean preserveDownloaded) {
-    // begin-user-code
-    this.preserveDownloaded = preserveDownloaded;
-    // end-user-code
-  }
-  
-  /** 
-  * <!-- begin-UML-doc -->
-  * Establece&nbsp;el&nbsp;valor&nbsp;del&nbsp;campo&nbsp;processLocal.<br><br>@param&nbsp;processLocal<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;el&nbsp;nuevo&nbsp;valor&nbsp;del&nbsp;campo&nbsp;processLocal.
-  * <!-- end-UML-doc -->
-  * @param processLocal
-  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_Emsr4JWnEeevpubR7V73Yw"
-  */
-  public void setProcessLocal(final boolean processLocal) {
-    // begin-user-code
-    this.processLocal = processLocal;
-    // end-user-code
-  }
-  
-  /** 
-  * <!-- begin-UML-doc -->
-  * Establece&nbsp;el&nbsp;valor&nbsp;del&nbsp;campo&nbsp;verbose.<br><br>@param&nbsp;verbose<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;el&nbsp;nuevo&nbsp;valor&nbsp;del&nbsp;campo&nbsp;verbose.
-  * <!-- end-UML-doc -->
-  * @param verbose
-  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_AT4y4JWnEeevpubR7V73Yw"
-  */
-  public void setVerbose(final boolean verbose) {
-    // begin-user-code
-    this.verbose = verbose;
-    // end-user-code
-  };
-  
-  /** 
-  * <!-- begin-UML-doc -->
-  * Establece&nbsp;el&nbsp;valor&nbsp;del&nbsp;campo&nbsp;year.<br><br>@param&nbsp;year<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;el&nbsp;nuevo&nbsp;valor&nbsp;del&nbsp;campo&nbsp;year.
-  * <!-- end-UML-doc -->
-  * @param year
-  * @generated "sourceid:platform:/resource/goby-design/budget-extractor.emx#_ECnHYJWnEeevpubR7V73Yw"
-  */
-  public void setYear(final int year) {
-    // begin-user-code
-    this.year = year;
-    // end-user-code
-  };
 }

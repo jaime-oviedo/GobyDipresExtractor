@@ -4,7 +4,6 @@
 
 package com.ingenium.goby.budget.extractor.map;
 
-import com.ingenium.goby.budget.extractor.extraction.ExtractionException;
 import com.ingenium.goby.budget.extractor.factory.ClassifiersCatalogFactory;
 import com.ingenium.goby.budget.extractor.factory.InstitutionsCatalogFactory;
 import com.ingenium.goby.budget.extractor.model.Assignment;
@@ -134,7 +133,7 @@ public class ListStringToExecutionMapper {
         }
       }
       
-      String fullElementTuple = new StringBuilder("(").append(batchNumber)
+      final String fullElementTuple = new StringBuilder("(").append(batchNumber)
           .append(",").append(chapterNumber).append(",").append(programNumber)
           .append(",").append(subtitleNumber).append(",").append(itemNumber)
           .append(",").append(assignmentNumber).append(")").toString();
@@ -172,7 +171,7 @@ public class ListStringToExecutionMapper {
           try {
             initialBudgetNumber = BigInteger.valueOf(NumberFormat
                 .getNumberInstance(Locale.FRANCE).parse(s).longValue());
-          } catch (ParseException e) {
+          } catch (final ParseException e) {
             ListStringToExecutionMapper.log.warning(
                 new StringBuilder("Unable to parse initial budget for element ")
                     .append(fullElementTuple).append("found:").append(s)
@@ -186,7 +185,7 @@ public class ListStringToExecutionMapper {
           try {
             currentBudgetNumber = BigInteger.valueOf(NumberFormat
                 .getNumberInstance(Locale.FRANCE).parse(s).longValue());
-          } catch (ParseException e) {
+          } catch (final ParseException e) {
             ListStringToExecutionMapper.log.warning(
                 new StringBuilder("Unable to parse current budget for element ")
                     .append(fullElementTuple).append("found:").append(s)
@@ -200,7 +199,7 @@ public class ListStringToExecutionMapper {
           try {
             cumulativeExecution = BigInteger.valueOf(NumberFormat
                 .getNumberInstance(Locale.FRANCE).parse(s).longValue());
-          } catch (ParseException e) {
+          } catch (final ParseException e) {
             ListStringToExecutionMapper.log.warning(new StringBuilder(
                 "Unable to parse cumulative execution for element ")
                     .append(fullElementTuple).append("found:").append(s)

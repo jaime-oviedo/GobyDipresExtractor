@@ -4,7 +4,6 @@
 
 package com.ingenium.goby.budget.extractor.factory;
 
-import com.ingenium.goby.budget.extractor.factory.BudgetExecutionFactory;
 import com.ingenium.goby.budget.extractor.injection.FileSystemInjector;
 import com.ingenium.goby.budget.extractor.map.BudgetElementToJsonMapper;
 import com.ingenium.goby.budget.extractor.model.BudgetElementType;
@@ -47,13 +46,13 @@ public class BudgetExecutionFactoryTest {
 
     final String jsonCatalog = BudgetElementToJsonMapper.map(executionElement,
         0);
-    final String destination = new StringBuilder("tmp").append(s)
-        .append("budgetExecution.json").toString();
-    
+    final String destinationDir = "tmp";
+    final String destinationFilename = "budgetExecution.json";
+
     try {
-      FileSystemInjector.inject(destination,
-          jsonCatalog);
-      final File file1 = new File(destination);
+      FileSystemInjector.inject(jsonCatalog, destinationFilename,
+          destinationDir, "CP1250");
+      final File file1 = new File(destinationDir);
       final String objective = new StringBuilder("test").append(s).append("com")
           .append(s).append("ingenium").append(s).append("goby").append(s)
           .append("budget").append(s).append("extractor").append(s)

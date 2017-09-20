@@ -119,7 +119,7 @@ public class BudgetExtractorBotCli {
     // begin-user-code
     this.args = args;
     this.options = this.generateOptions();
-    this.budgetExtractorBot = new BudgetExtractorBot();
+    this.budgetExtractorBot = new BudgetExtractorBot.Builder().build();
     // end-user-code
   }
   

@@ -45,11 +45,14 @@ public class BudgetLawFactoryTest {
     law.setSubelements(catalog.getBatches());
 
     final String jsonCatalog = BudgetElementToJsonMapper.map(law, 0);
-    final String destination = new StringBuilder("tmp").append(s)
-        .append("budgetLaw.json").toString();
+    final String destinationDir = "tmp";
+    final String destinationFilename = "budgetLaw.json";
+
     try {
-      FileSystemInjector.inject(destination, jsonCatalog);
-      final File file1 = new File(destination);
+      FileSystemInjector.inject(jsonCatalog, destinationFilename,
+          destinationDir, "CP1250");
+      final File file1 = new File(new StringBuilder(destinationDir).append(s)
+          .append(destinationFilename).toString());
       final String objective = new StringBuilder("test").append(s).append("com")
           .append(s).append("ingenium").append(s).append("goby").append(s)
           .append("budget").append(s).append("extractor").append(s)
